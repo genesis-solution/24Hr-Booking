@@ -1,0 +1,355 @@
+# Copyright (C) 2023 MotoPress
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Hotel Booking Notifier - Event-driven emails 1.3.2\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/mphb-notifier\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-09-14T10:48:08+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.6.0\n"
+"X-Domain: mphb-notifier\n"
+
+#. Plugin Name of the plugin
+msgid "Hotel Booking Notifier - Event-driven emails"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://motopress.com/products/hotel-booking-notifier/"
+msgstr ""
+
+#. Description of the plugin
+msgid "Automate common notifications by sending check-in and check-out date-driven emails, such as key pick-up instructions, feedback request, etc."
+msgstr ""
+
+#. Author of the plugin
+msgid "MotoPress"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://motopress.com/"
+msgstr ""
+
+msgid "Update Notification"
+msgstr ""
+
+msgid "Created on:"
+msgstr ""
+
+msgid "Delete Permanently"
+msgstr ""
+
+msgid "Move to Trash"
+msgstr ""
+
+msgid "Update"
+msgstr ""
+
+msgid "Create"
+msgstr ""
+
+msgid "Status"
+msgstr ""
+
+msgid "Recipients"
+msgstr ""
+
+msgid "Condition"
+msgstr ""
+
+msgid "Admin"
+msgstr ""
+
+msgid "Customer"
+msgstr ""
+
+msgid "Manual"
+msgstr ""
+
+msgid "Last execution — just now. Sending emails..."
+msgstr ""
+
+#. translators: %s is a time
+msgid "Last execution was at %s. No new emails were sent for any of the notifications."
+msgstr ""
+
+#. translators: %d is count of notifications
+msgid "%d notification"
+msgid_plural "%d notifications"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %d is count of emails
+msgid "%d email"
+msgid_plural "%d emails"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: Example: "Last execution was at 3:27 pm. Was sent X emails for Y notifications."
+msgid "Last execution was at %1$s. %2$s for %3$s were sent."
+msgstr ""
+
+#. translators: %s is time
+msgid "Next execution is scheduled for — %s."
+msgstr ""
+
+msgid "Failed to schedule next execution in your WordPress installation."
+msgstr ""
+
+#. translators: %s is a code
+msgid "You can set up a real cron task in your server admin panel: %s"
+msgstr ""
+
+msgctxt "X days before some date"
+msgid "days"
+msgstr ""
+
+msgid "Email"
+msgstr ""
+
+msgid "Subject"
+msgstr ""
+
+msgid "Header"
+msgstr ""
+
+msgid "Message"
+msgstr ""
+
+msgid "To replace the Accommodation Notice 1/Notice 2 tags you use in the email with custom property information, go to Accommodation types to fill in the respective fields."
+msgstr ""
+
+msgid "The License Key is required in order to get automatic plugin updates and support. You can manage your License Key in your personal account. <a>Learn more</a>."
+msgstr ""
+
+msgid "License Key"
+msgstr ""
+
+msgid "Inactive"
+msgstr ""
+
+#. translators: %s - date in format d.m.Y
+msgid "Valid until %s"
+msgstr ""
+
+msgid "Valid (Lifetime)"
+msgstr ""
+
+msgid "Disabled"
+msgstr ""
+
+msgid "Expired"
+msgstr ""
+
+msgid "Invalid"
+msgstr ""
+
+msgid "Your License Key does not match the installed plugin. <a>How to fix this.</a>"
+msgstr ""
+
+msgid "Product ID is not valid"
+msgstr ""
+
+msgid "Action"
+msgstr ""
+
+msgid "Activate License"
+msgstr ""
+
+msgid "Deactivate License"
+msgstr ""
+
+msgid "Renew License"
+msgstr ""
+
+msgid "Imported/external bookings"
+msgstr ""
+
+msgid "Do not send notifications for imported bookings to Administrator."
+msgstr ""
+
+msgid "Do not send notifications for imported bookings to Customer."
+msgstr ""
+
+msgid "Do not send notifications for imported bookings to Custom email addresses."
+msgstr ""
+
+msgid "Settings"
+msgstr ""
+
+msgid "All"
+msgstr ""
+
+msgid "Type"
+msgstr ""
+
+msgid "Trigger"
+msgstr ""
+
+msgid "Automatic"
+msgstr ""
+
+msgid "Period"
+msgstr ""
+
+msgid "Skip this notification for reservations made later than the set time frame."
+msgstr ""
+
+msgid "Accommodations"
+msgstr ""
+
+msgid "Custom Email Addresses"
+msgstr ""
+
+msgid "You can use multiple comma-separated email addresses."
+msgstr ""
+
+#. translators: "Notice 1", "Notice 2" etc.
+msgid "Notice %d"
+msgstr ""
+
+msgid "Send Notification"
+msgstr ""
+
+msgid "— Select Notification —"
+msgstr ""
+
+msgid "Notification"
+msgstr ""
+
+msgid "Save and send this notification to the administrator email address. To test custom notices, make sure you’ve added Accommodation Notice 1/Notice 2 in the Accommodation type menu."
+msgstr ""
+
+msgid "Send Email"
+msgstr ""
+
+msgid "Notifier"
+msgstr ""
+
+msgid "Notifier Settings"
+msgstr ""
+
+msgid "License"
+msgstr ""
+
+#. translators: "Notification Notice 1", "Notification Notice 2" etc.
+msgid "Accommodation Notice %d"
+msgstr ""
+
+#. translators: %s is notification label
+msgid "Notification \"%s\" will not be sent: there is no email address to send the notification to."
+msgstr ""
+
+#. translators: %s is notification label
+msgid "Notification \"%s\" was sent."
+msgstr ""
+
+#. translators: %s is notification label
+msgid "Notification \"%s\" sending failed."
+msgstr ""
+
+msgid "Active"
+msgstr ""
+
+msgid "Interval for sending notifications"
+msgstr ""
+
+msgid "Notification Notices"
+msgstr ""
+
+#. translators: "Test" as a verb
+msgid "Test Notification Now"
+msgstr ""
+
+msgid "Notifications"
+msgstr ""
+
+msgctxt "Add new notification"
+msgid "Add New"
+msgstr ""
+
+msgid "Add New Notification"
+msgstr ""
+
+msgid "Edit Notification"
+msgstr ""
+
+msgid "New Notification"
+msgstr ""
+
+msgid "View Notification"
+msgstr ""
+
+msgid "Search Notification"
+msgstr ""
+
+msgid "No notifications found"
+msgstr ""
+
+msgid "No notifications found in Trash"
+msgstr ""
+
+msgid "Insert into notification description"
+msgstr ""
+
+msgid "Uploaded to this notification"
+msgstr ""
+
+#. translators: %s is notification label
+msgid "Notification \"%s\" not sent, booking date does not meet requirements."
+msgstr ""
+
+#. translators: title of website
+msgid "Notification from %site_title%"
+msgstr ""
+
+#. translators: booking ID
+msgid "Notification for your booking #%booking_id%"
+msgstr ""
+
+msgctxt "Before some day"
+msgid "before"
+msgstr ""
+
+msgctxt "After some day"
+msgid "after"
+msgstr ""
+
+msgid "check-in"
+msgstr ""
+
+msgid "check-out"
+msgstr ""
+
+msgid "day"
+msgid_plural "days"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "Dear %1$s %2$s,"
+msgstr ""
+
+msgid "For your information:"
+msgstr ""
+
+msgid "Accommodation Notice 1 - %s"
+msgstr ""
+
+msgid "Accommodation Notice 2 - %s"
+msgstr ""
+
+msgid "Details of booking"
+msgstr ""
+
+msgid "Check-in: %1$s, from %2$s"
+msgstr ""
+
+msgid "Check-out: %1$s, until %2$s"
+msgstr ""
+
+msgid "Thank you!"
+msgstr ""

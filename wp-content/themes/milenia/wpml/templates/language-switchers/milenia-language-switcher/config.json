@@ -1,0 +1,10 @@
+{
+    "name": "Dropdown switcher",
+    "for": ["header"],
+    "settings": {
+        "display_flags": 1,
+        "display_names_in_native_lang": 0,
+        "display_names_in_current_lang": 0,
+        "display_link_for_current_lang": 0
+     }
+}

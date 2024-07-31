@@ -1,0 +1,12 @@
+<wpml-config>
+	<admin-texts>
+		<key name="milenia_settings">
+			<key name="milenia-rooms-review-criterias" />
+		</key>
+	</admin-texts>
+	<custom-fields>
+		<custom-field action="translate">milenia-page-header-state</custom-field>
+		<custom-field action="translate">milenia-page-footer-state-individual</custom-field>
+		<custom-field action="translate">milenia-page-breadcrumb-settings-state</custom-field>
+	</custom-fields>
+</wpml-config>

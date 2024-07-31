@@ -1,0 +1,2653 @@
+/* ----------------------------------------
+    Stylesheet Guide
+------------------------------------------
+
+    0. Vendors
+    1. Base
+    2. Layout
+    3. Components
+    4. Pages
+
+---------------------------------------------------------- */
+
+/* ----------------------------------------
+    1. Base
+---------------------------------------- */
+
+    body {
+        direction: rtl;
+        unicode-bidi: embed;
+    }
+
+    /* ----------------------------------------
+        Typography
+    ---------------------------------------- */
+
+        /* ----------------------------------------
+            Links
+        ---------------------------------------- */
+
+            .milenia-icon-link {
+                border-right-width: 0;
+                border-left-width: 1.875rem;
+            }
+
+            .milenia-icon-link .fa,
+            .milenia-icon-link .fal,
+            .milenia-icon-link .far,
+            .milenia-icon-link .fab,
+            .milenia-icon-link .fas,
+            .milenia-icon-link .icon,
+            .milenia-icon-link [class*="milenia-font-icon-"] {
+                right: auto;
+                left: -1.875rem;
+            }
+
+        /* ----------------------------------------
+            Icons
+        ---------------------------------------- */
+
+            .fa-caret-left:before {
+                content: "\f0da";
+            }
+
+            .fa-caret-right:before {
+                content: "\f0d9";
+            }
+
+/* ----------------------------------------
+    2. Layout
+---------------------------------------- */
+
+    /* ----------------------------------------
+        General layout rules
+    ---------------------------------------- */
+
+        .alignleft {
+            float: right;
+        }
+
+        .alignright {
+            float: left;
+        }
+
+        .offset-1 {
+            margin-left: 0;
+            margin-right: 8.33333%;
+        }
+
+        .offset-2 {
+            margin-left: 0;
+            margin-right: 16.66667%;
+        }
+
+        .offset-3 {
+            margin-left: 0;
+            margin-right: 25%;
+        }
+
+        .offset-4 {
+            margin-left: 0;
+            margin-right: 33.33333%;
+        }
+
+        .offset-5 {
+            margin-left: 0;
+            margin-right: 41.66667%;
+        }
+
+        .offset-6 {
+            margin-left: 0;
+            margin-right: 50%;
+        }
+
+        .offset-7 {
+            margin-left: 0;
+            margin-right: 58.33333%;
+        }
+
+        .offset-8 {
+            margin-left: 0;
+            margin-right: 66.66667%;
+        }
+
+        .offset-9 {
+            margin-left: 0;
+            margin-right: 75%;
+        }
+
+        .offset-10 {
+            margin-left: 0;
+            margin-right: 83.33333%;
+        }
+
+        .offset-11 {
+            margin-left: 0;
+            margin-right: 91.66667%;
+        }
+
+    /* ----------------------------------------
+        Header
+    ---------------------------------------- */
+
+        /* ----------------------------------------
+            Header Section
+        ---------------------------------------- */
+
+            .milenia-header-section--font-small .milenia-list--icon > li,
+            .milenia-header-section--font-small .milenia-list--icon-big > li {
+                padding-left: 0;
+                padding-right: 1.2rem;
+            }
+
+        /* ----------------------------------------
+            Header Column
+        ---------------------------------------- */
+
+            .milenia-header-col:not(:last-child) {
+                border-width: 0 0 0 1px;
+            }
+
+            .milenia-header-col--content-align-right {
+                text-align: left;
+            }
+
+            .milenia-header-col--content-align-left {
+                text-align: right;
+            }
+
+        /* ----------------------------------------
+            Header Items
+        ---------------------------------------- */
+
+            .milenia-header-menu-btn .fa,
+            .milenia-header-menu-btn .fal,
+            .milenia-header-menu-btn .far,
+            .milenia-header-menu-btn .fab,
+            .milenia-header-menu-btn .fas,
+            .milenia-header-menu-btn .icon,
+            .milenia-header-menu-btn [class*="milenia-font-icon-"] {
+                padding-right: 0;
+                padding-left: 0.5rem;
+                display: inline-block;
+            }
+
+            .milenia-dropdown--languages .milenia-dropdown-element:not(.milenia-dropdown-element--x-right) {
+                left: auto;
+                right: -1.5625rem;
+            }
+
+        /* ----------------------------------------
+            Header Navigation
+        ---------------------------------------- */
+
+            .milenia-navigation .sub-menu {
+                left: auto;
+                right: -1.625rem;
+            }
+
+            .milenia-navigation .sub-menu.milenia-reverse {
+                right: auto;
+                left: -1.625rem;
+            }
+
+            .milenia-navigation .sub-menu .sub-menu {
+                left: auto;
+                right: 100%;
+            }
+
+            .milenia-navigation .sub-menu .sub-menu.milenia-reverse {
+                right: auto;
+                left: 100%;
+            }
+
+            .milenia-navigation .sub-menu .menu-item-has-children::after {
+                content: "\e93b";
+            }
+
+            .milenia-navigation .sub-menu .menu-item-has-children {
+                position: relative;
+                padding-right: 1.5625rem;
+                padding-left: 2.8rem;
+            }
+
+            .milenia-navigation .sub-menu .menu-item-has-children::after {
+                right: auto;
+                left: 0.9375rem;
+            }
+
+        /* ----------------------------------------
+            Aligner
+        ---------------------------------------- */
+
+            .milenia-columns-aligner--edges > [class*="col"]:last-child:not(:only-child) {
+                text-align: left;
+            }
+
+    /* ----------------------------------------
+        Vertical Navigation
+    ---------------------------------------- */
+
+        .milenia-navigation-vertical .sub-menu > li.menu-item-has-children > a::after {
+            display: inline-block;
+            margin-left: 0;
+            margin-right: 0.4rem;
+        }
+
+        .milenia-navigation-vertical > li > a::before {
+            left: auto;
+            right: 0;
+        }
+
+    /* ----------------------------------------
+        Modals
+    ---------------------------------------- */
+
+        /* ----------------------------------------
+            Arctic Modal
+        ---------------------------------------- */
+
+            .arcticmodal-container .arcticmodal-close {
+                right: auto;
+                left: 1.25rem;
+            }
+
+    /* ----------------------------------------
+        Comments
+    ---------------------------------------- */
+
+        .comment-author-avatar {
+            float: right;
+            margin-right: 0;
+            margin-left: 1.25rem;
+        }
+
+        .comment.comment-has-children > .comment-body > .comment-author-info::after {
+            left: auto;
+            right: 2.3rem;
+        }
+
+        .comment-author-info {
+            padding-left: 0;
+            padding-right: 6.125rem;
+        }
+
+        .comment-has-not-avatar.pingback .comment-author-info {
+            padding-right: 0;
+        }
+
+        .comments-list .children {
+            padding-left: 0;
+            padding-right: 6.25rem;
+        }
+
+        .comments-list .children > li::before {
+            border-width: 0 1px 1px 0;
+            left: auto;
+            right: -3.940rem;
+        }
+
+        .comments-list.comments-list--max-depth-10 .children {
+            padding-left: 0;
+            padding-right: 4rem;
+        }
+
+        .comments-list.comments-list--max-depth-9 .children,
+        .comments-list.comments-list--max-depth-8 .children {
+            padding-left: 0;
+            padding-right: 4.5rem;
+        }
+
+        .comments-list.comments-list--max-depth-10 .children > li::before {
+            left: auto;
+            right: -1.7rem;
+        }
+
+        .comments-list.comments-list--max-depth-9 .children > li::before,
+        .comments-list.comments-list--max-depth-8 .children > li::before {
+            left: auto;
+            right: -2.2rem;
+        }
+
+    /* ----------------------------------------
+        Sidebar
+    ---------------------------------------- */
+
+        .milenia-sidebar-hidden-close {
+            right: auto;
+            left: 1rem;
+        }
+
+        .milenia-sidebar-hidden {
+            left: auto;
+            right: 0;
+        }
+
+        .milenia-csstransforms3d .milenia-sidebar-hidden {
+            -webkit-transform: translate3d(100%, 0, 0);
+                    transform: translate3d(100%, 0, 0);
+        }
+
+        .milenia-csstransforms3d .milenia-sidebar-hidden.milenia-hidden-sidebar--opened {
+            -webkit-transform: translate3d(0, 0, 0);
+                    transform: translate3d(0, 0, 0);
+        }
+
+        .milenia-no-csstransforms3d .milenia-sidebar-hidden.milenia-hidden-sidebar--opened {
+            left: auto;
+            right: -18.75rem;
+        }
+
+        .milenia-no-csstransforms3d .milenia-sidebar-hidden.milenia-hidden-sidebar--opened {
+            left: auto;
+            right: 0;
+        }
+
+        /* ----------------------------------------
+            Widgets
+        ---------------------------------------- */
+
+            /* ----------------------------------------
+                 Pages
+             ---------------------------------------- */
+
+                .widget_pages .children,
+                .widget_nav_menu .sub-menu {
+                    padding-left: 0;
+                    padding-right: 1.625rem;
+                }
+
+            /* ----------------------------------------
+                Entities
+            ---------------------------------------- */
+
+                .milenia-widget .milenia-entities .milenia-entity-media,
+                .milenia-widget .mphb_widget_rooms-wrapper .milenia-entity-media {
+                    float: right;
+                    margin-right: 0;
+                    margin-left: 1.25rem;
+                }
+
+            /* ----------------------------------------
+                Tagcloud
+            ---------------------------------------- */
+
+                .tagcloud > a:not(:last-child)::after {
+                    content: " ,";
+                }
+
+            /* ----------------------------------------
+                Calendar
+            ---------------------------------------- */
+
+                .calendar_wrap table tfoot #prev {
+                    text-align: right;
+                }
+
+                .calendar_wrap table tfoot #next {
+                    text-align: left;
+                }
+
+                .calendar_wrap table .calendar-caption-prev {
+                    left: auto;
+                    right: 0;
+                }
+
+                .calendar_wrap table .calendar-caption-next {
+                    right: auto;
+                    left: 0;
+                }
+
+            /* ----------------------------------------
+                Events
+            ---------------------------------------- */
+
+                .milenia-widget .milenia-events .milenia-event-date {
+                    margin-right: 0;
+                    margin-left: 1.25rem;
+                    float: right;
+                }
+
+            /* ----------------------------------------
+                Weather
+            ---------------------------------------- */
+
+                .milenia-widget .milenia-weather-indicator .fa,
+                .milenia-widget .milenia-weather-indicator .fal,
+                .milenia-widget .milenia-weather-indicator .far,
+                .milenia-widget .milenia-weather-indicator .fab,
+                .milenia-widget .milenia-weather-indicator .fas,
+                .milenia-widget .milenia-weather-indicator .icon,
+                .milenia-widget .milenia-weather-indicator [class*="milenia-font-icon-"] {
+                    margin-right: 0;
+                    margin-left: 0.8rem;
+                }
+
+                .milenia-widget .milenia-weather-indicator sup {
+                    margin-left: 0;
+                    margin-right: 0.2rem;
+                }
+
+            /* ----------------------------------------
+                Check Availability
+            ---------------------------------------- */
+
+                .milenia-widget--check-availability .milenia-booking-form-wrapper--v3 [class*="form-col"] {
+                    padding-right: 1.25rem;
+                    padding-left: 1.25rem;
+                }
+
+                .milenia-widget--check-availability [class*="milenia-colorizer--scheme-"] [class*="form-col"]:first-child:not(:only-child) {
+                    padding-left: 1.25rem;
+                    padding-right: 0;
+                }
+
+                .milenia-widget--check-availability [class*="milenia-colorizer--scheme-"] [class*="form-col"]:last-child:not(:only-child) {
+                    padding-right: 1.25rem;
+                    padding-left: 0;
+                }
+
+                .milenia-body--scheme-green .widget_mphb_search_availability_widget .milenia-field-datepicker {
+                    padding-left: 3rem;
+                    padding-right: 1.2rem;
+                }
+
+                .milenia-body--scheme-green .widget_mphb_search_availability_widget .milenia-booking-form-wrapper--v3 [class*="form-col"] .milenia-custom-select .milenia-selected-option {
+                    padding-right: 1.25rem;
+                    padding-left: 2.625rem;
+                }
+
+                .milenia-body--scheme-green .widget_mphb_search_availability_widget .milenia-booking-form-wrapper--v3 [class*="form-col"] .milenia-custom-select .milenia-selected-option::before,
+                .milenia-body--scheme-green .widget_mphb_search_availability_widget .milenia-booking-form-wrapper--v3 [class*="form-col"] .milenia-custom-select .milenia-selected-option::after  {
+                    right: auto;
+                    left: 1rem;
+                }
+
+                .milenia-body--scheme-green .widget_mphb_search_availability_widget .milenia-field-datepicker::after {
+                    right: auto;
+                    left: 1.2rem;
+                }
+
+    /* ----------------------------------------
+        Footer
+    ---------------------------------------- */
+
+        /* ----------------------------------------
+            Footer row
+        ---------------------------------------- */
+
+            .milenia-footer-row--widget-border .milenia-widget::after {
+                right: auto;
+                left: -1px;
+            }
+
+        /* ----------------------------------------
+            Footer grid
+        ---------------------------------------- */
+
+            .milenia-footer .milenia-widget--right-aligned {
+                text-align: left;
+            }
+
+            .milenia-footer .milenia-widget--left-aligned {
+                text-align: right;
+            }
+
+/* ----------------------------------------
+    3. Components
+---------------------------------------- */
+
+    /* ----------------------------------------
+         Alert Boxes
+    ---------------------------------------- */
+
+        .milenia-alert-box-inner,
+        .mphb-errors-wrapper:not(.milenia-alert-box) {
+            padding-right: 4.375rem;
+            padding-left: 3.8rem;
+        }
+
+        .milenia-alert-box-inner::before,
+        .mphb-errors-wrapper:not(.milenia-alert-box)::before {
+            left: auto;
+            right: 1.63603rem;
+        }
+
+        .milenia-alert-box-close {
+            right: auto;
+            left: 1.325rem;
+        }
+
+        .milenia-theme .formError {
+            left: auto !important;
+            right: 0 !important;
+        }
+
+        .milenia-theme .woocommerce-error,
+        .milenia-theme .woocommerce-info,
+        .milenia-theme .woocommerce-message {
+            padding-left: 1.875rem;
+            padding-right: 4.375rem;
+        }
+
+    /* ----------------------------------------
+         Buttons
+    ---------------------------------------- */
+
+        .milenia-back-to-top {
+            right: auto;
+            left: 1.875rem;
+        }
+
+        .milenia-btn--icon .fal,
+        .milenia-btn--icon .far,
+        .milenia-btn--icon .fab,
+        .milenia-btn--icon .fas,
+        .milenia-btn--icon .icon,
+        .milenia-btn--icon [class*="milenia-font-icon-"] {
+            margin-right: 0;
+            margin-left: 0.375rem;
+        }
+
+        .milenia-action-buttons > a,
+        .milenia-action-buttons > button {
+            float: right;
+            margin-right: 0;
+            margin-left: 1px;
+        }
+
+    /* ----------------------------------------
+        Blockquote
+    ---------------------------------------- */
+
+        blockquote:not(.milenia-blockquote--unstyled).milenia-blockquote--style-2 {
+            border-width: 0 3px 0 0;
+        }
+
+    /* ----------------------------------------
+         Pagination & Post Navigation
+    ---------------------------------------- */
+
+        .milenia-posts-navigation-prev {
+            left: auto;
+            right: 0;
+        }
+
+        .milenia-posts-navigation-next {
+            right: auto;
+            left: 0;
+        }
+
+        .milenia-posts-navigation-prev > span {
+            padding-left: 0;
+            padding-right: 1.2rem;
+        }
+
+        .milenia-posts-navigation-prev > span::before {
+            content: "\e93c";
+            left: auto;
+            right: 0;
+        }
+
+        .milenia-posts-navigation-next > span {
+            padding-right: 0;
+            padding-left: 1.2rem;
+        }
+
+        .milenia-posts-navigation-next > span::before {
+            content: "\e93b";
+            right: auto;
+            left: 0;
+        }
+
+        .milenia-pagination .prev::before {
+            content: "\e93c";
+            left: auto;
+            right: -1.28rem;
+        }
+
+        .milenia-pagination .next::before {
+            content: "\e93b";
+            right: auto;
+            left: -1.28rem;
+        }
+
+        /* firefox only */
+        @-moz-document url-prefix() {
+            .milenia-pagination .next::before {
+                content: "\e93b";
+                right: auto;
+                left: -3.9rem;
+            }
+        }
+
+        .milenia-pagination .prev {
+            margin-right: 0.96rem;
+            margin-left: 0.5rem;
+        }
+
+        .milenia-pagination .next {
+            margin-left: 1.16rem;
+            margin-right: 0.5rem;
+        }
+
+        .milenia-flexbox .milenia-pagination--stretched .milenia-pagination--pushed-to-right {
+            margin-left: 0;
+            margin-right: auto;
+        }
+
+        .milenia-flexbox .milenia-pagination--stretched .milenia-pagination--pushed-to-left {
+            margin-right: 0;
+            margin-left: auto;
+        }
+
+        .milenia-flexbox .milenia-pagination--stretched > li:last-child {
+            padding-right: 0.8rem !important;
+            padding-left: 0 !important;
+        }
+        .milenia-flexbox .milenia-pagination--stretched > li:first-child {
+            padding-left: 0.8rem !important;
+            padding-right: 0 !important;
+        }
+
+    /* ----------------------------------------
+         Author
+    ---------------------------------------- */
+
+        .milenia-author--style-2 .milenia-author-info {
+            padding-left: 0;
+            padding-right: 1.25rem;
+        }
+
+    /* ----------------------------------------
+        Panels (Accordions & Toggles)
+    ---------------------------------------- */
+
+        .milenia-panels-title > button {
+            padding-right: 1.625rem;
+            padding-left: 4.5rem;
+        }
+
+        .milenia-panels-title > button::after, .milenia-panels-title > button::before {
+            right: auto;
+            left: 1.625rem;
+        }
+
+
+    /* ----------------------------------------
+        Tables
+    ---------------------------------------- */
+
+        th {
+            text-align: right;
+        }
+
+    /* ----------------------------------------
+        Pricing Tables
+    ---------------------------------------- */
+
+        .milenia-pricing-tables:not(.milenia-pricing-tables--style-2) .milenia-pricing-table {
+            margin-left: 0;
+            margin-right: 2.5rem;
+        }
+
+        .milenia-pricing-tables:not(.milenia-pricing-tables--style-2) .milenia-pricing-table::after {
+            right: -2.5rem;
+            left: 2.5rem;
+        }
+
+        .milenia-pricing-tables:not(.milenia-pricing-tables--style-2) .milenia-pricing-table-media > a::before {
+            right: auto;
+            left: 2.5rem;
+        }
+
+    /* ----------------------------------------
+        Buttons
+    ---------------------------------------- */
+
+        .milenia-btn--icon .fa,
+        .milenia-btn--icon .fal,
+        .milenia-btn--icon .far,
+        .milenia-btn--icon .fab,
+        .milenia-btn--icon .fas,
+        .milenia-btn--icon .icon,
+        .milenia-btn--icon [class*="milenia-font-icon-"] {
+            margin-right: 0;
+            margin-left: 0.375rem;
+            display: inline-block;
+        }
+
+        .milenia-btn--link.milenia-btn--icon .fa,
+        .milenia-btn--link.milenia-btn--icon .fal,
+        .milenia-btn--link.milenia-btn--icon .far,
+        .milenia-btn--link.milenia-btn--icon .fab,
+        .milenia-btn--link.milenia-btn--icon .fas,
+        .milenia-btn--link.milenia-btn--icon .icon,
+        .milenia-btn--link.milenia-btn--icon [class*="milenia-font-icon-"] {
+            margin-right: 0;
+            margin-left: 0.5rem;
+        }
+
+    /* ----------------------------------------
+         Lists
+    ---------------------------------------- */
+
+        .milenia-details-list > li > span {
+            margin-right: 0;
+            margin-left: 3px;
+        }
+
+        /* ----------------------------------------
+             Icon List
+        ---------------------------------------- */
+
+            .milenia-entity-content ul:not(.milenia-list--icon):not(.milenia-list--unstyled) > li,
+            .comment-content ul:not(.milenia-list--icon):not(.milenia-list--unstyled) > li,
+            .milenia-list--icon > li,
+            .milenia-list--icon-big > li {
+                padding-left: 0;
+                padding-right: 1.95rem;
+            }
+
+            .milenia-entity-content ul:not(.milenia-list--icon):not(.milenia-list--unstyled) > li::before,
+            .comment-content ul:not(.milenia-list--icon):not(.milenia-list--unstyled) > li::before,
+            .milenia-list--icon > li::before,
+            .milenia-list--icon-big > li::before, .milenia-entity-content ul:not(.milenia-list--icon):not(.milenia-list--unstyled) > li > .fal, .milenia-list--icon > li > .fal,
+            .milenia-list--icon-big > li > .fal, .milenia-entity-content ul:not(.milenia-list--icon):not(.milenia-list--unstyled) > li > .far, .milenia-list--icon > li > .far,
+            .milenia-list--icon-big > li > .far, .milenia-entity-content ul:not(.milenia-list--icon):not(.milenia-list--unstyled) > li > .fab, .milenia-list--icon > li > .fab,
+            .milenia-list--icon-big > li > .fab, .milenia-entity-content ul:not(.milenia-list--icon):not(.milenia-list--unstyled) > li > .fas, .milenia-list--icon > li > .fas,
+            .milenia-list--icon-big > li > .fas, .milenia-entity-content ul:not(.milenia-list--icon):not(.milenia-list--unstyled) > li > .icon, .milenia-list--icon > li > .icon,
+            .milenia-list--icon-big > li > .icon, .milenia-entity-content ul:not(.milenia-list--icon):not(.milenia-list--unstyled) > li > [class*="milenia-font-icon-"], .milenia-list--icon > li > [class*="milenia-font-icon-"],
+            .milenia-list--icon-big > li > [class*="milenia-font-icon-"] {
+                left: auto;
+                right: 0;
+            }
+
+            .milenia-list--icon-big li {
+                padding-left: 0;
+                padding-right: 2.5rem;
+            }
+
+            .milenia-entity-content ol ol,
+            .comment-content ol ol,
+            .milenia-entity-content ol ul,
+            .comment-content ol ul {
+                padding-left: 0;
+                padding-right: 1.95rem;
+            }
+
+        /* ----------------------------------------
+             Horizontal pipe list
+        ---------------------------------------- */
+
+            .milenia-list--pipe > li {
+                margin-right: 0;
+                margin-left: 0.2rem;
+            }
+
+            .milenia-list--pipe > li:not(:last-child)::after {
+                margin-left: 0;
+                margin-right: 0.4rem;
+            }
+
+    /* ----------------------------------------
+         Icon boxes
+    ---------------------------------------- */
+
+        .milenia-icon-boxes.milenia-icon-boxes--style-3 .milenia-icon-box-icon {
+            float: right;
+            margin-right: 0;
+            margin-left: 1.5rem;
+        }
+
+    /* ----------------------------------------
+         Carousels
+    ---------------------------------------- */
+
+        .owl-carousel:not(.owl-carousel--nav-edges) .owl-nav {
+            left: auto;
+            right: 0;
+        }
+
+        .owl-carousel.owl-carousel--nav-edges .owl-nav .owl-prev {
+            left: auto;
+            right: -3.775rem;
+        }
+
+        .owl-carousel.owl-carousel--nav-edges .owl-nav .owl-next {
+            right: auto;
+            left: -3.775rem;
+        }
+
+        [class*="milenia-section--stretched-content"] .owl-carousel.owl-carousel--nav-edges .owl-nav .owl-prev,
+        [data-vc-full-width="true"] .owl-carousel.owl-carousel--nav-edges .owl-nav .owl-prev {
+            left: auto;
+            right: 0.6875rem;
+        }
+
+        [class*="milenia-section--stretched-content"] .owl-carousel.owl-carousel--nav-edges .owl-nav .owl-next,
+        [data-vc-full-width="true"] .owl-carousel.owl-carousel--nav-edges .owl-nav .owl-next {
+            right: auto;
+            left: 0.6875rem;
+        }
+
+        [class*="milenia-section--stretched-content"] .owl-carousel.owl-carousel--nav-edges.owl-carousel--nav-inside .owl-nav .owl-prev,
+        [data-vc-full-width="true"] .owl-carousel.owl-carousel--nav-edges.owl-carousel--nav-inside .owl-nav .owl-prev {
+            left: auto;
+            right: 1.2rem;
+        }
+
+        [class*="milenia-section--stretched-content"] .owl-carousel.owl-carousel--nav-edges.owl-carousel--nav-inside .owl-nav .owl-next,
+        [data-vc-full-width="true"] .owl-carousel.owl-carousel--nav-edges.owl-carousel--nav-inside .owl-nav .owl-next {
+            right: auto;
+            left: 1.2rem;
+        }
+
+        .owl-carousel.owl-carousel--nav-edges.owl-carousel--nav-inside .owl-nav .owl-prev {
+            left: auto;
+            right: 0;
+        }
+
+        .owl-carousel.owl-carousel--nav-edges.owl-carousel--nav-inside .owl-nav .owl-next {
+            right: auto;
+            left: 0;
+        }
+
+        .owl-carousel:not(.owl-carousel--nav-edges) .owl-nav .owl-prev,
+        .owl-carousel:not(.owl-carousel--nav-edges) .owl-nav .owl-next {
+            margin-right: 0;
+            margin-left: 1px;
+        }
+
+        [class*="milenia-section--stretched-content"] .milenia-simple-slideshow--events.owl-carousel.owl-carousel--nav-edges.owl-carousel--nav-inside .owl-nav .owl-prev,
+        [data-vc-full-width*="true"] .milenia-simple-slideshow--events.owl-carousel.owl-carousel--nav-edges.owl-carousel--nav-inside .owl-nav .owl-prev {
+            left: auto;
+            right: 13%;
+        }
+        [class*="milenia-section--stretched-content"] .milenia-simple-slideshow--events.owl-carousel.owl-carousel--nav-edges.owl-carousel--nav-inside .owl-nav .owl-next,
+        [data-vc-full-width*="true"] .milenia-simple-slideshow--events.owl-carousel.owl-carousel--nav-edges.owl-carousel--nav-inside .owl-nav .owl-next {
+            right: auto;
+            left: 13%;
+        }
+
+        /* ----------------------------------------
+             Tabbed Carousel
+        ---------------------------------------- */
+
+            .milenia-tabbed-carousel-thumbs .owl-carousel.owl-carousel--nav-edges.owl-carousel--nav-small .owl-prev {
+                left: auto;
+                right: -5.3rem;
+            }
+
+            .milenia-tabbed-carousel-thumbs .owl-carousel.owl-carousel--nav-edges.owl-carousel--nav-small .owl-next {
+                right: auto;
+                left: -5.3rem;
+            }
+
+            .milenia-tabbed-carousel-thumb-image {
+                float: right;
+            }
+
+    /* ----------------------------------------
+         Entities
+    ---------------------------------------- */
+
+        .milenia-entity-media .owl-carousel.owl-carousel--nav-edges .owl-nav .owl-prev {
+            left: auto;
+            right: 1.5rem;
+        }
+
+        .milenia-entity-media .owl-carousel.owl-carousel--nav-edges .owl-nav .owl-next {
+            right: auto;
+            left: 1.5rem;
+        }
+
+        .milenia-entity-footer > .milenia-btn:not(:only-child),
+        .milenia-entity-footer > .milenia-icon-btn:not(:only-child) {
+            margin-right: 0;
+            margin-left: 3px;
+        }
+
+        .milenia-entity-meta > *,
+        .milenia-entity-categories > span {
+            display: inline-block;
+        }
+
+        .milenia-entity-edit-link + .vc_inline-link {
+            margin-left: 0;
+            margin-right: 0.25rem;
+        }
+
+        /* ----------------------------------------
+            Post Formats
+        ---------------------------------------- */
+
+            .milenia-entity-link-element {
+                padding-left: 2.15rem;
+                padding-right: 5.5375rem;
+            }
+
+            .milenia-entity-link-element .fa,
+            .milenia-entity-link-element .fal,
+            .milenia-entity-link-element .far,
+            .milenia-entity-link-element .fab,
+            .milenia-entity-link-element .fas,
+            .milenia-entity-link-element .icon,
+            .milenia-entity-link-element [class*="milenia-font-icon-"] {
+                left: auto;
+                right: 2.4rem;
+            }
+
+        /* ----------------------------------------
+            Style 1
+        ---------------------------------------- */
+
+            .milenia-entities--style-1 .milenia-entity {
+                margin-left: 0;
+                margin-right: 2.5rem;
+            }
+
+            .milenia-entities--style-1 .milenia-entity::after {
+                right: -2.5rem;
+                left: 2.5rem;
+            }
+
+            .milenia-entities--style-1 .milenia-entity-media > a::before,
+            .milenia-entities--style-1 .milenia-entity--format-slideshow .milenia-entity-media::before {
+                right: auto;
+                left: 2.5rem;
+            }
+
+        /* ----------------------------------------
+            Style 3, 16
+        ---------------------------------------- */
+
+            .milenia-entities--style-3.milenia-entities--reverse .milenia-grid-item:nth-child(2n+1) .milenia-entity .owl-nav,
+            .milenia-entities--style-3:not(.milenia-entities--reverse) .milenia-grid-item:nth-child(2n) .milenia-entity .owl-nav,
+            .milenia-entities--style-16.milenia-entities--reverse .milenia-grid-item:nth-child(2n+1) .milenia-entity .owl-nav,
+            .milenia-entities--style-16:not(.milenia-entities--reverse) .milenia-grid-item:nth-child(2n) .milenia-entity .owl-nav {
+                right: auto;
+                left: 0;
+            }
+
+            .milenia-entities--style-3.milenia-entities--reverse .milenia-grid-item:nth-child(2n+1) .milenia-entity .owl-nav .owl-prev,
+            .milenia-entities--style-3.milenia-entities--reverse .milenia-grid-item:nth-child(2n+1) .milenia-entity .owl-nav .owl-next,
+            .milenia-entities--style-3:not(.milenia-entities--reverse) .milenia-grid-item:nth-child(2n) .milenia-entity .owl-nav .owl-prev,
+            .milenia-entities--style-3:not(.milenia-entities--reverse) .milenia-grid-item:nth-child(2n) .milenia-entity .owl-nav .owl-next,
+            .milenia-entities--style-16.milenia-entities--reverse .milenia-grid-item:nth-child(2n+1) .milenia-entity .owl-nav .owl-prev,
+            .milenia-entities--style-16.milenia-entities--reverse .milenia-grid-item:nth-child(2n+1) .milenia-entity .owl-nav .owl-next,
+            .milenia-entities--style-16:not(.milenia-entities--reverse) .milenia-grid-item:nth-child(2n) .milenia-entity .owl-nav .owl-prev,
+            .milenia-entities--style-16:not(.milenia-entities--reverse) .milenia-grid-item:nth-child(2n) .milenia-entity .owl-nav .owl-next {
+                margin-left: 0;
+                margin-right: 1px;
+            }
+
+            [class*="milenia-section--stretched-content"] .milenia-entities--style-16.milenia-entities--reverse .milenia-grid-item:nth-child(2n) .milenia-entity-content,
+            [data-vc-full-width="true"] .milenia-entities--style-16.milenia-entities--reverse .milenia-grid-item:nth-child(2n) .milenia-entity-content {
+                padding-left: 5rem;
+                padding-right: 13.5%;
+            }
+
+            [class*="milenia-section--stretched-content"] .milenia-entities--style-16.milenia-entities--reverse .milenia-grid-item:nth-child(2n+1) .milenia-entity-content,
+            [data-vc-full-width="true"] .milenia-entities--style-16.milenia-entities--reverse .milenia-grid-item:nth-child(2n+1) .milenia-entity-content {
+                padding-right: 3.125rem;
+                padding-left: 14.5%;
+            }
+
+            [class*="milenia-section--stretched-content"] .milenia-entities--style-16 .milenia-grid-item:nth-child(2n+1) .milenia-entity-content,
+            [data-vc-full-width="true"] .milenia-entities--style-16 .milenia-grid-item:nth-child(2n+1) .milenia-entity-content {
+                padding-left: 5rem;
+                padding-right: 13.5%;
+            }
+
+            [class*="milenia-section--stretched-content"] .milenia-entities--style-16 .milenia-grid-item:nth-child(2n) .milenia-entity-content,
+            [data-vc-full-width="true"] .milenia-entities--style-16 .milenia-grid-item:nth-child(2n) .milenia-entity-content {
+                padding-right: 3.125rem;
+                padding-left: 14.5%;
+            }
+
+        /* ----------------------------------------
+            Style 4, 6, 9
+        ---------------------------------------- */
+
+            .milenia-entities--style-4 .milenia-entity-media .milenia-simple-slideshow:not(.owl-carousel--nav-edges) .owl-nav {
+                left: auto;
+                right: 2.5rem;
+                margin-right: -1px;
+                margin-left: 0;
+            }
+
+            .milenia-entities--style-9 .milenia-entity-title .milenia-entity-label,
+            .milenia-entities--style-4 .milenia-entity-title .milenia-entity-label,
+            .milenia-entities--style-6 .milenia-entity-title .milenia-entity-label,
+            .milenia-entities--style-7.milenia-entities--list .milenia-entity-title .milenia-entity-label {
+                margin-right: 0;
+                margin-left: 0.625rem;
+            }
+
+        /* ----------------------------------------
+            Style 6
+        ---------------------------------------- */
+
+            .milenia-entities--style-6.milenia-entities--without-media .milenia-entity-link-element {
+                padding-left: 0;
+                padding-right: 3.1rem;
+            }
+
+            .milenia-entities--style-6.milenia-entities--without-media .milenia-entity-link-element .icon,
+            .milenia-entities--style-6.milenia-entities--without-media .milenia-entity-link-element [class*="milenia-font-icon-"] {
+                left: auto;
+                right: 0;
+            }
+
+            .milenia-entities--style-6 .milenia-grid--cols-4 .milenia-entity {
+                margin-left: 0;
+                margin-right: 1.5rem;
+            }
+
+            .milenia-entities--style-6 .milenia-grid--cols-4 .milenia-entity::after {
+                right: -1.5rem;
+                left: 1.5rem;
+            }
+
+            .milenia-entities--style-6 .milenia-grid--cols-3 .milenia-entity,
+            .milenia-entities--style-6 .milenia-grid--cols-2 .milenia-entity,
+            .milenia-entities--style-6 .milenia-grid--cols-1 .milenia-entity {
+                margin-left: 0;
+                margin-right: 2.5rem;
+            }
+
+            .milenia-entities--style-6 .milenia-grid--cols-3 .milenia-entity::after,
+            .milenia-entities--style-6 .milenia-grid--cols-2 .milenia-entity::after,
+            .milenia-entities--style-6 .milenia-grid--cols-1 .milenia-entity::after {
+                right: -2.5rem;
+                left: 2.5rem;
+            }
+
+            .milenia-entities--style-6 .milenia-entity {
+                margin-left: 0;
+                margin-right: 2.5rem;
+            }
+
+            .milenia-entities--style-6 .milenia-entity::after {
+                right: -2.5rem;
+                left: 2.5rem;
+            }
+
+            [class*="milenia-section--stretched-content"] .milenia-entities--style-6 .milenia-entity,
+            [data-vc-full-width="true"] .milenia-entities--style-6 .milenia-entity {
+                margin-left: 0;
+                margin-right: 2.5rem;
+            }
+
+            [class*="milenia-section--stretched-content"] .milenia-entities--style-6 .milenia-entity::after,
+            [data-vc-full-width="true"] .milenia-entities--style-6 .milenia-entity::after {
+                right: -2.5rem;
+                left: 2.5rem;
+            }
+
+            .milenia-has-sidebar .milenia-entities--style-6 .milenia-grid--cols-3 .milenia-entity {
+                margin-left: 0;
+                margin-right: 1.5rem;
+            }
+
+            .milenia-has-sidebar .milenia-entities--style-6 .milenia-grid--cols-3 .milenia-entity::after {
+                right: -1.5rem;
+                left: 1.5rem;
+            }
+
+        /* ----------------------------------------
+            Style 15
+        ---------------------------------------- */
+
+            .milenia-entities--style-15 .milenia-entity-media::before {
+                left: auto;
+                right: 2.5rem;
+            }
+
+            .milenia-entities--style-15 .milenia-entity:not(.milenia-entity--with-thumb) .owl-carousel:not(.owl-carousel--nav-edges) .owl-nav {
+                left: auto;
+                right: 2.45rem;
+            }
+
+        /* ----------------------------------------
+            Style 19
+        ---------------------------------------- */
+
+            .milenia-entities--style-19 .milenia-entity-footer > .milenia-btn:not(:only-child),
+            .milenia-entities--style-19 .milenia-entity-footer > .milenia-entity-extra-actions:not(:only-child) {
+                margin-right: 0;
+                margin-left: 0.8rem;
+            }
+
+    /* ----------------------------------------
+        Forms
+    ---------------------------------------- */
+
+        /* ----------------------------------------
+            Field Datepicker
+        ---------------------------------------- */
+
+            .milenia-booking-form-wrapper--v1 .milenia-field-datepicker {
+                padding-right: 0;
+                padding-left: 2.3rem;
+            }
+
+            .milenia-booking-form-wrapper--v1 .milenia-field-datepicker::before {
+                right: auto;
+                left: 0;
+            }
+
+            .milenia-booking-form-wrapper--v1 .milenia-field-datepicker .milenia-field-datepicker-day {
+                float: right;
+                margin-right: 0;
+                margin-left: 0.75rem;
+            }
+
+            .milenia-booking-form-wrapper--v2 .milenia-field-datepicker,
+            .milenia-booking-form-wrapper--v3 .milenia-field-datepicker {
+                padding-right: 0;
+                padding-left: 2.8125rem;
+            }
+
+            .milenia-booking-form-wrapper--v2 .milenia-field-datepicker::after,
+            .milenia-booking-form-wrapper--v3 .milenia-field-datepicker::after {
+                right: auto;
+                left: 0;
+            }
+
+            .milenia-booking-form-wrapper--v4 .milenia-field-datepicker {
+                padding-right: 1.2rem;
+                padding-left: 3rem;
+            }
+
+            .milenia-booking-form-wrapper--v4 .milenia-field-datepicker::after {
+                right: auto;
+                left: 1.2rem;
+            }
+
+        /* ----------------------------------------
+            Datepicker
+        ---------------------------------------- */
+
+            .milenia-theme .datepicker-dropdown thead .prev::before {
+                content: "\e93c";
+            }
+
+            .milenia-theme .datepicker-dropdown thead .next::before {
+                content: "\e93b";
+            }
+
+        /* ----------------------------------------
+            Toggled fields
+        ---------------------------------------- */
+
+            .milenia-toggled-fields-invoker {
+                padding-right: 0;
+                padding-left: 1.875rem;
+            }
+
+            .milenia-toggled-fields-invoker::after, .milenia-toggled-fields-invoker::before {
+                right: auto;
+                left: 0;
+            }
+
+        /* ----------------------------------------
+            Checkbox & Radio
+        ---------------------------------------- */
+
+            input[type="checkbox"] + label[for],
+            input[type="radio"] + label[for],
+            .mphb-room-rate-variant label {
+                padding-left: 0;
+                padding-right: 2.865rem;
+            }
+
+            .mphb-checkbox-label {
+                padding-left: 0;
+                padding-right: 2.5rem;
+            }
+
+            input[type="checkbox"] + label[for]::before,
+            input[type="radio"] + label[for]::before,
+            input[type="checkbox"] + label[for]::after,
+            input[type="radio"] + label[for]::after,
+            .mphb-checkbox-label::before,
+            .mphb-checkbox-label::after,
+            .mphb-room-rate-variant label::after,
+            .mphb-room-rate-variant label::before {
+                left: auto;
+                right: 0;
+            }
+
+            input[type="radio"] + label[for]::after,
+            .mphb-room-rate-variant label::after {
+                left: auto;
+                right: 0.5rem;
+            }
+
+        /* ----------------------------------------
+            Select
+        ---------------------------------------- */
+
+            .milenia-custom-select .milenia-selected-option {
+                padding-right: 1.25rem;
+                padding-left: 2.625rem;
+            }
+
+            .milenia-custom-select .milenia-selected-option::after, .milenia-custom-select .milenia-selected-option::before {
+                right: auto;
+                left: 1rem;
+            }
+
+            .milenia-custom-select .milenia-options-list {
+                left: auto;
+                right: 0;
+            }
+
+        /* ----------------------------------------
+            Select2
+        ---------------------------------------- */
+
+            .select2-container--milenia .select2-selection {
+                padding-right: .75rem;
+                padding-left: 2.5rem;
+            }
+
+            .select2-container--milenia .select2-selection__arrow {
+                right: auto;
+                left: 0;
+            }
+
+        /* ----------------------------------------
+            Counter
+        ---------------------------------------- */
+
+            .milenia-field-counter {
+                padding-right: 0;
+                padding-left: 3rem;
+            }
+
+            .milenia-field-counter-control {
+                right: auto;
+                left: 0;
+            }
+
+        /* ----------------------------------------
+            Single Field Form
+        ---------------------------------------- */
+
+            .milenia-singlefield-form-titled-wrapper .milenia-singlefield-form-title {
+                margin-right: 0;
+                margin-left: 1.25rem;
+            }
+
+            .milenia-singlefield-form input[type="text"], .milenia-singlefield-form input[type="search"], .milenia-singlefield-form input[type="date"], .milenia-singlefield-form input[type="datetime-local"], .milenia-singlefield-form input[type="email"], .milenia-singlefield-form input[type="file"], .milenia-singlefield-form input[type="month"], .milenia-singlefield-form input[type="number"], .milenia-singlefield-form input[type="password"], .milenia-singlefield-form input[type="tel"], .milenia-singlefield-form input[type="time"], .milenia-singlefield-form input[type="url"], .milenia-singlefield-form input[type="week"], .milenia-singlefield-form textarea {
+                padding-right: 1.25rem;
+                padding-left: 5rem;
+            }
+
+            .milenia-singlefield-form button {
+                right: auto;
+                left: 0;
+            }
+
+    /* ----------------------------------------
+        Booking Forms
+    ---------------------------------------- */
+
+        .milenia-booking-form-wrapper--v1 > .milenia-booking-form [class*="form-col"] {
+            border-width: 0 0 1px 1px;
+        }
+
+        .milenia-booking-form-wrapper--v1 > .milenia-booking-form .form-col:first-child::before {
+            left: auto;
+            right: 0;
+        }
+
+        .milenia-booking-form-wrapper--v2 .form-col--arrival-date .milenia-custom-select .milenia-selected-option::after, .milenia-booking-form-wrapper--v2 .form-col--arrival-date .milenia-custom-select .milenia-selected-option::before, .milenia-booking-form-wrapper--v2 .form-col--departure-date .milenia-custom-select .milenia-selected-option::after, .milenia-booking-form-wrapper--v2 .form-col--departure-date .milenia-custom-select .milenia-selected-option::before, .milenia-booking-form-wrapper--v2 .form-col--rooms .milenia-custom-select .milenia-selected-option::after, .milenia-booking-form-wrapper--v2 .form-col--rooms .milenia-custom-select .milenia-selected-option::before, .milenia-booking-form-wrapper--v2 .form-col--adults .milenia-custom-select .milenia-selected-option::after, .milenia-booking-form-wrapper--v2 .form-col--adults .milenia-custom-select .milenia-selected-option::before, .milenia-booking-form-wrapper--v2 .form-col--children .milenia-custom-select .milenia-selected-option::after, .milenia-booking-form-wrapper--v2 .form-col--children .milenia-custom-select .milenia-selected-option::before {
+            right: auto;
+            left: 0;
+        }
+
+        .milenia-booking-form-wrapper--v3 [class*="form-col"] {
+            padding-right: 1.25rem;
+            padding-left: 2rem;
+        }
+
+        .milenia-booking-form-wrapper--v3 .form-col--action {
+            padding: 0;
+        }
+
+        .milenia-booking-form-wrapper--v3 [class*="form-col"]::before {
+            left: auto;
+            right: 0;
+        }
+
+        .milenia-booking-form-wrapper--v3 [class*="form-col"] .milenia-custom-select .milenia-selected-option {
+            padding-right: 0;
+            padding-left: 1.4rem;
+        }
+
+        .milenia-booking-form-wrapper--v3 [class*="form-col"] .milenia-custom-select .milenia-selected-option::after, .milenia-booking-form-wrapper--v3 [class*="form-col"] .milenia-custom-select .milenia-selected-option::before {
+            right: auto;
+            left: 0;
+        }
+
+        .milenia-booking-form-wrapper--v2 .form-col--arrival-date .milenia-custom-select .milenia-selected-option,
+        .milenia-booking-form-wrapper--v2 .form-col--departure-date .milenia-custom-select .milenia-selected-option,
+        .milenia-booking-form-wrapper--v2 .form-col--rooms .milenia-custom-select .milenia-selected-option,
+        .milenia-booking-form-wrapper--v2 .form-col--adults .milenia-custom-select .milenia-selected-option,
+        .milenia-booking-form-wrapper--v2 .form-col--children .milenia-custom-select .milenia-selected-option,
+        .milenia-booking-form-wrapper--v3 [class*="form-col"] .milenia-custom-select .milenia-selected-option {
+            padding: 0 0 0 1.4rem;
+        }
+
+        .milenia-booking-form-wrapper--v2 .form-col--arrival-date .milenia-custom-select .milenia-selected-option::after,
+        .milenia-booking-form-wrapper--v2 .form-col--arrival-date .milenia-custom-select .milenia-selected-option::before,
+        .milenia-booking-form-wrapper--v2 .form-col--departure-date .milenia-custom-select .milenia-selected-option::after,
+        .milenia-booking-form-wrapper--v2 .form-col--departure-date .milenia-custom-select .milenia-selected-option::before,
+        .milenia-booking-form-wrapper--v2 .form-col--rooms .milenia-custom-select .milenia-selected-option::after,
+        .milenia-booking-form-wrapper--v2 .form-col--rooms .milenia-custom-select .milenia-selected-option::before,
+        .milenia-booking-form-wrapper--v2 .form-col--adults .milenia-custom-select .milenia-selected-option::after,
+        .milenia-booking-form-wrapper--v2 .form-col--adults .milenia-custom-select .milenia-selected-option::before,
+        .milenia-booking-form-wrapper--v2 .form-col--children .milenia-custom-select .milenia-selected-option::after,
+        .milenia-booking-form-wrapper--v2 .form-col--children .milenia-custom-select .milenia-selected-option::before,
+        .milenia-booking-form-wrapper--v3 [class*="form-col"] .milenia-custom-select .milenia-selected-option::after,
+        .milenia-booking-form-wrapper--v3 [class*="form-col"] .milenia-custom-select .milenia-selected-option::before {
+            right: auto;
+            left: 0;
+        }
+
+    /* ----------------------------------------
+        Weather Indicator
+    ---------------------------------------- */
+
+        .milenia-weather-indicator sup {
+            display: inline-block;
+        }
+
+        .milenia-weather-indicator .milenia-weather-indicator .fa,
+        .milenia-weather-indicator .fal,
+        .milenia-weather-indicator .far,
+        .milenia-weather-indicator .fab,
+        .milenia-weather-indicator .fas,
+        .milenia-weather-indicator .icon,
+        .milenia-weather-indicator [class*="milenia-font-icon-"] {
+            display: inline-block;
+            margin-right: 0;
+            margin-left: 0.25rem;
+        }
+
+    /* ----------------------------------------
+        Dropdown
+    ---------------------------------------- */
+
+        .milenia-dropdown-element {
+            left: auto;
+            right: 0;
+        }
+
+        .milenia-dropdown-element--icons > li {
+            padding-left: 0;
+            padding-right: 3.1rem;
+        }
+
+        .milenia-dropdown-element--icons > li .fa,
+        .milenia-dropdown-element--icons > li .fal,
+        .milenia-dropdown-element--icons > li .far,
+        .milenia-dropdown-element--icons > li .fab,
+        .milenia-dropdown-element--icons > li .fas,
+        .milenia-dropdown-element--icons > li .icon,
+        .milenia-dropdown-element--icons > li [class*="milenia-font-icon-"] {
+            left: auto;
+            right: 1.5625rem;
+        }
+
+        .milenia-dropdown--title-icon .milenia-dropdown-title {
+            padding-right: 0;
+            padding-left: 0.875rem;
+        }
+
+        .milenia-dropdown--title-icon .milenia-dropdown-title .fa,
+        .milenia-dropdown--title-icon .milenia-dropdown-title .fal,
+        .milenia-dropdown--title-icon .milenia-dropdown-title .far,
+        .milenia-dropdown--title-icon .milenia-dropdown-title .fab,
+        .milenia-dropdown--title-icon .milenia-dropdown-title .fas,
+        .milenia-dropdown--title-icon .milenia-dropdown-title .icon,
+        .milenia-dropdown--title-icon .milenia-dropdown-title [class*="milenia-font-icon-"] {
+            right: auto;
+            left: 0;
+        }
+
+    /* ----------------------------------------
+        Menu
+    ---------------------------------------- */
+
+        .milenia-menu > li {
+            padding-right: 0;
+            padding-left: 5rem;
+        }
+
+        .milenia-menu > li > span {
+            right: auto;
+            left: 0;
+        }
+
+    /* ----------------------------------------
+        Media elements
+    ---------------------------------------- */
+
+        /* ----------------------------------------
+            Media Element Plugin
+        ---------------------------------------- */
+
+            .mejs__overlay .mejs__overlay-button,
+            .mejs__overlay:hover .mejs__overlay-button,
+            .milenia-csstransforms3d .mejs__overlay .mejs__overlay-button,
+            .milenia-csstransforms3d .mejs__overlay:hover .mejs__overlay-button,
+            .mejs__button.mejs__playpause-button {
+                transform: matrix(-1, 0, 0, -1, 0, 0);
+            }
+
+    /* ----------------------------------------
+        Album
+    ---------------------------------------- */
+
+        .milenia-album {
+            margin-left: 0;
+            margin-right: 2.5rem;
+        }
+
+        .milenia-album::after {
+            right: -2.5rem;
+            left: 2.5rem;
+        }
+
+        .milenia-album::before {
+            right: 0;
+            left: 2.5rem;
+            border-right-width: 0;
+            border-left-width: 1px;
+        }
+
+        .milenia-album .milenia-action-buttons {
+            left: auto;
+            right: 0;
+        }
+
+    /* ----------------------------------------
+        Estimate
+    ---------------------------------------- */
+
+        .milenia-estimate--horizontal .milenia-estimate-mark {
+            float: right;
+            margin-right: 0;
+            margin-left: 1.875rem;
+        }
+
+    /* ----------------------------------------
+        Slider
+    ---------------------------------------- */
+
+        .tp-bullets .tp-bullet::after,
+        .tp-bullets .tp-bullet::before {
+            right: auto;
+            left: 0;
+        }
+
+        .milenia-rev-slider-wrapper .milenia-section--breadcrumb {
+            left: auto;
+            right: 0;
+        }
+
+        .milenia-rev-slider-wrapper .milenia-section--breadcrumb .milenia-action-buttons {
+            right: auto;
+            left: 0.9375rem;
+        }
+
+        .milenia-rev-arrows-prev .icon-chevron-left::before {
+            content: "\e93c";
+        }
+
+        .milenia-rev-arrows-next .icon-chevron-right::before {
+            content: "\e93b";
+        }
+
+    /* ----------------------------------------
+        Instafeed
+    ---------------------------------------- */
+
+        .milenia-instafeed--snake {
+            padding-right: 0;
+            padding-left: 8.5rem;
+        }
+
+        .milenia-instafeed--snake .milenia-grid:not(.milenia-grid--no-gutters):not(.owl-carousel).milenia-grid--cols-3 .milenia-grid-item:nth-child(6n+1), .milenia-instafeed--snake .milenia-grid:not(.milenia-grid--no-gutters):not(.owl-carousel).milenia-grid--cols-3 .milenia-grid-item:nth-child(6n+2), .milenia-instafeed--snake .milenia-grid:not(.milenia-grid--no-gutters):not(.owl-carousel).milenia-grid--cols-3 .milenia-grid-item:nth-child(6n+3) {
+            -webkit-transform: translateX(-5.625rem);
+                    transform: translateX(-5.625rem);
+        }
+
+/* ----------------------------------------
+    4. Pages
+---------------------------------------- */
+
+    /* ----------------------------------------
+        MPHB
+    ---------------------------------------- */
+
+        .mphb-rooms-quantity-wrapper .milenia-custom-select {
+            margin-right: 0;
+            margin-left: 0.2rem;
+        }
+
+        .milenia-theme .datepick-cmd-prev,
+        .milenia-theme .datepick-cmd-prevJump,
+        .milenia-theme .datepick-cmd-clear {
+            text-align: right;
+        }
+
+        .milenia-theme .datepick-cmd-prev,
+        .milenia-theme .datepick-cmd-prevJump,
+        .milenia-theme .datepick-cmd-clear,
+        .milenia-theme .datepick-cmd-today {
+            float: right;
+        }
+
+        .milenia-theme .datepick-cmd-next,
+        .milenia-theme .datepick-cmd-nextJump,
+        .milenia-theme .datepick-cmd-close {
+            float: left;
+            text-align: left;
+        }
+
+        .mphb-recommendation-item {
+            padding-right: 1.5rem;
+            padding-left: 8rem;
+        }
+
+        .mphb_sc_search_results-wrapper .mphb-recommendation .mphb-recommedation-item-subtotal {
+            right: auto;
+            left: 1.5rem;
+        }
+
+    /* ----------------------------------------
+        Events
+    ---------------------------------------- */
+
+        .from-group--main-events .milenia-dropdown-title .fa,
+        .from-group--main-events .milenia-dropdown-title .fal,
+        .from-group--main-events .milenia-dropdown-title .far,
+        .from-group--main-events .milenia-dropdown-title .fab,
+        .from-group--main-events .milenia-dropdown-title .fas,
+        .from-group--main-events .milenia-dropdown-title .icon,
+        .from-group--main-events .milenia-dropdown-title [class*="milenia-font-icon-"] {
+            margin-right: 0;
+            margin-left: 0.6rem;
+        }
+
+        .milenia-hidden-filters-field .milenia-dropdown-element:not(.milenia-dropdown-element--x-left):not(.milenia-dropdown-element--x-right) {
+            left: auto;
+            margin-left: 0;
+            right: 50%;
+            margin-right: -5.9375rem;
+        }
+
+        .milenia-hidden-filters-field .milenia-dropdown-element:not(.milenia-dropdown-element--x-left):not(.milenia-dropdown-element--x-right)::before {
+            left: auto;
+            margin-left: 0;
+            right: 50%;
+            margin-right: -12px;
+        }
+
+        .milenia-hidden-filters-field .milenia-dropdown-element.milenia-dropdown-element--x-left {
+            right: auto;
+            left: 0;
+            margin-right: 0;
+        }
+
+        .milenia-hidden-filters-field .milenia-dropdown.milenia-dropdown--title-icon .milenia-dropdown-title {
+            padding-right: 0;
+            padding-left: 0.84rem;
+        }
+
+        .milenia-events-tooltip {
+            left: auto;
+            right: 0;
+        }
+
+        .milenia-events-tooltip::after {
+            left: auto;
+            right: 1.25rem;
+        }
+
+        .milenia-events-tooltip.milenia-event-tooltip--reverse-x {
+            right: auto;
+            left: 0;
+        }
+
+        .milenia-events-tooltip.milenia-event-tooltip--reverse-x::after {
+            right: auto;
+            left: 1.25rem;
+        }
+
+        .milenia-csstransforms3d .milenia-events-tooltip {
+            -webkit-transform-origin: 80% 80%;
+                    transform-origin: 80% 80%;
+        }
+
+        .milenia-csstransforms3d .milenia-events-tooltip.milenia-event-tooltip--reverse-x {
+            -webkit-transform-origin: 20% 80%;
+                    transform-origin: 20% 80%;
+        }
+
+        .milenia-events-event-thumb {
+            float: right;
+            margin-right: 0;
+            margin-left: 0.9375rem;
+        }
+
+    /* ----------------------------------------
+        Blog Single
+    ---------------------------------------- */
+
+        .milenia-entity-single.milenia-entity--post .milenia-entity-footer .tagcloud {
+            display: inline-block;
+        }
+
+/* ----------------------------------------
+     5. WordPress
+ ---------------------------------------- */
+
+    .alignleft {
+        margin-right: 0;
+        margin-left: 1.25rem;
+    }
+
+    .alignright {
+        margin-left: 0;
+        margin-right: 1.25rem;
+    }
+
+/* ----------------------------------------
+    Media Queries
+---------------------------------------- */
+
+    @media all and (min-width: 576px) {
+        .milenia-footer .milenia-widget--right-aligned-sm,
+        .milenia-header-col--content-align-right-sm,
+        .milenia-columns-aligner--edges-sm > [class*="col"]:last-child:not(:only-child) {
+            text-align: left;
+        }
+        .milenia-footer .milenia-widget--left-aligned-sm,
+        .milenia-header-col--content-align-left-sm {
+            text-align: right;
+        }
+
+        .milenia-footer .milenia-widget--center-aligned-sm,
+        .milenia-header-col--content-align-center-sm {
+            text-align: center;
+        }
+
+        .milenia-flexbox .milenia-pagination--stretched .milenia-pagination--pushed-to-right-sm {
+            margin-left: 0;
+            margin-right: auto;
+        }
+
+        .milenia-flexbox .milenia-pagination--stretched .milenia-pagination--pushed-to-left-sm {
+            margin-right: 0;
+            margin-left: auto;
+        }
+
+        .milenia-share--inline-sm .milenia-share-caption {
+            float: right;
+            margin-right: 0;
+            margin-left: 0.9rem;
+        }
+
+        .offset-sm-0 {
+            margin-left: 0;
+            margin-right: 0;
+        }
+        .offset-sm-1 {
+            margin-left: 0;
+            margin-right: 8.33333%;
+        }
+        .offset-sm-2 {
+            margin-left: 0;
+            margin-right: 16.66667%;
+        }
+        .offset-sm-3 {
+            margin-left: 0;
+            margin-right: 25%;
+        }
+        .offset-sm-4 {
+            margin-left: 0;
+            margin-right: 33.33333%;
+        }
+        .offset-sm-5 {
+            margin-left: 0;
+            margin-right: 41.66667%;
+        }
+        .offset-sm-6 {
+            margin-left: 0;
+            margin-right: 50%;
+        }
+        .offset-sm-7 {
+            margin-left: 0;
+            margin-right: 58.33333%;
+        }
+        .offset-sm-8 {
+            margin-left: 0;
+            margin-right: 66.66667%;
+        }
+        .offset-sm-9 {
+            margin-left: 0;
+            margin-right: 75%;
+        }
+        .offset-sm-10 {
+            margin-left: 0;
+            margin-right: 83.33333%;
+        }
+        .offset-sm-11 {
+            margin-left: 0;
+            margin-right: 91.66667%;
+        }
+
+        .milenia-estimate--horizontal-sm .milenia-estimate-mark {
+            float: right;
+            margin-right: 0;
+            margin-left: 1.875rem;
+        }
+    }
+
+    @media all and (min-width: 768px) {
+        .milenia-footer .milenia-widget--right-aligned-md,
+        .milenia-header-col--content-align-right-md,
+        .milenia-columns-aligner--edges-md > [class*="col"]:last-child:not(:only-child) {
+            text-align: left;
+        }
+        .milenia-footer .milenia-widget--left-aligned-md,
+        .milenia-header-col--content-align-left-md {
+            text-align: right;
+        }
+
+        .milenia-footer .milenia-widget--center-aligned-md,
+        .milenia-header-col--content-align-center-md {
+            text-align: center;
+        }
+
+        .milenia-flexbox .milenia-pagination--stretched .milenia-pagination--pushed-to-right-md {
+            margin-left: 0;
+            margin-right: auto;
+        }
+
+        .milenia-flexbox .milenia-pagination--stretched .milenia-pagination--pushed-to-left-md {
+            margin-right: 0;
+            margin-left: auto;
+        }
+
+        .milenia-share--inline-md .milenia-share-caption {
+            float: right;
+            margin-right: 0;
+            margin-left: 0.9rem;
+        }
+
+        .offset-md-0 {
+            margin-left: 0;
+            margin-right: 0;
+        }
+        .offset-md-1 {
+            margin-left: 0;
+            margin-right: 8.33333%;
+        }
+        .offset-md-2 {
+            margin-left: 0;
+            margin-right: 16.66667%;
+        }
+        .offset-md-3 {
+            margin-left: 0;
+            margin-right: 25%;
+        }
+        .offset-md-4 {
+            margin-left: 0;
+            margin-right: 33.33333%;
+        }
+        .offset-md-5 {
+            margin-left: 0;
+            margin-right: 41.66667%;
+        }
+        .offset-md-6 {
+            margin-left: 0;
+            margin-right: 50%;
+        }
+        .offset-md-7 {
+            margin-left: 0;
+            margin-right: 58.33333%;
+        }
+        .offset-md-8 {
+            margin-left: 0;
+            margin-right: 66.66667%;
+        }
+        .offset-md-9 {
+            margin-left: 0;
+            margin-right: 75%;
+        }
+        .offset-md-10 {
+            margin-left: 0;
+            margin-right: 83.33333%;
+        }
+        .offset-md-11 {
+            margin-left: 0;
+            margin-right: 91.66667%;
+        }
+        .milenia-estimate--horizontal-md .milenia-estimate-mark {
+            float: right;
+            margin-right: 0;
+            margin-left: 1.875rem;
+        }
+
+        .milenia-pagination--justified .next {
+            right: auto;
+            left: 0;
+        }
+
+        .milenia-pagination--justified .prev {
+            left: auto;
+            right: 0;
+        }
+    }
+
+    @media all and (min-width: 992px) {
+        .milenia-footer .milenia-widget--right-aligned-lg,
+        .milenia-header-col--content-align-right-lg,
+        .milenia-columns-aligner--edges-lg > [class*="col"]:last-child:not(:only-child) {
+            text-align: left;
+        }
+        .milenia-footer .milenia-widget--left-aligned-lg,
+        .milenia-header-col--content-align-left-lg {
+            text-align: right;
+        }
+
+        .milenia-footer .milenia-widget--center-aligned-lg,
+        .milenia-header-col--content-align-center-lg {
+            text-align: center;
+        }
+
+        .milenia-flexbox .milenia-pagination--stretched .milenia-pagination--pushed-to-right-lg {
+            margin-left: 0;
+            margin-right: auto;
+        }
+
+        .milenia-flexbox .milenia-pagination--stretched .milenia-pagination--pushed-to-left-lg {
+            margin-right: 0;
+            margin-left: auto;
+        }
+
+        .milenia-share--inline-lg .milenia-share-caption {
+            float: right;
+            margin-right: 0;
+            margin-left: 0.9rem;
+        }
+
+        .offset-lg-0 {
+            margin-left: 0;
+            margin-right: 0;
+        }
+        .offset-lg-1 {
+            margin-left: 0;
+            margin-right: 8.33333%;
+        }
+        .offset-lg-2 {
+            margin-left: 0;
+            margin-right: 16.66667%;
+        }
+        .offset-lg-3 {
+            margin-left: 0;
+            margin-right: 25%;
+        }
+        .offset-lg-4 {
+            margin-left: 0;
+            margin-right: 33.33333%;
+        }
+        .offset-lg-5 {
+            margin-left: 0;
+            margin-right: 41.66667%;
+        }
+        .offset-lg-6 {
+            margin-left: 0;
+            margin-right: 50%;
+        }
+        .offset-lg-7 {
+            margin-left: 0;
+            margin-right: 58.33333%;
+        }
+        .offset-lg-8 {
+            margin-left: 0;
+            margin-right: 66.66667%;
+        }
+        .offset-lg-9 {
+            margin-left: 0;
+            margin-right: 75%;
+        }
+        .offset-lg-10 {
+            margin-left: 0;
+            margin-right: 83.33333%;
+        }
+        .offset-lg-11 {
+            margin-left: 0;
+            margin-right: 91.66667%;
+        }
+
+        .milenia-entities--style-19.milenia-entities--list .milenia-entity-header {
+            padding-right: 0;
+            padding-left: 6.25rem;
+        }
+        .milenia-entities--style-19.milenia-entities--list .milenia-entity-price {
+            right: auto;
+            left: 0;
+        }
+
+        .milenia-entity-content .alignleft {
+            margin-right: 0;
+            margin-left: 1.875rem;
+        }
+        .milenia-entity-content .alignright {
+            margin-left: 0;
+            margin-right: 1.875rem;
+        }
+
+
+        .milenia-content:not(.milenia-has-sidebar) .milenia-entities--style-4.milenia-entities--list .milenia-entity {
+            padding-right: 0;
+            padding-left: 2.5rem;
+        }
+        .milenia-content:not(.milenia-has-sidebar) .milenia-entities--style-4.milenia-entities--list .milenia-entity-media > a:not(.milenia-entity-link-element)::before,
+        .milenia-content:not(.milenia-has-sidebar) .milenia-entities--style-4.milenia-entities--list .milenia-entity-media > .milenia-selfhosted-video::before {
+            border-right-width: 1px;
+            border-left-width: 0;
+            right: 2.5rem;
+            left: 0;
+        }
+        .milenia-content:not(.milenia-has-sidebar) .milenia-entities--style-4.milenia-entities--list .milenia-entity-media > .milenia-simple-slideshow > .owl-stage-outer::before {
+            left: 0;
+            right: 2.5rem;
+        }
+        .milenia-content:not(.milenia-has-sidebar) .milenia-entities--style-4.milenia-entities--list .milenia-entity-media > .milenia-simple-slideshow::before {
+            left: 0;
+            right: 2.5rem;
+        }
+
+        .milenia-content:not(.milenia-has-sidebar) .milenia-entities--style-4.milenia-entities--list .milenia-entity-media > .milenia-simple-slideshow::after {
+            right: 2.5rem;
+            left: auto;
+        }
+        .milenia-content:not(.milenia-has-sidebar) .milenia-entities--style-4.milenia-entities--list .milenia-entity-content {
+            padding-right: 2.5rem;
+            padding-left: 1.25rem;
+        }
+        .milenia-content:not(.milenia-has-sidebar) .milenia-entities--style-4.milenia-entities--list .milenia-entity::after {
+            right: auto;
+            left: 0;
+            border-left-width: 1px;
+            border-right-width: 0;
+        }
+
+        .milenia-estimate--horizontal-lg .milenia-estimate-mark {
+            float: right;
+            margin-right: 0;
+            margin-left: 1.875rem;
+        }
+    }
+
+    @media all and (min-width: 1200px) {
+        .milenia-footer .milenia-widget--right-aligned-xl,
+        .milenia-header-col--content-align-right-xl,
+        .milenia-columns-aligner--edges-xl > [class*="col"]:last-child:not(:only-child) {
+            text-align: left;
+        }
+        .milenia-footer .milenia-widget--left-aligned-xl,
+        .milenia-header-col--content-align-left-xl {
+            text-align: right;
+        }
+
+        .milenia-footer .milenia-widget--center-aligned-xl,
+        .milenia-header-col--content-align-center-xl {
+            text-align: center;
+        }
+
+        .milenia-flexbox .milenia-pagination--stretched .milenia-pagination--pushed-to-right-xl {
+            margin-left: 0;
+            margin-right: auto;
+        }
+
+        .milenia-flexbox .milenia-pagination--stretched .milenia-pagination--pushed-to-left-xl {
+            margin-right: 0;
+            margin-left: auto;
+        }
+
+        .milenia-share--inline-xl .milenia-share-caption {
+            float: right;
+            margin-right: 0;
+            margin-left: 0.9rem;
+        }
+
+        .offset-xl-0 {
+            margin-right: 0;
+            margin-left: 0;
+        }
+        .offset-xl-1 {
+            margin-left: 0;
+            margin-right: 8.33333%;
+        }
+        .offset-xl-2 {
+            margin-left: 0;
+            margin-right: 16.66667%;
+        }
+        .offset-xl-3 {
+            margin-left: 0;
+            margin-right: 25%;
+        }
+        .offset-xl-4 {
+            margin-left: 0;
+            margin-right: 33.33333%;
+        }
+        .offset-xl-5 {
+            margin-left: 0;
+            margin-right: 41.66667%;
+        }
+        .offset-xl-6 {
+            margin-left: 0;
+            margin-right: 50%;
+        }
+        .offset-xl-7 {
+            margin-left: 0;
+            margin-right: 58.33333%;
+        }
+        .offset-xl-8 {
+            margin-left: 0;
+            margin-right: 66.66667%;
+        }
+        .offset-xl-9 {
+            margin-left: 0;
+            margin-right: 75%;
+        }
+        .offset-xl-10 {
+            margin-left: 0;
+            margin-right: 83.33333%;
+        }
+        .offset-xl-11 {
+            margin-left: 0;
+            margin-right: 91.66667%;
+        }
+
+        .milenia-has-sidebar .milenia-entities--style-4.milenia-entities--list .milenia-entity {
+            padding-right: 0;
+            padding-left: 2.5rem;
+        }
+        .milenia-has-sidebar .milenia-entities--style-4.milenia-entities--list .milenia-entity-media > a:not(.milenia-entity-link-element)::before,
+        .milenia-has-sidebar .milenia-entities--style-4.milenia-entities--list .milenia-entity-media > .milenia-selfhosted-video::before {
+            border-left-width: 0;
+            border-right-width: 1px;
+            right: 2.5rem;
+            left: 0;
+        }
+        .milenia-has-sidebar .milenia-entities--style-4.milenia-entities--list .milenia-entity-media > .milenia-simple-slideshow > .owl-stage-outer::before {
+            left: 0;
+            right: 2.5rem;
+        }
+        .milenia-has-sidebar .milenia-entities--style-4.milenia-entities--list .milenia-entity-media > .milenia-simple-slideshow::before {
+            left: 0;
+            right: 2.5rem;
+        }
+
+        .milenia-has-sidebar .milenia-entities--style-4.milenia-entities--list .milenia-entity-media > .milenia-simple-slideshow::after {
+            right: 2.5rem;
+            left: auto;
+        }
+        .milenia-has-sidebar .milenia-entities--style-4.milenia-entities--list .milenia-entity-content {
+            padding-right: 2.5rem;
+            padding-left: 1.25rem;
+        }
+        .milenia-has-sidebar .milenia-entities--style-4.milenia-entities--list .milenia-entity::after {
+            right: auto;
+            left: 0;
+            border-right-width: 0;
+            border-left-width: 1px;
+        }
+
+        .milenia-estimate--horizontal-xl .milenia-estimate-mark {
+            float: right;
+            margin-right: 0;
+            margin-left: 1.875rem;
+        }
+    }
+
+    @media all and (min-width: 1380px) {
+        .milenia-footer .milenia-widget--right-aligned-xxl,
+        .milenia-header-col--content-align-right-xxl,
+        .milenia-columns-aligner--edges-xxl > [class*="col"]:last-child:not(:only-child) {
+            text-align: left;
+        }
+        .milenia-footer .milenia-widget--left-aligned-xxl,
+        .milenia-header-col--content-align-left-xxl {
+            text-align: right;
+        }
+
+        .milenia-footer .milenia-widget--center-aligned-xxl,
+        .milenia-header-col--content-align-center-xxl {
+            text-align: center;
+        }
+
+        .milenia-flexbox .milenia-pagination--stretched .milenia-pagination--pushed-to-right-xxl {
+            margin-left: 0;
+            margin-right: auto;
+        }
+
+        .milenia-flexbox .milenia-pagination--stretched .milenia-pagination--pushed-to-left-xxl {
+            margin-right: 0;
+            margin-left: auto;
+        }
+
+        .milenia-share--inline-xxl .milenia-share-caption {
+            float: right;
+            margin-right: 0;
+            margin-left: 0.9rem;
+        }
+
+        .milenia-estimate--horizontal-xxl .milenia-estimate-mark {
+            float: right;
+            margin-right: 0;
+            margin-left: 1.875rem;
+        }
+    }
+
+    @media all and (min-width: 1600px) {
+        .milenia-footer .milenia-widget--right-aligned-xxxl,
+        .milenia-header-col--content-align-right-xxxl,
+        .milenia-columns-aligner--edges-xxxl > [class*="col"]:last-child:not(:only-child) {
+            text-align: left;
+        }
+        .milenia-footer .milenia-widget--left-aligned-xxxl,
+        .milenia-header-col--content-align-left-xxxl {
+            text-align: right;
+        }
+
+        .milenia-footer .milenia-widget--center-aligned-xxxl,
+        .milenia-header-col--content-align-center-xxxl {
+            text-align: center;
+        }
+
+        .milenia-flexbox .milenia-pagination--stretched .milenia-pagination--pushed-to-right-xxxl {
+            margin-left: 0;
+            margin-right: auto;
+        }
+
+        .milenia-flexbox .milenia-pagination--stretched .milenia-pagination--pushed-to-left-xxxl {
+            margin-right: 0;
+            margin-left: auto;
+        }
+
+        .milenia-share--inline-xxxl .milenia-share-caption {
+            float: right;
+            margin-right: 0;
+            margin-left: 0.9rem;
+        }
+
+        .milenia-estimate--horizontal-xxxl .milenia-estimate-mark {
+            float: right;
+            margin-right: 0;
+            margin-left: 1.875rem;
+        }
+    }
+
+
+    @media all and (min-width: 768px) and (max-width: 1200px) {
+        .milenia-widget .milenia-entities .milenia-entity-media,
+        .milenia-widget .mphb_widget_rooms-wrapper .milenia-entity-media,
+        .milenia-widget .milenia-events .milenia-event-date {
+            float: none;
+            margin-left: 0;
+        }
+    }
+
+
+    @media all and (max-width: 1599.98px) {
+        .owl-carousel.owl-carousel--nav-edges .owl-nav .owl-prev {
+            left: auto;
+            right: 0.6875rem;
+        }
+        .owl-carousel.owl-carousel--nav-edges .owl-nav .owl-next {
+            right: auto;
+            left: 0.6875rem;
+        }
+
+        .milenia-table--responsive-xxl th[data-cell-title],
+        .milenia-table--responsive-xxl td[data-cell-title] {
+            position: relative;
+            overflow: hidden;
+            padding-right: 55%;
+            padding-left: 1.5625rem;
+        }
+        .milenia-table--responsive-xxl th[data-cell-title]::before,
+        .milenia-table--responsive-xxl td[data-cell-title]::before {
+            padding-left: inherit;
+            padding-right: 1.5625rem;
+            left: auto;
+            right: 0;
+        }
+        [class*="milenia-section--stretched-content"] .milenia-simple-slideshow--events.owl-carousel.owl-carousel--nav-edges.owl-carousel--nav-inside .owl-nav .owl-prev,
+        [data-vc-full-width*="true"] .milenia-simple-slideshow--events.owl-carousel.owl-carousel--nav-edges.owl-carousel--nav-inside .owl-nav .owl-prev {
+            right: 1.875rem;
+        }
+        [class*="milenia-section--stretched-content"] .milenia-simple-slideshow--events.owl-carousel.owl-carousel--nav-edges.owl-carousel--nav-inside .owl-nav .owl-next,
+        [data-vc-full-width*="true"] .milenia-simple-slideshow--events.owl-carousel.owl-carousel--nav-edges.owl-carousel--nav-inside .owl-nav .owl-next {
+            left: 1.875rem;
+        }
+    }
+
+    @media all and (max-width: 1379.98px) {
+        [class*="milenia-section--stretched-content"] .milenia-entities--style-16.milenia-entities--reverse .milenia-grid-item:nth-child(2n) .milenia-entity-content,
+        [class*="milenia-section--stretched-content"] .milenia-entities--style-16.milenia-entities--reverse .milenia-grid-item:nth-child(2n+1) .milenia-entity-content,
+        [class*="milenia-section--stretched-content"] .milenia-entities--style-16 .milenia-grid-item:nth-child(2n+1) .milenia-entity-content,
+        [class*="milenia-section--stretched-content"] .milenia-entities--style-16 .milenia-grid-item:nth-child(2n) .milenia-entity-content,
+        [data-vc-full-width="true"] .milenia-entities--style-16.milenia-entities--reverse .milenia-grid-item:nth-child(2n) .milenia-entity-content,
+        [data-vc-full-width="true"] .milenia-entities--style-16.milenia-entities--reverse .milenia-grid-item:nth-child(2n+1) .milenia-entity-content,
+        [data-vc-full-width="true"] .milenia-entities--style-16 .milenia-grid-item:nth-child(2n+1) .milenia-entity-content,
+        [data-vc-full-width="true"] .milenia-entities--style-16 .milenia-grid-item:nth-child(2n) .milenia-entity-content {
+            padding-left: 6.5rem;
+            padding-right: 6.5rem;
+            padding-top: 11rem;
+            padding-bottom: 11rem;
+        }
+
+        .milenia-table--responsive-xl th[data-cell-title],
+        .milenia-table--responsive-xl td[data-cell-title] {
+            position: relative;
+            overflow: hidden;
+            padding-right: 55%;
+            padding-left: 1.5625rem;
+        }
+        .milenia-table--responsive-xl th[data-cell-title]::before,
+        .milenia-table--responsive-xl td[data-cell-title]::before {
+            padding-left: inherit;
+            padding-right: 1.5625rem;
+            left: auto;
+            right: 0;
+        }
+    }
+
+    @media all and (max-width: 1199.98px) {
+        [class*="milenia-section--stretched-content"] .milenia-entities--style-16.milenia-entities--reverse .milenia-grid-item:nth-child(2n) .milenia-entity-content,
+        [class*="milenia-section--stretched-content"] .milenia-entities--style-16.milenia-entities--reverse .milenia-grid-item:nth-child(2n+1) .milenia-entity-content,
+        [class*="milenia-section--stretched-content"] .milenia-entities--style-16 .milenia-grid-item:nth-child(2n+1) .milenia-entity-content,
+        [class*="milenia-section--stretched-content"] .milenia-entities--style-16 .milenia-grid-item:nth-child(2n) .milenia-entity-content,
+        [data-vc-full-width="true"] .milenia-entities--style-16.milenia-entities--reverse .milenia-grid-item:nth-child(2n) .milenia-entity-content,
+        [data-vc-full-width="true"] .milenia-entities--style-16.milenia-entities--reverse .milenia-grid-item:nth-child(2n+1) .milenia-entity-content,
+        [data-vc-full-width="true"] .milenia-entities--style-16 .milenia-grid-item:nth-child(2n+1) .milenia-entity-content,
+        [data-vc-full-width="true"] .milenia-entities--style-16 .milenia-grid-item:nth-child(2n) .milenia-entity-content {
+            padding-left: 3.25rem;
+            padding-right: 3.25rem;
+            padding-top: 5.5rem;
+            padding-bottom: 5.5rem;
+        }
+
+        .milenia-singlefield-form-titled-wrapper .milenia-singlefield-form-title {
+            margin-left: 0;
+        }
+
+        .milenia-entities--style-1 .milenia-grid--cols-3 .milenia-entity,
+        .milenia-has-sidebar .milenia-entities--style-1 .milenia-grid--cols-2 .milenia-entity,
+        .milenia-pricing-tables:not(.milenia-pricing-tables--style-2) .milenia-pricing-table {
+            margin-top: 1.5625rem;
+            margin-left: 0;
+            margin-right: 1.5625rem;
+        }
+
+        .milenia-entities--style-1 .milenia-grid--cols-3 .milenia-entity::after,
+        .milenia-has-sidebar .milenia-entities--style-1 .milenia-grid--cols-2 .milenia-entity::after,
+        .milenia-pricing-tables:not(.milenia-pricing-tables--style-2) .milenia-pricing-table::after {
+            left: 1.5625rem;
+            right: -1.5625rem;
+        }
+        .milenia-entities--style-1 .milenia-grid--cols-3 .milenia-entity-media > a::before,
+        .milenia-has-sidebar .milenia-entities--style-1 .milenia-grid--cols-2 .milenia-entity-media > a::before,
+        .milenia-entities--style-1 .milenia-grid--cols-3 .milenia-entity--format-slideshow .milenia-entity-media::before,
+        .milenia-has-sidebar .milenia-entities--style-1 .milenia-grid--cols-2 .milenia-entity--format-slideshow .milenia-entity-media::before,
+        .milenia-pricing-tables:not(.milenia-pricing-tables--style-2) .milenia-pricing-table-media > a::before {
+            right: auto;
+            left: 1.5625rem;
+        }
+
+        .milenia-entities--style-6 .milenia-grid--cols-4 .milenia-entity,
+        .milenia-entities--style-6 .milenia-grid--cols-3 .milenia-entity,
+        [class*="milenia-section--stretched-content"] .milenia-entities--style-6 .milenia-grid--cols-4 .milenia-entity,
+        [class*="milenia-section--stretched-content"] .milenia-entities--style-6 .milenia-grid--cols-3 .milenia-entity,
+        [data-vc-full-width="true"] .milenia-entities--style-6 .milenia-grid--cols-4 .milenia-entity,
+        [data-vc-full-width="true"] .milenia-entities--style-6 .milenia-grid--cols-3 .milenia-entity {
+            margin-left: 0;
+            margin-right: 1.5rem;
+        }
+
+        .milenia-entities--style-6 .milenia-grid--cols-4 .milenia-entity::after,
+        .milenia-entities--style-6 .milenia-grid--cols-3 .milenia-entity::after,
+        [class*="milenia-section--stretched-content"] .milenia-entities--style-6 .milenia-grid--cols-4 .milenia-entity::after,
+        [class*="milenia-section--stretched-content"] .milenia-entities--style-6 .milenia-grid--cols-3 .milenia-entity::after,
+        [data-vc-full-width="true"] .milenia-entities--style-6 .milenia-grid--cols-4 .milenia-entity::after,
+        [data-vc-full-width="true"] .milenia-entities--style-6 .milenia-grid--cols-3 .milenia-entity::after {
+            right: -1.5rem;
+            left: 1.5rem;
+        }
+
+        .milenia-table--responsive-lg th[data-cell-title],
+        .milenia-table--responsive-lg td[data-cell-title] {
+            position: relative;
+            overflow: hidden;
+            padding-right: 55%;
+            padding-left: 1.5625rem;
+        }
+        .milenia-table--responsive-lg th[data-cell-title]::before,
+        .milenia-table--responsive-lg td[data-cell-title]::before {
+            padding-left: inherit;
+            padding-right: 1.5625rem;
+            left: auto;
+            right: 0;
+        }
+
+        .comments-list.comments-list--max-depth-7 .children,
+        .comments-list.comments-list--max-depth-6 .children {
+            padding-left: 0;
+            padding-right: 5rem;
+        }
+
+        .comments-list.comments-list--max-depth-7 .children > li::before,
+        .comments-list.comments-list--max-depth-6 .children > li::before {
+            left: auto;
+            right: -2.7rem;
+        }
+    }
+
+    @media all and (max-width: 991.98px) {
+        .milenia-has-sidebar .milenia-tabbed-carousel::after {
+            left: 1.5625rem;
+            right: 1.5625rem;
+            top: -1.5625rem;
+            bottom: -1.5625rem;
+        }
+
+        .milenia-has-sidebar .milenia-tabbed-carousel-thumbs .owl-carousel.owl-carousel--nav-edges.owl-carousel--nav-small .owl-prev {
+            left: auto;
+            right: -4.8rem;
+        }
+        .milenia-has-sidebar .milenia-tabbed-carousel-thumbs .owl-carousel.owl-carousel--nav-edges.owl-carousel--nav-small .owl-next {
+            right: auto;
+            left: -4.8rem;
+        }
+        .milenia-has-sidebar .milenia-tabbed-carousel-thumb-image {
+            float: none;
+        }
+        .milenia-entities--style-1 .milenia-grid--cols-2 .milenia-entity {
+            margin-top: 1.5625rem;
+            margin-left: 0;
+            margin-right: 1.5625rem;
+        }
+        .milenia-entities--style-1 .milenia-grid--cols-2 .milenia-entity::after {
+            left: 1.5625rem;
+            right: -1.5625rem;
+        }
+        .milenia-entities--style-1 .milenia-grid--cols-2 .milenia-entity-media > a::before,
+        .milenia-entities--style-1 .milenia-grid--cols-2 .milenia-entity--format-slideshow .milenia-entity-media::before {
+            right: auto;
+            left: 1.5625rem;
+        }
+
+        .milenia-entities--style-6 .milenia-grid--cols-2 .milenia-entity,
+        [class*="milenia-section--stretched-content"] .milenia-entities--style-6 .milenia-grid--cols-2 .milenia-entity,
+        [data-vc-full-width="true"] .milenia-entities--style-6 .milenia-grid--cols-2 .milenia-entity {
+            margin-left: 0;
+            margin-right: 1.5rem;
+        }
+
+        .milenia-entities--style-6 .milenia-grid--cols-2 .milenia-entity::after,
+        [class*="milenia-section--stretched-content"] .milenia-entities--style-6 .milenia-grid--cols-2 .milenia-entity::after,
+        [data-vc-full-width="true"] .milenia-entities--style-6 .milenia-grid--cols-2 .milenia-entity::after {
+            right: -1.5rem;
+            left: 1.5rem;
+        }
+        .milenia-table--responsive-md th[data-cell-title],
+        .milenia-table--responsive-md td[data-cell-title] {
+            position: relative;
+            overflow: hidden;
+            padding-right: 55%;
+            padding-left: 1.5625rem;
+        }
+        .milenia-table--responsive-md th[data-cell-title]::before,
+        .milenia-table--responsive-md td[data-cell-title]::before {
+            padding-left: inherit;
+            padding-right: 1.5625rem;
+            left: auto;
+            right: 0;
+        }
+
+        .comment .children {
+            padding-left: 0;
+            padding-right: 5.25rem;
+        }
+        .comment .children > li::before {
+            left: auto;
+            right: -2.9375rem;
+        }
+
+        .milenia-entities--style-4 .milenia-grid--cols-4 .milenia-entity-media .milenia-simple-slideshow::after, .milenia-entities--style-4 .milenia-grid--cols-4 .milenia-entity-media .milenia-simple-slideshow:not(.owl-carousel--nav-edges) .owl-nav, .milenia-entities--style-4 .milenia-grid--cols-3 .milenia-entity-media .milenia-simple-slideshow::after, .milenia-entities--style-4 .milenia-grid--cols-3 .milenia-entity-media .milenia-simple-slideshow:not(.owl-carousel--nav-edges) .owl-nav, .milenia-entities--style-4 .milenia-grid--cols-2 .milenia-entity-media .milenia-simple-slideshow::after, .milenia-entities--style-4 .milenia-grid--cols-2 .milenia-entity-media .milenia-simple-slideshow:not(.owl-carousel--nav-edges) .owl-nav, .milenia-entities--style-4 .milenia-grid--cols-1 .milenia-entity-media .milenia-simple-slideshow::after, .milenia-entities--style-4 .milenia-grid--cols-1 .milenia-entity-media .milenia-simple-slideshow:not(.owl-carousel--nav-edges) .owl-nav {
+            left: auto;
+            right: 1.5625rem;
+        }
+
+        .milenia-entities--style-4 .milenia-grid--cols-4 .milenia-entity-media .milenia-simple-slideshow::before, .milenia-entities--style-4 .milenia-grid--cols-3 .milenia-entity-media .milenia-simple-slideshow::before, .milenia-entities--style-4 .milenia-grid--cols-2 .milenia-entity-media .milenia-simple-slideshow::before, .milenia-entities--style-4 .milenia-grid--cols-1 .milenia-entity-media .milenia-simple-slideshow::before {
+            left: 1.5625rem;
+            right: auto;
+        }
+
+        .milenia-album {
+            margin-left: 0;
+            margin-right: 1.5625rem;
+        }
+        .milenia-album::after {
+            right: -1.5625rem;
+            left: 1.5625rem;
+        }
+
+        .milenia-album::before {
+            right: 0;
+            left: 1.5625rem;
+        }
+
+        .comments-list.comments-list--max-depth-10 .children,
+        .comments-list.comments-list--max-depth-9 .children,
+        .comments-list.comments-list--max-depth-8 .children {
+            padding-left: 0;
+            padding-right: 2.3rem;
+        }
+
+        .comments-list.comments-list--max-depth-7 .children,
+        .comments-list.comments-list--max-depth-6 .children {
+            padding-left: 0;
+            padding-right: 3rem;
+        }
+
+        .comments-list.comments-list--max-depth-5 .children,
+        .comments-list.comments-list--max-depth-4 .children,
+        .comments-list.comments-list--max-depth-3 .children,
+        .comments-list.comments-list--max-depth-2 .children {
+            padding-left: 0;
+            padding-right: 5rem;
+        }
+
+        .comments-list.comments-list--max-depth-5 .children > li::before,
+        .comments-list.comments-list--max-depth-4 .children > li::before,
+        .comments-list.comments-list--max-depth-3 .children > li::before,
+        .comments-list.comments-list--max-depth-2 .children > li::before {
+            left: auto;
+            right: -2.7rem;
+        }
+    }
+
+    @media all and (max-width: 767.98px) {
+        [class*="milenia-section--stretched-content"] .milenia-entities--style-16.milenia-entities--reverse .milenia-grid-item:nth-child(2n) .milenia-entity-content,
+        [class*="milenia-section--stretched-content"] .milenia-entities--style-16.milenia-entities--reverse .milenia-grid-item:nth-child(2n+1) .milenia-entity-content,
+        [class*="milenia-section--stretched-content"] .milenia-entities--style-16 .milenia-grid-item:nth-child(2n+1) .milenia-entity-content,
+        [class*="milenia-section--stretched-content"] .milenia-entities--style-16 .milenia-grid-item:nth-child(2n) .milenia-entity-content,
+        [data-vc-full-width="true"] .milenia-entities--style-16.milenia-entities--reverse .milenia-grid-item:nth-child(2n) .milenia-entity-content,
+        [data-vc-full-width="true"] .milenia-entities--style-16.milenia-entities--reverse .milenia-grid-item:nth-child(2n+1) .milenia-entity-content,
+        [data-vc-full-width="true"] .milenia-entities--style-16 .milenia-grid-item:nth-child(2n+1) .milenia-entity-content,
+        [data-vc-full-width="true"] .milenia-entities--style-16 .milenia-grid-item:nth-child(2n) .milenia-entity-content {
+            padding-left: 1.95rem;
+            padding-right: 1.95rem;
+            padding-top: 3.3rem;
+            padding-bottom: 3.3rem;
+        }
+
+        .milenia-tabbed-carousel-thumbs .owl-carousel.owl-carousel--nav-edges.owl-carousel--nav-small .owl-prev {
+            left: auto;
+            right: -4.8rem;
+        }
+        .milenia-tabbed-carousel-thumbs .owl-carousel.owl-carousel--nav-edges.owl-carousel--nav-small .owl-next {
+            right: auto;
+            left: -4.8rem;
+        }
+        .milenia-tabbed-carousel-thumb-image {
+            float: none;
+        }
+
+        .milenia-entities--style-1 .milenia-grid--cols-1 .milenia-entity,
+        .milenia-has-sidebar .milenia-entities--style-1 .milenia-grid--cols-1 .milenia-entity {
+            margin-top: 1.5625rem;
+            margin-left: 0;
+            margin-right: 1.5625rem;
+        }
+
+        .milenia-entities--style-1 .milenia-grid--cols-1 .milenia-entity::after,
+        .milenia-has-sidebar .milenia-entities--style-1 .milenia-grid--cols-1 .milenia-entity::after {
+            left: 1.5625rem;
+            right: -1.5625rem;
+        }
+        .milenia-entities--style-1 .milenia-grid--cols-1 .milenia-entity-media > a::before,
+        .milenia-has-sidebar .milenia-entities--style-1 .milenia-grid--cols-1 .milenia-entity-media > a::before,
+        .milenia-entities--style-1 .milenia-grid--cols-1 .milenia-entity--format-slideshow .milenia-entity-media::before,
+        .milenia-has-sidebar .milenia-entities--style-1 .milenia-grid--cols-1 .milenia-entity--format-slideshow .milenia-entity-media::before {
+            right: auto;
+            left: 1.5625rem;
+        }
+        .milenia-entities--style-6 .milenia-grid--cols-1 .milenia-entity,
+        [class*="milenia-section--stretched-content"] .milenia-entities--style-6 .milenia-grid--cols-1 .milenia-entity,
+        [data-vc-full-width="true"] .milenia-entities--style-6 .milenia-grid--cols-1 .milenia-entity {
+            margin-left: 0;
+            margin-right: 1.5rem;
+        }
+        .milenia-entities--style-6 .milenia-grid--cols-1 .milenia-entity::after,
+        [class*="milenia-section--stretched-content"] .milenia-entities--style-6 .milenia-grid--cols-1 .milenia-entity::after,
+        [data-vc-full-width="true"] .milenia-entities--style-6 .milenia-grid--cols-1 .milenia-entity::after {
+            right: -1.5rem;
+            left: 1.5rem;
+        }
+
+        .milenia-table--responsive-sm th[data-cell-title],
+        .milenia-table--responsive-sm td[data-cell-title] {
+            position: relative;
+            overflow: hidden;
+            padding-right: 55%;
+            padding-left: 1.5625rem;
+        }
+        .milenia-table--responsive-sm th[data-cell-title]::before,
+        .milenia-table--responsive-sm td[data-cell-title]::before {
+            padding-left: inherit;
+            padding-right: 1.5625rem;
+            left: auto;
+            right: 0;
+        }
+        .comments-list.comments-list--max-depth-10 .children,
+        .comments-list.comments-list--max-depth-9 .children,
+        .comments-list.comments-list--max-depth-8 .children,
+        .comments-list.comments-list--max-depth-7 .children,
+        .comments-list.comments-list--max-depth-6 .children,
+        .comments-list.comments-list--max-depth-5 .children,
+        .comments-list.comments-list--max-depth-4 .children,
+        .comments-list.comments-list--max-depth-3 .children,
+        .comments-list.comments-list--max-depth-2 .children {
+            padding-left: 0;
+            padding-right: 1.2rem;
+        }
+
+        .milenia-entity-content blockquote.alignleft,
+        .milenia-entity-content blockquote.alignright {
+            margin-left: 0;
+            margin-right: 0;
+            float: none;
+            width: 100%;
+        }
+    }
+
+    @media all and (max-width: 575.98px) {
+        .milenia-entities--style-15 .milenia-entity-media::before {
+            left: auto;
+            right: 1.5625rem;
+        }
+
+        .milenia-entities--style-15 .milenia-entity:not(.milenia-entity--with-thumb) .owl-carousel:not(.owl-carousel--nav-edges) .owl-nav {
+            left: auto;
+            right: 1.55rem;
+        }
+
+        .milenia-table--responsive th[data-cell-title],
+        .milenia-table--responsive td[data-cell-title] {
+            position: relative;
+            overflow: hidden;
+            padding-right: 55%;
+            padding-left: 1.5625rem;
+        }
+        .milenia-table--responsive th[data-cell-title]::before,
+        .milenia-table--responsive td[data-cell-title]::before {
+            padding-left: inherit;
+            padding-right: 1.5625rem;
+            left: auto;
+            right: 0;
+        }
+
+        .comment .children {
+            padding-left: 0;
+            padding-right: 2rem;
+        }
+
+        .milenia-instafeed--snake {
+            padding-left: 0;
+        }
+        .milenia-instafeed--snake .milenia-grid:not(.milenia-grid--no-gutters):not(.owl-carousel).milenia-grid--cols-3 .milenia-grid-item:nth-child(6n+1), .milenia-instafeed--snake .milenia-grid:not(.milenia-grid--no-gutters):not(.owl-carousel).milenia-grid--cols-3 .milenia-grid-item:nth-child(6n+2), .milenia-instafeed--snake .milenia-grid:not(.milenia-grid--no-gutters):not(.owl-carousel).milenia-grid--cols-3 .milenia-grid-item:nth-child(6n+3) {
+            -webkit-transform: translateX(0);
+                    transform: translateX(0);
+        }
+
+        [class*="milenia-section--stretched-content"] .milenia-simple-slideshow--events.owl-carousel.owl-carousel--nav-edges.owl-carousel--nav-inside .owl-nav .owl-prev,
+        [data-vc-full-width*="true"] .milenia-simple-slideshow--events.owl-carousel.owl-carousel--nav-edges.owl-carousel--nav-inside .owl-nav .owl-prev {
+            right: 0.625rem;
+        }
+        [class*="milenia-section--stretched-content"] .milenia-simple-slideshow--events.owl-carousel.owl-carousel--nav-edges.owl-carousel--nav-inside .owl-nav .owl-next,
+        [data-vc-full-width*="true"] .milenia-simple-slideshow--events.owl-carousel.owl-carousel--nav-edges.owl-carousel--nav-inside .owl-nav .owl-next {
+            left: 0.625rem;
+        }
+
+        .comments-list.comments-list--max-depth-10 .children,
+        .comments-list.comments-list--max-depth-9 .children,
+        .comments-list.comments-list--max-depth-8 .children,
+        .comments-list.comments-list--max-depth-7 .children,
+        .comments-list.comments-list--max-depth-6 .children,
+        .comments-list.comments-list--max-depth-5 .children,
+        .comments-list.comments-list--max-depth-4 .children,
+        .comments-list.comments-list--max-depth-3 .children,
+        .comments-list.comments-list--max-depth-2 .children {
+            padding-right: 0;
+        }
+
+        .milenia-newsletter--inline .milenia-newsletter-title {
+            margin-left: 0;
+        }
+    }

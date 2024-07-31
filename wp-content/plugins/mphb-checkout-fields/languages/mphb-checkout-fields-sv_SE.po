@@ -1,0 +1,359 @@
+# Copyright (C) 2023 MotoPress
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: mphb-checkout-fields\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/mphb-checkout-fields\n"
+"Last-Translator: \n"
+"Language-Team: Swedish\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-07-18T07:24:32+00:00\n"
+"PO-Revision-Date: 2023-11-28 21:21\n"
+"X-Generator: WP-CLI 2.6.0\n"
+"X-Domain: mphb-checkout-fields\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: mphb-checkout-fields\n"
+"X-Crowdin-Project-ID: 628380\n"
+"X-Crowdin-Language: sv-SE\n"
+"X-Crowdin-File: mphb-checkout-fields.pot\n"
+"X-Crowdin-File-ID: 48\n"
+"Language: sv_SE\n"
+
+#. Plugin Name of the plugin
+msgid "Hotel Booking Checkout Fields"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://motopress.com/products/hotel-booking-checkout-fields/"
+msgstr ""
+
+#. Description of the plugin
+msgid "Edit existing or add new checkout fields in Hotel Booking to collect more information about your guests."
+msgstr "Redigera befintliga eller lägg till nya checkout fält i Hotel Booking för att samla in mer information om dina gäster."
+
+#. Author of the plugin
+msgid "MotoPress"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://motopress.com/"
+msgstr ""
+
+msgid "The License Key is required in order to get automatic plugin updates and support. You can manage your License Key in your personal account. <a>Learn more</a>."
+msgstr "Licensnyckeln krävs för att få automatiska pluginuppdateringar och support. Du kan hantera din licensnyckel i ditt personliga konto. <a>Läs mer</a>."
+
+msgid "License Key"
+msgstr "Licensnyckel"
+
+msgid "Status"
+msgstr "Status"
+
+msgid "Inactive"
+msgstr "Inaktiv"
+
+#. Translators: %s is a date in format "d.m.Y"
+msgid "Valid until %s"
+msgstr "Gäller till %s"
+
+msgid "Valid (Lifetime)"
+msgstr "Giltig (livstid)"
+
+msgid "Disabled"
+msgstr "Inaktiverad"
+
+msgid "Expired"
+msgstr "Utgånget"
+
+msgid "Invalid"
+msgstr "Ogiltig"
+
+msgid "Your License Key does not match the installed plugin. <a>How to fix this.</a>"
+msgstr "Din licensnyckel matchar inte det installerade insticksprogrammet. <a>Hur du åtgärdar detta.</a>"
+
+msgid "Product ID is not valid"
+msgstr "Produkt-ID är inte giltigt"
+
+msgid "Action"
+msgstr "Handling"
+
+msgid "Activate License"
+msgstr "Aktivera licensen"
+
+msgid "Deactivate License"
+msgstr "Avaktivera licensen"
+
+msgid "Renew License"
+msgstr "Förnya licens"
+
+#. translators: %1$s is a plugin name, for example 'Hotel Booking' and %2$s it's version, for example '1.2.0'
+msgid "The Hotel Booking Checkout Fields addon requires the %1$s plugin %2$s version or higher. Install and activate it for proper work."
+msgstr "Tillägget Hotel Booking Checkout Fields kräver %1$s-plugin-versionen %2$s eller högre. Installera och aktivera den för korrekt arbete."
+
+msgid "Could not copy .htaccess file to the created uploads directory."
+msgstr "Kunde inte kopiera .htaccess-filen till den skapade uppladdningskatalogen."
+
+msgid "Could not create uploads directory."
+msgstr "Det gick inte att skapa uppladdningskatalog."
+
+msgid "Checkout Fields"
+msgstr "Checkout fält"
+
+msgid "License"
+msgstr "Licens"
+
+#. Translators: %s is a field name like "birth_date".
+msgid "The field \"%s\" is required."
+msgstr "Fältet \"%s\" är obligatoriskt."
+
+msgid "— Select —"
+msgstr "— Välj —"
+
+msgid "File is not uploaded"
+msgstr "Filen är inte uppladdad"
+
+msgid "View file"
+msgstr "Visa fil"
+
+msgid "Update Checkout Field"
+msgstr "Uppdatera Checkout Field"
+
+msgid "Created on:"
+msgstr "Skapad på:"
+
+msgid "Delete Permanently"
+msgstr "Ta bort permanent"
+
+msgid "Move to Trash"
+msgstr "Flytta till papperskorgen"
+
+msgid "Update"
+msgstr "Uppdatera"
+
+msgid "Create"
+msgstr "Skapa"
+
+msgid "Field Label"
+msgstr "Fält label"
+
+msgid "Order"
+msgstr "Ordning"
+
+msgid "Name"
+msgstr "Namn"
+
+msgid "Type"
+msgstr "Typ"
+
+msgid "Placeholder"
+msgstr ""
+
+#. Translators: "Required fields are followed by <abbr>*</abbr>"
+msgid "Required"
+msgstr "Obligatoriskt"
+
+msgid "Enabled"
+msgstr "Aktiverat"
+
+msgid "Email Tag"
+msgstr "Epost tag"
+
+#. Translators: %s is an email tag name. For example: "Customer Birth Date".
+msgid "Customer %s"
+msgstr "Kund %s"
+
+msgid "yes"
+msgstr "ja"
+
+msgid "no"
+msgstr "nej"
+
+msgid "Day"
+msgstr "Dag"
+
+msgid "Month"
+msgstr "Månad"
+
+msgid "Year"
+msgstr "År"
+
+#. translators: %s is a name of a field, for example 'Your ID photo'
+msgid "The size of the uploading %s file is over the limit."
+msgstr "Storleken på den uppladdade filen %s är över gränsen."
+
+#. translators: %s is a name of a field, for example 'Your ID photo' and the second %s is a file type like image/jpeg
+msgid "Uploading %1$s file %2$s is not allowed."
+msgstr "Det är inte tillåtet att ladda upp %1$s fil %2$s."
+
+#. translators: %s is a name of a field, for example 'Your ID photo'
+msgid "Uploading %s file went through with some kind of error."
+msgstr "Uppladdningen av %s fil gick igenom med något slags fel."
+
+msgid "Request does not pass security verification. Please refresh the page and try one more time."
+msgstr "Begäran klarar inte säkerhetsverifieringen. Uppdatera sidan och försök en gång till."
+
+msgid "Checkout Field"
+msgstr "Checkout fält"
+
+msgctxt "Add new checkout field"
+msgid "Add New"
+msgstr "Lägg till nytt"
+
+msgid "Add New Checkout Field"
+msgstr "Lägg till ett nytt Checkout fält"
+
+msgid "Edit Checkout Field"
+msgstr "Redigera Checkout fält"
+
+msgid "New Checkout Field"
+msgstr "Nytt Checkout fält"
+
+msgid "View Checkout Field"
+msgstr "Visa Checkout fält"
+
+msgid "Search Checkout Field"
+msgstr "Sök Checkout fält"
+
+msgid "No checkout fields found"
+msgstr "Inga checkout fält hittades"
+
+msgid "No checkout fields found in Trash"
+msgstr "Inga checkout fält hittades i papperskorgen"
+
+msgid "Insert into checkout field description"
+msgstr "Infoga beskrivningen i checkout fältet"
+
+msgid "Uploaded to this checkout field"
+msgstr "Uppladdat till detta checkout fält"
+
+msgid "Parameters"
+msgstr "Parameter"
+
+msgid "System Name"
+msgstr "Systemnamn"
+
+msgid "Important! The plugin identifies this field thanks to the customer info. Only Latin lowercase letters, numbers, hyphens and underscores are allowed. The name must be unique."
+msgstr "Viktigt! Pluginet identifierar detta fält tack vare kundinformationen. Endast latinska gemener, siffror, bindestreck och understreck är tillåtna. Namnet måste vara unikt."
+
+msgid "Checkbox"
+msgstr ""
+
+msgid "Country"
+msgstr "Land"
+
+msgid "Date of Birth"
+msgstr "Födelsedatum"
+
+msgid "Email"
+msgstr "Epost"
+
+msgid "Heading"
+msgstr "Rubrik"
+
+msgid "Paragraph"
+msgstr "Stycke"
+
+msgid "Phone"
+msgstr "Telefon"
+
+msgid "Select"
+msgstr "Välj"
+
+msgid "Text"
+msgstr ""
+
+msgid "Textarea"
+msgstr "Textområde"
+
+msgid "File Upload"
+msgstr "Ladda upp fil"
+
+msgid "Checkbox Text"
+msgstr ""
+
+msgid "Text Content"
+msgstr "Textinnehåll"
+
+msgid "Short hint that describes the expected value of this field."
+msgstr "Kort tips som beskriver det förväntade värdet för detta fält."
+
+msgid "Pattern"
+msgstr "Mönster"
+
+msgid "A regular expression that the input value must match to be valid. If using the pattern attribute, inform the user about the expected format. For example %s is a US phone number in the format of: 123-456-7890."
+msgstr "Ett reguljärt uttryck som inmatningsvärdet måste matcha för att vara giltigt. Om du använder mönsterattributet, informera användaren om det förväntade formatet. Till exempel är %s ett amerikanskt telefonnummer i formatet: 123-456-7890."
+
+msgid "Description"
+msgstr "Beskrivning"
+
+msgid "Any hint about this field you want to show to your customers."
+msgstr "Alla tips om detta fält du vill visa för dina kunder."
+
+msgid "Additional CSS Class(es)"
+msgstr "Extra CSS klass(er)"
+
+msgid "Separate multiple classes with spaces."
+msgstr "Separera flera klasser med mellanslag."
+
+msgid "Options"
+msgstr "Alternativ"
+
+msgid "You can use the first option as a placeholder to provide guidance about what you expect: just leave the value of the option empty. Option Value is a system name for Visible Label. Visible Label is visible to users and you can edit it anytime."
+msgstr "Du kan använda det första alternativet som platshållare för att ge vägledning om vad du förväntar dig: lämna bara värdet på alternativet tomt. Alternativ värde är ett systemnamn för Synlig Label. Synlig Label är synlig för användare och du kan redigera den när som helst."
+
+msgid "Option Value"
+msgstr "Alternativt värde"
+
+msgid "Visible Label"
+msgstr "Synlig label"
+
+msgid "Add Option"
+msgstr "Lägg till alternativ"
+
+msgid "File Types"
+msgstr "Filtyper"
+
+msgid "Allowed file extensions, separated by comma. For example: png, pdf, jpeg"
+msgstr "Tillåtna filtillägg, avgränsade med kommatecken. Till exempel: png, pdf, jpeg"
+
+msgid "Upload Size"
+msgstr "Uppladdningsstorlek"
+
+msgid "Max upload file size in bytes. For example: 4000000"
+msgstr "Max uppladdningsfilstorlek i byte. Till exempel: 4000000"
+
+msgid "Checked by default"
+msgstr "Markerad som default"
+
+msgid "This field must be filled out before submitting the form."
+msgstr "Detta fält måste fyllas i innan formuläret skickas."
+
+msgid "Display this field in the form."
+msgstr "Visa detta fält i formuläret."
+
+msgid "You cannot change the name of this system field."
+msgstr "Du kan inte ändra namnet på detta systemfält."
+
+msgid "You cannot change the type of this system field."
+msgstr "Du kan inte ändra typen på detta systemfält."
+
+msgid "Email field is required. You can't make it optional."
+msgstr "Epost är obligatoriskt. Du kan inte göra det valfritt."
+
+msgid "Email field is required. You can't disable it."
+msgstr "Epost är obligatoriskt. Du kan inte inaktivera den."
+
+msgid "Yes"
+msgstr "JA"
+
+msgid "No"
+msgstr "Nej"
+
+msgid "Your Information"
+msgstr "Dina uppgifter"
+
+#. Translators: "Required fields are followed by <abbr>*</abbr>"
+msgid "Required fields are followed by %s"
+msgstr "Obligatoriska fält följs av %s"
+

@@ -1,0 +1,351 @@
+# Copyright (C) 2023 MotoPress
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Hotel Booking Checkout Fields 1.2.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/mphb-checkout-fields\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-07-18T07:24:32+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.6.0\n"
+"X-Domain: mphb-checkout-fields\n"
+
+#. Plugin Name of the plugin
+msgid "Hotel Booking Checkout Fields"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://motopress.com/products/hotel-booking-checkout-fields/"
+msgstr ""
+
+#. Description of the plugin
+msgid "Edit existing or add new checkout fields in Hotel Booking to collect more information about your guests."
+msgstr ""
+
+#. Author of the plugin
+msgid "MotoPress"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://motopress.com/"
+msgstr ""
+
+msgid "The License Key is required in order to get automatic plugin updates and support. You can manage your License Key in your personal account. <a>Learn more</a>."
+msgstr ""
+
+msgid "License Key"
+msgstr ""
+
+msgid "Status"
+msgstr ""
+
+msgid "Inactive"
+msgstr ""
+
+#. Translators: %s is a date in format "d.m.Y"
+msgid "Valid until %s"
+msgstr ""
+
+msgid "Valid (Lifetime)"
+msgstr ""
+
+msgid "Disabled"
+msgstr ""
+
+msgid "Expired"
+msgstr ""
+
+msgid "Invalid"
+msgstr ""
+
+msgid "Your License Key does not match the installed plugin. <a>How to fix this.</a>"
+msgstr ""
+
+msgid "Product ID is not valid"
+msgstr ""
+
+msgid "Action"
+msgstr ""
+
+msgid "Activate License"
+msgstr ""
+
+msgid "Deactivate License"
+msgstr ""
+
+msgid "Renew License"
+msgstr ""
+
+#. translators: %1$s is a plugin name, for example 'Hotel Booking' and %2$s it's version, for example '1.2.0'
+msgid "The Hotel Booking Checkout Fields addon requires the %1$s plugin %2$s version or higher. Install and activate it for proper work."
+msgstr ""
+
+msgid "Could not copy .htaccess file to the created uploads directory."
+msgstr ""
+
+msgid "Could not create uploads directory."
+msgstr ""
+
+msgid "Checkout Fields"
+msgstr ""
+
+msgid "License"
+msgstr ""
+
+#. Translators: %s is a field name like "birth_date".
+msgid "The field \"%s\" is required."
+msgstr ""
+
+msgid "— Select —"
+msgstr ""
+
+msgid "File is not uploaded"
+msgstr ""
+
+msgid "View file"
+msgstr ""
+
+msgid "Update Checkout Field"
+msgstr ""
+
+msgid "Created on:"
+msgstr ""
+
+msgid "Delete Permanently"
+msgstr ""
+
+msgid "Move to Trash"
+msgstr ""
+
+msgid "Update"
+msgstr ""
+
+msgid "Create"
+msgstr ""
+
+msgid "Field Label"
+msgstr ""
+
+msgid "Order"
+msgstr ""
+
+msgid "Name"
+msgstr ""
+
+msgid "Type"
+msgstr ""
+
+msgid "Placeholder"
+msgstr ""
+
+#. Translators: "Required fields are followed by <abbr>*</abbr>"
+msgid "Required"
+msgstr ""
+
+msgid "Enabled"
+msgstr ""
+
+msgid "Email Tag"
+msgstr ""
+
+#. Translators: %s is an email tag name. For example: "Customer Birth Date".
+msgid "Customer %s"
+msgstr ""
+
+msgid "yes"
+msgstr ""
+
+msgid "no"
+msgstr ""
+
+msgid "Day"
+msgstr ""
+
+msgid "Month"
+msgstr ""
+
+msgid "Year"
+msgstr ""
+
+#. translators: %s is a name of a field, for example 'Your ID photo'
+msgid "The size of the uploading %s file is over the limit."
+msgstr ""
+
+#. translators: %s is a name of a field, for example 'Your ID photo' and the second %s is a file type like image/jpeg
+msgid "Uploading %1$s file %2$s is not allowed."
+msgstr ""
+
+#. translators: %s is a name of a field, for example 'Your ID photo'
+msgid "Uploading %s file went through with some kind of error."
+msgstr ""
+
+msgid "Request does not pass security verification. Please refresh the page and try one more time."
+msgstr ""
+
+msgid "Checkout Field"
+msgstr ""
+
+msgctxt "Add new checkout field"
+msgid "Add New"
+msgstr ""
+
+msgid "Add New Checkout Field"
+msgstr ""
+
+msgid "Edit Checkout Field"
+msgstr ""
+
+msgid "New Checkout Field"
+msgstr ""
+
+msgid "View Checkout Field"
+msgstr ""
+
+msgid "Search Checkout Field"
+msgstr ""
+
+msgid "No checkout fields found"
+msgstr ""
+
+msgid "No checkout fields found in Trash"
+msgstr ""
+
+msgid "Insert into checkout field description"
+msgstr ""
+
+msgid "Uploaded to this checkout field"
+msgstr ""
+
+msgid "Parameters"
+msgstr ""
+
+msgid "System Name"
+msgstr ""
+
+msgid "Important! The plugin identifies this field thanks to the customer info. Only Latin lowercase letters, numbers, hyphens and underscores are allowed. The name must be unique."
+msgstr ""
+
+msgid "Checkbox"
+msgstr ""
+
+msgid "Country"
+msgstr ""
+
+msgid "Date of Birth"
+msgstr ""
+
+msgid "Email"
+msgstr ""
+
+msgid "Heading"
+msgstr ""
+
+msgid "Paragraph"
+msgstr ""
+
+msgid "Phone"
+msgstr ""
+
+msgid "Select"
+msgstr ""
+
+msgid "Text"
+msgstr ""
+
+msgid "Textarea"
+msgstr ""
+
+msgid "File Upload"
+msgstr ""
+
+msgid "Checkbox Text"
+msgstr ""
+
+msgid "Text Content"
+msgstr ""
+
+msgid "Short hint that describes the expected value of this field."
+msgstr ""
+
+msgid "Pattern"
+msgstr ""
+
+msgid "A regular expression that the input value must match to be valid. If using the pattern attribute, inform the user about the expected format. For example %s is a US phone number in the format of: 123-456-7890."
+msgstr ""
+
+msgid "Description"
+msgstr ""
+
+msgid "Any hint about this field you want to show to your customers."
+msgstr ""
+
+msgid "Additional CSS Class(es)"
+msgstr ""
+
+msgid "Separate multiple classes with spaces."
+msgstr ""
+
+msgid "Options"
+msgstr ""
+
+msgid "You can use the first option as a placeholder to provide guidance about what you expect: just leave the value of the option empty. Option Value is a system name for Visible Label. Visible Label is visible to users and you can edit it anytime."
+msgstr ""
+
+msgid "Option Value"
+msgstr ""
+
+msgid "Visible Label"
+msgstr ""
+
+msgid "Add Option"
+msgstr ""
+
+msgid "File Types"
+msgstr ""
+
+msgid "Allowed file extensions, separated by comma. For example: png, pdf, jpeg"
+msgstr ""
+
+msgid "Upload Size"
+msgstr ""
+
+msgid "Max upload file size in bytes. For example: 4000000"
+msgstr ""
+
+msgid "Checked by default"
+msgstr ""
+
+msgid "This field must be filled out before submitting the form."
+msgstr ""
+
+msgid "Display this field in the form."
+msgstr ""
+
+msgid "You cannot change the name of this system field."
+msgstr ""
+
+msgid "You cannot change the type of this system field."
+msgstr ""
+
+msgid "Email field is required. You can't make it optional."
+msgstr ""
+
+msgid "Email field is required. You can't disable it."
+msgstr ""
+
+msgid "Yes"
+msgstr ""
+
+msgid "No"
+msgstr ""
+
+msgid "Your Information"
+msgstr ""
+
+#. Translators: "Required fields are followed by <abbr>*</abbr>"
+msgid "Required fields are followed by %s"
+msgstr ""

@@ -1,0 +1,126 @@
+<wpml-config>
+    <custom-types>
+        <custom-type translate="0">mphb_booking</custom-type>
+        <custom-type translate="1">mphb_room_type</custom-type>
+        <custom-type translate="1">mphb_room_attribute</custom-type>
+        <custom-type translate="0">mphb_season</custom-type>
+        <custom-type translate="1">mphb_rate</custom-type>
+        <custom-type translate="1">mphb_room_service</custom-type>
+        <custom-type translate="0">mphb_room</custom-type>
+        <custom-type translate="0">mphb_payment</custom-type>
+        <custom-type translate="0">mphb_reserved_room</custom-type>
+        <custom-type translate="0">mphb_coupon</custom-type>
+    </custom-types>
+    <taxonomies>
+        <taxonomy translate="1">mphb_room_type_category</taxonomy>
+        <taxonomy translate="1">mphb_room_type_tag</taxonomy>
+        <taxonomy translate="1">mphb_room_type_facility</taxonomy>
+    </taxonomies>
+    <custom-fields>
+        <!-- Services -->
+        <custom-field action="copy">mphb_price</custom-field>
+        <custom-field action="copy">mphb_price_periodicity</custom-field>
+        <custom-field action="copy">mphb_min_quantity</custom-field>
+        <custom-field action="copy">mphb_is_auto_limit</custom-field>
+        <custom-field action="copy">mphb_max_quantity</custom-field>
+        <custom-field action="copy">mphb_price_quantity</custom-field>
+        <custom-field action="translate">mphb_description</custom-field>
+        <!-- Accommodation Types -->
+        <custom-field action="copy">mphb_adults_capacity</custom-field>
+        <custom-field action="copy">mphb_children_capacity</custom-field>
+        <custom-field action="copy">mphb_total_capacity</custom-field>
+        <custom-field action="copy">mphb_size</custom-field>
+        <custom-field action="translate">mphb_view</custom-field>
+        <custom-field action="translate">mphb_bed</custom-field>
+        <custom-field action="copy">mphb_gallery</custom-field>
+        <custom-field action="copy">mphb_services</custom-field>
+        <!-- Rates -->
+        <custom-field action="copy">mphb_room_type_id</custom-field>
+        <custom-field action="copy">mphb_season_prices</custom-field>
+        <!-- Attributes -->
+        <custom-field action="copy">mphb_public</custom-field>
+        <custom-field action="copy">mphb_visible</custom-field>
+        <custom-field action="copy">mphb_orderby</custom-field>
+        <custom-field action="translate">mphb_default_text</custom-field>
+        <custom-field action="copy">mphb_type</custom-field>
+    </custom-fields>
+    <admin-texts>
+        <!-- MPHB\Settings\MainSettings -->
+        <key name="mphb_children_age"/>
+        <key name="mphb_checkout_text"/>
+        <key name="mphb_disabled_booking_text"/>
+        <!-- MPHB\Emails\AbstractEmail -->
+        <key name="mphb_email_admin_pending_booking_subject"/>
+        <key name="mphb_email_admin_pending_booking_header"/>
+        <key name="mphb_email_admin_pending_booking_content"/>
+        <key name="mphb_email_admin_customer_confirmed_booking_subject"/>
+        <key name="mphb_email_admin_customer_confirmed_booking_header"/>
+        <key name="mphb_email_admin_customer_confirmed_booking_content"/>
+        <key name="mphb_email_admin_customer_cancelled_booking_subject"/>
+        <key name="mphb_email_admin_customer_cancelled_booking_header"/>
+        <key name="mphb_email_admin_customer_cancelled_booking_content"/>
+        <key name="mphb_email_admin_payment_confirmed_booking_subject"/>
+        <key name="mphb_email_admin_payment_confirmed_booking_header"/>
+        <key name="mphb_email_admin_payment_confirmed_booking_content"/>
+        <key name="mphb_email_customer_cancelled_booking_subject"/>
+        <key name="mphb_email_customer_cancelled_booking_header"/>
+        <key name="mphb_email_customer_cancelled_booking_content"/>
+        <key name="mphb_email_customer_pending_booking_subject"/>
+        <key name="mphb_email_customer_pending_booking_header"/>
+        <key name="mphb_email_customer_pending_booking_content"/>
+        <key name="mphb_email_customer_confirmation_booking_subject"/>
+        <key name="mphb_email_customer_confirmation_booking_header"/>
+        <key name="mphb_email_customer_confirmation_booking_content"/>
+        <key name="mphb_email_customer_approved_booking_subject"/>
+        <key name="mphb_email_customer_approved_booking_header"/>
+        <key name="mphb_email_customer_approved_booking_content"/>
+        <key name="mphb_email_customer_direct_bank_transfer_instructions_subject"/>
+        <key name="mphb_email_customer_direct_bank_transfer_instructions_header"/>
+        <key name="mphb_email_customer_direct_bank_transfer_instructions_content"/>
+        <!-- MPHB\Settings\EmailSettings -->
+        <key name="mphb_email_footer_text"/>
+        <key name="mphb_email_from_name"/>
+        <key name="mphb_email_reserved_room_details"/>
+        <key name="mphb_email_cancellation_details"/>
+        <!-- MPHB\Payments\Gateways\Gateway -->
+        <key name="mphb_payment_gateway_test_title"/>
+        <key name="mphb_payment_gateway_test_description"/>
+        <key name="mphb_payment_gateway_cash_title"/>
+        <key name="mphb_payment_gateway_cash_description"/>
+        <key name="mphb_payment_gateway_cash_instructions"/>
+        <key name="mphb_payment_gateway_bank_title"/>
+        <key name="mphb_payment_gateway_bank_description"/>
+        <key name="mphb_payment_gateway_bank_instructions"/>
+        <key name="mphb_payment_gateway_2checkout_title"/>
+        <key name="mphb_payment_gateway_2checkout_description"/>
+        <key name="mphb_payment_gateway_paypal_title"/>
+        <key name="mphb_payment_gateway_paypal_description"/>
+        <key name="mphb_payment_gateway_stripe_title"/>
+        <key name="mphb_payment_gateway_stripe_description"/>
+        <key name="mphb_payment_gateway_braintree_title"/>
+        <key name="mphb_payment_gateway_braintree_description"/>
+        <key name="mphb_payment_gateway_beanstream_title"/>
+        <key name="mphb_payment_gateway_beanstream_description"/>
+        <!-- Fees & Taxes -->
+        <key name="mphb_fees">
+            <key name="*">
+                <key name="label"/>
+            </key>
+        </key>
+        <key name="mphb_accommodation_taxes">
+            <key name="*">
+                <key name="label"/>
+            </key>
+        </key>
+        <key name="mphb_service_taxes">
+            <key name="*">
+                <key name="label"/>
+            </key>
+        </key>
+        <key name="mphb_fee_taxes">
+            <key name="*">
+                <key name="label"/>
+            </key>
+        </key>
+    </admin-texts>
+</wpml-config>

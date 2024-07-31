@@ -1,0 +1,6101 @@
+# Copyright (C) 2022 MotoPress
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: hotel-booking-plugin\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/motopress-hotel-booking\n"
+"Last-Translator: \n"
+"Language-Team: Dutch\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2022-11-15T19:41:55+00:00\n"
+"PO-Revision-Date: 2023-12-15 21:23\n"
+"X-Generator: WP-CLI 2.6.0\n"
+"X-Domain: motopress-hotel-booking\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: hotel-booking-plugin\n"
+"X-Crowdin-Project-ID: 463550\n"
+"X-Crowdin-Language: nl\n"
+"X-Crowdin-File: motopress-hotel-booking.pot\n"
+"X-Crowdin-File-ID: 44\n"
+"Language: nl_NL\n"
+
+#. Plugin Name of the plugin
+#. translators: Name of the plugin, do not translate
+msgid "Hotel Booking"
+msgstr "Hotel Booking"
+
+#. Plugin URI of the plugin
+msgid "https://motopress.com/products/hotel-booking/"
+msgstr ""
+
+#. Description of the plugin
+msgid "Manage your hotel booking services. Perfect for hotels, villas, guest houses, hostels, and apartments of all sizes."
+msgstr "Beheer uw hotelboekingsdiensten. Perfect voor hotels, gastverblijven, hostels en appartementen."
+
+#. Author of the plugin
+msgid "MotoPress"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://motopress.com/"
+msgstr ""
+
+msgctxt "Post Status"
+msgid "New"
+msgstr "Nieuw"
+
+msgctxt "Post Status"
+msgid "Auto Draft"
+msgstr ""
+
+msgctxt "Zero price"
+msgid "Free"
+msgstr "Gratis"
+
+#. translators: Price per one night. Example: $99 per night
+msgctxt "Price per one night. Example: $99 per night"
+msgid "per night"
+msgstr "per nacht"
+
+#. translators: Price for X nights. Example: $99 for 2 nights, $99 for 21 nights
+msgctxt "Price for X nights. Example: $99 for 2 nights, $99 for 21 nights"
+msgid "for %d nights"
+msgid_plural "for %d nights"
+msgstr[0] "voor %d nachten"
+msgstr[1] "voor %d nachten"
+
+#. translators: %s: URL to plugins.php page
+msgid "You are using two instances of Hotel Booking plugin at the same time, please <a href=\"%s\">deactivate one of them</a>."
+msgstr "U gebruikt twee exemplaren van de Hotel Booking-plug-in tegelijkertijd, <a href=\"%s\"> deactiveer een van hen </a>."
+
+msgid "<a href=\"%s\">Upgrade to Premium</a> to enable this feature."
+msgstr "<a href=\"%s\">Upgrade naar Premium</a> om deze optie te gebruiken."
+
+msgid "Nonce verification failed."
+msgstr "Nonce verificatie mislukt."
+
+msgid "The file does not exist."
+msgstr "Het bestand bestaat niet."
+
+msgid "Source ID is missing."
+msgstr "Bron-ID ontbreekt."
+
+msgid "Error"
+msgstr "Fout"
+
+msgid "View"
+msgstr "Bekijk"
+
+msgid "Delete"
+msgstr "Wis"
+
+msgid "Name"
+msgstr "Naam"
+
+msgid "Email"
+msgstr "E-mail"
+
+msgid "Bookings"
+msgstr "Reserveringen"
+
+msgid "Date Registered"
+msgstr "Datum Geregistreerd"
+
+msgid "Last Active"
+msgstr "Laatst Actief"
+
+#. translators: Terms are variations for Attributes and bear no relation to the Terms and Conditions Page.
+msgid "Terms"
+msgstr "Voorwaarden"
+
+msgid "Created on:"
+msgstr "Gemaakt op:"
+
+#. translators: Terms are variations for Attributes and bear no relation to the Terms and Conditions Page.
+msgid "Please add attribute in default language to configure terms."
+msgstr "Voeg een kenmerk in de standaardtaal toe om voorwaarden te configureren."
+
+#. translators: Terms are variations for Attributes and bear no relation to the Terms and Conditions Page.
+msgid "Configure terms"
+msgstr "Configureer voorwaarden"
+
+msgid "Reserved Accommodations"
+msgstr "Gereserveerde accommodaties"
+
+msgid "Update Booking"
+msgstr "Reservering bijwerken"
+
+msgid "Logs"
+msgstr "Logboeken"
+
+msgid "Delete Permanently"
+msgstr "Permanent Verwijderen"
+
+msgid "Move to Trash"
+msgstr "Naar prullenbak verplaatsen"
+
+msgid "Create Booking"
+msgstr "Reservering aanmaken"
+
+msgid "Resend Email"
+msgstr "E-mail opnieuw verzenden"
+
+msgid "Send a copy of the Approved Booking email to the customer`s email address."
+msgstr "Stuur een kopie van de Goedgekeurde boekingsmail naar het e-mailadres van de klant."
+
+msgid "Edit Accommodations"
+msgstr "Pas Accommodaties aan"
+
+msgid "Date:"
+msgstr "Datum:"
+
+msgid "Author:"
+msgstr "Auteur:"
+
+msgid "Auto"
+msgstr "Auto"
+
+msgid "Message:"
+msgstr "Bericht:"
+
+msgid "Confirmation email has been sent to customer."
+msgstr "Bevestigingsmail is verzonden naar de klant."
+
+msgid "Coupon code"
+msgstr "Couponcode"
+
+msgid "Update Payment"
+msgstr "Betaling bijwerken"
+
+msgid "Modified on:"
+msgstr "Gewijzigd op:"
+
+msgid "Create Payment"
+msgstr "Betaling aanmaken"
+
+msgid "Season Prices"
+msgstr "Seizoensprijzen"
+
+msgid "<code>Please select Accommodation Type and click Create Rate button to continue.</code>"
+msgstr "<code> Selecteer het type accommodatie en klik op de knop Maak tarief om door te gaan. </code>"
+
+msgid "Update Rate"
+msgstr "Tarief bijwerken"
+
+msgid "Active"
+msgstr "Actief"
+
+msgid "Disabled"
+msgstr "Uitgeschakeld"
+
+msgid "Create Rate"
+msgstr "Tarief aanmaken"
+
+msgid "Duplicate Rate"
+msgstr "Bedrag verdubbelen"
+
+msgid "Generate Accommodations"
+msgstr "Genereer Accommodaties"
+
+msgid "Attributes"
+msgstr "Kenmerken"
+
+msgid "Accommodation Reviews"
+msgstr "Accommodatie beoordelingen"
+
+msgid "Allow guests to <a href=\"%s\" target=\"_blank\">submit star ratings and reviews</a> evaluating your accommodations."
+msgstr "Sta gasten toe om <a href=\"%s\" target=\"_blank\"> sterbeoordelingen en beoordelingen in te dienen </a> om uw accommodaties te evalueren."
+
+msgid "Number of Accommodations:"
+msgstr "Aantal Accommodaties:"
+
+msgid "Count of real accommodations of this type in your hotel."
+msgstr "Aantal werkelijke accommodaties van dit type in uw hotel."
+
+msgid "Total Accommodations:"
+msgstr "Totaal Accommodaties:"
+
+msgid "Show Accommodations"
+msgstr "Toon accommodaties"
+
+msgid "Active Accommodations:"
+msgstr "Beschikbare accommodaties:"
+
+msgid "Add"
+msgstr "Toevoegen"
+
+msgid "Per adult:"
+msgstr "Per volwassene:"
+
+msgid "Per child:"
+msgstr "Per kind:"
+
+msgid "Per adult: "
+msgstr "Per volwassene: "
+
+msgid "Per child: "
+msgstr "Per kind: "
+
+msgid "Actions"
+msgstr "Acties"
+
+msgid "Default"
+msgstr "Standaard"
+
+msgid "— Select —"
+msgstr "— Kies —"
+
+msgid "Install & Activate"
+msgstr "Installeren & activeren"
+
+msgid "Add image"
+msgstr "Voeg afbeelding toe"
+
+msgid "Add gallery"
+msgstr "Galerij toevoegen"
+
+msgid "Remove image"
+msgstr "Verwijder afbeelding"
+
+msgid "Remove gallery"
+msgstr "Galerij verwijderen"
+
+msgid "Select all"
+msgstr "Selecteer alle"
+
+msgid "Unselect all"
+msgstr "Deselecteer alles"
+
+msgid "Date"
+msgstr "Datum"
+
+msgid "Author"
+msgstr "Auteur"
+
+msgid "Edit"
+msgstr "Bewerk"
+
+msgid "Done"
+msgstr "Klaar"
+
+msgid "All"
+msgstr "Alle"
+
+msgid "None"
+msgstr "Geen"
+
+msgid "HH:MM"
+msgstr "HH:MM"
+
+msgid "Recalculate Total Price"
+msgstr "Totaalprijs berekenen"
+
+msgid "Nights"
+msgstr "Nachten"
+
+msgid "and more"
+msgstr "en meer"
+
+msgid "Remove"
+msgstr "Verwijderen"
+
+msgid "Add length of stay"
+msgstr "Voeg verblijfsduur toe"
+
+msgid "Adults"
+msgstr "Volwassenen"
+
+msgid "Children"
+msgstr "Kinderen"
+
+msgid "Price per night"
+msgstr "Prijs per nacht"
+
+msgid "Enable variable pricing"
+msgstr "Schakel variabele prijzen in"
+
+msgid "Add Variation"
+msgstr "Voeg variatie toe"
+
+msgid "Remove variation"
+msgstr "Verwijder variatie"
+
+msgid "The License Key is required in order to get automatic plugin updates and support. You can manage your License Key in your personal account. <a href='https://motopress.zendesk.com/hc/en-us/articles/202812996-How-to-use-your-personal-MotoPress-account' target='_blank'>Learn more</a>."
+msgstr "Een licentiesleutel is vereist om automatische updates en ondersteuning te krijgen. U kunt uw  licentiesleutel in uw account beheren.  <a href='https://motopress.zendesk.com/hc/en-us/articles/202812996-How-to-use-your-personal-MotoPress-account' target='_blank'>Meer leren</a>."
+
+msgid "License Key"
+msgstr "Licentiesleutel"
+
+msgid "Status"
+msgstr "Gepubliceerd"
+
+msgid "Inactive"
+msgstr "Inactief"
+
+msgid "Valid until"
+msgstr "Geldig tot"
+
+msgid "Valid (Lifetime)"
+msgstr "Geldig (looptijd)"
+
+msgid "Expired"
+msgstr "Verlopen"
+
+msgid "Invalid"
+msgstr "Ongeldig"
+
+msgid "Your License Key does not match the installed plugin. <a href='https://motopress.zendesk.com/hc/en-us/articles/202957243-What-to-do-if-the-license-key-doesn-t-correspond-with-the-plugin-license' target='_blank'>How to fix this.</a>"
+msgstr "Uw licentiesleutel blijkt ongeldig te zijn. <a href='https://motopress.zendesk.com/hc/en-us/articles/202957243-What-to-do-if-the-license-key-doesn-t-correspond-with-the-plugin-license' target='_blank'>Hoe los je dit op?.</a>"
+
+msgid "Product ID is not valid"
+msgstr "Product-ID is niet geldig"
+
+msgid "Action"
+msgstr "Actie"
+
+msgid "Activate License"
+msgstr "Licentie activeren"
+
+msgid "Deactivate License"
+msgstr "Licentie deactiveren"
+
+msgid "Renew License"
+msgstr "Licentie verlengen"
+
+msgid "Attributes let you define extra accommodation data, such as location or type. You can use these attributes in the search availability form as advanced search filters."
+msgstr "Met kenmerken kunt u extra accommodatiegegevens definiëren, zoals locatie of type. U kunt deze kenmerken in het zoekformulier gebruiken als geavanceerde zoekfilters."
+
+msgid "This attribute refers to non-unique taxonomy - %1$s - which was already registered with attribute %2$s."
+msgstr "Dit kenmerk verwijst naar niet-unieke taxonomie -%1$s - die al was geregistreerd met kenmerk %2$s."
+
+#. translators: Terms are variations for Attributes and bear no relation to the Terms and Conditions Page.
+msgid "You cannot manage terms of trashed attributes."
+msgstr "U kunt geen termen voor gewiste kenmerken beheren."
+
+msgid "New Booking"
+msgstr "Nieuwe reservering"
+
+msgid "ID"
+msgstr "ID"
+
+msgid "Check-in / Check-out"
+msgstr "Inchecken / Uitchecken"
+
+msgid "Guests"
+msgstr "Gasten"
+
+msgid "Customer Info"
+msgstr "Klantgegevens"
+
+msgid "Price"
+msgstr "Prijs"
+
+msgid "Accommodation"
+msgstr "Accommodatie"
+
+msgid "Booking #%s"
+msgstr "Boeking #%s"
+
+msgid "Expire %s"
+msgstr "Verlopen %s"
+
+msgid "Adults: "
+msgstr "Volwassenen: "
+
+msgid "Children: "
+msgstr "Kinderen: "
+
+msgid "%s night"
+msgid_plural "%s nights"
+msgstr[0] "%s nacht"
+msgstr[1] "%s nachten"
+
+msgid "Summary: %s."
+msgstr "Samenvatting: %s."
+
+msgid "Paid: %s"
+msgstr "Betaald: %s"
+
+msgid "Set to %s"
+msgstr "%s instellen"
+
+msgid "Booking status changed."
+msgid_plural "%s booking statuses changed."
+msgstr[0] "Boekingsstatus is gewijzigd."
+msgstr[1] "%s boekingsstatussen zijn gewijzigd."
+
+msgid "All accommodation types"
+msgstr "Alle typen accommodaties"
+
+#. translators: The number of imported bookings: "Imported <span>(11)</span>"
+msgid "Imported %s"
+msgstr "Geïmporteerde %s"
+
+msgid "Customer"
+msgstr "Klant"
+
+msgid "Amount"
+msgstr "Bedrag"
+
+msgid "Booking"
+msgstr "Reservering"
+
+msgid "Gateway"
+msgstr ""
+
+msgid "Transaction ID"
+msgstr "Transactie ID"
+
+msgid "Created/Modified Date"
+msgstr "Aangemaakte/Gewijzigde Datum"
+
+msgid "Payment #%s"
+msgstr "Betaling #%s"
+
+msgid "Created on: "
+msgstr "Gemaakt op: "
+
+msgid "Modified on: "
+msgstr "Gewijzigd op: "
+
+msgid "Rates are used to offer different prices of the same accommodation type depending on extra conditions. E.g. Double room with breakfast included; double room with no breakfast. Guests will choose the preferable rate when submitting a booking request."
+msgstr "Tarieven worden gebruikt om verschillende prijzen van hetzelfde type accommodatie afhankelijk van extra voorwaarden bieden. BV Tweepersoonskamer met ontbijt inbegrepen; Tweepersoonskamer met geen ontbijt. Gasten zullen de voorkeur tarief kiezen bij het indienen van een boekingsaanvraag."
+
+msgid "Accommodation Type"
+msgstr "Type Kamer"
+
+msgid "Season &#8212; Price"
+msgstr "Seizoen &#8212; Prijs"
+
+msgid "Duplicate"
+msgstr "Verdubbelen"
+
+msgid "Rate was duplicated."
+msgstr "Bedrag werd verdubbeld."
+
+msgid "These are real accommodations like rooms, apartments, houses, villas, beds (for hostels) etc."
+msgstr "Deze zijn echte accommodaties zoals kamers, appartementen, huizen, villa's, bedden (voor hostels) enz."
+
+msgid "All Accommodation Types"
+msgstr "Alle Typen Kamers"
+
+msgid "These are not physical accommodations, but their types. E.g. standard double room. To specify the real number of existing accommodations, you'll need to use Generate Accommodations menu."
+msgstr "Dit zijn geen fysieke accommodaties, maar hun typen. Bijvoorbeeld standaard tweepersoonskamer. Als u het werkelijke aantal van de bestaande accommodaties wenst op te geven, moet u Accommodaties generatie-menu gebruiken."
+
+msgid "Capacity"
+msgstr "Capaciteit"
+
+msgid "Bed Type"
+msgstr "Type bed"
+
+msgid "Accommodations"
+msgstr "Accommodaties"
+
+msgid "Total:"
+msgstr "Totaal:"
+
+msgid "Adults:"
+msgstr "Volwassenen:"
+
+msgid "Children:"
+msgstr "Kinderen:"
+
+msgid "Size:"
+msgstr "Grootte:"
+
+msgid "Active:"
+msgstr "Actief:"
+
+msgid "Seasons are real periods of time, dates or days that come with different prices for accommodations. E.g. Winter 2018 ($120 per night), Christmas ($150 per night)."
+msgstr "Seizoenen zijn werkelijke tijdsperioden, data’s of dagen die met verschillende prijzen voor accommodaties komen. BV De winter van 2018 ($120 per nacht), Kerstmis ($150 per nacht)."
+
+msgid "Start"
+msgstr "Start"
+
+msgid "End"
+msgstr "Eind"
+
+msgid "Days"
+msgstr "Dagen"
+
+msgid "Services are extra offers that you can sell or give for free. E.g. Thai massage, transfer, babysitting. Guests can pre-order them when placing a booking."
+msgstr "Diensten zijn extra aanbiedingen die u kunt verkopen of kosteloos aanbieden. BV Thaise massage, overdracht, babysitten. Gasten kunnen ze bij het plaatsen van een boeking reeds bestellen."
+
+msgid "Periodicity"
+msgstr "Periodiciteit"
+
+msgid "Charge"
+msgstr "Aanrekenen"
+
+msgid "Per Day"
+msgstr "Per dag"
+
+msgid "Guest Choice"
+msgstr "Keuze gast"
+
+msgid "Once"
+msgstr "Eenmaal"
+
+msgid "Per Guest"
+msgstr "Per gast"
+
+msgid "Per Accommodation"
+msgstr "Per accommodatie"
+
+msgid "These are accommodation amenities, generally free ones. E.g. air-conditioning, wifi."
+msgstr "Dit zijn accommodatie-faciliteiten, die over het algemeen gratis zijn. Bijvoorbeeld airconditioning, wifi."
+
+msgid "Booking rules saved."
+msgstr "Boekingsregels opgeslagen."
+
+msgid "Booking Rules"
+msgstr "Boekingsregels"
+
+msgid "Save Changes"
+msgstr "Bewaar wijzigingen"
+
+msgid "Check-in days"
+msgstr "Inchecken dagen"
+
+msgid "Guests can check in any day."
+msgstr "Gasten kunnen elke dag inchecken."
+
+msgid "Add rule"
+msgstr "Regel toevoegen"
+
+msgid "Seasons"
+msgstr "Seizoenen"
+
+msgid "Check-out days"
+msgstr "Uitcheck dagen"
+
+msgid "Guests can check out any day."
+msgstr "Gasten kunnen elke dag uitchecken."
+
+msgid "Minimum stay"
+msgstr "Minimum verblijf"
+
+msgid "There are no minimum stay rules."
+msgstr "Er zijn geen minimum verblijfsregels."
+
+msgid "nights"
+msgstr "nachten"
+
+msgid "Maximum stay"
+msgstr "Maximum verblijf"
+
+msgid "There are no maximum stay rules."
+msgstr "Er zijn geen maximale verblijfsregels."
+
+msgid "Block accommodation"
+msgstr "Blokkeer accommodatie"
+
+msgid "There are no blocking accommodation rules."
+msgstr "Er zijn geen blokkerende accommodatieregels."
+
+msgid "From"
+msgstr "Van"
+
+msgid "Till"
+msgstr "Tot"
+
+msgid "Restriction"
+msgstr "Beperking"
+
+msgid "Not check-in rule marks the date as unavailable for check-in."
+msgstr "Niet inchecken regel markeert de datum als niet beschikbaar voor inchecken."
+
+msgid "Not check-out rule marks the date as unavailable for check-out."
+msgstr "Niet uitchecken regel markeert de datum als niet beschikbaar voor uitchecken."
+
+msgid "Not stay-in rule displays the date as blocked. This date is unavailable for check-out and check-in on the next date."
+msgstr ""
+
+msgid "Not stay-in with Not check-out rules completely block the selected date, additionally displaying the previous date as unavailable for check-in."
+msgstr ""
+
+msgid "Not check-in"
+msgstr "Niet inchecken"
+
+msgid "Not check-out"
+msgstr "Niet uitchecken"
+
+msgid "Not stay-in"
+msgstr "Niet verblijven"
+
+msgid "Comment"
+msgstr "Commentaar"
+
+msgid "Minimum advance reservation"
+msgstr ""
+
+msgid "There are no minimum advance reservation rules."
+msgstr ""
+
+msgid "Maximum advance reservation"
+msgstr ""
+
+msgid "There are no maximum advance reservation rules."
+msgstr ""
+
+msgid "Booking buffer"
+msgstr "Boeking buffer"
+
+msgid "There are no booking buffer rules."
+msgstr ""
+
+msgid "Booking Calendar"
+msgstr "Boekingskalender"
+
+msgid "Calendar"
+msgstr "Kalender"
+
+msgid "Add New Booking"
+msgstr "Nieuwe reservering Toevoegen"
+
+msgid "Clear Search Results"
+msgstr "Zoekresultaten wissen"
+
+msgid "Note: booking rules are disabled in the plugin settings and are not taken into account."
+msgstr ""
+
+msgid "Unable to create booking. Please try again."
+msgstr "Onmogelijk te reserveren. Probeer opnieuw."
+
+msgid "Booking is blocked due to maintenance reason. Please try again later."
+msgstr "Boeking is geblokkeerd wegens onderhoud. Probeer het later nog eens."
+
+msgid "There are no accommodations selected for reservation."
+msgstr "Er zijn geen accommodaties geselecteerd voor reservering."
+
+msgid "Selected accommodations are not valid."
+msgstr "Geselecteerde accommodaties zijn niet geldig."
+
+msgid "Accommodation Type is not valid."
+msgstr "Type accommodatie is ongeldig."
+
+msgid "Rate is not valid."
+msgstr "Het tarief is ongeldig."
+
+msgid "Adults number is not valid."
+msgstr "Aantal volwassenen is niet geldig."
+
+msgid "Children number is not valid."
+msgstr "Aantal kinderen is niet geldig."
+
+msgid "The total number of guests is not valid."
+msgstr "Het totaal aantal gasten is ongeldig."
+
+msgid "Selected dates do not meet booking rules for type %s"
+msgstr "Geselecteerde datums voldoen niet aan de boekingsregels voor type %s"
+
+msgid "Accommodations are not available."
+msgstr "Accommodaties zijn niet beschikbaar."
+
+msgid "There are no rates for requested dates."
+msgstr "Er zijn geen tarieven beschikbaar voor de geselecteerde data."
+
+msgid "Search Results"
+msgstr "Zoekresultaten"
+
+msgid "— Any —"
+msgstr "— Elke —"
+
+msgid "Search parameters are not set."
+msgstr "Zoekparameters zijn niet ingesteld."
+
+msgid "Check-in date is not valid."
+msgstr "Incheckdatum is ongeldig."
+
+msgid "Check-in date cannot be earlier than today."
+msgstr "De incheckdatum kan niet in het verleden liggen."
+
+msgid "Check-out date is not valid."
+msgstr "Uitcheckdatum is ongeldig."
+
+msgid "Nothing found. Please try again with different search parameters."
+msgstr "Niets gevonden. Probeer het opnieuw met verschillende zoekparameters."
+
+msgid "Sorry, you are not allowed to access this page."
+msgstr ""
+
+msgid "User ID"
+msgstr ""
+
+msgid "Username"
+msgstr "Gebruikersnaam"
+
+msgid "First Name"
+msgstr "Voornaam"
+
+msgid "Last Name"
+msgstr "Achternaam"
+
+msgid "Phone"
+msgstr "Telefoonnummer"
+
+msgid "Address"
+msgstr "Adres"
+
+msgid "State / County"
+msgstr "Staat/Provincie"
+
+msgid "Country"
+msgstr "Land"
+
+msgid "City"
+msgstr "Stad"
+
+msgid "Postcode"
+msgstr ""
+
+msgid "Customer data updated."
+msgstr "Klantgegevens bijgewerkt."
+
+msgid "User account updated."
+msgstr "Gebruikersaccount bijgewerkt."
+
+msgid "Edit User Profile"
+msgstr "Gebruikersprofiel bewerken"
+
+msgid "Update"
+msgstr "Bijwerken"
+
+msgid "Customers"
+msgstr "Klanten"
+
+msgid "The booking is not set."
+msgstr "De boeking is niet afgerond."
+
+msgid "The booking not found."
+msgstr "De boeking niet gevonden."
+
+msgid "Edit Booking #%d"
+msgstr "Aanpassen boeking #%d"
+
+msgid "Cancel"
+msgstr "Annuleer"
+
+msgid "Back"
+msgstr "Terug"
+
+msgid "Edit Booking"
+msgstr "Reservering bewerken"
+
+msgid "You cannot edit the imported booking. Please update the source booking and resync your calendars."
+msgstr "Je kan geen geïmporteerde boeking aanpassen. Update de boeking in de originele bron en synchroniseer je kalender opnieuw."
+
+msgid "Request does not pass security verification. Please refresh the page and try one more time."
+msgstr "Verzoek voldoet niet aan veiligheidscontrole. U kunt de pagina vernieuwen en opnieuw proberen."
+
+msgid "Check-in date is not set."
+msgstr "Geen incheckdatum gekozen."
+
+msgid "Check-out date is not set."
+msgstr "Geen uitcheckdatum gekozen."
+
+msgid "Unable to update booking. Please try again."
+msgstr "Kan boeking niet aanpassen. Probeer opnieuw."
+
+msgid "Booking was edited."
+msgstr "Boeking aangepast."
+
+msgid "Available"
+msgstr "Beschikbaar"
+
+msgid "Replace"
+msgstr "Vervang"
+
+msgid "— Add new —"
+msgstr "— Voeg nieuwe toe —"
+
+msgid "Extensions"
+msgstr "Uitbreidingen"
+
+msgid "Extend the functionality of Hotel Booking plugin with the number of helpful addons for your custom purposes."
+msgstr "Breid de functionaliteit van de Hotel Booking-plug-in uit met het aantal nuttige add-ons voor uw aangepaste doeleinden."
+
+msgid "Get this Extension"
+msgstr "Download deze extensie"
+
+msgid "No extensions found."
+msgstr "Geen extensies gevonden."
+
+msgid "Abort Process"
+msgstr "Onderbreek verwerking"
+
+msgid "Aborting..."
+msgstr "Onderbreken..."
+
+msgid "Import Calendar"
+msgstr "Importeer kalender"
+
+msgid "Accommodation: %s"
+msgstr "Accommodatie: %s"
+
+msgid "Accommodation Type: %s"
+msgstr "Type accommodatie: %s"
+
+msgid "Please be patient while the calendars are imported. You will be notified via this page when the process is completed."
+msgstr "Even geduld terwijl de kalenders worden geïmporteerd. U wordt via deze pagina op de hoogte gebracht wanneer het proces is voltooid."
+
+msgid "Accommodation updated."
+msgstr "Accommodatie bijgewerkt."
+
+msgid "This calendar has already been imported for another accommodation."
+msgstr "Deze kalender is al geïmporteerd voor een andere accommodatie."
+
+msgid "Sync, Import and Export Calendars"
+msgstr "Agenda's synchroniseren, importeren en exporteren"
+
+#. translators: %s - room name. Example: "Comfort Triple 1"
+msgid "Edit External Calendars of \"%s\""
+msgstr "Bewerk externe kalenders van \"%s\""
+
+msgid "Sync All External Calendars"
+msgstr "Synchroniseer alle kalenders"
+
+msgid "Sync your bookings across all online channels like Booking.com, TripAdvisor, Airbnb etc. via iCalendar file format."
+msgstr "Synchroniseer uw boekingen via alle online kanalen zoals Booking.com, TripAdvisor, Airbnb etc. via het bestandsformaat iCalendar."
+
+msgid "Calendar URL"
+msgstr "URL kalender"
+
+msgid "Add New Calendar"
+msgstr "Nieuwe kalender toevoegen"
+
+msgid "Sync Calendars"
+msgstr "Kalenders synchroniseren"
+
+msgid "Delete All Logs"
+msgstr "Wis alle logs"
+
+msgid "Deleting..."
+msgstr "Wissen..."
+
+msgid "%d item"
+msgstr "%d onderdeel"
+
+msgid "%d items"
+msgstr "%d onderdelen"
+
+msgid "Calendars Synchronization Status"
+msgstr "Kalenders synchronisatiestatus"
+
+msgid "Here you can see synchronization status of your external calendars."
+msgstr "Hier kunt u de synchronisatiestatus van uw externe agenda's bekijken."
+
+msgid "Calendars Sync Status"
+msgstr "Agendastatus synchroniseren"
+
+msgid "Display calendars synchronization status."
+msgstr "Synchronisatiestatus van agenda's weergeven."
+
+msgid "Language Guide"
+msgstr "Taalgids"
+
+msgid "Default language"
+msgstr "Standaardtaal"
+
+msgid "This plugin will display all system messages, labels, buttons in the language set in <em>General > Settings > Site Language</em>. If the plugin is not available in your language, you may <a href=\"%s\">contribute your translation</a>."
+msgstr "Deze plug-in zal alle meldingen, labels en knoppen in die taal tonen, die ingesteld is in <em>Algemeen >Instellingen > Taal van site</em>. Als deze plug-in is niet beschikbaar in uw taal, kunt u <a href=\"%s\">met de vertalingen helpen</a>."
+
+msgid "Custom translations and edits"
+msgstr "Op maat gemaakte vertalingen en bewerkingen"
+
+msgid "You may customize plugin translation by editing the needed texts or adding your translation following these steps:"
+msgstr "U kunt de vertaling van plug-in aanpassen door nodige teksten te bewerken of eigen vertaling toe te voegen, volg deze stappen:"
+
+msgid "Take the source file for your translations %s or needed translated locale."
+msgstr "Kies een bronbestand voor uw vertalingen %s of een nodige vertaalde locale."
+
+msgid "Translate texts with any translation program like Poedit, Loco, Pootle etc."
+msgstr "U kunt verschillende vertaalprogramma's gebruiken, zoals Poedit, Loco, Pootle etc."
+
+msgid "Put created .mo file with your translations into the folder %s. Where {lang} is ISO-639 language code and {country} is ISO-3166 country code. Example: Brazilian Portuguese file would be called motopress-hotel-booking-pt_BR.mo."
+msgstr "Zet het .mo bestand met uw vertalingen in de map %s. {lang} is ISO-639 de taalcode en {country} is ISO-3166 de landcode. Voorbeeld: Braziliaanse Portugees bestand wordt genoemd motopress-hotel-booking-pt_BR.mo."
+
+msgid "Multilingual content"
+msgstr "Meertalige inhoud"
+
+msgid "If your site is multilingual, you may use additional plugins to translate your added content into multiple languages allowing the site visitors to switch them."
+msgstr "Indien uw website meertalig is, kunt u extra plug-ins gebruiken om de inhoud in meerdere talen te vertalen en aan uw sitebezoekers een mogelijkheid te geven tussen talen te schakelen."
+
+msgid "Language"
+msgstr "Taal"
+
+msgid "Reports"
+msgstr "Rapporten"
+
+msgid "Export"
+msgstr "Exporteer"
+
+msgid "All Statuses"
+msgstr "Alle statussen"
+
+msgid "Booking dates between"
+msgstr "Boekingsdata tussen"
+
+msgid "Check-in date between"
+msgstr "Aankomstdatum tussen"
+
+msgid "Check-out date between"
+msgstr "Vertrekdatum tussen"
+
+msgid "In-house between"
+msgstr "In-house tussen"
+
+msgid "Date of reservation between"
+msgstr "Reserveringsdatum tussen"
+
+msgid "Export Bookings"
+msgstr "Export boekingen"
+
+msgid "Choose start date"
+msgstr "Kies startdatum"
+
+msgid "Choose end date"
+msgstr "Kies einddatum"
+
+msgid "Select columns to export"
+msgstr "Kies kolommen om te exporteren"
+
+msgid "Generate CSV"
+msgstr "Genereer CSV"
+
+msgid "Number of accommodations"
+msgstr "Aantal kamers"
+
+msgid "Title"
+msgstr "Titel"
+
+msgid "Leave empty to use accommodation type title."
+msgstr "Laat leeg om titel van het type accommodatie te gebruiken."
+
+msgid "Generate"
+msgstr "Genereren"
+
+msgid "Accommodation generated."
+msgid_plural "%s accommodations generated."
+msgstr[0] "Accommodatie gegenereerd."
+msgstr[1] "%s accommodaties gegenereerd."
+
+msgid "General"
+msgstr "Algemeen"
+
+msgid "Pages"
+msgstr "Pagina's"
+
+msgid "Search Results Page"
+msgstr "Pagina met zoekresultaten"
+
+msgid "Select page to display search results. Use search results shortcode on this page."
+msgstr "Kies een pagina om zoekresultaten te tonen. Maak gebruik van een zoekresultaten shortcode."
+
+msgid "Checkout Page"
+msgstr "Afrekenpagina"
+
+msgid "Select page user will be redirected to complete booking."
+msgstr "Naar deze pagina wordt de klant doorverwezen om de reservering te voltooien."
+
+msgid "Terms & Conditions"
+msgstr "Algemene Voorwaarden"
+
+msgid "If you define a \"Terms\" page the customer will be asked if they accept them when checking out."
+msgstr "Als u een pagina 'Voorwaarden' definieert, wordt aan de klant gevraagd of deze deze accepteert bij het uitchecken."
+
+msgid "Open the Terms & Conditions page in a new window"
+msgstr "Open de Algemene Voorwaarden pagina in een nieuw venster"
+
+msgid "By enabling this option you can avoid errors related to displaying your terms & conditions inline for website pages created in page builders."
+msgstr ""
+
+msgid "My Account Page"
+msgstr "Mijn Accountpagina"
+
+msgid "Select a page to display user account. Use the customer account shortcode on this page."
+msgstr ""
+
+msgid "Misc"
+msgstr "Diverse"
+
+msgid "Square Units"
+msgstr "Vierkante eenheden"
+
+msgid "Currency"
+msgstr "Valuta"
+
+msgid "Currency Position"
+msgstr "Valutapositie"
+
+msgid "Datepicker Date Format"
+msgstr "Datumformaat in Datapicker"
+
+msgid "Check-out Time"
+msgstr "Uitchecktijd"
+
+msgid "Check-in Time"
+msgstr "Inchecktijd"
+
+msgid "Bed Types"
+msgstr "Types Bedden"
+
+msgid "Type"
+msgstr "Type"
+
+msgid "Add Bed Type"
+msgstr "Type bed toevoegen"
+
+msgid "Show Lowest Price for"
+msgstr "Toon de laagste prijs voor"
+
+msgid "days"
+msgstr "dagen"
+
+msgid "Lowest price of accommodation for selected number of days if check-in and check-out dates are not set. Example: set 0 to display today's lowest price, set 7 to display the lowest price for the next week."
+msgstr "De laagste prijzen voor accommodaties voor het aantal dagen die u gekozen hebt als aankomst- en vertrekdatum niet vastgesteld zijn. Voorbeeld: kies 0 op de laagste prijs van vandaag te zien, kies 7 om de laagste vrijs van het week te zien."
+
+msgid "Enable search form to recommend the best set of accommodations according to a number of guests."
+msgstr "Zoekformulier inschakelen om de beste accommodaties-set naargelang het aantal gasten aan te bevelen."
+
+msgid "Enable the use of coupons."
+msgstr "Het gebruik van coupons inschakelen."
+
+msgid "Text on Checkout"
+msgstr "Tekst bij het afrekenen"
+
+msgid "This text will appear on the checkout page."
+msgstr "Deze tekst verschijnt op de betaalpagina."
+
+msgid "Disable Booking"
+msgstr "Reservering uitschakelen"
+
+msgid "Hide reservation forms and buttons"
+msgstr "Boekingsformulieren en knoppen verbergen"
+
+msgid "Text instead of reservation form while booking is disabled"
+msgstr "Tekst in plaats van boekingsformulier als reserveren uitgeschakeld is"
+
+msgid "Booking Confirmation"
+msgstr "Boekingsbevestiging"
+
+msgid "Confirmation Mode"
+msgstr "Bevestigingswijze"
+
+msgid "By customer via email"
+msgstr "Via e-mail door klant"
+
+msgid "By admin manually"
+msgstr "Handmatig door beheerder"
+
+msgid "Confirmation upon payment"
+msgstr "Bevestiging na betaling"
+
+msgid "Booking Confirmed Page"
+msgstr "Pagina 'Bevestigde boeking'"
+
+msgid "Page user will be redirected to once the booking is confirmed via email or by admin."
+msgstr "De gebruiker van de pagina wordt doorgestuurd zodra de boeking is bevestigd via e-mail of door de beheerder."
+
+msgid "Approval Time for User"
+msgstr "Goedkeuringstijd voor gebruiker"
+
+msgid "Period of time in minutes the user is given to confirm booking via email. Unconfirmed bookings become Abandoned and accommodation status changes to Available."
+msgstr "Tijdsperiode is minuten om reservering te bevestigen. Onbevestigde reserveringen wordt 'opgeheven' en boekingsstatus verandert in 'beschikbaar'."
+
+msgid "Country of residence field is required for reservation."
+msgstr "Het land is vereist voor de reservering."
+
+msgid "Full address fields are required for reservation."
+msgstr "Volledig adresvelden zijn vereist voor de reservering."
+
+msgid "Customer information is required when placing admin bookings."
+msgstr "Klantinformatie is vereist bij het plaatsen van beheerder-boekingen."
+
+msgid "Default Country on Checkout"
+msgstr "Standaardland bij het afrekenen"
+
+msgid "Price Breakdown"
+msgstr "Prijsopbouw"
+
+msgid "Price breakdown unfolded by default."
+msgstr "Prijsverdeling standaard uitgevouwen."
+
+msgid "Accounts"
+msgstr ""
+
+msgid "Account creation"
+msgstr ""
+
+msgid "Automatically create an account for a user at checkout."
+msgstr ""
+
+msgid "Allow customers to create an account during checkout."
+msgstr ""
+
+msgid "Allow customers to log into their existing account during checkout."
+msgstr ""
+
+msgid "Booking Cancellation"
+msgstr "Annulering van reservering"
+
+msgid "User can cancel booking via link provided inside email."
+msgstr "Een gebruiker kan een reservering annuleren alleen via link in een e-mail."
+
+msgid "Booking Cancelation Page"
+msgstr ""
+
+msgid "Page to confirm booking cancelation."
+msgstr ""
+
+msgid "Booking Canceled Page"
+msgstr ""
+
+msgid "Page to redirect to after a booking is canceled."
+msgstr ""
+
+msgid "Search Options"
+msgstr "Zoekopties"
+
+msgid "Maximum accommodation occupancy available in the Search Form."
+msgstr "Maximum bezetting accommodatie beschikbaar in het zoekformulier."
+
+msgid "Max Adults"
+msgstr "Max. volwassenen"
+
+msgid "Max Children"
+msgstr "Max. kinderen"
+
+msgid "Age of Child"
+msgstr "Leeftijd van het kind"
+
+msgid "Optional description of the \"Children\" field."
+msgstr "Optionele beschrijving van het veld \"Kinderen\"."
+
+msgid "Skip Search Results"
+msgstr "Zoekresultaten overslaan"
+
+msgid "Skip search results page and enable direct booking from accommodation pages."
+msgstr "Sla de pagina met zoekresultaten over en schakel direct boeken in vanaf accommodatiepagina's."
+
+msgid "Direct Booking Form"
+msgstr ""
+
+msgid "Show price for selected period"
+msgstr ""
+
+msgid "Show price together with adults and children fields"
+msgstr ""
+
+msgid "Book button behavior on the search results page"
+msgstr "Boek knop gedrag op zoekpagina"
+
+msgid "Redirect to the checkout page immediately after successful addition to reservation."
+msgstr "Stuur direct door naar de betaalpagina na het succesvol toevoegen van een reservering."
+
+msgid "Enable \"adults\" and \"children\" options for my website (default)."
+msgstr "Opties voor 'volwassenen' en 'kinderen' inschakelen voor mijn website (standaard)."
+
+msgid "Disable \"children\" option for my website (hide \"children\" field and use Guests label instead)."
+msgstr "Schakel de optie \"kinderen\" uit voor mijn website (verberg het veld \"kinderen\" en gebruik in plaats daarvan het gastenlabel)."
+
+msgid "Disable \"adults\" and \"children\" options for my website."
+msgstr "Schakel de opties 'volwassenen' en 'kinderen' uit voor mijn website."
+
+msgid "Guest Management"
+msgstr "Gastenbeheer"
+
+msgid "Hide \"adults\" and \"children\" fields within search availability forms."
+msgstr "Verberg velden \"volwassenen\" en \"kinderen\" in zoekformulieren voor zoeken."
+
+msgid "Do not apply booking rules for admin bookings."
+msgstr ""
+
+msgid "Display Options"
+msgstr "Weergaveopties"
+
+msgid "Display gallery images of accommodation page in lightbox."
+msgstr "Galerijafbeeldingen van accommodatie pagina in lightbox weergeven."
+
+msgid "Availability Calendar"
+msgstr "Beschikbaarheidskalender"
+
+msgid "Display per-night prices in the availability calendar."
+msgstr ""
+
+msgid "Truncate per-night prices in the availability calendar."
+msgstr ""
+
+msgid "Display the currency sign in the availability calendar."
+msgstr ""
+
+msgid "Calendar Theme"
+msgstr "Kalender thema"
+
+msgid "Select theme for an availability calendar."
+msgstr "Kies een thema voor een beschikbaarheidskalender."
+
+msgid "Template Mode"
+msgstr "Sjabloonmodus"
+
+msgid "Developer Mode"
+msgstr "Ontwikkelaarmodus"
+
+msgid "Theme Mode"
+msgstr "Themamodus"
+
+msgid "Choose Theme Mode to display the content with the styles of your theme. Choose Developer Mode to control appearance of the content with custom page templates, actions and filters. This option can't be changed if your theme is initially integrated with the plugin."
+msgstr "Kies 'Themamodus' om de inhoud met uw themastijl te tonen. Kies 'Ontwikkelaarsmodus' om het uiterlijk van de inhoud te controleren met aangepaste paginasjablonen, acties en filters. Deze optie kunt niet wijzigen als uw thema aanvankelijk geïntegreerd is met de plugin."
+
+msgid "More Styles"
+msgstr "Meer stijlen"
+
+msgid "Extend the styling options of Hotel Booking plugin with the new free addon - Hotel Booking Styles."
+msgstr ""
+
+msgid "Calendars Synchronization"
+msgstr "Synchroniseer kalenders"
+
+msgid "Export admin blocks."
+msgstr "Exporteer beheerdersblokken."
+
+msgid "Do not export imported bookings."
+msgstr "Geïmporteerde boekingen niet exporteren."
+
+msgid "Minimize Logs"
+msgstr ""
+
+msgid "Enable the plugin to record only important messages."
+msgstr ""
+
+msgid "Calendars Synchronization Scheduler"
+msgstr "Kalenders synchronisatieplanner"
+
+msgid "Enable automatic external calendars synchronization"
+msgstr "Automatische synchronisatie van externe kalenders inschakelen"
+
+msgid "Clock"
+msgstr "Klok"
+
+msgid "Sync calendars at this time (UTC) or starting at this time every interval below."
+msgstr "Synchroniseer kalenders nu (UTC) of begin op elk interval hieronder."
+
+msgid "Interval"
+msgstr ""
+
+msgid "Quarter an Hour"
+msgstr "Een kwartier"
+
+msgid "Half an Hour"
+msgstr "Een half uur"
+
+msgid "Once Hourly"
+msgstr "Eens per uur"
+
+msgid "Twice Daily"
+msgstr "Tweemaal daags"
+
+msgid "Once Daily"
+msgstr "Eens per dag"
+
+msgid "Automatically delete sync logs older than"
+msgstr "Verwijder synchronisatielogboeken ouder dan"
+
+msgid "Day"
+msgstr "Dag"
+
+msgid "Week"
+msgstr ""
+
+msgid "Month"
+msgstr "Maand"
+
+msgid "Quarter"
+msgstr "Kwartaal"
+
+msgid "Half a Year"
+msgstr "Een half jaar"
+
+msgid "Never Delete"
+msgstr "Wis nooit"
+
+msgid "Block Editor"
+msgstr "Blok-editor"
+
+msgid "Enable block editor for \"%s\"."
+msgstr "Blok-editor inschakelen voor \"%s\"."
+
+msgid "Accommodation Types"
+msgstr "Typen accommodaties"
+
+msgid "Services"
+msgstr "Diensten"
+
+msgid "Admin Emails"
+msgstr "E-mails van beheerder"
+
+msgid "Customer Emails"
+msgstr "E-mail van klanten"
+
+msgid "Turn one-time guests into loyal customers by sending out automatic marketing campaigns with the <a>Hotel Booking & Mailchimp Integration</a>."
+msgstr "Zet passanten om in loyale klanten door ze automatisch op te nemen in marketing campagnes met de <a>Hotel Booking & Mailchimp Integratie</a>."
+
+msgid "Turn one-time guests into loyal customers by sending out automatic marketing campaigns with the Hotel Booking & Mailchimp Integration."
+msgstr "Zet passanten om in loyale klanten door ze automatisch op te nemen in marketing campagnes met de Hotel Booking & Mailchimp Integratie."
+
+msgid "Cancellation Details Template"
+msgstr "Annulering details-sjabloon"
+
+msgid "Used for %cancellation_details% tag."
+msgstr "Gebruikt voor %cancellation_details% tag."
+
+msgid "Email Settings"
+msgstr "E-mailinstellingen"
+
+msgid "Send automated email notifications, such as key pick-up instructions, house rules, before and after arrival/departure with <a>Hotel Booking Notifier</a>."
+msgstr "Stuur automatische email notificaties zoals sleutel instructies, huisregels voor en na aankomst/vertrek met <a>Hotel Booking Notifier</a>."
+
+msgid "Send automated email notifications, such as key pick-up instructions, house rules, before and after arrival/departure with Hotel Booking Notifier."
+msgstr "Stuur automatische email notificaties zoals sleutel instructies, huisregels voor en na aankomst/vertrek met Hotel Booking Notifier."
+
+msgid "Email Sender"
+msgstr "E-mail zender"
+
+msgid "Administrator Email"
+msgstr "Beheerder E-mail"
+
+msgid "From Email"
+msgstr "Van e-mail"
+
+msgid "From Name"
+msgstr "Van naam"
+
+msgid "Logo URL"
+msgstr ""
+
+msgid "Footer Text"
+msgstr "Voettekst"
+
+msgid "Reserved Accommodation Details Template"
+msgstr "Gereserveerde accommodatie details-sjabloon"
+
+msgid "Used for %reserved_rooms_details% tag."
+msgstr "Gebruikt voor %reserved_rooms_details% tag."
+
+msgid "Styles"
+msgstr "Stijlen"
+
+msgid "Base Color"
+msgstr "Basiskleur"
+
+msgid "Background Color"
+msgstr "Achtergrondkleur"
+
+msgid "Body Background Color"
+msgstr "Body achtergrondkleur"
+
+msgid "Body Text Color"
+msgstr "Body tekstkleur"
+
+msgid "Payment Gateways"
+msgstr "Betalingsgateways"
+
+msgid "General Settings"
+msgstr "Algemene Instellingen"
+
+msgid "Need more gateways? Use our Hotel Booking <a href=\"%s\" target=\"_blank\">WooCommerce Payments</a> extension."
+msgstr "Meer gateways nodig? Gebruik onze <a href=\"%s\" target=\"_blank\"> WooCommerce Payments </a> extensie voor hotelboekingen."
+
+msgid "You may also email the <a href=\"%s\" target=\"_blank\">balance payment request</a> link to your guests."
+msgstr "U kunt ook de link <a href=\"%s\" target=\"_blank\"> betalingsverzoek </a> naar uw gasten e-mailen."
+
+msgid "User Pays"
+msgstr "Klant betaalt"
+
+msgid "Full Amount"
+msgstr "Totaalbedrag"
+
+msgid "Deposit"
+msgstr "Aanbetaling"
+
+msgid "Deposit Type"
+msgstr "Type aanbetaling"
+
+msgid "Fixed"
+msgstr "Vastgesteld"
+
+msgid "Percent"
+msgstr "Procent"
+
+msgid "Deposit Amount"
+msgstr "Aanbetalingsbedrag"
+
+msgid "Deposit Time Frame (days)"
+msgstr ""
+
+msgid "Apply deposit to bookings made in at least the selected number of days prior to the check-in date. Otherwise, the full amount is charged."
+msgstr ""
+
+msgid "Force Secure Checkout"
+msgstr "Veilige Betaling"
+
+msgid "Force SSL (HTTPS) on the checkout pages. You must have an SSL certificate installed to use this option."
+msgstr "Schakel SSL (HTTPS) in op afrekenpagina's. Uw moet een  SSL certificate geïnstalleerd hebben."
+
+msgid "Reservation Received Page"
+msgstr "Pagina 'Ontvangen reservering'"
+
+msgid "Failed Transaction Page"
+msgstr "Mislukte Transactiepagina"
+
+msgid "Default Gateway"
+msgstr "Standaardgateway"
+
+msgid "Pending Payment Time"
+msgstr "Betalingstijd in afwachting"
+
+msgid "Period of time in minutes the user is given to complete payment. Unpaid bookings become Abandoned and accommodation status changes to Available."
+msgstr "Tijdsperiode is minuten om de betaling te voltooien. Onbetaalde reserveringen wordt 'opgeheven' en boekingsstatus verandert tot 'beschikbaar'."
+
+msgid "Install <a href=\"%s\" target=\"_blank\">Hotel Booking addons</a> to manage their settings."
+msgstr "Installeer <a href=\"%s\" target=\"_blank\"> Add-ons voor hotelboekingen </a> om hun instellingen te beheren."
+
+msgid "Install Hotel Booking addons to manage their settings."
+msgstr "Installeer Hotel Booking-add-ons om hun instellingen te beheren."
+
+msgid "Advanced"
+msgstr ""
+
+msgid "License"
+msgstr "Licentie"
+
+msgid "Settings saved."
+msgstr "Instellingen zijn opgeslagen."
+
+msgid "<strong>Note:</strong> Payment methods will appear on the checkout page only when Confirmation Upon Payment is enabled in Accommodation > Settings > General > Confirmation Mode."
+msgstr "<strong> Opmerking: </strong> betaalmethoden worden alleen op de betaalpagina weergegeven wanneer 'Bevestiging bij betaling' is ingeschakeld in 'Accommodatie'> 'Instellingen'> 'Algemeen'> 'Bevestigingsmodus'."
+
+msgid "Settings"
+msgstr "Instellingen"
+
+msgid "Availability Search Form"
+msgstr "Beschikbaarheid zoekformulier"
+
+msgid "Display search form."
+msgstr "Zoekformulier tonen."
+
+msgid "The number of adults presetted in the search form."
+msgstr "Aantal volwassenen vooraf ingesteld in het zoekformulier."
+
+msgid "The number of children presetted in the search form."
+msgstr "Aantal kinderen vooraf ingesteld in het zoekformulier."
+
+msgid "Check-in date presetted in the search form."
+msgstr "Incheckdatum is vooraf ingesteld in het zoekformulier."
+
+msgid "date in format %s"
+msgstr "datum in een formaat %s"
+
+msgid "Check-out date presetted in the search form."
+msgstr "Uitcheckdatum is in zoekformulier vooraf ingesteld."
+
+msgid "Custom attributes for advanced search."
+msgstr "Aangepaste kenmerken voor geavanceerd zoeken."
+
+msgid "Comma-separated slugs of attributes."
+msgstr "Door komma's gescheiden kenmerken van attributen."
+
+msgid "Custom CSS class for shortcode wrapper"
+msgstr "Aanpasbare CSS class voor shortcode wrapper"
+
+msgid "whitespace separated css classes"
+msgstr "spaties gescheiden css classes"
+
+msgid "Accommodation Type ID"
+msgstr "ID van type accommodatie"
+
+msgid "ID of Accommodation Type to check availability."
+msgstr "ID van een kamertype om beschikbaarheid te checken."
+
+msgid "integer number"
+msgstr "integer getal"
+
+msgid "How many months to show."
+msgstr "Hoeveel maanden tonen."
+
+msgid "Set the number of columns or the number of rows and columns separated by comma. Example: \"3\" or \"2,3\""
+msgstr "Stel het aantal kolommen in of het aantal rijen en kolommen gescheiden door komma's. Voorbeeld: \"3\" of \"2,3\""
+
+msgid "Display availability calendar of the current accommodation type or by ID."
+msgstr "Toon de beschikbaarheidskalender van het huidige type accommodatie of op ID."
+
+msgid "Availability Search Results"
+msgstr "Beschikbaarheid zoekresultaten"
+
+msgid "Display listing of accommodation types that meet the search criteria."
+msgstr "Accommodatie typelijsten tonen die aan zoekcriteria voldoen."
+
+msgid "Whether to display title of the accommodation type."
+msgstr "Moet de titel van het type accommodatie getoond worden."
+
+msgid "Whether to display featured image of the accommodation type."
+msgstr "Moet een afbeelding van het type accommodatie getoond worden."
+
+msgid "Whether to display gallery of the accommodation type."
+msgstr "Moet een galerij van het type accommodatie getoond worden."
+
+msgid "Whether to display excerpt (short description) of the accommodation type."
+msgstr "Of een uittreksel (korte beschrijving) van het type accommodatie getoond moet worden."
+
+msgid "Whether to display details of the accommodation type."
+msgstr "Of details van het type accommodatie moeten worden weergegeven."
+
+msgid "Whether to display price of the accommodation type."
+msgstr "Moeten prijzen van type accommodatie getoond worden."
+
+msgid "Show View Details button"
+msgstr "\"Details bekijken\" knop tonen"
+
+msgid "Whether to display \"View Details\" button with the link to accommodation type."
+msgstr "Moet knop \"Details bekijken\" getoond worden met een link naar type accommodatie."
+
+msgid "Sort by."
+msgstr "Sorteren op."
+
+msgid "%1$s. See the <a href=\"%2$s\" target=\"_blank\">full list</a>."
+msgstr "%1$s. Zie <a href=\"%2$s\" target=\"_blank\">full list</a>."
+
+msgid "Designates the ascending or descending order of sorting."
+msgstr "Geeft de oplopende of aflopende volgorde van sorteren aan."
+
+msgid "ASC - from lowest to highest values (1, 2, 3). DESC - from highest to lowest values (3, 2, 1)."
+msgstr "OPL - van laagste naar hoogste waarden (1, 2, 3). AFL - van hoogste naar laagste waarden (3, 2, 1)."
+
+msgid "Custom field name. Required if \"orderby\" is one of the \"meta_value\", \"meta_value_num\" or \"meta_value_*\"."
+msgstr "Aangepaste veldnaam. Vereist als \"orderby\" een van de \"meta_value\", \"meta_value_num\" of \"meta_value_ *\" is."
+
+msgid "custom field name"
+msgstr "aangepaste veldnaam"
+
+msgid "empty string"
+msgstr "lege tekenreeks"
+
+msgid "Specified type of the custom field. Can be used in conjunction with orderby=\"meta_value\"."
+msgstr "Opgegeven type van het aangepaste veld. Kan worden gebruikt in combinatie met orderby = \"meta_value\"."
+
+msgid "Sort by. Use \"orderby\" insted."
+msgstr "Sorteer op. Gebruik \"orderby\" in plaats."
+
+msgid "Show Book button"
+msgstr "Toon knop \"Reserveren\""
+
+msgid "Whether to display Book button."
+msgstr "Moet \"Reserveren\" knop getoond worden."
+
+msgid "NOTE:"
+msgstr "Opmerking:"
+
+msgid "Use only on page that you set as Search Results Page in <a href=\"%s\">Settings</a>"
+msgstr "Alleen op Zoekresultaten-pagina tonen die in <a href=\"%s\">Instellingen</a> ingesteld is"
+
+msgid "Accommodation Types Listing"
+msgstr "Lijst van kamertypes"
+
+msgid "Count per page"
+msgstr "Bereken per pagina"
+
+msgid "integer, -1 to display all, default: \"Blog pages show at most\""
+msgstr "geheel getal, -1 om alles weer te geven, standaard: \"Blogpagina's worden maximaal weergegeven\""
+
+msgid "IDs of categories that will be shown."
+msgstr "ID's van categorieën die worden getoond."
+
+msgid "Comma-separated IDs."
+msgstr "Komma gescheiden IDs."
+
+msgid "IDs of tags that will be shown."
+msgstr "ID's van labels die worden getoond."
+
+msgid "IDs of accommodations that will be shown."
+msgstr "ID's van accommodaties die worden getoond."
+
+msgid "Logical relationship between each taxonomy when there is more than one."
+msgstr "Logische relatie tussen elke taxonomie wanneer er meer dan één is."
+
+msgid "Services Listing"
+msgstr "Lijsten 'Diensten'"
+
+msgid "IDs"
+msgstr "ID's"
+
+msgid "IDs of services that will be shown. "
+msgstr "IDs van diensten die getoond worden. "
+
+msgid "Show All Services"
+msgstr "Alle diensten tonen"
+
+msgid "Single Accommodation Type"
+msgstr "Type enkele accommodatie"
+
+msgid "ID of accommodation type to display."
+msgstr "ID van type accommodatie tonen."
+
+msgid "Display accommodation type with title and image."
+msgstr "Een type accommodatie met titel en foto tonen."
+
+msgid "Checkout Form"
+msgstr "Check-out formulier"
+
+msgid "Display checkout form."
+msgstr "Uitcheckformulier tonen."
+
+msgid "Use only on page that you set as Checkout Page in <a href=\"%s\">Settings</a>"
+msgstr "Maak alleen gebruik on de uitcheckpagina in <a href=\"%s\">Instellingen</a>"
+
+msgid "Booking Form"
+msgstr "Boekingsformulier"
+
+msgid "Show Booking Form for Accommodation Type with id 777"
+msgstr "Boekingsformulier voor type accommodatie met ID 777 tonen"
+
+msgid "Accommodation Rates List"
+msgstr "Accommodatie prijslijst"
+
+msgid "ID of accommodation type."
+msgstr "ID van type accommodatie."
+
+msgid "Show Accommodation Rates List for accommodation type with id 777"
+msgstr "Prijslijst voor type accommodatie met ID 777 tonen"
+
+msgid "Display booking and payment details."
+msgstr "Toon boeking- en betalingdetails."
+
+msgid "Use this shortcode on Booking Confirmed and Reservation Received pages"
+msgstr "Gebruik deze shortcode op de pagina's 'Bevestigde boeking' en 'Ontvangen reservering'"
+
+msgid "Booking Cancelation"
+msgstr ""
+
+msgid "Display booking cancelation details."
+msgstr ""
+
+msgid "Use this shortcode on the Booking Cancelation page"
+msgstr ""
+
+msgid "Customer Account"
+msgstr ""
+
+msgid "Display log in form or customer account area."
+msgstr ""
+
+msgid "Use this shortcode to create the My Account page."
+msgstr ""
+
+msgid "Shortcodes"
+msgstr "Shortcode's"
+
+msgid "Shortcode"
+msgstr ""
+
+msgid "Parameters"
+msgstr ""
+
+msgid "Example"
+msgstr "Voorbeeld"
+
+msgid "Deprecated since %s"
+msgstr "Verouderd sinds %s"
+
+msgid "Values:"
+msgstr "Waarden:"
+
+msgid "Default:"
+msgstr "Standaard:"
+
+msgid "Optional."
+msgstr "Optioneel."
+
+msgid "Required"
+msgstr "Verplicht"
+
+msgid "Taxes and fees saved."
+msgstr "Belastingen & kosten opgeslagen."
+
+msgid "Taxes & Fees"
+msgstr "Belastingen & kosten"
+
+msgid "Fees"
+msgstr "Kosten"
+
+msgid "No fees have been created yet."
+msgstr "Er zijn nog geen kosten aangemaakt."
+
+msgid "Add new"
+msgstr "Voeg nieuwe toe"
+
+msgid "Label"
+msgstr "Etiket"
+
+msgid "New fee"
+msgstr "Nieuwe kost"
+
+msgid "Per guest / per day"
+msgstr "Per gast / per dag"
+
+msgid "Per accommodation / per day"
+msgstr "Per accommodatie / per dag"
+
+msgid "Per accommodation (%)"
+msgstr "Per accommodatie (%)"
+
+msgid "Limit"
+msgstr "Limiet"
+
+msgid "How often this fee is charged. Set 0 to charge each day of the stay period. Set 1 to charge once."
+msgstr ""
+
+msgid "Include"
+msgstr ""
+
+msgid "Show accommodation rate with this charge included"
+msgstr ""
+
+msgid "Accommodation Taxes"
+msgstr "Accommodatie belasting"
+
+msgid "No taxes have been created yet."
+msgstr "Er zijn nog geen belastingen aangemaakt."
+
+msgid "New tax"
+msgstr "Nieuwe belasting"
+
+msgid "Limit of days the fee is charged. Set 0 to charge each day of stay period. Set 1 to charge once."
+msgstr ""
+
+msgid "Service Taxes"
+msgstr "Diensten belastingen"
+
+msgid "Percentage"
+msgstr ""
+
+msgid "Fee Taxes"
+msgstr "Kosten belastingen"
+
+msgid "External Calendars"
+msgstr "Externe kalenders"
+
+msgid "Sync External Calendars"
+msgstr "Synchroniseer externe kalenders"
+
+msgctxt "Placeholder for empty accommodation title"
+msgid "(no title)"
+msgstr "(geen titel)"
+
+msgid "Download Calendar"
+msgstr "Download kalender"
+
+msgid "Message"
+msgstr "Bericht"
+
+msgid "Success"
+msgstr "Gelukt"
+
+msgid "Info"
+msgstr ""
+
+msgid "Warning"
+msgstr "Opgelet"
+
+msgctxt "This is date and time format 31/12/2017 - 23:59:59"
+msgid "d/m/Y - H:i:s"
+msgstr "d/m/Y - H:i:s"
+
+msgid "Waiting"
+msgstr "Wachtend"
+
+msgid "Processing"
+msgstr "Verwerken"
+
+msgctxt "Total number of processed bookings"
+msgid "Total"
+msgstr "Totaal"
+
+msgid "Succeed"
+msgstr "Gelukt"
+
+msgid "Skipped"
+msgstr "Overgeslagen"
+
+msgid "Failed"
+msgstr "Mislukt"
+
+msgid "Removed"
+msgstr "Verwijderd"
+
+msgid "Copying to clipboard failed. Please press Ctrl/Cmd+C to copy."
+msgstr ""
+
+msgid "Description is missing."
+msgstr ""
+
+msgid "User is missing."
+msgstr ""
+
+msgid "Permission is missing."
+msgstr ""
+
+msgid "You do not have permission to assign API Keys to the selected user."
+msgstr ""
+
+msgid "API Key updated successfully."
+msgstr ""
+
+msgid "API Key generated successfully. Make sure to copy your new keys now as the secret key will be hidden once you leave this page."
+msgstr ""
+
+msgid "Revoke key"
+msgstr ""
+
+msgid "No keys found."
+msgstr ""
+
+msgid "Description"
+msgstr "Omschrijving"
+
+msgid "Consumer key ending in"
+msgstr ""
+
+msgid "User"
+msgstr ""
+
+msgid "Permissions"
+msgstr ""
+
+msgid "Last access"
+msgstr ""
+
+msgid "API key"
+msgstr ""
+
+#. translators: %d: API key ID.
+msgid "ID: %d"
+msgstr ""
+
+msgid "Revoke"
+msgstr ""
+
+msgid "Read"
+msgstr ""
+
+msgid "Write"
+msgstr ""
+
+msgid "Read/Write"
+msgstr ""
+
+#. translators: 1: last access date 2: last access time
+msgid "%1$s at %2$s"
+msgstr ""
+
+msgid "Unknown"
+msgstr ""
+
+msgid "You do not have permission to edit this API Key"
+msgstr ""
+
+msgid "REST API"
+msgstr ""
+
+msgid "Add key"
+msgstr ""
+
+msgid "You do not have permission to revoke this API Key"
+msgstr ""
+
+msgid "You do not have permission to edit API Keys"
+msgstr ""
+
+msgid "You do not have permission to revoke API Keys"
+msgstr ""
+
+msgid "Generate API key"
+msgstr ""
+
+msgid "Friendly name for identifying this key."
+msgstr ""
+
+msgid "Owner of these keys."
+msgstr ""
+
+msgid "Access type of these keys."
+msgstr ""
+
+msgid "Consumer key"
+msgstr ""
+
+msgid "Copied!"
+msgstr ""
+
+msgid "Copy"
+msgstr ""
+
+msgid "Consumer secret"
+msgstr ""
+
+msgid "QR Code"
+msgstr ""
+
+msgid "No bookings found for your request."
+msgstr "Geen boekingen gevonden voor uw vraag."
+
+msgid "Uploads directory is not writable."
+msgstr "Uploadmap is niet schrijfbaar."
+
+msgid "No enough data"
+msgstr "Niet voldoende data"
+
+msgid "An error has occurred"
+msgstr "Er heeft zich een fout voorgedaan"
+
+msgid "Please complete all required fields and try again."
+msgstr "Vul alle verplichte velden in en probeer opnieuw."
+
+msgid "An error has occurred, please try again later."
+msgstr "Er is een fout opgetreden, probeer het later opnieuw."
+
+msgid "The number of adults is not valid."
+msgstr ""
+
+msgid "The number of guests is not valid."
+msgstr ""
+
+msgid "An error has occurred. Please try again later."
+msgstr "Er is een fout opgetreden. Probeer het later opnieuw."
+
+msgid "Sorry, the minimum allowed payment amount is %s to use this payment method."
+msgstr "Sorry, het minimale bedrag voor deze betaalmethode is %s."
+
+msgid "Chosen payment method is not available. Please refresh the page and try one more time."
+msgstr "De gekozen betaalmethode is niet beschikbaar. Ververs de pagina en probeer het opnieuw."
+
+msgid "Coupon applied successfully."
+msgstr "Coupon met succes toegepast."
+
+msgid "Coupon is not valid."
+msgstr "Coupon is niet geldig."
+
+msgid "Booking Information"
+msgstr "Boekingsgegevens"
+
+msgid "Check-in Date"
+msgstr "Incheckdatum"
+
+msgid "Check-out Date"
+msgstr "Uitcheckdatum"
+
+msgid "Customer Information"
+msgstr "Klantinformatie"
+
+msgid "Customer Note"
+msgstr "Opmerking van de klant"
+
+msgid "Additional Information"
+msgstr "Extra informatie"
+
+msgid "Coupon"
+msgstr ""
+
+msgid "Total Booking Price"
+msgstr "Totaalprijs boeking"
+
+msgid "Notes"
+msgstr "Opmerkingen"
+
+#. translators: %1$s: note author, %1$s: note date
+msgid "%1$s on %2$s"
+msgstr ""
+
+msgid "Based on your search parameters"
+msgstr "Gebaseerd op uw zoekcriteria"
+
+msgid "You do not have permission to do this action."
+msgstr ""
+
+msgctxt "Not selected value in the search form."
+msgid "&mdash;"
+msgstr ""
+
+msgid "Year"
+msgstr "Jaar"
+
+msgid "Custom"
+msgstr "Aanpassen"
+
+msgctxt "Booking status"
+msgid "Confirmed"
+msgstr "Bevestigd"
+
+msgid "Show"
+msgstr "Tonen"
+
+msgid "Search"
+msgstr "Zoeken"
+
+msgid "Booked"
+msgstr "Gereserveerd"
+
+msgid "Pending"
+msgstr "In afwachting"
+
+msgid "External"
+msgstr ""
+
+msgid "Blocked"
+msgstr "Geblokkeerd"
+
+msgid "Search results for accommodations that have bookings with status \"%s\" from %s until %s"
+msgstr "Zoekresultaten voor accommodaties met boekingstatussen \"%s\" van %s tot %s"
+
+msgid "Free"
+msgstr "Gratis"
+
+msgid "Locked (Booked or Pending)"
+msgstr "Vergrendeld (geboekt of in behandeling)"
+
+msgid "Until"
+msgstr "Tot"
+
+msgid "Period:"
+msgstr "Periode:"
+
+msgid "&lt; Prev"
+msgstr "&lt; Vorige"
+
+msgid "Next &gt;"
+msgstr "Volgende &gt;"
+
+msgid "No accommodations found."
+msgstr "Geen accommodaties gevonden."
+
+msgid "Check-out #%d"
+msgstr ""
+
+msgid "Check-in #%d"
+msgstr ""
+
+msgid "Booking #%d"
+msgstr "Boeking #%d"
+
+msgid "Buffer time."
+msgstr ""
+
+msgctxt "Availability"
+msgid "Free"
+msgstr "Beschikbaar"
+
+msgid "Adults: %s"
+msgstr "Volwassenen: %s"
+
+msgid "Children: %s"
+msgstr "Kinderen: %s"
+
+msgid "Booking imported with UID %s."
+msgstr "Boeking geïmporteerd met UID %s."
+
+msgid "Imported booking."
+msgstr "Importeer boeking."
+
+msgid "Description: %s."
+msgstr "Omschrijving: %s."
+
+msgid "Source: %s."
+msgstr ""
+
+msgid "Afghanistan"
+msgstr ""
+
+msgid "&#197;land Islands"
+msgstr "&#197; land eilanden"
+
+msgid "Albania"
+msgstr "Albanië"
+
+msgid "Algeria"
+msgstr "Algerije"
+
+msgid "American Samoa"
+msgstr "Amerikaans-Samoa"
+
+msgid "Andorra"
+msgstr ""
+
+msgid "Angola"
+msgstr ""
+
+msgid "Anguilla"
+msgstr ""
+
+msgid "Antarctica"
+msgstr ""
+
+msgid "Antigua and Barbuda"
+msgstr "Antigua & Barbuda"
+
+msgid "Argentina"
+msgstr "Argentinië"
+
+msgid "Armenia"
+msgstr "Armenië"
+
+msgid "Aruba"
+msgstr ""
+
+msgid "Australia"
+msgstr "Australië"
+
+msgid "Austria"
+msgstr "Oostenrijk"
+
+msgid "Azerbaijan"
+msgstr "Azerbeidzjan"
+
+msgid "Bahamas"
+msgstr "Bahama's"
+
+msgid "Bahrain"
+msgstr "Bahrein"
+
+msgid "Bangladesh"
+msgstr ""
+
+msgid "Barbados"
+msgstr ""
+
+msgid "Belarus"
+msgstr "Wit-Rusland"
+
+msgid "Belgium"
+msgstr "België"
+
+msgid "Belau"
+msgstr ""
+
+msgid "Belize"
+msgstr ""
+
+msgid "Benin"
+msgstr ""
+
+msgid "Bermuda"
+msgstr ""
+
+msgid "Bhutan"
+msgstr ""
+
+msgid "Bolivia"
+msgstr ""
+
+msgid "Bonaire, Saint Eustatius and Saba"
+msgstr "Bonaire, Sint Eustatius en Saba"
+
+msgid "Bosnia and Herzegovina"
+msgstr "Bosnië-Herzegovina"
+
+msgid "Botswana"
+msgstr ""
+
+msgid "Bouvet Island"
+msgstr "Bouvet eiland"
+
+msgid "Brazil"
+msgstr "Brazilië"
+
+msgid "British Indian Ocean Territory"
+msgstr "Brits Indische Oceaan Territorium"
+
+msgid "British Virgin Islands"
+msgstr "Britse Maagdeneilanden"
+
+msgid "Brunei"
+msgstr ""
+
+msgid "Bulgaria"
+msgstr "Bulgarije"
+
+msgid "Burkina Faso"
+msgstr ""
+
+msgid "Burundi"
+msgstr ""
+
+msgid "Cambodia"
+msgstr "Cambodja"
+
+msgid "Cameroon"
+msgstr "Kameroen"
+
+msgid "Canada"
+msgstr ""
+
+msgid "Cape Verde"
+msgstr "Kaapverdië"
+
+msgid "Cayman Islands"
+msgstr "Kaaimaneilanden"
+
+msgid "Central African Republic"
+msgstr "Centraal-Afrikaanse Republiek"
+
+msgid "Chad"
+msgstr "Tsjaad"
+
+msgid "Chile"
+msgstr "Chili"
+
+msgid "China"
+msgstr ""
+
+msgid "Christmas Island"
+msgstr "Christmaseiland"
+
+msgid "Cocos (Keeling) Islands"
+msgstr "Cocos (Keeling) eilanden"
+
+msgid "Colombia"
+msgstr ""
+
+msgid "Comoros"
+msgstr "Comoren"
+
+msgid "Congo (Brazzaville)"
+msgstr "Congo - Brazzaville"
+
+msgid "Congo (Kinshasa)"
+msgstr "Congo-Kinshasa"
+
+msgid "Cook Islands"
+msgstr "Cookeilanden"
+
+msgid "Costa Rica"
+msgstr ""
+
+msgid "Croatia"
+msgstr "Kroatië"
+
+msgid "Cuba"
+msgstr ""
+
+msgid "Cura&ccedil;ao"
+msgstr ""
+
+msgid "Cyprus"
+msgstr ""
+
+msgid "Czech Republic"
+msgstr "Tsjechië"
+
+msgid "Denmark"
+msgstr "Denemarken"
+
+msgid "Djibouti"
+msgstr ""
+
+msgid "Dominica"
+msgstr ""
+
+msgid "Dominican Republic"
+msgstr "Dominicaanse Republiek"
+
+msgid "Ecuador"
+msgstr ""
+
+msgid "Egypt"
+msgstr "Egypte"
+
+msgid "El Salvador"
+msgstr ""
+
+msgid "Equatorial Guinea"
+msgstr "Equatoriaal-Guinea"
+
+msgid "Eritrea"
+msgstr ""
+
+msgid "Estonia"
+msgstr "Estland"
+
+msgid "Ethiopia"
+msgstr "Ethiopië"
+
+msgid "Falkland Islands"
+msgstr "Falklandeilanden"
+
+msgid "Faroe Islands"
+msgstr "Faeröer"
+
+msgid "Fiji"
+msgstr ""
+
+msgid "Finland"
+msgstr ""
+
+msgid "France"
+msgstr "Frankrijk"
+
+msgid "French Guiana"
+msgstr "Frans-Guyana"
+
+msgid "French Polynesia"
+msgstr "Frans-Polynesië"
+
+msgid "French Southern Territories"
+msgstr "Frans Zuidelijk Terrotorium"
+
+msgid "Gabon"
+msgstr ""
+
+msgid "Gambia"
+msgstr ""
+
+msgid "Georgia"
+msgstr "Georgië"
+
+msgid "Germany"
+msgstr "Duitsland"
+
+msgid "Ghana"
+msgstr ""
+
+msgid "Gibraltar"
+msgstr ""
+
+msgid "Greece"
+msgstr "Griekenland"
+
+msgid "Greenland"
+msgstr "Groenland"
+
+msgid "Grenada"
+msgstr ""
+
+msgid "Guadeloupe"
+msgstr ""
+
+msgid "Guam"
+msgstr ""
+
+msgid "Guatemala"
+msgstr ""
+
+msgid "Guernsey"
+msgstr ""
+
+msgid "Guinea"
+msgstr "Guinee"
+
+msgid "Guinea-Bissau"
+msgstr "Guinee-Bissau"
+
+msgid "Guyana"
+msgstr "Guiana"
+
+msgid "Haiti"
+msgstr "Haïti"
+
+msgid "Heard Island and McDonald Islands"
+msgstr "Heardeiland en McDonaldeilanden"
+
+msgid "Honduras"
+msgstr ""
+
+msgid "Hong Kong"
+msgstr ""
+
+msgid "Hungary"
+msgstr "Hongarije"
+
+msgid "Iceland"
+msgstr "IJsland"
+
+msgid "India"
+msgstr ""
+
+msgid "Indonesia"
+msgstr "Indonesië"
+
+msgid "Iran"
+msgstr ""
+
+msgid "Iraq"
+msgstr "Irak"
+
+msgid "Ireland"
+msgstr "Ierland"
+
+msgid "Isle of Man"
+msgstr ""
+
+msgid "Israel"
+msgstr "Israël"
+
+msgid "Italy"
+msgstr "Italië"
+
+msgid "Ivory Coast"
+msgstr "Ivoorkust"
+
+msgid "Jamaica"
+msgstr ""
+
+msgid "Japan"
+msgstr ""
+
+msgid "Jersey"
+msgstr ""
+
+msgid "Jordan"
+msgstr "Jordanië"
+
+msgid "Kazakhstan"
+msgstr "Kazachstan"
+
+msgid "Kenya"
+msgstr "Kenia"
+
+msgid "Kiribati"
+msgstr ""
+
+msgid "Kuwait"
+msgstr "Koeweit"
+
+msgid "Kyrgyzstan"
+msgstr "Kirgizië"
+
+msgid "Laos"
+msgstr ""
+
+msgid "Latvia"
+msgstr "Letland"
+
+msgid "Lebanon"
+msgstr "Libanon"
+
+msgid "Lesotho"
+msgstr ""
+
+msgid "Liberia"
+msgstr ""
+
+msgid "Libya"
+msgstr "Libië"
+
+msgid "Liechtenstein"
+msgstr ""
+
+msgid "Lithuania"
+msgstr "Litouwen"
+
+msgid "Luxembourg"
+msgstr "Luxemburg"
+
+msgid "Macao S.A.R., China"
+msgstr ""
+
+msgid "Macedonia"
+msgstr "Macedonië"
+
+msgid "Madagascar"
+msgstr "Madagaskar"
+
+msgid "Malawi"
+msgstr ""
+
+msgid "Malaysia"
+msgstr "Maleisië"
+
+msgid "Maldives"
+msgstr "Malediven"
+
+msgid "Mali"
+msgstr ""
+
+msgid "Malta"
+msgstr ""
+
+msgid "Marshall Islands"
+msgstr "Marshalleilanden"
+
+msgid "Martinique"
+msgstr ""
+
+msgid "Mauritania"
+msgstr "Mauritanië"
+
+msgid "Mauritius"
+msgstr ""
+
+msgid "Mayotte"
+msgstr ""
+
+msgid "Mexico"
+msgstr ""
+
+msgid "Micronesia"
+msgstr "Micronesië"
+
+msgid "Moldova"
+msgstr "Moldavië"
+
+msgid "Monaco"
+msgstr ""
+
+msgid "Mongolia"
+msgstr "Mongolië"
+
+msgid "Montenegro"
+msgstr ""
+
+msgid "Montserrat"
+msgstr ""
+
+msgid "Morocco"
+msgstr "Marokko"
+
+msgid "Mozambique"
+msgstr ""
+
+msgid "Myanmar"
+msgstr ""
+
+msgid "Namibia"
+msgstr "Namibië"
+
+msgid "Nauru"
+msgstr ""
+
+msgid "Nepal"
+msgstr ""
+
+msgid "Netherlands"
+msgstr "Nederland"
+
+msgid "New Caledonia"
+msgstr "Nieuw-Caledonië"
+
+msgid "New Zealand"
+msgstr "Nieuw-Zeeland"
+
+msgid "Nicaragua"
+msgstr ""
+
+msgid "Niger"
+msgstr ""
+
+msgid "Nigeria"
+msgstr ""
+
+msgid "Niue"
+msgstr ""
+
+msgid "Norfolk Island"
+msgstr "Norfolk"
+
+msgid "Northern Mariana Islands"
+msgstr "Noordelijke Marianen"
+
+msgid "North Korea"
+msgstr "Noord-Korea"
+
+msgid "Norway"
+msgstr "Noorwegen"
+
+msgid "Oman"
+msgstr ""
+
+msgid "Pakistan"
+msgstr ""
+
+msgid "Palestinian Territory"
+msgstr "Palestijns gebied"
+
+msgid "Panama"
+msgstr ""
+
+msgid "Papua New Guinea"
+msgstr "Papoea-Nieuw-Guinea"
+
+msgid "Paraguay"
+msgstr ""
+
+msgid "Peru"
+msgstr ""
+
+msgid "Philippines"
+msgstr "Filippijnen"
+
+msgid "Pitcairn"
+msgstr ""
+
+msgid "Poland"
+msgstr "Polen"
+
+msgid "Portugal"
+msgstr ""
+
+msgid "Puerto Rico"
+msgstr ""
+
+msgid "Qatar"
+msgstr ""
+
+msgid "Reunion"
+msgstr "Réunion"
+
+msgid "Romania"
+msgstr "Roemenië"
+
+msgid "Russia"
+msgstr "Rusland"
+
+msgid "Rwanda"
+msgstr ""
+
+msgid "Saint Barth&eacute;lemy"
+msgstr ""
+
+msgid "Saint Helena"
+msgstr "Sint-Helena"
+
+msgid "Saint Kitts and Nevis"
+msgstr "Saint Kitts en Nevis"
+
+msgid "Saint Lucia"
+msgstr ""
+
+msgid "Saint Martin (French part)"
+msgstr "Saint-Martin (Frans deel)"
+
+msgid "Saint Martin (Dutch part)"
+msgstr "Saint-Martin (Nederlandse deel)"
+
+msgid "Saint Pierre and Miquelon"
+msgstr "Saint Pierre en Miquelon"
+
+msgid "Saint Vincent and the Grenadines"
+msgstr "Saint Vincent en de Grenadines"
+
+msgid "San Marino"
+msgstr ""
+
+msgid "S&atilde;o Tom&eacute; and Pr&iacute;ncipe"
+msgstr ""
+
+msgid "Saudi Arabia"
+msgstr "Saoedi-Arabië"
+
+msgid "Senegal"
+msgstr ""
+
+msgid "Serbia"
+msgstr "Servië"
+
+msgid "Seychelles"
+msgstr "Seychellen"
+
+msgid "Sierra Leone"
+msgstr ""
+
+msgid "Singapore"
+msgstr ""
+
+msgid "Slovakia"
+msgstr "Slowakije"
+
+msgid "Slovenia"
+msgstr "Slovenië"
+
+msgid "Solomon Islands"
+msgstr "Salomonseilanden"
+
+msgid "Somalia"
+msgstr "Somalië"
+
+msgid "South Africa"
+msgstr "Zuid-Afrika"
+
+msgid "South Georgia/Sandwich Islands"
+msgstr "Zuid-Georgië/Sandwich eilanden"
+
+msgid "South Korea"
+msgstr "Zuid-Korea"
+
+msgid "South Sudan"
+msgstr "Zuid-Soedan"
+
+msgid "Spain"
+msgstr "Spanje"
+
+msgid "Sri Lanka"
+msgstr ""
+
+msgid "Sudan"
+msgstr "Soedan"
+
+msgid "Suriname"
+msgstr ""
+
+msgid "Svalbard and Jan Mayen"
+msgstr "Svalbard & Jan Mayen"
+
+msgid "Swaziland"
+msgstr ""
+
+msgid "Sweden"
+msgstr "Zweden"
+
+msgid "Switzerland"
+msgstr "Zwitserland"
+
+msgid "Syria"
+msgstr "Syrië"
+
+msgid "Taiwan"
+msgstr ""
+
+msgid "Tajikistan"
+msgstr "Tadzjikistan"
+
+msgid "Tanzania"
+msgstr ""
+
+msgid "Thailand"
+msgstr ""
+
+msgid "Timor-Leste"
+msgstr "Oost-Timor"
+
+msgid "Togo"
+msgstr ""
+
+msgid "Tokelau"
+msgstr ""
+
+msgid "Tonga"
+msgstr ""
+
+msgid "Trinidad and Tobago"
+msgstr "Trinidad & Tobago"
+
+msgid "Tunisia"
+msgstr "Tunesië"
+
+msgid "Turkey"
+msgstr "Turkije"
+
+msgid "Turkmenistan"
+msgstr ""
+
+msgid "Turks and Caicos Islands"
+msgstr "Turks- en Caicos-eilanden"
+
+msgid "Tuvalu"
+msgstr ""
+
+msgid "Uganda"
+msgstr "Oeganda"
+
+msgid "Ukraine"
+msgstr "Oekraïne"
+
+msgid "United Arab Emirates"
+msgstr "Verenigde Arabische Emiraten"
+
+msgid "United Kingdom (UK)"
+msgstr "Verenigd Koninkrijk (UK)"
+
+msgid "United States (US)"
+msgstr "Verenigde Staten (US)"
+
+msgid "United States (US) Minor Outlying Islands"
+msgstr "Verenigde Staten (US) ondergeschikte afgelegen eilanden"
+
+msgid "United States (US) Virgin Islands"
+msgstr "Amerikaanse Maagdeneilanden (VS)"
+
+msgid "Uruguay"
+msgstr ""
+
+msgid "Uzbekistan"
+msgstr "Oezbekistan"
+
+msgid "Vanuatu"
+msgstr ""
+
+msgid "Vatican"
+msgstr "Vaticaan"
+
+msgid "Venezuela"
+msgstr ""
+
+msgid "Vietnam"
+msgstr ""
+
+msgid "Wallis and Futuna"
+msgstr "Wallis & Futuna"
+
+msgid "Western Sahara"
+msgstr "Westelijke Sahara"
+
+msgid "Samoa"
+msgstr ""
+
+msgid "Yemen"
+msgstr "Jemen"
+
+msgid "Zambia"
+msgstr ""
+
+msgid "Zimbabwe"
+msgstr ""
+
+msgid "Euro"
+msgstr ""
+
+msgid "United States (US) dollar"
+msgstr "Amerikaanse (US) dollar"
+
+msgid "Pound sterling"
+msgstr "Pond sterling"
+
+msgid "United Arab Emirates dirham"
+msgstr "VAE-dirham"
+
+msgid "Afghan afghani"
+msgstr "Afghaanse afghani"
+
+msgid "Albanian lek"
+msgstr "Albanese lek"
+
+msgid "Armenian dram"
+msgstr "Armeense dram"
+
+msgid "Netherlands Antillean guilder"
+msgstr "Nederlandse Antilliaanse gulden"
+
+msgid "Angolan kwanza"
+msgstr "Angolese kwanza"
+
+msgid "Argentine peso"
+msgstr "Argentijnse peso"
+
+msgid "Australian dollar"
+msgstr "Australische dollar"
+
+msgid "Aruban florin"
+msgstr "Arubaanse Florin"
+
+msgid "Azerbaijani manat"
+msgstr "Azerbeidzjaanse manat"
+
+msgid "Bosnia and Herzegovina convertible mark"
+msgstr "Converteerbare mark Bosnië en Herzegovina"
+
+msgid "Barbadian dollar"
+msgstr "Barbadese dollar"
+
+msgid "Bangladeshi taka"
+msgstr "Bengalese taka"
+
+msgid "Bulgarian lev"
+msgstr "Bulgaarse lev"
+
+msgid "Bahraini dinar"
+msgstr "Bahreinse dinar"
+
+msgid "Burundian franc"
+msgstr "Burundese frank"
+
+msgid "Bermudian dollar"
+msgstr "Bermudaanse dollar"
+
+msgid "Brunei dollar"
+msgstr ""
+
+msgid "Bolivian boliviano"
+msgstr "Boliviaanse boliviano"
+
+msgid "Brazilian real"
+msgstr "Braziliaanse real"
+
+msgid "Bahamian dollar"
+msgstr "Bahamaanse dollar"
+
+msgid "Bitcoin"
+msgstr ""
+
+msgid "Bhutanese ngultrum"
+msgstr ""
+
+msgid "Botswana pula"
+msgstr ""
+
+msgid "Belarusian ruble (old)"
+msgstr "Wit-Russische roebel (oud)"
+
+msgid "Belarusian ruble"
+msgstr "Wit-Russische roebel"
+
+msgid "Belize dollar"
+msgstr ""
+
+msgid "Canadian dollar"
+msgstr "Canadese dollar"
+
+msgid "Congolese franc"
+msgstr "Congolese frank"
+
+msgid "Swiss franc"
+msgstr "Zwitserse frank"
+
+msgid "Chilean peso"
+msgstr "Chileense peso"
+
+msgid "Chinese yuan"
+msgstr "Chinese Yuan"
+
+msgid "Colombian peso"
+msgstr "Colombiaanse peso"
+
+msgid "Costa Rican col&oacute;n"
+msgstr "Costa Ricaanse col&oacute;n"
+
+msgid "Cuban convertible peso"
+msgstr "Cubaanse converteerbare peso"
+
+msgid "Cuban peso"
+msgstr "Cubaanse peso"
+
+msgid "Cape Verdean escudo"
+msgstr "Kaapverdische escudo"
+
+msgid "Czech koruna"
+msgstr "Tsjechische kroon"
+
+msgid "Djiboutian franc"
+msgstr "Djiboutiaanse frank"
+
+msgid "Danish krone"
+msgstr "Deense kroon"
+
+msgid "Dominican peso"
+msgstr "Dominicaanse peso"
+
+msgid "Algerian dinar"
+msgstr "Algerijnse dinar"
+
+msgid "Egyptian pound"
+msgstr "Egyptische Pond"
+
+msgid "Eritrean nakfa"
+msgstr "Eritrese nakfa"
+
+msgid "Ethiopian birr"
+msgstr "Ethiopische birr"
+
+msgid "Fijian dollar"
+msgstr "Fiji dollar"
+
+msgid "Falkland Islands pound"
+msgstr "Falklandeilanden pond"
+
+msgid "Georgian lari"
+msgstr "Georgische Lari"
+
+msgid "Guernsey pound"
+msgstr "Guernsey pond"
+
+msgid "Ghana cedi"
+msgstr "Ghanese cedi"
+
+msgid "Gibraltar pound"
+msgstr "Gibraltar pond"
+
+msgid "Gambian dalasi"
+msgstr "Gambiaanse dalasi"
+
+msgid "Guinean franc"
+msgstr "Guinese frank"
+
+msgid "Guatemalan quetzal"
+msgstr "Guatemalaanse quetzal"
+
+msgid "Guyanese dollar"
+msgstr "Guinese dollar"
+
+msgid "Hong Kong dollar"
+msgstr "Hongkongse dollar"
+
+msgid "Honduran lempira"
+msgstr "Hondurese lempira"
+
+msgid "Croatian kuna"
+msgstr "Kroatische kuna"
+
+msgid "Haitian gourde"
+msgstr "Haitiaanse gourde"
+
+msgid "Hungarian forint"
+msgstr "Hongaarse forint"
+
+msgid "Indonesian rupiah"
+msgstr "Indonesische roepia"
+
+msgid "Israeli new shekel"
+msgstr "Israelische new shekel"
+
+msgid "Manx pound"
+msgstr "Manx pond"
+
+msgid "Indian rupee"
+msgstr "Indiase roepie"
+
+msgid "Iraqi dinar"
+msgstr "Irakese dinar"
+
+msgid "Iranian rial"
+msgstr "Iraanse rial"
+
+msgid "Iranian toman"
+msgstr "Iraanse toman"
+
+msgid "Icelandic kr&oacute;na"
+msgstr "Ijslandse kr&oacute;na"
+
+msgid "Jersey pound"
+msgstr "Jersey pond"
+
+msgid "Jamaican dollar"
+msgstr "Jamaicaanse dollar"
+
+msgid "Jordanian dinar"
+msgstr "Jordaanse dinar"
+
+msgid "Japanese yen"
+msgstr "Japanse yen"
+
+msgid "Kenyan shilling"
+msgstr "Keniaanse shilling"
+
+msgid "Kyrgyzstani som"
+msgstr "Kyrgyzstanische som"
+
+msgid "Cambodian riel"
+msgstr "Cambodiaanse riel"
+
+msgid "Comorian franc"
+msgstr "Comoriaanse frank"
+
+msgid "North Korean won"
+msgstr "Noord-Koreaanse won"
+
+msgid "South Korean won"
+msgstr "Zuid-Koreaanse won"
+
+msgid "Kuwaiti dinar"
+msgstr "Koeweitse dinar"
+
+msgid "Cayman Islands dollar"
+msgstr "Kaaiman eilandse dollar"
+
+msgid "Kazakhstani tenge"
+msgstr "Kazakhstaanse tenge"
+
+msgid "Lao kip"
+msgstr "Laotiaanse kip"
+
+msgid "Lebanese pound"
+msgstr "Libanese pond"
+
+msgid "Sri Lankan rupee"
+msgstr "Sri Lankese rupee"
+
+msgid "Liberian dollar"
+msgstr "Liberiaanse dollar"
+
+msgid "Lesotho loti"
+msgstr ""
+
+msgid "Libyan dinar"
+msgstr "Libische dinar"
+
+msgid "Moroccan dirham"
+msgstr "Marokkaanse dirham"
+
+msgid "Moldovan leu"
+msgstr "Moldovaanse leu"
+
+msgid "Malagasy ariary"
+msgstr ""
+
+msgid "Macedonian denar"
+msgstr "Macedoniaanse denar"
+
+msgid "Burmese kyat"
+msgstr ""
+
+msgid "Mongolian t&ouml;gr&ouml;g"
+msgstr "Mongoolse t&ouml;gr&ouml;g"
+
+msgid "Macanese pataca"
+msgstr ""
+
+msgid "Mauritanian ouguiya"
+msgstr "Mauritaniaanse ouguiya"
+
+msgid "Mauritian rupee"
+msgstr "Mauritaanse rupee"
+
+msgid "Maldivian rufiyaa"
+msgstr "Maladivische rufiyaa"
+
+msgid "Malawian kwacha"
+msgstr "Malawiaanse kwacha"
+
+msgid "Mexican peso"
+msgstr "Mexicaanse peso"
+
+msgid "Malaysian ringgit"
+msgstr "Maleisische ringgit"
+
+msgid "Mozambican metical"
+msgstr "Mozambicaanse metical"
+
+msgid "Namibian dollar"
+msgstr "Namibische dollar"
+
+msgid "Nigerian naira"
+msgstr "Nigeriaanse naira"
+
+msgid "Nicaraguan c&oacute;rdoba"
+msgstr "Nicaraguaanse c&oacute;rdoba"
+
+msgid "Norwegian krone"
+msgstr "Noorse kroon"
+
+msgid "Nepalese rupee"
+msgstr ""
+
+msgid "New Zealand dollar"
+msgstr "Nieuw-Zeelandse dollar"
+
+msgid "Omani rial"
+msgstr "Omanische rial"
+
+msgid "Panamanian balboa"
+msgstr "Panamese balboa"
+
+msgid "Sol"
+msgstr ""
+
+msgid "Papua New Guinean kina"
+msgstr "Papua Nieuw Guineaanse kina"
+
+msgid "Philippine peso"
+msgstr "Filipijnse peso"
+
+msgid "Pakistani rupee"
+msgstr "Pakistaanse roepie"
+
+msgid "Polish z&#x142;oty"
+msgstr "Poolse z&#x142;oty"
+
+msgid "Transnistrian ruble"
+msgstr "Transnistriaanse roebel"
+
+msgid "Paraguayan guaran&iacute;"
+msgstr "Paraguayaanse guaran&iacute;"
+
+msgid "Qatari riyal"
+msgstr "Qatariaanse riyal"
+
+msgid "Romanian leu"
+msgstr "Roemeense leu"
+
+msgid "Serbian dinar"
+msgstr "Servische dinar"
+
+msgid "Russian ruble"
+msgstr "Russische roebel"
+
+msgid "Rwandan franc"
+msgstr "Rwandese frank"
+
+msgid "Saudi riyal"
+msgstr "Saoedi-Arabische riyal"
+
+msgid "Solomon Islands dollar"
+msgstr "Solomon eilandse dollar"
+
+msgid "Seychellois rupee"
+msgstr "Seychelliaanse rupee"
+
+msgid "Sudanese pound"
+msgstr "Soedanese pond"
+
+msgid "Swedish krona"
+msgstr "Zweedse kroon"
+
+msgid "Singapore dollar"
+msgstr "Singaporese dollar"
+
+msgid "Saint Helena pound"
+msgstr "Sint Heleense pond"
+
+msgid "Sierra Leonean leone"
+msgstr "Sierra Leoneaanse leone"
+
+msgid "Somali shilling"
+msgstr "Somalische shilling"
+
+msgid "Surinamese dollar"
+msgstr "Surinaamse dollar"
+
+msgid "South Sudanese pound"
+msgstr "Zuid Soedanese pond"
+
+msgid "S&atilde;o Tom&eacute; and Pr&iacute;ncipe dobra"
+msgstr "S&atilde;o Tom&eacute; en Pr&iacute;ncipe dobra"
+
+msgid "Syrian pound"
+msgstr "Syrische pond"
+
+msgid "Swazi lilangeni"
+msgstr ""
+
+msgid "Thai baht"
+msgstr "Thaise baht"
+
+msgid "Tajikistani somoni"
+msgstr "Tajikistanische somoni"
+
+msgid "Turkmenistan manat"
+msgstr "Turkmenistaanse manat"
+
+msgid "Tunisian dinar"
+msgstr "Tunesische dinar"
+
+msgid "Tongan pa&#x2bb;anga"
+msgstr ""
+
+msgid "Turkish lira"
+msgstr "Turkse lire"
+
+msgid "Trinidad and Tobago dollar"
+msgstr "Trinidad en Tobago dollar"
+
+msgid "New Taiwan dollar"
+msgstr "Nieuw Taiwanese dollar"
+
+msgid "Tanzanian shilling"
+msgstr "Tanzaniaanse shilling"
+
+msgid "Ukrainian hryvnia"
+msgstr "Oekraïense hryvnja"
+
+msgid "Ugandan shilling"
+msgstr "Ugandase shilling"
+
+msgid "Uruguayan peso"
+msgstr "Uruguayaanse peso"
+
+msgid "Uzbekistani som"
+msgstr "Uzbekistaanse som"
+
+msgid "Venezuelan bol&iacute;var"
+msgstr "Venezuelaanse bol&iacute;var"
+
+msgid "Bol&iacute;var soberano"
+msgstr ""
+
+msgid "Vietnamese &#x111;&#x1ed3;ng"
+msgstr ""
+
+msgid "Vanuatu vatu"
+msgstr "Vanuatuaanse vatu"
+
+msgid "Samoan t&#x101;l&#x101;"
+msgstr "Samoaanse t&#x101;l&#x101;"
+
+msgid "Central African CFA franc"
+msgstr "Centraal Africaanse CFA frank"
+
+msgid "East Caribbean dollar"
+msgstr "Oost Caribbische dollar"
+
+msgid "West African CFA franc"
+msgstr "West Africaanse CFA frank"
+
+msgid "CFP franc"
+msgstr "CFP frank"
+
+msgid "Yemeni rial"
+msgstr ""
+
+msgid "South African rand"
+msgstr "Zuid-Afrikaanse rand"
+
+msgid "Zambian kwacha"
+msgstr "Zambiaanse kwacha"
+
+msgid "Before"
+msgstr "Voor"
+
+msgid "After"
+msgstr "Na"
+
+msgid "Before with space"
+msgstr "Voor met een spatie"
+
+msgid "After with space"
+msgstr "Acher met een spatie"
+
+msgid "First name is required."
+msgstr "Voornaam is verplicht."
+
+msgid "Last name is required."
+msgstr "Achternaam is verplicht."
+
+msgid "Email is required."
+msgstr "E-mail is verplicht."
+
+msgid "Phone is required."
+msgstr "Telefoon is verplicht."
+
+msgid "Country of residence"
+msgstr "Land van verblijf"
+
+msgid "Country is required."
+msgstr "Land is verplicht."
+
+msgid "Address is required."
+msgstr "Adres is verplicht."
+
+msgid "City is required."
+msgstr "Stad is verplicht."
+
+msgid "State is required."
+msgstr "Staat is verplicht."
+
+msgid "Postcode is required."
+msgstr "Postcode is verplicht."
+
+msgid "Note is required."
+msgstr "Opmerking verplicht."
+
+msgid "Check-in"
+msgstr "Inchecken"
+
+msgid "Check-out"
+msgstr "Uitchecken"
+
+#. translators: The value a hotel wishes to sell their rooms. Also called the Cost, Value, Tariff or Room charge.
+msgid "Rate"
+msgstr "Tarief"
+
+msgid "Adults/Guests"
+msgstr "Volwassenen/Gasten"
+
+msgid "Full Guest Name"
+msgstr "De volledige naam van de gast"
+
+msgid "Accommodation Subtotal"
+msgstr "Subtotaal accommodatie"
+
+msgid "Total Accommodation Taxes"
+msgstr "Totaal Accommodatie Belastingen"
+
+msgid "Total Fees"
+msgstr ""
+
+msgid "Services Subtotal"
+msgstr "Diensten Subtotaal"
+
+msgid "Total Service Taxes"
+msgstr "Totaal Service Belastingen"
+
+msgid "Total Fee Taxes"
+msgstr "Totaal Belastingen"
+
+msgid "Discount"
+msgstr "Korting"
+
+msgid "Total"
+msgstr "Totaal"
+
+msgid "Paid"
+msgstr "Afgerekend"
+
+msgid "Payment Details"
+msgstr "Betalingsdetails"
+
+msgid "Square Meter"
+msgstr "Vierkante meter"
+
+msgid "Square Foot"
+msgstr "Vierkante voet"
+
+msgid "Square Yard"
+msgstr "Vierkante meter"
+
+msgid "m²"
+msgstr ""
+
+msgid "ft²"
+msgstr ""
+
+msgid "yd²"
+msgstr ""
+
+msgid "User Approval Time setted in Hotel Booking Settings"
+msgstr "Goedkeuringstijd van een gebruiker is ingesteld in Hotelreservering-instellingen"
+
+msgid "Pending Payment Time set in Hotel Booking Settings"
+msgstr "Afwachtingstijd is ingesteld in Hotelreservering-instellingen"
+
+msgid "Interval for automatic cleaning of synchronization logs."
+msgstr "Interval voor automatisch opschonen van synchronisatielogboeken."
+
+msgid "x %d guest"
+msgid_plural "x %d guests"
+msgstr[0] "x %d gast"
+msgstr[1] "x %d gasten"
+
+msgid "x %d time"
+msgid_plural "x %d times"
+msgstr[0] "x %d keer"
+msgstr[1] "x %d keren"
+
+msgid "Please select columns to export."
+msgstr "Gelieve kolommen te kiezen om te exporteren."
+
+msgid "Disable this email notification"
+msgstr "E-mail meldingen uitschakelen"
+
+msgid "Subject"
+msgstr "Onderwerp"
+
+msgid "Header"
+msgstr "Koptekst"
+
+msgid "Email Template"
+msgstr "E-mail Sjabloon"
+
+msgid "\"%s\" email will not be sent: there is no customer email in the booking."
+msgstr "\"%s\" e-mail wordt niet verzonden: er is geen klant e-mail in de boeking."
+
+msgid "Deprecated tags in header of %s"
+msgstr "Afgekeurde tags in de kop van %s"
+
+msgid "Deprecated tags in subject of %s"
+msgstr "Afgekeurde tags in onderwerp van %s"
+
+msgid "Deprecated tags in template of %s"
+msgstr "Afgekeurde tags in een sjabloon van %s"
+
+msgid "Recipients"
+msgstr "Ontvangers"
+
+msgid "You can use multiple comma-separated emails"
+msgstr "U kunt meerdere door komma's gescheiden e-mails gebruiken"
+
+msgid "\"%s\" mail was sent to admin."
+msgstr "\"%s\" mail werd verzonden naar admin."
+
+msgid "\"%s\" mail sending to admin is failed."
+msgstr "\"%s\" mail sturen mislukt."
+
+msgid "Booking Cancelled"
+msgstr "Reservering is geannuleerd"
+
+msgid "%site_title% - Booking #%booking_id% Cancelled"
+msgstr "%site_title% - Boeking #%booking_id% is geannuleerd"
+
+msgid "Email that will be sent to Admin when customer cancels booking."
+msgstr "E-mail die naar beheerder wordt gestuurd als een boeking is geannuleerd door de klant."
+
+msgid "Cancelled Booking Email"
+msgstr "Geannuleerde Boeking E-mail"
+
+msgid "Booking Confirmed"
+msgstr "Boeking is bevestigd"
+
+msgid "%site_title% - Booking #%booking_id% Confirmed"
+msgstr "%site_title% - Boeking #%booking_id% is Bevestigd"
+
+msgid "Email that will be sent to Admin when payment is completed."
+msgstr "E-mail om naar een klant te sturen als een boeking is voltooid."
+
+msgid "Approved Booking Email (via payment)"
+msgstr "E-mail goedkeuring van booking (door de betaling)"
+
+msgid "Email that will be sent to Admin when customer confirms booking."
+msgstr "E-mail die naar de beheerder gestuurd wordt als een boeking werd bevestigd."
+
+msgid "Approved Booking Email"
+msgstr "E-mail goedgekeurde boeking"
+
+msgid "Confirm new booking"
+msgstr "Nieuwe reservering Bevestigen"
+
+msgid "%site_title% - New booking #%booking_id%"
+msgstr "%site_title% - Nieuwe reservering #%booking_id%"
+
+msgid "Email that will be sent to administrator after booking is placed."
+msgstr "E-mail die verzonden wordt naar de beheerder wanneer een boeking geplaatst werd."
+
+msgid "Pending Booking Email"
+msgstr "In afwachting van boeking e-mail"
+
+msgid "Your booking is approved"
+msgstr "Uw boeking is goedgekeurd"
+
+msgid "%site_title% - Your booking #%booking_id% is approved"
+msgstr "%site_title% - Uw booking #%booking_id% is goedgekeurd"
+
+msgid "Email that will be sent to customer when booking is approved."
+msgstr "E-mail om naar een klant te sturen als een boeking is goedgekeurd."
+
+msgid "\"%s\" mail was sent to customer."
+msgstr "\"%s\" mail werd gestuurd aan de klant."
+
+msgid "\"%s\" mail sending is failed."
+msgstr "Het versturen van \"%s\" e-mail is mislukt."
+
+msgid "Your booking is cancelled"
+msgstr "Uw boeking is geannuleerd"
+
+msgid "%site_title% - Your booking #%booking_id% is cancelled"
+msgstr "%site_title% - Uw boeking #%booking_id% is geannuleerd"
+
+msgid "Email that will be sent to customer when booking is cancelled."
+msgstr "E-mail die naar de klant gestuurd wordt als een boeking werd geannuleerd."
+
+msgid "Confirm your booking"
+msgstr "Bevestig uw boeking"
+
+msgid "%site_title% - Confirm your booking #%booking_id%"
+msgstr "%site_title% - Bevestig uw boeking #%booking_id%"
+
+msgid "This email is sent when \"Booking Confirmation Mode\" is set to Customer confirmation via email."
+msgstr "Deze e-mail wordt verzonden wanneer \"Boekingsbevestigingsmodus\" is ingesteld op Klantbevestiging via e-mail."
+
+msgid "Email that will be sent to customer after booking is placed."
+msgstr "E-mail om naar een klant te sturen waneer een boeking is geplaatst."
+
+msgid "New Booking Email (Confirmation by User)"
+msgstr "Nieuwe reservering-e-mail (bevestiging door de gebruiker)"
+
+msgid "Your booking is placed"
+msgstr "UW reservering werd geplaatst"
+
+msgid "%site_title% - Booking #%booking_id% is placed"
+msgstr "%site_title% - Reservering #%booking_id% werd geplaatst"
+
+msgid "This email is sent when \"Booking Confirmation Mode\" is set to Admin confirmation."
+msgstr "Dit e-mail werd gestruud toen \"Bevestigingsmode\" werd door admin ingeschakeld."
+
+msgid "New Booking Email (Confirmation by Admin)"
+msgstr "Nieuwe boeking e-mail (Bevestiging van beheerder)"
+
+msgid "Welcome"
+msgstr ""
+
+msgid "%site_title% - account details"
+msgstr ""
+
+msgid "Email that will be sent to a customer after they registered on your site."
+msgstr ""
+
+msgid "Customer Registration Email"
+msgstr ""
+
+msgid "Possible tags:"
+msgstr "Mogelijke tags:"
+
+msgid "Deprecated."
+msgstr "Afgekeurd en vervangen."
+
+msgid "none"
+msgstr "geen"
+
+msgid "User Cancellation Link"
+msgstr "Annulering link"
+
+msgid "Site title (set in Settings > General)"
+msgstr "Website Titel (instellen in Instellingen > Algemeen)"
+
+msgid "Booking ID"
+msgstr "Boeking ID"
+
+msgid "Booking Edit Link"
+msgstr "Reservering Bewerking Link"
+
+msgid "Booking Total Price"
+msgstr "Totaalprijs reservering"
+
+msgid "Customer First Name"
+msgstr "Voornaam van de klant"
+
+msgid "Customer Last Name"
+msgstr "Achternaam van de klant"
+
+msgid "Customer Email"
+msgstr "E-mail van de klant"
+
+msgid "Customer Phone"
+msgstr "Telefoonnummer van de klant"
+
+msgid "Customer Country"
+msgstr "Land klant"
+
+msgid "Customer Address"
+msgstr "Adres klant"
+
+msgid "Customer City"
+msgstr "Plaats klant"
+
+msgid "Customer State/County"
+msgstr "Staat klant"
+
+msgid "Customer Postcode"
+msgstr "Postcode klant"
+
+msgid "Reserved Accommodations Details"
+msgstr "Gereserveerde accommodatie details"
+
+msgid "Booking Details"
+msgstr "Boekingsgegevens"
+
+msgid "Confirmation Link"
+msgstr "Bevestigingslink"
+
+msgid "Confirmation Link Expiration Time ( UTC )"
+msgstr "Bevestigingslink verlooptijd ( UTC )"
+
+msgid "Cancellation Details (if enabled)"
+msgstr "Annulering details (indien ingeschakeld)"
+
+msgid "The total amount of payment"
+msgstr ""
+
+msgid "The unique ID of payment"
+msgstr "Unieke betaling ID"
+
+msgid "The method of payment"
+msgstr "Betalingswijze"
+
+msgid "Payment instructions"
+msgstr "Betalingsinstructies"
+
+msgid "User login"
+msgstr ""
+
+msgid "User password"
+msgstr ""
+
+msgid "Link to My Account page"
+msgstr ""
+
+msgid "My Account"
+msgstr ""
+
+msgid "Accommodation Type Link"
+msgstr "Link type accommodatie"
+
+msgid "Accommodation Type Title"
+msgstr "Titel type accommodatie"
+
+msgid "Accommodation Type Categories"
+msgstr "Soorten accommodatiecategorieën"
+
+msgid "Accommodation Type Bed"
+msgstr "Bedtype accommodatie"
+
+msgid "Accommodation Rate Title"
+msgstr "Accommodatietarief titel"
+
+msgid "Accommodation Rate Description"
+msgstr "Accommodatietarief omschrijving"
+
+msgid "Sequential Number of Accommodation"
+msgstr "Volgnummer van accommodatie"
+
+msgid "This coupon has expired."
+msgstr "Deze coupon is verlopen."
+
+msgid "Sorry, this coupon is not applicable to your booking contents."
+msgstr "Sorry, deze coupon geldt niet voor de inhoud van uw boeking."
+
+msgid "Coupon usage limit has been reached."
+msgstr "Coupon-gebruiksbeperking is bereikt."
+
+msgid " &#215; %d night"
+msgid_plural " &#215; %d nights"
+msgstr[0] " &#215; %d nacht"
+msgstr[1] " &#215; %d nachten"
+
+msgid "%d adult"
+msgid_plural "%d adults"
+msgstr[0] "%d volwassene"
+msgstr[1] "%d volwassenen"
+
+msgid "%d guest"
+msgid_plural "%d guests"
+msgstr[0] "%d gast"
+msgstr[1] "%d gasten"
+
+msgid " &#215; %d time"
+msgid_plural " &#215; %d times"
+msgstr[0] " &#215; %d keer"
+msgstr[1] " &#215; %d keren"
+
+msgid "Per Instance"
+msgstr "Per exemplaar"
+
+msgid "Maximum execution time is set to %d seconds."
+msgstr "Maximale uitvoeringstijd is ingesteld op %d seconden."
+
+msgid "%d URL pulled for parsing."
+msgid_plural "%d URLs pulled for parsing."
+msgstr[0] "%d URL ontnomen voor parseren."
+msgstr[1] "%d URL's ontnomen voor parseren."
+
+msgid "Skipped. No URLs found for parsing."
+msgstr "Overgeslagen. Geen URL's gevonden voor parseren."
+
+msgid "Cannot read uploaded file"
+msgstr "Kan het ge-uploade bestand niet lezen"
+
+msgid "We will need to check %d previous booking after importing and remove it if the booking is outdated."
+msgid_plural "We will need to check %d previous bookings after importing and remove the outdated ones."
+msgstr[0] "Na het importeren moeten we %d vorige boeking controleren en verwijderen als de boeking verouderd is."
+msgstr[1] "Na het importeren moeten we %d vorige boekingen controleren en verwijderen als de boekingen verouderd zijn."
+
+msgctxt "%s - calendar URI or calendar filename"
+msgid "%1$d event found in calendar %2$s"
+msgid_plural "%1$d events found in calendar %2$s"
+msgstr[0] "%1$d gebeurtenis gevonden in kalender %2$s"
+msgstr[1] "%1$d gebeurtenissen gevonden in kalender %2$s"
+
+msgctxt "%s - calendar URI or calendar filename"
+msgid "Calendar source is empty (%s)"
+msgstr "Bron kalender is leeg (%s)"
+
+msgctxt "%s - calendar URI or calendar filename"
+msgid "Calendar file is not empty, but there are no events in %s"
+msgstr "Kalenderbestand is niet leeg, maar er zijn geen gebeurtenissen in %s"
+
+msgid "Error while loading calendar (%1$s): %2$s"
+msgstr "Fout tijdens het laden van agenda (%1$s): %2$s"
+
+msgctxt "%s - error description"
+msgid "Parse error. %s"
+msgstr "Parse fout. %s"
+
+msgid "Skipped. Outdated booking #%d already removed."
+msgstr "Overgeslagen. Verouderde boeking #%d is reeds verwijderd."
+
+msgid "Skipped. Booking #%d updated with new data."
+msgstr "Overgeslagen. Boeking #%d bijgewerkt met nieuwe gegevens."
+
+msgid "The outdated booking #%d has been removed."
+msgstr "De verouderde boeking #%d is verwijderd."
+
+msgid "Skipped. Event from %1$s to %2$s has passed."
+msgstr ""
+
+msgid "New booking #%1$d. The dates from %2$s to %3$s are now blocked."
+msgstr ""
+
+msgid "Success. Booking #%d updated with new data."
+msgstr "Gelukt. Boeking #%d bijgewerkt met nieuwe gegevens."
+
+msgid "Skipped. The dates from %1$s to %2$s are already blocked."
+msgstr "Overgeslagen. De data van %1$s tot %2$s zijn reeds geblokkeerd."
+
+msgid "Success. Booking #%1$d updated with new data. Removed %2$d outdated booking."
+msgid_plural "Success. Booking #%1$d updated with new data. Removed %2$d outdated bookings."
+msgstr[0] "Gelukt. Boeking #%1$d bijgewerkt met nieuwe gegevens. %2$d verouderde boeking verwijderd."
+msgstr[1] "Gelukt. Boeking #%1$d bijgewerkt met nieuwe gegevens. %2$d verouderde boekingen verwijderd."
+
+msgid "Success. Booking #%1$d updated with new data."
+msgstr "Gelukt. Boeking #%1$d bijgewerkt met nieuwe gegevens."
+
+msgid "Cannot import new event. Dates from %1$s to %2$s are partially blocked by booking %3$s."
+msgid_plural "Cannot import new event. Dates from %1$s to %2$s are partially blocked by bookings %3$s."
+msgstr[0] "Kan nieuwe gebeurtenis niet importeren. Data van %1$s tot %2$s worden gedeeltelijk geblokkeerd door de boeking %3$s."
+msgstr[1] "Kan nieuwe gebeurtenis niet importeren. Data van %1$s tot %2$s worden gedeeltelijk geblokkeerd door de boekingen %3$s."
+
+msgid "Booking imported with UID %1$s.<br />Summary: %2$s.<br />Description: %3$s.<br />Source: %4$s."
+msgstr "Boeking geïmporteerd met UID %1$s.<br />Samenvatting: %2$s.<br />Beschrijving: %3$s.<br />Bron: %4$s."
+
+msgid "Process Information"
+msgstr "Verwerkingsinformatie"
+
+msgid "Total bookings: %s"
+msgstr "Totale boekingen: %s"
+
+msgid "Success bookings: %s"
+msgstr "Gelukte boekingen: %s"
+
+msgid "Skipped bookings: %s"
+msgstr "Overgeslagen boekingen: %s"
+
+msgid "Failed bookings: %s"
+msgstr "Mislukte boekingen: %s"
+
+msgid "Removed bookings: %s"
+msgstr "Verwijderde boekingen: %s"
+
+msgid "Expand All"
+msgstr "Alles uitvouwen"
+
+msgid "Collapse All"
+msgstr "Alles inklappen"
+
+msgid "All done! %1$d booking was successfully added."
+msgid_plural "All done! %1$d bookings were successfully added."
+msgstr[0] "Helemaal klaar! %1$d boeking is succesvol toegevoegd."
+msgstr[1] "Helemaal klaar! %1$d boekingen zijn succesvol toegevoegd."
+
+msgid " There was %2$d failure."
+msgid_plural " There were %2$d failures."
+msgstr[0] " Er was %2$d mislukking."
+msgstr[1] " Er waren %2$d mislukkingen."
+
+msgid "Dismiss "
+msgstr "Verwijderen "
+
+msgid "Your License Key is not active. Please, <a href='%s'>activate your License Key</a> to get plugin updates"
+msgstr "Uw licentiesleutel is niet actief. <a href='%s'>Activeer uw licentiecode</a> om plugin updates te krijgen"
+
+msgid "Hotel Booking Plugin"
+msgstr "Hotelboeking Plugin"
+
+msgid "Your database is being updated in the background."
+msgstr "De database wordt op de achtergrond bijgewerkt."
+
+msgid "Taking a while? Click here to run it now."
+msgstr "Duurt een tijdje? Klik hier om het te nu uit te laten voeren."
+
+msgid "Add \"Booking Confirmation\" shortcode to your \"Booking Confirmed\" and \"Reservation Received\" pages to show more details about booking or payment.<br/>Click \"Update Pages\" to apply all changes automatically or skip this notice and add \"Booking Confirmation\" shortcode manually.<br/><b><em>This action will replace the whole content of the pages.</em></b>"
+msgstr "Voeg de shortcode \"Boekingsbevestiging\" toe aan uw pagina's \"Bevestigde boeking\" en \"Reservering ontvangen\" om meer details over boeken of betalen weer te geven. <br/> Klik op \"Pagina's bijwerken\" om alle wijzigingen automatisch toe te passen of sla dit bericht over en voeg handmatig de shortcode \"Boekingsbevestiging toe\". <br/> <b> <em> Deze actie vervangt de hele inhoud van de pagina's. </em> </b>"
+
+msgid "Update Pages"
+msgstr "Ververs pagina's"
+
+msgid "Skip"
+msgstr "Overslaan"
+
+msgid "Direct Bank Transfer"
+msgstr "Rechtstreekse bankoverschrijving"
+
+msgid "Make your payment directly into our bank account. Please use your Booking ID as the payment reference."
+msgstr "Voer uw betaling rechtstreeks uit op onze bankrekening. Gebruik uw boekings-ID als betalingsreferentie."
+
+msgid "Beanstream/Bambora"
+msgstr ""
+
+msgid "Use the card number %1$s with CVC %2$s and a valid expiration date to test a payment."
+msgstr "Gebruik de kaart nummer %1$s met CVC %2$s en een geldige vervaldatum voor het testen van een betaling."
+
+msgid "Pay by Card (Beanstream)"
+msgstr "Betalen met kaart (Beanstream)"
+
+msgid "Pay with your credit card via Beanstream."
+msgstr "Betaal met uw kredietkaart via Beanstream."
+
+msgid "%1$s is enabled, but the <a href=\"%2$s\">Force Secure Checkout</a> option is disabled. Please enable SSL and ensure your server has a valid SSL certificate. Otherwise, %1$s will only work in Test Mode."
+msgstr "%1$s is ingeschakeld, maar de <a href=\"%2$s\">Beveiligde Checkout Opdwingen</a> optie is uitgeschakeld. Gelieve SSL in te schakelen en ervoor te zorgen dat uw server een geldig SSL-certificaat heeft. %1$s werkt anders, alleen in de Testmodus."
+
+msgid "The <a href=\"%2$s\">Force Secure Checkout</a> option is disabled. Please enable SSL and ensure your server has a valid SSL certificate. Otherwise, %1$s will only work in Test Mode."
+msgstr "Stripe is geactiveerd, maar <a href=\"%2$s\">Force Secure Checkout</a> optie is uitgeschakeld. Schakel SSL in en zorg ervoor dat uw server een geldige SSL certificate heeft. Anders zal %1$s alleen in testmodus werken."
+
+msgid "Beanstream"
+msgstr ""
+
+msgid "Merchant ID"
+msgstr ""
+
+msgid "Your Merchant ID can be found in the top-right corner of the screen after logging in to the Beanstream Back Office"
+msgstr "Uw Merchant ID kunt u in de rechterbovenhoek van het scherm na inloggen op de Beanstream Back Office vinden"
+
+msgid "Payments Passcode"
+msgstr "De toegangscode tot de betalingen"
+
+msgid "To generate the passcode, navigate to Administration > Account Settings > Order Settings in the sidebar, then scroll to Payment Gateway > Security/Authentication"
+msgstr "Voor het genereren van de toegangscode, ga naar administratie > Accountinstellingen > Bestelinstellingen in de zijbalk, dan ga naar betalingsgateway > Beveiligingsverificatie/Authenticatie"
+
+msgid "Beanstream Payment Error: %s"
+msgstr "Beanstream betaalfout: %s"
+
+msgid "Payment single use token is required."
+msgstr "Eenmalige betalingstoken is vereist."
+
+msgid "Braintree"
+msgstr ""
+
+msgid "Webhooks Destination URL: %s"
+msgstr "Webhooks-bestemmings-URL: %s"
+
+msgid "Pay by Card (Braintree)"
+msgstr "Betalen met kaart (Braintree)"
+
+msgid "Pay with your credit card via Braintree."
+msgstr "Betaal met uw kredietkaart via Braintree."
+
+msgid "Braintree gateway cannot be enabled due to some problems: %s"
+msgstr "Braintree gateway kan wegens bepaalde problemen niet ingeschakeld worden: %s"
+
+msgid "In your Braintree account select Account > My User > View Authorizations."
+msgstr "In uw account Braintree Account selecteer> Mijn gebruiker > Autorisaties bekijken."
+
+msgid "Public Key"
+msgstr "Publieke sleutel"
+
+msgid "Private Key"
+msgstr "Persoonlijke sleutel"
+
+msgid "Merchant Account ID"
+msgstr "Merchant Account-ID"
+
+msgid "In case the site currency differs from default currency in your Braintree account, you can set specific merchant account to avoid <a href=\"%s\">complications with currencty conversions</a>. Otherwise leave the field empty."
+msgstr "In het geval dat de site-munteenheid van de standaardvaluta in uw Braintree-account verschilt, kunt u de specifieke merchant account instellen om <a href=\"%s\">complicaties met munteenheid conversies</a> te vermijden. Anders laat het veld leeg."
+
+msgid "Braintree submitted for settlement (Transaction ID: %s)"
+msgstr "Braintree verzonden ter beslechting (transactie-ID: %s)"
+
+msgid "Braintree Payment Error: %s"
+msgstr "Braintree betaling fout: %s"
+
+msgid "Payment method nonce is required."
+msgstr "Betalingsmethode nonce is vereist."
+
+msgid "Payment dispute opened"
+msgstr "Betaling geschil geopend"
+
+msgid "Payment dispute lost"
+msgstr "Betaling geschil verloren"
+
+msgid "Payment dispute won"
+msgstr "Betaling geschil gewonnnen"
+
+msgid "Payment refunded in Braintree"
+msgstr "Betaling terugbetaald in Braintree"
+
+msgid "Braintree transaction voided"
+msgstr "Braintree transactie ongeldig"
+
+msgid "Pay on Arrival"
+msgstr "Betaal bij aankomst"
+
+msgid "Pay with cash on arrival."
+msgstr "Betaal contant bij aankomst."
+
+msgid "%s is a required field."
+msgstr "%s is een verplicht veld."
+
+msgid "%s is not a valid email address."
+msgstr "%s is een ongeldig e-mailadres."
+
+#. translators: %s is the payment gateway title.
+msgid "Enable \"%s\""
+msgstr "Inschakelen \"%s\""
+
+msgid "Test Mode"
+msgstr "Testmodus"
+
+msgid "Enable Sandbox Mode"
+msgstr "Sandbox Modus Inschakelen"
+
+msgid "Sandbox can be used to test payments."
+msgstr "Sandbox kan gebruikt worden voor het testen van betalingen."
+
+msgid "Payment method title that the customer will see on your website."
+msgstr "Titel van betaalmethode die klanten op uw website zien."
+
+msgid "Payment method description that the customer will see on your website."
+msgstr "Beschrijving van een betaalmethode die klanten op uw website zien."
+
+msgid "Instructions"
+msgstr "Instructies"
+
+msgid "Instructions for a customer on how to complete the payment."
+msgstr "Instructies voor een klant om de betaling te voltooien."
+
+msgid "Reservation #%d"
+msgstr "Reservering #%d"
+
+msgid "Accommodation(s) reservation"
+msgstr "Accommodatie (s) reservering"
+
+msgid "Manual Payment"
+msgstr "Handmatige betaling"
+
+msgid "PayPal"
+msgstr ""
+
+msgid "Pay via PayPal"
+msgstr "Via PayPal betalen"
+
+msgid "Paypal Business Email"
+msgstr "Zakelijke PayPal-e-mail"
+
+msgid "Disable IPN Verification"
+msgstr "IPN Verificatie Uitschakelen"
+
+msgid "Specify an IPN listener for a specific payment instead of the listeners specified in your PayPal Profile."
+msgstr "IPN listener voor specifieke betalingen gebruiken in plaats van listeners uit uw PayPal profiel."
+
+msgid "Payment %s via IPN."
+msgstr "Betaling %s via IPN."
+
+msgid "Payment failed due to invalid PayPal business email."
+msgstr "Betaling is mislukt vanwege de ongeldige Zakelijke PayPal-e-mail."
+
+msgid "Payment failed due to invalid currency in PayPal IPN."
+msgstr "Betaling is mislukt vanwege de ongeldige valuta in PayPal IPN."
+
+msgid "Payment failed due to invalid amount in PayPal IPN."
+msgstr "Betaling is mislukt vanwege het ongeldig bedrag in PayPal."
+
+msgid "Payment failed due to invalid purchase key in PayPal IPN."
+msgstr "De betaling mislukt vanwege ongeldige aankoopsleutel in PayPal IPN."
+
+msgid "Payment made via eCheck and will clear automatically in 5-8 days."
+msgstr "De betaling is gedaan via eCheck."
+
+msgid "Payment requires a confirmed customer address and must be accepted manually through PayPal."
+msgstr "Voor de betaling moet u een bevestigd adres hebben en de betaling moet handmatig geaccepteerd worden."
+
+msgid "Payment must be accepted manually through PayPal due to international account regulations."
+msgstr "De betaling moet handmatig geaccepteerd zijn via PayPal vanwege internationale regelgeving."
+
+msgid "Payment received in non-shop currency and must be accepted manually through PayPal."
+msgstr "De betaling is ontvangen in non-shop valuta en moet handmatig geaccepteerd worden via PayPal."
+
+msgid "Payment is being reviewed by PayPal staff as high-risk or in possible violation of government regulations."
+msgstr "De betaling wordt herzien door PayPal medewerkers door een mogelijk verhoogd risico of in strijd met met overheidsrichtlijnen."
+
+msgid "Payment was sent to unconfirmed or non-registered email address."
+msgstr "De betaling werd verzonden naar een e-mailadres dat niet geregistreerd of niet bevestigd is."
+
+msgid "PayPal account must be upgraded before this payment can be accepted."
+msgstr "PayPal profiel moet bijgewerkt worden om deze betaling te kunnen accepteren."
+
+msgid "PayPal account is not verified. Verify account in order to accept this payment."
+msgstr "PayPal account is niet geverifieerd.U moet uw profiel verifiëren om deze betaling te kunnen accepteren."
+
+msgid "Payment is pending for unknown reasons. Contact PayPal support for assistance."
+msgstr "Betaling is in afwachting om onbekende redenen. Neem voor hulp contact op met PayPal support."
+
+msgid "Partial PayPal refund processed: %s"
+msgstr "Gedeeltelijke PayPal terugbetaling werd verwerkt: %s"
+
+msgid "PayPal Payment #%s Refunded for reason: %s"
+msgstr "PayPal Betaling #%s werd terugbetaald vanwege: %s"
+
+msgid "PayPal Refund Transaction ID: %s"
+msgstr "PayPal terugbetaling transactie ID: %s"
+
+msgid "Stripe"
+msgstr ""
+
+msgid "Use the card number %1$s with CVC %2$s, a valid expiration date and random 5-digit ZIP-code to test a payment."
+msgstr "Gebruik het kaartnummer %1$s met CVC %2$s, een geldige vervaldatum en een willekeurige 5-letterige postcode om een betaling te testen."
+
+msgid "Pay by Card (Stripe)"
+msgstr "Met bankkaart betalen (Stripe)"
+
+msgid "Pay with your credit card via Stripe."
+msgstr "Met uw kredietkaart betalen via Stripe."
+
+msgid "Bancontact"
+msgstr ""
+
+msgid "iDEAL"
+msgstr ""
+
+msgid "Giropay"
+msgstr ""
+
+msgid "SEPA Direct Debit"
+msgstr ""
+
+msgid "SOFORT"
+msgstr ""
+
+msgid "Euro is the only acceptable currency for the selected payment methods. Change your currency to Euro in General settings."
+msgstr "Euro is de enig aanvaarde valuta voor de gekozen betalingswijzen. Wijzig uw valuta in Euro in 'Algemene instellingen'."
+
+msgid "Secret Key"
+msgstr "Private sleutel"
+
+msgid "Webhook Secret"
+msgstr ""
+
+msgid "Payment Methods"
+msgstr "Betalingswijzen"
+
+msgid "Card Payments"
+msgstr "Kaartbetalingen"
+
+msgid "Checkout Locale"
+msgstr ""
+
+msgid "Display Checkout in the user's preferred language, if available."
+msgstr "Toon, indien beschikbaar, gewenste taal gebruiker in Checkout."
+
+msgid "The payment method is not selected."
+msgstr "De betaalmethode werd niet gekozen."
+
+msgid "Payment intent ID is not set."
+msgstr "Betalingsintentie-ID is niet ingesteld."
+
+msgid "Source ID is not set."
+msgstr "Bron-ID is niet ingesteld."
+
+#. translators: %s - Stripe PaymentIntent ID
+msgid "Payment for PaymentIntent %s succeeded."
+msgstr "Betaling voor PaymentIntent %s gelukt.."
+
+#. translators: %s - Stripe PaymentIntent ID
+msgid "Payment for PaymentIntent %s is processing."
+msgstr "Betaling voor PaymentIntent %s wordt verwerkt..."
+
+msgid "Failed to process Card payment. %s"
+msgstr "Kan kaartbetaling niet verwerken. %s"
+
+#. translators: %s - Stripe Source ID
+msgid "Payment source %s is waiting for customer confirmation."
+msgstr "Betalingsbron %s wacht op bevestiging van klant."
+
+#. translators: %s - Stripe Source ID
+msgid "Pending source %s received, but the redirect URL is empty."
+msgstr "In afwachting van bron %s ontvangen, maar de omleidings-URL is leeg."
+
+#. translators: %s - Stripe Source ID
+msgid "Payment source %s was cancelled by customer."
+msgstr "Betalingsbron %s is geannuleerd door de klant."
+
+#. translators: %s - Stripe Source ID
+msgid "Payment source %s failed and couldn't be processed."
+msgstr "Betalingsbron %s is mislukt en kon niet worden verwerkt."
+
+#. translators: %1$s - Stripe Source ID; %2$s - Stripe Source status
+msgid "Failed to process payment source %1$s: unsupported status - \"%2$s\"."
+msgstr "Kan betalingsbron %1$s niet verwerken: status niet ondersteund - \"%2$s\"."
+
+msgid "Failed to process Source payment. %s"
+msgstr "Kan bronbetaling niet verwerken. %s"
+
+msgid "Can't charge the payment again: payment's flow already completed."
+msgstr "Kan de betaling niet opnieuw in rekening brengen: het betalingsproces is al voltooid."
+
+#. translators: %s - Stripe Charge ID
+msgid "Charge %s succeeded."
+msgstr "Laden %s gelukt."
+
+#. translators: %1$s - Stripe Charge ID; %2$s - payment price
+msgid "Charge %1$s for %2$s created."
+msgstr "Laden %1$s voor %2$s aangemaakt."
+
+#. translators: %s - Stripe Charge ID
+msgid "Charge %s failed."
+msgstr "Laden %s mislukt."
+
+msgid "Charge error. %s"
+msgstr "Laadfout. %s"
+
+msgid "Argentinean"
+msgstr "Argentijns"
+
+msgid "Simplified Chinese"
+msgstr "Vereenvoudigd Chinees"
+
+msgid "Danish"
+msgstr "Deens"
+
+msgid "Dutch"
+msgstr "Nederlands"
+
+msgid "English"
+msgstr "Engels"
+
+msgid "Finnish"
+msgstr "Fins"
+
+msgid "French"
+msgstr "Frans"
+
+msgid "German"
+msgstr "Duits"
+
+msgid "Italian"
+msgstr "Italiaans"
+
+msgid "Japanese"
+msgstr "Japans"
+
+msgid "Norwegian"
+msgstr "Noors"
+
+msgid "Polish"
+msgstr "Pools"
+
+msgid "Russian"
+msgstr "Russisch"
+
+msgid "Spanish"
+msgstr "Spaans"
+
+msgid "Swedish"
+msgstr "Zweeds"
+
+msgid "Card"
+msgstr "Kaart"
+
+msgid "Credit or debit card"
+msgstr "Crediteer of debiteer kaart"
+
+msgid "IBAN"
+msgstr ""
+
+msgid "Select iDEAL Bank"
+msgstr "Kies iDEAL Bank"
+
+msgid "You will be redirected to a secure page to complete the payment."
+msgstr "U wordt omgeleid naar een beveiligde pagina om de betaling te voltooien."
+
+msgid "By providing your IBAN and confirming this payment, you are authorizing this merchant and Stripe, our payment service provider, to send instructions to your bank to debit your account and your bank to debit your account in accordance with those instructions. You are entitled to a refund from your bank under the terms and conditions of your agreement with your bank. A refund must be claimed within 8 weeks starting from the date on which your account was debited."
+msgstr "Door uw IBAN nummer op te geven en deze betaling te bevestigen, machtigt u deze handelaar en Stripe, onze betalingsdienstaanbieder, om instructies naar uw bank te versturen om uw rekening te debiteren en uw bank om uw rekening te debiteren in overeenstemming met deze instructies. U hebt recht op een terugbetaling van uw bank onder de voorwaarden van uw overeenkomst met uw bank. Een terugbetaling moet worden aangevraagd binnen 8 weken vanaf de datum waarop uw rekening werd gedebiteerd."
+
+#. translators: %s - event type, like "source.chargeable"
+msgid "Webhook \"%s\" skipped: payment's flow already completed."
+msgstr "Webhook \"%s\" overgeslagen: betalingsproces reeds vervolledigd."
+
+#. translators: %s - Stripe Source ID
+msgid "Webhook received. The source %s is chargeable."
+msgstr "Webhook ontvangen. De bron %s is oplaadbaar."
+
+#. translators: %s - Stripe Source ID
+msgid "Webhook received. Payment source %s was cancelled by customer."
+msgstr "Webhook ontvangen. Bron betaling %s werd geannuleerd door de klant."
+
+#. translators: %s - Stripe Source ID
+msgid "Webhook received. Payment source %s failed and couldn't be processed."
+msgstr "Webhook ontvangen. Bron betaling  %s mislukt en kon niet worden verwerkt."
+
+#. translators: %s - Stripe Charge ID
+msgid "Webhook received. Charge %s succeeded."
+msgstr "Webhook ontvangen. Opladen %s gelukt."
+
+#. translators: %s - Stripe Charge ID
+msgid "Webhook received. Charge %s failed."
+msgstr "Webhook ontvangen. Opladen %s mislukt."
+
+msgid "Test Payment"
+msgstr "Testbetaling"
+
+msgid "2Checkout"
+msgstr ""
+
+msgid "To setup the callback process for 2Checkout to automatically mark payments completed, you will need to"
+msgstr "Om de terugbelfunctie voor 2checkout te maken om betalingen automatisch te voltooien moet u"
+
+msgid "Login to your 2Checkout account and click the Notifications tab"
+msgstr "Log in bij uw 2Checkout account en klik op Meldingen"
+
+msgid "Click Enable All Notifications"
+msgstr "Klik op Alle Meldingen Uitschakelen"
+
+msgid "In the Global URL field, enter the url %s"
+msgstr "Type de url%s in in het Global URL veld"
+
+msgid "Click Apply"
+msgstr "Klik op Toepassen"
+
+msgid "Account Number"
+msgstr "Rekeningnummer"
+
+msgid "Secret Word"
+msgstr "Geheim woord"
+
+msgid "2Checkout \"Order Created\" notification received."
+msgstr "2Checkout \"Bestelling Geplaatst\" melding is ontvangen."
+
+msgid "Payment refunded in 2Checkout"
+msgstr "Payment werd terugbetaald in 2Checkout"
+
+msgid "2Checkout fraud review passed"
+msgstr "2Checkout fraudedetectie geslaagd"
+
+msgid "2Checkout fraud review failed"
+msgstr "2Checkout fraudedetectie mislukt"
+
+msgid "2Checkout fraud review in progress"
+msgstr "2Checkout fraudedetectie in uitvoering"
+
+msgid "Attribute"
+msgstr "Kenmerk"
+
+msgctxt "Add New Attribute"
+msgid "Add New"
+msgstr "Nieuw toevoegen"
+
+msgid "Add New Attribute"
+msgstr "Voeg nieuw kenmerk toe"
+
+msgid "Edit Attribute"
+msgstr "Bewerk kenmerk"
+
+msgid "New Attribute"
+msgstr "Nieuw kenmerk"
+
+msgid "View Attribute"
+msgstr "Toon kenmerk"
+
+msgid "Search Attribute"
+msgstr "Zoek kenmerk"
+
+msgid "No Attributes found"
+msgstr "Geen kenmerken gevonden"
+
+msgid "No Attributes found in Trash"
+msgstr "Geen kenmerken gevonden in prullenbak"
+
+msgid "Insert into attribute description"
+msgstr "Invoegen in kenmerkbeschrijving"
+
+#. translators: %s: attribute name
+msgid "Search %s"
+msgstr "Zoek %s"
+
+#. translators: %s: attribute name
+msgid "All %s"
+msgstr "Alle %s"
+
+#. translators: %s: attribute name
+msgid "Edit %s"
+msgstr "Bewerken %s"
+
+#. translators: %s: attribute name
+msgid "Update %s"
+msgstr "Bijwerken %s"
+
+#. translators: %s: attribute name
+msgid "Add new %s"
+msgstr "Toevoegen nieuw %s"
+
+#. translators: %s: attribute name
+msgid "New %s"
+msgstr "Nieuw %s"
+
+#. translators: %s: attribute name
+msgid "No &quot;%s&quot; found"
+msgstr "Geen &quot;%s&quot; gevonden"
+
+msgid "Name (numeric)"
+msgstr "Naam (numeriek)"
+
+msgid "Term ID"
+msgstr "Voorwaarden ID"
+
+msgid "Enable Archives"
+msgstr "Activeer archieven"
+
+msgid "Link the attribute to an archive page with all accommodation types that have this attribute."
+msgstr "Koppel het kenmerk aan een archiefpagina met alle accommodatietypen die dit kenmerk hebben."
+
+msgid "Visible in Details"
+msgstr "Zichtbaar in details"
+
+msgid "Display the attribute in details section of an accommodation type."
+msgstr "Toon het kenmerk in het detailgedeelte van een accommodatietype."
+
+msgid "Default Sort Order"
+msgstr "Standaard sorteervolgorde"
+
+msgid "Default Text"
+msgstr "Standaardtekst"
+
+msgid "Select"
+msgstr "Selecteer"
+
+msgid "Edit Dates"
+msgstr "Pas data aan"
+
+msgid "Note"
+msgstr ""
+
+msgctxt "Add New Booking"
+msgid "Add New Booking"
+msgstr "Voeg nieuwe boeking toe"
+
+msgid "View Booking"
+msgstr "Reservering bekijken"
+
+msgid "Search Booking"
+msgstr "Reservering zoeken"
+
+msgid "No bookings found"
+msgstr "Geen boekingen gevonden"
+
+msgid "No bookings found in Trash"
+msgstr "Geen reservaties gevonden in Prullenbak"
+
+msgid "All Bookings"
+msgstr "Alle boekingen"
+
+msgid "Insert into booking description"
+msgstr "Tot boekingsomschrijving toevoegen"
+
+msgid "Uploaded to this booking"
+msgstr "Geüpload tot deze reservering"
+
+msgctxt "Booking status"
+msgid "Pending User Confirmation"
+msgstr "In afwachting van de bevestiging van een gebruiker"
+
+msgid "Pending User Confirmation <span class=\"count\">(%s)</span>"
+msgid_plural "Pending User Confirmation <span class=\"count\">(%s)</span>"
+msgstr[0] "In afwachting van de bevestiging van een gebruiker <span class=\"count\">(%s)</span>"
+msgstr[1] "In afwachting van de bevestiging van een gebruiker <span class=\"count\">(%s)</span>"
+
+msgctxt "Booking status"
+msgid "Pending Payment"
+msgstr "Betaling is in afwachting"
+
+msgid "Pending Payment <span class=\"count\">(%s)</span>"
+msgid_plural "Pending Payment <span class=\"count\">(%s)</span>"
+msgstr[0] "In afwachting van betaling <span class=\"count\">(%s)</span>"
+msgstr[1] "In afwachting van betaling <span class=\"count\">(%s)</span>"
+
+msgctxt "Booking status"
+msgid "Pending Admin"
+msgstr "In afwachting van beheerder"
+
+msgid "Pending Admin <span class=\"count\">(%s)</span>"
+msgid_plural "Pending Admin <span class=\"count\">(%s)</span>"
+msgstr[0] "In afwachting van beheerder <span class=\"count\">(%s)</span>"
+msgstr[1] "In afwachting van beheerder <span class=\"count\">(%s)</span>"
+
+msgctxt "Booking status"
+msgid "Abandoned"
+msgstr "Opgegeven"
+
+msgid "Abandoned <span class=\"count\">(%s)</span>"
+msgid_plural "Abandoned <span class=\"count\">(%s)</span>"
+msgstr[0] "<span class=\"count\">(%s)</span> Opgegeven"
+msgstr[1] "<span class=\"count\">(%s)</span> Opgegeven"
+
+msgid "Confirmed <span class=\"count\">(%s)</span>"
+msgid_plural "Confirmed <span class=\"count\">(%s)</span>"
+msgstr[0] "Bevestigd <span class=\"count\">(%s)</span>"
+msgstr[1] "Bevestigde <span class=\"count\">(%s)</span>"
+
+msgctxt "Booking status"
+msgid "Cancelled"
+msgstr "Geannuleerd"
+
+msgid "Cancelled <span class=\"count\">(%s)</span>"
+msgid_plural "Cancelled <span class=\"count\">(%s)</span>"
+msgstr[0] "Geannuleerd <span class=\"count\">(%s)</span>"
+msgstr[1] "Geannuleerde <span class=\"count\">(%s)</span>"
+
+msgid "Status changed from %s to %s."
+msgstr "Status is veranderd van %s in %s."
+
+msgid "Coupon Information"
+msgstr "Coupon informatie"
+
+msgid "Fixed per accommodation per stay"
+msgstr "Vast per accommodatie per verblijf"
+
+msgid "Fixed per accommodation per day"
+msgstr "Vast per accommodatie per dag"
+
+msgid "Coupon Amount"
+msgstr "Bedrag coupon"
+
+msgid "Enter percent or fixed amount according to selected type."
+msgstr ""
+
+msgid "Expiration Date"
+msgstr "Vervaldatum"
+
+msgid "Check-in After"
+msgstr "Inchecken na"
+
+msgid "Check-out Before"
+msgstr "Uitchecken voor"
+
+msgid "Minimum Days"
+msgstr "Minimum aantal dagen"
+
+msgid "Maximum Days"
+msgstr "Maximaal aantal dagen"
+
+msgid "Usage Limit"
+msgstr "Gebruiksbeperking"
+
+msgid "Usage Count"
+msgstr "Gebruikstelling"
+
+msgid "Coupons"
+msgstr ""
+
+msgctxt "Add New Coupon"
+msgid "Add New"
+msgstr "Nieuwe toevoegen"
+
+msgid "Add New Coupon"
+msgstr "Nieuwe coupon toevoegen"
+
+msgid "Edit Coupon"
+msgstr "Coupon bewerken"
+
+msgid "New Coupon"
+msgstr "Nieuwe coupon"
+
+msgid "View Coupon"
+msgstr "Coupon bekijken"
+
+msgid "Search Coupon"
+msgstr "Coupon zoeken"
+
+msgid "No coupons found"
+msgstr "Geen coupons gevonden"
+
+msgid "No coupons found in Trash"
+msgstr "Geen coupons gevonden in de Prullenbak"
+
+msgid "All Coupons"
+msgstr "Alle coupons"
+
+msgid "Payment History"
+msgstr "Betalingsgeschiedenis"
+
+msgid "Payment"
+msgstr "Betaling"
+
+msgctxt "Add New Payment"
+msgid "Add New"
+msgstr "Toevoegen"
+
+msgid "Add New Payment"
+msgstr "Nieuwe Betaling Toevoegen"
+
+msgid "Edit Payment"
+msgstr "Betaling bewerken"
+
+msgid "New Payment"
+msgstr "Nieuwe betaling"
+
+msgid "View Payment"
+msgstr "Betaling bekijken"
+
+msgid "Search Payment"
+msgstr "Betalingen zoeken"
+
+msgid "No payments found"
+msgstr "Geen betalingen gevonden"
+
+msgid "No payments found in Trash"
+msgstr "Geen betalingen gevonden in Prullenbak"
+
+msgid "Payments"
+msgstr "Betalingen"
+
+msgid "Insert into payment description"
+msgstr "In betalingsomschrijving toevoegen"
+
+msgid "Uploaded to this payment"
+msgstr "Geüpload tot deze betaling"
+
+msgid "Payments."
+msgstr "Betalingen."
+
+msgid "Gateway Mode"
+msgstr "Gateway Modus"
+
+msgid "Sandbox"
+msgstr ""
+
+msgid "Live"
+msgstr ""
+
+msgid "Fee"
+msgstr "Tarief"
+
+msgid "Payment Type"
+msgstr "Betaalwijze"
+
+msgid "Billing Info"
+msgstr "Facturatiegegevens"
+
+msgid "Address 1"
+msgstr "Adres 1"
+
+msgid "Address 2"
+msgstr "Adres 2"
+
+msgid "Postal Code (ZIP)"
+msgstr "Postcode"
+
+msgctxt "Payment status"
+msgid "Pending"
+msgstr "In afwachting"
+
+msgid "Pending <span class=\"count\">(%s)</span>"
+msgid_plural "Pending <span class=\"count\">(%s)</span>"
+msgstr[0] "In afwachting <span class=\"count\">(%s)</span>"
+msgstr[1] "In afwachting <span class=\"count\">(%s)</span>"
+
+msgctxt "Payment status"
+msgid "Completed"
+msgstr "Voltooid"
+
+msgid "Completed <span class=\"count\">(%s)</span>"
+msgid_plural "Completed <span class=\"count\">(%s)</span>"
+msgstr[0] "Voltooid <span class=\"count\">(%s)</span>"
+msgstr[1] "Voltooid <span class=\"count\">(%s)</span>"
+
+msgctxt "Payment status"
+msgid "Failed"
+msgstr "Mislukt"
+
+msgid "Failed <span class=\"count\">(%s)</span>"
+msgid_plural "Failed <span class=\"count\">(%s)</span>"
+msgstr[0] "Mislukt <span class=\"count\">(%s)</span>"
+msgstr[1] "Mislukte <span class=\"count\">(%s)</span>"
+
+msgctxt "Payment status"
+msgid "Abandoned"
+msgstr "Opgeheven"
+
+msgctxt "Payment status"
+msgid "On Hold"
+msgstr "In behandeling"
+
+msgid "On Hold <span class=\"count\">(%s)</span>"
+msgid_plural "On Hold <span class=\"count\">(%s)</span>"
+msgstr[0] "In behandeling <span class=\"count\">(%s)</span>"
+msgstr[1] "In behandeling <span class=\"count\">(%s)</span>"
+
+msgctxt "Payment status"
+msgid "Refunded"
+msgstr "Terugbetaald"
+
+msgid "Refunded <span class=\"count\">(%s)</span>"
+msgid_plural "Refunded <span class=\"count\">(%s)</span>"
+msgstr[0] "Terugbetaald <span class=\"count\">(%s)</span>"
+msgstr[1] "Terugbetaald <span class=\"count\">(%s)</span>"
+
+msgctxt "Payment status"
+msgid "Cancelled"
+msgstr "Geannuleerd"
+
+msgid "Payment (#%s) for this booking is on hold"
+msgstr "Betaling (#%s) van deze rezervering is in behandeling"
+
+msgid "Rate Info"
+msgstr "Tarief informatie"
+
+msgid "Season"
+msgstr "Seizoen"
+
+msgid "Move price to top to set higher priority."
+msgstr "Verplaats de prijs omhoog om hogere prioriteit te geven."
+
+msgid "Add New Season Price"
+msgstr "Nieuwe seizoensprijs toevoegen"
+
+msgid "Will be displayed on the checkout page."
+msgstr "Zal op de afrekenpagina getoond worden."
+
+#. translators: The value a hotel wishes to sell their rooms. Also called the Cost, Value, Tariff or Room charge.
+msgid "Rates"
+msgstr "Tarieven"
+
+msgctxt "Add New Rate"
+msgid "Add New"
+msgstr "Toevoegen"
+
+msgid "Add New Rate"
+msgstr "Nieuw tarief toevoegen"
+
+msgid "Edit Rate"
+msgstr "Tarief bewerken"
+
+msgid "New Rate"
+msgstr "Nieuw tarief"
+
+msgid "View Rate"
+msgstr "Tarief bekijken"
+
+msgid "Search Rate"
+msgstr "Tarief zoeken"
+
+msgid "No rates found"
+msgstr "Geen tarieven gevonden"
+
+msgid "No rates found in Trash"
+msgstr "Geen tarieven gevonden in Prullenbak"
+
+msgid "Insert into rate description"
+msgstr "Invoegen in tariefbeschrijving"
+
+msgid "Uploaded to this rate"
+msgstr "Geupload naar dit tarief"
+
+msgid "This is where you can add new rates."
+msgstr "Hier kunt u nieuwe tarieven toevoegen."
+
+msgid "Reserved Accommodation"
+msgstr "Gereserveerde accommodatie"
+
+msgctxt "Add New Accommodation"
+msgid "Add New"
+msgstr "Toevoegen"
+
+msgid "Add New Accommodation"
+msgstr "Nieuwe accommodaties toevoegen"
+
+msgid "Edit Accommodation"
+msgstr "Accommodatie bewerken"
+
+msgid "New Accommodation"
+msgstr "Nieuwe accommodatie"
+
+msgid "View Accommodation"
+msgstr "Accommodatie bekijken"
+
+msgid "Search Accommodation"
+msgstr "Accommodatie zoeken"
+
+msgid "No accommodations found"
+msgstr "Geen accommodaties gevonden"
+
+msgid "No accommodations found in Trash"
+msgstr "Geen accommodaties gevonden in Prullenbak"
+
+msgid "Insert into accommodation description"
+msgstr "Aan accommodatiebeschrijving toevoegen"
+
+msgid "Uploaded to this accommodation"
+msgstr "Geüpload tot deze accommodatie"
+
+msgid "This is where you can add new accommodations to your hotel."
+msgstr "Hier kan u nieuwe accommodaties toevoegen aan uw hotel."
+
+msgctxt "Add New Accommodation Type"
+msgid "Add Accommodation Type"
+msgstr "Een type accommodatie toevoegen"
+
+msgid "Add New Accommodation Type"
+msgstr "Een nieuw type accommodatie toevoegen"
+
+msgid "Edit Accommodation Type"
+msgstr "Type accommodatie bewerken"
+
+msgid "New Accommodation Type"
+msgstr "Nieuw type accommodatie"
+
+msgid "View Accommodation Type"
+msgstr "Type accommodatie bekijken"
+
+msgid "Search Accommodation Type"
+msgstr "Type accommodatie zoeken"
+
+msgid "No Accommodation types found"
+msgstr "Geen types accommodatie gevonden"
+
+msgid "No Accommodation types found in Trash"
+msgstr "Geen types accommodaties gevonden in Prullenbak"
+
+msgid "Insert into accommodation type description"
+msgstr "Omschrijving van een type accommodatie toevoegen"
+
+msgid "Uploaded to this accommodation type"
+msgstr "Geüpload tot dit type accommodatie"
+
+#. translators: do not translate
+msgctxt "slug"
+msgid "accommodation"
+msgstr "accommodation"
+
+msgid "Accommodation Categories"
+msgstr "Accommodatiecategorieën"
+
+msgid "Accommodation Category"
+msgstr "Accommodatiecategorie"
+
+msgid "Search Accommodation Categories"
+msgstr "Accommodatiecategorieën zoeken"
+
+msgid "Popular Accommodation Categories"
+msgstr "Populaire accommodatiecategorieën"
+
+msgid "All Accommodation Categories"
+msgstr "Alle accommodatiecategorieën"
+
+msgid "Parent Accommodation Category"
+msgstr "Hoofdaccommodatiecategorie"
+
+msgid "Parent Accommodation Category:"
+msgstr "Hoofdaccommodatiecategorie:"
+
+msgid "Edit Accommodation Category"
+msgstr "Accommodatiecategorie bewerken"
+
+msgid "Update Accommodation Category"
+msgstr "Accommodatiecategorie bijwerken"
+
+msgid "Add New Accommodation Category"
+msgstr "Een nieuwe accommodatiecategorie toevoegen"
+
+msgid "New Accommodation Category Name"
+msgstr "Naam van een nieuwe accommodatiecategorie"
+
+msgid "Separate categories with commas"
+msgstr "Splits categorieën met komma's"
+
+msgid "Add or remove categories"
+msgstr "Categorieën toevoegen of verwijderen"
+
+msgid "Choose from the most used categories"
+msgstr "Kies uit de meest gebruikte categorieën"
+
+msgid "No categories found."
+msgstr "Geen categorieën gevonden."
+
+msgid "Categories"
+msgstr "Categorieën"
+
+#. translators: do not translate
+msgctxt "slug"
+msgid "accommodation-category"
+msgstr "accommodation-category"
+
+msgid "Accommodation Tags"
+msgstr "Accommodatie labels"
+
+msgid "Accommodation Tag"
+msgstr "Accommodatie label"
+
+msgid "Search Accommodation Tags"
+msgstr "Zoek accommodatielabels"
+
+msgid "Popular Accommodation Tags"
+msgstr "Populaire accommodatie-labels"
+
+msgid "All Accommodation Tags"
+msgstr "Alle accommodatielabels"
+
+msgid "Parent Accommodation Tag"
+msgstr "Hoofd accommodatie-label"
+
+msgid "Parent Accommodation Tag:"
+msgstr "Hoofd accommodatie-label:"
+
+msgid "Edit Accommodation Tag"
+msgstr "Bewerk accommodatielabel"
+
+msgid "Update Accommodation Tag"
+msgstr "Update accommodatielabel"
+
+msgid "Add New Accommodation Tag"
+msgstr "Voeg een nieuwe accommodatielabel toe"
+
+msgid "New Accommodation Tag Name"
+msgstr "Nieuwe label-naam accommodatie"
+
+msgid "Separate tags with commas"
+msgstr "Scheid labels met komma's"
+
+msgid "Add or remove tags"
+msgstr "Labels toevoegen of verwijderen"
+
+msgid "Choose from the most used tags"
+msgstr "Kies uit de meest gebruikte labels"
+
+msgid "No tags found."
+msgstr "Geen labels gevonden."
+
+msgid "Tags"
+msgstr "Labels"
+
+#. translators: do not translate
+msgctxt "slug"
+msgid "accommodation-tag"
+msgstr "accommodation-tag"
+
+msgid "Amenities"
+msgstr "Faciliteiten"
+
+msgid "Amenity"
+msgstr "Faciliteit"
+
+msgid "Search Amenities"
+msgstr "Zoek in de faciliteiten"
+
+msgid "Popular Amenities"
+msgstr "Populaire faciliteiten"
+
+msgid "All Amenities"
+msgstr "Alle faciliteiten"
+
+msgid "Parent Amenity"
+msgstr "Deze faciliteit is onderdeel van"
+
+msgid "Parent Amenity:"
+msgstr "Deze faciliteit is onderdeel van:"
+
+msgid "Edit Amenity"
+msgstr "Bewerk faciliteit"
+
+msgid "Update Amenity"
+msgstr "Faciliteit bijwerken"
+
+msgid "Add New Amenity"
+msgstr "Nieuwe faciliteit toevoegen"
+
+msgid "New Amenity Name"
+msgstr "Nieuwe naam van de faciliteit"
+
+msgid "Separate amenities with commas"
+msgstr "Scheid faciliteiten met komma's"
+
+msgid "Add or remove amenities"
+msgstr "Faciliteiten toevoegen of verwijderen"
+
+msgid "Choose from the most used amenities"
+msgstr "De meest gebruikte faciliteiten te kiezen"
+
+msgid "No amenities found."
+msgstr "Geen faciliteiten gevonden."
+
+#. translators: do not translate
+msgctxt "slug"
+msgid "accommodation-facility"
+msgstr "accommodation-facility"
+
+msgid "State the age or disable children in <a href=\"%s\">settings</a>."
+msgstr "Leeftijd kinderen of schakel kinderen uit in de <a href=\"%s\">instellingen</a>."
+
+msgid "Leave this option empty to calculate total capacity automatically to meet the exact number of adults AND children set above. This is the default behavior. Configure this option to allow any variations of adults OR children set above at checkout so that in total it meets the limit of manually set \"Capacity\". For example, configuration \"adults:5\", \"children:4\", \"capacity:5\" means the property can accommodate up to 5 adults, up to 4 children, but up to 5 guests in total (not 9)."
+msgstr ""
+
+msgid "Size, %s"
+msgstr "Grootte, %s"
+
+msgid "Leave blank to hide."
+msgstr "Laat leeg om te verbergen."
+
+msgid "Other"
+msgstr "Andere"
+
+msgid "City view, seaside, swimming pool etc."
+msgstr "Zicht op zee, stad, zwembad enz."
+
+msgid "Bed type"
+msgstr "Type bed"
+
+msgid "Set bed types list in <a href=\"%link%\" target=\"_blank\">settings</a>."
+msgstr "Bedtype lijst aanmaken in <a href=\"%link%\" target=\"_blank\">instellingen</a>."
+
+msgid "Photo Gallery"
+msgstr "Fotogalerij"
+
+msgid "Available Services"
+msgstr "Beschikbare diensten"
+
+msgid "Season Info"
+msgstr "Seizoensinformatie"
+
+msgid "Start date"
+msgstr "Startdatum"
+
+msgid "End date"
+msgstr "Einddatum"
+
+msgid "Applied for days"
+msgstr "Geldig voor dagen"
+
+msgid "Hold Ctrl / Cmd to select multiple."
+msgstr "Houdt Ctrl / Cmd om meerdere elementen te selecteren."
+
+msgctxt "Add New Season"
+msgid "Add New"
+msgstr "Nieuw Toevoegen"
+
+msgid "Add New Season"
+msgstr "Nieuw seizoen toevoegen"
+
+msgid "Edit Season"
+msgstr "Seizoen bewerken"
+
+msgid "New Season"
+msgstr "Nieuw seizoen"
+
+msgid "View Season"
+msgstr "Seizoen bekijken"
+
+msgid "Search Season"
+msgstr "Seizoen zoeken"
+
+msgid "No seasons found"
+msgstr "Geen seizoenen gevonden"
+
+msgid "No seasons found in Trash"
+msgstr "Geen seizoenen gevonden in Prullenbak"
+
+msgid "Insert into season description"
+msgstr "Seizoensinformatie toevoegen"
+
+msgid "Uploaded to this season"
+msgstr "Geüpload tot dit seizoen"
+
+msgid "This is where you can add new seasons."
+msgstr "Hiet kunt u nieuwe seizoenen toevoegen."
+
+msgid "Service"
+msgstr "Dienst"
+
+msgctxt "Add New Service"
+msgid "Add New"
+msgstr "Nieuwe dienst toevoegen"
+
+msgid "Add New Service"
+msgstr "Een nieuwe dienst toevoegen"
+
+msgid "Edit Service"
+msgstr "Dienst bewerken"
+
+msgid "New Service"
+msgstr "Nieuwe dienst"
+
+msgid "View Service"
+msgstr "Dienst bekijken"
+
+msgid "Search Service"
+msgstr "Dienst zoeken"
+
+msgid "No services found"
+msgstr "Geen diensten gevonden"
+
+msgid "No services found in Trash"
+msgstr "Geen diensten gevonden in Prullenbak"
+
+msgid "Insert into service description"
+msgstr "Tot dienstbeschrijving toevoegen"
+
+msgid "Uploaded to this service"
+msgstr "Geüpload tot deze dienst"
+
+#. translators: do not translate
+msgctxt "slug"
+msgid "services"
+msgstr "services"
+
+msgid "How many times the customer will be charged."
+msgstr "Hoeveel keer zal de klant aangerekend worden."
+
+msgid "Minimum"
+msgstr ""
+
+msgid "Maximum"
+msgstr ""
+
+msgid "Empty means unlimited"
+msgstr "Leeg betekent onbeperkt"
+
+msgctxt "Booking status"
+msgid "Pending"
+msgstr ""
+
+msgid "Total Sales"
+msgstr ""
+
+msgid "Total Without Taxes"
+msgstr "Totaal zonder belastingen"
+
+msgid "Total Services"
+msgstr ""
+
+msgid "Total Discounts"
+msgstr ""
+
+msgid "Total Bookings"
+msgstr ""
+
+msgid "Revenue (Beta)"
+msgstr ""
+
+msgid "Apply"
+msgstr "Toepassen"
+
+msgid "From %s to %s"
+msgstr ""
+
+msgid "Today"
+msgstr ""
+
+msgid "Yesterday"
+msgstr ""
+
+msgid "This week"
+msgstr ""
+
+msgid "Last week"
+msgstr ""
+
+msgid "Last 30 days"
+msgstr ""
+
+msgid "This month"
+msgstr ""
+
+msgid "Last month"
+msgstr ""
+
+msgid "This quarter"
+msgstr ""
+
+msgid "Last quarter"
+msgstr ""
+
+msgid "This year"
+msgstr ""
+
+msgid "Last year"
+msgstr ""
+
+#. translators: %s - original Rate title
+msgid "%s - copy"
+msgstr "%s - copieer"
+
+msgid "Accommodation Type Gallery"
+msgstr "Accommodatietype galerij"
+
+msgid "Add Gallery To Accommodation Type"
+msgstr "Een galerij aan accommodatietype toevoegen"
+
+msgid "Display imported bookings."
+msgstr "Toon geïmporteerde boekingen."
+
+msgid "Processing..."
+msgstr "Verwerken..."
+
+msgid "Cancelling..."
+msgstr "Annuleren..."
+
+msgid "Want to delete?"
+msgstr ""
+
+msgid "Not available"
+msgstr "Niet beschikbaar"
+
+msgid "This is earlier than allowed by our advance reservation rules."
+msgstr ""
+
+msgid "This is later than allowed by our advance reservation rules."
+msgstr ""
+
+msgid "Day in the past"
+msgstr "Dag in het verleden"
+
+msgid "Check-in date"
+msgstr "Incheckdatum"
+
+msgid "Less than min days stay"
+msgstr "Dagen minder dan minimaal verblijf"
+
+msgid "More than max days stay"
+msgstr "Dagen meer dan maximaal verblijf"
+
+msgid "Later than max date for current check-in date"
+msgstr "Later dan maximumdatum voor inchecken"
+
+msgid "Rules:"
+msgstr "Regels:"
+
+msgid "Tokenisation failed: %s"
+msgstr "Tokenisatie is mislukt: %s"
+
+msgid "%1$d &times; &ldquo;%2$s&rdquo; has been added to your reservation."
+msgid_plural "%1$d &times; &ldquo;%2$s&rdquo; have been added to your reservation."
+msgstr[0] "%1$d &times; &ldquo;%2$s&rdquo; is toegevoegd aan uw reservering."
+msgstr[1] "%1$d &times; &ldquo;%2$s&rdquo; werden toegevoegd aan uw reservering."
+
+msgid "%s accommodation selected."
+msgid_plural "%s accommodations selected."
+msgstr[0] "%s accommodaties geselecteerd."
+msgstr[1] "%s accommodaties geselecteerd."
+
+msgid "Coupon code is empty."
+msgstr "Couponcode is leeg."
+
+msgid "Dark Blue"
+msgstr "Donkerblauw"
+
+msgid "Dark Green"
+msgstr "Donkergroen"
+
+msgid "Dark Red"
+msgstr "Donkerrood"
+
+msgid "Grayscale"
+msgstr "Grijswaarden"
+
+msgid "Light Blue"
+msgstr "Lichtblauw"
+
+msgid "Light Coral"
+msgstr "Lichtkoraal"
+
+msgid "Light Green"
+msgstr "Lichtgroen"
+
+msgid "Light Yellow"
+msgstr "Lichtgeel"
+
+msgid "Minimal Blue"
+msgstr "Minimaal blauw"
+
+msgid "Minimal Orange"
+msgstr "Minimaal oranje"
+
+msgid "Minimal"
+msgstr "Minimaal"
+
+msgid "Sky Blue"
+msgstr "Hemelsblauw"
+
+msgid "Slate Blue"
+msgstr "Slateblauw"
+
+msgid "Turquoise"
+msgstr "Turkoois"
+
+msgid "Invalid login or password."
+msgstr ""
+
+msgid "Account data updated."
+msgstr ""
+
+msgid "Password changed."
+msgstr ""
+
+msgid "Dashboard"
+msgstr ""
+
+msgid "Account"
+msgstr ""
+
+msgid "Logout"
+msgstr ""
+
+msgid "Passwords do not match."
+msgstr ""
+
+msgid "Please, provide a valid current password."
+msgstr ""
+
+msgid "Lost your password?"
+msgstr ""
+
+msgid "Payment:"
+msgstr "Betaling:"
+
+msgid "Payment Method:"
+msgstr "Betalingswijze:"
+
+msgid "Status:"
+msgstr "Gepubliceerd:"
+
+msgid "Checkout data is not valid."
+msgstr "Check-out gegevens zijn niet geldig."
+
+msgid "Payment method is not valid."
+msgstr "Betaalmethode is ongeldig."
+
+msgid "Accommodation count is not valid."
+msgstr "Accommodatie-aantal is niet geldig."
+
+msgid "Accommodation is already booked."
+msgstr "Accommodatie is al gereserveerd."
+
+msgid "Reservation submitted"
+msgstr "Reservering is gemaakt"
+
+msgid "Details of your reservation have just been sent to you in a confirmation email. Please check your inbox to complete booking."
+msgstr "De details van uw reservering zijn zojuist per e-mail aan u verzonden. Controleer uw inbox om de boeking te voltooien."
+
+msgid "We received your booking request. Once it is confirmed we will notify you via email."
+msgstr "We hebben uw boekingsaanvraag ontvangen. Na goedkeuring versturen wij u per e-mail de bevestiging."
+
+msgid "Choose dates to see relevant prices"
+msgstr "Kies uw data om de relevante prijzen te zien"
+
+msgid "Select from available accommodations."
+msgstr "Selecteer uit beschikbare accommodaties."
+
+msgid "Confirm Reservation"
+msgstr "Reservering bevestigen"
+
+msgid "Recommended for %d adult"
+msgid_plural "Recommended for %d adults"
+msgstr[0] "Aanbevolen voor %d volwassene"
+msgstr[1] "Aanbevolen voor %d volwassenen"
+
+msgid " and %d child"
+msgid_plural " and %d children"
+msgstr[0] " en %d kind"
+msgstr[1] " en %d kinderen"
+
+msgid "Recommended for %d guest"
+msgid_plural "Recommended for %d guests"
+msgstr[0] "Aanbevolen voor %d gast"
+msgstr[1] "Aanbevolen voor %d gasten"
+
+msgid "Max occupancy:"
+msgstr "Maximale bezetting:"
+
+msgid "%d child"
+msgid_plural "%d children"
+msgstr[0] "%d kind"
+msgstr[1] "%d kinderen"
+
+msgid "Reserve"
+msgstr "Reserveren"
+
+msgid "of %d accommodation available."
+msgid_plural "of %d accommodations available."
+msgstr[0] "van %d accommodatie is beschikbaar."
+msgstr[1] "van %d accommodatie is beschikbaar."
+
+#. translators: Verb. To book an accommodation.
+msgid "Book"
+msgstr "Reserveren"
+
+msgid "Please, provide a valid email."
+msgstr ""
+
+msgid "Could not create a customer."
+msgstr ""
+
+msgid "Could not retrieve a customer."
+msgstr ""
+
+msgid "Please, provide a valid Customer ID."
+msgstr ""
+
+msgid "A database error."
+msgstr ""
+
+msgid "No customer was deleted."
+msgstr ""
+
+msgid "An account with this email already exists. Please, log in."
+msgstr ""
+
+msgid "Hotel Manager"
+msgstr ""
+
+msgid "Hotel Worker"
+msgstr ""
+
+msgid "Hotel Customer"
+msgstr ""
+
+msgid "Please provide a valid email address."
+msgstr ""
+
+msgid "Please enter a valid account username."
+msgstr ""
+
+msgid "An account is already registered with that username. Please choose another."
+msgstr ""
+
+msgid "Please enter an account password."
+msgstr ""
+
+msgid "Sunday"
+msgstr "Zondag"
+
+msgid "Monday"
+msgstr "Maandag"
+
+msgid "Tuesday"
+msgstr "Dinsdag"
+
+msgid "Wednesday"
+msgstr "Woensdag"
+
+msgid "Thursday"
+msgstr "Donderdag"
+
+msgid "Friday"
+msgstr "Vrijdag"
+
+msgid "Saturday"
+msgstr "Zaterdag"
+
+msgid "Check-out date cannot be earlier than check-in date."
+msgstr "De check-out datum mag niet voor de check-in datum liggen."
+
+msgid "Adults number is not valid"
+msgstr "Het aantal volwassenen is niet geldig"
+
+msgid "Children number is not valid"
+msgstr "Het aantal kinderen is niet geldig"
+
+msgctxt "Text about taxes and fees below the price."
+msgid " (+taxes and fees)"
+msgstr " (+belastingen en toeslagen)"
+
+#. translators: %s is a tax value
+msgctxt "Text about taxes and fees below the price."
+msgid " (+%s taxes and fees)"
+msgstr " (+%s belastingen en toeslagen)"
+
+msgctxt "Text about taxes and fees below the price."
+msgid " (includes taxes and fees)"
+msgstr " (inclusief belastingen en toeslagen)"
+
+msgctxt "Accommodation type in price breakdown table. Example: #1 Double Room"
+msgid "#%d %s"
+msgstr ""
+
+msgid "Expand"
+msgstr "Vouw"
+
+msgid "Rate: %s"
+msgstr "Prijs: %s"
+
+msgid "Dates"
+msgstr "Verblijfsdata"
+
+msgid "Dates Subtotal"
+msgstr "Data subtotaal"
+
+msgid "Accommodation Taxes Subtotal"
+msgstr "Subtotaal accommodatie belastingen"
+
+msgid "Details"
+msgstr ""
+
+msgid "Service Taxes Subtotal"
+msgstr "Subtotaal diensten taksen"
+
+msgid "Fees Subtotal"
+msgstr "Subtotaal kosten"
+
+msgid "Fee Taxes Subtotal"
+msgstr "Subtotaal belastingen"
+
+msgid "Subtotal"
+msgstr "Subtotaal"
+
+msgid "Coupon: %s"
+msgstr ""
+
+msgid "Subtotal (excl. taxes)"
+msgstr "Subtotaal (excl. belastingen)"
+
+msgid "Taxes"
+msgstr "Belastingen"
+
+msgid "Coupon Code:"
+msgstr "Couponcode:"
+
+msgid "New Booking Details"
+msgstr "Nieuwe reservatiedetails"
+
+msgid "Original Booking Details"
+msgstr "Originele reservatiedetails"
+
+msgid "Accommodation:"
+msgstr "Accommodatie:"
+
+msgid "Children %s"
+msgstr "Kinderen %s"
+
+msgid "Additional Services"
+msgstr "Extra diensten"
+
+msgid "Accommodation pagination"
+msgstr "Accommodatie paginering"
+
+msgid "Services pagination"
+msgstr "Diensten paginering"
+
+msgid "Categories:"
+msgstr "Categorieën:"
+
+msgid "Amenities:"
+msgstr "Faciliteiten:"
+
+msgid "Guests:"
+msgstr "Gasten:"
+
+msgid "Bed Type:"
+msgstr "Type Bed:"
+
+msgid "View:"
+msgstr "Bekijken:"
+
+msgid "Prices start at:"
+msgstr "Prijzen beginnen bij:"
+
+msgid "Price:"
+msgstr "Prijs:"
+
+msgid "x %d adult"
+msgid_plural "x %d adults"
+msgstr[0] "x %d volwassene"
+msgstr[1] "x %d volwassenen"
+
+msgid "Returning customer?"
+msgstr ""
+
+msgid "Click here to log in"
+msgstr ""
+
+#. translators: 1 - username;
+msgid "Hello %1$s (not %1$s? <a href=\"%2$s\">Log out</a>)."
+msgstr ""
+
+msgid "Accommodation #%d"
+msgstr "Accommodatie #%d"
+
+msgid "Accommodation Type:"
+msgstr "Type accommodatie:"
+
+msgid "Choose Rate"
+msgstr "Kies tarief"
+
+msgid "Choose Additional Services"
+msgstr "Extra diensten kiezen"
+
+msgid "for "
+msgstr "voor "
+
+msgctxt "Example: Breakfast for X guest(s)"
+msgid " guest(s)"
+msgstr " gast(en)"
+
+msgid "time(s)"
+msgstr "keer(keren)"
+
+msgctxt "I've read and accept the terms & conditions"
+msgid "terms & conditions"
+msgstr "algemene voorwaarden"
+
+msgctxt "I've read and accept the <tag>terms & conditions</tag>"
+msgid "I've read and accept the %s"
+msgstr "Ik heb de %s gelezen en ga hiermee akkoord"
+
+msgid "Your Information"
+msgstr "Uw informatie"
+
+msgid "Required fields are followed by %s"
+msgstr "Verplichte velden zijn gekenmerkt met %s"
+
+msgid "Create an account"
+msgstr ""
+
+msgid "Payment Method"
+msgstr "Betalingsmethode"
+
+msgid "Sorry, it seems that there are no available payment methods."
+msgstr "Sorry, er zijn geen betaalmethoden beschikbaar."
+
+msgid "Total Price:"
+msgstr "Totaalprijs:"
+
+msgid "Deposit:"
+msgstr "Aanbetaling:"
+
+msgid "Check-in:"
+msgstr "Inchecken:"
+
+msgctxt "from 10:00 am"
+msgid "from"
+msgstr "van"
+
+msgid "Check-out:"
+msgstr "Uitchecken:"
+
+msgctxt "until 10:00 am"
+msgid "until"
+msgstr "tot"
+
+msgid "Book Now"
+msgstr "Reserveer nu"
+
+msgid "Availability"
+msgstr "Beschikbaarheid"
+
+msgid "Reservation Form"
+msgstr "Reserveringsformulier"
+
+msgid "Display Accommodation Types"
+msgstr "Kamertypes Tonen"
+
+msgid "Featured Image"
+msgstr "Uitgelichte afbeelding"
+
+msgid "Excerpt (short description)"
+msgstr "Samenvatting tonen (korte omschrijving)"
+
+msgid "Book Button"
+msgstr "Boeking knop"
+
+msgid "Search Availability"
+msgstr "Zoeken wat vrij is"
+
+msgid "Search Availability Form"
+msgstr "Beschikbaarheid zoekformulier"
+
+msgid "Title:"
+msgstr "Titel:"
+
+msgid "Check-in Date:"
+msgstr "Incheckdatum:"
+
+msgctxt "Date format tip"
+msgid "Preset date. Formatted as %s"
+msgstr "Datum vooraf instellen. Opgemaakt als %s"
+
+msgid "Check-out Date:"
+msgstr "Uitcheckdatum:"
+
+msgid "Preset Adults:"
+msgstr "Volwassenen vooraf ingesteld:"
+
+msgid "Preset Children:"
+msgstr "Kinderen vooraf ingesteld:"
+
+msgid "Attributes:"
+msgstr "Kenmerken:"
+
+msgid "Booking Confirmation and Search Results pages are required to handle bookings. Press \"Install Pages\" button to create and set up these pages. Dismiss this notice if you already installed them."
+msgstr "Uitchecken en Zoekresultaten Pagina's zijn verplichte om reserveringen te beheren. Klik op \"Pagina's Installeren\" knop om nieuwe pagina's te creëren.  to create and set up these pages. Negeer deze melding als u hebt deze pagina's al geïnstalleerd."
+
+msgid "Install Pages"
+msgstr "Pagina's installeren"
+
+msgid "Booking Canceled"
+msgstr "Boeking geannuleerd"
+
+msgid "Your reservation is canceled."
+msgstr "Uw reservering is geannuleerd."
+
+msgid "Reservation Received"
+msgstr "Reservering ontvangen"
+
+msgid "Transaction Failed"
+msgstr "Transactie mislukt"
+
+msgid "Unfortunately, your transaction cannot be completed at this time. Please try again or contact us."
+msgstr "Helaas kan uw transactie op dit moment niet worden voltooid. Probeer het opnieuw of neem contact met ons op."
+
+msgid "Prices start at: %s"
+msgstr "Prijzen starten vanaf: %s"
+
+msgid "View Details"
+msgstr "Details bekijken"
+
+msgctxt "Date format tip"
+msgid "Formatted as %s"
+msgstr "Opgemaakt als  %s"
+
+msgid "Check Availability"
+msgstr "Bekijk beschikbaarheid"
+
+msgid "Reserve %1$s of %2$s available accommodations."
+msgstr "Reserveer %1$s van %2$s beschikbare accommodaties."
+
+msgid "%s is available for selected dates."
+msgstr "%s beschikbaar voor de geselecteerde periode."
+
+msgid "Rate:"
+msgstr "Tarief:"
+
+msgid "Services:"
+msgstr "Diensten:"
+
+msgid "Guest:"
+msgstr "Gast:"
+
+msgid "Payment ID"
+msgstr "Betaling ID"
+
+msgid "Total Paid"
+msgstr "Total betaalde"
+
+msgid "To Pay"
+msgstr "Betaling"
+
+msgid "Add Payment Manually"
+msgstr "Handmatige betaling toevoegen"
+
+msgid "Change Password"
+msgstr ""
+
+msgid "Old Password"
+msgstr ""
+
+msgid "New Password"
+msgstr ""
+
+msgid "Confirm New Password"
+msgstr ""
+
+msgid "You are not allowed to access this page."
+msgstr ""
+
+msgid "No bookings found."
+msgstr "Geen boekingen gevonden."
+
+msgid "From your account dashboard you can view <a href=\"%1$s\">your recent bookings</a> or edit your <a href=\"%2$s\">password and account details</a>."
+msgstr ""
+
+msgid "Base price"
+msgstr "Basisprijs"
+
+msgid "%s accommodation found"
+msgid_plural "%s accommodations found"
+msgstr[0] "%s accommodatie gevonden"
+msgstr[1] "%s accommodaties gevonden"
+
+msgid " from %s - till %s"
+msgstr " van %s - tot %s"
+
+msgid "Add Accommodation"
+msgstr "Voeg verblijf toe"
+
+msgid "Save"
+msgstr "Opslaan"
+
+msgid "Choose new dates to check availability of reserved accommodations in the original booking."
+msgstr "Kies nieuwe data om de beschikbaarheid van het gereserveerde verblijf te controleren  in de originele reservatie."
+
+msgid "Add, remove or replace accommodations in the original booking."
+msgstr "Voeg verblijf toe, verwijder of pas aan in de originele boeking."
+
+msgid "Not Available"
+msgstr "Niet beschikbaar"
+
+msgid "Continue"
+msgstr "Verder"
+
+msgid "Choose how to associate data"
+msgstr "Kies hoe u gegevens wilt koppelen"
+
+msgid "Use Source Accommodation to assign pre-filled booking information available in the original booking, e.g., full guest name, selected rate, services, etc."
+msgstr "Gebruik het geselecteerde verblijftype om boekinginformatie toe te wijzen, beschikbaar in de originele reservatie (bijvoorbeeld volledige naam, geselecteerd tarieven, diensten enz.)."
+
+msgid "Source accommodation"
+msgstr "Het geselecteerde verblijftype"
+
+msgid "Target accommodation"
+msgstr "Gewenst verblijf"
+
+msgid "Booking #%s is cancelled by customer."
+msgstr "Booking #%s is geannuleerd door de klant."
+
+msgid "Details of booking"
+msgstr "Details van uw reservering"
+
+msgid "Check-in: %1$s, from %2$s"
+msgstr "Inchecken: %1$s, van %2$s"
+
+msgid "Check-out: %1$s, until %2$s"
+msgstr "Uitchecken: %1$s, tot %2$s"
+
+msgid "Name: %1$s %2$s"
+msgstr "Naam: %1$s %2$s"
+
+msgid "Email: %s"
+msgstr "E-mail: %s"
+
+msgid "Phone: %s"
+msgstr "Telefoonnummer: %s"
+
+msgid "Note: %s"
+msgstr "Opmerking: %s"
+
+msgid "Booking #%s is confirmed by customer."
+msgstr "Boeking #%s is bevestigd door de klant."
+
+msgid "Booking #%s is confirmed by payment."
+msgstr "Booking #%s is bevestigd door de betaling."
+
+msgid "Details of payment"
+msgstr "Betalingsgegevens"
+
+msgid "Payment ID: #%s"
+msgstr "Betaling ID: #%s"
+
+msgid "Amount: %s"
+msgstr "Bedrag: %s"
+
+msgid "Method: %s"
+msgstr "Methode: %s"
+
+msgid "Booking #%s is pending for Administrator approval."
+msgstr "Boeking #%s wacht op goedkeuring van de beheerder."
+
+msgid "Click the link below to cancel your booking."
+msgstr "Klik op onderstaande link om uw boeking te annuleren."
+
+msgid "Cancel your booking"
+msgstr "Annuleer uw boeking"
+
+msgid "Dear %1$s %2$s, your reservation is approved!"
+msgstr "Beste %1$s %2$s, uw reservering is goedgekeurd!"
+
+msgid "ID: #%s"
+msgstr ""
+
+msgid "Thank you!"
+msgstr "Hartelijk dank!"
+
+msgid "Dear %1$s %2$s, your reservation is cancelled!"
+msgstr "Beste %1$s %2$s, uw reservering is geannuleerd!"
+
+msgid "Dear %1$s %2$s, we received your request for reservation."
+msgstr "Beste %1$s %2$s, we hebben uw boekingsaanvraag ontvangen."
+
+msgid "Click the link below to confirm your booking."
+msgstr "Klik op onderstaande link om uw boeking te bevestigen."
+
+msgid "Confirm"
+msgstr "Bevestigen"
+
+msgid "Note: link expires on"
+msgstr "Merk op: link is geldig tot"
+
+msgid "UTC"
+msgstr ""
+
+msgid "If you did not place this booking, please ignore this email."
+msgstr "Heeft u geen boeking gemaakt? Gelieve dan deze e-mail te negeren."
+
+msgid "Dear %1$s %2$s, your reservation is pending."
+msgstr "Beste %1$s %2$s, uw reservering is in behandeling."
+
+msgid "We will notify you by email once it is confirmed by our staff."
+msgstr "Wij zullen na goedkeuring u hierover per e-mail op de hoogte stellen."
+
+msgid "Hi %1$s %2$s,"
+msgstr ""
+
+msgid "Thanks for creating an account on %1$s."
+msgstr ""
+
+msgid "You Account Details"
+msgstr ""
+
+msgid "Login: %s"
+msgstr ""
+
+msgid "Password: %s"
+msgstr ""
+
+msgid "Log in here: %s"
+msgstr ""
+
+msgid "Accommodation #%s"
+msgstr "Accommodatie #%s"
+
+msgid "Accommodation: <a href=\"%1$s\">%2$s</a>"
+msgstr "Accommodatie: <a href=\"%1$s\">%2$s</a>"
+
+msgid "Accommodation Rate: %s"
+msgstr "Accommodatietarief: %s"
+
+msgid "Bed Type: %s"
+msgstr "Type Bed: %s"
+
+msgid "Required fields are followed by"
+msgstr "Verplichte velden zijn gekenmerkt met"
+
+msgid "Booking is already canceled."
+msgstr ""
+
+msgid "Cancel Booking"
+msgstr ""
+
+msgid "Invalid request."
+msgstr "Deze aanvraag is ongeldig."
+
+msgid "Cancelation of your booking is not possible for some reason. Please contact the website administrator."
+msgstr ""
+
+msgid "Booking is already confirmed."
+msgstr "De reservering is al bevestigd."
+
+msgid "Your booking is confirmed. Thank You!"
+msgstr "Uw reservering is bevestigd. Hartelijk dank!"
+
+msgid "Your booking request is expired. Please start a new booking request."
+msgstr "Uw boekingsaanvraag is verstreken.  Probeer opnieuw te boeken."
+
+msgid "Confirmation of your booking request is not possible for some reason. Please start a new booking request."
+msgstr "De goedkeuring van uw reserveringsaanvraag is onverhoopt mislukt. Probeer het opnieuw door een nieuwe boeking te maken."
+
+msgid "We are pleased to inform you that your reservation request has been received and confirmed."
+msgstr "Wij informeren u hierbij graag dat uw reserveringsaanvraag is ontvangen en goedgekeurd."
+
+msgid "Booking:"
+msgstr "Boeking:"
+
+msgid "Details:"
+msgstr ""
+
+msgid "Thank you for your payment. Your transaction has been completed."
+msgstr "Bedankt voor uw betaling. De overdracht is beëindigd."
+
+msgid "We are pleased to inform you that your reservation request has been received."
+msgstr "Wij zijn verheugd u te kunnen bevestigen dat uw reservering goed ontvangen werd."
+
+msgid "from %s"
+msgstr "van %s"
+
+msgid "No accommodations matching criteria."
+msgstr "Geen kamers voldoen aan deze criteria."
+
+msgid "No services matched criteria."
+msgstr "Geen diensten voldoen aan deze criteria."
+
+msgid "Nothing found."
+msgstr "Niets gevonden."
+
+msgid "Children %s:"
+msgstr "Kinderen %s:"
+
+msgid "Preset date. Formatted as %s"
+msgstr "Vooraf ingestelde datum. Opgemaakt als %s"
+
+msgid "Gallery"
+msgstr "Galerij"
+
+msgid "View Button"
+msgstr "Toon knop"
+
+msgid "Order"
+msgstr "Sorteer"
+
+msgid "Order By"
+msgstr "Sorteer volgens"
+
+msgid "No order"
+msgstr "Geen sortering"
+
+msgid "Post ID"
+msgstr "Publicatie ID"
+
+msgid "Post author"
+msgstr "Publicatieschrijver"
+
+msgid "Post title"
+msgstr "Publicatietitel"
+
+msgid "Post name (post slug)"
+msgstr "Publicatienaam (post slug)"
+
+msgid "Post date"
+msgstr "Publicatiedatum"
+
+msgid "Last modified date"
+msgstr "Datum laatste wijziging"
+
+msgid "Parent ID"
+msgstr "Hoofd ID"
+
+msgid "Random order"
+msgstr "Willekeurige volgorde"
+
+msgid "Number of comments"
+msgstr "Aantal reacties"
+
+msgid "Relevance"
+msgstr "Relevantie"
+
+msgid "Page order"
+msgstr "Paginavolgorde"
+
+msgid "Meta value"
+msgstr "Meta waarde"
+
+msgid "Numeric meta value"
+msgstr "Numerieke meta waarde"
+
+msgid "Ascending (1, 2, 3)"
+msgstr "Oplopend (1, 2, 3)"
+
+msgid "Descending (3, 2, 1)"
+msgstr "Aflopend (3, 2, 1)"
+
+msgid "Meta Name"
+msgstr "Meta naam"
+
+msgid "Meta Type"
+msgstr "Meta type"
+
+msgid "Specified type of the custom field. Can be used in conjunction with \"orderby\" = \"meta_value\"."
+msgstr "Opgegeven type van het aangepaste veld. Kan worden gebruikt in combinatie met \"orderby\" = \"meta_value\"."
+
+msgid "Any"
+msgstr "Elk"
+
+msgid "Numeric"
+msgstr "Numeriek"
+
+msgid "Binary"
+msgstr "Binair"
+
+msgid "String"
+msgstr "Reeks"
+
+msgid "Time"
+msgstr "Tijd"
+
+msgid "Date and time"
+msgstr "Datum en tijd"
+
+msgid "Decimal number"
+msgstr "Decimaal getal"
+
+msgid "Signed number"
+msgstr "Ondertekend nummer"
+
+msgid "Unsigned number"
+msgstr "Niet-ondertekend nummer"
+
+msgid "Query Settings"
+msgstr "Zoekopdrachtinstellingen"
+
+msgid "Relation"
+msgstr "Relatie"
+
+msgid "Values: integer, -1 to display all, default: \"Blog pages show at most\""
+msgstr "Waarden: geheel getal, -1 om alles weer te geven, standaard: \"Blogpagina's worden maximaal weergegeven\""
+

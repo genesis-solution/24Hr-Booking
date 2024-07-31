@@ -1,0 +1,427 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Hotel Booking Payment Request\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-16 12:20+0200\n"
+"PO-Revision-Date: 2021-03-16 12:21+0200\n"
+"Last-Translator: fredcom <contact@fredcom.fr>\n"
+"Language-Team: Français\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: mphb-request-payment.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-Flags-xgettext: --add-comments\n"
+"X-Loco-Version: 2.2.2; wp-5.1.1\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SearchPathExcluded-1: classes/AdminGroups/LicenseSettingsGroup.php\n"
+
+#: classes/Ajax.php:48
+msgid ""
+"Selected payment method is not available. Refresh the page and try again."
+msgstr ""
+"Le mode de paiement sélectionné n'est pas disponible. Actualisez la page et "
+"réessayez."
+
+#: classes/Ajax.php:54 classes/Shortcodes/CheckoutShortcode.php:171
+msgid "Sorry, but no booking was found."
+msgstr "Désolé, aucune réservation n'a été trouvée."
+
+#: classes/Ajax.php:76
+msgid "Request did not pass security verification."
+msgstr "Demande n'a pas passé la vérification de sécurité."
+
+#: classes/Configurator.php:28
+msgid "Hotel Booking Payment Request plugin."
+msgstr "Plugin Réservation Hôtel Paiement Demande."
+
+#: classes/Configurator.php:29
+msgid ""
+"This plugin requires a separate Checkout Page to handle payment requests. "
+"Press \"Install Page\" button to create this page. Dismiss this notice if "
+"you already installed it."
+msgstr ""
+"Ce plugin nécessite une page de paiement séparée pour traiter les demandes "
+"de paiement. Appuyez sur le bouton \"Installer la page\" pour créer cette "
+"page. Ignorez cet avis si vous l'avez déjà installé."
+
+#: classes/Configurator.php:31
+msgid "Install Page"
+msgstr "Page d'installation"
+
+#: classes/Configurator.php:33
+msgid "Skip"
+msgstr "Passer"
+
+#. Register Request Payment meta box for Edit Booking page
+#: classes/Configurator.php:89
+#: classes/Emails/Customer/RequestPaymentEmail.php:24 classes/Plugin.php:100
+#: classes/Utils/SettingsTabUtils.php:24
+msgid "Payment Request"
+msgstr "Demande de paiement"
+
+#: classes/Emails/Admin/RequestPaidEmail.php:9
+msgid "Payment Received Email"
+msgstr "Email de paiement reçu"
+
+#: classes/Emails/Admin/RequestPaidEmail.php:14
+msgid ""
+"Email that is sent to Admin after customer has made the requested payment."
+msgstr ""
+"Courriel envoyé à l’administrateur une fois que le client a effectué le "
+"paiement demandé."
+
+#: classes/Emails/Admin/RequestPaidEmail.php:19
+msgid "%site_title% - Payment received for booking #%booking_id%"
+msgstr "% site_title% - Paiement reçu pour la réservation #% booking_id%"
+
+#: classes/Emails/Admin/RequestPaidEmail.php:24
+msgid "Payment Received"
+msgstr "Paiement reçu"
+
+#: classes/Emails/Customer/RequestPaymentEmail.php:9
+msgid "Payment Request Email"
+msgstr "Email de demande de paiement"
+
+#: classes/Emails/Customer/RequestPaymentEmail.php:14
+msgid ""
+"Email that will be automatically or manually sent to customer in regard to a "
+"booking balance."
+msgstr ""
+"Courriel qui sera automatiquement ou manuellement envoyé au client en ce qui "
+"concerne le solde de la réservation."
+
+#: classes/Emails/Customer/RequestPaymentEmail.php:19
+msgid "%site_title% - Payment request for booking #%booking_id%"
+msgstr "% site_title% - Demande de paiement pour la réservation #% booking_id%"
+
+#: classes/Emails/NewTags.php:28
+msgid "Booking Payment Request Link"
+msgstr "Réservation Demande de paiement Lien"
+
+#: classes/Emails/NewTags.php:43
+msgid "Booking Balance Due"
+msgstr "Solde de la réservation dû"
+
+#: classes/Listeners/PostUpdateListener.php:36
+msgid "Booking updated and payment request email has been sent to customer."
+msgstr ""
+"La réservation a été mise à jour et l'e-mail de demande de paiement a été "
+"envoyé au client."
+
+#: classes/MetaBoxes/RequestPaymentMetaBox.php:43
+msgid "Disable automatic payment requests for this booking"
+msgstr ""
+"Désactiver les demandes de paiement automatiques pour cette réservation"
+
+#: classes/MetaBoxes/RequestPaymentMetaBox.php:66
+msgid "Payment request link to send manually"
+msgstr "Lien de demande de paiement à envoyer manuellement"
+
+#: classes/MetaBoxes/RequestPaymentMetaBox.php:71
+msgid "Send Payment Request Now"
+msgstr "Envoyer la demande de paiement maintenant"
+
+#: classes/Shortcodes/CheckoutShortcode.php:75
+msgid "Payment method is not valid."
+msgstr "La méthode de paiement n'est pas valide."
+
+#: classes/Shortcodes/CheckoutShortcode.php:236
+msgid "Booking Details"
+msgstr "Les détails de votre réservation"
+
+#: classes/Shortcodes/CheckoutShortcode.php:249
+msgid "Price Breakdown"
+msgstr "Répartition des prix"
+
+#: classes/Shortcodes/CheckoutShortcode.php:279
+msgid "Payment History"
+msgstr "Historique de paiement"
+
+#: classes/Shortcodes/CheckoutShortcode.php:284
+msgid "Date"
+msgstr "Date"
+
+#: classes/Shortcodes/CheckoutShortcode.php:285
+msgid "Payment"
+msgstr "Paiement"
+
+#: classes/Shortcodes/CheckoutShortcode.php:286
+msgid "Status"
+msgstr "Statut"
+
+#: classes/Shortcodes/CheckoutShortcode.php:287
+msgid "Amount"
+msgstr "Montant"
+
+#. translators: "via Payment Method"
+#: classes/Shortcodes/CheckoutShortcode.php:309
+#, php-format
+msgid "via %s"
+msgstr ""
+
+#. foreach
+#. else
+#: classes/Shortcodes/CheckoutShortcode.php:321
+msgid "Total Paid"
+msgstr "Total payé"
+
+#: classes/Shortcodes/CheckoutShortcode.php:325
+msgid "Balance Due"
+msgstr "Solde dû"
+
+#: classes/Shortcodes/CheckoutShortcode.php:350
+msgid "Total:"
+msgstr "Total:"
+
+#: classes/Update/EDD_Plugin_Updater.php:203
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr ""
+"Une nouvelle version de %1$s est disponible. %2$sVoir%3$s  les détails %4$s."
+
+#: classes/Update/EDD_Plugin_Updater.php:211
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s "
+"or %5$supdate now%6$s."
+msgstr ""
+"Une nouvelle version de %1$s est disponible. %2$sVoir les%3$s détails%4$s ou "
+"%5$smettre à jour maintenant%6$s."
+
+#: classes/Update/EDD_Plugin_Updater.php:398
+msgid "You do not have permission to install plugin updates"
+msgstr "Vous n'avez pas la permission d'installer des mises à jour de plugins"
+
+#: classes/Update/EDD_Plugin_Updater.php:398
+msgid "Error"
+msgstr "Erreur"
+
+#: classes/Utils/SettingsTabUtils.php:30
+msgid "Automatic Emails"
+msgstr ""
+
+#: classes/Utils/SettingsTabUtils.php:31
+msgid ""
+"Enable automatic payment request emails to customers in regard to the "
+"booking balance or the full balance"
+msgstr ""
+
+#: classes/Utils/SettingsTabUtils.php:36
+msgid "Days Before Check-in"
+msgstr "Jours avant l'enregistrement"
+
+#: classes/Utils/SettingsTabUtils.php:37
+msgid "The number of days to send automatic emails prior to check-in date."
+msgstr ""
+"Le nombre de jours pour envoyer des courriels automatiques avant la date "
+"d'arrivée."
+
+#: classes/Utils/SettingsTabUtils.php:44
+msgid "Payment Request Page"
+msgstr "Page de demande de paiement"
+
+#: classes/Utils/SettingsTabUtils.php:45
+msgid ""
+"Select page user will be redirected to pay the booking balance. Must contain "
+"[mphb_payment_request_checkout] shortcode."
+msgstr ""
+"Sélectionnez l'utilisateur de la page sera redirigé pour payer le solde de "
+"la réservation. Doit contenir [shortb_payment_request_checkout] shortcode."
+
+#: classes/Utils/SettingsTabUtils.php:56
+msgid "License"
+msgstr "Licence"
+
+#: templates/emails/admin-request-paid.php:15
+#, php-format
+msgid "New payment received for booking #%s."
+msgstr "Nouveau paiement reçu pour la réservation #%s."
+
+#: templates/emails/admin-request-paid.php:17
+msgid "View Booking"
+msgstr "Voir la réservation"
+
+#: templates/emails/admin-request-paid.php:19
+msgid "Details of payment"
+msgstr "Détails du paiement"
+
+#: templates/emails/admin-request-paid.php:20
+#, php-format
+msgid "Payment ID: #%s"
+msgstr "ID de paiement:  #%s"
+
+#: templates/emails/admin-request-paid.php:21
+#, php-format
+msgid "Amount: %s"
+msgstr "Les montants %s"
+
+#: templates/emails/admin-request-paid.php:22
+#, php-format
+msgid "Method: %s"
+msgstr "Methode: %s"
+
+#: templates/emails/admin-request-paid.php:24
+#: templates/emails/customer-request-payment.php:22
+msgid "Details of booking"
+msgstr "Détails de la réservation"
+
+#: templates/emails/admin-request-paid.php:25
+#: templates/emails/customer-request-payment.php:24
+#, php-format
+msgid "Check-in: %1$s, from %2$s"
+msgstr "Enregistrement: %1$s, à partir de %2$s"
+
+#: templates/emails/admin-request-paid.php:26
+#: templates/emails/customer-request-payment.php:25
+#, php-format
+msgid "Check-out: %1$s, until %2$s"
+msgstr "Départ: %1$s, jusqu'à %2$s"
+
+#: templates/emails/admin-request-paid.php:28
+msgid "Customer Info"
+msgstr "Informations concernant le client"
+
+#: templates/emails/admin-request-paid.php:29
+#, php-format
+msgid "Name: %1$s %2$s"
+msgstr "Nom: %1$s %2$s"
+
+#: templates/emails/admin-request-paid.php:30
+#, php-format
+msgid "Email: %s"
+msgstr "Email: %s"
+
+#: templates/emails/admin-request-paid.php:31
+#, php-format
+msgid "Phone: %s"
+msgstr "Téléphones : %s"
+
+#: templates/emails/admin-request-paid.php:32
+#, php-format
+msgid "Note: %s"
+msgstr "Remarques: %s"
+
+#: templates/emails/customer-request-payment.php:16
+#, php-format
+msgid "Dear %1$s %2$s,"
+msgstr "Cher %1$s %2$s,"
+
+#: templates/emails/customer-request-payment.php:18
+#, php-format
+msgid "We are contacting you in regard to %1$s balance due for your booking."
+msgstr ""
+"Nous vous contactons concernant le solde de %1$s dû pour votre réservation."
+
+#: templates/emails/customer-request-payment.php:20
+msgid "Pay Balance Now"
+msgstr "Payer le solde maintenant"
+
+#: templates/emails/customer-request-payment.php:23
+#, php-format
+msgid "ID: #%s"
+msgstr "ID: #%s"
+
+#: templates/emails/customer-request-payment.php:26
+#, php-format
+msgid "Total Price: %s"
+msgstr "Prix total: %s"
+
+#: templates/emails/customer-request-payment.php:27
+#, php-format
+msgid "Balance Due: %s"
+msgstr "Solde dû: %s"
+
+#: templates/emails/customer-request-payment.php:29
+msgid ""
+"If you are unable to complete payment now, please contact us so we can "
+"resolve the issue."
+msgstr ""
+"Si vous ne pouvez pas terminer le paiement maintenant, veuillez nous "
+"contacter afin que nous puissions résoudre le problème."
+
+#: templates/emails/customer-request-payment.php:31
+msgid "Thank you!"
+msgstr "Je vous remercie!"
+
+#: templates/shortcodes/payment-request-checkout/checkout-form.php:45
+msgid "Submit Payment"
+msgstr "Payer maintenant"
+
+#. Plugin Name of the plugin/theme
+msgid "Hotel Booking Payment Request"
+msgstr "Demande de paiement de réservation"
+
+#. Plugin URI of the plugin/theme
+msgid "https://motopress.com/products/hotel-booking-payment-request/"
+msgstr "https://motopress.com/products/hotel-booking-payment-request/"
+
+#. Description of the plugin/theme
+msgid ""
+"Send your clients a payment link, which redirects them to an online checkout "
+"page to pay the booking balance or the full balance in advance."
+msgstr ""
+"Envoyez à vos clients un lien de paiement les redirigeant vers une page de "
+"paiement en ligne pour payer le solde de la réservation ou le solde intégral "
+"à l’avance."
+
+#. Author of the plugin/theme
+msgid "MotoPress"
+msgstr "MotoPress"
+
+#. Author URI of the plugin/theme
+msgid "https://motopress.com/"
+msgstr "https://motopress.com/"
+
+#~ msgid "Inactive"
+#~ msgstr "Inactif"
+
+#~ msgid "Valid until %s"
+#~ msgstr "Valable jusqu'au %s"
+
+#~ msgid "Valid (Lifetime)"
+#~ msgstr "Valide (durée de vie)"
+
+#~ msgid "Disabled"
+#~ msgstr "Désactivé"
+
+#~ msgid "Expired"
+#~ msgstr "Expiré"
+
+#~ msgid "Invalid"
+#~ msgstr "Invalide"
+
+#~ msgid ""
+#~ "Your License Key does not match the installed plugin. <a href=\"https://"
+#~ "motopress.zendesk.com/hc/en-us/articles/202957243-What-to-do-if-the-"
+#~ "license-key-doesn-t-correspond-with-the-plugin-license\" target=\"_blank"
+#~ "\">How to fix this.</a>"
+#~ msgstr ""
+#~ "Votre clé de licence ne correspond pas au plugin installé. <a href="
+#~ "\"https://motopress.zendesk.com/hc/en-us/articles/202957243-What-to-do-if-"
+#~ "the-license-key-doesn-t-correspond-with-the-plugin-license\" target="
+#~ "\"_blank\">Comment résoudre ce problème</a>"
+
+#~ msgid "Product ID is not valid"
+#~ msgstr "L'ID du produit n'est pas valide"
+
+#~ msgid "Action"
+#~ msgstr "Action"
+
+#~ msgid "Activate License"
+#~ msgstr "Activer la licence"
+
+#~ msgid "Deactivate License"
+#~ msgstr "Désactiver la licence"
+
+#~ msgid "Renew License"
+#~ msgstr "Renouveler la licence"

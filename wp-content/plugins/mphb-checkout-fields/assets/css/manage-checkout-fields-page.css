@@ -1,0 +1,9 @@
+table.wp-list-table.posts .column-column-handle {
+    width: 60px;
+    text-align: center;
+}
+table.wp-list-table tbody td.column-handle::before {
+    font-size: 20px;
+    width: 60px;
+    margin: 0;
+}

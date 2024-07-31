@@ -1,0 +1,141 @@
+/* ----------------------------------------
+     Alert Boxes
+---------------------------------------- */
+
+    .milenia-alert-box-inner {
+        padding-right: 4.375rem;
+        padding-left: 3.8rem;
+    }
+
+    .milenia-alert-box-inner::before {
+        left: auto;
+        right: 1.63603rem;
+    }
+
+    .milenia-alert-box-close {
+        right: auto;
+        left: 1.325rem;
+    }
+
+/* ----------------------------------------
+     Dropcaps
+---------------------------------------- */
+
+    .milenia-dropcap > *:first-child:first-letter {
+        float: right;
+        margin-right: 0;
+        margin-left: 1.1rem;
+    }
+
+/* ----------------------------------------
+    Tabs & Tour Sections
+---------------------------------------- */
+
+    .milenia-tabs--tour-sections:not(.milenia-tabs--unstyled) .milenia-tabs-nav {
+        float: right;
+    }
+
+    .milenia-tabs--tour-sections:not(.milenia-tabs--unstyled).milenia-tabs--style-2 .milenia-tabs-nav a::before,
+    .milenia-tabs--tour-sections:not(.milenia-tabs--unstyled).milenia-tabs--style-2 .milenia-tabs-nav a::after {
+        right: auto;
+        left: 0;
+    }
+
+/* ----------------------------------------
+     Counters
+---------------------------------------- */
+
+    .milenia-counters:not(.milenia-counters--vertical) .milenia-counter-icon {
+        text-align: left;
+        padding-left: 1.75rem;
+        padding-right: 0;
+    }
+
+/* ----------------------------------------
+     Progress Bars
+---------------------------------------- */
+
+    .milenia-progress-bar-title {
+        padding-right: 0;
+        padding-left: 6.25rem;
+    }
+
+    .milenia-progress-bar-title::after {
+        right: auto;
+        left: 0;
+    }
+
+    .milenia-progress-bar-indicator {
+        left: auto;
+        right: 0;
+    }
+
+/* ----------------------------------------
+    Media Queries
+---------------------------------------- */
+
+    @media all and (min-width: 576px) {
+        .milenia-tabs--tour-sections-sm:not(.milenia-tabs--unstyled) .milenia-tabs-nav {
+            float: right;
+        }
+        .milenia-tabs--tour-sections-sm:not(.milenia-tabs--unstyled).milenia-tabs--style-2 .milenia-tabs-nav a::before,
+        .milenia-tabs--tour-sections-sm:not(.milenia-tabs--unstyled).milenia-tabs--style-2 .milenia-tabs-nav a::after {
+            right: auto;
+            left: 0;
+        }
+    }
+
+    @media all and (min-width: 768px) {
+        .milenia-tabs--tour-sections-md:not(.milenia-tabs--unstyled) .milenia-tabs-nav {
+            float: right;
+        }
+        .milenia-tabs--tour-sections-md:not(.milenia-tabs--unstyled).milenia-tabs--style-2 .milenia-tabs-nav a::before,
+        .milenia-tabs--tour-sections-md:not(.milenia-tabs--unstyled).milenia-tabs--style-2 .milenia-tabs-nav a::after {
+            right: auto;
+            left: 0;
+        }
+    }
+
+    @media all and (min-width: 992px) {
+        .milenia-tabs--tour-sections-lg:not(.milenia-tabs--unstyled) .milenia-tabs-nav {
+            float: right;
+        }
+        .milenia-tabs--tour-sections-lg:not(.milenia-tabs--unstyled).milenia-tabs--style-2 .milenia-tabs-nav a::before,
+        .milenia-tabs--tour-sections-lg:not(.milenia-tabs--unstyled).milenia-tabs--style-2 .milenia-tabs-nav a::after {
+            right: auto;
+            left: 0;
+        }
+    }
+
+    @media all and (min-width: 1200px) {
+        .milenia-tabs--tour-sections-xl:not(.milenia-tabs--unstyled) .milenia-tabs-nav {
+            float: right;
+        }
+        .milenia-tabs--tour-sections-xl:not(.milenia-tabs--unstyled).milenia-tabs--style-2 .milenia-tabs-nav a::before,
+        .milenia-tabs--tour-sections-xl:not(.milenia-tabs--unstyled).milenia-tabs--style-2 .milenia-tabs-nav a::after {
+            right: auto;
+            left: 0;
+        }
+    }
+
+    @media all and (min-width: 1380px) {
+        .milenia-tabs--tour-sections-xxl:not(.milenia-tabs--unstyled) .milenia-tabs-nav {
+            float: right;
+        }
+        .milenia-tabs--tour-sections-xxl:not(.milenia-tabs--unstyled).milenia-tabs--style-2 .milenia-tabs-nav a::before,
+        .milenia-tabs--tour-sections-xxl:not(.milenia-tabs--unstyled).milenia-tabs--style-2 .milenia-tabs-nav a::after {
+            right: auto;
+            left: 0;
+        }
+    }
+
+    @media all and (min-width: 1600px) {
+        .milenia-tabs--tour-sections-xxxl:not(.milenia-tabs--unstyled) .milenia-tabs-nav {
+            float: right;
+        }
+        .milenia-tabs--tour-sections-xxxl:not(.milenia-tabs--unstyled).milenia-tabs--style-2 .milenia-tabs-nav a::before,
+        .milenia-tabs--tour-sections-xxxl:not(.milenia-tabs--unstyled).milenia-tabs--style-2 .milenia-tabs-nav a::after {
+            right: auto;
+            left: 0;
+        }
+    }

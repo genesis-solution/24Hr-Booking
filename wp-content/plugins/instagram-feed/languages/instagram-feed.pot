@@ -1,0 +1,4001 @@
+# Copyright (C) 2023 Smash Balloon
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Smash Balloon Instagram Feed 6.2.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/instagram-feed\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-09-05T18:34:30+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.7.0\n"
+"X-Domain: instagram-feed\n"
+
+#. Plugin Name of the plugin
+msgid "Smash Balloon Instagram Feed"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://smashballoon.com/instagram-feed"
+msgstr ""
+
+#. Description of the plugin
+msgid "Display beautifully clean, customizable, and responsive Instagram feeds."
+msgstr ""
+
+#. Author of the plugin
+#: inc/admin/SBI_Onboarding_wizard.php:107
+msgid "Smash Balloon"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://smashballoon.com/"
+msgstr ""
+
+#: admin/builder/templates/sections/footer.php:30
+#: admin/views/sections/sticky_widget.php:9
+msgid "Get All Access Bundle"
+msgstr ""
+
+#: admin/builder/templates/sections/footer.php:39
+#: admin/views/sections/sticky_widget.php:18
+msgid "Our Feeds for other platforms"
+msgstr ""
+
+#: admin/builder/templates/sections/footer.php:55
+#: admin/views/sections/sticky_widget.php:34
+msgid "Follow Us"
+msgstr ""
+
+#: admin/SBI_About_Us.php:58
+#: admin/SBI_About_Us.php:59
+#: admin/SBI_About_Us.php:184
+#: inc/Builder/SBI_Feed_Builder.php:1666
+msgid "About Us"
+msgstr ""
+
+#: admin/SBI_About_Us.php:183
+#: admin/SBI_oEmbeds.php:182
+#: admin/SBI_Support.php:159
+#: inc/Builder/SBI_Feed_Builder.php:769
+#: inc/Builder/SBI_Feed_Builder.php:1510
+msgid "Help"
+msgstr ""
+
+#: admin/SBI_About_Us.php:185
+msgid "Our Other Social Media Feed Plugins"
+msgstr ""
+
+#: admin/SBI_About_Us.php:186
+msgid "Plugins we recommend"
+msgstr ""
+
+#: admin/SBI_About_Us.php:187
+msgid "We’re more than just an Instagram plugin! Check out our other plugins and add more content to your site."
+msgstr ""
+
+#: admin/SBI_About_Us.php:190
+msgid "At Smash Balloon, we build software that helps you create beautiful responsive social media feeds for your website in minutes."
+msgstr ""
+
+#: admin/SBI_About_Us.php:191
+msgid "We're on a mission to make it super simple to add social media feeds in WordPress. No more complicated setup steps, ugly iframe widgets, or negative page speed scores."
+msgstr ""
+
+#: admin/SBI_About_Us.php:192
+msgid "Our plugins aren't just easy to use, but completely customizable, reliable, and fast! Which is why over 1.6 million awesome users, just like you, choose to use them on their site."
+msgstr ""
+
+#: admin/SBI_About_Us.php:194
+msgid "Smash Balloon Team"
+msgstr ""
+
+#: admin/SBI_About_Us.php:200
+#: inc/admin/actions.php:41
+#: inc/admin/actions.php:42
+#: inc/admin/class-sbi-sitehealth.php:62
+#: widget.php:15
+msgid "Instagram Feed"
+msgstr ""
+
+#: admin/SBI_About_Us.php:201
+msgid "A quick and elegant way to add your Instagram posts to your website. "
+msgstr ""
+
+#: admin/SBI_About_Us.php:208
+msgid "Custom Facebook Feed"
+msgstr ""
+
+#: admin/SBI_About_Us.php:209
+msgid "Add Facebook posts from your timeline, albums and much more."
+msgstr ""
+
+#: admin/SBI_About_Us.php:217
+msgid "Custom Twitter Feeds"
+msgstr ""
+
+#: admin/SBI_About_Us.php:218
+msgid "A customizable way to display tweets from your Twitter account. "
+msgstr ""
+
+#: admin/SBI_About_Us.php:226
+#: inc/Builder/SBI_Feed_Builder.php:1315
+msgid "Feeds for YouTube"
+msgstr ""
+
+#: admin/SBI_About_Us.php:227
+msgid "A simple yet powerful way to display videos from YouTube. "
+msgstr ""
+
+#: admin/SBI_About_Us.php:235
+#: inc/Builder/SBI_Feed_Builder.php:309
+#: inc/Builder/SBI_Feed_Builder.php:2098
+msgid "Social Wall"
+msgstr ""
+
+#: admin/SBI_About_Us.php:236
+msgid "Combine feeds from all of our plugins into a single wall"
+msgstr ""
+
+#: admin/SBI_About_Us.php:246
+msgid "All in One SEO Pack"
+msgstr ""
+
+#: admin/SBI_About_Us.php:247
+msgid "The original WordPress SEO plugin and toolkit that improves your website’s search rankings. Comes with all the SEO features like Local SEO, WooCommerce SEO, sitemaps, SEO optimizer, schema, and more."
+msgstr ""
+
+#: admin/SBI_About_Us.php:255
+#: inc/admin/SBI_Onboarding_wizard.php:495
+msgid "WPForms"
+msgstr ""
+
+#: admin/SBI_About_Us.php:256
+msgid "The best drag & drop WordPress form builder. Easily create beautiful contact forms, surveys, payment forms, and more with our 900+ form templates. Trusted by over 6 million websites as the best forms plugin."
+msgstr ""
+
+#: admin/SBI_About_Us.php:264
+#: inc/admin/SBI_Onboarding_wizard.php:482
+msgid "MonsterInsights"
+msgstr ""
+
+#: admin/SBI_About_Us.php:265
+msgid "The leading WordPress analytics plugin that shows you how people find and use your website, so you can make data driven decisions to grow your business. Properly set up Google Analytics without writing code."
+msgstr ""
+
+#: admin/SBI_About_Us.php:273
+#: inc/admin/SBI_Onboarding_wizard.php:521
+msgid "OptinMonster"
+msgstr ""
+
+#: admin/SBI_About_Us.php:274
+msgid "Instantly get more subscribers, leads, and sales with the #1 conversion optimization toolkit. Create high converting popups, announcement bars, spin a wheel, and more with smart targeting and personalization."
+msgstr ""
+
+#: admin/SBI_About_Us.php:282
+msgid "WP Mail SMTP"
+msgstr ""
+
+#: admin/SBI_About_Us.php:283
+msgid "Improve your WordPress email deliverability and make sure that your website emails reach user’s inbox with the #1 SMTP plugin for WordPress. Over 3 million websites use it to fix WordPress email issues."
+msgstr ""
+
+#: admin/SBI_About_Us.php:291
+msgid "RafflePress"
+msgstr ""
+
+#: admin/SBI_About_Us.php:292
+msgid "Turn your website visitors into brand ambassadors! Easily grow your email list, website traffic, and social media followers with the most powerful giveaways & contests plugin for WordPress."
+msgstr ""
+
+#: admin/SBI_About_Us.php:300
+#: inc/admin/SBI_Onboarding_wizard.php:510
+msgid "SeedProd Website Builder"
+msgstr ""
+
+#: admin/SBI_About_Us.php:301
+msgid "The fastest drag & drop landing page builder for WordPress. Create custom landing pages without writing code, connect a CRM, collect subscribers, and grow an audience. Trusted by 1 million sites."
+msgstr ""
+
+#: admin/SBI_About_Us.php:309
+msgid "PushEngage Web Push Notifications"
+msgstr ""
+
+#: admin/SBI_About_Us.php:310
+msgid "Connect with your visitors after they leave your website with the leading web push notification software. Over 10,000+ businesses worldwide use PushEngage to send 15 billion notifications each month."
+msgstr ""
+
+#: admin/SBI_About_Us.php:317
+#: inc/Builder/SBI_Feed_Builder.php:741
+msgid "Add"
+msgstr ""
+
+#: admin/SBI_About_Us.php:318
+#: inc/Builder/SBI_Feed_Builder.php:744
+msgid "View Demo"
+msgstr ""
+
+#: admin/SBI_About_Us.php:319
+#: inc/admin/SBI_Onboarding_wizard.php:287
+#: inc/Builder/SBI_Feed_Builder.php:852
+#: inc/Builder/SBI_Feed_Builder.php:1198
+msgid "Install"
+msgstr ""
+
+#: admin/SBI_About_Us.php:320
+#: inc/Builder/SBI_Feed_Builder.php:853
+msgid "Installed"
+msgstr ""
+
+#: admin/SBI_About_Us.php:321
+#: admin/SBI_Global_Settings.php:889
+#: inc/admin/actions.php:134
+#: inc/admin/actions.php:152
+#: inc/Builder/SBI_Feed_Builder.php:854
+#: inc/Builder/SBI_Feed_Builder.php:1207
+msgid "Activate"
+msgstr ""
+
+#: admin/SBI_About_Us.php:322
+#: admin/SBI_Global_Settings.php:888
+#: inc/admin/actions.php:137
+msgid "Deactivate"
+msgstr ""
+
+#: admin/SBI_About_Us.php:323
+msgid "Open"
+msgstr ""
+
+#: admin/SBI_Admin_Notices.php:58
+msgid "You're using Instagram Feed Lite. To unlock more features consider"
+msgstr ""
+
+#: admin/SBI_Admin_Notices.php:60
+msgid "upgrading to Pro"
+msgstr ""
+
+#: admin/SBI_Admin_Notices.php:65
+#: inc/admin/class-sbi-notifications.php:686
+msgid "Dismiss this message"
+msgstr ""
+
+#: admin/SBI_Global_Settings.php:190
+msgid "License key required!"
+msgstr ""
+
+#: admin/SBI_Global_Settings.php:601
+msgid "Unsuccessful. Try visiting our website."
+msgstr ""
+
+#: admin/SBI_Global_Settings.php:604
+msgid "Success! Try creating a feed and connecting a source."
+msgstr ""
+
+#: admin/SBI_Global_Settings.php:679
+msgid "You have reached the maximum number of sites available in your plan %s"
+msgstr ""
+
+#: admin/SBI_Global_Settings.php:680
+msgid "%sLearn more about%s it or %supgrade your plan%s"
+msgstr ""
+
+#: admin/SBI_Global_Settings.php:692
+msgid "The license expired on "
+msgstr ""
+
+#: admin/SBI_Global_Settings.php:694
+msgid "Please renew it and try again."
+msgstr ""
+
+#: admin/SBI_Global_Settings.php:696
+msgid "Renew"
+msgstr ""
+
+#: admin/SBI_Global_Settings.php:733
+#: inc/admin/actions.php:109
+#: inc/Builder/SBI_Feed_Builder.php:724
+#: inc/Builder/SBI_Feed_Builder.php:737
+#: inc/Builder/SBI_Feed_Builder.php:1489
+#: inc/Builder/SBI_Feed_Builder.php:1530
+#: inc/Builder/SBI_Feed_Builder.php:1663
+#: inc/Builder/Tabs/SBI_Builder_Customizer_Tab.php:33
+msgid "Settings"
+msgstr ""
+
+#: admin/SBI_Global_Settings.php:734
+msgid "Settings "
+msgstr ""
+
+#: admin/SBI_Global_Settings.php:865
+msgid "Post to Instagram right from WordPress with Uncanny Automator"
+msgstr ""
+
+#: admin/SBI_Global_Settings.php:871
+msgid "License Key"
+msgstr ""
+
+#: admin/SBI_Global_Settings.php:872
+msgid "Your license key provides access to updates and support"
+msgstr ""
+
+#: admin/SBI_Global_Settings.php:873
+msgid "Your <b>Instagram Feed Pro</b> license is Active!"
+msgstr ""
+
+#: admin/SBI_Global_Settings.php:874
+msgid "Your <b>Instagram Feed Pro</b> license is Inactive!"
+msgstr ""
+
+#: admin/SBI_Global_Settings.php:875
+msgid "Already purchased? Simply enter your license key below to activate Instagram Feed Pro."
+msgstr ""
+
+#: admin/SBI_Global_Settings.php:876
+msgid "Paste license key here"
+msgstr ""
+
+#: admin/SBI_Global_Settings.php:877
+msgid "You are using the Lite version of the plugin–no license needed. Enjoy! 🙂 To unlock more features, consider %s."
+msgstr ""
+
+#: admin/SBI_Global_Settings.php:877
+msgid "upgrading to Pro."
+msgstr ""
+
+#: admin/SBI_Global_Settings.php:878
+msgid "As a valued user of our Lite plugin, you receive 50% OFF - automatically applied at checkout!"
+msgstr ""
+
+#: admin/SBI_Global_Settings.php:879
+msgid "Manage License"
+msgstr ""
+
+#: admin/SBI_Global_Settings.php:880
+msgid "Test Connection"
+msgstr ""
+
+#: admin/SBI_Global_Settings.php:881
+msgid "Recheck license"
+msgstr ""
+
+#: admin/SBI_Global_Settings.php:882
+msgid "License valid"
+msgstr ""
+
+#: admin/SBI_Global_Settings.php:883
+msgid "License expired"
+msgstr ""
+
+#: admin/SBI_Global_Settings.php:884
+msgid "Connection successful"
+msgstr ""
+
+#: admin/SBI_Global_Settings.php:885
+msgid "Connection failed"
+msgstr ""
+
+#: admin/SBI_Global_Settings.php:886
+msgid "View error"
+msgstr ""
+
+#: admin/SBI_Global_Settings.php:887
+msgid "Upgrade"
+msgstr ""
+
+#: admin/SBI_Global_Settings.php:892
+msgid "Manage Sources"
+msgstr ""
+
+#: admin/SBI_Global_Settings.php:893
+msgid "Add or remove connected Instagram accounts"
+msgstr ""
+
+#: admin/SBI_Global_Settings.php:896
+msgid "Preserve settings if plugin is removed"
+msgstr ""
+
+#: admin/SBI_Global_Settings.php:897
+msgid "This will make sure that all of your feeds and settings are still saved even if the plugin is uninstalled"
+msgstr ""
+
+#: admin/SBI_Global_Settings.php:900
+msgid "Import Feed Settings"
+msgstr ""
+
+#: admin/SBI_Global_Settings.php:901
+msgid "You will need a JSON file previously exported from the Instagram Feed Plugin"
+msgstr ""
+
+#: admin/SBI_Global_Settings.php:902
+msgid "Import"
+msgstr ""
+
+#: admin/SBI_Global_Settings.php:905
+msgid "Export Feed Settings"
+msgstr ""
+
+#: admin/SBI_Global_Settings.php:906
+msgid "Export settings for one or more of your feeds"
+msgstr ""
+
+#: admin/SBI_Global_Settings.php:907
+#: admin/SBI_Support.php:182
+msgid "Export"
+msgstr ""
+
+#: admin/SBI_Global_Settings.php:912
+msgid "Localization"
+msgstr ""
+
+#: admin/SBI_Global_Settings.php:916
+msgid "Timezone"
+msgstr ""
+
+#: admin/SBI_Global_Settings.php:919
+msgid "Caching"
+msgstr ""
+
+#: admin/SBI_Global_Settings.php:920
+msgid "When the Page loads"
+msgstr ""
+
+#: admin/SBI_Global_Settings.php:921
+msgid "In the Background"
+msgstr ""
+
+#: admin/SBI_Global_Settings.php:923
+msgid "Every 30 minutes"
+msgstr ""
+
+#: admin/SBI_Global_Settings.php:924
+msgid "Every hour"
+msgstr ""
+
+#: admin/SBI_Global_Settings.php:925
+msgid "Every 12 hours"
+msgstr ""
+
+#: admin/SBI_Global_Settings.php:926
+msgid "Every 24 hours"
+msgstr ""
+
+#: admin/SBI_Global_Settings.php:928
+msgid "AM"
+msgstr ""
+
+#: admin/SBI_Global_Settings.php:929
+msgid "PM"
+msgstr ""
+
+#: admin/SBI_Global_Settings.php:930
+msgid "Clear All Caches"
+msgstr ""
+
+#: admin/SBI_Global_Settings.php:933
+msgid "GDPR"
+msgstr ""
+
+#: admin/SBI_Global_Settings.php:934
+msgid "Automatic"
+msgstr ""
+
+#: admin/SBI_Global_Settings.php:935
+#: inc/admin/class-sbi-new-user.php:316
+#: inc/admin/class-sbi-notifications.php:596
+msgid "Yes"
+msgstr ""
+
+#: admin/SBI_Global_Settings.php:936
+#: inc/admin/class-sbi-new-user.php:322
+#: inc/admin/class-sbi-notifications.php:601
+msgid "No"
+msgstr ""
+
+#: admin/SBI_Global_Settings.php:938
+msgid "No requests will be made to third-party websites. To accommodate this, some features of the plugin will be limited."
+msgstr ""
+
+#: admin/SBI_Global_Settings.php:939
+msgid "The plugin will function as normal and load images and videos directly from Instagram"
+msgstr ""
+
+#: admin/SBI_Global_Settings.php:940
+msgid "Some Instagram Feed features will be limited for visitors to ensure GDPR compliance, until they give consent."
+msgstr ""
+
+#: admin/SBI_Global_Settings.php:941
+msgid "What will be limited?"
+msgstr ""
+
+#: admin/SBI_Global_Settings.php:947
+msgid "Features that would be disabled or limited include: "
+msgstr ""
+
+#: admin/SBI_Global_Settings.php:949
+msgid "Only local images (not from Instagram's CDN) will be displayed in the feed."
+msgstr ""
+
+#: admin/SBI_Global_Settings.php:950
+msgid "Placeholder blank images will be displayed until images are available."
+msgstr ""
+
+#: admin/SBI_Global_Settings.php:951
+msgid "Video posts will link to the post on Instagram.com for visitors to watch."
+msgstr ""
+
+#: admin/SBI_Global_Settings.php:952
+msgid "Carousel posts will only show the first image in the lightbox."
+msgstr ""
+
+#: admin/SBI_Global_Settings.php:953
+msgid "The maximum image resolution will be 640 pixels wide in the lightbox."
+msgstr ""
+
+#: admin/SBI_Global_Settings.php:958
+msgid "Custom CSS"
+msgstr ""
+
+#: admin/SBI_Global_Settings.php:959
+msgid "Enter any custom CSS here"
+msgstr ""
+
+#: admin/SBI_Global_Settings.php:962
+msgid "Custom JS"
+msgstr ""
+
+#: admin/SBI_Global_Settings.php:963
+msgid "Enter any custom JS here"
+msgstr ""
+
+#: admin/SBI_Global_Settings.php:968
+msgid "Optimize Images"
+msgstr ""
+
+#: admin/SBI_Global_Settings.php:969
+msgid "This will create multiple local copies of images in different sizes. The plugin then displays the smallest version based on the size of the feed."
+msgstr ""
+
+#: admin/SBI_Global_Settings.php:970
+#: admin/SBI_Global_Settings.php:979
+#: inc/Builder/SBI_Feed_Builder.php:772
+msgid "Reset"
+msgstr ""
+
+#: admin/SBI_Global_Settings.php:973
+msgid "Usage Tracking"
+msgstr ""
+
+#: admin/SBI_Global_Settings.php:974
+msgid "This helps to prevent plugin and theme conflicts by sending a report in the background once per week about your settings and relevant site stats. It does not send sensitive information like access tokens, email addresses, or user info. This will also not affect your site performance. %s"
+msgstr ""
+
+#: admin/SBI_Global_Settings.php:974
+#: inc/Builder/SBI_Feed_Builder.php:762
+#: inc/Builder/SBI_Tooltip_Wizard.php:130
+#: inc/email.php:63
+msgid "Learn More"
+msgstr ""
+
+#: admin/SBI_Global_Settings.php:977
+msgid "Reset Error Log"
+msgstr ""
+
+#: admin/SBI_Global_Settings.php:978
+msgid "Clear all errors stored in the error log."
+msgstr ""
+
+#: admin/SBI_Global_Settings.php:982
+msgid "AJAX theme loading fix"
+msgstr ""
+
+#: admin/SBI_Global_Settings.php:983
+msgid "Fixes issues caused by Ajax loading themes. It can also be used to workaround JavaScript errors on the page."
+msgstr ""
+
+#: admin/SBI_Global_Settings.php:986
+msgid "Load Initial Posts with AJAX"
+msgstr ""
+
+#: admin/SBI_Global_Settings.php:987
+#: admin/SBI_Global_Settings.php:1003
+msgid "Initial posts will be loaded using AJAX instead of added to the page directly. If you use page caching, this will allow the feed to update according to the \"Check for new posts every\" setting on the \"Configure\" tab."
+msgstr ""
+
+#: admin/SBI_Global_Settings.php:990
+msgid "Enqueue JavaScript in head"
+msgstr ""
+
+#: admin/SBI_Global_Settings.php:991
+msgid "Add the JavaScript file for the plugin in the HTML \"head\" instead of the footer."
+msgstr ""
+
+#: admin/SBI_Global_Settings.php:994
+msgid "Enqueue CSS only on pages with the Feed"
+msgstr ""
+
+#: admin/SBI_Global_Settings.php:998
+msgid "JavaScript Image Loading"
+msgstr ""
+
+#: admin/SBI_Global_Settings.php:999
+msgid "Load images on the client side with JS, instead of server side."
+msgstr ""
+
+#: admin/SBI_Global_Settings.php:1002
+msgid "Fix a text shortening issue caused by some themes"
+msgstr ""
+
+#: admin/SBI_Global_Settings.php:1006
+msgid "Admin Error Notice"
+msgstr ""
+
+#: admin/SBI_Global_Settings.php:1007
+msgid "This will disable or enable the feed error notice that displays in the bottom right corner of your site for logged-in admins."
+msgstr ""
+
+#: admin/SBI_Global_Settings.php:1010
+msgid "Feed Issue Email Reports"
+msgstr ""
+
+#: admin/SBI_Global_Settings.php:1011
+msgid "If the feed is down due to a critical issue, we will switch to a cached version and notify you based on these settings. <a href=\""
+msgstr ""
+
+#: admin/SBI_Global_Settings.php:1012
+msgid "Send a report every"
+msgstr ""
+
+#: admin/SBI_Global_Settings.php:1013
+msgid "to"
+msgstr ""
+
+#: admin/SBI_Global_Settings.php:1014
+msgid "Enter one or more email address separated by comma"
+msgstr ""
+
+#: admin/SBI_Global_Settings.php:1018
+msgid "Monday"
+msgstr ""
+
+#: admin/SBI_Global_Settings.php:1022
+msgid "Tuesday"
+msgstr ""
+
+#: admin/SBI_Global_Settings.php:1026
+msgid "Wednesday"
+msgstr ""
+
+#: admin/SBI_Global_Settings.php:1030
+msgid "Thursday"
+msgstr ""
+
+#: admin/SBI_Global_Settings.php:1034
+msgid "Friday"
+msgstr ""
+
+#: admin/SBI_Global_Settings.php:1038
+msgid "Saturday"
+msgstr ""
+
+#: admin/SBI_Global_Settings.php:1042
+msgid "Sunday"
+msgstr ""
+
+#: admin/SBI_Global_Settings.php:1047
+msgid "Manage Data"
+msgstr ""
+
+#: admin/SBI_Global_Settings.php:1048
+msgid "Warning: Clicking this button will permanently delete all Instagram data, including all connected accounts, cached posts, and stored images."
+msgstr ""
+
+#: admin/SBI_Global_Settings.php:1049
+msgid "Delete all Platform Data"
+msgstr ""
+
+#: admin/SBI_Global_Settings.php:1054
+#: inc/Builder/SBI_Feed_Builder.php:174
+#: inc/Builder/SBI_Feed_Builder.php:178
+#: inc/Builder/SBI_Feed_Builder.php:182
+msgid "Delete \"#\"?"
+msgstr ""
+
+#: admin/SBI_Global_Settings.php:1055
+#: inc/Builder/SBI_Feed_Builder.php:175
+msgid "This source is being used in a feed on your site. If you delete this source then new posts can no longer be retrieved for these feeds."
+msgstr ""
+
+#: admin/SBI_Global_Settings.php:1061
+msgid "Automatically post from WordPress to Instagram with the #1 automation plugin"
+msgstr ""
+
+#: admin/SBI_Global_Settings.php:1062
+msgid "Uncanny Automator lets you easily automate your WordPress site.  Automatically push new blog posts to your Instagram Business account (and Facebook and Twitter too)."
+msgstr ""
+
+#: admin/SBI_Global_Settings.php:1065
+msgid "Install and activate Uncanny Automator"
+msgstr ""
+
+#: admin/SBI_Global_Settings.php:1066
+msgid "The plugin is installed from the Wordpress.org repository"
+msgstr ""
+
+#: admin/SBI_Global_Settings.php:1070
+msgid "Set up Uncanny Automator"
+msgstr ""
+
+#: admin/SBI_Global_Settings.php:1071
+msgid "Connect Uncanny Automator to your Instagram account"
+msgstr ""
+
+#: admin/SBI_Global_Settings.php:1224
+msgid "No GDPR consent plugin detected. Install a compatible GDPR consent %s, or manually enable the setting to display a GDPR compliant version of the feed to all visitors."
+msgstr ""
+
+#: admin/SBI_Global_Settings.php:1224
+msgid "plugin"
+msgstr ""
+
+#: admin/SBI_Global_Settings.php:1246
+#: admin/SBI_Support.php:383
+msgid "every 30 minutes"
+msgstr ""
+
+#: admin/SBI_Global_Settings.php:1247
+#: admin/SBI_Support.php:386
+msgid "every 12 hours"
+msgstr ""
+
+#: admin/SBI_Global_Settings.php:1249
+#: admin/SBI_Support.php:389
+msgid "Next check"
+msgstr ""
+
+#: admin/SBI_Global_Settings.php:1249
+msgid "Note: Clicking \"Clear All Caches\" will reset this schedule."
+msgstr ""
+
+#: admin/SBI_Global_Settings.php:1251
+msgid "Nothing currently scheduled"
+msgstr ""
+
+#: admin/SBI_oEmbeds.php:61
+#: admin/SBI_oEmbeds.php:62
+#: admin/SBI_oEmbeds.php:183
+#: inc/Builder/SBI_Feed_Builder.php:1664
+msgid "oEmbeds"
+msgstr ""
+
+#: admin/SBI_oEmbeds.php:184
+msgid "Use Smash Balloon to power any Instagram or Facebook oEmbeds across your site. Just click the button below and we'll do the rest.                "
+msgstr ""
+
+#: admin/SBI_oEmbeds.php:185
+msgid "Instagram oEmbeds are currently not being handled by Smash Balloon"
+msgstr ""
+
+#: admin/SBI_oEmbeds.php:186
+msgid "Instagram oEmbeds are turned on"
+msgstr ""
+
+#: admin/SBI_oEmbeds.php:187
+msgid "Facebook oEmbeds are currently not being handled by Smash Balloon"
+msgstr ""
+
+#: admin/SBI_oEmbeds.php:188
+msgid "Facebook oEmbeds are turned on"
+msgstr ""
+
+#: admin/SBI_oEmbeds.php:189
+#: inc/Builder/SBI_Feed_Builder.php:1514
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:560
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:917
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:992
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:1112
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:1246
+#: inc/Builder/Tabs/SBI_Settings_Tab.php:111
+msgid "Enable"
+msgstr ""
+
+#: admin/SBI_oEmbeds.php:190
+msgid "Disable"
+msgstr ""
+
+#: admin/SBI_oEmbeds.php:191
+msgid "What are oEmbeds?"
+msgstr ""
+
+#: admin/SBI_oEmbeds.php:192
+msgid "What else can the Instagram Feed plugin do?"
+msgstr ""
+
+#: admin/SBI_oEmbeds.php:193
+msgid "When you paste a link to a Instagram or Facebook post in WordPress, it automatically displays the post instead of the URL. That is called an oEmbed."
+msgstr ""
+
+#: admin/SBI_oEmbeds.php:194
+msgid "Due to recent API changes from Instagram, WordPress cannot automatically embed your posts."
+msgstr ""
+
+#: admin/SBI_oEmbeds.php:195
+msgid "However, we have added this feature to Smash Balloon to make sure your oEmbeds keep working."
+msgstr ""
+
+#: admin/SBI_oEmbeds.php:196
+msgid "Just enable it above, and all your existing and new embeds should work automatically, no other input required."
+msgstr ""
+
+#: admin/SBI_oEmbeds.php:197
+msgid "Display a completely customizable Instagram Feed with tons of features"
+msgstr ""
+
+#: admin/SBI_oEmbeds.php:198
+msgid "Create a custom styled feed of your Instagram posts which integrates seamlessly with your WordPress theme."
+msgstr ""
+
+#: admin/SBI_oEmbeds.php:209
+msgid "Enable Facebook oEmbeds"
+msgstr ""
+
+#: admin/SBI_oEmbeds.php:210
+msgid "To enable Facebook oEmbeds our Custom Facebook Feed plugin is required. Click the button below to Install it and enable Facebook oEmbeds."
+msgstr ""
+
+#: admin/SBI_oEmbeds.php:211
+msgid "Install Plugin"
+msgstr ""
+
+#: admin/SBI_oEmbeds.php:212
+msgid "Activate Plugin"
+msgstr ""
+
+#: admin/SBI_oEmbeds.php:213
+#: inc/admin/actions.php:144
+#: inc/Builder/SBI_Feed_Builder.php:778
+msgid "Cancel"
+msgstr ""
+
+#: admin/SBI_Support.php:61
+#: admin/SBI_Support.php:62
+#: admin/SBI_Support.php:160
+#: inc/Builder/SBI_Feed_Builder.php:1667
+msgid "Support"
+msgstr ""
+
+#: admin/SBI_Support.php:161
+msgid "Getting Started"
+msgstr ""
+
+#: admin/SBI_Support.php:162
+msgid "Some helpful resources to get you started"
+msgstr ""
+
+#: admin/SBI_Support.php:163
+msgid "Docs & Troubleshooting"
+msgstr ""
+
+#: admin/SBI_Support.php:164
+msgid "Run into an issue? Check out our help docs."
+msgstr ""
+
+#: admin/SBI_Support.php:165
+msgid "Additional Resources"
+msgstr ""
+
+#: admin/SBI_Support.php:166
+msgid "To help you get the most out of the plugin"
+msgstr ""
+
+#: admin/SBI_Support.php:167
+msgid "Need more support? We’re here to help."
+msgstr ""
+
+#: admin/SBI_Support.php:168
+msgid "Our fast and friendly support team is always happy to help!"
+msgstr ""
+
+#: admin/SBI_Support.php:169
+msgid "System Info"
+msgstr ""
+
+#: admin/SBI_Support.php:170
+msgid "Export Settings"
+msgstr ""
+
+#: admin/SBI_Support.php:171
+msgid "Share your plugin settings easily with Support"
+msgstr ""
+
+#: admin/SBI_Support.php:172
+msgid "Copied to clipboard"
+msgstr ""
+
+#: admin/SBI_Support.php:175
+msgid "Search Documentation"
+msgstr ""
+
+#: admin/SBI_Support.php:176
+msgid "More Help Getting Started"
+msgstr ""
+
+#: admin/SBI_Support.php:177
+msgid "View Documentation"
+msgstr ""
+
+#: admin/SBI_Support.php:178
+msgid "View Blog"
+msgstr ""
+
+#: admin/SBI_Support.php:179
+msgid "Submit a Support Ticket"
+msgstr ""
+
+#: admin/SBI_Support.php:180
+msgid "Copied"
+msgstr ""
+
+#: admin/SBI_Support.php:181
+#: inc/Builder/SBI_Feed_Builder.php:749
+msgid "Copy"
+msgstr ""
+
+#: admin/SBI_Support.php:183
+msgid "Expand"
+msgstr ""
+
+#: admin/SBI_Support.php:184
+msgid "Collapse"
+msgstr ""
+
+#: admin/SBI_Support.php:207
+msgid "Creating your first Instagram feed"
+msgstr ""
+
+#: admin/SBI_Support.php:211
+msgid "Instagram Business Profiles (required for Hashtag and Tagged feeds)"
+msgstr ""
+
+#: admin/SBI_Support.php:215
+msgid "Multiple User Accounts in One Feed"
+msgstr ""
+
+#: admin/SBI_Support.php:221
+msgid "Displaying Instagram Hashtag Feeds"
+msgstr ""
+
+#: admin/SBI_Support.php:225
+msgid "How to Resolve Error Messages"
+msgstr ""
+
+#: admin/SBI_Support.php:229
+msgid "My Feed Stopped Working or is Empty"
+msgstr ""
+
+#: admin/SBI_Support.php:235
+msgid "Differences Between an Instagram Personal and Business Account"
+msgstr ""
+
+#: admin/SBI_Support.php:239
+msgid "Display Posts With a Specific Hashtag From a Specific User Account"
+msgstr ""
+
+#: admin/SBI_Support.php:243
+msgid "Reauthorizing our Instagram/Facebook App"
+msgstr ""
+
+#: admin/SBI_Upgrader.php:96
+msgid "You are not allowed to install plugins."
+msgstr ""
+
+#: admin/SBI_Upgrader.php:106
+#: admin/SBI_Upgrader.php:252
+#: admin/SBI_Upgrader.php:275
+msgid "You are not licensed."
+msgstr ""
+
+#: admin/SBI_Upgrader.php:191
+msgid "Could not connect."
+msgstr ""
+
+#: admin/SBI_Upgrader.php:200
+msgid "Could not install upgrade. Please download from smashballoon.com and install manually."
+msgstr ""
+
+#: admin/SBI_Upgrader.php:237
+#: admin/SBI_Upgrader.php:294
+#: inc/admin/addon-functions.php:160
+msgid "Plugin installed & activated."
+msgstr ""
+
+#: admin/SBI_Upgrader.php:298
+msgid "Pro version installed but needs to be activated from the Plugins page inside your WordPress admin."
+msgstr ""
+
+#: admin/SBI_Upgrader.php:369
+msgid "This license is NOT valid."
+msgstr ""
+
+#: admin/SBI_Upgrader.php:377
+msgid "This license is expired."
+msgstr ""
+
+#: admin/SBI_Upgrader.php:380
+msgid "We encountered a problem unlocking the PRO features. Please install the PRO version manually."
+msgstr ""
+
+#: admin/views/settings/tab/general.php:313
+#: admin/views/support/content.php:137
+msgid "Select Feed"
+msgstr ""
+
+#: inc/admin/actions.php:50
+#: inc/admin/actions.php:51
+#: inc/admin/actions.php:107
+#: inc/Builder/SBI_Feed_Builder.php:893
+#: inc/Builder/SBI_Feed_Builder.php:1357
+msgid "Upgrade to Pro"
+msgstr ""
+
+#: inc/admin/actions.php:60
+#: inc/admin/actions.php:61
+#: inc/Builder/SBI_Feed_Builder.php:1278
+msgid "Reviews Feed"
+msgstr ""
+
+#: inc/admin/actions.php:72
+#: inc/admin/actions.php:73
+#: inc/Builder/SBI_Feed_Builder.php:1291
+#: inc/Builder/SBI_Feed_Builder.php:1363
+msgid "Facebook Feed"
+msgstr ""
+
+#: inc/admin/actions.php:84
+#: inc/admin/actions.php:85
+#: inc/Builder/SBI_Feed_Builder.php:1303
+#: inc/Builder/SBI_Feed_Builder.php:1368
+msgid "Twitter Feed"
+msgstr ""
+
+#: inc/admin/actions.php:96
+#: inc/admin/actions.php:97
+#: inc/Builder/SBI_Feed_Builder.php:1373
+msgid "YouTube Feed"
+msgstr ""
+
+#: inc/admin/actions.php:135
+msgid "Activated"
+msgstr ""
+
+#: inc/admin/actions.php:136
+msgid "Active"
+msgstr ""
+
+#: inc/admin/actions.php:138
+msgid "Inactive"
+msgstr ""
+
+#: inc/admin/actions.php:139
+msgid "Install Addon"
+msgstr ""
+
+#: inc/admin/actions.php:140
+#: inc/admin/addon-functions.php:88
+msgid "Could not install addon. Please download from wpforms.com and install manually."
+msgstr ""
+
+#: inc/admin/actions.php:141
+msgid "Could not install a plugin. Please download from WordPress.org and install manually."
+msgstr ""
+
+#: inc/admin/actions.php:142
+msgid "Searching Addons"
+msgstr ""
+
+#: inc/admin/actions.php:145
+msgid "Close"
+msgstr ""
+
+#: inc/admin/actions.php:147
+msgid "Almost Done"
+msgstr ""
+
+#: inc/admin/actions.php:148
+msgid "Oops!"
+msgstr ""
+
+#: inc/admin/actions.php:149
+msgid "OK"
+msgstr ""
+
+#: inc/admin/actions.php:150
+msgid "Install and Activate"
+msgstr ""
+
+#: inc/admin/actions.php:151
+msgid "needs to be installed and activated to import its forms. Would you like us to install and activate it for you?"
+msgstr ""
+
+#: inc/admin/actions.php:170
+#: inc/class-sb-instagram-posts-manager.php:382
+#: inc/class-sb-instagram-posts-manager.php:398
+#: inc/class-sb-instagram-single.php:157
+msgid "API error %s:"
+msgstr ""
+
+#: inc/admin/actions.php:171
+#: inc/admin/actions.php:181
+#: inc/Builder/SBI_Source.php:136
+#: inc/class-sb-instagram-posts-manager.php:360
+#: inc/class-sb-instagram-posts-manager.php:383
+#: inc/class-sb-instagram-posts-manager.php:387
+#: inc/class-sb-instagram-posts-manager.php:391
+#: inc/class-sb-instagram-posts-manager.php:395
+#: inc/class-sb-instagram-posts-manager.php:399
+#: inc/class-sb-instagram-posts-manager.php:1030
+#: inc/class-sb-instagram-posts-manager.php:1065
+msgid "Directions on how to resolve this issue"
+msgstr ""
+
+#: inc/admin/actions.php:175
+#: inc/Builder/SBI_Source.php:128
+#: inc/class-sb-instagram-posts-manager.php:358
+msgid "Error connecting to %s."
+msgstr ""
+
+#: inc/admin/actions.php:238
+msgid "Instagram Feed was unable to create new database tables."
+msgstr ""
+
+#: inc/admin/actions.php:241
+#: inc/admin/actions.php:248
+msgid "Visit our FAQ page for help"
+msgstr ""
+
+#: inc/admin/actions.php:241
+msgid "Try creating database tables again"
+msgstr ""
+
+#: inc/admin/actions.php:266
+msgid "Action Required Within 7 Days:"
+msgstr ""
+
+#: inc/admin/actions.php:269
+msgid "Or you can simply press the \"Fix Usage\" button to fix this issue."
+msgstr ""
+
+#: inc/admin/actions.php:272
+msgid "Fix Usage"
+msgstr ""
+
+#: inc/admin/actions.php:289
+msgid "All Instagram Data has Been Removed:"
+msgstr ""
+
+#: inc/admin/actions.php:292
+#: inc/Platform_Data.php:355
+msgid "To fix your feeds, reconnect all accounts that were in use on the Settings page."
+msgstr ""
+
+#: inc/admin/actions.php:309
+msgid "Instagram Feed is encountering an error and your feeds may not be updating due to the following reasons:"
+msgstr ""
+
+#: inc/admin/actions.php:340
+msgid "The Instagram Feed Settings page has moved!"
+msgstr ""
+
+#: inc/admin/actions.php:341
+msgid "Click here to go to the new page."
+msgstr ""
+
+#: inc/admin/addon-functions.php:28
+msgid "Plugin deactivated."
+msgstr ""
+
+#: inc/admin/addon-functions.php:30
+msgid "Addon deactivated."
+msgstr ""
+
+#: inc/admin/addon-functions.php:34
+msgid "Could not deactivate the addon. Please deactivate from the Plugins page."
+msgstr ""
+
+#: inc/admin/addon-functions.php:63
+msgid "Plugin activated."
+msgstr ""
+
+#: inc/admin/addon-functions.php:65
+msgid "Addon activated."
+msgstr ""
+
+#: inc/admin/addon-functions.php:70
+msgid "Could not activate addon. Please activate from the Plugins page."
+msgstr ""
+
+#: inc/admin/addon-functions.php:160
+msgid "Addon installed & activated."
+msgstr ""
+
+#: inc/admin/addon-functions.php:168
+msgid "Plugin installed."
+msgstr ""
+
+#: inc/admin/addon-functions.php:168
+msgid "Addon installed."
+msgstr ""
+
+#: inc/admin/blocks/class-sbi-blocks.php:93
+msgid "Add Settings"
+msgstr ""
+
+#: inc/admin/blocks/class-sbi-blocks.php:94
+msgid "Shortcode Settings"
+msgstr ""
+
+#: inc/admin/blocks/class-sbi-blocks.php:95
+msgid "Example"
+msgstr ""
+
+#: inc/admin/blocks/class-sbi-blocks.php:96
+msgid "Apply Changes"
+msgstr ""
+
+#: inc/admin/class-sbi-account-connector.php:88
+#: inc/admin/class-sbi-account-connector.php:98
+#: inc/admin/class-sbi-account-connector.php:164
+msgid "Error connecting to Instagram"
+msgstr ""
+
+#: inc/admin/class-sbi-account-connector.php:89
+msgid "Invalid account ID"
+msgstr ""
+
+#: inc/admin/class-sbi-account-connector.php:99
+msgid "Invalid access token"
+msgstr ""
+
+#: inc/admin/class-sbi-new-user.php:310
+#: inc/admin/class-sbi-notifications.php:608
+msgid "Are you enjoying the Instagram Feed Plugin?"
+msgstr ""
+
+#: inc/admin/class-sbi-new-user.php:423
+#: inc/admin/class-sbi-notifications.php:629
+msgid "Glad to hear you are enjoying it. Would you consider leaving a positive review?"
+msgstr ""
+
+#: inc/admin/class-sbi-new-user.php:425
+#: inc/admin/class-sbi-notifications.php:645
+msgid "Exclusive offer - 60% off!"
+msgstr ""
+
+#: inc/admin/class-sbi-new-user.php:449
+#: inc/admin/class-sbi-notifications.php:630
+msgid "It really helps to support the plugin and help others to discover it too!"
+msgstr ""
+
+#: inc/admin/class-sbi-new-user.php:451
+#: inc/admin/class-sbi-notifications.php:646
+msgid "We don’t run promotions very often, but for a limited time we’re offering 60% Off our Pro version to all users of our free Instagram Feed."
+msgstr ""
+
+#: inc/admin/class-sbi-notifications.php:696
+msgid "Previous message"
+msgstr ""
+
+#: inc/admin/class-sbi-notifications.php:697
+msgid "Next message"
+msgstr ""
+
+#: inc/admin/class-sbi-sitehealth.php:47
+msgid "Instagram Feed Errors"
+msgstr ""
+
+#: inc/admin/class-sbi-sitehealth.php:59
+msgid "Instagram Feed has no critical errors"
+msgstr ""
+
+#: inc/admin/class-sbi-sitehealth.php:65
+msgid "No critical errors have been detected."
+msgstr ""
+
+#: inc/admin/class-sbi-sitehealth.php:75
+msgid "Your Instagram Feed is experiencing an error."
+msgstr ""
+
+#: inc/admin/class-sbi-sitehealth.php:76
+msgid "A critical issue has been detected with your Instagram Feed. Visit the %sInstagram Feed settings page%s to fix the issue."
+msgstr ""
+
+#: inc/admin/SBI_Onboarding_wizard.php:85
+#: inc/admin/SBI_Onboarding_wizard.php:86
+#: inc/Builder/SBI_Feed_Builder.php:726
+msgid "Setup"
+msgstr ""
+
+#: inc/admin/SBI_Onboarding_wizard.php:108
+msgid "Instagram Feed by"
+msgstr ""
+
+#: inc/admin/SBI_Onboarding_wizard.php:115
+msgid "Connected an Instagram account"
+msgstr ""
+
+#: inc/admin/SBI_Onboarding_wizard.php:116
+msgid "Features were set up"
+msgstr ""
+
+#: inc/admin/SBI_Onboarding_wizard.php:117
+msgid "Feed plugins for # installed"
+msgstr ""
+
+#: inc/admin/SBI_Onboarding_wizard.php:123
+msgid "Let's set up your plugin!"
+msgstr ""
+
+#: inc/admin/SBI_Onboarding_wizard.php:124
+msgid "Ready to add a dash of Instagram to your website? Setting up your first feed is quick and easy. We'll get you up and running in no time."
+msgstr ""
+
+#: inc/admin/SBI_Onboarding_wizard.php:125
+msgid "Launch the Setup Wizard"
+msgstr ""
+
+#: inc/admin/SBI_Onboarding_wizard.php:133
+#: inc/Builder/SBI_Feed_Builder.php:972
+msgid "Connect your Instagram Account"
+msgstr ""
+
+#: inc/admin/SBI_Onboarding_wizard.php:134
+msgid "STEP 1"
+msgstr ""
+
+#: inc/admin/SBI_Onboarding_wizard.php:139
+msgid "Configure features"
+msgstr ""
+
+#: inc/admin/SBI_Onboarding_wizard.php:140
+msgid "STEP 2"
+msgstr ""
+
+#: inc/admin/SBI_Onboarding_wizard.php:143
+msgid "Instagram User Feed"
+msgstr ""
+
+#: inc/admin/SBI_Onboarding_wizard.php:144
+msgid "Create and display Instagram feeds from connected accounts"
+msgstr ""
+
+#: inc/admin/SBI_Onboarding_wizard.php:155
+msgid "Downtime Prevention"
+msgstr ""
+
+#: inc/admin/SBI_Onboarding_wizard.php:156
+msgid "Prevent downtime in the event your feed is unable to update"
+msgstr ""
+
+#: inc/admin/SBI_Onboarding_wizard.php:167
+msgid "Image Optimization"
+msgstr ""
+
+#: inc/admin/SBI_Onboarding_wizard.php:168
+msgid "Optimize and locally store feed images to improve search rankings and page speed"
+msgstr ""
+
+#: inc/admin/SBI_Onboarding_wizard.php:177
+#: inc/admin/SBI_Onboarding_wizard.php:228
+msgid "Hashtag Feeds"
+msgstr ""
+
+#: inc/admin/SBI_Onboarding_wizard.php:178
+msgid "Display Instagram posts that have a particular hashtag"
+msgstr ""
+
+#: inc/admin/SBI_Onboarding_wizard.php:184
+#: inc/admin/SBI_Onboarding_wizard.php:232
+msgid "Tagged Feeds"
+msgstr ""
+
+#: inc/admin/SBI_Onboarding_wizard.php:185
+msgid "Show Instagram posts that you have been tagged in"
+msgstr ""
+
+#: inc/admin/SBI_Onboarding_wizard.php:191
+#: inc/admin/SBI_Onboarding_wizard.php:236
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:77
+msgid "Lightbox"
+msgstr ""
+
+#: inc/admin/SBI_Onboarding_wizard.php:192
+msgid "View photos and videos in a popup lightbox directly on your site"
+msgstr ""
+
+#: inc/admin/SBI_Onboarding_wizard.php:202
+msgid "You might also be interested in..."
+msgstr ""
+
+#: inc/admin/SBI_Onboarding_wizard.php:203
+msgid "Enable your favorite features and disable the ones you don't need"
+msgstr ""
+
+#: inc/admin/SBI_Onboarding_wizard.php:209
+msgid "Awesome. You are all set up!"
+msgstr ""
+
+#: inc/admin/SBI_Onboarding_wizard.php:210
+msgid "Here's an overview of everything that is setup"
+msgstr ""
+
+#: inc/admin/SBI_Onboarding_wizard.php:212
+msgid "Upgrade to unlock hashtag feeds, tagged feeds, a popup lightbox and more"
+msgstr ""
+
+#: inc/admin/SBI_Onboarding_wizard.php:213
+msgid "To unlock these features and much more, upgrade to Pro and enter your license key below."
+msgstr ""
+
+#: inc/admin/SBI_Onboarding_wizard.php:215
+msgid "Upgrade to Instagram Feed Pro"
+msgstr ""
+
+#: inc/admin/SBI_Onboarding_wizard.php:219
+msgid "Upgrade today and %ssave 50%% on a Pro License!%s%s (auto-applied at checkout)"
+msgstr ""
+
+#: inc/admin/SBI_Onboarding_wizard.php:240
+msgid "And many more"
+msgstr ""
+
+#: inc/admin/SBI_Onboarding_wizard.php:286
+msgid "Social Feed Collection"
+msgstr ""
+
+#: inc/admin/SBI_Onboarding_wizard.php:287
+msgid "feed plugins for more fresh content"
+msgstr ""
+
+#: inc/admin/SBI_Onboarding_wizard.php:441
+msgid "Customer Reviews Plugin"
+msgstr ""
+
+#: inc/admin/SBI_Onboarding_wizard.php:442
+msgid "Install Reviews Feed to display customer reviews from Google or Yelp and build trust"
+msgstr ""
+
+#: inc/admin/SBI_Onboarding_wizard.php:469
+msgid "All in One SEO"
+msgstr ""
+
+#: inc/admin/SBI_Onboarding_wizard.php:471
+msgid "All in One SEO Toolkit"
+msgstr ""
+
+#: inc/admin/SBI_Onboarding_wizard.php:472
+msgid "Out-of-the-box SEO for WordPress. Features like XML Sitemaps, SEO for custom post types, SEO for blogs, business sites, or ecommerce sites, and much more."
+msgstr ""
+
+#: inc/admin/SBI_Onboarding_wizard.php:484
+msgid "Analytics by MonsterInsights"
+msgstr ""
+
+#: inc/admin/SBI_Onboarding_wizard.php:485
+msgid "Make it “effortless” to connect your WordPress site with Google Analytics, so you can start making data-driven decisions to grow your business."
+msgstr ""
+
+#: inc/admin/SBI_Onboarding_wizard.php:497
+msgid "Forms by WPForms"
+msgstr ""
+
+#: inc/admin/SBI_Onboarding_wizard.php:498
+msgid "Create contact, subscription or payment forms with the most beginner friendly drag & drop WordPress forms plugin"
+msgstr ""
+
+#: inc/admin/SBI_Onboarding_wizard.php:508
+msgid "SeedProd"
+msgstr ""
+
+#: inc/admin/SBI_Onboarding_wizard.php:511
+msgid "A simple and powerful theme builder, landing page builder, \"coming soon\" page builder, and maintenance mode notice builder"
+msgstr ""
+
+#: inc/admin/SBI_Onboarding_wizard.php:523
+msgid "OptinMonster Popup Builder"
+msgstr ""
+
+#: inc/admin/SBI_Onboarding_wizard.php:524
+msgid "Make popups & opt-in forms to build your email newsletter subscribers, generate leads, and close sales"
+msgstr ""
+
+#: inc/admin/SBI_Onboarding_wizard.php:534
+msgid "PushEngage"
+msgstr ""
+
+#: inc/admin/SBI_Onboarding_wizard.php:536
+msgid "PushEngage Notifications"
+msgstr ""
+
+#: inc/admin/SBI_Onboarding_wizard.php:537
+msgid "Create and send high-converting web push notifications to your website visitors."
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:71
+#: inc/Builder/SBI_Feed_Builder.php:72
+#: inc/Builder/SBI_Feed_Builder.php:129
+#: inc/Builder/SBI_Feed_Builder.php:147
+#: inc/Builder/SBI_Feed_Builder.php:1662
+msgid "All Feeds"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:130
+msgid "Create your Feed"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:131
+msgid "Connect your Instagram account and choose a feed type"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:132
+msgid "Customize your feed type"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:133
+msgid "Choose layouts, color schemes, styles and more"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:134
+msgid "Embed your feed"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:135
+msgid "Easily add the feed anywhere on your website"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:149
+#: inc/Builder/SBI_Feed_Builder.php:774
+msgid "Name"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:150
+#: inc/Builder/SBI_Feed_Builder.php:755
+#: inc/Builder/SBI_Feed_Builder.php:783
+msgid "Shortcode"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:151
+msgid "Instances"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:152
+msgid "Actions"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:154
+msgid "Bulk Actions"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:156
+#: inc/Builder/SBI_Feed_Saver.php:309
+#: inc/Builder/SBI_Feed_Saver.php:310
+msgid "Legacy Feeds"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:157
+msgid "What are Legacy Feeds?"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:159
+msgid "Legacy feeds are older feeds from before the version 6 update. You can edit settings for these feeds by using the \"Settings\" button to the right. These settings will apply to all legacy feeds, just like the settings before version 6, and work in the same way that they used to."
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:160
+msgid "You can also create a new feed, which will now have it's own individual settings. Modifying settings for new feeds will not affect other feeds."
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:163
+msgid "Legacy feeds represent shortcodes of old feeds found on your website before <br/>the version 6 update."
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:164
+msgid "To edit Legacy feed settings, you will need to use the \"Settings\" button above <br/>or edit their shortcode settings directly. To delete a legacy feed, simply remove the <br/>shortcode wherever it is being used on your site."
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:166
+msgid "Show Legacy Feeds"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:167
+msgid "Hide Legacy Feeds"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:179
+msgid "You are going to delete this source. To retrieve it, you will need to add it again. Are you sure you want to continue?"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:183
+msgid "You are going to delete this feed. You will lose all the settings. Are you sure you want to continue?"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:186
+msgid "Delete Feeds?"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:187
+msgid "You are going to delete these feeds. You will lose all the settings. Are you sure you want to continue?"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:190
+msgid "Are you Sure?"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:191
+msgid "Are you sure you want to leave this page, all unsaved settings will be lost, please make sure to save before leaving."
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:194
+#: inc/Builder/SBI_Feed_Builder.php:208
+#: inc/Builder/SBI_Feed_Builder.php:804
+msgid "Save and Exit"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:198
+#: inc/Builder/SBI_Feed_Builder.php:212
+msgid "Exit without Saving"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:204
+msgid "You have unsaved changes"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:205
+msgid "If you exit without saving, all the changes you made will be reverted."
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:219
+msgid "Create an Instagram Feed"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:220
+msgid "Select Feed Type"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:221
+msgid "Select one or more feed types. You can add or remove them later."
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:222
+msgid "Update Feed Type"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:223
+msgid "Advanced Feeds"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:224
+#: inc/Builder/SBI_Feed_Builder.php:730
+msgid "Add Another Source Type"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:227
+msgid "Upgrade to the %1$sAll Access Bundle%2$s to get all of our Pro Plugins"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:228
+msgid "Includes all Smash Balloon plugins for one low price: Instagram, Facebook, Twitter, YouTube, and Social Wall"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:229
+msgid "%1$sBonus%2$s Lite users get %3$s50&#37; Off%4$s automatically applied at checkout"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:232
+msgid "Embed Feed"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:233
+msgid "Add the unique shortcode to any page, post, or widget:"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:234
+msgid "Or use the built in WordPress block or widget"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:234
+msgid "Or use the built in WordPress block"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:235
+msgid "Add to a Page"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:236
+msgid "Add to a Widget"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:237
+msgid "Select Page"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:262
+msgid "Upgrade to Pro to get Hashtag Feeds"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:263
+msgid "Display posts from any public hashtag with an Instagram hashtag feed. Great for pulling in user-generated content associated with your brand, running promotional hashtag campaigns, engaging audiences at events, and more."
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:266
+#: inc/Builder/SBI_Feed_Builder.php:289
+#: inc/Builder/SBI_Feed_Builder.php:333
+#: inc/Builder/SBI_Feed_Builder.php:356
+#: inc/Builder/SBI_Feed_Builder.php:380
+#: inc/Builder/SBI_Feed_Builder.php:404
+#: inc/Builder/SBI_Feed_Builder.php:428
+#: inc/Builder/SBI_Feed_Builder.php:452
+msgid "And get much more!"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:268
+#: inc/Builder/SBI_Feed_Builder.php:291
+#: inc/Builder/SBI_Feed_Builder.php:335
+#: inc/Builder/SBI_Feed_Builder.php:358
+#: inc/Builder/SBI_Feed_Builder.php:382
+#: inc/Builder/SBI_Feed_Builder.php:406
+#: inc/Builder/SBI_Feed_Builder.php:430
+#: inc/Builder/SBI_Feed_Builder.php:454
+msgid "Display Hashtag & Tagged feeds"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:269
+#: inc/Builder/SBI_Feed_Builder.php:292
+#: inc/Builder/SBI_Feed_Builder.php:336
+#: inc/Builder/SBI_Feed_Builder.php:359
+#: inc/Builder/SBI_Feed_Builder.php:383
+#: inc/Builder/SBI_Feed_Builder.php:407
+#: inc/Builder/SBI_Feed_Builder.php:431
+#: inc/Builder/SBI_Feed_Builder.php:455
+msgid "Powerful visual moderation"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:270
+#: inc/Builder/SBI_Feed_Builder.php:293
+#: inc/Builder/SBI_Feed_Builder.php:337
+#: inc/Builder/SBI_Feed_Builder.php:360
+#: inc/Builder/SBI_Feed_Builder.php:384
+#: inc/Builder/SBI_Feed_Builder.php:408
+#: inc/Builder/SBI_Feed_Builder.php:432
+#: inc/Builder/SBI_Feed_Builder.php:456
+msgid "Comments and Likes"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:271
+#: inc/Builder/SBI_Feed_Builder.php:294
+#: inc/Builder/SBI_Feed_Builder.php:338
+#: inc/Builder/SBI_Feed_Builder.php:361
+#: inc/Builder/SBI_Feed_Builder.php:385
+#: inc/Builder/SBI_Feed_Builder.php:409
+#: inc/Builder/SBI_Feed_Builder.php:433
+#: inc/Builder/SBI_Feed_Builder.php:457
+#: inc/Builder/SBI_Feed_Builder.php:886
+msgid "Highlight specific posts"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:272
+#: inc/Builder/SBI_Feed_Builder.php:295
+#: inc/Builder/SBI_Feed_Builder.php:339
+#: inc/Builder/SBI_Feed_Builder.php:362
+#: inc/Builder/SBI_Feed_Builder.php:386
+#: inc/Builder/SBI_Feed_Builder.php:410
+#: inc/Builder/SBI_Feed_Builder.php:434
+#: inc/Builder/SBI_Feed_Builder.php:458
+msgid "Multiple layout options"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:273
+#: inc/Builder/SBI_Feed_Builder.php:296
+#: inc/Builder/SBI_Feed_Builder.php:340
+#: inc/Builder/SBI_Feed_Builder.php:363
+#: inc/Builder/SBI_Feed_Builder.php:387
+#: inc/Builder/SBI_Feed_Builder.php:411
+#: inc/Builder/SBI_Feed_Builder.php:435
+#: inc/Builder/SBI_Feed_Builder.php:459
+msgid "Popup photo/video lightbox"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:274
+#: inc/Builder/SBI_Feed_Builder.php:297
+#: inc/Builder/SBI_Feed_Builder.php:341
+#: inc/Builder/SBI_Feed_Builder.php:364
+#: inc/Builder/SBI_Feed_Builder.php:388
+#: inc/Builder/SBI_Feed_Builder.php:412
+#: inc/Builder/SBI_Feed_Builder.php:436
+#: inc/Builder/SBI_Feed_Builder.php:460
+#: inc/Builder/SBI_Feed_Builder.php:884
+msgid "Instagram Stories"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:275
+#: inc/Builder/SBI_Feed_Builder.php:298
+#: inc/Builder/SBI_Feed_Builder.php:342
+#: inc/Builder/SBI_Feed_Builder.php:365
+#: inc/Builder/SBI_Feed_Builder.php:389
+#: inc/Builder/SBI_Feed_Builder.php:413
+#: inc/Builder/SBI_Feed_Builder.php:437
+#: inc/Builder/SBI_Feed_Builder.php:461
+msgid "Shoppable feeds"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:276
+#: inc/Builder/SBI_Feed_Builder.php:299
+#: inc/Builder/SBI_Feed_Builder.php:343
+#: inc/Builder/SBI_Feed_Builder.php:366
+#: inc/Builder/SBI_Feed_Builder.php:390
+#: inc/Builder/SBI_Feed_Builder.php:414
+#: inc/Builder/SBI_Feed_Builder.php:438
+#: inc/Builder/SBI_Feed_Builder.php:462
+msgid "Pro support"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:277
+#: inc/Builder/SBI_Feed_Builder.php:300
+#: inc/Builder/SBI_Feed_Builder.php:344
+#: inc/Builder/SBI_Feed_Builder.php:367
+#: inc/Builder/SBI_Feed_Builder.php:391
+#: inc/Builder/SBI_Feed_Builder.php:415
+#: inc/Builder/SBI_Feed_Builder.php:439
+#: inc/Builder/SBI_Feed_Builder.php:463
+msgid "Post captions"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:278
+#: inc/Builder/SBI_Feed_Builder.php:301
+#: inc/Builder/SBI_Feed_Builder.php:345
+#: inc/Builder/SBI_Feed_Builder.php:368
+#: inc/Builder/SBI_Feed_Builder.php:392
+#: inc/Builder/SBI_Feed_Builder.php:416
+#: inc/Builder/SBI_Feed_Builder.php:440
+#: inc/Builder/SBI_Feed_Builder.php:464
+#: inc/Builder/SBI_Feed_Builder.php:882
+msgid "Combine multiple feed types"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:279
+#: inc/Builder/SBI_Feed_Builder.php:302
+#: inc/Builder/SBI_Feed_Builder.php:346
+#: inc/Builder/SBI_Feed_Builder.php:369
+#: inc/Builder/SBI_Feed_Builder.php:393
+#: inc/Builder/SBI_Feed_Builder.php:417
+#: inc/Builder/SBI_Feed_Builder.php:441
+#: inc/Builder/SBI_Feed_Builder.php:465
+#: inc/Builder/SBI_Feed_Builder.php:888
+msgid "30 day money back guarantee"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:285
+msgid "Upgrade to Pro to get Tagged Posts Feed"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:286
+msgid "Display posts that you've been tagged in by other users allowing you to increase your audience's engagement with your Instagram account."
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:309
+msgid "Combine all your social media channels into one"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:310
+msgid "A dash of Instagram, a sprinkle of Facebook, a spoonful of Twitter, and a dollop of YouTube, all in the same feed."
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:315
+msgid "Upgrade to the All Access Bundle and get:"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:317
+msgid "Instagram Feed Pro"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:318
+msgid "Custom Twitter Feeds Pro"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:319
+msgid "YouTube Feeds Pro"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:320
+msgid "Custom Facebook Feed Pro"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:321
+msgid "All Pro Facebook Extensions"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:322
+msgid "Social Wall Pro"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:329
+msgid "Upgrade to Pro to get Feed Layouts"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:330
+msgid "Choose from one of our built-in layout options; grid, carousel, masonry, and highlight to allow you to showcase your content in any way you want."
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:352
+msgid "Get Stories, Followers and Advanced Header Options"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:353
+msgid "Got stories to tell? We want to help you share them. Display Instagram stories right on your website in a pop-up lightbox to keep your users engaged and on your website for longer."
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:376
+msgid "Display Captions, Likes, and Comments"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:377
+msgid "Upgrade to Pro to display post captions below each post and in the lightbox, which can be crawled by search engines to help boost SEO."
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:400
+msgid "Upgrade to Pro to enable the popup Lightbox"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:401
+msgid "Allow visitors to view your photos and videos in a beautiful full size lightbox, keeping them on your site for longer to discover more of your content."
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:424
+msgid "Get Advanced Moderation and Filters with Pro"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:425
+msgid "Use powerful moderation tools to create feeds of only specific chosen posts, or exclude specific chosen posts. You can also automatically include or exclude posts based on a word or hashtag found in the caption."
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:448
+msgid "Upgrade to Pro to Get Shoppable Feeds"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:449
+msgid "Automatically link Instagram posts to custom URLs of your choosing by adding the URL in the caption, or manually add links to specific pages or products on your site (or other sites) in a quick and easy way."
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:723
+#: inc/Builder/SBI_Tooltip_Wizard.php:132
+msgid "Done"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:725
+msgid "Dashboard"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:727
+msgid "Add New"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:728
+#: inc/Builder/SBI_Feed_Builder.php:986
+msgid "Add Source"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:729
+msgid "Add another Source"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:731
+msgid "Previous"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:732
+msgid "Next"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:733
+msgid "Finish"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:734
+msgid "New"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:735
+msgid "Update"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:736
+msgid "Try the Pro Demo"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:738
+msgid "Back"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:739
+msgid "Back to all feeds"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:740
+msgid "Create Feed"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:742
+msgid "Change"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:743
+msgid "Get Extension"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:745
+msgid "Includes"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:746
+#: inc/Builder/Tabs/SBI_Settings_Tab.php:188
+msgid "Photos"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:747
+msgid "Photo"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:748
+msgid "Apply"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:750
+msgid "Edit"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:751
+msgid "Duplicate"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:752
+msgid "Delete"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:753
+msgid "Remove"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:754
+msgid "Remove Source"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:756
+msgid "Click to view Instances"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:757
+msgid "Used in"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:758
+msgid "place"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:759
+msgid "places"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:760
+msgid "Item"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:761
+msgid "Items"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:763
+msgid "Location"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:764
+msgid "Page"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:765
+msgid "Copied to Clipboard"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:766
+msgid "Feed imported successfully"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:767
+msgid "Failed to import feed"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:768
+msgid "Timeline"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:770
+msgid "Admin"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:771
+msgid "Member"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:773
+#: inc/Builder/SBI_Feed_Builder.php:1509
+msgid "Preview"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:775
+msgid "ID"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:776
+msgid "Token"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:777
+msgid "Confirm"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:779
+msgid "Clear"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:780
+msgid "Clear Feed Cache"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:781
+msgid "Save Changes"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:782
+msgid "Feed Name"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:784
+msgid "General"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:785
+msgid "Feeds"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:786
+msgid "Translation"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:787
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:712
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:825
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:1186
+#: inc/Builder/Tabs/SBI_Settings_Tab.php:53
+#: inc/Builder/Tabs/SBI_Settings_Tab.php:96
+msgid "Advanced"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:788
+msgid "Error:"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:789
+msgid "There was an error when trying to connect to Instagram."
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:790
+msgid "Directions on How to Resolve This Issue"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:791
+msgid "Source Invalid"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:792
+msgid "Encryption Error"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:793
+msgid "Invalid"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:794
+msgid "Reconnect"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:795
+msgid "feed"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:796
+msgid "Source is not used yet"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:797
+msgid "Add Image"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:798
+msgid "Business Account required"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:799
+msgid "Selected Post"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:800
+msgid "Product Link"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:801
+msgid "Add your product URL here"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:802
+msgid "Edit Sources"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:803
+msgid "Moderate your feed"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:805
+msgid "Moderation Mode"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:806
+msgid "Or Enter Post IDs to hide manually"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:807
+#: inc/Builder/Tabs/SBI_Settings_Tab.php:167
+msgid "Add words here to hide any posts containing these words"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:808
+msgid "Filters & Moderation"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:809
+msgid "Top Rated"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:810
+msgid "Most recent"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:811
+msgid "Moderation Mode Preview"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:812
+msgid "Exit Setup"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:817
+msgid "Feed saved successfully"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:821
+msgid "Error saving Feed"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:825
+msgid "Preview updated successfully"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:829
+msgid "Carousel updated successfully"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:833
+msgid "Unknown error occurred"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:837
+msgid "Feed cache cleared"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:841
+msgid "Please select a source for your feed"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:845
+msgid "Comment cache cleared"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:849
+#: inc/Builder/SBI_Feed_Builder.php:900
+msgid "Personal account updated"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:855
+msgid "Installed & Activated"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:856
+msgid "Free"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:857
+msgid "Invalid license key"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:858
+msgid "License activated"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:859
+msgid "License Deactivated"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:862
+msgid "Carousel Layout updated"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:864
+msgid "Get more features with Instagram Feed Pro"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:865
+msgid "Lite users get 50% OFF"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:866
+msgid "Lite users get 50% OFF automatically applied at checkout"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:867
+msgid "Try Demo"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:869
+msgid "Display images and videos in posts"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:870
+msgid "View likes, shares and comments"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:871
+msgid "All Feed Types: Photos, Albums, Events and more"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:872
+msgid "Ability to “Load More” posts"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:874
+msgid "Display Hashtag Feeds"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:875
+msgid "Carousel, Masonry, & Highlight layouts"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:876
+msgid "View posts in a pop-up lightbox"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:877
+msgid "Powerful post filtering and moderation"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:879
+msgid "And Much More!"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:881
+msgid "Create shoppable feeds"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:883
+msgid "Display likes, captions & comments"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:885
+msgid "Play videos in your feed"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:887
+msgid "Display tagged posts"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:889
+msgid "Fast, friendly, and effective support"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:891
+msgid "Show Features"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:892
+msgid "Hide Features"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:895
+msgid "Redirecting to connect.smashballoon.com"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:896
+msgid "You will be redirected to our app so you can connect your account in 5 seconds"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:898
+msgid "Add Avatar and Bio"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:899
+msgid "Update Avatar and Bio"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:913
+msgid "Select one or more sources"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:914
+msgid "Sources are Instagram accounts your feed will display content from"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:915
+msgid "Looks like you have not added any source.<br/>Use “Add Source” to add a new one."
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:916
+msgid "Enter Public Hashtags"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:917
+msgid "Add one or more hashtag separated by comma"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:918
+msgid "Fetch posts that are"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:922
+msgid "Add a source for Timeline"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:923
+msgid "Select or add an account you want to display the timeline for"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:926
+msgid "Add a source for Mentions"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:927
+msgid "Select or add an account you want to display the mentions for"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:932
+msgid ""
+"Due to changes in Instagram’s new API, we can no<br/>\n"
+"\t\t\t\t\tlonger get mentions for personal accounts. To<br/>\n"
+"\t\t\t\t\tenable this for your account, you will need to convert it to<br/>\n"
+"\t\t\t\t\ta Business account. Learn More"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:941
+msgid "Due to Facebook limitations, it's not possible to display photo feeds from a Group, only a Page."
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:943
+msgid "Update Source"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:944
+msgid "Select a source from your connected Facebook Pages and Groups. Or, use \"Add New\" to connect a new one."
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:945
+msgid "Add multiple Facebook Pages or Groups to a feed with our Multifeed extension"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:946
+msgid "Please add a source in order to display a feed. Go to the \"Settings\" tab -> \"Sources\" section -> Click \"Add New\" to connect a source."
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:950
+#: inc/Builder/SBI_Feed_Builder.php:2038
+msgid "User Timeline"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:952
+msgid "Connect an account to show posts for it."
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:956
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:253
+msgid "Hashtag"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:958
+msgid "Add one or more hashtag separated by comma."
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:963
+msgid "Tagged"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:965
+msgid "Connect an account to show tagged posts. This does not give us any permission to manage your Instagram account."
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:973
+msgid "Select Account Type"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:974
+msgid "Connect an Instagram Account"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:975
+msgid "This does not give us permission to manage your Instagram account, it simply allows the plugin to see a list of them and retrieve their public content from the API."
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:976
+msgid "Connect"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:977
+msgid "Already have a API Token and Access Key for your account?"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:978
+msgid "Add Account Manually"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:979
+msgid "Select an Instagram Account"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:980
+msgid "Showing"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:981
+#: inc/Builder/SBI_Feed_Builder.php:1290
+msgid "Facebook"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:982
+msgid "Businesses"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:983
+msgid "Groups"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:984
+msgid "connected to"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:985
+msgid "Add a Source Manually"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:987
+msgid "Source Type"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:988
+#: inc/Builder/SBI_Feed_Builder.php:989
+msgid "Instagram Account ID"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:990
+msgid "Event Access Token"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:991
+msgid "Enter ID"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:992
+msgid "Instagram Access Token"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:993
+msgid "Enter Token"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:994
+msgid "Add Instagram App to your group"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:995
+msgid "To get posts from your group, Instagram requires the \"Smash Balloon Plugin\" app to be added in your group settings. Just follow the directions here:"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:997
+msgid "Go to your group settings page by "
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:998
+msgid "Search for \"Smash Balloon\" and select our app %1$s(see screenshot)%2$s"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:999
+msgid "Click \"Add\" and you are done."
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:1001
+msgid "Account already exists"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:1002
+msgid "The Instagram account you added is already connected as a “Business” account. Would you like to replace it with a “Personal“ account? (Note: Personal accounts cannot be used to display Tagged or Hashtag feeds.)"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:1003
+msgid "Replace with Personal"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:1004
+msgid "For groups you are not an administrator of"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:1005
+msgid "Due to Instagram’s limitations, you need to connect a business account to display a Mentions timeline"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:1006
+msgid "Due to Instagram’s limitations, you need to connect a business account to display a Hashtag feed"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:1007
+msgid "Select \"Personal\" if displaying a regular feed of posts, as this can display feeds from either a Personal or Business account. For displaying a Hashtag or Tagged feed, you must have an Instagram Business account. If needed, you can convert a Personal account into a Business account by following the directions {link}here{link}."
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:1010
+msgid "Add feeds for popular social platforms with <span>our other plugins</span>"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:1012
+msgid "Personal"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:1013
+msgid "Business"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:1014
+msgid "I'm not sure"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:1213
+msgid "Plugin installed & activated"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:1277
+msgid "Reviews"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:1279
+#: inc/Builder/SBI_Feed_Builder.php:1292
+#: inc/Builder/SBI_Feed_Builder.php:1304
+#: inc/Builder/SBI_Feed_Builder.php:1316
+msgid "By Smash Balloon"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:1280
+msgid "To display a Reviews feed, our Reviews plugin is required. </br> Increase conversions and build positive brand trust through Google and Yelp reviews from your customers. Provide social proof needed to turn visitors into customers."
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:1293
+msgid "To display a Facebook feed, our Facebook plugin is required. </br> It provides a clean and beautiful way to add your Facebook posts to your website. Grab your visitors attention and keep them engaged with your site longer."
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:1302
+msgid "Twitter"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:1305
+msgid "Custom Twitter Feeds is a highly customizable way to display tweets from your Twitter account. Promote your latest content and update your site content automatically."
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:1314
+msgid "YouTube"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:1317
+msgid "To display a YouTube feed, our YouTube plugin is required. It provides a simple yet powerful way to display videos from YouTube on your website, Increasing engagement with your channel while keeping visitors on your website."
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:1378
+msgid "Social Wall Plugin"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:1420
+msgid "Legacy Feed Settings"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:1421
+msgid "These settings will impact %1$s legacy feeds on your site. You can learn more about what legacy feeds are and how they differ from new feeds %2$shere%3$s."
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:1423
+msgid "You can now create and customize feeds individually. Click \"Add New\" to get started."
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:1430
+#: inc/Builder/SBI_Feed_Builder.php:1445
+msgid "How you create a feed has changed"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:1431
+#: inc/Builder/SBI_Feed_Builder.php:1446
+msgid "You can now create and customize feeds individually without using shortcode options."
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:1431
+#: inc/Builder/SBI_Feed_Builder.php:1446
+msgid "Click \"Add New\" to get started."
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:1436
+msgid "Your existing feed is here"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:1437
+msgid "You can edit your existing feed from here, and all changes will only apply to this feed."
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:1451
+msgid "Your existing feeds are under \"Legacy\" feeds"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:1452
+msgid "You can edit the settings for any existing \"legacy\" feed (i.e. any feed created prior to this update) here."
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:1452
+msgid "This works just like the old settings page and affects all legacy feeds on your site."
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:1456
+msgid "Existing feeds work as normal"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:1457
+msgid "You don't need to update or change any of your existing feeds. They will continue to work as usual."
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:1457
+msgid "This update only affects how new feeds are created and customized."
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:1477
+msgid "Embedding a Feed"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:1478
+msgid "After you are done customizing the feed, click here to add it to a page or a widget."
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:1483
+#: inc/Builder/SBI_Feed_Builder.php:1529
+#: inc/Builder/Tabs/SBI_Builder_Customizer_Tab.php:28
+msgid "Customize"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:1484
+msgid "Change your feed layout, color scheme, or customize individual feed sections here."
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:1490
+msgid "Update your feed source, filter your posts, or change advanced settings here."
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:1511
+msgid "Embed"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:1512
+msgid "Save"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:1513
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:39
+msgid "Sections"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:1515
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:1052
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:1152
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:1286
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:1345
+msgid "Background"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:1516
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:603
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:953
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:1062
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:1132
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:1174
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:1266
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:1308
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:1356
+msgid "Text"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:1517
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:446
+msgid "Inherit from Theme"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:1518
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:962
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:1020
+msgid "Size"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:1519
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:627
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:974
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:1032
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:1142
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:1276
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:1333
+msgid "Color"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:1520
+msgid "Height"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:1521
+msgid "Placeholder"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:1522
+msgid "Select"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:1523
+msgid "Enter Text"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:1524
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:862
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:1163
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:1297
+msgid "Hover State"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:1525
+msgid "Combine sources from multiple platforms using our Social Wall plugin"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:1533
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:29
+msgid "Feed Layout"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:1534
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:34
+msgid "Color Scheme"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:1535
+#: inc/Builder/SBI_Feed_Builder.php:1714
+#: inc/Builder/SBI_Feed_Builder.php:1828
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:43
+#: inc/class-sb-instagram-feed-locator.php:646
+msgid "Header"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:1536
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:49
+msgid "Posts"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:1537
+msgid "Like Box"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:1538
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:63
+msgid "Load More Button"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:1541
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:101
+msgid "Layout"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:1542
+msgid "List"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:1543
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:107
+msgid "Grid"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:1544
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:119
+msgid "Masonry"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:1545
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:113
+msgid "Carousel"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:1546
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:311
+msgid "Feed Height"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:1547
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:325
+msgid "Number of Posts"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:1548
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:355
+msgid "Columns"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:1549
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:336
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:366
+msgid "Desktop"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:1550
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:389
+msgid "Tablet"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:1551
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:345
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:411
+msgid "Mobile"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:1553
+msgid "Tweak Post Styles"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:1554
+msgid "Change post background, border radius, shadow etc."
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:1558
+msgid "Scheme"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:1559
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:451
+msgid "Light"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:1560
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:456
+msgid "Dark"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:1561
+#: inc/Builder/Tabs/SBI_Builder_Customizer_Tab.php:138
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:461
+msgid "Custom"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:1562
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:471
+msgid "Custom Palette"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:1563
+msgid "Background 2"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:1564
+msgid "Text 2"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:1565
+msgid "Link"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:1567
+msgid "Overrides"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:1568
+msgid "Colors that have been overridden from individual post element settings will not change. To change them, you will have to reset overrides."
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:1569
+msgid "Reset Overrides."
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:1573
+msgid "Upgrade to Pro and make your Instagram Feed Shoppable"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:1574
+msgid "This feature links the post to the one specified in your caption.<br/><br/>Don’t want to add links to the caption? You can add links manually to each post.<br/><br><br>"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:1575
+msgid "Tap “Add” or “Update” on an<br/>image to add/update it’s URL"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:1665
+msgid "Extensions"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:1716
+#: inc/Builder/SBI_Feed_Builder.php:1830
+#: inc/class-sb-instagram-feed-locator.php:656
+msgid "Footer"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:1718
+#: inc/Builder/SBI_Feed_Builder.php:1832
+#: inc/class-sb-instagram-feed-locator.php:651
+msgid "Sidebar"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:1720
+#: inc/Builder/SBI_Feed_Builder.php:1834
+#: inc/class-sb-instagram-feed-locator.php:642
+msgid "Content"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:1926
+#: inc/Builder/SBI_Feed_Builder.php:1927
+msgid "Legacy Feed"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:1926
+#: inc/Builder/SBI_Feed_Builder.php:1927
+msgid "(unknown location)"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:2039
+msgid "Fetch posts from your Instagram profile"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:2082
+msgid "Public Hashtag"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:2083
+msgid "Fetch posts from a public Instagram hashtag"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:2084
+msgid "Hashtag feeds require a connected Instagram business account"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:2090
+msgid "Tagged Posts"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:2091
+msgid "Display posts your Instagram account has been tagged in"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:2092
+msgid "Tagged posts feeds require a connected Instagram business account"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:2099
+msgid "Create a feed with sources from different social platforms"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:2116
+msgid "We’re almost there..."
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:2117
+msgid "Update Personal Account"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:2118
+msgid "Add Instagram Profile Picture and Bio"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:2119
+msgid "Instagram does not provide us access to your profile picture or bio for personal accounts. Would you like to set up a custom profile photo and bio?."
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:2120
+msgid "Bio (140 Characters)"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:2121
+msgid "Add your profile bio here"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:2122
+msgid "Yes, let's do it"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:2123
+msgid "No, maybe later"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Builder.php:2124
+msgid "Upload Profile Picture"
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Saver_Manager.php:295
+msgid "Invalid JSON. Must have brackets \"{}\""
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Saver_Manager.php:600
+msgid "No feed source is included. Cannot upload feed."
+msgstr ""
+
+#: inc/Builder/SBI_Feed_Saver_Manager.php:645
+msgid "Could not import feed. Please try again"
+msgstr ""
+
+#: inc/Builder/SBI_Source.php:90
+msgid "Something went wrong. Please make sure the ID and access token are correct."
+msgstr ""
+
+#: inc/Builder/SBI_Source.php:142
+msgid "Connection Error: %s "
+msgstr ""
+
+#: inc/Builder/SBI_Source.php:373
+msgid "The Instagram account you are logged into is already connected as a \"business\" account. Remove the business account if you'd like to connect as a basic account instead (not recommended)."
+msgstr ""
+
+#: inc/Builder/SBI_Source.php:429
+msgid "Your server could not complete a remote request to Facebook's API. Your host may be blocking access or there may be a problem with your server."
+msgstr ""
+
+#: inc/Builder/SBI_Source.php:440
+#: inc/Builder/SBI_Source.php:513
+msgid "Couldn't find Business Profile"
+msgstr ""
+
+#: inc/Builder/SBI_Source.php:441
+msgid "Uh oh. It looks like this Facebook account is not currently connected to an Instagram Business profile. Please check that you are logged into the %1$sFacebook account%2$s in this browser which is associated with your Instagram Business Profile."
+msgstr ""
+
+#: inc/Builder/SBI_Source.php:514
+msgid "Uh oh. It looks like this Facebook account is not currently connected to an Instagram Business profile. Please check that you are logged into the %1$sFacebook account%2$s in this browser which is associated with your Instagram Business Profile. If you are, in fact, logged-in to the correct account please make sure you have Instagram accounts connected with your Facebook account by following %3$sthis FAQ%4$s"
+msgstr ""
+
+#: inc/Builder/SBI_Tooltip_Wizard.php:127
+msgid "Add a Block"
+msgstr ""
+
+#: inc/Builder/SBI_Tooltip_Wizard.php:129
+msgid "Click the plus button, search for Instagram Feed,<br/> and click the block to embed it."
+msgstr ""
+
+#: inc/Builder/Tabs/SBI_Builder_Customizer_Tab.php:51
+msgid "Inherit"
+msgstr ""
+
+#: inc/Builder/Tabs/SBI_Builder_Customizer_Tab.php:118
+msgid "2 days ago"
+msgstr ""
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:54
+msgid "Images and Videos"
+msgstr ""
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:70
+msgid "Follow Button"
+msgstr ""
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:125
+msgid "Highlight"
+msgstr ""
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:133
+msgid "Carousel Settings"
+msgstr ""
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:160
+msgid "Rows"
+msgstr ""
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:174
+msgid "Loop Type"
+msgstr ""
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:177
+msgid "Rewind"
+msgstr ""
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:178
+msgid "Infinity"
+msgstr ""
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:189
+msgid "Interval Time"
+msgstr ""
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:196
+msgid "Show Navigation Arrows"
+msgstr ""
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:210
+msgid "Show Pagination"
+msgstr ""
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:224
+msgid "Enable Autoplay"
+msgstr ""
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:237
+msgid "HighLight Settings"
+msgstr ""
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:248
+msgid "Type"
+msgstr ""
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:251
+msgid "Pattern"
+msgstr ""
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:252
+msgid "Post ID"
+msgstr ""
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:263
+msgid "Offset"
+msgstr ""
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:273
+msgid "Highlight every"
+msgstr ""
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:279
+msgid "Highlight posts with these IDs"
+msgstr ""
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:289
+msgid "Highlight posts with these hashtags"
+msgstr ""
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:320
+msgid "Padding"
+msgstr ""
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:581
+msgid "Header Size"
+msgstr ""
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:583
+msgid "Small"
+msgstr ""
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:584
+msgid "Medium"
+msgstr ""
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:585
+msgid "Large"
+msgstr ""
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:596
+msgid "Use Custom Avatar"
+msgstr ""
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:597
+msgid "Upload your own custom image to use for the avatar. This is automatically retrieved from Instagram for Business accounts, but is not available for Personal accounts."
+msgstr ""
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:598
+msgid "No Image Added"
+msgstr ""
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:638
+msgid "Primary Color"
+msgstr ""
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:652
+msgid "Secondary Color"
+msgstr ""
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:667
+msgid "Show Bio Text"
+msgstr ""
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:668
+msgid "Use your own custom bio text in the feed header. This is automatically retrieved from Instagram for Business accounts, but it not available for Personal accounts."
+msgstr ""
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:679
+msgid "Add custom bio"
+msgstr ""
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:696
+msgid "Show outside scrollable area"
+msgstr ""
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:715
+msgid "Tweak the header styles and show your follower count with Instagram Feed Pro."
+msgstr ""
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:733
+msgid "Include Stories"
+msgstr ""
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:734
+msgid "You can view active stories by clicking the profile picture in the header. Instagram Business accounts only.<br/><br/>"
+msgstr ""
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:735
+#: inc/Builder/Tabs/SBI_Settings_Tab.php:144
+msgid "Show your active stories from Instagram when your header avatar is clicked. Displays a colored ring around your avatar when a story is available."
+msgstr ""
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:757
+msgid "Change Interval"
+msgstr ""
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:758
+msgid "This is the time a story displays for, before displaying the next one. Videos always change when the video is finished."
+msgstr ""
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:774
+msgid "Show number of followers"
+msgstr ""
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:792
+msgid "Header Style"
+msgstr ""
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:796
+msgid "Standard"
+msgstr ""
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:801
+msgid "Boxed"
+msgstr ""
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:807
+msgid "Centered"
+msgstr ""
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:828
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:1190
+msgid "These properties are available in the PRO version."
+msgstr ""
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:834
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:1088
+msgid "Caption"
+msgstr ""
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:848
+msgid "Like and Comment Summary"
+msgstr ""
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:895
+msgid "Resolution"
+msgstr ""
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:896
+msgid "By default we auto-detect image width and fetch a optimal resolution."
+msgstr ""
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:898
+msgid "Auto-detect (recommended)"
+msgstr ""
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:899
+msgid "Thumbnail (150x150)"
+msgstr ""
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:900
+msgid "Medium (320x320)"
+msgstr ""
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:901
+msgid "Full size (640x640)"
+msgstr ""
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:939
+msgid "Maximum Text Length"
+msgstr ""
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:940
+msgid "Caption will truncate after reaching the length"
+msgstr ""
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:1011
+msgid "Icon"
+msgstr ""
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:1068
+msgid "Information to display"
+msgstr ""
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:1076
+msgid "Username"
+msgstr ""
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:1080
+msgid "Date"
+msgstr ""
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:1084
+msgid "Instagram Icon"
+msgstr ""
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:1092
+msgid "Like/Comment Icons<br/>(Business account only)"
+msgstr ""
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:1208
+msgid "Infinite Scroll"
+msgstr ""
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:1209
+msgid "This will load more posts automatically when the users reach the end of the feed"
+msgstr ""
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:1230
+msgid "Trigger Distance"
+msgstr ""
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:1367
+msgid "Link Color"
+msgstr ""
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:1379
+msgid "Comments"
+msgstr ""
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:1380
+msgid "Display comments for your posts inside the lightbox. Comments are only available for User feeds from Business accounts."
+msgstr ""
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:1395
+msgid "No. of Comments"
+msgstr ""
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:1396
+msgid "Clearing cache will remove all the saved comments in the database"
+msgstr ""
+
+#: inc/Builder/Tabs/SBI_Settings_Tab.php:28
+msgid "Sources"
+msgstr ""
+
+#: inc/Builder/Tabs/SBI_Settings_Tab.php:33
+msgid "Filters and Moderation"
+msgstr ""
+
+#: inc/Builder/Tabs/SBI_Settings_Tab.php:38
+msgid "Sort"
+msgstr ""
+
+#: inc/Builder/Tabs/SBI_Settings_Tab.php:43
+msgid "Shoppable Feed"
+msgstr ""
+
+#: inc/Builder/Tabs/SBI_Settings_Tab.php:73
+#: inc/Builder/Tabs/SBI_Settings_Tab.php:178
+msgid "Show specific types of posts"
+msgstr ""
+
+#: inc/Builder/Tabs/SBI_Settings_Tab.php:78
+msgid "Reels"
+msgstr ""
+
+#: inc/Builder/Tabs/SBI_Settings_Tab.php:98
+msgid "Visually moderate your feed or hide specific posts with Instagram Feed Pro."
+msgstr ""
+
+#: inc/Builder/Tabs/SBI_Settings_Tab.php:122
+msgid "Allow List"
+msgstr ""
+
+#: inc/Builder/Tabs/SBI_Settings_Tab.php:123
+msgid "Hides post by default so you can select the ones you want to show"
+msgstr ""
+
+#: inc/Builder/Tabs/SBI_Settings_Tab.php:126
+msgid "Block List"
+msgstr ""
+
+#: inc/Builder/Tabs/SBI_Settings_Tab.php:127
+msgid "Show all posts by default so you can select the ones you want to hide"
+msgstr ""
+
+#: inc/Builder/Tabs/SBI_Settings_Tab.php:134
+msgid "Filters"
+msgstr ""
+
+#: inc/Builder/Tabs/SBI_Settings_Tab.php:143
+msgid "Only show posts containing"
+msgstr ""
+
+#: inc/Builder/Tabs/SBI_Settings_Tab.php:145
+msgid "Add words here to only show posts containing these words"
+msgstr ""
+
+#: inc/Builder/Tabs/SBI_Settings_Tab.php:165
+msgid "Do not show posts containing"
+msgstr ""
+
+#: inc/Builder/Tabs/SBI_Settings_Tab.php:166
+msgid "Remove any posts containing these text strings, separating multiple strings using commas."
+msgstr ""
+
+#: inc/Builder/Tabs/SBI_Settings_Tab.php:205
+msgid "Feed Videos"
+msgstr ""
+
+#: inc/Builder/Tabs/SBI_Settings_Tab.php:221
+msgid "IGTV Videos"
+msgstr ""
+
+#: inc/Builder/Tabs/SBI_Settings_Tab.php:252
+msgid "Post Offset"
+msgstr ""
+
+#: inc/Builder/Tabs/SBI_Settings_Tab.php:253
+msgid "This will skip the specified number of posts from displaying in the feed"
+msgstr ""
+
+#: inc/Builder/Tabs/SBI_Settings_Tab.php:275
+msgid "Sort Posts by"
+msgstr ""
+
+#: inc/Builder/Tabs/SBI_Settings_Tab.php:281
+msgid "Newest"
+msgstr ""
+
+#: inc/Builder/Tabs/SBI_Settings_Tab.php:288
+msgid "Likes"
+msgstr ""
+
+#: inc/Builder/Tabs/SBI_Settings_Tab.php:292
+msgid "Random"
+msgstr ""
+
+#: inc/Builder/Tabs/SBI_Settings_Tab.php:343
+msgid "Max Concurrent API Requests"
+msgstr ""
+
+#: inc/Builder/Tabs/SBI_Settings_Tab.php:344
+msgid "Change the number of maximum concurrent API requests. Not recommended unless directed by the support team."
+msgstr ""
+
+#: inc/Builder/Tabs/SBI_Settings_Tab.php:349
+msgid "Custom Templates"
+msgstr ""
+
+#: inc/Builder/Tabs/SBI_Settings_Tab.php:350
+msgid "The default HTML for the feed can be replaced with custom templates added to your theme's folder. Enable this setting to use these templates. Custom templates are not used in the feed editor. %sLearn More%s"
+msgstr ""
+
+#: inc/class-sb-instagram-api-connect.php:210
+msgid "An unknown error occurred when trying to connect to Instagram's API."
+msgstr ""
+
+#: inc/class-sb-instagram-connected-account.php:148
+#: inc/class-sb-instagram-connected-account.php:180
+#: inc/class-sb-instagram-post.php:286
+msgid "Error saving edited image."
+msgstr ""
+
+#: inc/class-sb-instagram-connected-account.php:187
+#: inc/class-sb-instagram-post.php:294
+msgid "Error editing image."
+msgstr ""
+
+#: inc/class-sb-instagram-education.php:39
+msgid "Get the Most out of Hashtags"
+msgstr ""
+
+#: inc/class-sb-instagram-education.php:40
+msgid "You can use hashtags on Instagram for so many things; targeted promotions, engaging with your audience, running contests, or just for categorizing posts. Learn more about how you can display Instagram hashtag feeds on your website using the Instagram Feed Pro plugin."
+msgstr ""
+
+#: inc/class-sb-instagram-education.php:45
+msgid "Keep Visitors on Your Site"
+msgstr ""
+
+#: inc/class-sb-instagram-education.php:46
+msgid "You've done the hard work of getting a visitor onto your site, now keep them there by displaying your Instagram content inside a pop-up lightbox, rather than sending your visitors away to Instagram.  Learn more about the Instagram Feed Pro lightbox feature."
+msgstr ""
+
+#: inc/class-sb-instagram-education.php:51
+msgid "Highlight Your Posts and Create Carousels"
+msgstr ""
+
+#: inc/class-sb-instagram-education.php:52
+msgid "Feature specific Instagram posts in your feeds by using the Highlight layout to feature specific posts, either by using their ID or a hashtag in their caption. Also create rotating carousels of your photos and videos to best utilize the space on your site. These layouts and more are available in our Pro version."
+msgstr ""
+
+#: inc/class-sb-instagram-education.php:57
+msgid "Moderate your Feed Content"
+msgstr ""
+
+#: inc/class-sb-instagram-education.php:58
+msgid "Control exactly which posts show up in your feed by using the Visual Moderation Mode feature to pick and choose what to display. Remove specific posts or create a whitelist of approved content using Instagram Feed Pro."
+msgstr ""
+
+#: inc/class-sb-instagram-education.php:66
+msgid "Automated YouTube Live Streaming"
+msgstr ""
+
+#: inc/class-sb-instagram-education.php:67
+msgid "You can automatically feed live YouTube videos to your website using our Feeds For YouTube Pro plugin. It takes all the hassle out of publishing live videos to your site by automating the process."
+msgstr ""
+
+#: inc/class-sb-instagram-education.php:72
+msgid "Display Facebook Pages and Groups"
+msgstr ""
+
+#: inc/class-sb-instagram-education.php:73
+msgid "Have a Facebook Page or Group? Easily embed a feed of posts into your website, delivering fresh content automatically to your site from Facebook. Posts, Photos, Events, Videos, Albums, Reviews, and more!"
+msgstr ""
+
+#: inc/class-sb-instagram-education.php:78
+msgid "Adding Social Proof with Twitter Feeds"
+msgstr ""
+
+#: inc/class-sb-instagram-education.php:79
+msgid "Twitter testimonials are one of the best ways to add verifiable social proof to your website. They add credibility to your brand, product, or service by displaying reviews from real people to your site, helping to convert more visitors into customers. Our free Custom Twitter Feeds plugin makes displaying Tweets on your website a breeze."
+msgstr ""
+
+#: inc/class-sb-instagram-feed-locator.php:575
+msgid "There was an error when trying to create the database tables used to locate feeds."
+msgstr ""
+
+#: inc/class-sb-instagram-feed.php:868
+msgid "Your access token could not be decrypted on this website. Reconnect this account or go to our website to learn how to prevent this."
+msgstr ""
+
+#: inc/class-sb-instagram-feed.php:1277
+msgid "No posts found."
+msgstr ""
+
+#: inc/class-sb-instagram-feed.php:1460
+msgid "Error: No posts found."
+msgstr ""
+
+#: inc/class-sb-instagram-feed.php:1461
+msgid "Make sure this account has posts available on instagram.com."
+msgstr ""
+
+#: inc/class-sb-instagram-feed.php:1462
+#: inc/class-sb-instagram-feed.php:1463
+#: inc/class-sb-instagram-posts-manager.php:1043
+#: inc/class-sb-instagram-settings.php:848
+msgid "Click here to troubleshoot"
+msgstr ""
+
+#: inc/class-sb-instagram-gdpr-integrations.php:191
+msgid "A folder for storing resized images was not successfully created."
+msgstr ""
+
+#: inc/class-sb-instagram-gdpr-integrations.php:194
+msgid "Tables used for storing information about resized images were not successfully created."
+msgstr ""
+
+#: inc/class-sb-instagram-gdpr-integrations.php:197
+msgid "An image editor is not available on your server. Instagram Feed is unable to create local resized images. See %1$sthis FAQ%2$s for more information"
+msgstr ""
+
+#: inc/class-sb-instagram-gdpr-integrations.php:202
+msgid "Retest"
+msgstr ""
+
+#: inc/class-sb-instagram-post.php:192
+#: inc/class-sb-instagram-post.php:528
+#: inc/class-sb-instagram-post.php:538
+msgid "Error inserting post."
+msgstr ""
+
+#: inc/class-sb-instagram-post.php:453
+msgid "Error updating post."
+msgstr ""
+
+#: inc/class-sb-instagram-post.php:528
+msgid "No database ID."
+msgstr ""
+
+#: inc/class-sb-instagram-posts-manager.php:357
+msgid "HTTP Error. Unable to connect to the Instagram API."
+msgstr ""
+
+#: inc/class-sb-instagram-posts-manager.php:357
+#: inc/class-sb-instagram-posts-manager.php:381
+msgid "Feed will not update."
+msgstr ""
+
+#: inc/class-sb-instagram-posts-manager.php:381
+msgid "Error: Access Token is not valid or has expired."
+msgstr ""
+
+#: inc/class-sb-instagram-posts-manager.php:385
+msgid "Error: Hashtag limit of 30 unique hashtags per week has been reached."
+msgstr ""
+
+#: inc/class-sb-instagram-posts-manager.php:386
+msgid "If you need to display more than 30 hashtag feeds on your site, consider connecting an additional business account from a separate Instagram Identity and Facebook page. Connecting an additional Instagram business account from the same Facebook page will not raise the limit."
+msgstr ""
+
+#: inc/class-sb-instagram-posts-manager.php:389
+msgid "Error: Connected account for the user %s does not have permission to use this feed type."
+msgstr ""
+
+#: inc/class-sb-instagram-posts-manager.php:390
+msgid "Try using the big blue button on the \"Configure\" tab to reconnect the account and update its permissions."
+msgstr ""
+
+#: inc/class-sb-instagram-posts-manager.php:393
+msgid "Error: Cannot retrieve posts for this hashtag."
+msgstr ""
+
+#: inc/class-sb-instagram-posts-manager.php:397
+#: inc/Platform_Data.php:316
+#: inc/Platform_Data.php:333
+msgid "There has been a problem with your Instagram Feed."
+msgstr ""
+
+#: inc/class-sb-instagram-posts-manager.php:402
+msgid "An unknown error has occurred."
+msgstr ""
+
+#: inc/class-sb-instagram-posts-manager.php:630
+#: instagram-feed.php:288
+#: instagram-feed.php:310
+msgid "There was an error creating the folder for storing resized images."
+msgstr ""
+
+#: inc/class-sb-instagram-posts-manager.php:1002
+msgid "Instagram Feed related data for the account(s) %s was removed due to permission for the Smash Balloon App on Facebook or Instagram being revoked. <br><br> To prevent the automated data deletion for the account, please reconnect your account within 7 days."
+msgstr ""
+
+#: inc/class-sb-instagram-posts-manager.php:1010
+#: inc/Platform_Data.php:317
+#: inc/Platform_Data.php:334
+msgid "Action Required Within 7 Days"
+msgstr ""
+
+#: inc/class-sb-instagram-posts-manager.php:1011
+#: inc/Platform_Data.php:351
+msgid "An account admin has deauthorized the Smash Balloon app used to power the Instagram Feed plugin."
+msgstr ""
+
+#: inc/class-sb-instagram-posts-manager.php:1012
+msgid "If the Instagram source is not reconnected within 7 days then all Instagram data will be automatically deleted on your website for this account (ID: %s) due to Facebook data privacy rules."
+msgstr ""
+
+#: inc/class-sb-instagram-posts-manager.php:1013
+msgid "<br><br>To prevent the automated data deletion for the source, please reconnect your source within 7 days."
+msgstr ""
+
+#: inc/class-sb-instagram-posts-manager.php:1014
+#: inc/Platform_Data.php:322
+msgid "More Information"
+msgstr ""
+
+#: inc/class-sb-instagram-posts-manager.php:1027
+#: inc/class-sb-instagram-posts-manager.php:1063
+msgid "View Feed and Retry"
+msgstr ""
+
+#: inc/class-sb-instagram-posts-manager.php:1041
+#: inc/class-sb-instagram-settings.php:846
+msgid "Error: Private Instagram Account."
+msgstr ""
+
+#: inc/class-sb-instagram-posts-manager.php:1042
+msgid "It looks like your Instagram account is private. Instagram requires private accounts to be reauthenticated every 60 days. Refresh your account to allow it to continue updating, or %1$smake your Instagram account public%2$s."
+msgstr ""
+
+#: inc/class-sb-instagram-settings.php:684
+msgid "Error: No Feed ID Set."
+msgstr ""
+
+#: inc/class-sb-instagram-settings.php:685
+#: inc/class-sb-instagram-settings.php:692
+msgid "Visit the Instagram Feed settings page to see which feeds have been created and how to embed them."
+msgstr ""
+
+#: inc/class-sb-instagram-settings.php:691
+msgid "Error: Invalid Feed ID."
+msgstr ""
+
+#: inc/class-sb-instagram-settings.php:768
+#: inc/class-sb-instagram-settings.php:799
+msgid "plugin Settings page"
+msgstr ""
+
+#: inc/class-sb-instagram-settings.php:771
+msgid "Error: There is no connected account for the user %s."
+msgstr ""
+
+#: inc/class-sb-instagram-settings.php:772
+msgid "A connected account related to the user is required to display user feeds. Please connect an account for this user on the %s."
+msgstr ""
+
+#: inc/class-sb-instagram-settings.php:802
+msgid "Error: Cannot add access token directly to the shortcode."
+msgstr ""
+
+#: inc/class-sb-instagram-settings.php:803
+msgid "Due to recent Instagram platform changes, it's no longer possible to create a feed by adding the access token to the shortcode. Remove the access token from the shortcode and connect an account on the %s instead."
+msgstr ""
+
+#: inc/class-sb-instagram-settings.php:832
+msgid "Error: No users set."
+msgstr ""
+
+#: inc/class-sb-instagram-settings.php:833
+msgid "Please visit the plugin's settings page to select a user account or add one to the shortcode - user=\"username\"."
+msgstr ""
+
+#: inc/class-sb-instagram-settings.php:847
+msgid "It looks like your Instagram account is private. Instagram requires private accounts to be reauthenticated every 60 days. Refresh your account to allow it to continue updating, or %smake your Instagram account public%s."
+msgstr ""
+
+#: inc/class-sb-instagram-settings.php:944
+msgid "Load More"
+msgstr ""
+
+#: inc/class-sb-instagram-settings.php:989
+#: inc/if-functions.php:855
+#: inc/if-functions.php:1728
+msgid "Follow on Instagram"
+msgstr ""
+
+#. translators: %s - link to a site.
+#: inc/email.php:82
+msgid "This is a courtesy email sent from the Smash Balloon Instagram Feed plugin on your website to alert you when there is an issue with one of your Instagram feeds."
+msgstr ""
+
+#: inc/email.php:89
+msgid "Sent from %s"
+msgstr ""
+
+#: inc/email.php:93
+msgid "%sLog in and disable these emails%s"
+msgstr ""
+
+#: inc/Helpers/SB_Instagram_Tracking.php:340
+msgid "Once Weekly"
+msgstr ""
+
+#: inc/if-functions.php:49
+msgid "Error: No feed with the ID %s found."
+msgstr ""
+
+#: inc/if-functions.php:51
+msgid "Error: No feed found."
+msgstr ""
+
+#: inc/if-functions.php:55
+#: inc/if-functions.php:547
+msgid "This error message is only visible to WordPress admins"
+msgstr ""
+
+#: inc/if-functions.php:57
+msgid "Please go to the Instagram Feed settings page to create a feed."
+msgstr ""
+
+#: inc/if-functions.php:845
+#: inc/if-functions.php:1712
+msgid "Load More..."
+msgstr ""
+
+#: inc/if-functions.php:1432
+msgid "Instagram Feed Critical Issue"
+msgstr ""
+
+#. Translators: %s is the link to the article where more details about critical are listed.
+#: inc/if-functions.php:1437
+msgid "An issue is preventing your Instagram Feeds from updating. %1$sResolve this issue%2$s."
+msgstr ""
+
+#: inc/if-functions.php:1633
+msgid "Instagram Feed Report for %s"
+msgstr ""
+
+#: inc/if-functions.php:1634
+msgid "There's an Issue with an Instagram Feed on Your Website"
+msgstr ""
+
+#: inc/if-functions.php:1635
+msgid "An Instagram feed on your website is currently unable to connect to Instagram to retrieve new posts. Don't worry, your feed is still being displayed using a cached version, but is no longer able to display new posts."
+msgstr ""
+
+#: inc/if-functions.php:1636
+msgid "This is caused by an issue with your Instagram account connecting to the Instagram API. For information on the exact issue and directions on how to resolve it, please visit the %sInstagram Feed settings page%s on your website."
+msgstr ""
+
+#: inc/if-functions.php:1638
+msgid "Your Private Instagram Feed Account Needs to be Reauthenticated"
+msgstr ""
+
+#: inc/if-functions.php:1639
+msgid "Access Token Refresh Needed"
+msgstr ""
+
+#: inc/if-functions.php:1640
+msgid "As your Instagram account is set to be \"Private\", Instagram requires that you reauthenticate your account every 60 days. This a courtesy email to let you know that you need to take action to allow the Instagram feed on your website to continue updating. If you don't refresh your account, then a backup cache will be displayed instead."
+msgstr ""
+
+#: inc/if-functions.php:1641
+msgid "To prevent your account expiring every 60 days %sswitch your account to be public%s. For more information and to refresh your account, click here to visit the %sInstagram Feed settings page%s on your website."
+msgstr ""
+
+#: inc/Platform_Data.php:151
+msgid "An account admin has deauthorized the Smash Balloon app used to power the Instagram Feed plugin. The page was not reconnected within the 7 day limit and all Instagram data was automatically deleted on your website due to Facebook data privacy rules."
+msgstr ""
+
+#: inc/Platform_Data.php:255
+msgid "Your Instagram feed has been not viewed in the last 14 days. Due to Instagram data privacy rules, all data for this feed will be deleted in 7 days time. To avoid automated data deletion, simply view the Instagram feed on your website within the next 7 days."
+msgstr ""
+
+#: inc/Platform_Data.php:292
+msgid "Success! Your Instagram Feeds will continue to work normally."
+msgstr ""
+
+#: inc/Platform_Data.php:318
+#: inc/Platform_Data.php:335
+#: inc/Platform_Data.php:352
+msgid "your website"
+msgstr ""
+
+#: inc/Platform_Data.php:319
+msgid "An account admin has deauthorized the Smash Balloon app used to power the Instagram Feed plugin on %s. If the Instagram source is not reconnected within 7 days then all Instagram data will be automatically deleted on your website  due to Facebook data privacy rules."
+msgstr ""
+
+#: inc/Platform_Data.php:320
+#: inc/Platform_Data.php:354
+msgid "Settings Page"
+msgstr ""
+
+#: inc/Platform_Data.php:321
+msgid "To prevent the automated deletion of data for the account, please reconnect your source for the plugin %s within 7 days."
+msgstr ""
+
+#: inc/Platform_Data.php:336
+msgid "An Instagram feed on %s has been not viewed in the last 14 days. Due to Instagram data privacy rules, all data for this feed will be deleted in 7 days time."
+msgstr ""
+
+#: inc/Platform_Data.php:337
+msgid "To avoid automated data deletion, simply view the Instagram feed on your website within the next 7 days."
+msgstr ""
+
+#: inc/Platform_Data.php:350
+msgid "All Instagram Data has Been Removed"
+msgstr ""
+
+#: inc/Platform_Data.php:353
+msgid "The page was not reconnected within the 7 day limit and all Instagram data was automatically deleted on %s due to Facebook data privacy rules."
+msgstr ""
+
+#: instagram-feed.php:433
+#: instagram-feed.php:460
+msgid "There was an error when trying to create the database tables used for resizing images."
+msgstr ""
+
+#: templates/item.php:34
+#: templates/item.php:45
+msgid "Instagram post %s"
+msgstr ""
+
+#: widget.php:16
+msgid "Display your Instagram feed"
+msgstr ""

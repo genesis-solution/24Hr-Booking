@@ -1,0 +1,6101 @@
+# Copyright (C) 2022 MotoPress
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: hotel-booking-plugin\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/motopress-hotel-booking\n"
+"Last-Translator: \n"
+"Language-Team: Finnish\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2022-11-15T19:41:55+00:00\n"
+"PO-Revision-Date: 2022-11-15 20:26\n"
+"X-Generator: WP-CLI 2.6.0\n"
+"X-Domain: motopress-hotel-booking\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: hotel-booking-plugin\n"
+"X-Crowdin-Project-ID: 463550\n"
+"X-Crowdin-Language: fi\n"
+"X-Crowdin-File: motopress-hotel-booking.pot\n"
+"X-Crowdin-File-ID: 44\n"
+"Language: fi_FI\n"
+
+#. Plugin Name of the plugin
+#. translators: Name of the plugin, do not translate
+msgid "Hotel Booking"
+msgstr "Hotel Booking"
+
+#. Plugin URI of the plugin
+msgid "https://motopress.com/products/hotel-booking/"
+msgstr ""
+
+#. Description of the plugin
+msgid "Manage your hotel booking services. Perfect for hotels, villas, guest houses, hostels, and apartments of all sizes."
+msgstr "Hallitse hotellivarauspalveluitasi. Täydellinen hotelleissa, huviloissa, vierastaloissa, hostelleissa ja kaikenkokoisissa huoneistoissa."
+
+#. Author of the plugin
+msgid "MotoPress"
+msgstr "MotoPress (MotoPress)"
+
+#. Author URI of the plugin
+msgid "https://motopress.com/"
+msgstr ""
+
+msgctxt "Post Status"
+msgid "New"
+msgstr "Uusi"
+
+msgctxt "Post Status"
+msgid "Auto Draft"
+msgstr "Automaattinen luonnos"
+
+msgctxt "Zero price"
+msgid "Free"
+msgstr "Ilmainen"
+
+#. translators: Price per one night. Example: $99 per night
+msgctxt "Price per one night. Example: $99 per night"
+msgid "per night"
+msgstr "per yö"
+
+#. translators: Price for X nights. Example: $99 for 2 nights, $99 for 21 nights
+msgctxt "Price for X nights. Example: $99 for 2 nights, $99 for 21 nights"
+msgid "for %d nights"
+msgid_plural "for %d nights"
+msgstr[0] "per yö"
+msgstr[1] "%d yötä"
+
+#. translators: %s: URL to plugins.php page
+msgid "You are using two instances of Hotel Booking plugin at the same time, please <a href=\"%s\">deactivate one of them</a>."
+msgstr ""
+
+msgid "<a href=\"%s\">Upgrade to Premium</a> to enable this feature."
+msgstr "Ota tämä ominaisuus käyttöön <a href=\"%s\">päivittämällä Premiumiin</a>."
+
+msgid "Nonce verification failed."
+msgstr "Tarkistus epäonnistui."
+
+msgid "The file does not exist."
+msgstr "Tiedostoa ei ole."
+
+msgid "Source ID is missing."
+msgstr "Lähdetunnus puuttuu."
+
+msgid "Error"
+msgstr "Virhe"
+
+msgid "View"
+msgstr "Näytä"
+
+msgid "Delete"
+msgstr "Poista"
+
+msgid "Name"
+msgstr "Nimi"
+
+msgid "Email"
+msgstr "Sähköposti"
+
+msgid "Bookings"
+msgstr "Ajanvaraukset"
+
+msgid "Date Registered"
+msgstr ""
+
+msgid "Last Active"
+msgstr ""
+
+#. translators: Terms are variations for Attributes and bear no relation to the Terms and Conditions Page.
+msgid "Terms"
+msgstr "Ehdot"
+
+msgid "Created on:"
+msgstr "Luotu:"
+
+#. translators: Terms are variations for Attributes and bear no relation to the Terms and Conditions Page.
+msgid "Please add attribute in default language to configure terms."
+msgstr "Määritä termit lisäämällä määrite oletuskieleen."
+
+#. translators: Terms are variations for Attributes and bear no relation to the Terms and Conditions Page.
+msgid "Configure terms"
+msgstr "Ehtojen määrittäminen"
+
+msgid "Reserved Accommodations"
+msgstr "Varatut majoitukset"
+
+msgid "Update Booking"
+msgstr "Päivitä varaus"
+
+msgid "Logs"
+msgstr "Lokit"
+
+msgid "Delete Permanently"
+msgstr "Poista lopullisesti"
+
+msgid "Move to Trash"
+msgstr "Siirrä roskakoriin"
+
+msgid "Create Booking"
+msgstr "Luo varaus"
+
+msgid "Resend Email"
+msgstr ""
+
+msgid "Send a copy of the Approved Booking email to the customer`s email address."
+msgstr ""
+
+msgid "Edit Accommodations"
+msgstr "Edit Majoitukset"
+
+msgid "Date:"
+msgstr "Päivämäärä:"
+
+msgid "Author:"
+msgstr "Kirjoittaja:"
+
+msgid "Auto"
+msgstr "Autom"
+
+msgid "Message:"
+msgstr "Viestisi:"
+
+msgid "Confirmation email has been sent to customer."
+msgstr ""
+
+msgid "Coupon code"
+msgstr "Alennuskoodi"
+
+msgid "Update Payment"
+msgstr "Päivitä maksu"
+
+msgid "Modified on:"
+msgstr "Muokattu:"
+
+msgid "Create Payment"
+msgstr "Luo maksu"
+
+msgid "Season Prices"
+msgstr "Kauden hinnat"
+
+msgid "<code>Please select Accommodation Type and click Create Rate button to continue.</code>"
+msgstr ""
+
+msgid "Update Rate"
+msgstr "Päivitä hinta"
+
+msgid "Active"
+msgstr "Aktiivinen"
+
+msgid "Disabled"
+msgstr "Pois käytöstä"
+
+msgid "Create Rate"
+msgstr "Luo hinta"
+
+msgid "Duplicate Rate"
+msgstr "Kaksinkertainen hinta"
+
+msgid "Generate Accommodations"
+msgstr "Luo majoitukset"
+
+msgid "Attributes"
+msgstr "Määritteet"
+
+msgid "Accommodation Reviews"
+msgstr "Majoitus arvostelut"
+
+msgid "Allow guests to <a href=\"%s\" target=\"_blank\">submit star ratings and reviews</a> evaluating your accommodations."
+msgstr "Anna asiakkaiden <a href=\"%s\" target=\"_blank\">lähettää tähtiluokituksia ja arvosteluja, jotka</a> arvioivat majoitustasi."
+
+msgid "Number of Accommodations:"
+msgstr "Majoitusten määrä:"
+
+msgid "Count of real accommodations of this type in your hotel."
+msgstr ""
+
+msgid "Total Accommodations:"
+msgstr "Yhteensä Majoitukset:"
+
+msgid "Show Accommodations"
+msgstr "Näytä majoitukset"
+
+msgid "Active Accommodations:"
+msgstr "Aktiiviset majoitukset:"
+
+msgid "Add"
+msgstr "Lisää"
+
+msgid "Per adult:"
+msgstr "Per aikuinen:"
+
+msgid "Per child:"
+msgstr "Per lapsi:"
+
+msgid "Per adult: "
+msgstr "Per aikuinen: "
+
+msgid "Per child: "
+msgstr "Per lapsi: "
+
+msgid "Actions"
+msgstr "Toiminnot"
+
+msgid "Default"
+msgstr "Oletus"
+
+msgid "— Select —"
+msgstr "— Valitse —"
+
+msgid "Install & Activate"
+msgstr "Asenna ja aktivoi"
+
+msgid "Add image"
+msgstr ""
+
+msgid "Add gallery"
+msgstr "Lisää kuvagalleria"
+
+msgid "Remove image"
+msgstr ""
+
+msgid "Remove gallery"
+msgstr "Poista kuvagalleria"
+
+msgid "Select all"
+msgstr "Valitse kaikki"
+
+msgid "Unselect all"
+msgstr ""
+
+msgid "Date"
+msgstr "Päivämäärä"
+
+msgid "Author"
+msgstr "Kirjoittaja"
+
+msgid "Edit"
+msgstr "Muokkaa"
+
+msgid "Done"
+msgstr "Valmis"
+
+msgid "All"
+msgstr "Kaikki"
+
+msgid "None"
+msgstr "Ei mitään"
+
+msgid "HH:MM"
+msgstr "HH:MM"
+
+msgid "Recalculate Total Price"
+msgstr "Laske kokonaishinta"
+
+msgid "Nights"
+msgstr "Yöt"
+
+msgid "and more"
+msgstr ""
+
+msgid "Remove"
+msgstr "Poista"
+
+msgid "Add length of stay"
+msgstr "Lisää yöpymisen pituus"
+
+msgid "Adults"
+msgstr "Aikuiset"
+
+msgid "Children"
+msgstr "Lapset"
+
+msgid "Price per night"
+msgstr "Hinta per yö"
+
+msgid "Enable variable pricing"
+msgstr ""
+
+msgid "Add Variation"
+msgstr "Lisää muunnelma"
+
+msgid "Remove variation"
+msgstr ""
+
+msgid "The License Key is required in order to get automatic plugin updates and support. You can manage your License Key in your personal account. <a href='https://motopress.zendesk.com/hc/en-us/articles/202812996-How-to-use-your-personal-MotoPress-account' target='_blank'>Learn more</a>."
+msgstr "Anniskeluoikeudet Avain on tarvittaessa kotona aste jotta panna automaattinen ampua saattaa ajan tasalle ja apu. Voit hallita lisenssiavaintasi henkilökohtaisella tililläsi. <a href='https://motopress.zendesk.com/hc/en-us/articles/202812996-How-to-use-your-personal-MotoPress-account' target='_blank'>Lue lisää</a>."
+
+msgid "License Key"
+msgstr "Lisenssiavain"
+
+msgid "Status"
+msgstr "Tila"
+
+msgid "Inactive"
+msgstr "Pois käytöstä"
+
+msgid "Valid until"
+msgstr "Voimassa"
+
+msgid "Valid (Lifetime)"
+msgstr "Voimassa oleva (elinikäinen)"
+
+msgid "Expired"
+msgstr "Päättynyt"
+
+msgid "Invalid"
+msgstr "Virheellinen"
+
+msgid "Your License Key does not match the installed plugin. <a href='https://motopress.zendesk.com/hc/en-us/articles/202957243-What-to-do-if-the-license-key-doesn-t-correspond-with-the-plugin-license' target='_blank'>How to fix this.</a>"
+msgstr "Lisenssiavaimesi ei vastaa asennettua lisäosaa tai lisäosan versiota. <a href='https://motopress.zendesk.com/hc/en-us/articles/202957243-What-to-do-if-the-license-key-doesn-t-correspond-with-the-plugin-license' target='_blank'>Kuinka korjata.</a>"
+
+msgid "Product ID is not valid"
+msgstr "Tuotetunnus ei kelpaa"
+
+msgid "Action"
+msgstr "Toiminta"
+
+msgid "Activate License"
+msgstr "Aktivoi lisenssi"
+
+msgid "Deactivate License"
+msgstr "Poista lisenssi käytöstä"
+
+msgid "Renew License"
+msgstr "Uudista lisenssi"
+
+msgid "Attributes let you define extra accommodation data, such as location or type. You can use these attributes in the search availability form as advanced search filters."
+msgstr "Määritteiden avulla voit määrittää ylimääräisiä majoitustietoja, kuten sijaintia tai tyyppiä. Voit käyttää näitä määritteitä haun käytettävyyslomakkeessa tarkennettuina hakusuodattimina."
+
+msgid "This attribute refers to non-unique taxonomy - %1$s - which was already registered with attribute %2$s."
+msgstr "Tämä määrite viittaa ei-yksilölliseen taksonomiaan %1$s - joka on jo rekisteröity määritteellä %2$s."
+
+#. translators: Terms are variations for Attributes and bear no relation to the Terms and Conditions Page.
+msgid "You cannot manage terms of trashed attributes."
+msgstr "Roskakorimääritteiden ehtoja ei voi hallita."
+
+msgid "New Booking"
+msgstr "Uusi varaus"
+
+msgid "ID"
+msgstr "TUNNUS"
+
+msgid "Check-in / Check-out"
+msgstr ""
+
+msgid "Guests"
+msgstr "Vieraat"
+
+msgid "Customer Info"
+msgstr "Asiakkaan tiedot"
+
+msgid "Price"
+msgstr "Hinta"
+
+msgid "Accommodation"
+msgstr "Majoitus"
+
+msgid "Booking #%s"
+msgstr "Varaus #%s"
+
+msgid "Expire %s"
+msgstr "Päättyminen %s"
+
+msgid "Adults: "
+msgstr "Aikuiset: "
+
+msgid "Children: "
+msgstr "Alakategoria: "
+
+msgid "%s night"
+msgid_plural "%s nights"
+msgstr[0] "%s yö"
+msgstr[1] "%s yötä"
+
+msgid "Summary: %s."
+msgstr "Yhteenveto: %s."
+
+msgid "Paid: %s"
+msgstr "Maksettu: %s"
+
+msgid "Set to %s"
+msgstr "Aseta #%s"
+
+msgid "Booking status changed."
+msgid_plural "%s booking statuses changed."
+msgstr[0] "Varauksen tila muuttui."
+msgstr[1] "%s varaustiloja on muutettu."
+
+msgid "All accommodation types"
+msgstr "Kaikki majoitustyypit"
+
+#. translators: The number of imported bookings: "Imported <span>(11)</span>"
+msgid "Imported %s"
+msgstr "Tuotu %s"
+
+msgid "Customer"
+msgstr "Asiakas"
+
+msgid "Amount"
+msgstr "Summa"
+
+msgid "Booking"
+msgstr "Varaus"
+
+msgid "Gateway"
+msgstr "Yhdyskäytävä"
+
+msgid "Transaction ID"
+msgstr "Tapahtuman ID"
+
+msgid "Created/Modified Date"
+msgstr "Luomispäivä"
+
+msgid "Payment #%s"
+msgstr "Maksu #%s"
+
+msgid "Created on: "
+msgstr "Luotu: "
+
+msgid "Modified on: "
+msgstr "Muokattu: "
+
+msgid "Rates are used to offer different prices of the same accommodation type depending on extra conditions. E.g. Double room with breakfast included; double room with no breakfast. Guests will choose the preferable rate when submitting a booking request."
+msgstr ""
+
+msgid "Accommodation Type"
+msgstr "Majoitustyyppi"
+
+msgid "Season &#8212; Price"
+msgstr "Sesonki &#8212; Hinta"
+
+msgid "Duplicate"
+msgstr "Monista"
+
+msgid "Rate was duplicated."
+msgstr "Hinnasto kopioitu."
+
+msgid "These are real accommodations like rooms, apartments, houses, villas, beds (for hostels) etc."
+msgstr ""
+
+msgid "All Accommodation Types"
+msgstr "Kaikki majoituskohteet"
+
+msgid "These are not physical accommodations, but their types. E.g. standard double room. To specify the real number of existing accommodations, you'll need to use Generate Accommodations menu."
+msgstr ""
+
+msgid "Capacity"
+msgstr "Kapasiteetti"
+
+msgid "Bed Type"
+msgstr "Sängyn tyyppi"
+
+msgid "Accommodations"
+msgstr "Majoituskohteet"
+
+msgid "Total:"
+msgstr "Yhteensä:"
+
+msgid "Adults:"
+msgstr "Aikuiset:"
+
+msgid "Children:"
+msgstr "Lapset:"
+
+msgid "Size:"
+msgstr "Koko:"
+
+msgid "Active:"
+msgstr "Aktiivinen:"
+
+msgid "Seasons are real periods of time, dates or days that come with different prices for accommodations. E.g. Winter 2018 ($120 per night), Christmas ($150 per night)."
+msgstr ""
+
+msgid "Start"
+msgstr "Alku"
+
+msgid "End"
+msgstr "Loppu"
+
+msgid "Days"
+msgstr "Päivää"
+
+msgid "Services are extra offers that you can sell or give for free. E.g. Thai massage, transfer, babysitting. Guests can pre-order them when placing a booking."
+msgstr "Palvelut ovat ylimääräisiä tarjouksia, joita voit myydä tai antaa ilmaiseksi. Esimerkiksi thai-hieronta, siirto, lastenhoito. Asiakkaat voivat tilata ne etukäteen varausta tehdessään."
+
+msgid "Periodicity"
+msgstr "Jaksollisuus"
+
+msgid "Charge"
+msgstr "Lasku"
+
+msgid "Per Day"
+msgstr "Per päivä"
+
+msgid "Guest Choice"
+msgstr "Asiakkaiden valinta"
+
+msgid "Once"
+msgstr "Kerran"
+
+msgid "Per Guest"
+msgstr "Vieras"
+
+msgid "Per Accommodation"
+msgstr "Per majoituskohde"
+
+msgid "These are accommodation amenities, generally free ones. E.g. air-conditioning, wifi."
+msgstr ""
+
+msgid "Booking rules saved."
+msgstr "Varauksen säännöt päivitetty."
+
+msgid "Booking Rules"
+msgstr "Varauksen säännöt"
+
+msgid "Save Changes"
+msgstr "Tallenna muutokset"
+
+msgid "Check-in days"
+msgstr "Check-in päivät"
+
+msgid "Guests can check in any day."
+msgstr ""
+
+msgid "Add rule"
+msgstr "Lisää sääntö"
+
+msgid "Seasons"
+msgstr "Sarjakaudet"
+
+msgid "Check-out days"
+msgstr "Check-out päivät"
+
+msgid "Guests can check out any day."
+msgstr ""
+
+msgid "Minimum stay"
+msgstr "Minimi yöpymisen pituus"
+
+msgid "There are no minimum stay rules."
+msgstr ""
+
+msgid "nights"
+msgstr "yötä"
+
+msgid "Maximum stay"
+msgstr "Maksimi yöpymisen pituus"
+
+msgid "There are no maximum stay rules."
+msgstr ""
+
+msgid "Block accommodation"
+msgstr ""
+
+msgid "There are no blocking accommodation rules."
+msgstr ""
+
+msgid "From"
+msgstr "Lähettäjä"
+
+msgid "Till"
+msgstr "Asti"
+
+msgid "Restriction"
+msgstr "Rajoitus"
+
+msgid "Not check-in rule marks the date as unavailable for check-in."
+msgstr ""
+
+msgid "Not check-out rule marks the date as unavailable for check-out."
+msgstr ""
+
+msgid "Not stay-in rule displays the date as blocked. This date is unavailable for check-out and check-in on the next date."
+msgstr ""
+
+msgid "Not stay-in with Not check-out rules completely block the selected date, additionally displaying the previous date as unavailable for check-in."
+msgstr ""
+
+msgid "Not check-in"
+msgstr "Ei check-in"
+
+msgid "Not check-out"
+msgstr "Ei check-out"
+
+msgid "Not stay-in"
+msgstr ""
+
+msgid "Comment"
+msgstr "Kommentti"
+
+msgid "Minimum advance reservation"
+msgstr ""
+
+msgid "There are no minimum advance reservation rules."
+msgstr ""
+
+msgid "Maximum advance reservation"
+msgstr ""
+
+msgid "There are no maximum advance reservation rules."
+msgstr ""
+
+msgid "Booking buffer"
+msgstr ""
+
+msgid "There are no booking buffer rules."
+msgstr ""
+
+msgid "Booking Calendar"
+msgstr "Varauskalenteri"
+
+msgid "Calendar"
+msgstr "Kalenteri"
+
+msgid "Add New Booking"
+msgstr "Lisää uusi varaus"
+
+msgid "Clear Search Results"
+msgstr "Pyyhi hakutulokset"
+
+msgid "Note: booking rules are disabled in the plugin settings and are not taken into account."
+msgstr ""
+
+msgid "Unable to create booking. Please try again."
+msgstr "Varaus ei onnistu. Yritä uudelleen."
+
+msgid "Booking is blocked due to maintenance reason. Please try again later."
+msgstr "Varaus on estetty huoltosyistä. Yritä uudelleen myöhemmin."
+
+msgid "There are no accommodations selected for reservation."
+msgstr "Majoituskohteita ei ole valittu."
+
+msgid "Selected accommodations are not valid."
+msgstr "Valittu majoituskohde ei ole validi."
+
+msgid "Accommodation Type is not valid."
+msgstr "Majoituskohteen tyyppi ei ole validi."
+
+msgid "Rate is not valid."
+msgstr "Hinnasto ei ole validi."
+
+msgid "Adults number is not valid."
+msgstr "Aikuisten määrä ei ole validi."
+
+msgid "Children number is not valid."
+msgstr "Lasten määrä ei ole validi."
+
+msgid "The total number of guests is not valid."
+msgstr "Vieraiden kokonaismäärä ei kelpaa."
+
+msgid "Selected dates do not meet booking rules for type %s"
+msgstr "Valitut päivämäärät eivät täytä tyypin %s varaussääntöjä"
+
+msgid "Accommodations are not available."
+msgstr "Majoituskohteet eivät ole saatavilla."
+
+msgid "There are no rates for requested dates."
+msgstr "Ei ole hintoja pyydetyille päivämäärille."
+
+msgid "Search Results"
+msgstr "Hakutulokset"
+
+msgid "— Any —"
+msgstr "— Kaikki —"
+
+msgid "Search parameters are not set."
+msgstr "Hakuparametreja ei ole asetettu."
+
+msgid "Check-in date is not valid."
+msgstr "Check-in päivämäärä ei ole valittavissa."
+
+msgid "Check-in date cannot be earlier than today."
+msgstr "Check-in päivä ei voi olla aikaisimmin kuin tänään."
+
+msgid "Check-out date is not valid."
+msgstr "Check-out päivä ei ole validi."
+
+msgid "Nothing found. Please try again with different search parameters."
+msgstr "Mitään ei löytynyt. Kokeile uudestaan eri hakusanoilla."
+
+msgid "Sorry, you are not allowed to access this page."
+msgstr ""
+
+msgid "User ID"
+msgstr ""
+
+msgid "Username"
+msgstr ""
+
+msgid "First Name"
+msgstr "Etunimi"
+
+msgid "Last Name"
+msgstr "Sukunimi"
+
+msgid "Phone"
+msgstr "Puhelin"
+
+msgid "Address"
+msgstr "Osoite"
+
+msgid "State / County"
+msgstr "Lääni / alue"
+
+msgid "Country"
+msgstr "Maa"
+
+msgid "City"
+msgstr "Kaupunki"
+
+msgid "Postcode"
+msgstr "Postinumero"
+
+msgid "Customer data updated."
+msgstr ""
+
+msgid "User account updated."
+msgstr ""
+
+msgid "Edit User Profile"
+msgstr ""
+
+msgid "Update"
+msgstr "Päivitä"
+
+msgid "Customers"
+msgstr ""
+
+msgid "The booking is not set."
+msgstr "Varausta ei ole asetettu."
+
+msgid "The booking not found."
+msgstr "Varausta ei löydy."
+
+msgid "Edit Booking #%d"
+msgstr "Muokkaa varausta #%d"
+
+msgid "Cancel"
+msgstr "Peruuta"
+
+msgid "Back"
+msgstr "Takaisin"
+
+msgid "Edit Booking"
+msgstr "Muokkaa ajanvarausta"
+
+msgid "You cannot edit the imported booking. Please update the source booking and resync your calendars."
+msgstr "Tuotua varausta ei voi muokata. Päivitä lähdevaraus ja synkronoi kalenterisi uudelleen."
+
+msgid "Request does not pass security verification. Please refresh the page and try one more time."
+msgstr "Pyyntö ei läpäise suojausvahvistusta. Päivitä sivu ja kokeile vielä kerran."
+
+msgid "Check-in date is not set."
+msgstr "Sisäänkirjautumispäivää ei ole määritetty."
+
+msgid "Check-out date is not set."
+msgstr "Uloskirjautumispäivää ei ole määritetty."
+
+msgid "Unable to update booking. Please try again."
+msgstr "Varausta ei voi päivittää. Yritä uudelleen."
+
+msgid "Booking was edited."
+msgstr "Varausta on muokattu."
+
+msgid "Available"
+msgstr "Saatavilla"
+
+msgid "Replace"
+msgstr "Korvaa"
+
+msgid "— Add new —"
+msgstr "— Lisää uusi —"
+
+msgid "Extensions"
+msgstr "Laajennukset"
+
+msgid "Extend the functionality of Hotel Booking plugin with the number of helpful addons for your custom purposes."
+msgstr "Laajenna Hotel Booking -laajennuksen toimintoja hyödyllisillä lisäillä mukautettuihin tarkoituksiin."
+
+msgid "Get this Extension"
+msgstr "Hanki tämä laajennus"
+
+msgid "No extensions found."
+msgstr "Laajennuksia ei löytynyt."
+
+msgid "Abort Process"
+msgstr "Keskeytä tapahtuma"
+
+msgid "Aborting..."
+msgstr "Keskeytetään..."
+
+msgid "Import Calendar"
+msgstr ""
+
+msgid "Accommodation: %s"
+msgstr "Majoitus: %s"
+
+msgid "Accommodation Type: %s"
+msgstr "Majoituskohteen tyyppi: %s"
+
+msgid "Please be patient while the calendars are imported. You will be notified via this page when the process is completed."
+msgstr ""
+
+msgid "Accommodation updated."
+msgstr "Salasana päivitetty."
+
+msgid "This calendar has already been imported for another accommodation."
+msgstr "Tämä kalenteri on jo tuotu toiseen majoitukseen."
+
+msgid "Sync, Import and Export Calendars"
+msgstr ""
+
+#. translators: %s - room name. Example: "Comfort Triple 1"
+msgid "Edit External Calendars of \"%s\""
+msgstr ""
+
+msgid "Sync All External Calendars"
+msgstr ""
+
+msgid "Sync your bookings across all online channels like Booking.com, TripAdvisor, Airbnb etc. via iCalendar file format."
+msgstr ""
+
+msgid "Calendar URL"
+msgstr ""
+
+msgid "Add New Calendar"
+msgstr ""
+
+msgid "Sync Calendars"
+msgstr ""
+
+msgid "Delete All Logs"
+msgstr ""
+
+msgid "Deleting..."
+msgstr "Poistetaan…"
+
+msgid "%d item"
+msgstr "%d kohde"
+
+msgid "%d items"
+msgstr "%d kohdetta"
+
+msgid "Calendars Synchronization Status"
+msgstr "Kalenterien synkronoinnin tila"
+
+msgid "Here you can see synchronization status of your external calendars."
+msgstr "Tässä näet ulkoisten kalentereiden synkronoinnin tilan."
+
+msgid "Calendars Sync Status"
+msgstr "Kalenterien synkronoinnin tila"
+
+msgid "Display calendars synchronization status."
+msgstr "Näytä kalenterien synkronoinnin tila."
+
+msgid "Language Guide"
+msgstr "Muu kieli"
+
+msgid "Default language"
+msgstr "Oletuskieli"
+
+msgid "This plugin will display all system messages, labels, buttons in the language set in <em>General > Settings > Site Language</em>. If the plugin is not available in your language, you may <a href=\"%s\">contribute your translation</a>."
+msgstr "Tämä plugin näyttää kaikki järjestelmäviestit, tarrat, painikkeet kieli asetettu <em>Yleiset ] Asetukset , Sivuston kieli</em>. Jos laajennus ei ole käytettävissä omalla <a href=\"%s\">kielelläsi,</a>voit osallistua käännökseen ."
+
+msgid "Custom translations and edits"
+msgstr "Mukautetut käännökset ja muokkaukset"
+
+msgid "You may customize plugin translation by editing the needed texts or adding your translation following these steps:"
+msgstr "Voit mukauttaa liitännäisten kääntämistä muokkaamalla tarvittavia tekstejä tai lisäämällä käännöksen seuraavasti:"
+
+msgid "Take the source file for your translations %s or needed translated locale."
+msgstr "Ota lähdetiedosto käännöksiisi %s tai tarvitset käännettyä maa-asetustoa."
+
+msgid "Translate texts with any translation program like Poedit, Loco, Pootle etc."
+msgstr "Käännä tekstejä tahansa käännös ohjelma, kuten Poedit, Loco, Pootle jne."
+
+msgid "Put created .mo file with your translations into the folder %s. Where {lang} is ISO-639 language code and {country} is ISO-3166 country code. Example: Brazilian Portuguese file would be called motopress-hotel-booking-pt_BR.mo."
+msgstr "Aseta luotu .mo-tiedosto käännöksin kansioon %s. Jossa {lang} on ISO-639-kielikoodi ja {maa} iso-3166-maakoodi. Esimerkki: Brasilian portugalilainen tiedosto olisi nimeltään motopress-hotel-booking-pt_BR.mo."
+
+msgid "Multilingual content"
+msgstr "Monikielinen sisältö"
+
+msgid "If your site is multilingual, you may use additional plugins to translate your added content into multiple languages allowing the site visitors to switch them."
+msgstr "Jos sivustosi on monikielinen, voit käyttää lisäosia kääntääksesi lisäsisältösi useille kielille, jolloin sivuston käyttäjät voivat vaihtaa niitä."
+
+msgid "Language"
+msgstr "Äidinkieli"
+
+msgid "Reports"
+msgstr "Raportit"
+
+msgid "Export"
+msgstr "Vie"
+
+msgid "All Statuses"
+msgstr "Kaikki tilat"
+
+msgid "Booking dates between"
+msgstr "Varauspäivät välillä"
+
+msgid "Check-in date between"
+msgstr "Sisäänkirjautumispäivä"
+
+msgid "Check-out date between"
+msgstr "Uloskirjautumispäivä"
+
+msgid "In-house between"
+msgstr "Talon sisällä"
+
+msgid "Date of reservation between"
+msgstr "Varauspäivä"
+
+msgid "Export Bookings"
+msgstr "Vie varaukset"
+
+msgid "Choose start date"
+msgstr "Valitse aloituspäivä"
+
+msgid "Choose end date"
+msgstr "Valitse päättymispäivä"
+
+msgid "Select columns to export"
+msgstr "Valitse vietävät sarakkeet"
+
+msgid "Generate CSV"
+msgstr "Luo CSV"
+
+msgid "Number of accommodations"
+msgstr "Majoitusten lukumäärä"
+
+msgid "Title"
+msgstr "Otsikko"
+
+msgid "Leave empty to use accommodation type title."
+msgstr "Jätä tyhjäksi käyttää majoitustyypin otsikkoa."
+
+msgid "Generate"
+msgstr "Kehitä"
+
+msgid "Accommodation generated."
+msgid_plural "%s accommodations generated."
+msgstr[0] "Majoitus syntyy."
+msgstr[1] "%s majoitus on luotu."
+
+msgid "General"
+msgstr "Yleiset"
+
+msgid "Pages"
+msgstr "Sivut"
+
+msgid "Search Results Page"
+msgstr "Hakutulosten sivu"
+
+msgid "Select page to display search results. Use search results shortcode on this page."
+msgstr "Valitse sivu, jos haluat näyttää hakutulokset. Käytä hakutulosten lyhytkoodi tällä sivulla."
+
+msgid "Checkout Page"
+msgstr "Kassasivu"
+
+msgid "Select page user will be redirected to complete booking."
+msgstr "Valitse sivun käyttäjä ohjataan varauksen viimeistelemiseksi."
+
+msgid "Terms & Conditions"
+msgstr "Säännöt ja ehdot"
+
+msgid "If you define a \"Terms\" page the customer will be asked if they accept them when checking out."
+msgstr "Jos määrität Ehdot-sivun, asiakkaalta kysytään, hyväksyvätkö he ne uloskirjautumisen yhteydessä."
+
+msgid "Open the Terms & Conditions page in a new window"
+msgstr ""
+
+msgid "By enabling this option you can avoid errors related to displaying your terms & conditions inline for website pages created in page builders."
+msgstr ""
+
+msgid "My Account Page"
+msgstr ""
+
+msgid "Select a page to display user account. Use the customer account shortcode on this page."
+msgstr ""
+
+msgid "Misc"
+msgstr "Sekalaiset"
+
+msgid "Square Units"
+msgstr "Neliön muotoiset yksiköt"
+
+msgid "Currency"
+msgstr "Valuutta"
+
+msgid "Currency Position"
+msgstr "Valuuttasymbolin paikka"
+
+msgid "Datepicker Date Format"
+msgstr "Datepicker-päivämäärän muoto"
+
+msgid "Check-out Time"
+msgstr "Uloskuittaamisaika"
+
+msgid "Check-in Time"
+msgstr "Sisäänkirjautumisaika"
+
+msgid "Bed Types"
+msgstr "Vuode tyypit"
+
+msgid "Type"
+msgstr "Tyyppi"
+
+msgid "Add Bed Type"
+msgstr "Lisää vuodetyyppi"
+
+msgid "Show Lowest Price for"
+msgstr "Näytä Alin hinta"
+
+msgid "days"
+msgstr "päivää"
+
+msgid "Lowest price of accommodation for selected number of days if check-in and check-out dates are not set. Example: set 0 to display today's lowest price, set 7 to display the lowest price for the next week."
+msgstr "Majoituksen alin hinta valituille päivien määrälle, jos sisäänkirjautumis- ja uloskirjautumispäiviä ei ole määritetty. Esimerkki: aseta 0 näyttämään tämän päivän alin hinta, aseta 7 näyttämään alin hinta ensi viikolla."
+
+msgid "Enable search form to recommend the best set of accommodations according to a number of guests."
+msgstr "Ota hakulomake käyttöön, jotta voit suositella parasta majoitusjoukkoa useiden vieraiden mukaan."
+
+msgid "Enable the use of coupons."
+msgstr "Ota käyttöön kuponkeja."
+
+msgid "Text on Checkout"
+msgstr "Teksti kassalla"
+
+msgid "This text will appear on the checkout page."
+msgstr "Tämä teksti näkyy kassalla."
+
+msgid "Disable Booking"
+msgstr "Poista varaus käytöstä"
+
+msgid "Hide reservation forms and buttons"
+msgstr "Piilota varauslomakkeet ja -painikkeet"
+
+msgid "Text instead of reservation form while booking is disabled"
+msgstr "Teksti varauslomakkeen sijaan, kun varaus on poistettu käytöstä"
+
+msgid "Booking Confirmation"
+msgstr "Ajavarauksen vahvistus"
+
+msgid "Confirmation Mode"
+msgstr "Vahvistustila"
+
+msgid "By customer via email"
+msgstr "Asiakkaan kautta sähköpostitse"
+
+msgid "By admin manually"
+msgstr "Tekijä admin manuaalisesti"
+
+msgid "Confirmation upon payment"
+msgstr "Vahvistus maksun yhteydessä"
+
+msgid "Booking Confirmed Page"
+msgstr "Varaus vahvistettu sivu"
+
+msgid "Page user will be redirected to once the booking is confirmed via email or by admin."
+msgstr "Sivun käyttäjä ohjataan, kun varaus on vahvistettu sähköpostitse tai ylläpitäjä."
+
+msgid "Approval Time for User"
+msgstr "Käyttäjän hyväksymisaika"
+
+msgid "Period of time in minutes the user is given to confirm booking via email. Unconfirmed bookings become Abandoned and accommodation status changes to Available."
+msgstr "Aika minuuteissa käyttäjä saa vahvistaa varauksen sähköpostitse. Vahvistamattomista varauksista luovutaan ja majoituksen tilaksi tulee Käytettävissä."
+
+msgid "Country of residence field is required for reservation."
+msgstr "Varauksen tekeminen edellyttää asuinmaata."
+
+msgid "Full address fields are required for reservation."
+msgstr "Varauksen tekeminen edellyttää koko osoitekenttää."
+
+msgid "Customer information is required when placing admin bookings."
+msgstr "Järjestelmänvalvojan varaumia siatettaessa tarvitaan asiakastietoja."
+
+msgid "Default Country on Checkout"
+msgstr "Oletusmaa kassalla"
+
+msgid "Price Breakdown"
+msgstr "Hinta erittely"
+
+msgid "Price breakdown unfolded by default."
+msgstr "Hintaerittely on oletusarvoisesti avautunut."
+
+msgid "Accounts"
+msgstr ""
+
+msgid "Account creation"
+msgstr ""
+
+msgid "Automatically create an account for a user at checkout."
+msgstr ""
+
+msgid "Allow customers to create an account during checkout."
+msgstr ""
+
+msgid "Allow customers to log into their existing account during checkout."
+msgstr ""
+
+msgid "Booking Cancellation"
+msgstr "Varauksen peruutus"
+
+msgid "User can cancel booking via link provided inside email."
+msgstr "Käyttäjä voi peruuttaa varauksen sähköpostitse toimitetun linkin kautta."
+
+msgid "Booking Cancelation Page"
+msgstr ""
+
+msgid "Page to confirm booking cancelation."
+msgstr ""
+
+msgid "Booking Canceled Page"
+msgstr ""
+
+msgid "Page to redirect to after a booking is canceled."
+msgstr ""
+
+msgid "Search Options"
+msgstr "Haku optiot"
+
+msgid "Maximum accommodation occupancy available in the Search Form."
+msgstr "Suurin majoitusmahdollisuus on käytettävissä hakulomakkeessa."
+
+msgid "Max Adults"
+msgstr "Max Aikuiset"
+
+msgid "Max Children"
+msgstr "Max Lapset"
+
+msgid "Age of Child"
+msgstr "Lapsen ikä"
+
+msgid "Optional description of the \"Children\" field."
+msgstr "Valinnainen kuvaus \"Lapset\"-kentästä."
+
+msgid "Skip Search Results"
+msgstr "Ohita hakutulokset"
+
+msgid "Skip search results page and enable direct booking from accommodation pages."
+msgstr "Ohita hakutulokset -sivu ja ota suora varaus käyttöön majoitussivuilta."
+
+msgid "Direct Booking Form"
+msgstr "Suora varauslomake"
+
+msgid "Show price for selected period"
+msgstr "Näytä valitun kauden hinta"
+
+msgid "Show price together with adults and children fields"
+msgstr "Näytä hinta yhdessä aikuisten ja lasten kenttien kanssa"
+
+msgid "Book button behavior on the search results page"
+msgstr "Kirjapainikkeen toiminta hakutulossivulla"
+
+msgid "Redirect to the checkout page immediately after successful addition to reservation."
+msgstr "Ohjaa kassalle heti onnistuneen varauksen lisäämisen jälkeen."
+
+msgid "Enable \"adults\" and \"children\" options for my website (default)."
+msgstr "Ota käyttöön \"aikuiset\" ja \"lapset\" -asetukset sivustossani (oletus)."
+
+msgid "Disable \"children\" option for my website (hide \"children\" field and use Guests label instead)."
+msgstr "Poista \"lapset\" vaihtoehto sivustoni (piilota \"lapset\" kenttä ja käyttää Vieraat etiketti sijaan)."
+
+msgid "Disable \"adults\" and \"children\" options for my website."
+msgstr "Poista \"aikuiset\" ja \"lapset\" vaihtoehtoja sivustoni."
+
+msgid "Guest Management"
+msgstr "Asiakkaiden hallinta"
+
+msgid "Hide \"adults\" and \"children\" fields within search availability forms."
+msgstr "Piilota \"aikuiset\" ja \"lapset\" -kentät hakujen saatavuuslomakkeissa."
+
+msgid "Do not apply booking rules for admin bookings."
+msgstr ""
+
+msgid "Display Options"
+msgstr "Näytä valinnat"
+
+msgid "Display gallery images of accommodation page in lightbox."
+msgstr "Näytä majoitussivun galleriakuvat lightboxissa."
+
+msgid "Availability Calendar"
+msgstr "Varauskalenteri"
+
+msgid "Display per-night prices in the availability calendar."
+msgstr ""
+
+msgid "Truncate per-night prices in the availability calendar."
+msgstr ""
+
+msgid "Display the currency sign in the availability calendar."
+msgstr ""
+
+msgid "Calendar Theme"
+msgstr "Kalenteri-teema"
+
+msgid "Select theme for an availability calendar."
+msgstr "Valitse saatavuuskalenterin teema."
+
+msgid "Template Mode"
+msgstr "Malli-tila"
+
+msgid "Developer Mode"
+msgstr "Kehittäjän tila"
+
+msgid "Theme Mode"
+msgstr "Teema-tila"
+
+msgid "Choose Theme Mode to display the content with the styles of your theme. Choose Developer Mode to control appearance of the content with custom page templates, actions and filters. This option can't be changed if your theme is initially integrated with the plugin."
+msgstr "Valitse Teematila, jos haluat näyttää teeman tyylien sisällön. Valitse Kehittäjätila, jos haluat hallita sisällön ulkoasua mukautetuilla sivumalleilla, toiminnoilla ja suodattimilla. Tätä vaihtoehtoa ei voi muuttaa, jos teema on alun perin integroitu laajennukseen."
+
+msgid "More Styles"
+msgstr "Lisää tyylejä"
+
+msgid "Extend the styling options of Hotel Booking plugin with the new free addon - Hotel Booking Styles."
+msgstr "Laajenna Hotel Booking -laajennuksen muotoiluvaihtoehtoja uudella ilmaisella lisäosalla - Hotel Booking Styles."
+
+msgid "Calendars Synchronization"
+msgstr "Kalenterien synkronointi"
+
+msgid "Export admin blocks."
+msgstr "Vie järjestelmänvalvojan lohkot."
+
+msgid "Do not export imported bookings."
+msgstr "Älä vie tuotuja varauksia."
+
+msgid "Minimize Logs"
+msgstr ""
+
+msgid "Enable the plugin to record only important messages."
+msgstr ""
+
+msgid "Calendars Synchronization Scheduler"
+msgstr "Kalenterien synkronoinnin ajoitus"
+
+msgid "Enable automatic external calendars synchronization"
+msgstr "Ota käyttöön automaattinen ulkoisten kalenterien synkronointi"
+
+msgid "Clock"
+msgstr "Kello"
+
+msgid "Sync calendars at this time (UTC) or starting at this time every interval below."
+msgstr "Synkronoi kalenterit tällä hetkellä (UTC) tai alkaen tällä hetkellä joka aikaväli alla."
+
+msgid "Interval"
+msgstr "Väli"
+
+msgid "Quarter an Hour"
+msgstr "Neljännes tunnissa"
+
+msgid "Half an Hour"
+msgstr "Puoli tuntia"
+
+msgid "Once Hourly"
+msgstr "Kerran tunnissa"
+
+msgid "Twice Daily"
+msgstr "Kahdesti päivässä"
+
+msgid "Once Daily"
+msgstr "Kerran päivässä"
+
+msgid "Automatically delete sync logs older than"
+msgstr "Poista automaattisesti synkronointilokit, jotka ovat vanhempia kuin"
+
+msgid "Day"
+msgstr "Päivä"
+
+msgid "Week"
+msgstr "Viikko"
+
+msgid "Month"
+msgstr "Kuukausi"
+
+msgid "Quarter"
+msgstr "Neljäsvuosittain"
+
+msgid "Half a Year"
+msgstr "Puoli vuotta vuodessa"
+
+msgid "Never Delete"
+msgstr "Älä koskaan poista"
+
+msgid "Block Editor"
+msgstr "Estä editori"
+
+msgid "Enable block editor for \"%s\"."
+msgstr "Ota käyttöön lohkoeditori kohteelle %s."
+
+msgid "Accommodation Types"
+msgstr "Majoitustyypit"
+
+msgid "Services"
+msgstr "Palvelut"
+
+msgid "Admin Emails"
+msgstr "Ylläpitäjän sähköpostit"
+
+msgid "Customer Emails"
+msgstr "Asiakkaan sähköpostit"
+
+msgid "Turn one-time guests into loyal customers by sending out automatic marketing campaigns with the <a>Hotel Booking & Mailchimp Integration</a>."
+msgstr "Muuta kertaluonteisia asiakkaita uskollisiksi asiakkaiksi lähettämällä automaattisia markkinointikampanjoita <a>Hotel Booking &amp; Mailchimp Integrationin</a>avulla."
+
+msgid "Turn one-time guests into loyal customers by sending out automatic marketing campaigns with the Hotel Booking & Mailchimp Integration."
+msgstr "Tee kertaluonteisista vieasiakkaista uskollisia asiakkaita lähettämällä automaattisia markkinointikampanjoita Hotel Booking &amp; Mailchimp Integrationin avulla."
+
+msgid "Cancellation Details Template"
+msgstr "Peruutustiedot-malli"
+
+msgid "Used for %cancellation_details% tag."
+msgstr "Käytetään %cancellation_details%-tunnisteessa."
+
+msgid "Email Settings"
+msgstr "Sähköpostiasetukset"
+
+msgid "Send automated email notifications, such as key pick-up instructions, house rules, before and after arrival/departure with <a>Hotel Booking Notifier</a>."
+msgstr "Lähetä automaattiset sähköposti-ilmoitukset, kuten avainten noutoohjeet, talon säännöt ennen saapumista/lähtöä ja sen jälkeen <a>Hotel Booking Notifierin</a>avulla."
+
+msgid "Send automated email notifications, such as key pick-up instructions, house rules, before and after arrival/departure with Hotel Booking Notifier."
+msgstr "Lähetä hotel Booking Notifierin kanssa automaattisia sähköposti-ilmoituksia, kuten avainten nouto-ohjeita, talon sääntöjä, ennen saapumista/lähtöä ja sen jälkeen."
+
+msgid "Email Sender"
+msgstr "Sähköpostin lähettäjä"
+
+msgid "Administrator Email"
+msgstr "Järjestelmänvalvojan sähköposti"
+
+msgid "From Email"
+msgstr "Lähettäjän sähköpostiosoite"
+
+msgid "From Name"
+msgstr "Lähettäjän nimi"
+
+msgid "Logo URL"
+msgstr "Logon URL-osoite"
+
+msgid "Footer Text"
+msgstr "Alatunnisteen teksti"
+
+msgid "Reserved Accommodation Details Template"
+msgstr "Varattujen majoitustietojen malli"
+
+msgid "Used for %reserved_rooms_details% tag."
+msgstr "Käytetään %reserved_rooms_details%-tunnisteessa."
+
+msgid "Styles"
+msgstr "Tyylit"
+
+msgid "Base Color"
+msgstr "Perusväri"
+
+msgid "Background Color"
+msgstr "Taustaväri"
+
+msgid "Body Background Color"
+msgstr "Runkon taustaväri"
+
+msgid "Body Text Color"
+msgstr "Leipätekstin väri"
+
+msgid "Payment Gateways"
+msgstr "Maksutavat"
+
+msgid "General Settings"
+msgstr "Yleiset asetukset"
+
+msgid "Need more gateways? Use our Hotel Booking <a href=\"%s\" target=\"_blank\">WooCommerce Payments</a> extension."
+msgstr "Tarvitsetko lisää yhdyskäytäviä? Käytä Hotel Booking <a href=\"%s\" target=\"_blank\">WooCommerce Payments -laajennusta</a>."
+
+msgid "You may also email the <a href=\"%s\" target=\"_blank\">balance payment request</a> link to your guests."
+msgstr "Voit myös lähettää <a href=\"%s\" target=\"_blank\">maksutasepyynnön</a> linkin vieraillesi sähköpostitse."
+
+msgid "User Pays"
+msgstr "Käyttäjän maksaminen"
+
+msgid "Full Amount"
+msgstr "Yhteensä"
+
+msgid "Deposit"
+msgstr "Ennakkomaksu"
+
+msgid "Deposit Type"
+msgstr "Talletuksen tyyppi"
+
+msgid "Fixed"
+msgstr "Kiinteä"
+
+msgid "Percent"
+msgstr "Prosentti"
+
+msgid "Deposit Amount"
+msgstr "Ennakkomaksu"
+
+msgid "Deposit Time Frame (days)"
+msgstr "Talletusajan aikataulu (päivää)"
+
+msgid "Apply deposit to bookings made in at least the selected number of days prior to the check-in date. Otherwise, the full amount is charged."
+msgstr "Ota takuumaksut käyttöön, jotka on tehty vähintään valittuna päivien lukumääränä ennen sisäänkirjautumispäivää. Muussa tapauksessa veloitetaan koko summa."
+
+msgid "Force Secure Checkout"
+msgstr "Pakota turvallinen kassalle"
+
+msgid "Force SSL (HTTPS) on the checkout pages. You must have an SSL certificate installed to use this option."
+msgstr "Pakota SSL (HTTPS) kassasivuille. Tämän vaihtoehdon käyttäminen edellyttää SSL-varmenteen asentamista."
+
+msgid "Reservation Received Page"
+msgstr "Varaus vastaanotettu -sivu"
+
+msgid "Failed Transaction Page"
+msgstr "Epäonnistunut tapahtumasivu"
+
+msgid "Default Gateway"
+msgstr "Oletusmaksuväylä"
+
+msgid "Pending Payment Time"
+msgstr "Odottava maksuaika"
+
+msgid "Period of time in minutes the user is given to complete payment. Unpaid bookings become Abandoned and accommodation status changes to Available."
+msgstr "Aika minuutteina, jolloin käyttäjä saa maksun suorittamiseen. Maksamattomat varaukset hylätään ja majoituksen tila muuttuu käytettävissä olevaksi."
+
+msgid "Install <a href=\"%s\" target=\"_blank\">Hotel Booking addons</a> to manage their settings."
+msgstr "Asenna <a href=\"%s\" target=\"_blank\">Hotel Booking -lisät,</a> jotta voit hallita niiden asetuksia."
+
+msgid "Install Hotel Booking addons to manage their settings."
+msgstr "Asenna Hotel Booking -lisät, jotta voit hallita niiden asetuksia."
+
+msgid "Advanced"
+msgstr ""
+
+msgid "License"
+msgstr "Lisenssi"
+
+msgid "Settings saved."
+msgstr "Asetukset tallennettu."
+
+msgid "<strong>Note:</strong> Payment methods will appear on the checkout page only when Confirmation Upon Payment is enabled in Accommodation > Settings > General > Confirmation Mode."
+msgstr "<strong>Huomautus:</strong> Maksutavat näkyvät kassalla vain, kun Vahvistus maksun yhteydessä on käytössä kohdassa Majoitus > Asetukset > Yleiset ] Vahvistustila."
+
+msgid "Settings"
+msgstr "Asetukset"
+
+msgid "Availability Search Form"
+msgstr "Saatavuus Hakulomake"
+
+msgid "Display search form."
+msgstr "Näytä hakulomake."
+
+msgid "The number of adults presetted in the search form."
+msgstr "Hakulomakkeessa esimääritettyjen aikuisten määrä."
+
+msgid "The number of children presetted in the search form."
+msgstr "Hakulomakkeessa esimääritettyjen lasten määrä."
+
+msgid "Check-in date presetted in the search form."
+msgstr "Hakulomakkeessa esiasetettu kuittauspäivämäärä."
+
+msgid "date in format %s"
+msgstr "päivämäärä muodossa %s"
+
+msgid "Check-out date presetted in the search form."
+msgstr "Hakulomakkeessa esiasetettu uloskuittauspäivämäärä."
+
+msgid "Custom attributes for advanced search."
+msgstr "Tarkennetun haun mukautetut määritteet."
+
+msgid "Comma-separated slugs of attributes."
+msgstr "Määritteiden pilkuilla erotetut etanat."
+
+msgid "Custom CSS class for shortcode wrapper"
+msgstr "Custom CSS luokka shortcode kääre"
+
+msgid "whitespace separated css classes"
+msgstr "whitespace erotettu css luokat"
+
+msgid "Accommodation Type ID"
+msgstr "Majoitustyypin tunnus"
+
+msgid "ID of Accommodation Type to check availability."
+msgstr "Majoitustyypin tunnus tarkistaa saatavuus."
+
+msgid "integer number"
+msgstr "kokonaisluku"
+
+msgid "How many months to show."
+msgstr "Kuinka monta kuukautta näyttää."
+
+msgid "Set the number of columns or the number of rows and columns separated by comma. Example: \"3\" or \"2,3\""
+msgstr "Määritä pilkulla erotettujen sarakkeiden määrä tai rivien ja sarakkeiden määrä. Esimerkki: \"3\" tai \"2,3\""
+
+msgid "Display availability calendar of the current accommodation type or by ID."
+msgstr "Näytä nykyisen majoitustyypin tai tunnuksen saatavuuskalenteri."
+
+msgid "Availability Search Results"
+msgstr "Saatavuus Hakutulokset"
+
+msgid "Display listing of accommodation types that meet the search criteria."
+msgstr "Näytä luettelo hakuehtoja täyttävien majoitustyyppien luettelosta."
+
+msgid "Whether to display title of the accommodation type."
+msgstr "Näytetäänkö majoitustyypin otsikko."
+
+msgid "Whether to display featured image of the accommodation type."
+msgstr "Näytetäänkö majoitustyypin varustellun kuvan."
+
+msgid "Whether to display gallery of the accommodation type."
+msgstr "Näytetäänkö majoitustyypin valikoima."
+
+msgid "Whether to display excerpt (short description) of the accommodation type."
+msgstr "Näytetäänkö majoitustyypin ote (lyhyt kuvaus)."
+
+msgid "Whether to display details of the accommodation type."
+msgstr "Näytetäänkö majoitustyypin tiedot."
+
+msgid "Whether to display price of the accommodation type."
+msgstr "Näytetäänkö majoitustyypin hinta."
+
+msgid "Show View Details button"
+msgstr "Näytä näytä tiedot -painike"
+
+msgid "Whether to display \"View Details\" button with the link to accommodation type."
+msgstr "Näytetäänkö Näytä tiedot -painike, jossa on linkki majoitustyyppiin."
+
+msgid "Sort by."
+msgstr "Järjestys."
+
+msgid "%1$s. See the <a href=\"%2$s\" target=\"_blank\">full list</a>."
+msgstr "%1$s. Katso <a href=\"%2$s\" target=\"_blank\">koko luettelo</a>."
+
+msgid "Designates the ascending or descending order of sorting."
+msgstr "Määrittää lajittelun nousevan tai laskevan järjestyksen."
+
+msgid "ASC - from lowest to highest values (1, 2, 3). DESC - from highest to lowest values (3, 2, 1)."
+msgstr "ASC - pienimmistä suurimpiin arvoihin (1, 2, 3). DESC - korkeista pienimpiin arvoihin (3, 2, 1)."
+
+msgid "Custom field name. Required if \"orderby\" is one of the \"meta_value\", \"meta_value_num\" or \"meta_value_*\"."
+msgstr "Mukautetun kentän nimi. Vaaditaan, jos \"orderby\" on jokin \"meta_value\", \"meta_value_num\" tai \"meta_value_*\"."
+
+msgid "custom field name"
+msgstr "mukautetun kentän nimi"
+
+msgid "empty string"
+msgstr "tyhjä merkkijono"
+
+msgid "Specified type of the custom field. Can be used in conjunction with orderby=\"meta_value\"."
+msgstr "Mukautetun kentän määritetty tyyppi. Voidaan käyttää yhdessä orderby =\"meta_value\"."
+
+msgid "Sort by. Use \"orderby\" insted."
+msgstr "Lajitteluperuste. Käytä sen sijaan \"orderbyä\"."
+
+msgid "Show Book button"
+msgstr "Näytä varaus -painike"
+
+msgid "Whether to display Book button."
+msgstr "Näytetäänkö varaus-painike."
+
+msgid "NOTE:"
+msgstr "HUOMAUTUS:"
+
+msgid "Use only on page that you set as Search Results Page in <a href=\"%s\">Settings</a>"
+msgstr "Käytä vain sivulla, jonka olet määrittänut Hakutulossivuksi <a href=\"%s\">Asetuksissa</a>"
+
+msgid "Accommodation Types Listing"
+msgstr "Majoitustyypit Listing"
+
+msgid "Count per page"
+msgstr "Määrä sivua kohden"
+
+msgid "integer, -1 to display all, default: \"Blog pages show at most\""
+msgstr "kokonaisluku, -1 näyttää kaikki, oletus: \"Blogi sivut näkyvät enintään\""
+
+msgid "IDs of categories that will be shown."
+msgstr "Näyttöön tulee luokkien tunnukset."
+
+msgid "Comma-separated IDs."
+msgstr "Pilkuilla erotetut tunnukset."
+
+msgid "IDs of tags that will be shown."
+msgstr "Näytettävät tunnisteet."
+
+msgid "IDs of accommodations that will be shown."
+msgstr "Tunnukset majoitus, joka näytetään."
+
+msgid "Logical relationship between each taxonomy when there is more than one."
+msgstr "Looginen suhde kunkin taksonomian välillä, kun niitä on enemmän kuin yksi."
+
+msgid "Services Listing"
+msgstr "Palveluiden luettelo"
+
+msgid "IDs"
+msgstr "Tunnukset"
+
+msgid "IDs of services that will be shown. "
+msgstr "Näyttöön tulevat palvelut. "
+
+msgid "Show All Services"
+msgstr "Näytä kaikki palvelut"
+
+msgid "Single Accommodation Type"
+msgstr "Yhden hengen majoitustyyppi"
+
+msgid "ID of accommodation type to display."
+msgstr "Näytettävän majoitustyypin tunnus."
+
+msgid "Display accommodation type with title and image."
+msgstr "Näytä majoitustyyppi, jossa on otsikko ja kuva."
+
+msgid "Checkout Form"
+msgstr "Uloskuittauslomake"
+
+msgid "Display checkout form."
+msgstr "Näytä uloskuittauslomake."
+
+msgid "Use only on page that you set as Checkout Page in <a href=\"%s\">Settings</a>"
+msgstr "Käytä vain sivulla, jonka olet määrittänut Kassasivuksi <a href=\"%s\">Asetuksissa</a>"
+
+msgid "Booking Form"
+msgstr "Varauslomake"
+
+msgid "Show Booking Form for Accommodation Type with id 777"
+msgstr "Näytä majoitustyypin varauslomake id 777"
+
+msgid "Accommodation Rates List"
+msgstr "Majoitus Hinnat List"
+
+msgid "ID of accommodation type."
+msgstr "Majoitustyypin tunnus."
+
+msgid "Show Accommodation Rates List for accommodation type with id 777"
+msgstr "Näytä majoitushinnat Luettelo majoitustyyppi id 777"
+
+msgid "Display booking and payment details."
+msgstr "Näytä varaus- ja maksutiedot."
+
+msgid "Use this shortcode on Booking Confirmed and Reservation Received pages"
+msgstr "Käytä tätä lyhytkoodia Varausvahvistettu ja Varaus vastaanotettu -sivuilla"
+
+msgid "Booking Cancelation"
+msgstr ""
+
+msgid "Display booking cancelation details."
+msgstr ""
+
+msgid "Use this shortcode on the Booking Cancelation page"
+msgstr ""
+
+msgid "Customer Account"
+msgstr ""
+
+msgid "Display log in form or customer account area."
+msgstr ""
+
+msgid "Use this shortcode to create the My Account page."
+msgstr ""
+
+msgid "Shortcodes"
+msgstr "Lyhytkoodit"
+
+msgid "Shortcode"
+msgstr "Lyhytkoodi"
+
+msgid "Parameters"
+msgstr "Parametrit"
+
+msgid "Example"
+msgstr "Esimerkki"
+
+msgid "Deprecated since %s"
+msgstr "Vanhentunut, koska %s"
+
+msgid "Values:"
+msgstr "Arvot:"
+
+msgid "Default:"
+msgstr "Oletus:"
+
+msgid "Optional."
+msgstr "Valinnainen."
+
+msgid "Required"
+msgstr "Pakollinen"
+
+msgid "Taxes and fees saved."
+msgstr "Säästyt ja maksut."
+
+msgid "Taxes & Fees"
+msgstr "Verot & palvelumaksut"
+
+msgid "Fees"
+msgstr "Maksut"
+
+msgid "No fees have been created yet."
+msgstr "Maksuja ei ole vielä luotu."
+
+msgid "Add new"
+msgstr "Lisää uusi"
+
+msgid "Label"
+msgstr "Kentän nimi"
+
+msgid "New fee"
+msgstr "Uusi maksu"
+
+msgid "Per guest / per day"
+msgstr "Per vieras / per päivä"
+
+msgid "Per accommodation / per day"
+msgstr "Per majoitus / per päivä"
+
+msgid "Per accommodation (%)"
+msgstr "Per majoitus (%)"
+
+msgid "Limit"
+msgstr "Rajoitus"
+
+msgid "How often this fee is charged. Set 0 to charge each day of the stay period. Set 1 to charge once."
+msgstr ""
+
+msgid "Include"
+msgstr ""
+
+msgid "Show accommodation rate with this charge included"
+msgstr ""
+
+msgid "Accommodation Taxes"
+msgstr "Majoitus Verot"
+
+msgid "No taxes have been created yet."
+msgstr "Veroja ei ole vielä luotu."
+
+msgid "New tax"
+msgstr "Uusi vero"
+
+msgid "Limit of days the fee is charged. Set 0 to charge each day of stay period. Set 1 to charge once."
+msgstr ""
+
+msgid "Service Taxes"
+msgstr "Palveluverot"
+
+msgid "Percentage"
+msgstr "Prosenttiosuus"
+
+msgid "Fee Taxes"
+msgstr "Maksuverot"
+
+msgid "External Calendars"
+msgstr "Ulkoiset kalenterit"
+
+msgid "Sync External Calendars"
+msgstr "Synkronoi ulkoiset kalenterit"
+
+msgctxt "Placeholder for empty accommodation title"
+msgid "(no title)"
+msgstr "(ei nimeä)"
+
+msgid "Download Calendar"
+msgstr "Lataa kalenteri"
+
+msgid "Message"
+msgstr "Viesti"
+
+msgid "Success"
+msgstr "Onnistui"
+
+msgid "Info"
+msgstr "Tiedot"
+
+msgid "Warning"
+msgstr "Varoitus"
+
+msgctxt "This is date and time format 31/12/2017 - 23:59:59"
+msgid "d/m/Y - H:i:s"
+msgstr ""
+
+msgid "Waiting"
+msgstr "Odottaa"
+
+msgid "Processing"
+msgstr "Käsittelyssä"
+
+msgctxt "Total number of processed bookings"
+msgid "Total"
+msgstr "Yhteensä"
+
+msgid "Succeed"
+msgstr "Onnistua"
+
+msgid "Skipped"
+msgstr "Ohitettu"
+
+msgid "Failed"
+msgstr "Epäonnistui"
+
+msgid "Removed"
+msgstr "Poistettu"
+
+msgid "Copying to clipboard failed. Please press Ctrl/Cmd+C to copy."
+msgstr ""
+
+msgid "Description is missing."
+msgstr ""
+
+msgid "User is missing."
+msgstr ""
+
+msgid "Permission is missing."
+msgstr ""
+
+msgid "You do not have permission to assign API Keys to the selected user."
+msgstr ""
+
+msgid "API Key updated successfully."
+msgstr ""
+
+msgid "API Key generated successfully. Make sure to copy your new keys now as the secret key will be hidden once you leave this page."
+msgstr ""
+
+msgid "Revoke key"
+msgstr ""
+
+msgid "No keys found."
+msgstr ""
+
+msgid "Description"
+msgstr "Kuvaus"
+
+msgid "Consumer key ending in"
+msgstr ""
+
+msgid "User"
+msgstr ""
+
+msgid "Permissions"
+msgstr ""
+
+msgid "Last access"
+msgstr ""
+
+msgid "API key"
+msgstr ""
+
+#. translators: %d: API key ID.
+msgid "ID: %d"
+msgstr ""
+
+msgid "Revoke"
+msgstr ""
+
+msgid "Read"
+msgstr ""
+
+msgid "Write"
+msgstr ""
+
+msgid "Read/Write"
+msgstr ""
+
+#. translators: 1: last access date 2: last access time
+msgid "%1$s at %2$s"
+msgstr ""
+
+msgid "Unknown"
+msgstr ""
+
+msgid "You do not have permission to edit this API Key"
+msgstr ""
+
+msgid "REST API"
+msgstr ""
+
+msgid "Add key"
+msgstr ""
+
+msgid "You do not have permission to revoke this API Key"
+msgstr ""
+
+msgid "You do not have permission to edit API Keys"
+msgstr ""
+
+msgid "You do not have permission to revoke API Keys"
+msgstr ""
+
+msgid "Generate API key"
+msgstr ""
+
+msgid "Friendly name for identifying this key."
+msgstr ""
+
+msgid "Owner of these keys."
+msgstr ""
+
+msgid "Access type of these keys."
+msgstr ""
+
+msgid "Consumer key"
+msgstr ""
+
+msgid "Copied!"
+msgstr ""
+
+msgid "Copy"
+msgstr ""
+
+msgid "Consumer secret"
+msgstr ""
+
+msgid "QR Code"
+msgstr ""
+
+msgid "No bookings found for your request."
+msgstr "Pyyntöäsi ei löydy varauksia."
+
+msgid "Uploads directory is not writable."
+msgstr "Lataushakemistoa ei voi kirjoittaa."
+
+msgid "No enough data"
+msgstr "Ei tarpeeksi tietoja"
+
+msgid "An error has occurred"
+msgstr "Virhe on tapahtunut"
+
+msgid "Please complete all required fields and try again."
+msgstr "Täytä kaikki pakolliset kentät ja yritä uudelleen."
+
+msgid "An error has occurred, please try again later."
+msgstr "Virhe, yritä myöhemmin uudelleen."
+
+msgid "The number of adults is not valid."
+msgstr ""
+
+msgid "The number of guests is not valid."
+msgstr ""
+
+msgid "An error has occurred. Please try again later."
+msgstr "Tapahtui virhe. Yritä myöhemmin uudelleen."
+
+msgid "Sorry, the minimum allowed payment amount is %s to use this payment method."
+msgstr "Tämän maksutavan käyttäminen on valitettavasti vähintään %s."
+
+msgid "Chosen payment method is not available. Please refresh the page and try one more time."
+msgstr "Valittu maksutapa ei ole käytettävissä. Päivitä sivu ja kokeile vielä kerran."
+
+msgid "Coupon applied successfully."
+msgstr "Kuponki käytössä."
+
+msgid "Coupon is not valid."
+msgstr "Kuponki ei kelpaa."
+
+msgid "Booking Information"
+msgstr "Varauksen tiedot"
+
+msgid "Check-in Date"
+msgstr "Saapumispäivä"
+
+msgid "Check-out Date"
+msgstr "Lähtöpäivä"
+
+msgid "Customer Information"
+msgstr "Asiakkaan tiedot"
+
+msgid "Customer Note"
+msgstr "Asiakkaan viesti"
+
+msgid "Additional Information"
+msgstr "Lisätiedot"
+
+msgid "Coupon"
+msgstr "Kuponki"
+
+msgid "Total Booking Price"
+msgstr "Varauksen kokonaishinta"
+
+msgid "Notes"
+msgstr "Muistiinpanot"
+
+#. translators: %1$s: note author, %1$s: note date
+msgid "%1$s on %2$s"
+msgstr ""
+
+msgid "Based on your search parameters"
+msgstr "Perustuu haettuun ajankohtaan"
+
+msgid "You do not have permission to do this action."
+msgstr ""
+
+msgctxt "Not selected value in the search form."
+msgid "&mdash;"
+msgstr ""
+
+msgid "Year"
+msgstr "Vuosi"
+
+msgid "Custom"
+msgstr "Mukautettu"
+
+msgctxt "Booking status"
+msgid "Confirmed"
+msgstr "Vahvistettu"
+
+msgid "Show"
+msgstr "Näytä"
+
+msgid "Search"
+msgstr "Hae"
+
+msgid "Booked"
+msgstr "Varattu"
+
+msgid "Pending"
+msgstr "Odottaa"
+
+msgid "External"
+msgstr ""
+
+msgid "Blocked"
+msgstr "Estetty"
+
+msgid "Search results for accommodations that have bookings with status \"%s\" from %s until %s"
+msgstr "Hakutulokset majoituspaikoista, joiden varausten tila on %s, kohteesta %s asti %s"
+
+msgid "Free"
+msgstr "Ilmainen"
+
+msgid "Locked (Booked or Pending)"
+msgstr "Lukittu (varattu tai odottava)"
+
+msgid "Until"
+msgstr "Asti"
+
+msgid "Period:"
+msgstr "Jakso:"
+
+msgid "&lt; Prev"
+msgstr "&lt; Edellinen"
+
+msgid "Next &gt;"
+msgstr "Seuraava &gt;"
+
+msgid "No accommodations found."
+msgstr "Majoitusta ei löytynyt."
+
+msgid "Check-out #%d"
+msgstr "Uloskuittaaminen #%d"
+
+msgid "Check-in #%d"
+msgstr "Sisäänkuittaaminen #%d"
+
+msgid "Booking #%d"
+msgstr "Varaus #%d"
+
+msgid "Buffer time."
+msgstr ""
+
+msgctxt "Availability"
+msgid "Free"
+msgstr "Ilmainen"
+
+msgid "Adults: %s"
+msgstr "Aikuiset: %s"
+
+msgid "Children: %s"
+msgstr "Lapset: %s"
+
+msgid "Booking imported with UID %s."
+msgstr "Varaus tuotu UID:n %s kanssa."
+
+msgid "Imported booking."
+msgstr "Tuotu varaus."
+
+msgid "Description: %s."
+msgstr "Kuvaus: %s."
+
+msgid "Source: %s."
+msgstr "Lähde: %s."
+
+msgid "Afghanistan"
+msgstr "Afganistan"
+
+msgid "&#197;land Islands"
+msgstr "Ahvenanmaa"
+
+msgid "Albania"
+msgstr ""
+
+msgid "Algeria"
+msgstr ""
+
+msgid "American Samoa"
+msgstr "Samoa-saaret"
+
+msgid "Andorra"
+msgstr ""
+
+msgid "Angola"
+msgstr ""
+
+msgid "Anguilla"
+msgstr "Antigua"
+
+msgid "Antarctica"
+msgstr "Antarktis"
+
+msgid "Antigua and Barbuda"
+msgstr "Antigua ja Barbuda"
+
+msgid "Argentina"
+msgstr "Argentiina"
+
+msgid "Armenia"
+msgstr "Armeenia"
+
+msgid "Aruba"
+msgstr ""
+
+msgid "Australia"
+msgstr ""
+
+msgid "Austria"
+msgstr "Itävalta"
+
+msgid "Azerbaijan"
+msgstr "Azerbaidžan"
+
+msgid "Bahamas"
+msgstr "Bahama"
+
+msgid "Bahrain"
+msgstr ""
+
+msgid "Bangladesh"
+msgstr ""
+
+msgid "Barbados"
+msgstr ""
+
+msgid "Belarus"
+msgstr "Valko-Venäjä"
+
+msgid "Belgium"
+msgstr "Belgia"
+
+msgid "Belau"
+msgstr ""
+
+msgid "Belize"
+msgstr ""
+
+msgid "Benin"
+msgstr ""
+
+msgid "Bermuda"
+msgstr ""
+
+msgid "Bhutan"
+msgstr ""
+
+msgid "Bolivia"
+msgstr ""
+
+msgid "Bonaire, Saint Eustatius and Saba"
+msgstr "Bonaire, Saint Eustatius ja Saba"
+
+msgid "Bosnia and Herzegovina"
+msgstr "Bosnia ja Herzegovina"
+
+msgid "Botswana"
+msgstr ""
+
+msgid "Bouvet Island"
+msgstr "Bouvet'n saari"
+
+msgid "Brazil"
+msgstr "Brasilia"
+
+msgid "British Indian Ocean Territory"
+msgstr "Brittiläinen Intian valtameren alue"
+
+msgid "British Virgin Islands"
+msgstr "Brittiläiset Neitsytsaaret"
+
+msgid "Brunei"
+msgstr ""
+
+msgid "Bulgaria"
+msgstr ""
+
+msgid "Burkina Faso"
+msgstr ""
+
+msgid "Burundi"
+msgstr ""
+
+msgid "Cambodia"
+msgstr "Kambodža"
+
+msgid "Cameroon"
+msgstr "Kamerun"
+
+msgid "Canada"
+msgstr "Kanada"
+
+msgid "Cape Verde"
+msgstr "Kap Verde"
+
+msgid "Cayman Islands"
+msgstr "Cayman-saaret"
+
+msgid "Central African Republic"
+msgstr "Keski-Afrikan Tasavalta"
+
+msgid "Chad"
+msgstr "Tsad"
+
+msgid "Chile"
+msgstr ""
+
+msgid "China"
+msgstr "Kiina"
+
+msgid "Christmas Island"
+msgstr "Joulusaari"
+
+msgid "Cocos (Keeling) Islands"
+msgstr "Kookossaaret"
+
+msgid "Colombia"
+msgstr "Kolumbia"
+
+msgid "Comoros"
+msgstr ""
+
+msgid "Congo (Brazzaville)"
+msgstr "Kongo (Brazzaville)"
+
+msgid "Congo (Kinshasa)"
+msgstr "Kongon demokraattinen tasavalta (Kinshasa)"
+
+msgid "Cook Islands"
+msgstr "Cookin saaret"
+
+msgid "Costa Rica"
+msgstr ""
+
+msgid "Croatia"
+msgstr "Kroatia"
+
+msgid "Cuba"
+msgstr "Kuuba"
+
+msgid "Cura&ccedil;ao"
+msgstr "Kävi koulua Cura&ccedil;ao"
+
+msgid "Cyprus"
+msgstr "Kypros"
+
+msgid "Czech Republic"
+msgstr "Tšekin tasavalta"
+
+msgid "Denmark"
+msgstr "Tanska"
+
+msgid "Djibouti"
+msgstr ""
+
+msgid "Dominica"
+msgstr "Dominika"
+
+msgid "Dominican Republic"
+msgstr "Dominikaaninen tasavalta"
+
+msgid "Ecuador"
+msgstr ""
+
+msgid "Egypt"
+msgstr "Egypti"
+
+msgid "El Salvador"
+msgstr ""
+
+msgid "Equatorial Guinea"
+msgstr "Päiväntasaajan Guinea"
+
+msgid "Eritrea"
+msgstr ""
+
+msgid "Estonia"
+msgstr "Eesti"
+
+msgid "Ethiopia"
+msgstr "Etiopia"
+
+msgid "Falkland Islands"
+msgstr "Falklandin saaret"
+
+msgid "Faroe Islands"
+msgstr "Färsaaret"
+
+msgid "Fiji"
+msgstr ""
+
+msgid "Finland"
+msgstr "Suomi"
+
+msgid "France"
+msgstr "Ranska"
+
+msgid "French Guiana"
+msgstr "Ranskalainen Guyana"
+
+msgid "French Polynesia"
+msgstr "Ranskan Polynesia"
+
+msgid "French Southern Territories"
+msgstr "Ranskan eteläiset ja antarktiset alueet"
+
+msgid "Gabon"
+msgstr ""
+
+msgid "Gambia"
+msgstr ""
+
+msgid "Georgia"
+msgstr ""
+
+msgid "Germany"
+msgstr "Saksa"
+
+msgid "Ghana"
+msgstr ""
+
+msgid "Gibraltar"
+msgstr ""
+
+msgid "Greece"
+msgstr "Kreikka"
+
+msgid "Greenland"
+msgstr "Grönlanti"
+
+msgid "Grenada"
+msgstr ""
+
+msgid "Guadeloupe"
+msgstr "Guadeloupelainen"
+
+msgid "Guam"
+msgstr ""
+
+msgid "Guatemala"
+msgstr ""
+
+msgid "Guernsey"
+msgstr ""
+
+msgid "Guinea"
+msgstr ""
+
+msgid "Guinea-Bissau"
+msgstr ""
+
+msgid "Guyana"
+msgstr ""
+
+msgid "Haiti"
+msgstr ""
+
+msgid "Heard Island and McDonald Islands"
+msgstr "Heard ja McDonaldinsaaret"
+
+msgid "Honduras"
+msgstr ""
+
+msgid "Hong Kong"
+msgstr ""
+
+msgid "Hungary"
+msgstr "Unkari"
+
+msgid "Iceland"
+msgstr "Islanti"
+
+msgid "India"
+msgstr "Intia"
+
+msgid "Indonesia"
+msgstr ""
+
+msgid "Iran"
+msgstr ""
+
+msgid "Iraq"
+msgstr "Irak"
+
+msgid "Ireland"
+msgstr "Irlanti"
+
+msgid "Isle of Man"
+msgstr "Man-saari"
+
+msgid "Israel"
+msgstr ""
+
+msgid "Italy"
+msgstr "Italia"
+
+msgid "Ivory Coast"
+msgstr "Norsunluurannikko"
+
+msgid "Jamaica"
+msgstr "Jamaika"
+
+msgid "Japan"
+msgstr "Japani"
+
+msgid "Jersey"
+msgstr ""
+
+msgid "Jordan"
+msgstr "Jordania"
+
+msgid "Kazakhstan"
+msgstr ""
+
+msgid "Kenya"
+msgstr "Kenia"
+
+msgid "Kiribati"
+msgstr "Kongon tasavalta"
+
+msgid "Kuwait"
+msgstr ""
+
+msgid "Kyrgyzstan"
+msgstr "Kirgisia"
+
+msgid "Laos"
+msgstr ""
+
+msgid "Latvia"
+msgstr ""
+
+msgid "Lebanon"
+msgstr "Libanon"
+
+msgid "Lesotho"
+msgstr ""
+
+msgid "Liberia"
+msgstr ""
+
+msgid "Libya"
+msgstr ""
+
+msgid "Liechtenstein"
+msgstr ""
+
+msgid "Lithuania"
+msgstr "Liettua"
+
+msgid "Luxembourg"
+msgstr "Luxemburg"
+
+msgid "Macao S.A.R., China"
+msgstr "Macao S.A.R., Kiina"
+
+msgid "Macedonia"
+msgstr "Makedonia"
+
+msgid "Madagascar"
+msgstr "Madagaskar"
+
+msgid "Malawi"
+msgstr ""
+
+msgid "Malaysia"
+msgstr "Malesia"
+
+msgid "Maldives"
+msgstr "Korean tasavalta"
+
+msgid "Mali"
+msgstr ""
+
+msgid "Malta"
+msgstr ""
+
+msgid "Marshall Islands"
+msgstr "Caymansaaret"
+
+msgid "Martinique"
+msgstr ""
+
+msgid "Mauritania"
+msgstr ""
+
+msgid "Mauritius"
+msgstr ""
+
+msgid "Mayotte"
+msgstr ""
+
+msgid "Mexico"
+msgstr "Meksiko"
+
+msgid "Micronesia"
+msgstr "Mikroneesia"
+
+msgid "Moldova"
+msgstr ""
+
+msgid "Monaco"
+msgstr ""
+
+msgid "Mongolia"
+msgstr ""
+
+msgid "Montenegro"
+msgstr ""
+
+msgid "Montserrat"
+msgstr ""
+
+msgid "Morocco"
+msgstr "Marokko"
+
+msgid "Mozambique"
+msgstr "Mosambik"
+
+msgid "Myanmar"
+msgstr "Burma"
+
+msgid "Namibia"
+msgstr ""
+
+msgid "Nauru"
+msgstr "Kiribati"
+
+msgid "Nepal"
+msgstr ""
+
+msgid "Netherlands"
+msgstr "Alankomaat"
+
+msgid "New Caledonia"
+msgstr "Uusi Kaledonia"
+
+msgid "New Zealand"
+msgstr "Uusiseelanti"
+
+msgid "Nicaragua"
+msgstr ""
+
+msgid "Niger"
+msgstr ""
+
+msgid "Nigeria"
+msgstr ""
+
+msgid "Niue"
+msgstr "Nauru"
+
+msgid "Norfolk Island"
+msgstr "Norfolkinsaari"
+
+msgid "Northern Mariana Islands"
+msgstr "Pohjois-Mariaanit"
+
+msgid "North Korea"
+msgstr "Pohjois-Korea"
+
+msgid "Norway"
+msgstr "Norja"
+
+msgid "Oman"
+msgstr ""
+
+msgid "Pakistan"
+msgstr ""
+
+msgid "Palestinian Territory"
+msgstr "Palestiina"
+
+msgid "Panama"
+msgstr ""
+
+msgid "Papua New Guinea"
+msgstr "Papuan Uusi Guinea"
+
+msgid "Paraguay"
+msgstr "Paraguai"
+
+msgid "Peru"
+msgstr ""
+
+msgid "Philippines"
+msgstr "Filippiinit"
+
+msgid "Pitcairn"
+msgstr "Pitcairnin Saari"
+
+msgid "Poland"
+msgstr "Puola"
+
+msgid "Portugal"
+msgstr "Portugali"
+
+msgid "Puerto Rico"
+msgstr ""
+
+msgid "Qatar"
+msgstr ""
+
+msgid "Reunion"
+msgstr "Réunion"
+
+msgid "Romania"
+msgstr ""
+
+msgid "Russia"
+msgstr "Venäjä"
+
+msgid "Rwanda"
+msgstr "Ruanda"
+
+msgid "Saint Barth&eacute;lemy"
+msgstr "Saint-Barthélemy"
+
+msgid "Saint Helena"
+msgstr ""
+
+msgid "Saint Kitts and Nevis"
+msgstr "Saint Kitts ja Nevis"
+
+msgid "Saint Lucia"
+msgstr "Pyhä Lucia"
+
+msgid "Saint Martin (French part)"
+msgstr "Saint-Martin (Ranskan osa)"
+
+msgid "Saint Martin (Dutch part)"
+msgstr "Saint Martin (hollantilainen osa)"
+
+msgid "Saint Pierre and Miquelon"
+msgstr "Saint Pierre ja Miquelon"
+
+msgid "Saint Vincent and the Grenadines"
+msgstr "Saint Vincent ja Grenadiinit"
+
+msgid "San Marino"
+msgstr ""
+
+msgid "S&atilde;o Tom&eacute; and Pr&iacute;ncipe"
+msgstr "São Tomé ja Príncipen"
+
+msgid "Saudi Arabia"
+msgstr "Saudi-Arabia"
+
+msgid "Senegal"
+msgstr ""
+
+msgid "Serbia"
+msgstr "Norja"
+
+msgid "Seychelles"
+msgstr "Seychellit"
+
+msgid "Sierra Leone"
+msgstr ""
+
+msgid "Singapore"
+msgstr ""
+
+msgid "Slovakia"
+msgstr ""
+
+msgid "Slovenia"
+msgstr ""
+
+msgid "Solomon Islands"
+msgstr "Salomonsaaret"
+
+msgid "Somalia"
+msgstr ""
+
+msgid "South Africa"
+msgstr "Etelä-Afrikka"
+
+msgid "South Georgia/Sandwich Islands"
+msgstr "Etelä-Georgia ja Sandwichsaaret"
+
+msgid "South Korea"
+msgstr "Etelä-Korea"
+
+msgid "South Sudan"
+msgstr "Etelä-Sudan"
+
+msgid "Spain"
+msgstr "Espanja"
+
+msgid "Sri Lanka"
+msgstr ""
+
+msgid "Sudan"
+msgstr ""
+
+msgid "Suriname"
+msgstr "Surinami"
+
+msgid "Svalbard and Jan Mayen"
+msgstr "Svalbard ja Jan Mayen"
+
+msgid "Swaziland"
+msgstr "Swazimaa"
+
+msgid "Sweden"
+msgstr "Ruotsi"
+
+msgid "Switzerland"
+msgstr "Sveitsi"
+
+msgid "Syria"
+msgstr "Syyria"
+
+msgid "Taiwan"
+msgstr ""
+
+msgid "Tajikistan"
+msgstr "Tadžikistan"
+
+msgid "Tanzania"
+msgstr "Tansania"
+
+msgid "Thailand"
+msgstr "Thaimaa"
+
+msgid "Timor-Leste"
+msgstr "Itä-Timor"
+
+msgid "Togo"
+msgstr ""
+
+msgid "Tokelau"
+msgstr "Tokelausaaret"
+
+msgid "Tonga"
+msgstr ""
+
+msgid "Trinidad and Tobago"
+msgstr "Trinidad ja Tobago"
+
+msgid "Tunisia"
+msgstr ""
+
+msgid "Turkey"
+msgstr "Turkki"
+
+msgid "Turkmenistan"
+msgstr ""
+
+msgid "Turks and Caicos Islands"
+msgstr "Turks- ja Caicossaaret"
+
+msgid "Tuvalu"
+msgstr "Togo"
+
+msgid "Uganda"
+msgstr ""
+
+msgid "Ukraine"
+msgstr "Ukraina"
+
+msgid "United Arab Emirates"
+msgstr "Yhdistyneet Arabiemiirikunnat"
+
+msgid "United Kingdom (UK)"
+msgstr "Yhdistynyt kuningaskunta (UK)"
+
+msgid "United States (US)"
+msgstr "Yhdysvallat (USA)"
+
+msgid "United States (US) Minor Outlying Islands"
+msgstr "Yhdysvaltojen (USA) pienet syrjäiset saaret"
+
+msgid "United States (US) Virgin Islands"
+msgstr "Yhdysvaltain Neitsytsaaret"
+
+msgid "Uruguay"
+msgstr ""
+
+msgid "Uzbekistan"
+msgstr ""
+
+msgid "Vanuatu"
+msgstr ""
+
+msgid "Vatican"
+msgstr "Vatikaani"
+
+msgid "Venezuela"
+msgstr ""
+
+msgid "Vietnam"
+msgstr ""
+
+msgid "Wallis and Futuna"
+msgstr "Wallis ja Futuna"
+
+msgid "Western Sahara"
+msgstr "Länsi-Sahara"
+
+msgid "Samoa"
+msgstr ""
+
+msgid "Yemen"
+msgstr ""
+
+msgid "Zambia"
+msgstr "Sambia"
+
+msgid "Zimbabwe"
+msgstr ""
+
+msgid "Euro"
+msgstr ""
+
+msgid "United States (US) dollar"
+msgstr "Yhdysvaltain dollari (YHDYSVALTAIN DOLLARI)"
+
+msgid "Pound sterling"
+msgstr "Englannin punta"
+
+msgid "United Arab Emirates dirham"
+msgstr "Yhdistyneet Arabiemiirikunnat dirhami AED"
+
+msgid "Afghan afghani"
+msgstr "Afganistanin afgaani"
+
+msgid "Albanian lek"
+msgstr ""
+
+msgid "Armenian dram"
+msgstr ""
+
+msgid "Netherlands Antillean guilder"
+msgstr "Alankomaat Antillean guldeni"
+
+msgid "Angolan kwanza"
+msgstr ""
+
+msgid "Argentine peso"
+msgstr "Argentiinan peso"
+
+msgid "Australian dollar"
+msgstr "Australian dollari"
+
+msgid "Aruban florin"
+msgstr ""
+
+msgid "Azerbaijani manat"
+msgstr "Aserbaidžaani manat"
+
+msgid "Bosnia and Herzegovina convertible mark"
+msgstr "Bosnia ja Hertsegovinan avoautomerkki"
+
+msgid "Barbadian dollar"
+msgstr "Barbadian dollari"
+
+msgid "Bangladeshi taka"
+msgstr "Bangladeshin taka"
+
+msgid "Bulgarian lev"
+msgstr ""
+
+msgid "Bahraini dinar"
+msgstr "Bahrainin dinaari"
+
+msgid "Burundian franc"
+msgstr "Burundin frangi"
+
+msgid "Bermudian dollar"
+msgstr "Bermudan dollari"
+
+msgid "Brunei dollar"
+msgstr "Brunein dollari"
+
+msgid "Bolivian boliviano"
+msgstr ""
+
+msgid "Brazilian real"
+msgstr "Brasilian reali"
+
+msgid "Bahamian dollar"
+msgstr "Bahaman dollari"
+
+msgid "Bitcoin"
+msgstr ""
+
+msgid "Bhutanese ngultrum"
+msgstr "Bhutanin ngultrum"
+
+msgid "Botswana pula"
+msgstr ""
+
+msgid "Belarusian ruble (old)"
+msgstr "Valko-Venäjän rupla (vanha)"
+
+msgid "Belarusian ruble"
+msgstr "Valko-Venäjän rupla"
+
+msgid "Belize dollar"
+msgstr "Belizen dollari"
+
+msgid "Canadian dollar"
+msgstr "Kanadan dollari"
+
+msgid "Congolese franc"
+msgstr "Kongon frangi"
+
+msgid "Swiss franc"
+msgstr "Sveitsin frangi"
+
+msgid "Chilean peso"
+msgstr "Chilen peso"
+
+msgid "Chinese yuan"
+msgstr "Kiinan yuan"
+
+msgid "Colombian peso"
+msgstr "Kolumbian peso"
+
+msgid "Costa Rican col&oacute;n"
+msgstr ""
+
+msgid "Cuban convertible peso"
+msgstr "Kuuban vaihdettava peso"
+
+msgid "Cuban peso"
+msgstr "Kuuban peso"
+
+msgid "Cape Verdean escudo"
+msgstr "Kap Verden escudo"
+
+msgid "Czech koruna"
+msgstr "Tšekin koruna"
+
+msgid "Djiboutian franc"
+msgstr "Djiboutian frangi"
+
+msgid "Danish krone"
+msgstr "Tanskan kruunu"
+
+msgid "Dominican peso"
+msgstr "Dominikaanisen tasavallan peso"
+
+msgid "Algerian dinar"
+msgstr "Algerian dinaari"
+
+msgid "Egyptian pound"
+msgstr "Egyptin punta"
+
+msgid "Eritrean nakfa"
+msgstr ""
+
+msgid "Ethiopian birr"
+msgstr "Etiopian birr"
+
+msgid "Fijian dollar"
+msgstr "Fidžin dollari"
+
+msgid "Falkland Islands pound"
+msgstr "Falklandinsaarten punta"
+
+msgid "Georgian lari"
+msgstr ""
+
+msgid "Guernsey pound"
+msgstr "Guernseyn punta"
+
+msgid "Ghana cedi"
+msgstr "Asuu nyt paikkakunnalla Ghana cedi"
+
+msgid "Gibraltar pound"
+msgstr "Gibraltarin punta"
+
+msgid "Gambian dalasi"
+msgstr ""
+
+msgid "Guinean franc"
+msgstr "Guinean frangi"
+
+msgid "Guatemalan quetzal"
+msgstr ""
+
+msgid "Guyanese dollar"
+msgstr "Guyanan dollari"
+
+msgid "Hong Kong dollar"
+msgstr "Hong Kong"
+
+msgid "Honduran lempira"
+msgstr "Hondurasin lempira"
+
+msgid "Croatian kuna"
+msgstr "Kroatian kuna"
+
+msgid "Haitian gourde"
+msgstr "Haitin gourde"
+
+msgid "Hungarian forint"
+msgstr "Unkarin forintti"
+
+msgid "Indonesian rupiah"
+msgstr "Indonesian rupia"
+
+msgid "Israeli new shekel"
+msgstr "Israelin uusi sekeli"
+
+msgid "Manx pound"
+msgstr "Manx punta"
+
+msgid "Indian rupee"
+msgstr "Intian rupia"
+
+msgid "Iraqi dinar"
+msgstr "Irakin dinaari"
+
+msgid "Iranian rial"
+msgstr "Iranin rial"
+
+msgid "Iranian toman"
+msgstr "Iranin rial IRR"
+
+msgid "Icelandic kr&oacute;na"
+msgstr "Islannin kruunu&amp;oacute;na"
+
+msgid "Jersey pound"
+msgstr "Jersey punta"
+
+msgid "Jamaican dollar"
+msgstr "Jamaikan dollari"
+
+msgid "Jordanian dinar"
+msgstr "Jordanian dinaari"
+
+msgid "Japanese yen"
+msgstr "Japanin jeni"
+
+msgid "Kenyan shilling"
+msgstr "Kenian šillinki"
+
+msgid "Kyrgyzstani som"
+msgstr "Kirgisian som"
+
+msgid "Cambodian riel"
+msgstr "Kambodža riel"
+
+msgid "Comorian franc"
+msgstr "Komorien frangi"
+
+msgid "North Korean won"
+msgstr "Pohjois-Korean won"
+
+msgid "South Korean won"
+msgstr "Etelä-Korean voitti"
+
+msgid "Kuwaiti dinar"
+msgstr "Kuwaitin dinaari"
+
+msgid "Cayman Islands dollar"
+msgstr "Caymansaarten dollari"
+
+msgid "Kazakhstani tenge"
+msgstr "Kazakstanin tenge"
+
+msgid "Lao kip"
+msgstr "Laosin kip"
+
+msgid "Lebanese pound"
+msgstr "Libanonin punta"
+
+msgid "Sri Lankan rupee"
+msgstr "Sri Lankan rupia"
+
+msgid "Liberian dollar"
+msgstr "Liberian dollari"
+
+msgid "Lesotho loti"
+msgstr "Lesotho loti (Lesotho loti)"
+
+msgid "Libyan dinar"
+msgstr "Libyan dinaari"
+
+msgid "Moroccan dirham"
+msgstr "Marokon dirhami"
+
+msgid "Moldovan leu"
+msgstr ""
+
+msgid "Malagasy ariary"
+msgstr "Madagaskarin ariary"
+
+msgid "Macedonian denar"
+msgstr "Makedonian denaari"
+
+msgid "Burmese kyat"
+msgstr "Burman kyat"
+
+msgid "Mongolian t&ouml;gr&ouml;g"
+msgstr "Mongolian t&amp;aml;gr&amp;ouml;g"
+
+msgid "Macanese pataca"
+msgstr "Macaon pataca"
+
+msgid "Mauritanian ouguiya"
+msgstr ""
+
+msgid "Mauritian rupee"
+msgstr "Mauritiuksen rupia"
+
+msgid "Maldivian rufiyaa"
+msgstr ""
+
+msgid "Malawian kwacha"
+msgstr "Malawin kwacha"
+
+msgid "Mexican peso"
+msgstr "Meksikon peso"
+
+msgid "Malaysian ringgit"
+msgstr ""
+
+msgid "Mozambican metical"
+msgstr "Mosambikin metical"
+
+msgid "Namibian dollar"
+msgstr "Namibian dollari"
+
+msgid "Nigerian naira"
+msgstr ""
+
+msgid "Nicaraguan c&oacute;rdoba"
+msgstr "Nicaraguan c&amp;rdoba"
+
+msgid "Norwegian krone"
+msgstr "Norjan kruunu"
+
+msgid "Nepalese rupee"
+msgstr "Nepalin rupia"
+
+msgid "New Zealand dollar"
+msgstr "Uuden-Seelannin dollari"
+
+msgid "Omani rial"
+msgstr "Omanin rial"
+
+msgid "Panamanian balboa"
+msgstr "Panaman balboa"
+
+msgid "Sol"
+msgstr ""
+
+msgid "Papua New Guinean kina"
+msgstr "Papua-Uusi-Guinean kina"
+
+msgid "Philippine peso"
+msgstr "Filippiinien peso"
+
+msgid "Pakistani rupee"
+msgstr "Pakistanin rupia"
+
+msgid "Polish z&#x142;oty"
+msgstr "Puolan z&#x142;oty"
+
+msgid "Transnistrian ruble"
+msgstr "Transnistrian rupla"
+
+msgid "Paraguayan guaran&iacute;"
+msgstr "Paraguayn guaran &amp; iacute;"
+
+msgid "Qatari riyal"
+msgstr "Qatarin rial"
+
+msgid "Romanian leu"
+msgstr ""
+
+msgid "Serbian dinar"
+msgstr "Serbian dinaari"
+
+msgid "Russian ruble"
+msgstr "Venäjän rupla"
+
+msgid "Rwandan franc"
+msgstr "Ruandan frangi"
+
+msgid "Saudi riyal"
+msgstr "Saudi-Arabian rial"
+
+msgid "Solomon Islands dollar"
+msgstr "Salomonsaarten dollari"
+
+msgid "Seychellois rupee"
+msgstr "Seychellois rupia"
+
+msgid "Sudanese pound"
+msgstr "Sudanin punta"
+
+msgid "Swedish krona"
+msgstr "Ruotsin kruunu"
+
+msgid "Singapore dollar"
+msgstr "Singaporen dollari"
+
+msgid "Saint Helena pound"
+msgstr "Saint Helenapunta"
+
+msgid "Sierra Leonean leone"
+msgstr "Sierra Leonen leone"
+
+msgid "Somali shilling"
+msgstr "Somalian šillinki"
+
+msgid "Surinamese dollar"
+msgstr "Surinamese dollari"
+
+msgid "South Sudanese pound"
+msgstr "Etelä-Sudanin punta"
+
+msgid "S&atilde;o Tom&eacute; and Pr&iacute;ncipe dobra"
+msgstr "S&atilde;o Tom&eacute; ja Pr&iacute;ncipe dobra"
+
+msgid "Syrian pound"
+msgstr "Syyrian punta"
+
+msgid "Swazi lilangeni"
+msgstr ""
+
+msgid "Thai baht"
+msgstr "Thaimaan bahti"
+
+msgid "Tajikistani somoni"
+msgstr "Tadžikistanin somoni"
+
+msgid "Turkmenistan manat"
+msgstr "Turkmenistan manat (Turkmenistan manat)"
+
+msgid "Tunisian dinar"
+msgstr "Tunisian dinaari"
+
+msgid "Tongan pa&#x2bb;anga"
+msgstr ""
+
+msgid "Turkish lira"
+msgstr "Turkin liira"
+
+msgid "Trinidad and Tobago dollar"
+msgstr "Trinidadin ja Tobagon dollari"
+
+msgid "New Taiwan dollar"
+msgstr "Uusi Taiwanin dollari"
+
+msgid "Tanzanian shilling"
+msgstr "Tansanian šillinki"
+
+msgid "Ukrainian hryvnia"
+msgstr "Ukrainan hryvnia"
+
+msgid "Ugandan shilling"
+msgstr "Ugandan shillinki"
+
+msgid "Uruguayan peso"
+msgstr "Uruguayn peso"
+
+msgid "Uzbekistani som"
+msgstr "Uzbekistanin som"
+
+msgid "Venezuelan bol&iacute;var"
+msgstr ""
+
+msgid "Bol&iacute;var soberano"
+msgstr "Venezuelan bol&iacute;var"
+
+msgid "Vietnamese &#x111;&#x1ed3;ng"
+msgstr "Vietnamilainen &#x111;&#x1ed3;ng"
+
+msgid "Vanuatu vatu"
+msgstr "Vanuatun vatu"
+
+msgid "Samoan t&#x101;l&#x101;"
+msgstr "Jaana Toivanen &#x101&#x101;"
+
+msgid "Central African CFA franc"
+msgstr "Keski-Afrikkalainen CFA-frangi"
+
+msgid "East Caribbean dollar"
+msgstr "Itä-Karibian dollari"
+
+msgid "West African CFA franc"
+msgstr "Länsi-Afrikan CFA-frangi"
+
+msgid "CFP franc"
+msgstr "CFP-frangi"
+
+msgid "Yemeni rial"
+msgstr "Jemenin rial"
+
+msgid "South African rand"
+msgstr "Etelä-Afrikan randi"
+
+msgid "Zambian kwacha"
+msgstr "Sambian kwacha"
+
+msgid "Before"
+msgstr "Ennen"
+
+msgid "After"
+msgstr "Jälkeen"
+
+msgid "Before with space"
+msgstr "Ennen ja väli"
+
+msgid "After with space"
+msgstr "Jälkeen ja väli"
+
+msgid "First name is required."
+msgstr "Etunimi on pakollinen."
+
+msgid "Last name is required."
+msgstr "Sukunimi on pakollinen."
+
+msgid "Email is required."
+msgstr "Sähköpostiosoitteesi on pakollinen."
+
+msgid "Phone is required."
+msgstr "Puhelinnumero on pakollinen."
+
+msgid "Country of residence"
+msgstr "Asuinmaa"
+
+msgid "Country is required."
+msgstr "Maa on pakollinen."
+
+msgid "Address is required."
+msgstr "Osoite on pakollinen."
+
+msgid "City is required."
+msgstr "Kaupunki on pakollinen."
+
+msgid "State is required."
+msgstr "Osavaltio on pakollinen."
+
+msgid "Postcode is required."
+msgstr "Postinumero on pakollinen."
+
+msgid "Note is required."
+msgstr "Huomautus on pakollinen."
+
+msgid "Check-in"
+msgstr "Saapumispäivä"
+
+msgid "Check-out"
+msgstr "Lähtöpäivä"
+
+#. translators: The value a hotel wishes to sell their rooms. Also called the Cost, Value, Tariff or Room charge.
+msgid "Rate"
+msgstr "Kurssi"
+
+msgid "Adults/Guests"
+msgstr "Aikuiset/vieraat"
+
+msgid "Full Guest Name"
+msgstr "Vieraan koko nimi"
+
+msgid "Accommodation Subtotal"
+msgstr "Majoitus Välisumma"
+
+msgid "Total Accommodation Taxes"
+msgstr ""
+
+msgid "Total Fees"
+msgstr ""
+
+msgid "Services Subtotal"
+msgstr "Palvelut Välisumma"
+
+msgid "Total Service Taxes"
+msgstr ""
+
+msgid "Total Fee Taxes"
+msgstr ""
+
+msgid "Discount"
+msgstr "Alennus"
+
+msgid "Total"
+msgstr "Yhteensä"
+
+msgid "Paid"
+msgstr "Maksettu"
+
+msgid "Payment Details"
+msgstr "Maksun tiedot"
+
+msgid "Square Meter"
+msgstr "Neliömetriä"
+
+msgid "Square Foot"
+msgstr "Neliön jalka"
+
+msgid "Square Yard"
+msgstr "Square Piha"
+
+msgid "m²"
+msgstr ""
+
+msgid "ft²"
+msgstr "m²"
+
+msgid "yd²"
+msgstr ""
+
+msgid "User Approval Time setted in Hotel Booking Settings"
+msgstr "Käyttäjän hyväksyntäaika, joka on määritetty hotellivarausasetuksissa"
+
+msgid "Pending Payment Time set in Hotel Booking Settings"
+msgstr "Hotellivarausasetuksissa määritetty maksuaika"
+
+msgid "Interval for automatic cleaning of synchronization logs."
+msgstr "Synkronointilokien automaattisen puhdistuksen aikaväli."
+
+msgid "x %d guest"
+msgid_plural "x %d guests"
+msgstr[0] "x %d vieras"
+msgstr[1] "x %d vierasta"
+
+msgid "x %d time"
+msgid_plural "x %d times"
+msgstr[0] "x %d aika"
+msgstr[1] "x %d kertaa"
+
+msgid "Please select columns to export."
+msgstr "Valitse vietävät sarakkeet."
+
+msgid "Disable this email notification"
+msgstr "Poista tämä sähköposti-ilmoitus käytöstä"
+
+msgid "Subject"
+msgstr "Aihe"
+
+msgid "Header"
+msgstr "Ylätunniste"
+
+msgid "Email Template"
+msgstr "Sähköpostimalli"
+
+msgid "\"%s\" email will not be sent: there is no customer email in the booking."
+msgstr "%s-sähköpostia ei lähetetä: varauksessa ei ole asiakkaan sähköpostiosoitetta."
+
+msgid "Deprecated tags in header of %s"
+msgstr "Vanhentuneet tunnisteet kohteen %s otsikossa"
+
+msgid "Deprecated tags in subject of %s"
+msgstr "Vanhentuneet tunnisteet kohteen %s aiheessa"
+
+msgid "Deprecated tags in template of %s"
+msgstr "Vanhentuneet tunnisteet mallin %s"
+
+msgid "Recipients"
+msgstr "Vastaanottajat"
+
+msgid "You can use multiple comma-separated emails"
+msgstr "Voit käyttää useita pilkuilla erotettuja sähköposteja"
+
+msgid "\"%s\" mail was sent to admin."
+msgstr "Posti %s lähetettiin järjestelmänvalvojalle."
+
+msgid "\"%s\" mail sending to admin is failed."
+msgstr "%s-sähköpostin lähettäminen järjestelmänvalvojalle epäonnistui."
+
+msgid "Booking Cancelled"
+msgstr "Varaus peruttu"
+
+msgid "%site_title% - Booking #%booking_id% Cancelled"
+msgstr "%site_title% - Varaus #%booking_id% peruutettu"
+
+msgid "Email that will be sent to Admin when customer cancels booking."
+msgstr "Sähköposti, joka lähetetään järjestelmänvalvojalle, kun asiakas peruuttaa varauksen."
+
+msgid "Cancelled Booking Email"
+msgstr "Peruutettu varaussähköposti"
+
+msgid "Booking Confirmed"
+msgstr "Varaus vahvistettu"
+
+msgid "%site_title% - Booking #%booking_id% Confirmed"
+msgstr "%site_title% - Varaus #%booking_id% vahvistettu"
+
+msgid "Email that will be sent to Admin when payment is completed."
+msgstr "Sähköposti, joka lähetetään järjestelmänvalvojalle, kun maksu on suoritettu."
+
+msgid "Approved Booking Email (via payment)"
+msgstr "Hyväksytty varaussähköposti (maksuvälineellä)"
+
+msgid "Email that will be sent to Admin when customer confirms booking."
+msgstr "Sähköposti, joka lähetetään järjestelmänvalvojalle, kun asiakas vahvistaa varauksen."
+
+msgid "Approved Booking Email"
+msgstr "Hyväksytty varaus sähköposti"
+
+msgid "Confirm new booking"
+msgstr "Vahvista uusi varaus"
+
+msgid "%site_title% - New booking #%booking_id%"
+msgstr "%site_title% - Uusi varaus #%booking_id%"
+
+msgid "Email that will be sent to administrator after booking is placed."
+msgstr "Sähköposti, joka lähetetään järjestelmänvalvojalle varauksen teon jälkeen."
+
+msgid "Pending Booking Email"
+msgstr "Odottava varaussähköposti"
+
+msgid "Your booking is approved"
+msgstr "Varauksesi on hyväksytty"
+
+msgid "%site_title% - Your booking #%booking_id% is approved"
+msgstr "%site_title% - Varauksesi #%booking_id% on hyväksytty"
+
+msgid "Email that will be sent to customer when booking is approved."
+msgstr "Sähköposti, joka lähetetään asiakkaalle, kun varaus hyväksytään."
+
+msgid "\"%s\" mail was sent to customer."
+msgstr "Posti %s lähetettiin asiakkaalle."
+
+msgid "\"%s\" mail sending is failed."
+msgstr "Sähköpostin lähettäminen %s epäonnistui."
+
+msgid "Your booking is cancelled"
+msgstr "Varauksesi peruutetaan"
+
+msgid "%site_title% - Your booking #%booking_id% is cancelled"
+msgstr "%site_title% - Varauksesi #%booking_id% peruutetaan"
+
+msgid "Email that will be sent to customer when booking is cancelled."
+msgstr "Sähköposti, joka lähetetään asiakkaalle varauksen peruuntuessa."
+
+msgid "Confirm your booking"
+msgstr "Vahvista varauksesi"
+
+msgid "%site_title% - Confirm your booking #%booking_id%"
+msgstr "%site_title% - Vahvista varauksesi #%booking_id%"
+
+msgid "This email is sent when \"Booking Confirmation Mode\" is set to Customer confirmation via email."
+msgstr "Tämä sähköpostiviesti lähetetään, kun \"Varausvahvistustila\" -asetukseksi on määritetty Asiakkaan vahvistus sähköpostitse."
+
+msgid "Email that will be sent to customer after booking is placed."
+msgstr "Sähköposti, joka lähetetään asiakkaalle varauksen teon jälkeen."
+
+msgid "New Booking Email (Confirmation by User)"
+msgstr "Uusi varaussähköposti (käyttäjän vahvistus)"
+
+msgid "Your booking is placed"
+msgstr "Varauksesi on tehty"
+
+msgid "%site_title% - Booking #%booking_id% is placed"
+msgstr "%site_title% - Varaus #%booking_id% on sijoitettu"
+
+msgid "This email is sent when \"Booking Confirmation Mode\" is set to Admin confirmation."
+msgstr "Tämä sähköpostiviesti lähetetään, kun \"Varauksen vahvistustila\" -asetukseksi on määritetty Järjestelmänvalvojan vahvistus."
+
+msgid "New Booking Email (Confirmation by Admin)"
+msgstr "Uusi varaussähköposti (adminin vahvistus)"
+
+msgid "Welcome"
+msgstr ""
+
+msgid "%site_title% - account details"
+msgstr ""
+
+msgid "Email that will be sent to a customer after they registered on your site."
+msgstr ""
+
+msgid "Customer Registration Email"
+msgstr ""
+
+msgid "Possible tags:"
+msgstr "Mahdolliset tunnisteet:"
+
+msgid "Deprecated."
+msgstr "Vanhentunut."
+
+msgid "none"
+msgstr "ei mitään"
+
+msgid "User Cancellation Link"
+msgstr "Käyttäjän peruutuslinkki"
+
+msgid "Site title (set in Settings > General)"
+msgstr "Sivuston otsikko (asetettu kohdassa Asetukset , Yleiset)"
+
+msgid "Booking ID"
+msgstr "Varauksen ID"
+
+msgid "Booking Edit Link"
+msgstr "Muokkaa linkkiä"
+
+msgid "Booking Total Price"
+msgstr "Varaus Kokonaishinta"
+
+msgid "Customer First Name"
+msgstr "Asiakkaan etunimi"
+
+msgid "Customer Last Name"
+msgstr "Asiakkaan sukunimi"
+
+msgid "Customer Email"
+msgstr "Asiakkaan sähköposti"
+
+msgid "Customer Phone"
+msgstr "Asiakkaan puhelin"
+
+msgid "Customer Country"
+msgstr "Asiakkaan Tiedot"
+
+msgid "Customer Address"
+msgstr "Asiakkaan osoite"
+
+msgid "Customer City"
+msgstr "Kaupunki"
+
+msgid "Customer State/County"
+msgstr "Asiakkaan osavaltio/piirikunta"
+
+msgid "Customer Postcode"
+msgstr "Asiakkaan postinumero"
+
+msgid "Reserved Accommodations Details"
+msgstr "Varattu majoitukset Tiedot"
+
+msgid "Booking Details"
+msgstr "Varauksen tiedot"
+
+msgid "Confirmation Link"
+msgstr "Vahvistuslinkki"
+
+msgid "Confirmation Link Expiration Time ( UTC )"
+msgstr "Vahvistuslinkin vanhentumisaika (UTC )"
+
+msgid "Cancellation Details (if enabled)"
+msgstr "Peruutustiedot (jos käytössä)"
+
+msgid "The total amount of payment"
+msgstr ""
+
+msgid "The unique ID of payment"
+msgstr "Maksun yksilöllinen tunnus"
+
+msgid "The method of payment"
+msgstr "Maksutapa"
+
+msgid "Payment instructions"
+msgstr "Maksuohjeet"
+
+msgid "User login"
+msgstr ""
+
+msgid "User password"
+msgstr ""
+
+msgid "Link to My Account page"
+msgstr ""
+
+msgid "My Account"
+msgstr ""
+
+msgid "Accommodation Type Link"
+msgstr "Majoitus Tyyppi Linkki"
+
+msgid "Accommodation Type Title"
+msgstr "Majoitustyypin nimike"
+
+msgid "Accommodation Type Categories"
+msgstr "Majoitus Tyyppi Kategoriat"
+
+msgid "Accommodation Type Bed"
+msgstr "Majoitus Tyyppi Bed"
+
+msgid "Accommodation Rate Title"
+msgstr "Majoitushinta Otsikko"
+
+msgid "Accommodation Rate Description"
+msgstr "Majoitus Hinta Kuvaus"
+
+msgid "Sequential Number of Accommodation"
+msgstr "Peräkkäisen määrän majoitus"
+
+msgid "This coupon has expired."
+msgstr "Tämä kuponki on vanhentunut."
+
+msgid "Sorry, this coupon is not applicable to your booking contents."
+msgstr "Valitettavasti tämä kuponki ei koske varaussisältöäsi."
+
+msgid "Coupon usage limit has been reached."
+msgstr "Kupongin käyttöraja on saavutettu."
+
+msgid " &#215; %d night"
+msgid_plural " &#215; %d nights"
+msgstr[0] " &#215; %d yö"
+msgstr[1] " &#215; %d yötä"
+
+msgid "%d adult"
+msgid_plural "%d adults"
+msgstr[0] "%d aikuinen"
+msgstr[1] "%d aikuiset"
+
+msgid "%d guest"
+msgid_plural "%d guests"
+msgstr[0] "%d vierasta"
+msgstr[1] "%d vierasta"
+
+msgid " &#215; %d time"
+msgid_plural " &#215; %d times"
+msgstr[0] " &#215; %d aika"
+msgstr[1] " &#215; %d kertaa"
+
+msgid "Per Instance"
+msgstr "Esiintymää kohti"
+
+msgid "Maximum execution time is set to %d seconds."
+msgstr "Enimmäissuoritusaika on %d sekuntia."
+
+msgid "%d URL pulled for parsing."
+msgid_plural "%d URLs pulled for parsing."
+msgstr[0] "%d URL-osoitetta, joka on vedetty jäsennystä varten."
+msgstr[1] "%d URL-osoitetta vedettiin jäsennystä varten."
+
+msgid "Skipped. No URLs found for parsing."
+msgstr "Ohitetaan. Jäsennystä varten ei löytynyt URL-osoitteita."
+
+msgid "Cannot read uploaded file"
+msgstr "Ladattua tiedostoa ei voi lukea"
+
+msgid "We will need to check %d previous booking after importing and remove it if the booking is outdated."
+msgid_plural "We will need to check %d previous bookings after importing and remove the outdated ones."
+msgstr[0] "Tarkistamme %d edellisen varauksen tuonnin jälkeen ja poistamme sen, jos varaus on vanhentunut."
+msgstr[1] "Meidän on tarkistettava %d aiemmat varaukset sen jälkeen, kun olemme tuoneet ja poistaneet vanhentuneet varaukset."
+
+msgctxt "%s - calendar URI or calendar filename"
+msgid "%1$d event found in calendar %2$s"
+msgid_plural "%1$d events found in calendar %2$s"
+msgstr[0] "%1$d tapahtuma löytyi kalenterista %2$s"
+msgstr[1] "%1$d kalenterista %2$s löytynyt tapahtuma"
+
+msgctxt "%s - calendar URI or calendar filename"
+msgid "Calendar source is empty (%s)"
+msgstr "Kalenterin lähde on tyhjä (%s)"
+
+msgctxt "%s - calendar URI or calendar filename"
+msgid "Calendar file is not empty, but there are no events in %s"
+msgstr "Kalenteritiedosto ei ole tyhjä, mutta kohteessa %s ei ole tapahtumia"
+
+msgid "Error while loading calendar (%1$s): %2$s"
+msgstr "Virhe ladattaessa kalenteria (%1$s): %2$s"
+
+msgctxt "%s - error description"
+msgid "Parse error. %s"
+msgstr "Jäsennysvirhe. %s"
+
+msgid "Skipped. Outdated booking #%d already removed."
+msgstr "Ohitetaan. Vanhentunut varaus #%d on jo poistettu."
+
+msgid "Skipped. Booking #%d updated with new data."
+msgstr "Ohitetaan. Varaus #%d päivitettiin uusilla tiedoilla."
+
+msgid "The outdated booking #%d has been removed."
+msgstr "Vanhentunut varaus #%d on poistettu."
+
+msgid "Skipped. Event from %1$s to %2$s has passed."
+msgstr ""
+
+msgid "New booking #%1$d. The dates from %2$s to %3$s are now blocked."
+msgstr ""
+
+msgid "Success. Booking #%d updated with new data."
+msgstr "Menestys. Varaus #%d päivitettiin uusilla tiedoilla."
+
+msgid "Skipped. The dates from %1$s to %2$s are already blocked."
+msgstr "Ohitetaan. Päivämäärät kohteesta %1$s kohteeseen %2$s on jo estetty."
+
+msgid "Success. Booking #%1$d updated with new data. Removed %2$d outdated booking."
+msgid_plural "Success. Booking #%1$d updated with new data. Removed %2$d outdated bookings."
+msgstr[0] "Menestys. Varaus #%1$d päivitettiin uusilla tiedoilla. Poistettu %2$d vanhentunut varaus."
+msgstr[1] "Menestys. Varaus #%1$d päivitettiin uusilla tiedoilla. Poistettu %2$d vanhentuneet varaukset."
+
+msgid "Success. Booking #%1$d updated with new data."
+msgstr "Menestys. Varaus #%1$d päivitettiin uusilla tiedoilla."
+
+msgid "Cannot import new event. Dates from %1$s to %2$s are partially blocked by booking %3$s."
+msgid_plural "Cannot import new event. Dates from %1$s to %2$s are partially blocked by bookings %3$s."
+msgstr[0] "Uutta tapahtumaa ei voi tuoda. Varauksen %3$s päivämäärät %1$s - %2$s estetään osittain."
+msgstr[1] "Uutta tapahtumaa ei voi tuoda. Varaukset %1$s - %2$s estetään osittain varauksista %3$s."
+
+msgid "Booking imported with UID %1$s.<br />Summary: %2$s.<br />Description: %3$s.<br />Source: %4$s."
+msgstr "Varaus tuotiin UID:n kanssa %1$s.<br />Yhteenveto: %2$s.<br />Kuvaus: %3$s.<br />Lähde: %4$s."
+
+msgid "Process Information"
+msgstr "Prosessitiedot"
+
+msgid "Total bookings: %s"
+msgstr "Varaukset yhteensä: %s"
+
+msgid "Success bookings: %s"
+msgstr "Onnistumisvaraukset: %s"
+
+msgid "Skipped bookings: %s"
+msgstr "Ohitettu varauksia: %s"
+
+msgid "Failed bookings: %s"
+msgstr "Epäonnistuneet varaukset: %s"
+
+msgid "Removed bookings: %s"
+msgstr "Poistetut varaukset: %s"
+
+msgid "Expand All"
+msgstr "Laajenna kaikki"
+
+msgid "Collapse All"
+msgstr "Tiivistä kaikki"
+
+msgid "All done! %1$d booking was successfully added."
+msgid_plural "All done! %1$d bookings were successfully added."
+msgstr[0] "Kaikki on valmista! %1$d varaus lisättiin onnistuneesti."
+msgstr[1] "Kaikki on valmista! %1$d varausten lisääminen onnistui."
+
+msgid " There was %2$d failure."
+msgid_plural " There were %2$d failures."
+msgstr[0] " Virhe %2$d epäonnistui."
+msgstr[1] " Virheitä oli %2$d."
+
+msgid "Dismiss "
+msgstr "Hylkää "
+
+msgid "Your License Key is not active. Please, <a href='%s'>activate your License Key</a> to get plugin updates"
+msgstr "Lisenssiavain ei ole aktiivinen. Aktivoi <a href='%s'>lisenssiavain saadaksesi</a> liitännäispäivityksiä"
+
+msgid "Hotel Booking Plugin"
+msgstr "Hotellivaraus Plugin"
+
+msgid "Your database is being updated in the background."
+msgstr "Tietokantaa päivitetään taustalla."
+
+msgid "Taking a while? Click here to run it now."
+msgstr "Kestää kömpelösti? Klikkaa tästä ajaa sen nyt."
+
+msgid "Add \"Booking Confirmation\" shortcode to your \"Booking Confirmed\" and \"Reservation Received\" pages to show more details about booking or payment.<br/>Click \"Update Pages\" to apply all changes automatically or skip this notice and add \"Booking Confirmation\" shortcode manually.<br/><b><em>This action will replace the whole content of the pages.</em></b>"
+msgstr "Lisää \"Varausvahvistus\" -lyhytkoodi \"Varaus vahvistettu\" ja \"Varaus vastaanotettu\" -sivuille, niin saat lisätietoja varauksesta tai maksusta.<br/>Valitse Päivitä sivut, jos haluat ottaa kaikki muutokset käyttöön automaattisesti, tai ohita tämä ilmoitus ja lisää \"Varausvahvistus\" -lyhytkoodi manuaalisesti.<br/><b><em>Tämä toiminto korvaa koko sivujen sisällön.</em></b>"
+
+msgid "Update Pages"
+msgstr "Päivitä sivut"
+
+msgid "Skip"
+msgstr "Ohita"
+
+msgid "Direct Bank Transfer"
+msgstr "Suora pankkisiirto"
+
+msgid "Make your payment directly into our bank account. Please use your Booking ID as the payment reference."
+msgstr "Maksa suoraan pankkitilillemme. Käytä maksutietona varaustunnustasi."
+
+msgid "Beanstream/Bambora"
+msgstr "Papuvirta/Bambora"
+
+msgid "Use the card number %1$s with CVC %2$s and a valid expiration date to test a payment."
+msgstr "Testaa maksu käyttämällä kortin numeroa %1$s, jossa on CVC %2$s ja kelvollinen vanhentumispäivämäärä."
+
+msgid "Pay by Card (Beanstream)"
+msgstr "Maksa kortilla (Beanstream)"
+
+msgid "Pay with your credit card via Beanstream."
+msgstr "Maksa luottokortilla beanstreamin kautta."
+
+msgid "%1$s is enabled, but the <a href=\"%2$s\">Force Secure Checkout</a> option is disabled. Please enable SSL and ensure your server has a valid SSL certificate. Otherwise, %1$s will only work in Test Mode."
+msgstr "%1$s on käytössä, mutta <a href=\"%2$s\">Pakota suojattu uloskuittaus</a> -asetus on poistettu käytöstä. Ota SSL käyttöön ja varmista, että palvelimellasi on kelvollinen SSL-varmenne. Muussa tapauksessa %1$s toimii vain testitilassa."
+
+msgid "The <a href=\"%2$s\">Force Secure Checkout</a> option is disabled. Please enable SSL and ensure your server has a valid SSL certificate. Otherwise, %1$s will only work in Test Mode."
+msgstr "<a href=\"%2$s\">Pakota turvallinen kassalle</a> -asetus ei ole käytössä. Ota SSL käyttöön ja varmista, että palvelimellasi on kelvollinen SSL-varmenne. Muussa tapauksessa %1$s toimii vain testitilassa."
+
+msgid "Beanstream"
+msgstr "Kävi koulua Beanstream"
+
+msgid "Merchant ID"
+msgstr "Kauppiastunnus"
+
+msgid "Your Merchant ID can be found in the top-right corner of the screen after logging in to the Beanstream Back Office"
+msgstr "Kauppiastunnuksesi löytyy näytön oikeasta yläkulmasta, kun olet kirjautunut Beanstream Back Officeen"
+
+msgid "Payments Passcode"
+msgstr "Maksujen pääsykoodi"
+
+msgid "To generate the passcode, navigate to Administration > Account Settings > Order Settings in the sidebar, then scroll to Payment Gateway > Security/Authentication"
+msgstr "Voit luoda pääsykoodin siirtymällä sivupalkin kohtaan Hallinta > Tilin asetukset , Tilausasetukset ja siirry sitten kohtaan Maksuyhdyskäytävä > Suojaus/todennus"
+
+msgid "Beanstream Payment Error: %s"
+msgstr "Beanstream-maksuvirhe: %s"
+
+msgid "Payment single use token is required."
+msgstr "Maksu kertakäyttöinen tunnussanoma vaaditaan."
+
+msgid "Braintree"
+msgstr ""
+
+msgid "Webhooks Destination URL: %s"
+msgstr "Webhooks-kohteen URL-osoite: %s"
+
+msgid "Pay by Card (Braintree)"
+msgstr "Maksa kortilla (Braintree)"
+
+msgid "Pay with your credit card via Braintree."
+msgstr "Maksa luottokortilla Braintreen kautta."
+
+msgid "Braintree gateway cannot be enabled due to some problems: %s"
+msgstr "Braintree-yhdyskäytävää ei voi ottaa käyttöön joidenkin ongelmien vuoksi: %s"
+
+msgid "In your Braintree account select Account > My User > View Authorizations."
+msgstr "Valitse Braintree-tililläsi Tili , Oma käyttäjä , Näytä valtuutukset."
+
+msgid "Public Key"
+msgstr "Julkinen avain"
+
+msgid "Private Key"
+msgstr "Yksityinen avain"
+
+msgid "Merchant Account ID"
+msgstr "Kauppiaan tilin tunnus"
+
+msgid "In case the site currency differs from default currency in your Braintree account, you can set specific merchant account to avoid <a href=\"%s\">complications with currencty conversions</a>. Otherwise leave the field empty."
+msgstr "Jos sivuston valuutta eroaa Braintree-tilisi oletusvaluutasta, voit asettaa tietyn kauppiastilin välttämään <a href=\"%s\">komplikaatioita currencty-konversioilla</a>. Muussa tapauksessa jätä kenttä tyhjäksi."
+
+msgid "Braintree submitted for settlement (Transaction ID: %s)"
+msgstr "Selvitystä varten lähetetty Braintree (tapahtuman tunnus: %s)"
+
+msgid "Braintree Payment Error: %s"
+msgstr "Braintreen maksuvirhe: %s"
+
+msgid "Payment method nonce is required."
+msgstr "Maksutavan nonce vaaditaan."
+
+msgid "Payment dispute opened"
+msgstr "Maksuriita avattu"
+
+msgid "Payment dispute lost"
+msgstr "Maksuriita menetetty"
+
+msgid "Payment dispute won"
+msgstr "Maksukiista voitettu"
+
+msgid "Payment refunded in Braintree"
+msgstr "Maksu palautetaan Braintree"
+
+msgid "Braintree transaction voided"
+msgstr "Braintree-tapahtuma mitätöity"
+
+msgid "Pay on Arrival"
+msgstr "Maksa saavuttaessa"
+
+msgid "Pay with cash on arrival."
+msgstr "Maksa käteisellä saavuttaessa."
+
+msgid "%s is a required field."
+msgstr "%s on pakollinen kenttä."
+
+msgid "%s is not a valid email address."
+msgstr "%s ei ole kelvollinen sähköpostiosoite."
+
+#. translators: %s is the payment gateway title.
+msgid "Enable \"%s\""
+msgstr "Ota %s käyttöön"
+
+msgid "Test Mode"
+msgstr "Testitila"
+
+msgid "Enable Sandbox Mode"
+msgstr "Ota sandbox-tila käyttöön"
+
+msgid "Sandbox can be used to test payments."
+msgstr "Sandboxia voidaan käyttää maksujen testaamiseen."
+
+msgid "Payment method title that the customer will see on your website."
+msgstr "Maksutavan otsikko, jonka asiakas näkee sivustossasi."
+
+msgid "Payment method description that the customer will see on your website."
+msgstr "Maksutavan kuvaus, jonka asiakas näkee sivustossasi."
+
+msgid "Instructions"
+msgstr "Ohjeet"
+
+msgid "Instructions for a customer on how to complete the payment."
+msgstr "Ohjeet asiakkaalle maksun suorittamisesta."
+
+msgid "Reservation #%d"
+msgstr "Varaus #%d"
+
+msgid "Accommodation(s) reservation"
+msgstr "Majoitus(t) varaus"
+
+msgid "Manual Payment"
+msgstr "Manuaalinen maksu"
+
+msgid "PayPal"
+msgstr ""
+
+msgid "Pay via PayPal"
+msgstr "Maksa PayPalin kautta"
+
+msgid "Paypal Business Email"
+msgstr "Paypal Business Sähköposti"
+
+msgid "Disable IPN Verification"
+msgstr "Poista IPN todentaminen"
+
+msgid "Specify an IPN listener for a specific payment instead of the listeners specified in your PayPal Profile."
+msgstr "Määritä IPN-kuuntelija tietylle maksulle PayPal-profiilissa määritettyjen kuuntelijoiden sijaan."
+
+msgid "Payment %s via IPN."
+msgstr "Maksu %s PayPalin IPN-viesti."
+
+msgid "Payment failed due to invalid PayPal business email."
+msgstr "Maksu epäonnistui virheellisen PayPal-yrityssähköpostin vuoksi."
+
+msgid "Payment failed due to invalid currency in PayPal IPN."
+msgstr "Maksu epäonnistui, koska PayPal IPN:n valuutta ei kelpaa."
+
+msgid "Payment failed due to invalid amount in PayPal IPN."
+msgstr "Maksu epäonnistui, koska PayPal IPN:n summa ei kelpaa."
+
+msgid "Payment failed due to invalid purchase key in PayPal IPN."
+msgstr "Maksu epäonnistui, koska PayPal IPN:n ostoavain ei kelpaa."
+
+msgid "Payment made via eCheck and will clear automatically in 5-8 days."
+msgstr "Maksu suoritetaan eCheckin kautta ja tyhjennyy automaattisesti 5-8 päivän kuluessa."
+
+msgid "Payment requires a confirmed customer address and must be accepted manually through PayPal."
+msgstr "Maksu edellyttää vahvistettua asiakkaan osoitetta, ja se on hyväksyttävä manuaalisesti PayPalin kautta."
+
+msgid "Payment must be accepted manually through PayPal due to international account regulations."
+msgstr "Maksu on hyväksyttävä manuaalisesti PayPalin kautta kansainvälisten tilisääntöjen mukaisesti."
+
+msgid "Payment received in non-shop currency and must be accepted manually through PayPal."
+msgstr "Maksu vastaanotettu muussa kuin kauppavaluutassa, ja se on hyväksyttävä manuaalisesti PayPalin kautta."
+
+msgid "Payment is being reviewed by PayPal staff as high-risk or in possible violation of government regulations."
+msgstr "PayPalin henkilökunta tarkistaa maksun riskialttiiksi tai valtion sääntöjen rikkomiseksi."
+
+msgid "Payment was sent to unconfirmed or non-registered email address."
+msgstr "Maksu lähetettiin vahvistamattomaan tai rekisteröimättömään sähköpostiosoitteeseen."
+
+msgid "PayPal account must be upgraded before this payment can be accepted."
+msgstr "PayPal-tili on päivitettävä, ennen kuin maksu voidaan hyväksyä."
+
+msgid "PayPal account is not verified. Verify account in order to accept this payment."
+msgstr "PayPal-tiliä ei ole vahvistettu. Vahvista tili, jotta voit hyväksyä tämän maksun."
+
+msgid "Payment is pending for unknown reasons. Contact PayPal support for assistance."
+msgstr "Maksu on odottamassa tuntemattomista syistä. Ota yhteyttä PayPal-tukeen."
+
+msgid "Partial PayPal refund processed: %s"
+msgstr "Osittainen PayPal-hyvitys käsitelty: %s"
+
+msgid "PayPal Payment #%s Refunded for reason: %s"
+msgstr "PayPal-maksu #%s palautettiin syystä: %s"
+
+msgid "PayPal Refund Transaction ID: %s"
+msgstr "PayPal-hyvitystapahtuman tunnus: %s"
+
+msgid "Stripe"
+msgstr ""
+
+msgid "Use the card number %1$s with CVC %2$s, a valid expiration date and random 5-digit ZIP-code to test a payment."
+msgstr "Testaa maksu käyttämällä kortin numeroa %1$s, jossa on CVC %2$s, kelvollinen vanhentumispäivämäärä ja satunnainen 5-numeroinen postinumero."
+
+msgid "Pay by Card (Stripe)"
+msgstr "Maksa kortilla (Stripe)"
+
+msgid "Pay with your credit card via Stripe."
+msgstr "Maksa luottokortilla Stripe maksupalvelun kautta."
+
+msgid "Bancontact"
+msgstr ""
+
+msgid "iDEAL"
+msgstr ""
+
+msgid "Giropay"
+msgstr ""
+
+msgid "SEPA Direct Debit"
+msgstr "SEPA-suoraveloitus"
+
+msgid "SOFORT"
+msgstr "Kävi koulua SOFORT"
+
+msgid "Euro is the only acceptable currency for the selected payment methods. Change your currency to Euro in General settings."
+msgstr "Euro on valittujen maksutapojen ainoa hyväksyttävä valuutta. Muuta valuuttasi euroksi Yleiset-asetuksissa."
+
+msgid "Secret Key"
+msgstr "Salainen avain"
+
+msgid "Webhook Secret"
+msgstr "Webhook Salaisuus"
+
+msgid "Payment Methods"
+msgstr "Maksutavat"
+
+msgid "Card Payments"
+msgstr "Korttimaksut"
+
+msgid "Checkout Locale"
+msgstr "Kassalle Locale"
+
+msgid "Display Checkout in the user's preferred language, if available."
+msgstr "Näytä uloskuittaus käyttäjän haluamalla kielellä, jos se on käytettävissä."
+
+msgid "The payment method is not selected."
+msgstr "Maksutapaa ei ole valittu."
+
+msgid "Payment intent ID is not set."
+msgstr "Maksuaikeen tunnusta ei ole määritetty."
+
+msgid "Source ID is not set."
+msgstr "Lähdetunnusta ei ole määritetty."
+
+#. translators: %s - Stripe PaymentIntent ID
+msgid "Payment for PaymentIntent %s succeeded."
+msgstr "Maksu-intent%s -maksu onnistui."
+
+#. translators: %s - Stripe PaymentIntent ID
+msgid "Payment for PaymentIntent %s is processing."
+msgstr "Maksu-intent%s -maksu käsitellään."
+
+msgid "Failed to process Card payment. %s"
+msgstr "Korttimaksun käsittely epäonnistui. %s"
+
+#. translators: %s - Stripe Source ID
+msgid "Payment source %s is waiting for customer confirmation."
+msgstr "Maksulähde %s odottaa asiakkaan vahvistusta."
+
+#. translators: %s - Stripe Source ID
+msgid "Pending source %s received, but the redirect URL is empty."
+msgstr "Odottava lähde %s vastaanotettu, mutta uudelleenohjauksen URL-osoite on tyhjä."
+
+#. translators: %s - Stripe Source ID
+msgid "Payment source %s was cancelled by customer."
+msgstr "Asiakas peruutti maksulähteen %s."
+
+#. translators: %s - Stripe Source ID
+msgid "Payment source %s failed and couldn't be processed."
+msgstr "Maksulähde %s epäonnistui, eikä sitä voitu käsitellä."
+
+#. translators: %1$s - Stripe Source ID; %2$s - Stripe Source status
+msgid "Failed to process payment source %1$s: unsupported status - \"%2$s\"."
+msgstr "Maksulähteen %1$s käsitteleminen epäonnistui: tila ei tueta - %2$s."
+
+msgid "Failed to process Source payment. %s"
+msgstr "Lähdemaksua ei voitu käsitellä. %s"
+
+msgid "Can't charge the payment again: payment's flow already completed."
+msgstr "Maksua ei voi veloittaa uudelleen: maksun työnkulku on jo suoritettu."
+
+#. translators: %s - Stripe Charge ID
+msgid "Charge %s succeeded."
+msgstr "Veloitus %s onnistui."
+
+#. translators: %1$s - Stripe Charge ID; %2$s - payment price
+msgid "Charge %1$s for %2$s created."
+msgstr "Veloita %1$s kohteelle %2$s luotu."
+
+#. translators: %s - Stripe Charge ID
+msgid "Charge %s failed."
+msgstr "Veloitus %s epäonnistui."
+
+msgid "Charge error. %s"
+msgstr "Latausvirhe. %s"
+
+msgid "Argentinean"
+msgstr "Argentiinan"
+
+msgid "Simplified Chinese"
+msgstr "Yksinkertainen kiina"
+
+msgid "Danish"
+msgstr "Tanska"
+
+msgid "Dutch"
+msgstr "Hollanti"
+
+msgid "English"
+msgstr "Englanti"
+
+msgid "Finnish"
+msgstr "Suomi"
+
+msgid "French"
+msgstr "Ranska"
+
+msgid "German"
+msgstr "Saksa"
+
+msgid "Italian"
+msgstr "Italia"
+
+msgid "Japanese"
+msgstr "Japani"
+
+msgid "Norwegian"
+msgstr "Norja"
+
+msgid "Polish"
+msgstr "Puola"
+
+msgid "Russian"
+msgstr "Venäjä"
+
+msgid "Spanish"
+msgstr "Espanja"
+
+msgid "Swedish"
+msgstr "Ruotsi"
+
+msgid "Card"
+msgstr "Kortti"
+
+msgid "Credit or debit card"
+msgstr "Luotto- tai maksukortti"
+
+msgid "IBAN"
+msgstr ""
+
+msgid "Select iDEAL Bank"
+msgstr "Valitse iDEAL Bank"
+
+msgid "You will be redirected to a secure page to complete the payment."
+msgstr "Sinut ohjataan suojatulle sivulle maksun suorittamiseksi."
+
+msgid "By providing your IBAN and confirming this payment, you are authorizing this merchant and Stripe, our payment service provider, to send instructions to your bank to debit your account and your bank to debit your account in accordance with those instructions. You are entitled to a refund from your bank under the terms and conditions of your agreement with your bank. A refund must be claimed within 8 weeks starting from the date on which your account was debited."
+msgstr "Antamalla IBAN-ksesi ja vahvistamalla tämän maksun, valtuutat tämän kauppiaan ja Stripen, maksupalveluntarjoajamme, lähettämään pankkiisi ohjeet veloittaa tiliäsi ja pankkiasi veloittamaan tiliäsi näiden ohjeiden mukaisesti. Sinulla on oikeus hyvitykseen pankistasi pankkisi kanssa solmitun sopimuksen ehtojen mukaisesti. Hyvitys on lunastettava 8 viikon kuluessa siitä päivästä, jona tiliäsi veloitettiin."
+
+#. translators: %s - event type, like "source.chargeable"
+msgid "Webhook \"%s\" skipped: payment's flow already completed."
+msgstr "Webhook %s ohitettiin: maksun työnkulku on jo valmis."
+
+#. translators: %s - Stripe Source ID
+msgid "Webhook received. The source %s is chargeable."
+msgstr "Webhook vastaanotettu. Lähde %s on maksullinen."
+
+#. translators: %s - Stripe Source ID
+msgid "Webhook received. Payment source %s was cancelled by customer."
+msgstr "Webhook vastaanotettu. Asiakas peruutti maksulähteen %s."
+
+#. translators: %s - Stripe Source ID
+msgid "Webhook received. Payment source %s failed and couldn't be processed."
+msgstr "Webhook vastaanotettu. Maksulähde %s epäonnistui, eikä sitä voitu käsitellä."
+
+#. translators: %s - Stripe Charge ID
+msgid "Webhook received. Charge %s succeeded."
+msgstr "Webhook vastaanotettu. Veloitus %s onnistui."
+
+#. translators: %s - Stripe Charge ID
+msgid "Webhook received. Charge %s failed."
+msgstr "Webhook vastaanotettu. Veloitus %s epäonnistui."
+
+msgid "Test Payment"
+msgstr "Testaa maksu"
+
+msgid "2Checkout"
+msgstr ""
+
+msgid "To setup the callback process for 2Checkout to automatically mark payments completed, you will need to"
+msgstr "Jos haluat määrittää 2Checkoutin takaisinsoittoprosessin merkitsemään suoritetut maksut automaattisesti, sinun on"
+
+msgid "Login to your 2Checkout account and click the Notifications tab"
+msgstr "Kirjaudu 2Checkout-tilillesi ja klikkaa Ilmoitukset-välilehteä"
+
+msgid "Click Enable All Notifications"
+msgstr "Valitse Ota kaikki ilmoitukset käyttöön"
+
+msgid "In the Global URL field, enter the url %s"
+msgstr "Kirjoita Yleinen URL-osoite -kenttään URL-osoite %s"
+
+msgid "Click Apply"
+msgstr "Valitse Käytä"
+
+msgid "Account Number"
+msgstr "Tilinumero"
+
+msgid "Secret Word"
+msgstr "Salainen sana"
+
+msgid "2Checkout \"Order Created\" notification received."
+msgstr "2Checkout \"Tilaa luotu\" ilmoitus vastaanotettu."
+
+msgid "Payment refunded in 2Checkout"
+msgstr "Maksu palautetaan 2Checkout"
+
+msgid "2Checkout fraud review passed"
+msgstr "2Checkout petos tarkastelu läpäissyt"
+
+msgid "2Checkout fraud review failed"
+msgstr "2Checkout petos tarkastelu epäonnistui"
+
+msgid "2Checkout fraud review in progress"
+msgstr "2Tarkista petoskatsaus käynnissä"
+
+msgid "Attribute"
+msgstr "Ominaisuus"
+
+msgctxt "Add New Attribute"
+msgid "Add New"
+msgstr "Lisää uusi"
+
+msgid "Add New Attribute"
+msgstr "Lisää uusi määrite"
+
+msgid "Edit Attribute"
+msgstr "Muokkaa määritettä"
+
+msgid "New Attribute"
+msgstr "Uusi attribuutti"
+
+msgid "View Attribute"
+msgstr "Näytä määrite"
+
+msgid "Search Attribute"
+msgstr "Etsi-määrite"
+
+msgid "No Attributes found"
+msgstr "Määritteitä ei löytynyt"
+
+msgid "No Attributes found in Trash"
+msgstr "Roskakorista ei löytynyt määritteitä"
+
+msgid "Insert into attribute description"
+msgstr "Lisää määritteen kuvaukseen"
+
+#. translators: %s: attribute name
+msgid "Search %s"
+msgstr "Etsi %s"
+
+#. translators: %s: attribute name
+msgid "All %s"
+msgstr "Kaikki %s"
+
+#. translators: %s: attribute name
+msgid "Edit %s"
+msgstr "Muokkaa %s"
+
+#. translators: %s: attribute name
+msgid "Update %s"
+msgstr "Päivitä %s"
+
+#. translators: %s: attribute name
+msgid "Add new %s"
+msgstr "Lisää uusi %s"
+
+#. translators: %s: attribute name
+msgid "New %s"
+msgstr "Uusi %s"
+
+#. translators: %s: attribute name
+msgid "No &quot;%s&quot; found"
+msgstr "Ei &amp;%s&amp;löytyi"
+
+msgid "Name (numeric)"
+msgstr "Nimi (numeerinen)"
+
+msgid "Term ID"
+msgstr "Termin tunnus"
+
+msgid "Enable Archives"
+msgstr "Ota arkisto käyttöön"
+
+msgid "Link the attribute to an archive page with all accommodation types that have this attribute."
+msgstr "Linkitä määrite arkistosivulle, jossa on kaikki majoitustyypit, joilla on tämä määrite."
+
+msgid "Visible in Details"
+msgstr "Näkyy yksityiskohdissa"
+
+msgid "Display the attribute in details section of an accommodation type."
+msgstr "Näytä määrite majoitustyypin tieto-osassa."
+
+msgid "Default Sort Order"
+msgstr "Oletuslajittelujärjestys"
+
+msgid "Default Text"
+msgstr "Oletusteksti"
+
+msgid "Select"
+msgstr "Valitse"
+
+msgid "Edit Dates"
+msgstr "Muokkaa päivämääriä"
+
+msgid "Note"
+msgstr ""
+
+msgctxt "Add New Booking"
+msgid "Add New Booking"
+msgstr "Lisää uusi varaus"
+
+msgid "View Booking"
+msgstr "Näytä varaus"
+
+msgid "Search Booking"
+msgstr "Etsi varaus"
+
+msgid "No bookings found"
+msgstr "Varauksia ei löytynyt"
+
+msgid "No bookings found in Trash"
+msgstr "Roskakorissa ei löytynyt varauksia"
+
+msgid "All Bookings"
+msgstr "Kaikki varaukset"
+
+msgid "Insert into booking description"
+msgstr "Lisää varauksen kuvaukseen"
+
+msgid "Uploaded to this booking"
+msgstr "Ladattu tähän varaukseen"
+
+msgctxt "Booking status"
+msgid "Pending User Confirmation"
+msgstr "Odottavan käyttäjän vahvistus"
+
+msgid "Pending User Confirmation <span class=\"count\">(%s)</span>"
+msgid_plural "Pending User Confirmation <span class=\"count\">(%s)</span>"
+msgstr[0] "Odottava käyttäjän vahvistus <span class=\"count\">(%s)</span>"
+msgstr[1] "Odottava käyttäjän vahvistus <span class=\"count\">(%s)</span>"
+
+msgctxt "Booking status"
+msgid "Pending Payment"
+msgstr "Odottaa maksua"
+
+msgid "Pending Payment <span class=\"count\">(%s)</span>"
+msgid_plural "Pending Payment <span class=\"count\">(%s)</span>"
+msgstr[0] "Odottava maksu <span class=\"count\">(%s)</span>"
+msgstr[1] "Odottava maksu <span class=\"count\">(%s)</span>"
+
+msgctxt "Booking status"
+msgid "Pending Admin"
+msgstr "Odottaa järjestelmänvalvojaa"
+
+msgid "Pending Admin <span class=\"count\">(%s)</span>"
+msgid_plural "Pending Admin <span class=\"count\">(%s)</span>"
+msgstr[0] "Odottava järjestelmänvalvoja <span class=\"count\">(%s)</span>"
+msgstr[1] "Odottava järjestelmänvalvoja <span class=\"count\">(%s)</span>"
+
+msgctxt "Booking status"
+msgid "Abandoned"
+msgstr "Hylätty"
+
+msgid "Abandoned <span class=\"count\">(%s)</span>"
+msgid_plural "Abandoned <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "Confirmed <span class=\"count\">(%s)</span>"
+msgid_plural "Confirmed <span class=\"count\">(%s)</span>"
+msgstr[0] "Vahvistettu <span class=\"count\">(%s)</span>"
+msgstr[1] "Vahvistettu <span class=\"count\">(%s)</span>"
+
+msgctxt "Booking status"
+msgid "Cancelled"
+msgstr "Peruutettu"
+
+msgid "Cancelled <span class=\"count\">(%s)</span>"
+msgid_plural "Cancelled <span class=\"count\">(%s)</span>"
+msgstr[0] "Peruttu <span class=\"count\">(%s)</span>"
+msgstr[1] "Peruttu <span class=\"count\">(%s)</span>"
+
+msgid "Status changed from %s to %s."
+msgstr "Tila muuttui kohteesta %s muotoon %s."
+
+msgid "Coupon Information"
+msgstr "Kuponki Tiedot"
+
+msgid "Fixed per accommodation per stay"
+msgstr "Kiinteä per majoitus per oleskelu"
+
+msgid "Fixed per accommodation per day"
+msgstr "Kiinteä per majoitus per päivä"
+
+msgid "Coupon Amount"
+msgstr "Kupongin arvo"
+
+msgid "Enter percent or fixed amount according to selected type."
+msgstr ""
+
+msgid "Expiration Date"
+msgstr "Viimeinen käyttöpäivä"
+
+msgid "Check-in After"
+msgstr "Check-in jälkeen"
+
+msgid "Check-out Before"
+msgstr "Check-out ennen"
+
+msgid "Minimum Days"
+msgstr "Minimi päivämäärät"
+
+msgid "Maximum Days"
+msgstr "Maksimi päivämäärät"
+
+msgid "Usage Limit"
+msgstr "Käyttöraja"
+
+msgid "Usage Count"
+msgstr "Käyttömäärä"
+
+msgid "Coupons"
+msgstr "Kupongit"
+
+msgctxt "Add New Coupon"
+msgid "Add New"
+msgstr "Lisää uusi"
+
+msgid "Add New Coupon"
+msgstr "Lisää Uusi Kuponki"
+
+msgid "Edit Coupon"
+msgstr "Muokkaa kuponkia"
+
+msgid "New Coupon"
+msgstr "Uusi kuponki"
+
+msgid "View Coupon"
+msgstr "Katso kuponkia"
+
+msgid "Search Coupon"
+msgstr "Etsi Kuponki"
+
+msgid "No coupons found"
+msgstr "Kuponkeja ei löytynyt"
+
+msgid "No coupons found in Trash"
+msgstr "Ei kuponkeja löytyy Trash"
+
+msgid "All Coupons"
+msgstr "Kaikki kupongit"
+
+msgid "Payment History"
+msgstr "Maksuhistoria"
+
+msgid "Payment"
+msgstr "Maksu"
+
+msgctxt "Add New Payment"
+msgid "Add New"
+msgstr "Lisää uusi"
+
+msgid "Add New Payment"
+msgstr "Lisää uusi maksu"
+
+msgid "Edit Payment"
+msgstr "Muokkaa maksua"
+
+msgid "New Payment"
+msgstr "Uusi maksu"
+
+msgid "View Payment"
+msgstr "Näytä maksu"
+
+msgid "Search Payment"
+msgstr "Hae maksusta"
+
+msgid "No payments found"
+msgstr "Maksuja ei löytynyt"
+
+msgid "No payments found in Trash"
+msgstr "Roskakorista ei löytynyt maksuja"
+
+msgid "Payments"
+msgstr "Maksut"
+
+msgid "Insert into payment description"
+msgstr "Lisää maksun kuvaukseen"
+
+msgid "Uploaded to this payment"
+msgstr "Ladattu tähän maksuon"
+
+msgid "Payments."
+msgstr "Maksut."
+
+msgid "Gateway Mode"
+msgstr "Yhdyskäytävä-tila"
+
+msgid "Sandbox"
+msgstr "Testaus (Sandbox)"
+
+msgid "Live"
+msgstr ""
+
+msgid "Fee"
+msgstr "Tassa"
+
+msgid "Payment Type"
+msgstr "Maksutapa"
+
+msgid "Billing Info"
+msgstr "Laskun tiedot"
+
+msgid "Address 1"
+msgstr "Osoite 1"
+
+msgid "Address 2"
+msgstr "Osoite 2"
+
+msgid "Postal Code (ZIP)"
+msgstr "Postinumero"
+
+msgctxt "Payment status"
+msgid "Pending"
+msgstr "Odottaa"
+
+msgid "Pending <span class=\"count\">(%s)</span>"
+msgid_plural "Pending <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+msgctxt "Payment status"
+msgid "Completed"
+msgstr "Valmis"
+
+msgid "Completed <span class=\"count\">(%s)</span>"
+msgid_plural "Completed <span class=\"count\">(%s)</span>"
+msgstr[0] "Valmis <span class=\"count\">(%s)</span>"
+msgstr[1] "Valmis <span class=\"count\">(%s)</span>"
+
+msgctxt "Payment status"
+msgid "Failed"
+msgstr "Epäonnistui"
+
+msgid "Failed <span class=\"count\">(%s)</span>"
+msgid_plural "Failed <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+msgctxt "Payment status"
+msgid "Abandoned"
+msgstr "Hylätty"
+
+msgctxt "Payment status"
+msgid "On Hold"
+msgstr "Pidossa"
+
+msgid "On Hold <span class=\"count\">(%s)</span>"
+msgid_plural "On Hold <span class=\"count\">(%s)</span>"
+msgstr[0] "Pidossa <span class=\"count\">(%s)</span>"
+msgstr[1] "Pidossa <span class=\"count\">(%s)</span>"
+
+msgctxt "Payment status"
+msgid "Refunded"
+msgstr "Hyvitetty"
+
+msgid "Refunded <span class=\"count\">(%s)</span>"
+msgid_plural "Refunded <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+msgctxt "Payment status"
+msgid "Cancelled"
+msgstr "Peruutettu"
+
+msgid "Payment (#%s) for this booking is on hold"
+msgstr "Maksu (#%s) varauksesta odottaa"
+
+msgid "Rate Info"
+msgstr "Hinnaston tiedot"
+
+msgid "Season"
+msgstr "Kausi"
+
+msgid "Move price to top to set higher priority."
+msgstr "Siirrä hinta alkuun asettaaksesi korkeamman prioriteetin."
+
+msgid "Add New Season Price"
+msgstr "Lisää uusi kausihinta"
+
+msgid "Will be displayed on the checkout page."
+msgstr "Näytetään kassalla sivulla."
+
+#. translators: The value a hotel wishes to sell their rooms. Also called the Cost, Value, Tariff or Room charge.
+msgid "Rates"
+msgstr "Määrät"
+
+msgctxt "Add New Rate"
+msgid "Add New"
+msgstr "Lisää uusi"
+
+msgid "Add New Rate"
+msgstr "Lisää uusi hinta"
+
+msgid "Edit Rate"
+msgstr "Muokkaa hintaa"
+
+msgid "New Rate"
+msgstr "Uusi hinta"
+
+msgid "View Rate"
+msgstr "Näytä hinta"
+
+msgid "Search Rate"
+msgstr "Hakunopeus"
+
+msgid "No rates found"
+msgstr "Hintoja ei löytynyt"
+
+msgid "No rates found in Trash"
+msgstr "Ei hintoja roskakorissa"
+
+msgid "Insert into rate description"
+msgstr "Lisää korkokuvaus"
+
+msgid "Uploaded to this rate"
+msgstr "Ladattu tähän hintaan"
+
+msgid "This is where you can add new rates."
+msgstr "Tässä voit lisätä uusia hintoja."
+
+msgid "Reserved Accommodation"
+msgstr "Varattu majoitus"
+
+msgctxt "Add New Accommodation"
+msgid "Add New"
+msgstr "Lisää uusi"
+
+msgid "Add New Accommodation"
+msgstr "Lisää uusi majoitus"
+
+msgid "Edit Accommodation"
+msgstr "Muokkaa majoitusta"
+
+msgid "New Accommodation"
+msgstr "Uusi majoitus"
+
+msgid "View Accommodation"
+msgstr "Näytä hotellit"
+
+msgid "Search Accommodation"
+msgstr "Etsi majoitusta"
+
+msgid "No accommodations found"
+msgstr "Majoitusta ei löytynyt"
+
+msgid "No accommodations found in Trash"
+msgstr "Ei majoitusta kohteessa Trash"
+
+msgid "Insert into accommodation description"
+msgstr "Lisää majoituskuvaus"
+
+msgid "Uploaded to this accommodation"
+msgstr "Ladattu tähän majoitukseen"
+
+msgid "This is where you can add new accommodations to your hotel."
+msgstr "Täällä voit lisätä uusia majoitusvaihtoehtoja hotelliisi."
+
+msgctxt "Add New Accommodation Type"
+msgid "Add Accommodation Type"
+msgstr "Lisää majoitustyyppi"
+
+msgid "Add New Accommodation Type"
+msgstr "Lisää uusi majoitustyyppi"
+
+msgid "Edit Accommodation Type"
+msgstr "Muokkaa majoitustyyppiä"
+
+msgid "New Accommodation Type"
+msgstr "Uusi majoitustyyppi"
+
+msgid "View Accommodation Type"
+msgstr "Näytä majoitustyyppi"
+
+msgid "Search Accommodation Type"
+msgstr "Etsi majoitustyyppi"
+
+msgid "No Accommodation types found"
+msgstr "Majoitustyyppejä ei löytynyt"
+
+msgid "No Accommodation types found in Trash"
+msgstr "Kohteessa Trash ei löytynyt majoitustyypeistä"
+
+msgid "Insert into accommodation type description"
+msgstr "Lisää majoitustyypin kuvaus"
+
+msgid "Uploaded to this accommodation type"
+msgstr "Ladattu tähän majoitustyyppiin"
+
+#. translators: do not translate
+msgctxt "slug"
+msgid "accommodation"
+msgstr "accommodation"
+
+msgid "Accommodation Categories"
+msgstr "Majoitus Kategoriat"
+
+msgid "Accommodation Category"
+msgstr "Majoitus Luokka"
+
+msgid "Search Accommodation Categories"
+msgstr "Etsi majoitus Kategoriat"
+
+msgid "Popular Accommodation Categories"
+msgstr "Suositut majoitusluokat"
+
+msgid "All Accommodation Categories"
+msgstr "Kaikki majoitus Kategoriat"
+
+msgid "Parent Accommodation Category"
+msgstr "Vanhempi Majoitus Luokka"
+
+msgid "Parent Accommodation Category:"
+msgstr "Vanhempien majoitus Luokka:"
+
+msgid "Edit Accommodation Category"
+msgstr "Muokkaa majoitusluokkaa"
+
+msgid "Update Accommodation Category"
+msgstr "Päivitä majoitus Luokka"
+
+msgid "Add New Accommodation Category"
+msgstr "Lisää uusi majoitus luokka"
+
+msgid "New Accommodation Category Name"
+msgstr "Uusi majoitus Luokka Nimi"
+
+msgid "Separate categories with commas"
+msgstr "Erota kategoriat pilkuilla"
+
+msgid "Add or remove categories"
+msgstr "Lisää tai poista luokkia"
+
+msgid "Choose from the most used categories"
+msgstr "Valitse eniten käytettyjen luokkien joukosta"
+
+msgid "No categories found."
+msgstr "Kategorioita ei löytynyt."
+
+msgid "Categories"
+msgstr "Kategoriat"
+
+#. translators: do not translate
+msgctxt "slug"
+msgid "accommodation-category"
+msgstr "accommodation-category"
+
+msgid "Accommodation Tags"
+msgstr "Majoitus Tunnisteet"
+
+msgid "Accommodation Tag"
+msgstr "Majoitus Tag"
+
+msgid "Search Accommodation Tags"
+msgstr "Etsi Majoitus Tunnisteet"
+
+msgid "Popular Accommodation Tags"
+msgstr "Suositut majoitustagit"
+
+msgid "All Accommodation Tags"
+msgstr "Kaikki Majoitus Tunnisteet"
+
+msgid "Parent Accommodation Tag"
+msgstr "Vanhempien majoitus Tag"
+
+msgid "Parent Accommodation Tag:"
+msgstr "Vanhempien majoitus Tag:"
+
+msgid "Edit Accommodation Tag"
+msgstr "Muokkaa majoitustunnusta"
+
+msgid "Update Accommodation Tag"
+msgstr "Päivitä majoitus tag"
+
+msgid "Add New Accommodation Tag"
+msgstr "Lisää uusi majoitus tag"
+
+msgid "New Accommodation Tag Name"
+msgstr "Uusi majoitus Tag Nimi"
+
+msgid "Separate tags with commas"
+msgstr "Erota avainsanat pilkulla"
+
+msgid "Add or remove tags"
+msgstr "Lísää tai poista avainsanoja"
+
+msgid "Choose from the most used tags"
+msgstr "Valitse eniten käytetyistä avainsanoista"
+
+msgid "No tags found."
+msgstr "Tunnisteita ei löytynyt."
+
+msgid "Tags"
+msgstr "Avainsanat"
+
+#. translators: do not translate
+msgctxt "slug"
+msgid "accommodation-tag"
+msgstr "accommodation-tag"
+
+msgid "Amenities"
+msgstr "Huoneen mukavuudet"
+
+msgid "Amenity"
+msgstr "Mukavuudet"
+
+msgid "Search Amenities"
+msgstr "Etsi Palvelut"
+
+msgid "Popular Amenities"
+msgstr "Suositut mukavuudet"
+
+msgid "All Amenities"
+msgstr "Kaikki palvelut"
+
+msgid "Parent Amenity"
+msgstr "Vanhempien palvelut"
+
+msgid "Parent Amenity:"
+msgstr "Vanhempien palvelut:"
+
+msgid "Edit Amenity"
+msgstr "Muokkaa mukavuuksia"
+
+msgid "Update Amenity"
+msgstr "Päivitä palvelut"
+
+msgid "Add New Amenity"
+msgstr "Lisää uusia mukavuuksia"
+
+msgid "New Amenity Name"
+msgstr "Uusi palvelunimi"
+
+msgid "Separate amenities with commas"
+msgstr "Erilliset mukavuudet pilkuilla"
+
+msgid "Add or remove amenities"
+msgstr "Mukavuuksien lisääminen tai poistaminen"
+
+msgid "Choose from the most used amenities"
+msgstr "Valitse eniten käytetyistä mukavuuksista"
+
+msgid "No amenities found."
+msgstr "Mukavuuksia ei löytynyt."
+
+#. translators: do not translate
+msgctxt "slug"
+msgid "accommodation-facility"
+msgstr "accommodation-facility"
+
+msgid "State the age or disable children in <a href=\"%s\">settings</a>."
+msgstr "Ilmoita ikä tai poista lapset käytöstä <a href=\"%s\">asetuksissa</a>."
+
+msgid "Leave this option empty to calculate total capacity automatically to meet the exact number of adults AND children set above. This is the default behavior. Configure this option to allow any variations of adults OR children set above at checkout so that in total it meets the limit of manually set \"Capacity\". For example, configuration \"adults:5\", \"children:4\", \"capacity:5\" means the property can accommodate up to 5 adults, up to 4 children, but up to 5 guests in total (not 9)."
+msgstr "Jätä tämä vaihtoehto tyhjäksi, jos haluat laskea kokonaiskapasiteetin automaattisesti vastaamaan edellä määritettyä aikuisten ja lasten tarkkaa määrää. Tämä on oletustoiminta. Määritä tämä vaihtoehto niin, että kaikki aikuisten tai lasten muunnelmat on määritetty kassalla siten, että se täyttää kaiken kaikkiaan \"Kapasiteetti\"-asetuksen manuaalisesti asettaman rajan. Esimerkiksi kokoonpano \"adults:5\", \"children:4\", \"capacity:5\" tarkoittaa, että majoituspaikkaan voi majoittua enintään 5 aikuista, enintään 4 lasta, mutta yhteensä enintään 5 vierasta (ei 9)."
+
+msgid "Size, %s"
+msgstr "Koko, %s"
+
+msgid "Leave blank to hide."
+msgstr "Jätä tyhjä piilottavaksi."
+
+msgid "Other"
+msgstr "Muu"
+
+msgid "City view, seaside, swimming pool etc."
+msgstr "Kaupunkinäkymä, merenranta, uima-allas jne."
+
+msgid "Bed type"
+msgstr "Sängyn tyyppi"
+
+msgid "Set bed types list in <a href=\"%link%\" target=\"_blank\">settings</a>."
+msgstr "Määritä vuodetyyppien luettelo <a href=\"%link%\" target=\"_blank\">asetuksissa</a>."
+
+msgid "Photo Gallery"
+msgstr "Kuvagalleria"
+
+msgid "Available Services"
+msgstr "Saatavissa olevaa palvelua"
+
+msgid "Season Info"
+msgstr "Kauden tiedot"
+
+msgid "Start date"
+msgstr "Alkamispäivä"
+
+msgid "End date"
+msgstr "Päättymispäivä"
+
+msgid "Applied for days"
+msgstr "Haetun päiviä"
+
+msgid "Hold Ctrl / Cmd to select multiple."
+msgstr "Valitse useita pitämällä Ctrl / Cmd-näppäimenä."
+
+msgctxt "Add New Season"
+msgid "Add New"
+msgstr "Lisää uusi"
+
+msgid "Add New Season"
+msgstr "Lisää uusi kausi"
+
+msgid "Edit Season"
+msgstr "Muokkaa kausi"
+
+msgid "New Season"
+msgstr "Uusi kausi"
+
+msgid "View Season"
+msgstr "Näytä kausi"
+
+msgid "Search Season"
+msgstr "Etsi Kausi"
+
+msgid "No seasons found"
+msgstr "Vuodenaikoja ei löytynyt"
+
+msgid "No seasons found in Trash"
+msgstr "Trashissa ei ole vuodenaikoja"
+
+msgid "Insert into season description"
+msgstr "Lisää kauden kuvaukseen"
+
+msgid "Uploaded to this season"
+msgstr "Ladattu tällä kaudella"
+
+msgid "This is where you can add new seasons."
+msgstr "Täällä voit lisätä uusia vuodenaikoja."
+
+msgid "Service"
+msgstr "Palvelu"
+
+msgctxt "Add New Service"
+msgid "Add New"
+msgstr "Lisää uusi"
+
+msgid "Add New Service"
+msgstr "Lisää uusi palvelu"
+
+msgid "Edit Service"
+msgstr "Muokkaa palvelua"
+
+msgid "New Service"
+msgstr "Uusi palvelu"
+
+msgid "View Service"
+msgstr "Näytä palvelun tiedot"
+
+msgid "Search Service"
+msgstr "Etsi palveluista"
+
+msgid "No services found"
+msgstr "Palveluita ei löytynyt"
+
+msgid "No services found in Trash"
+msgstr "Roskakorista ei löytynyt palveluita"
+
+msgid "Insert into service description"
+msgstr "Lisää palvelun kuvaukseen"
+
+msgid "Uploaded to this service"
+msgstr "Ladattu tähän palveluun"
+
+#. translators: do not translate
+msgctxt "slug"
+msgid "services"
+msgstr "services"
+
+msgid "How many times the customer will be charged."
+msgstr "Kuinka monta kertaa asiakkaalta veloitetaan."
+
+msgid "Minimum"
+msgstr "Minimi"
+
+msgid "Maximum"
+msgstr "Maksimi"
+
+msgid "Empty means unlimited"
+msgstr "Tyhjä tarkoittaa rajoittamatonta"
+
+msgctxt "Booking status"
+msgid "Pending"
+msgstr ""
+
+msgid "Total Sales"
+msgstr ""
+
+msgid "Total Without Taxes"
+msgstr ""
+
+msgid "Total Services"
+msgstr ""
+
+msgid "Total Discounts"
+msgstr ""
+
+msgid "Total Bookings"
+msgstr ""
+
+msgid "Revenue (Beta)"
+msgstr ""
+
+msgid "Apply"
+msgstr "Käytä"
+
+msgid "From %s to %s"
+msgstr ""
+
+msgid "Today"
+msgstr ""
+
+msgid "Yesterday"
+msgstr ""
+
+msgid "This week"
+msgstr ""
+
+msgid "Last week"
+msgstr ""
+
+msgid "Last 30 days"
+msgstr ""
+
+msgid "This month"
+msgstr ""
+
+msgid "Last month"
+msgstr ""
+
+msgid "This quarter"
+msgstr ""
+
+msgid "Last quarter"
+msgstr ""
+
+msgid "This year"
+msgstr ""
+
+msgid "Last year"
+msgstr ""
+
+#. translators: %s - original Rate title
+msgid "%s - copy"
+msgstr "%s - kopioi"
+
+msgid "Accommodation Type Gallery"
+msgstr "Majoitus Tyyppi Galleria"
+
+msgid "Add Gallery To Accommodation Type"
+msgstr "Lisää galleria majoitustyyppiin"
+
+msgid "Display imported bookings."
+msgstr "Näytä tuodut varaukset."
+
+msgid "Processing..."
+msgstr "Käsitellään…"
+
+msgid "Cancelling..."
+msgstr "Peruuttaminen..."
+
+msgid "Want to delete?"
+msgstr ""
+
+msgid "Not available"
+msgstr "Ei saatavilla"
+
+msgid "This is earlier than allowed by our advance reservation rules."
+msgstr ""
+
+msgid "This is later than allowed by our advance reservation rules."
+msgstr ""
+
+msgid "Day in the past"
+msgstr "Päivä menneisyydessä"
+
+msgid "Check-in date"
+msgstr "Saapumispäivä"
+
+msgid "Less than min days stay"
+msgstr "Alle min päivää oleskelua"
+
+msgid "More than max days stay"
+msgstr "Enemmän kuin max päivää oleskelua"
+
+msgid "Later than max date for current check-in date"
+msgstr "Nykyisen sisäänkuittauspäivämäärän enimmäispäivämäärää myöhässä"
+
+msgid "Rules:"
+msgstr "Säännöt:"
+
+msgid "Tokenisation failed: %s"
+msgstr "Tunnussanoma epäonnistui: %s"
+
+msgid "%1$d &times; &ldquo;%2$s&rdquo; has been added to your reservation."
+msgid_plural "%1$d &times; &ldquo;%2$s&rdquo; have been added to your reservation."
+msgstr[0] "%1$d &ajat; &ldquo;%2$s&rdquo; on lisätty varaukseesi."
+msgstr[1] ""
+
+msgid "%s accommodation selected."
+msgid_plural "%s accommodations selected."
+msgstr[0] "%s majoitus valittuna."
+msgstr[1] "%s majoitus on valittu."
+
+msgid "Coupon code is empty."
+msgstr "Kuponkikoodi on tyhjä."
+
+msgid "Dark Blue"
+msgstr "Tummansininen"
+
+msgid "Dark Green"
+msgstr "Tummanvihreä"
+
+msgid "Dark Red"
+msgstr "Tummanpunainen"
+
+msgid "Grayscale"
+msgstr "Harmaasävy"
+
+msgid "Light Blue"
+msgstr "Vaaleansininen"
+
+msgid "Light Coral"
+msgstr "Vaalea koralli"
+
+msgid "Light Green"
+msgstr "Vaaleanvihreä"
+
+msgid "Light Yellow"
+msgstr "Vaaleankeltainen"
+
+msgid "Minimal Blue"
+msgstr "Minimaalinen sininen"
+
+msgid "Minimal Orange"
+msgstr "Minimaalinen oranssi"
+
+msgid "Minimal"
+msgstr "Minimaalinen"
+
+msgid "Sky Blue"
+msgstr "Taivaan sininen"
+
+msgid "Slate Blue"
+msgstr "Liuskekivi Sininen"
+
+msgid "Turquoise"
+msgstr "Turkoosi"
+
+msgid "Invalid login or password."
+msgstr ""
+
+msgid "Account data updated."
+msgstr ""
+
+msgid "Password changed."
+msgstr ""
+
+msgid "Dashboard"
+msgstr ""
+
+msgid "Account"
+msgstr ""
+
+msgid "Logout"
+msgstr ""
+
+msgid "Passwords do not match."
+msgstr ""
+
+msgid "Please, provide a valid current password."
+msgstr ""
+
+msgid "Lost your password?"
+msgstr ""
+
+msgid "Payment:"
+msgstr "Maksu:"
+
+msgid "Payment Method:"
+msgstr "Maksutapa:"
+
+msgid "Status:"
+msgstr "Tila:"
+
+msgid "Checkout data is not valid."
+msgstr "Uloskuittaustiedot eivät kelpaa."
+
+msgid "Payment method is not valid."
+msgstr "Maksutapa ei kelpaa."
+
+msgid "Accommodation count is not valid."
+msgstr "Majoitusmäärä ei kelpaa."
+
+msgid "Accommodation is already booked."
+msgstr "Majoitus on jo varattu."
+
+msgid "Reservation submitted"
+msgstr "Varaus lähetetty"
+
+msgid "Details of your reservation have just been sent to you in a confirmation email. Please check your inbox to complete booking."
+msgstr "Varauksesi tiedot on lähetetty antamaasi sähköpostiosoitteeseen. Tarkista saapuvien viestien osio suorittaaksesi varauksen valmiiksi."
+
+msgid "We received your booking request. Once it is confirmed we will notify you via email."
+msgstr "Olemme saaneet varauspyyntösi. Lähetämme teille sähköpostin kun se on vahvistettu."
+
+msgid "Choose dates to see relevant prices"
+msgstr "Valitse päivämäärät nähdäksesi hinnat"
+
+msgid "Select from available accommodations."
+msgstr "Valitse saatavilla olevista majoituskohteista."
+
+msgid "Confirm Reservation"
+msgstr "Vahvista varaus"
+
+msgid "Recommended for %d adult"
+msgid_plural "Recommended for %d adults"
+msgstr[0] "Suositeltu  %d aikuiselle"
+msgstr[1] ""
+
+msgid " and %d child"
+msgid_plural " and %d children"
+msgstr[0] " and %d lapsi"
+msgstr[1] " and %d lapset"
+
+msgid "Recommended for %d guest"
+msgid_plural "Recommended for %d guests"
+msgstr[0] "Suositellaan %d vieraalle"
+msgstr[1] "Suositellaan %d vieraalle"
+
+msgid "Max occupancy:"
+msgstr "Max. majoittujat:"
+
+msgid "%d child"
+msgid_plural "%d children"
+msgstr[0] "%d lapsi"
+msgstr[1] "%d lapset"
+
+msgid "Reserve"
+msgstr "Varaa"
+
+msgid "of %d accommodation available."
+msgid_plural "of %d accommodations available."
+msgstr[0] "%d majoitusta."
+msgstr[1] "%d saatavilla olevaa majoitusta."
+
+#. translators: Verb. To book an accommodation.
+msgid "Book"
+msgstr "Varaa"
+
+msgid "Please, provide a valid email."
+msgstr ""
+
+msgid "Could not create a customer."
+msgstr ""
+
+msgid "Could not retrieve a customer."
+msgstr ""
+
+msgid "Please, provide a valid Customer ID."
+msgstr ""
+
+msgid "A database error."
+msgstr ""
+
+msgid "No customer was deleted."
+msgstr ""
+
+msgid "An account with this email already exists. Please, log in."
+msgstr ""
+
+msgid "Hotel Manager"
+msgstr ""
+
+msgid "Hotel Worker"
+msgstr ""
+
+msgid "Hotel Customer"
+msgstr ""
+
+msgid "Please provide a valid email address."
+msgstr ""
+
+msgid "Please enter a valid account username."
+msgstr ""
+
+msgid "An account is already registered with that username. Please choose another."
+msgstr ""
+
+msgid "Please enter an account password."
+msgstr ""
+
+msgid "Sunday"
+msgstr "Sunnuntai"
+
+msgid "Monday"
+msgstr "Maanantai"
+
+msgid "Tuesday"
+msgstr "Tiistai"
+
+msgid "Wednesday"
+msgstr "Keskiviikko"
+
+msgid "Thursday"
+msgstr "Torstai"
+
+msgid "Friday"
+msgstr "Perjantai"
+
+msgid "Saturday"
+msgstr "Lauantai"
+
+msgid "Check-out date cannot be earlier than check-in date."
+msgstr "Uloskirjautumispäivä ei voi olla aikaisempi kuin sisäänkuittaamispäivä."
+
+msgid "Adults number is not valid"
+msgstr "Aikuisten numero ei kelpaa"
+
+msgid "Children number is not valid"
+msgstr "Lasten numero ei kelpaa"
+
+msgctxt "Text about taxes and fees below the price."
+msgid " (+taxes and fees)"
+msgstr ""
+
+#. translators: %s is a tax value
+msgctxt "Text about taxes and fees below the price."
+msgid " (+%s taxes and fees)"
+msgstr ""
+
+msgctxt "Text about taxes and fees below the price."
+msgid " (includes taxes and fees)"
+msgstr ""
+
+msgctxt "Accommodation type in price breakdown table. Example: #1 Double Room"
+msgid "#%d %s"
+msgstr ""
+
+msgid "Expand"
+msgstr "Laajenna"
+
+msgid "Rate: %s"
+msgstr "Hinnasto: %s"
+
+msgid "Dates"
+msgstr "Päivämäärät"
+
+msgid "Dates Subtotal"
+msgstr "Päivämäärät Välisumma"
+
+msgid "Accommodation Taxes Subtotal"
+msgstr "MajoitusVerot Välisumma"
+
+msgid "Details"
+msgstr "Lisätiedot"
+
+msgid "Service Taxes Subtotal"
+msgstr "Palveluverot Välisumma"
+
+msgid "Fees Subtotal"
+msgstr "Maksut Yhteensä"
+
+msgid "Fee Taxes Subtotal"
+msgstr "Veroton välisumma"
+
+msgid "Subtotal"
+msgstr "Välisumma"
+
+msgid "Coupon: %s"
+msgstr ""
+
+msgid "Subtotal (excl. taxes)"
+msgstr ""
+
+msgid "Taxes"
+msgstr ""
+
+msgid "Coupon Code:"
+msgstr "Kuponkikoodi:"
+
+msgid "New Booking Details"
+msgstr "Uudet varaustiedot"
+
+msgid "Original Booking Details"
+msgstr "Alkuperäiset varaustiedot"
+
+msgid "Accommodation:"
+msgstr "Majoituskohde:"
+
+msgid "Children %s"
+msgstr "Lapset %s"
+
+msgid "Additional Services"
+msgstr "Lisäpalvelut"
+
+msgid "Accommodation pagination"
+msgstr "Majoitus pagination"
+
+msgid "Services pagination"
+msgstr "Palvelut sivutus"
+
+msgid "Categories:"
+msgstr "Kategoriat:"
+
+msgid "Amenities:"
+msgstr "Mukavuudet:"
+
+msgid "Guests:"
+msgstr "Vieraat:"
+
+msgid "Bed Type:"
+msgstr "Sängyn tyyppi:"
+
+msgid "View:"
+msgstr "Näytä:"
+
+msgid "Prices start at:"
+msgstr "Hinnat alkaen:"
+
+msgid "Price:"
+msgstr "Hinta:"
+
+msgid "x %d adult"
+msgid_plural "x %d adults"
+msgstr[0] "x %d Aikuiset"
+msgstr[1] ""
+
+msgid "Returning customer?"
+msgstr ""
+
+msgid "Click here to log in"
+msgstr ""
+
+#. translators: 1 - username;
+msgid "Hello %1$s (not %1$s? <a href=\"%2$s\">Log out</a>)."
+msgstr ""
+
+msgid "Accommodation #%d"
+msgstr "Majoituskohde #%d"
+
+msgid "Accommodation Type:"
+msgstr "Majoitus Tyyppi:"
+
+msgid "Choose Rate"
+msgstr "Valitse hinnasto"
+
+msgid "Choose Additional Services"
+msgstr "Valitse lisäpalvelut"
+
+msgid "for "
+msgstr "varten "
+
+msgctxt "Example: Breakfast for X guest(s)"
+msgid " guest(s)"
+msgstr " Vieraat"
+
+msgid "time(s)"
+msgstr "kerta(a)"
+
+msgctxt "I've read and accept the terms & conditions"
+msgid "terms & conditions"
+msgstr "ehdot & säännöt"
+
+msgctxt "I've read and accept the <tag>terms & conditions</tag>"
+msgid "I've read and accept the %s"
+msgstr "Olen lukenut ja hyväksynyt %s"
+
+msgid "Your Information"
+msgstr "Sinun tiedot"
+
+msgid "Required fields are followed by %s"
+msgstr "Seuraavat kentät ovat pakollisia %s"
+
+msgid "Create an account"
+msgstr ""
+
+msgid "Payment Method"
+msgstr "Maksutapa"
+
+msgid "Sorry, it seems that there are no available payment methods."
+msgstr "Valitettavasti näyttää siltä, että käytettävissä olevia maksutapoja ei ole."
+
+msgid "Total Price:"
+msgstr "Kokonaishinta:"
+
+msgid "Deposit:"
+msgstr "Tallennus:"
+
+msgid "Check-in:"
+msgstr "Saapumispäivä:"
+
+msgctxt "from 10:00 am"
+msgid "from"
+msgstr "alkaen"
+
+msgid "Check-out:"
+msgstr "Lähtöpäivä:"
+
+msgctxt "until 10:00 am"
+msgid "until"
+msgstr "saakka"
+
+msgid "Book Now"
+msgstr "Varaa nyt"
+
+msgid "Availability"
+msgstr "Saatavuus"
+
+msgid "Reservation Form"
+msgstr "Varauslomake"
+
+msgid "Display Accommodation Types"
+msgstr "Näytä majoitustyypit"
+
+msgid "Featured Image"
+msgstr "Artikkelikuva"
+
+msgid "Excerpt (short description)"
+msgstr "Ote (lyhyt kuvaus)"
+
+msgid "Book Button"
+msgstr "Kirja-painike"
+
+msgid "Search Availability"
+msgstr "Tarkasta saatavuus"
+
+msgid "Search Availability Form"
+msgstr "Haun saatavuuslomake"
+
+msgid "Title:"
+msgstr "Otsikko:"
+
+msgid "Check-in Date:"
+msgstr "Saapumispäivä:"
+
+msgctxt "Date format tip"
+msgid "Preset date. Formatted as %s"
+msgstr "Esiasetettu päivämäärä. Muotoiltu nimellä %s"
+
+msgid "Check-out Date:"
+msgstr "Lähtöpäivä:"
+
+msgid "Preset Adults:"
+msgstr "Esiasetettuja aikuisia:"
+
+msgid "Preset Children:"
+msgstr "Esiasetettuja lapsia:"
+
+msgid "Attributes:"
+msgstr "Määritteet:"
+
+msgid "Booking Confirmation and Search Results pages are required to handle bookings. Press \"Install Pages\" button to create and set up these pages. Dismiss this notice if you already installed them."
+msgstr "Varausten käsittelyyn tarvitaan varausten vahvistus- ja hakutulossivut. Luo ja määritä nämä sivut painamalla \"Asenna sivut\" -painiketta. Hylkää tämä ilmoitus, jos olet jo asentanut ne."
+
+msgid "Install Pages"
+msgstr "Sivujen asentaminen"
+
+msgid "Booking Canceled"
+msgstr "Varaus peruutettu"
+
+msgid "Your reservation is canceled."
+msgstr "Varauksesi on peruttu."
+
+msgid "Reservation Received"
+msgstr "Varaus vastaanotettu"
+
+msgid "Transaction Failed"
+msgstr "Maksutapahtuma epäonnistui"
+
+msgid "Unfortunately, your transaction cannot be completed at this time. Please try again or contact us."
+msgstr "Valitettavasti tapahtumaa ei voi suorittaa loppuun tällä hetkellä. Yritä uudelleen tai ota meihin yhteyttä."
+
+msgid "Prices start at: %s"
+msgstr "Hinnat alkavat: %s"
+
+msgid "View Details"
+msgstr "Katso tiedot"
+
+msgctxt "Date format tip"
+msgid "Formatted as %s"
+msgstr "Muotoiltu nimellä %s"
+
+msgid "Check Availability"
+msgstr "Tarkista saatavuus"
+
+msgid "Reserve %1$s of %2$s available accommodations."
+msgstr "Varaa %1$s of %2$s saatavilla olevista majoituskohteista."
+
+msgid "%s is available for selected dates."
+msgstr "%s on saatavilla valittuina päivinä."
+
+msgid "Rate:"
+msgstr "Arvostele:"
+
+msgid "Services:"
+msgstr "Palvelut:"
+
+msgid "Guest:"
+msgstr ""
+
+msgid "Payment ID"
+msgstr "Maksutunnus"
+
+msgid "Total Paid"
+msgstr "Maksetut yhteensä"
+
+msgid "To Pay"
+msgstr "Maksaa"
+
+msgid "Add Payment Manually"
+msgstr "Lisää maksu manuaalisesti"
+
+msgid "Change Password"
+msgstr ""
+
+msgid "Old Password"
+msgstr ""
+
+msgid "New Password"
+msgstr ""
+
+msgid "Confirm New Password"
+msgstr ""
+
+msgid "You are not allowed to access this page."
+msgstr ""
+
+msgid "No bookings found."
+msgstr "Varauksia ei löytynyt."
+
+msgid "From your account dashboard you can view <a href=\"%1$s\">your recent bookings</a> or edit your <a href=\"%2$s\">password and account details</a>."
+msgstr ""
+
+msgid "Base price"
+msgstr "Perushinta"
+
+msgid "%s accommodation found"
+msgid_plural "%s accommodations found"
+msgstr[0] "%s majoituskohde löytyi"
+msgstr[1] ""
+
+msgid " from %s - till %s"
+msgstr " alkaen %s - saakka %s"
+
+msgid "Add Accommodation"
+msgstr "Lisää majoitus"
+
+msgid "Save"
+msgstr "Tallenna"
+
+msgid "Choose new dates to check availability of reserved accommodations in the original booking."
+msgstr "Valitse uudet päivämäärät, jos haluat tarkistaa varatun majoituksen saatavuuden alkuperäisessä varauksessa."
+
+msgid "Add, remove or replace accommodations in the original booking."
+msgstr "Lisää, poista tai korvaa majoituksen alkuperäisessä varauksessa."
+
+msgid "Not Available"
+msgstr "Ei saatavilla"
+
+msgid "Continue"
+msgstr "Jatka"
+
+msgid "Choose how to associate data"
+msgstr "Tietojen liittämistavan valitseminen"
+
+msgid "Use Source Accommodation to assign pre-filled booking information available in the original booking, e.g., full guest name, selected rate, services, etc."
+msgstr "Lähdemajoitus-toiminnolla voit määrittää alustavat varaustiedot, jotka ovat saatavilla alkuperäisessä varauksessa, esimerkiksi koko asiakkaan nimi, valittu hinta, palvelut jne."
+
+msgid "Source accommodation"
+msgstr "Lähde majoitus"
+
+msgid "Target accommodation"
+msgstr "Majoitusta kohteessa Target"
+
+msgid "Booking #%s is cancelled by customer."
+msgstr "Varaus #%s on peruttu asiakkaan toimesta."
+
+msgid "Details of booking"
+msgstr "Varauksen tiedot"
+
+msgid "Check-in: %1$s, from %2$s"
+msgstr "Check-in: %1$s, alkaen %2$s"
+
+msgid "Check-out: %1$s, until %2$s"
+msgstr "Check-out: %1$s, saakka %2$s"
+
+msgid "Name: %1$s %2$s"
+msgstr "Nimi: %1$s %2$s"
+
+msgid "Email: %s"
+msgstr "Sähköposti: %s"
+
+msgid "Phone: %s"
+msgstr "Puhelinnumero: %s"
+
+msgid "Note: %s"
+msgstr "Viesti: %s"
+
+msgid "Booking #%s is confirmed by customer."
+msgstr "Varaus #%s asiakas on hyväksynyt."
+
+msgid "Booking #%s is confirmed by payment."
+msgstr "Varaus #%s maksu on hyväksytty."
+
+msgid "Details of payment"
+msgstr "Maksun tiedot"
+
+msgid "Payment ID: #%s"
+msgstr "Maksutunnus: #%s"
+
+msgid "Amount: %s"
+msgstr "Summa: %s"
+
+msgid "Method: %s"
+msgstr "Tapa: %s"
+
+msgid "Booking #%s is pending for Administrator approval."
+msgstr "Varaus #%s odottaa omistajan hyväksymistä."
+
+msgid "Click the link below to cancel your booking."
+msgstr "Klikkaa linkkiä alhaalla peruuttaaksesi varauksen."
+
+msgid "Cancel your booking"
+msgstr "Peruuta varaus"
+
+msgid "Dear %1$s %2$s, your reservation is approved!"
+msgstr "Hyvä %1$s %2$s, varauksesi on hyväksytty!"
+
+msgid "ID: #%s"
+msgstr "Maksutunnus: #%s"
+
+msgid "Thank you!"
+msgstr "Kiitos!"
+
+msgid "Dear %1$s %2$s, your reservation is cancelled!"
+msgstr "Hyvä %1$s %2$s, varauksesi on peruttu!"
+
+msgid "Dear %1$s %2$s, we received your request for reservation."
+msgstr "Hyvä %1$s %2$s, saimme pyynnön varauksestasi."
+
+msgid "Click the link below to confirm your booking."
+msgstr "Klikkaa linkkiä alhaalla vahvistaaksesi varauksen."
+
+msgid "Confirm"
+msgstr "Vahvista"
+
+msgid "Note: link expires on"
+msgstr "Muistutus: yhteys umpeutuu"
+
+msgid "UTC"
+msgstr "UTC-aika"
+
+msgid "If you did not place this booking, please ignore this email."
+msgstr "Jos et varannut tätä kohdetta, sivuuta tämä viesti."
+
+msgid "Dear %1$s %2$s, your reservation is pending."
+msgstr "Hyvä %1$s %2$s, varaustasi käsitellään."
+
+msgid "We will notify you by email once it is confirmed by our staff."
+msgstr "Lähetämme teille sähköpostin varauksesta kun se on vahvistettu."
+
+msgid "Hi %1$s %2$s,"
+msgstr ""
+
+msgid "Thanks for creating an account on %1$s."
+msgstr ""
+
+msgid "You Account Details"
+msgstr ""
+
+msgid "Login: %s"
+msgstr ""
+
+msgid "Password: %s"
+msgstr ""
+
+msgid "Log in here: %s"
+msgstr ""
+
+msgid "Accommodation #%s"
+msgstr "Majoituskohde  #%s"
+
+msgid "Accommodation: <a href=\"%1$s\">%2$s</a>"
+msgstr "Majoituskohde: <a href=\"%1$s\">%2$s</a>"
+
+msgid "Accommodation Rate: %s"
+msgstr "Majoituskohteen hinnasto: %s"
+
+msgid "Bed Type: %s"
+msgstr "Sängyn tyyppi: %s"
+
+msgid "Required fields are followed by"
+msgstr "Seuraavat kentät ovat pakollisia"
+
+msgid "Booking is already canceled."
+msgstr ""
+
+msgid "Cancel Booking"
+msgstr ""
+
+msgid "Invalid request."
+msgstr "Epäkelpo pyyntö."
+
+msgid "Cancelation of your booking is not possible for some reason. Please contact the website administrator."
+msgstr ""
+
+msgid "Booking is already confirmed."
+msgstr "Varaus on jo vahvistettu."
+
+msgid "Your booking is confirmed. Thank You!"
+msgstr "Varauksesi on vahvistettu. Kiitos!"
+
+msgid "Your booking request is expired. Please start a new booking request."
+msgstr "Varauksesi on umpeutunut. Aloita tekemällä uusi varaus."
+
+msgid "Confirmation of your booking request is not possible for some reason. Please start a new booking request."
+msgstr "Varauksen vahvistaminen ei jostain syystä onnistu. Tee uusi varaus."
+
+msgid "We are pleased to inform you that your reservation request has been received and confirmed."
+msgstr "Teidän varausvahvistus on saapunut ja vahvistettu."
+
+msgid "Booking:"
+msgstr "Varaus:"
+
+msgid "Details:"
+msgstr "Lisätiedot:"
+
+msgid "Thank you for your payment. Your transaction has been completed."
+msgstr "Kiitos maksusta. Tapahtumasi on suoritettu loppuun."
+
+msgid "We are pleased to inform you that your reservation request has been received."
+msgstr "Olemme iloisia voidessamme ilmoittaa teille, että varauspyyntösi on vastaanotettu."
+
+msgid "from %s"
+msgstr "mistä %s"
+
+msgid "No accommodations matching criteria."
+msgstr "Majoituskohteita ei löytynyt kategoriasta."
+
+msgid "No services matched criteria."
+msgstr "Mikään palvelu ei vastannut ehtoja."
+
+msgid "Nothing found."
+msgstr "Ei hakutuloksia."
+
+msgid "Children %s:"
+msgstr "Lapset %s:"
+
+msgid "Preset date. Formatted as %s"
+msgstr "Esiasetettu päivämäärä. Muotoiltu nimellä %s"
+
+msgid "Gallery"
+msgstr "Galleria"
+
+msgid "View Button"
+msgstr "Näytä-painike"
+
+msgid "Order"
+msgstr "Järjestys"
+
+msgid "Order By"
+msgstr "Järjestä"
+
+msgid "No order"
+msgstr "Ei lajittelua"
+
+msgid "Post ID"
+msgstr "Artikkelin ID"
+
+msgid "Post author"
+msgstr "Artikkelin kirjoittaja"
+
+msgid "Post title"
+msgstr "Post otsikko"
+
+msgid "Post name (post slug)"
+msgstr "Post nimi (post etana)"
+
+msgid "Post date"
+msgstr "Julkaisupäivä"
+
+msgid "Last modified date"
+msgstr "Viimeksi muokattu päivämäärä"
+
+msgid "Parent ID"
+msgstr "Parent tunnus"
+
+msgid "Random order"
+msgstr "Satunnainen järjestys"
+
+msgid "Number of comments"
+msgstr "Kommenttien määrä"
+
+msgid "Relevance"
+msgstr "Merkitys"
+
+msgid "Page order"
+msgstr "Sivun järjestys"
+
+msgid "Meta value"
+msgstr "Meta-arvo"
+
+msgid "Numeric meta value"
+msgstr "Numeerinen meta-arvo"
+
+msgid "Ascending (1, 2, 3)"
+msgstr "Nouseva (1, 2, 3)"
+
+msgid "Descending (3, 2, 1)"
+msgstr "Laskeva (3, 2, 1)"
+
+msgid "Meta Name"
+msgstr "Meta-nimi"
+
+msgid "Meta Type"
+msgstr "Meta-tyyppi"
+
+msgid "Specified type of the custom field. Can be used in conjunction with \"orderby\" = \"meta_value\"."
+msgstr "Mukautetun kentän määritetty tyyppi. Voidaan käyttää yhdessä \"orderby\" = \"meta_value\"."
+
+msgid "Any"
+msgstr "Kaikki"
+
+msgid "Numeric"
+msgstr "Numeerinen"
+
+msgid "Binary"
+msgstr ""
+
+msgid "String"
+msgstr "Merkkijono"
+
+msgid "Time"
+msgstr "Aika"
+
+msgid "Date and time"
+msgstr "Päivämäärä ja kellonaika"
+
+msgid "Decimal number"
+msgstr "Desimaaliluku"
+
+msgid "Signed number"
+msgstr "Allekirjoitettu numero"
+
+msgid "Unsigned number"
+msgstr "Allekirjoittamaton numero"
+
+msgid "Query Settings"
+msgstr "Kyselyn asetukset"
+
+msgid "Relation"
+msgstr "Suhde"
+
+msgid "Values: integer, -1 to display all, default: \"Blog pages show at most\""
+msgstr "Arvot: kokonaisluku, -1 näyttää kaikki, oletus: \"Blogi sivut näkyvät enintään\""
+

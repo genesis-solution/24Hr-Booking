@@ -1,0 +1,13 @@
+<?php
+/**
+ * Map View Title Template
+ * The title template for the map view of events.
+ *
+ * Override this template in your own theme by creating a file at [your-theme]/tribe-events/pro/map/title-bar.php
+ *
+ * @package TribeEventsCalendar
+ * @version 4.4.28
+ * @since   4.4.28
+ *
+ */
+?>

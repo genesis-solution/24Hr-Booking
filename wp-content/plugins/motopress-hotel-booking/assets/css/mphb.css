@@ -1,0 +1,585 @@
+.mphb-hide {
+  display: none !important;
+}
+.mphb-clear {
+  clear: both;
+}
+.mphb-preloader {
+  background-image: url("../../images/loading.gif?ver=4.8.8");
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+}
+.mphb-price-period {
+  border-bottom: 1px dashed;
+  cursor: help;
+}
+/* Calendar */
+.mphb-calendar {
+  --mphb-available-date-bg: #cef093;
+  --mphb-available-date-color: #000000;
+  --mphb-not-available-date-bg: #dddddd;
+  --mphb-not-available-date-color: #777777;
+  --mphb-booked-date-bg: #dddddd;
+  --mphb-booked-date-color: #777777;
+  --mphb-out-of-season-date-bg: #dddddd;
+  --mphb-out-of-season-date-color: #777777;
+  --mphb-selected-date-bg: #404040;
+  --mphb-selected-date-color: #ffffff;
+  --mphb-unselectable-date-color: #777777;
+}
+.mphb-calendar.mphb-loading .datepick {
+  position: relative;
+}
+.mphb-calendar.mphb-loading .datepick:before {
+  content: '';
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.5);
+  background-image: url("../../images/loading.gif?ver=4.8.8");
+  background-size: 20px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+.mphb-calendar .datepick-month-header select {
+  display: inline-block !important;
+  width: auto !important;
+}
+.mphb-calendar .datepick-month table {
+  border-collapse: collapse;
+  height: 100%;
+  margin-bottom: 0;
+}
+.mphb-calendar .datepick-month td {
+  padding: 0;
+}
+.mphb-calendar .datepick-month td > span {
+  height: 100%;
+}
+.mphb-calendar .datepick-month td span .mphb-date-cell__price,
+.mphb-calendar .datepick-month td a .mphb-date-cell__price {
+  white-space: nowrap;
+  overflow: hidden;
+  word-break: keep-all;
+  font-size: 10px;
+  padding: 0;
+  margin: 0 0.125em;
+  width: auto;
+  color: inherit;
+  line-height: 1.5;
+}
+.mphb-calendar .datepick-month td span .mphb-date-cell__price span,
+.mphb-calendar .datepick-month td a .mphb-date-cell__price span {
+  padding: 0;
+  display: inline;
+  color: inherit;
+}
+.mphb-calendar td .mphb-date-cell {
+  color: var(--mphb-available-date-color, #000000);
+}
+.mphb-calendar td .mphb-available-date {
+  background-color: var(--mphb-available-date-bg, #cef093);
+}
+.mphb-calendar td .mphb-past-date {
+  opacity: 0.15;
+  background-color: #eee;
+  color: #888;
+}
+.mphb-calendar td .mphb-out-of-season-date--check-in {
+  background: linear-gradient(to bottom right, var(--mphb-available-date-bg, #cef093) 0%, var(--mphb-available-date-bg, #cef093) 50%, var(--mphb-out-of-season-date-bg, #dddddd) 50%, var(--mphb-out-of-season-date-bg, #dddddd) 100%);
+}
+.mphb-calendar td .mphb-out-of-season-date--check-out {
+  background: linear-gradient(to top left, var(--mphb-available-date-bg, #cef093) 0%, var(--mphb-available-date-bg, #cef093) 50%, var(--mphb-out-of-season-date-bg, #dddddd) 50%, var(--mphb-out-of-season-date-bg, #dddddd) 100%);
+}
+.mphb-calendar td .mphb-out-of-season-date--check-in.mphb-mark-as-unavailable--check-out {
+  background: linear-gradient(to bottom right, var(--mphb-not-available-date-bg, #dddddd) 0%, var(--mphb-not-available-date-bg, #dddddd) 50%, var(--mphb-out-of-season-date-bg, #dddddd) 50%, var(--mphb-out-of-season-date-bg, #dddddd) 100%);
+}
+.mphb-calendar td .mphb-out-of-season-date--check-out.mphb-mark-as-unavailable,
+.mphb-calendar td .mphb-out-of-season-date--check-out.mphb-mark-as-unavailable--check-in {
+  background: linear-gradient(to top left, var(--mphb-not-available-date-bg, #dddddd) 0%, var(--mphb-not-available-date-bg, #dddddd) 50%, var(--mphb-out-of-season-date-bg, #dddddd) 50%, var(--mphb-out-of-season-date-bg, #dddddd) 100%);
+}
+.mphb-calendar td .mphb-out-of-season-date,
+.mphb-calendar td .mphb-out-of-season-date--check-in.mphb-out-of-season-date--check-out {
+  background: var(--mphb-out-of-season-date-bg, #dddddd);
+  color: var(--mphb-out-of-season-date-color, #777777);
+}
+.mphb-calendar td .mphb-mark-as-unavailable--check-in {
+  background: linear-gradient(to bottom right, var(--mphb-available-date-bg, #cef093) 0%, var(--mphb-available-date-bg, #cef093) 50%, var(--mphb-not-available-date-bg, #dddddd) 50%, var(--mphb-not-available-date-bg, #dddddd) 100%);
+}
+.mphb-calendar td .mphb-mark-as-unavailable--check-in.mphb-out-of-season-date,
+.mphb-calendar td .mphb-mark-as-unavailable--check-in.mphb-out-of-season-date--check-in.mphb-out-of-season-date--check-out {
+  color: var(--mphb-not-available-date-color, #777777);
+  background: linear-gradient(to bottom right, var(--mphb-not-available-date-bg, #dddddd) 0%, var(--mphb-not-available-date-bg, #dddddd) 50%, var(--mphb-out-of-season-date-bg, #dddddd) 50%, var(--mphb-out-of-season-date-bg, #dddddd) 100%);
+}
+.mphb-calendar td .mphb-mark-as-unavailable--check-out {
+  background: linear-gradient(to top left, var(--mphb-available-date-bg, #cef093) 0%, var(--mphb-available-date-bg, #cef093) 50%, var(--mphb-not-available-date-bg, #dddddd) 50%, var(--mphb-not-available-date-bg, #dddddd) 100%);
+}
+.mphb-calendar td .mphb-mark-as-unavailable--check-out.mphb-out-of-season-date,
+.mphb-calendar td .mphb-mark-as-unavailable--check-out.mphb-out-of-season-date--check-in.mphb-out-of-season-date--check-out {
+  color: var(--mphb-not-available-date-color, #777777);
+  background: linear-gradient(to bottom right, var(--mphb-not-available-date-bg, #dddddd) 0%, var(--mphb-not-available-date-bg, #dddddd) 50%, var(--mphb-out-of-season-date-bg, #dddddd) 50%, var(--mphb-out-of-season-date-bg, #dddddd) 100%);
+}
+.mphb-calendar td .mphb-mark-as-unavailable,
+.mphb-calendar td .mphb-mark-as-unavailable--check-in.mphb-mark-as-unavailable--check-out {
+  background: var(--mphb-not-available-date-bg, #dddddd);
+  color: var(--mphb-not-available-date-color, #777777);
+}
+.mphb-calendar td .mphb-booked-date {
+  background: var(--mphb-booked-date-bg, #dddddd);
+  color: var(--mphb-booked-date-color, #777777);
+}
+.mphb-calendar td .mphb-date-check-in {
+  color: var(--mphb-available-date-color, #000000);
+  background: linear-gradient(to bottom right, var(--mphb-available-date-bg, #cef093) 0%, var(--mphb-available-date-bg, #cef093) 50%, var(--mphb-booked-date-bg, #dddddd) 50%, var(--mphb-booked-date-bg, #dddddd) 100%);
+}
+.mphb-calendar td .mphb-date-check-in.mphb-mark-as-unavailable,
+.mphb-calendar td .mphb-date-check-in.mphb-mark-as-unavailable--check-out {
+  color: var(--mphb-booked-date-color, #777777);
+  background: linear-gradient(to bottom right, var(--mphb-not-available-date-bg, #dddddd) 0%, var(--mphb-not-available-date-bg, #dddddd) 50%, var(--mphb-booked-date-bg, #dddddd) 50%, var(--mphb-booked-date-bg, #dddddd) 100%);
+}
+.mphb-calendar td .mphb-date-check-in.mphb-out-of-season-date--check-out {
+  color: var(--mphb-booked-date-color, #777777);
+  background: linear-gradient(to top left, var(--mphb-booked-date-bg, #dddddd) 0%, var(--mphb-booked-date-bg, #dddddd) 50%, var(--mphb-out-of-season-date-bg, #dddddd) 50%, var(--mphb-out-of-season-date-bg, #dddddd) 100%);
+}
+.mphb-calendar td .mphb-date-check-out {
+  background: linear-gradient(to top left, var(--mphb-available-date-bg, #cef093) 0%, var(--mphb-available-date-bg, #cef093) 50%, var(--mphb-booked-date-bg, #dddddd) 50%, var(--mphb-booked-date-bg, #dddddd) 100%);
+}
+.mphb-calendar td .mphb-date-check-out.mphb-mark-as-unavailable,
+.mphb-calendar td .mphb-date-check-out.mphb-mark-as-unavailable--check-in {
+  color: var(--mphb-booked-date-color, #777777);
+  background: linear-gradient(to bottom right, var(--mphb-booked-date-bg, #dddddd) 0%, var(--mphb-booked-date-bg, #dddddd) 50%, var(--mphb-not-available-date-bg, #dddddd) 50%, var(--mphb-not-available-date-bg, #dddddd) 100%);
+}
+.mphb-calendar td .mphb-date-check-out.mphb-out-of-season-date--check-in {
+  color: var(--mphb-booked-date-color, #777777);
+  background: linear-gradient(to bottom right, var(--mphb-booked-date-bg, #dddddd) 0%, var(--mphb-booked-date-bg, #dddddd) 50%, var(--mphb-out-of-season-date-bg, #dddddd) 50%, var(--mphb-out-of-season-date-bg, #dddddd) 100%);
+}
+.mphb-calendar td .mphb-unselectable-date--check-in,
+.mphb-calendar td .mphb-unselectable-date--check-out {
+  color: var(--mphb-unselectable-date-color, #777777);
+}
+.mphb-calendar td .mphb-selected-date,
+.mphb-calendar td .mphb-selected-date--check-in,
+.mphb-calendar td .mphb-selected-date--check-out,
+.mphb-calendar td .mphb-selectable-date--check-in:hover,
+.mphb-calendar td .mphb-selectable-date--check-out:hover {
+  background: var(--mphb-selected-date-bg, #89B63C);
+  color: var(--mphb-selected-date-color, #777777);
+}
+.mphb-calendar .datepick-ctrl {
+  display: flex;
+  background-color: #eee;
+  color: #222;
+  border-radius: 0.25em;
+  font-weight: 400;
+}
+.mphb-calendar .datepick-ctrl a,
+.mphb-calendar .datepick-ctrl a:hover {
+  color: inherit;
+  background-color: transparent;
+}
+.mphb-calendar .datepick-ctrl .mphb-calendar__selected-dates {
+  width: 100%;
+  padding: 0 0.25em;
+}
+.mphb-calendar .datepick-ctrl .datepick-cmd-clear {
+  width: auto;
+  padding: 0 0.25em;
+  line-height: inherit;
+}
+.mphb-booking-form.mphb-loading {
+  position: relative;
+}
+.mphb-booking-form.mphb-loading:before {
+  content: '';
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.5);
+  background-image: url("../../images/loading.gif?ver=4.8.8");
+  background-size: 20px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+/*.mphb-room-type-gallery{
+	margin-left: 0;
+	li{
+		display: inline-block;
+		list-style-type: none;
+	}
+}*/
+/* Datepickers */
+.datepick-popup.mphb-loading {
+  position: relative;
+  pointer-events: none;
+}
+.datepick-popup.mphb-loading:before {
+  content: '';
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.5);
+  background-image: url("../../images/loading.gif?ver=4.8.8");
+  background-size: 20px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+.mphb-datepick-popup .datepick-month-header select {
+  display: inline-block !important;
+  width: auto !important;
+}
+.mphb-datepick-popup .datepick-month td {
+  /*  Extra day before or after the main month */
+  /* Booked date */
+  /* Available date */
+  /* Date that earlier than today */
+}
+.mphb-datepick-popup .datepick-month td .mphb-booked-date:not(.mphb-selectable-date) {
+  opacity: 0.5;
+  background-color: #eee;
+  color: #888;
+}
+.mphb-datepick-popup .datepick-month td .mphb-past-date {
+  opacity: 0.15;
+  background-color: #eee;
+  color: #888;
+}
+.mphb-datepick-popup .datepick-month td .mphb-earlier-min-date,
+.mphb-datepick-popup .datepick-month td .mphb-later-max-date {
+  opacity: 0.5;
+  background-color: #eee;
+  color: #888;
+}
+.mphb-datepick-popup .datepick-month td .mphb-earlier-check-in-date {
+  opacity: 0.15;
+  background-color: #eee;
+  color: #888;
+}
+.mphb-datepick-popup .datepick-month td .mphb-check-in-date {
+  background-color: #cef093;
+}
+.mphb-datepick-popup .datepick-month td a.datepick-today {
+  background-color: #fffaf0;
+}
+.mphb-datepick-popup .datepick-month td a.datepick-highlight,
+.mphb-datepick-popup .datepick-month td a.datepick-selected {
+  background-color: #404040;
+  color: #fff;
+}
+.mphb-datepick-popup .datepick-month td span.mphb-check-in-date {
+  background-color: #606060;
+  color: #fff;
+}
+.mphb-datepick-popup .mphb-selectable-date {
+  cursor: pointer;
+}
+@media screen and (min-width: 769px) {
+  .mphb_sc_availability_calendar-wrapper .mphb-calendar[data-monthstoshow$="1"] .datepick-month {
+    width: 100%;
+  }
+  .mphb_sc_availability_calendar-wrapper .mphb-calendar[data-monthstoshow$="2"] .datepick-month {
+    width: 50%;
+  }
+  .mphb_sc_availability_calendar-wrapper .mphb-calendar[data-monthstoshow$="3"] .datepick-month {
+    width: 33.33%;
+  }
+  .mphb_sc_availability_calendar-wrapper .mphb-calendar[data-monthstoshow$="4"] .datepick-month {
+    width: 25%;
+  }
+  .mphb_sc_availability_calendar-wrapper .mphb-calendar[data-monthstoshow$="5"] .datepick-month {
+    width: 20%;
+  }
+}
+.mphb_widget_rooms-wrapper .mphb-widget-room-type-title,
+.mphb_widget_rooms-wrapper .mphb-widget-room-type-price,
+.mphb_widget_rooms-wrapper .mphb-widget-room-type-book-button {
+  margin: 1em 0;
+}
+.mphb_widget_rooms-wrapper .mphb-widget-room-type-attributes,
+.mphb_widget_rooms-wrapper .mphb-widget-room-type-description,
+.mphb_widget_rooms-wrapper .mphb-widget-room-type-featured-image {
+  margin: 1em 0;
+}
+.mphb_widget_rooms-wrapper .mphb-widget-room-type-title > a,
+.mphb_widget_rooms-wrapper .mphb-widget-room-type-price .mphb-price {
+  font-weight: bold;
+}
+.mphb_widget_rooms-wrapper .mphb-room-type:not(:first-of-type) {
+  margin-top: 2em;
+}
+.mphb_sc_rooms-wrapper .mphb-room-type:not(:first-of-type),
+.mphb_sc_services-wrapper .mphb-service:not(:first-of-type),
+.mphb_sc_search_results-wrapper .mphb-room-type:not(:first-of-type) {
+  margin-top: 4em;
+}
+.mphb_sc_checkout-form > .mphb-checkout-section:not(:first-of-type),
+.mphb_cb_checkout_form > .mphb-checkout-section:not(:first-of-type) {
+  margin-top: 4em;
+}
+.mphb_sc_checkout-form .mphb_checkout-service-quantity,
+.mphb_cb_checkout_form .mphb_checkout-service-quantity {
+  width: 100px;
+  display: inline-block;
+}
+.mphb_sc_checkout-form .mphb-price-breakdown .mphb-price-breakdown-expand > .mphb-inner-icon,
+.mphb_cb_checkout_form .mphb-price-breakdown .mphb-price-breakdown-expand > .mphb-inner-icon {
+  font-family: sans-serif;
+  font-size: 1em;
+  margin-right: 0.75em;
+  border: 1px solid currentColor;
+  width: 1em;
+  height: 1em;
+  line-height: 1em;
+  display: inline-block;
+  text-align: center;
+  box-sizing: content-box;
+  pointer-events: none;
+}
+.mphb_sc_checkout-form .mphb-price-breakdown .mphb-table-price-column,
+.mphb_cb_checkout_form .mphb-price-breakdown .mphb-table-price-column {
+  width: 33%;
+}
+.mphb_sc_checkout-form .mphb-gateways-list,
+.mphb_cb_checkout_form .mphb-gateways-list {
+  list-style: none;
+}
+.mphb_sc_checkout-form .mphb-gateways-list > li,
+.mphb_cb_checkout_form .mphb-gateways-list > li {
+  margin-top: 1em;
+}
+.mphb_sc_checkout-form .mphb-billing-fields,
+.mphb_cb_checkout_form .mphb-billing-fields {
+  margin-bottom: 1em;
+  border: none;
+}
+.mphb_sc_checkout-form .mphb-billing-fields-hidden,
+.mphb_cb_checkout_form .mphb-billing-fields-hidden {
+  display: none;
+}
+.mphb_sc_checkout-form .mphb-billing-fields input[data-beanstream-id],
+.mphb_cb_checkout_form .mphb-billing-fields input[data-beanstream-id] {
+  background-position: right center;
+  background-repeat: no-repeat;
+}
+.mphb_sc_checkout-form .mphb-billing-fields fieldset,
+.mphb_cb_checkout_form .mphb-billing-fields fieldset {
+  border: none;
+  padding: 0;
+}
+.mphb_sc_checkout-form .mphb-terms-and-conditions,
+.mphb_cb_checkout_form .mphb-terms-and-conditions {
+  margin-bottom: 0;
+  padding-left: 2em;
+  padding-right: 2em;
+  max-height: 0px;
+  overflow: hidden;
+  transition: margin-bottom 0.2s linear, padding 0.2s linear, max-height 0.4s linear;
+  background: rgba(0, 0, 0, 0.05);
+}
+.mphb_sc_checkout-form .mphb-terms-and-conditions.mphb-active,
+.mphb_cb_checkout_form .mphb-terms-and-conditions.mphb-active {
+  margin-bottom: 1em;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  max-height: 200px;
+  overflow: auto;
+}
+.mphb_sc_checkout-wrapper .mphb-login-form-wrap {
+  margin-bottom: 4em;
+}
+.mphb_cb_checkout_form > .mphb-checkout-section:not(:first-of-type) {
+  margin-top: 0;
+}
+.mphb_sc_checkout-services-list,
+.mphb_checkout-services-list {
+  list-style: none;
+}
+.mphb_sc_search_results-wrapper .mphb-reservation-cart {
+  margin-bottom: 4em;
+}
+.mphb_sc_search_results-wrapper .mphb-reservation-cart .mphb-reservation-details {
+  float: left;
+}
+.mphb_sc_search_results-wrapper .mphb-reservation-cart .mphb-cart-message {
+  margin-bottom: 0;
+}
+.mphb_sc_search_results-wrapper .mphb-reservation-cart .mphb-confirm-reservation {
+  float: right;
+}
+.mphb_sc_search_results-wrapper .mphb-reservation-cart.mphb-empty-cart .mphb-confirm-reservation,
+.mphb_sc_search_results-wrapper .mphb-reservation-cart.mphb-empty-cart .mphb-cart-message,
+.mphb_sc_search_results-wrapper .mphb-reservation-cart.mphb-empty-cart .mphb-cart-total-price {
+  display: none !important;
+}
+.mphb_sc_search_results-wrapper .mphb-reservation-cart:not(.mphb-empty-cart) .mphb-empty-cart-message {
+  display: none !important;
+}
+.mphb_sc_search_results-wrapper .mphb-reserve-room-section:not(.mphb-rooms-added) .mphb-confirm-reservation,
+.mphb_sc_search_results-wrapper .mphb-reserve-room-section:not(.mphb-rooms-added) .mphb-rooms-reservation-message-wrapper {
+  display: none !important;
+}
+.mphb_sc_search_results-wrapper .mphb-reserve-room-section .mphb-rooms-reservation-message-wrapper .mphb-remove-from-reservation {
+  float: right;
+}
+.mphb_sc_search_results-wrapper .mphb-recommendation-details-list:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+.mphb_sc_search_results-wrapper .mphb-recommendation .mphb-recommendation-item-guests {
+  display: block;
+}
+.mphb_sc_search_results-wrapper .mphb-recommendation .mphb-recommedation-item-subtotal {
+  float: right;
+  margin-left: 1em;
+}
+.mphb_sc_search_results-wrapper .mphb-recommendation .mphb-recommendation-total {
+  float: right;
+}
+.mphb_sc_search_results-wrapper .mphb-recommendation .mphb-recommendation-reserve-button {
+  float: right;
+  clear: right;
+}
+.mphb_sc_booking_confirmation .mphb-booking-details-section + .mphb-booking-details-section {
+  margin-top: 2em;
+}
+.mphb_sc_booking_confirmation .mphb-booking-details-section .mphb-booking-details {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+.mphb_sc_booking_confirmation .mphb-booking-details-section .mphb-booking-details > li {
+  flex: 1 0 100%;
+  padding-left: 0;
+  margin: 0 0 0.5em 0;
+}
+@media screen and (min-width: 768px) {
+  .mphb_sc_booking_confirmation .mphb-booking-details-section .mphb-booking-details > li {
+    flex: 1 0 auto;
+    margin: 0 1.5em 1.5em 0;
+    padding-right: 1.5em;
+    border-right: 1px dashed #d3ced2;
+  }
+}
+.mphb_sc_booking_confirmation .mphb-booking-details-section .mphb-booking-details > li:last-of-type {
+  border: none;
+  margin-right: 0;
+  padding-right: 0;
+}
+@media screen and (min-width: 768px) {
+  .mphb_sc_booking_confirmation .mphb-booking-details-section .mphb-booking-details > li span.label {
+    display: block;
+    font-size: 0.85em;
+  }
+}
+.mphb_sc_booking_confirmation .mphb-booking-details-section .mphb-booking-details > li span.value {
+  font-weight: bold;
+}
+.mphb_sc_account:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+@media screen and (min-width: 768px) {
+  .mphb_sc_account .mphb-account-menu {
+    float: left;
+    width: 25%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .mphb_sc_account .mphb-account-content {
+    float: right;
+    width: 73%;
+  }
+}
+.mphb_sc_account .mphb-account-bookings {
+  table-layout: auto;
+  font-size: 0.85em;
+}
+@media screen and (max-width: 767px) {
+  .mphb_sc_account .mphb-account-bookings thead {
+    display: none;
+  }
+  .mphb_sc_account .mphb-account-bookings tr {
+    display: block;
+    margin-bottom: 1em;
+  }
+  .mphb_sc_account .mphb-account-bookings tr:last-child {
+    margin-bottom: 0;
+  }
+  .mphb_sc_account .mphb-account-bookings td {
+    display: block;
+    text-align: right;
+  }
+  .mphb_sc_account .mphb-account-bookings td:before {
+    content: attr(data-title) ": ";
+    float: left;
+    font-weight: 700;
+  }
+}
+#mphb-stripe-payment-methods > ul {
+  cursor: pointer;
+  margin: 0 0 0.5em 0;
+  padding: 0;
+  list-style: none;
+}
+#mphb-stripe-payment-methods .mphb-stripe-payment-method {
+  display: inline-block;
+  margin: 0 1.5em 0 0;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+#mphb-stripe-payment-methods .mphb-stripe-payment-method:last-of-type {
+  margin-right: 0;
+}
+#mphb-stripe-payment-methods .mphb-stripe-payment-method.active label {
+  box-shadow: 0 2px currentColor;
+}
+#mphb-stripe-payment-methods .mphb-stripe-payment-method label {
+  cursor: pointer;
+}
+#mphb-stripe-payment-methods .mphb-stripe-payment-method input[type="radio"] {
+  display: none;
+}
+.mphb-stripe-payment-container {
+  margin-bottom: 1em;
+  /**
+	* The CSS shown here will not be introduced in the Quickstart guide, but shows
+	* how you can use CSS to style your Element's container.
+	*/
+}
+.mphb-stripe-payment-container .StripeElement {
+  box-sizing: border-box;
+  padding: 15px 12px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  background-color: white;
+  box-shadow: 0 1px 6px 0 #e6ebf1;
+  -webkit-transition: box-shadow 150ms ease;
+  transition: box-shadow 150ms ease;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+.mphb-stripe-payment-container .StripeElement--focus {
+  box-shadow: 0 1px 3px 0 #cfd7df;
+}
+.mphb-stripe-payment-container .StripeElement--invalid {
+  border-color: #fa755a;
+}
+.mphb-stripe-payment-container .StripeElement--webkit-autofill {
+  background-color: #fefde5 !important;
+}
+#mphb-stripe-errors {
+  color: #e25950;
+}

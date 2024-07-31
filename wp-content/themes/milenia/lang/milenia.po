@@ -1,0 +1,2400 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Milenia 1.0.0\n"
+"POT-Creation-Date: 2020-12-21 13:18+0200\n"
+"PO-Revision-Date: 2020-12-21 13:18+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_attr_e;_n;_nx;esc_html__;"
+"esc_attr__\n"
+"X-Poedit-SearchPath-0: admin/domain\n"
+"X-Poedit-SearchPath-1: admin/class-tgm-plugin-activation.php\n"
+"X-Poedit-SearchPath-2: admin/milenia-plugins-bundle.php\n"
+"X-Poedit-SearchPath-3: hotel-booking\n"
+"X-Poedit-SearchPath-4: includes/functions-core.php\n"
+"X-Poedit-SearchPath-5: includes/hooks.php\n"
+"X-Poedit-SearchPath-6: includes/widget-areas.php\n"
+"X-Poedit-SearchPath-7: includes/domain/Milenia.php\n"
+"X-Poedit-SearchPath-8: includes/domain/MileniaHelper.php\n"
+"X-Poedit-SearchPath-9: includes/config-contact-form-7/"
+"MileniaContactForm7Config.php\n"
+"X-Poedit-SearchPath-10: template-parts\n"
+"X-Poedit-SearchPath-11: tribe-events\n"
+"X-Poedit-SearchPath-12: 404.php\n"
+"X-Poedit-SearchPath-13: archive.php\n"
+"X-Poedit-SearchPath-14: attachment.php\n"
+"X-Poedit-SearchPath-15: comments.php\n"
+"X-Poedit-SearchPath-16: footer.php\n"
+"X-Poedit-SearchPath-17: functions.php\n"
+"X-Poedit-SearchPath-18: header.php\n"
+"X-Poedit-SearchPath-19: index.php\n"
+"X-Poedit-SearchPath-20: page.php\n"
+"X-Poedit-SearchPath-21: search.php\n"
+"X-Poedit-SearchPath-22: searchform.php\n"
+"X-Poedit-SearchPath-23: sidebar.php\n"
+"X-Poedit-SearchPath-24: single.php\n"
+
+#: 404.php:12 admin/domain/MileniaAdmin.php:12
+#: admin/domain/MileniaConfigurator.php:14 admin/domain/MileniaLayout.php:12
+#: admin/domain/interfaces/ConfigurableInterface.php:12
+#: admin/domain/interfaces/LayoutInterface.php:12
+#: admin/milenia-plugins-bundle.php:13 archive.php:12 attachment.php:12
+#: comments.php:12 footer.php:12 functions.php:28 header.php:12
+#: hotel-booking/single-room-type-full-width.php:13
+#: hotel-booking/single-room-type-sidebar.php:13
+#: hotel-booking/single-room-type.php:12
+#: includes/config-contact-form-7/MileniaContactForm7Config.php:14
+#: includes/domain/Milenia.php:14 includes/domain/MileniaHelper.php:14
+#: includes/functions-core.php:4 includes/hooks.php:4
+#: includes/widget-areas.php:12 index.php:17 page.php:12 search.php:12
+#: searchform.php:4 sidebar.php:12 single.php:12
+#: template-parts/breadcrumb.php:11 template-parts/content-none.php:13
+#: template-parts/header/header-layout-v1.php:12
+#: template-parts/header/header-layout-v2.php:12
+#: template-parts/header/header-layout-v3.php:12
+#: template-parts/header/header-layout-v4.php:12
+#: template-parts/header/header-layout-v5.php:12
+#: template-parts/milenia-galleries/archive-milenia-galleries.php:13
+#: template-parts/milenia-galleries/milenia-galleries-post.php:12
+#: template-parts/milenia-galleries/single-milenia-galleries.php:13
+#: template-parts/milenia-offers/archive-milenia-offers.php:12
+#: template-parts/milenia-offers/single-milenia-offers.php:12
+#: template-parts/milenia-portfolio/archive-milenia-portfolio.php:12
+#: template-parts/milenia-portfolio/milenia-portfolio-post.php:12
+#: template-parts/milenia-portfolio/milenia-portfolio-single-layout-gallery.php:12
+#: template-parts/milenia-portfolio/milenia-portfolio-single-layout-slideshow.php:12
+#: template-parts/milenia-portfolio/single-milenia-portfolio.php:13
+#: template-parts/milenia-rooms/archive-milenia-rooms.php:12
+#: template-parts/milenia-rooms/milenia-rooms-post.php:12
+#: template-parts/milenia-team-members/archive-milenia-team-members.php:12
+#: template-parts/milenia-team-members/single-milenia-team-members.php:12
+#: template-parts/milenia-testimonials/archive-milenia-testimonials.php:12
+#: template-parts/milenia-testimonials/single-milenia-testimonials.php:12
+#: template-parts/page-layouts/page-layout-blogroll.php:12
+#: template-parts/page-layouts/page-layout-default.php:12
+#: template-parts/page-layouts/page-layout-gallery.php:13
+#: template-parts/page-layouts/page-layout-portfolio.php:13
+#: template-parts/post/archive-post.php:12
+#: template-parts/post/post-format-media-audio.php:12
+#: template-parts/post/post-format-media-gallery.php:12
+#: template-parts/post/post-format-media-link.php:12
+#: template-parts/post/post-format-media-quote.php:12
+#: template-parts/post/post-format-media-video.php:12
+#: template-parts/post/post-format-media.php:12 template-parts/post/post.php:12
+#: template-parts/post/single-post-sidebar.php:12
+#: template-parts/post/single-post-without-sidebar.php:12
+#: template-parts/post/single-post.php:12
+#: template-parts/service-pages/search-not-found.php:13
+#: tribe-events/list/content.php:15 tribe-events/list/loop.php:14
+#: tribe-events/list/nav.php:17 tribe-events/list/single-event.php:12
+#: tribe-events/list/single-featured.php:12 tribe-events/modules/bar.php:17
+#: tribe-events/month.php:14 tribe-events/month/content.php:15
+#: tribe-events/month/loop-grid.php:14 tribe-events/month/nav.php:14
+#: tribe-events/month/single-day.php:14 tribe-events/month/single-event.php:14
+#: tribe-events/month/title-bar.php:15 tribe-events/month/tooltip.php:12
+#: tribe-events/pro/photo/content.php:15 tribe-events/pro/photo/loop.php:13
+#: tribe-events/pro/photo/nav.php:14 tribe-events/pro/photo/single-event.php:13
+#: tribe-events/pro/related-events.php:20 tribe-events/single-event.php:15
+msgid "You cannot access this file directly"
+msgstr ""
+
+#: 404.php:17 admin/domain/MileniaConfigurator.php:2223
+msgid "We're sorry, but we can't find the page you were looking for."
+msgstr ""
+
+#: 404.php:18 admin/domain/MileniaConfigurator.php:2229
+msgid ""
+"It's probably some thing we've done wrong but now we know about it and we'll "
+"try to fix it."
+msgstr ""
+
+#: 404.php:34
+#, php-format
+msgid "Go %s or try to search:"
+msgstr ""
+
+#: 404.php:34 template-parts/service-pages/search-not-found.php:23
+msgid "Home"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:333
+msgid "Install Required Plugins"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:334
+msgid "Install Plugins"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:336
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:338
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:339
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:391
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:392
+#: admin/class-tgm-plugin-activation.php:911
+#: admin/class-tgm-plugin-activation.php:2617
+#: admin/class-tgm-plugin-activation.php:3664
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:393
+#: admin/class-tgm-plugin-activation.php:3243
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:394
+#: admin/class-tgm-plugin-activation.php:3036
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:396
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:398
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:400
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:401
+msgid "Dismiss this notice"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:402
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:403
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:606
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:607
+msgid "Update Required"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:1018
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:1018
+#: admin/class-tgm-plugin-activation.php:1021
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:1021
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2066
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2357
+msgid "Required"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2360
+msgid "Recommended"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2376
+msgid "WordPress Repository"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2379
+msgid "External Source"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2382
+msgid "Pre-Packaged"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2399
+msgid "Not Installed"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2403
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2405
+msgid "Active"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2411
+msgid "Required Update not Available"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2414
+msgid "Requires Update"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2417
+msgid "Update recommended"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2472
+#, php-format
+msgid "All <span class=\"count\">(%s)</span>"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2476
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2480
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2484
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2574
+msgid "Installed version:"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2582
+msgid "Minimum required version:"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2594
+msgid "Available version:"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2617
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2631
+msgid "Plugin"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2632
+msgid "Source"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2633
+msgid "Type"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2637
+msgid "Version"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2638
+msgid "Status"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2687
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2692
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2698
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2768
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2801
+msgid "Install"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2807
+msgid "Update"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2810
+msgid "Activate"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2841
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2843
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2884
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2886
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2992
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:3018
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:3242
+msgid "Plugin activation failed."
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:3582
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:3585
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:3587
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:3591
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:3593
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:3593
+#: admin/class-tgm-plugin-activation.php:3601
+msgid "Show Details"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:3593
+#: admin/class-tgm-plugin-activation.php:3601
+msgid "Hide Details"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:3594
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:3596
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:3599
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:3601
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:3602
+msgid "All installations have been completed."
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:3604
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: admin/domain/MileniaAdmin.php:101
+msgid "Insert image"
+msgstr ""
+
+#: admin/domain/MileniaAdmin.php:102
+msgid "Use this image"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:134
+msgid "Preloader"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:139
+msgid "State"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:141
+#: admin/domain/MileniaConfigurator.php:769
+#: admin/domain/MileniaConfigurator.php:831
+#: admin/domain/MileniaConfigurator.php:957
+#: admin/domain/MileniaConfigurator.php:2129
+#: admin/domain/MileniaConfigurator.php:2137
+#: admin/domain/MileniaConfigurator.php:2145
+msgid "Show"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:142
+#: admin/domain/MileniaConfigurator.php:770
+#: admin/domain/MileniaConfigurator.php:832
+#: admin/domain/MileniaConfigurator.php:958
+#: admin/domain/MileniaConfigurator.php:2130
+#: admin/domain/MileniaConfigurator.php:2138
+#: admin/domain/MileniaConfigurator.php:2146
+msgid "Hide"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:143
+msgid ""
+"Choose the \"Show\" option if you want to show preloader while a page is "
+"loading."
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:162
+msgid "Site logo"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:169
+msgid "Logo"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:179
+msgid "Logo HiDPI"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:188
+#: admin/domain/MileniaConfigurator.php:195
+msgid "Favicon"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:196
+msgid "Will be displayed in the site tab."
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:205
+msgid ""
+"Apple touch icon will be displayed at the desktop of an apple device in case "
+"user add the site to the desktop."
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:213
+msgid "Apple touch icon"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:222
+msgid "Apple touch icon (57x57)"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:231
+msgid "Apple touch icon (72x72)"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:240
+msgid "Apple touch icon (76x76)"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:249
+msgid "Apple touch icon (114x114)"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:258
+msgid "Apple touch icon (120x120)"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:267
+msgid "Apple touch icon (144x144)"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:276
+msgid "Apple touch icon (152x152)"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:285
+msgid "Apple touch icon (180x180)"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:303
+msgid "General"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:308
+msgid "Offset around pages"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:309
+#: admin/domain/MileniaConfigurator.php:436
+#: admin/domain/MileniaConfigurator.php:2559
+msgid "Yes"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:310
+#: admin/domain/MileniaConfigurator.php:437
+#: admin/domain/MileniaConfigurator.php:2560
+msgid "No"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:316
+msgid "Phone number"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:322
+msgid "Email address"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:328
+msgid "Facebook profile"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:329
+msgid "Paste the Facebook profile link."
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:335
+#: tribe-events/list/single-event.php:149
+#: tribe-events/list/single-featured.php:151
+#: tribe-events/pro/photo/single-event.php:96
+#: tribe-events/pro/related-events.php:119
+msgid "Google+"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:336
+msgid "Paste the Google+ profile link."
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:342
+msgid "Twitter profile"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:343
+msgid "Paste the Twitter profile link."
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:349
+msgid "TripAdvisor profile"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:350
+msgid "Paste the TripAdvisor profile link."
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:356
+msgid "Instagram profile"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:357
+msgid "Paste the Instagram profile link."
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:363
+msgid "YouTube chanel"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:364
+msgid "Paste the YouTube chanel link."
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:370
+msgid "Flickr profile"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:371
+msgid "Paste the Flickr profile link."
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:377
+msgid "Booking"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:378
+msgid "Booking profile link."
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:384
+msgid "Airbnb"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:385
+msgid "Airbnb profile link."
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:391
+msgid "WhatsApp"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:392
+msgid "WhatsApp profile link."
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:398
+msgid "Responsive"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:404
+msgid "Mobile breakpoint"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:423
+#: admin/domain/MileniaConfigurator.php:1040
+#: admin/domain/MileniaConfigurator.php:1226
+#: admin/domain/MileniaConfigurator.php:1412
+#: admin/domain/MileniaConfigurator.php:1599
+#: admin/domain/MileniaConfigurator.php:1786
+msgid "Appearance"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:429
+msgid "Typography"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:434
+msgid "Select Google Font character sets"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:442
+msgid "Google Font character sets"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:460
+msgid "Body font"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:478
+msgid "Headings, blockquotes, accordion panels, etc."
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:484
+msgid "First accented font"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:501
+msgid "Prices"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:507
+msgid "Second accented font"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:524
+msgid "Heading 1 font"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:542
+msgid "Heading 2 font"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:560
+msgid "Heading 3 font"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:578
+msgid "Heading 4 font"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:596
+msgid "Heading 5 font"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:614
+msgid "Heading 6 font"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:635
+msgid "Color Scheme"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:640
+msgid "Custom color scheme"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:641
+msgid "On"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:642
+msgid "Off"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:648
+msgid "Choose color scheme"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:674
+msgid "[Custom] Primary"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:681
+msgid "[Custom] Secondary"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:701
+msgid "Header"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:707
+msgid "Layout"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:709
+#: admin/domain/MileniaConfigurator.php:2024
+msgid "Layout v1"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:710
+#: admin/domain/MileniaConfigurator.php:2025
+msgid "Layout v2"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:711
+#: admin/domain/MileniaConfigurator.php:2026
+msgid "Layout v3"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:712
+#: admin/domain/MileniaConfigurator.php:2027
+msgid "Layout v4"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:713
+#: admin/domain/MileniaConfigurator.php:2028
+msgid "Layout v5"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:722
+msgid "Fixed transparent header"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:724
+msgid ""
+"Please note that in case this option is enabled the header will be displayed "
+"as a fixed element (above the content)."
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:725
+#: admin/domain/MileniaConfigurator.php:778
+#: admin/domain/MileniaConfigurator.php:806
+msgid "Enabled"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:726
+#: admin/domain/MileniaConfigurator.php:779
+#: admin/domain/MileniaConfigurator.php:807
+msgid "Disabled"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:733
+#: admin/domain/MileniaConfigurator.php:756
+#: admin/domain/MileniaConfigurator.php:2242
+msgid "Color scheme"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:736
+#: admin/domain/MileniaConfigurator.php:759
+#: admin/domain/MileniaConfigurator.php:1059
+#: admin/domain/MileniaConfigurator.php:1245
+#: admin/domain/MileniaConfigurator.php:1431
+#: admin/domain/MileniaConfigurator.php:1618
+#: admin/domain/MileniaConfigurator.php:1805
+#: admin/domain/MileniaConfigurator.php:1955
+msgid "Light"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:737
+#: admin/domain/MileniaConfigurator.php:760
+#: admin/domain/MileniaConfigurator.php:1058
+#: admin/domain/MileniaConfigurator.php:1244
+#: admin/domain/MileniaConfigurator.php:1430
+#: admin/domain/MileniaConfigurator.php:1617
+#: admin/domain/MileniaConfigurator.php:1804
+#: admin/domain/MileniaConfigurator.php:1954
+msgid "Dark"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:745
+msgid "Content width"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:747
+msgid "Container"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:748
+#: admin/domain/MileniaConfigurator.php:1137
+#: admin/domain/MileniaConfigurator.php:1323
+#: admin/domain/MileniaConfigurator.php:1509
+#: admin/domain/MileniaConfigurator.php:1696
+#: admin/domain/MileniaConfigurator.php:1883
+msgid "Full width"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:767
+msgid "Navigation section"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:776
+#: admin/domain/MileniaConfigurator.php:801 template-parts/post/post.php:86
+#: template-parts/post/post.php:96
+msgid "Sticky"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:786
+#: admin/domain/MileniaConfigurator.php:814
+msgid "Sticky Responsive breakpoint"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:789
+#: admin/domain/MileniaConfigurator.php:817
+#: admin/domain/MileniaConfigurator.php:1125
+#: admin/domain/MileniaConfigurator.php:1311
+#: admin/domain/MileniaConfigurator.php:1497
+#: admin/domain/MileniaConfigurator.php:1684
+#: admin/domain/MileniaConfigurator.php:1871
+msgid "sm"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:790
+#: admin/domain/MileniaConfigurator.php:818
+#: admin/domain/MileniaConfigurator.php:1126
+#: admin/domain/MileniaConfigurator.php:1312
+#: admin/domain/MileniaConfigurator.php:1498
+#: admin/domain/MileniaConfigurator.php:1685
+#: admin/domain/MileniaConfigurator.php:1872
+msgid "md"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:791
+#: admin/domain/MileniaConfigurator.php:819
+#: admin/domain/MileniaConfigurator.php:1127
+#: admin/domain/MileniaConfigurator.php:1313
+#: admin/domain/MileniaConfigurator.php:1499
+#: admin/domain/MileniaConfigurator.php:1686
+#: admin/domain/MileniaConfigurator.php:1873
+msgid "lg"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:792
+#: admin/domain/MileniaConfigurator.php:820
+#: admin/domain/MileniaConfigurator.php:1128
+#: admin/domain/MileniaConfigurator.php:1314
+#: admin/domain/MileniaConfigurator.php:1500
+#: admin/domain/MileniaConfigurator.php:1687
+#: admin/domain/MileniaConfigurator.php:1874
+msgid "xl"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:793
+#: admin/domain/MileniaConfigurator.php:821
+#: admin/domain/MileniaConfigurator.php:1129
+#: admin/domain/MileniaConfigurator.php:1315
+#: admin/domain/MileniaConfigurator.php:1501
+#: admin/domain/MileniaConfigurator.php:1688
+#: admin/domain/MileniaConfigurator.php:1875
+msgid "xxl"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:794
+#: admin/domain/MileniaConfigurator.php:822
+#: admin/domain/MileniaConfigurator.php:1130
+#: admin/domain/MileniaConfigurator.php:1316
+#: admin/domain/MileniaConfigurator.php:1502
+#: admin/domain/MileniaConfigurator.php:1689
+#: admin/domain/MileniaConfigurator.php:1876
+msgid "xxxl"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:830
+msgid "Top bar"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:840
+msgid "[Top bar] Left column elements"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:842
+#: admin/domain/MileniaConfigurator.php:854
+msgid "General info (phone, email)"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:843
+#: admin/domain/MileniaConfigurator.php:855
+msgid "Sub navigation"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:852
+msgid "[Top bar] Right column elements"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:864
+msgid "Left column elements"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:866
+#: admin/domain/MileniaConfigurator.php:882
+msgid "Search button"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:867
+#: admin/domain/MileniaConfigurator.php:883
+msgid "Language"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:868
+#: admin/domain/MileniaConfigurator.php:884
+msgid "Action button"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:869
+#: admin/domain/MileniaConfigurator.php:885
+msgid "Weather indicator"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:870
+#: admin/domain/MileniaConfigurator.php:886
+msgid "Hidden sidebar button"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:871
+#: admin/domain/MileniaConfigurator.php:887
+msgid "Vertical menu button"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:880
+msgid "Right column elements"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:894
+msgid ""
+"The fields below belong to items that were selected in \"Right column "
+"elements\" or \"Left column elements\" settings."
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:900
+msgid "[Action Button] Text"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:901
+#: hotel-booking/loop-room-type/book-button.php:16
+#: hotel-booking/widgets/rooms/room-content.php:160
+msgid "Book Now"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:906
+msgid "[Action Button] URL"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:912
+msgid "[Action Button] Open in a new tab"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:918
+msgid "[Action Button] Nofollow option"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:924
+msgid "[Vertical Navigation] Logo"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:929
+msgid "[Hidden Sidebar] Widget Area"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:950
+msgid "Breadcrumb"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:955
+msgid "Show breadcrumb section"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:964
+msgid "Breadcrumb settings"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:983
+msgid "Footer"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:989
+msgid "Using sections"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:990
+msgid "Choose sections the footer will be contain which."
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:992
+#: admin/domain/MileniaConfigurator.php:1008
+msgid "Section #1"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:993
+#: admin/domain/MileniaConfigurator.php:1194
+msgid "Section #2"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:994
+#: admin/domain/MileniaConfigurator.php:1380
+msgid "Section #3"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:995
+#: admin/domain/MileniaConfigurator.php:1567
+msgid "Section #4"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:996
+#: admin/domain/MileniaConfigurator.php:1754
+msgid "Section #5"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:1013
+#: admin/domain/MileniaConfigurator.php:1199
+#: admin/domain/MileniaConfigurator.php:1385
+#: admin/domain/MileniaConfigurator.php:1572
+#: admin/domain/MileniaConfigurator.php:1759
+msgid "Widget area"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:1022
+#: admin/domain/MileniaConfigurator.php:1208
+#: admin/domain/MileniaConfigurator.php:1394
+#: admin/domain/MileniaConfigurator.php:1581
+#: admin/domain/MileniaConfigurator.php:1768
+msgid "Padding (y axis)"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:1023
+#: admin/domain/MileniaConfigurator.php:1209
+#: admin/domain/MileniaConfigurator.php:1395
+#: admin/domain/MileniaConfigurator.php:1582
+#: admin/domain/MileniaConfigurator.php:1769
+msgid "In pixels."
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:1041
+#: admin/domain/MileniaConfigurator.php:1227
+#: admin/domain/MileniaConfigurator.php:1413
+#: admin/domain/MileniaConfigurator.php:1600
+#: admin/domain/MileniaConfigurator.php:1787
+msgid ""
+"The section has default appearance but if you don't like it you can change. "
+"Choose a property you want to change."
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:1044
+#: admin/domain/MileniaConfigurator.php:1230
+#: admin/domain/MileniaConfigurator.php:1416
+#: admin/domain/MileniaConfigurator.php:1603
+#: admin/domain/MileniaConfigurator.php:1790
+msgid "Background color"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:1045
+#: admin/domain/MileniaConfigurator.php:1231
+#: admin/domain/MileniaConfigurator.php:1417
+#: admin/domain/MileniaConfigurator.php:1604
+#: admin/domain/MileniaConfigurator.php:1791
+msgid "Text color"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:1046
+#: admin/domain/MileniaConfigurator.php:1232
+#: admin/domain/MileniaConfigurator.php:1418
+#: admin/domain/MileniaConfigurator.php:1605
+#: admin/domain/MileniaConfigurator.php:1792
+msgid "Links color"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:1047
+#: admin/domain/MileniaConfigurator.php:1233
+#: admin/domain/MileniaConfigurator.php:1419
+#: admin/domain/MileniaConfigurator.php:1606
+#: admin/domain/MileniaConfigurator.php:1793
+msgid "Headings color"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:1055
+#: admin/domain/MileniaConfigurator.php:1241
+#: admin/domain/MileniaConfigurator.php:1427
+#: admin/domain/MileniaConfigurator.php:1614
+#: admin/domain/MileniaConfigurator.php:1801
+msgid "Background"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:1060
+#: admin/domain/MileniaConfigurator.php:1246
+#: admin/domain/MileniaConfigurator.php:1432
+#: admin/domain/MileniaConfigurator.php:1619
+#: admin/domain/MileniaConfigurator.php:1806
+#: admin/domain/MileniaConfigurator.php:1956
+msgid "[Current scheme] Primary"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:1061
+#: admin/domain/MileniaConfigurator.php:1247
+#: admin/domain/MileniaConfigurator.php:1433
+#: admin/domain/MileniaConfigurator.php:1620
+#: admin/domain/MileniaConfigurator.php:1807
+#: admin/domain/MileniaConfigurator.php:1957
+msgid "[Current scheme] Secondary"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:1062
+#: admin/domain/MileniaConfigurator.php:1248
+#: admin/domain/MileniaConfigurator.php:1434
+#: admin/domain/MileniaConfigurator.php:1621
+#: admin/domain/MileniaConfigurator.php:1808
+#: admin/domain/MileniaConfigurator.php:1958
+msgid "Custom"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:1069
+#: admin/domain/MileniaConfigurator.php:1255
+#: admin/domain/MileniaConfigurator.php:1441
+#: admin/domain/MileniaConfigurator.php:1628
+#: admin/domain/MileniaConfigurator.php:1815
+msgid "[Custom] Background"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:1077
+#: admin/domain/MileniaConfigurator.php:1263
+#: admin/domain/MileniaConfigurator.php:1449
+#: admin/domain/MileniaConfigurator.php:1636
+#: admin/domain/MileniaConfigurator.php:1823
+msgid "[Custom] Text color"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:1085
+#: admin/domain/MileniaConfigurator.php:1271
+#: admin/domain/MileniaConfigurator.php:1457
+#: admin/domain/MileniaConfigurator.php:1644
+#: admin/domain/MileniaConfigurator.php:1831
+msgid "[Custom] Links color"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:1093
+#: admin/domain/MileniaConfigurator.php:1279
+#: admin/domain/MileniaConfigurator.php:1465
+#: admin/domain/MileniaConfigurator.php:1652
+#: admin/domain/MileniaConfigurator.php:1839
+msgid "[Custom] Headings color"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:1102
+#: admin/domain/MileniaConfigurator.php:1288
+#: admin/domain/MileniaConfigurator.php:1474
+#: admin/domain/MileniaConfigurator.php:1661
+#: admin/domain/MileniaConfigurator.php:1848
+#: admin/domain/MileniaConfigurator.php:2053
+msgid "Columns"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:1105
+#: admin/domain/MileniaConfigurator.php:1291
+#: admin/domain/MileniaConfigurator.php:1477
+#: admin/domain/MileniaConfigurator.php:1664
+#: admin/domain/MileniaConfigurator.php:1851
+#: admin/domain/MileniaConfigurator.php:2055
+msgid "1 Column"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:1106
+#: admin/domain/MileniaConfigurator.php:1292
+#: admin/domain/MileniaConfigurator.php:1478
+#: admin/domain/MileniaConfigurator.php:1665
+#: admin/domain/MileniaConfigurator.php:1852
+msgid "2 Column"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:1107
+#: admin/domain/MileniaConfigurator.php:1293
+#: admin/domain/MileniaConfigurator.php:1479
+#: admin/domain/MileniaConfigurator.php:1666
+#: admin/domain/MileniaConfigurator.php:1853
+msgid "3 Column"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:1108
+#: admin/domain/MileniaConfigurator.php:1294
+#: admin/domain/MileniaConfigurator.php:1480
+#: admin/domain/MileniaConfigurator.php:1667
+#: admin/domain/MileniaConfigurator.php:1854
+msgid "4 Column"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:1115
+#: admin/domain/MileniaConfigurator.php:1301
+#: admin/domain/MileniaConfigurator.php:1487
+#: admin/domain/MileniaConfigurator.php:1674
+#: admin/domain/MileniaConfigurator.php:1861
+msgid "Widgets settings"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:1122
+#: admin/domain/MileniaConfigurator.php:1308
+#: admin/domain/MileniaConfigurator.php:1494
+#: admin/domain/MileniaConfigurator.php:1681
+#: admin/domain/MileniaConfigurator.php:1868
+msgid "Responsive breakpoint"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:1144
+#: admin/domain/MileniaConfigurator.php:1330
+#: admin/domain/MileniaConfigurator.php:1516
+#: admin/domain/MileniaConfigurator.php:1703
+#: admin/domain/MileniaConfigurator.php:1890
+msgid "Uppercased titles"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:1151
+#: admin/domain/MileniaConfigurator.php:1337
+#: admin/domain/MileniaConfigurator.php:1523
+#: admin/domain/MileniaConfigurator.php:1710
+#: admin/domain/MileniaConfigurator.php:1897
+msgid "Large widget title offset"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:1158
+#: admin/domain/MileniaConfigurator.php:1344
+#: admin/domain/MileniaConfigurator.php:1530
+#: admin/domain/MileniaConfigurator.php:1717
+#: admin/domain/MileniaConfigurator.php:1904
+msgid "Padding (x axis)"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:1165
+#: admin/domain/MileniaConfigurator.php:1351
+#: admin/domain/MileniaConfigurator.php:1537
+#: admin/domain/MileniaConfigurator.php:1724
+#: admin/domain/MileniaConfigurator.php:1911
+msgid "Border top color (if exists)"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:1166
+#: admin/domain/MileniaConfigurator.php:1352
+#: admin/domain/MileniaConfigurator.php:1538
+#: admin/domain/MileniaConfigurator.php:1725
+#: admin/domain/MileniaConfigurator.php:1912
+#: admin/domain/MileniaConfigurator.php:1982
+msgid "The border will be added to divide two sections with background."
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:1174
+#: admin/domain/MileniaConfigurator.php:1360
+#: admin/domain/MileniaConfigurator.php:1546
+#: admin/domain/MileniaConfigurator.php:1733
+#: admin/domain/MileniaConfigurator.php:1920
+msgid "Widgets border"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:1177
+#: admin/domain/MileniaConfigurator.php:1363
+#: admin/domain/MileniaConfigurator.php:1549
+#: admin/domain/MileniaConfigurator.php:1736
+#: admin/domain/MileniaConfigurator.php:1923
+msgid "Widgets inside the section will be vertically separated."
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:1182
+#: admin/domain/MileniaConfigurator.php:1368
+#: admin/domain/MileniaConfigurator.php:1554
+#: admin/domain/MileniaConfigurator.php:1741
+#: admin/domain/MileniaConfigurator.php:1928
+msgid "Widgets border color"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:1936
+msgid "Copyright section"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:1942
+msgid "[Copyright section] Text"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:1943 admin/domain/MileniaLayout.php:786
+#, php-format
+msgid "Copyright &copy; %d %s. All Rights Reserved."
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:1945
+msgid ""
+"Enter copyright text that will be displayed at the bottom of the site footer."
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:1951
+msgid "[Copyright section] Background"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:1965
+msgid "[Copyright section] Custom background"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:1973
+msgid "[Copyright section] Custom text color"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:1981
+msgid "[Copyright section] Border top color (if exists)"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:1990
+msgid "[Copyright section] Full width"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:2010
+msgid "Blog"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:2016
+msgid "Post Archive"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:2022
+msgid "Default display style"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:2036
+msgid "Container layout"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:2038
+msgid "Grid"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:2039
+msgid "Masonry"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:2046
+msgid ""
+"Pay attention the theme could set columns automatically in case where "
+"selected value cannot be set in selected layout."
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:2056
+msgid "2 Columns"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:2057
+msgid "3 Columns"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:2058
+msgid "4 Columns"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:2065
+#: admin/domain/MileniaConfigurator.php:2108
+#: admin/domain/MileniaConfigurator.php:2185
+msgid "Page layout"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:2067
+#: admin/domain/MileniaConfigurator.php:2110
+#: admin/domain/MileniaConfigurator.php:2187
+msgid "Left Sidebar"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:2068
+#: admin/domain/MileniaConfigurator.php:2111
+#: admin/domain/MileniaConfigurator.php:2188
+msgid "Without Sidebar"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:2069
+#: admin/domain/MileniaConfigurator.php:2112
+#: admin/domain/MileniaConfigurator.php:2189
+msgid "Right Sidebar"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:2070
+msgid "Full Width"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:2077
+#: admin/domain/MileniaConfigurator.php:2119
+#: admin/domain/MileniaConfigurator.php:2196
+msgid "Select sidebar"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:2090
+#: admin/domain/MileniaConfigurator.php:2175
+msgid "Page vertical padding"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:2103
+msgid "Single Post"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:2127
+#: template-parts/milenia-portfolio/milenia-portfolio-single-layout-gallery.php:92
+#: template-parts/milenia-portfolio/milenia-portfolio-single-layout-slideshow.php:84
+msgid "Tags"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:2135
+msgid "Share buttons"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:2143
+#: template-parts/post/single-post-sidebar.php:143
+#: template-parts/post/single-post-without-sidebar.php:139
+msgid "Related Posts"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:2165
+msgid "Pages"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:2217
+msgid "404 page"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:2222
+msgid "Error text"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:2228
+msgid "Error description"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:2249
+msgid "Search results"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:2256
+msgid "\"Not found\" message"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:2257
+#: template-parts/service-pages/search-not-found.php:21
+msgid "Nothing found"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:2262
+msgid "\"Not found\" description"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:2263
+#: template-parts/service-pages/search-not-found.php:23
+msgid "Nothing found on your request."
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:2281
+msgid "3d party API"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:2286
+msgid "[Google Map] API key"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:2291
+msgid "[Twitter] Consumer Key"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:2296
+msgid "[Twitter] Consumer Secret"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:2301
+msgid "[Twitter] Access Token"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:2306
+msgid "[Twitter] Access Secret"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:2311
+msgid "[Weatherstack] API Key"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:2312
+msgid "API Key from weatherstack.com to build weather forecasts."
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:2317
+msgid "[Weatherstack] City name"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:2318
+msgid ""
+"Please note that the entered value might not exist in the result set got "
+"from the weather forecast system. In such a case the weather widget will not "
+"work properly. The best choice is to enter the nearest famous city in the "
+"format \"{City name} {Countryname}\"."
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:2323
+msgid "[Accommodations] Review criterias"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:2324
+msgid "Comma-separated."
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:2325
+msgid "Accommodation, Location, Meals, Facilities"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:2330
+msgid "[Accommodations] Single room sections"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:2334
+#: template-parts/milenia-portfolio/milenia-portfolio-single-layout-gallery.php:51
+#: template-parts/milenia-portfolio/milenia-portfolio-single-layout-slideshow.php:43
+msgid "Description"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:2335
+msgid "Amenities"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:2336
+msgid "Rates"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:2337
+msgid "Reviews"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:2338
+msgid "Availability"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:2339
+msgid "Reservation Form"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:2361
+msgid "Localization"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:2367
+msgid "MomentJS"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:2515
+#: admin/milenia-plugins-bundle.php:67
+msgid "WooCommerce"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:2520
+msgid "Archive Columns"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:2531
+msgid "Number of products displayed per page"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:2539
+msgid "Single Product"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:2544
+msgid "Up-Sells Count items"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:2552
+msgid "Cart"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:2557
+msgid "Show Cross-Sells"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:2566
+msgid "Cross Sells Columns"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:2573
+msgid "Cross Sells Limit"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:2590
+#: admin/domain/MileniaConfigurator.php:2594
+#: admin/domain/MileniaConfigurator.php:2595
+#: admin/domain/MileniaConfigurator.php:2596
+msgid "Theme Options"
+msgstr ""
+
+#: admin/domain/MileniaConfigurator.php:2591
+msgid "Theme Version: "
+msgstr ""
+
+#: admin/milenia-plugins-bundle.php:32
+msgid "Breadcrumb NavXT"
+msgstr ""
+
+#: admin/milenia-plugins-bundle.php:37
+msgid "Contact Form 7"
+msgstr ""
+
+#: admin/milenia-plugins-bundle.php:42
+msgid "Meta Box"
+msgstr ""
+
+#: admin/milenia-plugins-bundle.php:47
+msgid "Smash Balloon Instagram Feed"
+msgstr ""
+
+#: admin/milenia-plugins-bundle.php:52
+msgid "Redux Framework"
+msgstr ""
+
+#: admin/milenia-plugins-bundle.php:57
+msgid "The Events Calendar"
+msgstr ""
+
+#: admin/milenia-plugins-bundle.php:62
+msgid "MailPoet Newsletters"
+msgstr ""
+
+#: admin/milenia-plugins-bundle.php:72
+msgid "One Click Demo Import"
+msgstr ""
+
+#: attachment.php:36 template-parts/post/post.php:68
+#: template-parts/post/single-post-sidebar.php:65
+#: template-parts/post/single-post-without-sidebar.php:68
+msgid "by"
+msgstr ""
+
+#: attachment.php:39 includes/functions-core.php:143
+#: template-parts/post/post.php:79
+msgid "Edit"
+msgstr ""
+
+#: comments.php:23
+msgid "Comment (1)"
+msgstr ""
+
+#: comments.php:37
+msgid "Previous comments"
+msgstr ""
+
+#: comments.php:38
+msgid "Next comments"
+msgstr ""
+
+#: comments.php:58
+msgid "Your Name"
+msgstr ""
+
+#: comments.php:64
+msgid "Your Email"
+msgstr ""
+
+#: comments.php:70
+msgid "Website"
+msgstr ""
+
+#: comments.php:77
+msgid "Comment"
+msgstr ""
+
+#: comments.php:81
+#, php-format
+msgid ""
+"Your email address will not be published. Fields marked with an %s are "
+"required."
+msgstr ""
+
+#: comments.php:86
+#, php-format
+msgid "Leave a reply to %s"
+msgstr ""
+
+#: comments.php:87
+msgid "Cancel"
+msgstr ""
+
+#: comments.php:88
+msgid "Leave a Comment"
+msgstr ""
+
+#: comments.php:97
+msgid "Comments are closed."
+msgstr ""
+
+#: functions.php:100
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:101
+msgid "Header Sub Menu"
+msgstr ""
+
+#: functions.php:102
+msgid "Footer Menu"
+msgstr ""
+
+#: functions.php:103
+msgid "Navigation sidebar (bottom)"
+msgstr ""
+
+#: functions.php:150
+msgid ""
+"After you import this demo, you will have to setup the slider separately."
+msgstr ""
+
+#: hotel-booking/shortcodes/rooms/not-found.php:8
+#: hotel-booking/shortcodes/search-results/errors.php:22
+#: hotel-booking/shortcodes/search-results/results-info.php:18
+#: hotel-booking/shortcodes/services/not-found.php:11
+#: includes/domain/Milenia.php:698 template-parts/content-none.php:20
+msgid "Close"
+msgstr ""
+
+#: hotel-booking/shortcodes/rooms/not-found.php:9
+#: hotel-booking/shortcodes/services/not-found.php:12
+#: template-parts/content-none.php:21
+msgid "Nothing found."
+msgstr ""
+
+#: hotel-booking/shortcodes/rooms/not-found.php:10
+msgid "No accommodations matching criteria."
+msgstr ""
+
+#: hotel-booking/shortcodes/search-results/results-info.php:21
+#, php-format
+msgid "%s accommodation found"
+msgstr ""
+
+#: hotel-booking/shortcodes/search-results/results-info.php:23
+msgid "No accommodations found"
+msgstr ""
+
+#: hotel-booking/shortcodes/search-results/results-info.php:25
+#, php-format
+msgid " from %s - till %s"
+msgstr ""
+
+#: hotel-booking/shortcodes/search/search-form.php:35
+#: hotel-booking/shortcodes/search/search-form.php:50
+#: hotel-booking/widgets/search-availability/search-form.php:45
+#: hotel-booking/widgets/search-availability/search-form.php:54
+msgid "Arrival Date"
+msgstr ""
+
+#: hotel-booking/shortcodes/search/search-form.php:61
+#: hotel-booking/shortcodes/search/search-form.php:77
+#: hotel-booking/widgets/search-availability/search-form.php:67
+#: hotel-booking/widgets/search-availability/search-form.php:77
+msgid "Departure Date"
+msgstr ""
+
+#: hotel-booking/shortcodes/search/search-form.php:95
+#: hotel-booking/widgets/search-availability/search-form.php:95
+msgid "Adults"
+msgstr ""
+
+#: hotel-booking/shortcodes/search/search-form.php:97
+#: hotel-booking/widgets/search-availability/search-form.php:97
+msgid "Guests"
+msgstr ""
+
+#: hotel-booking/shortcodes/search/search-form.php:131
+#: hotel-booking/widgets/search-availability/search-form.php:120
+msgid "Children"
+msgstr ""
+
+#: hotel-booking/shortcodes/search/search-form.php:133
+#: hotel-booking/widgets/search-availability/search-form.php:122
+#, php-format
+msgid "Children %s"
+msgstr ""
+
+#: hotel-booking/shortcodes/search/search-form.php:160
+#: hotel-booking/shortcodes/search/search-form.php:161
+#: hotel-booking/widgets/search-availability/search-form.php:160
+msgid "Check Availability"
+msgstr ""
+
+#: hotel-booking/shortcodes/services/not-found.php:7
+#: hotel-booking/shortcodes/services/not-found.php:13
+msgid "No services matched criteria."
+msgstr ""
+
+#: hotel-booking/single-room-type-full-width.php:95
+msgid "Other rooms"
+msgstr ""
+
+#: hotel-booking/widgets/rooms/room-content.php:45
+msgid "From "
+msgstr ""
+
+#: hotel-booking/widgets/rooms/room-content.php:71
+msgid "Adults:"
+msgstr ""
+
+#: hotel-booking/widgets/rooms/room-content.php:73
+msgid "Guests:"
+msgstr ""
+
+#: hotel-booking/widgets/rooms/room-content.php:83
+msgid "Children:"
+msgstr ""
+
+#: hotel-booking/widgets/rooms/room-content.php:91
+msgid "Categories:"
+msgstr ""
+
+#: hotel-booking/widgets/rooms/room-content.php:112
+msgid "Amenities:"
+msgstr ""
+
+#: hotel-booking/widgets/rooms/room-content.php:133
+msgid "View:"
+msgstr ""
+
+#: hotel-booking/widgets/rooms/room-content.php:141
+msgid "Size:"
+msgstr ""
+
+#: hotel-booking/widgets/rooms/room-content.php:149
+msgid "Bed Type:"
+msgstr ""
+
+#: hotel-booking/widgets/search-availability/search-form.php:32
+#, php-format
+msgid "Required fields are followed by %s"
+msgstr ""
+
+#: includes/domain/Milenia.php:127
+msgid "Milenia Theme Functionality"
+msgstr ""
+
+#: includes/domain/Milenia.php:134
+msgid "Slider Revolution"
+msgstr ""
+
+#: includes/domain/Milenia.php:141
+msgid "WPBakery Page Builder"
+msgstr ""
+
+#: includes/domain/Milenia.php:149
+msgid "Envato Market"
+msgstr ""
+
+#: includes/domain/Milenia.php:157
+msgid "Meta Box Conditional Logic"
+msgstr ""
+
+#: includes/domain/Milenia.php:164
+msgid "Hotel Booking"
+msgstr ""
+
+#: includes/domain/Milenia.php:171
+msgid "Hotel Booking WooCommerce Payments"
+msgstr ""
+
+#: includes/domain/Milenia.php:178
+msgid "Hotel Booking Payment Request"
+msgstr ""
+
+#: includes/domain/Milenia.php:185
+msgid "WPBE - WordPress Posts Bulk Editor Professional"
+msgstr ""
+
+#: includes/domain/Milenia.php:699 includes/functions-core.php:260
+msgid "Next"
+msgstr ""
+
+#: includes/domain/Milenia.php:700
+msgid "Previous"
+msgstr ""
+
+#: includes/domain/Milenia.php:701
+msgid "The requested content cannot be loaded. Please try again later."
+msgstr ""
+
+#: includes/domain/Milenia.php:702
+msgid "Start slideshow"
+msgstr ""
+
+#: includes/domain/Milenia.php:703
+msgid "Pause slideshow"
+msgstr ""
+
+#: includes/domain/Milenia.php:704
+msgid "Full screen"
+msgstr ""
+
+#: includes/domain/Milenia.php:705
+msgid "Thumbnails"
+msgstr ""
+
+#: includes/domain/Milenia.php:706
+msgid "Download"
+msgstr ""
+
+#: includes/domain/Milenia.php:707
+msgid "Share"
+msgstr ""
+
+#: includes/domain/Milenia.php:708
+msgid "Zoom"
+msgstr ""
+
+#: includes/functions-core.php:134
+msgid "at"
+msgstr ""
+
+#: includes/functions-core.php:151
+msgid "Reply"
+msgstr ""
+
+#: includes/functions-core.php:159
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: includes/functions-core.php:259
+msgid "Prev"
+msgstr ""
+
+#: includes/hooks.php:53
+msgid "Demo Import"
+msgstr ""
+
+#: includes/widget-areas.php:24
+msgid "Blog Widget Area"
+msgstr ""
+
+#: includes/widget-areas.php:25
+msgid "Here you can define widgets for the blog posts page."
+msgstr ""
+
+#: includes/widget-areas.php:37
+msgid "Single Post Widget Area"
+msgstr ""
+
+#: includes/widget-areas.php:38
+msgid ""
+"Here you can define widgets for the widget area on a single blog post page."
+msgstr ""
+
+#: includes/widget-areas.php:50
+msgid "Single Page Widget Area"
+msgstr ""
+
+#: includes/widget-areas.php:51
+msgid "Here you can define widgets for a single page widget area."
+msgstr ""
+
+#: includes/widget-areas.php:63
+msgid "Footer Widget Area #1"
+msgstr ""
+
+#: includes/widget-areas.php:64
+msgid "Here you can define widgets for the footer widget area #1."
+msgstr ""
+
+#: includes/widget-areas.php:76
+msgid "Footer Widget Area #2"
+msgstr ""
+
+#: includes/widget-areas.php:77
+msgid "Here you can define widgets for the footer widget area #2."
+msgstr ""
+
+#: includes/widget-areas.php:98
+msgid "Additional Widget Area #"
+msgstr ""
+
+#: includes/widget-areas.php:99
+msgid ""
+"Here you can define widgets for the additional widget area. You can select "
+"that widget area in designated places of the theme options. For instance: "
+"you can add an additional widget area to the site footer."
+msgstr ""
+
+#: searchform.php:16
+msgid "Search..."
+msgstr ""
+
+#: template-parts/header/header-layout-v1.php:246
+#: template-parts/header/header-layout-v2.php:273
+#: template-parts/header/header-layout-v3.php:116
+#: template-parts/header/header-layout-v4.php:122
+#: template-parts/header/header-layout-v4.php:209
+#: template-parts/header/header-layout-v5.php:125
+#: template-parts/header/header-layout-v5.php:211
+msgid "Find Everything"
+msgstr ""
+
+#: template-parts/header/header-layout-v1.php:256
+#: template-parts/header/header-layout-v2.php:283
+#: template-parts/header/header-layout-v3.php:126
+#: template-parts/header/header-layout-v4.php:132
+#: template-parts/header/header-layout-v4.php:219
+#: template-parts/header/header-layout-v5.php:135
+#: template-parts/header/header-layout-v5.php:221
+msgid "Menu"
+msgstr ""
+
+#: template-parts/milenia-offers/milenia-offers-post.php:12
+#: template-parts/milenia-team-members/milenia-team-members-post.php:12
+#: template-parts/milenia-testimonials/milenia-testimonials-post.php:13
+msgid "You cannot access this file directly."
+msgstr ""
+
+#: template-parts/milenia-offers/milenia-offers-post.php:41
+#: tribe-events/list/single-event.php:125
+#: tribe-events/list/single-featured.php:127
+#: tribe-events/pro/photo/single-event.php:72
+#: tribe-events/pro/related-events.php:95
+msgid "More Details"
+msgstr ""
+
+#: template-parts/milenia-offers/single-milenia-offers.php:56
+msgid "In"
+msgstr ""
+
+#: template-parts/milenia-offers/single-milenia-offers.php:63
+msgid "Start date:"
+msgstr ""
+
+#: template-parts/milenia-offers/single-milenia-offers.php:70
+msgid "End date:"
+msgstr ""
+
+#: template-parts/milenia-offers/single-milenia-offers.php:102
+#: template-parts/milenia-team-members/single-milenia-team-members.php:58
+#: template-parts/milenia-testimonials/single-milenia-testimonials.php:28
+#: template-parts/page-layouts/page-layout-default.php:29
+#: template-parts/post/post.php:111
+#: template-parts/post/single-post-sidebar.php:93
+#: template-parts/post/single-post-without-sidebar.php:89
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/milenia-offers/single-milenia-offers.php:113
+msgid "View all Offers"
+msgstr ""
+
+#: template-parts/milenia-offers/single-milenia-offers.php:121
+#: template-parts/post/single-post-sidebar.php:108
+#: template-parts/post/single-post-without-sidebar.php:104
+#: tribe-events/modules/meta/details.php:35
+msgid "Tags:"
+msgstr ""
+
+#: template-parts/milenia-offers/single-milenia-offers.php:157
+msgid "Related Offers"
+msgstr ""
+
+#: template-parts/milenia-portfolio/milenia-portfolio-single-layout-gallery.php:57
+#: template-parts/milenia-portfolio/milenia-portfolio-single-layout-slideshow.php:49
+#: tribe-events/modules/meta/details.php:59
+msgid "Details"
+msgstr ""
+
+#: template-parts/milenia-portfolio/milenia-portfolio-single-layout-gallery.php:71
+#: template-parts/milenia-portfolio/milenia-portfolio-single-layout-slideshow.php:63
+msgid "Date"
+msgstr ""
+
+#: template-parts/milenia-portfolio/milenia-portfolio-single-layout-gallery.php:78
+#: template-parts/milenia-portfolio/milenia-portfolio-single-layout-slideshow.php:70
+msgid "Categories"
+msgstr ""
+
+#: template-parts/milenia-portfolio/milenia-portfolio-single-layout-gallery.php:85
+#: template-parts/milenia-portfolio/milenia-portfolio-single-layout-slideshow.php:77
+msgid "Author"
+msgstr ""
+
+#: template-parts/milenia-portfolio/single-milenia-portfolio.php:58
+msgid "Related Portfolio Posts"
+msgstr ""
+
+#: template-parts/milenia-team-members/single-milenia-team-members.php:121
+msgid "View all team members"
+msgstr ""
+
+#: template-parts/milenia-testimonials/single-milenia-testimonials.php:37
+msgid "View all testimonials"
+msgstr ""
+
+#: template-parts/post/post.php:73
+#: template-parts/post/single-post-sidebar.php:69
+#: template-parts/post/single-post-without-sidebar.php:72
+msgid "in"
+msgstr ""
+
+#: template-parts/post/post.php:88 template-parts/post/post.php:98
+msgid "Password protected"
+msgstr ""
+
+#: template-parts/post/post.php:126 template-parts/post/post.php:128
+msgid "Read More"
+msgstr ""
+
+#: template-parts/service-pages/search-not-found.php:23
+#, php-format
+msgid "Go %s or try to search again:"
+msgstr ""
+
+#: tribe-events/day/nav.php:17
+msgid "Day Navigation"
+msgstr ""
+
+#: tribe-events/list/nav.php:21 tribe-events/pro/map/nav.php:21
+#, php-format
+msgid "%s List Navigation"
+msgstr ""
+
+#: tribe-events/list/nav.php:27 tribe-events/pro/map/nav.php:26
+#: tribe-events/pro/photo/nav.php:26
+#, php-format
+msgid "Previous %s"
+msgstr ""
+
+#: tribe-events/list/nav.php:41 tribe-events/pro/map/nav.php:34
+#: tribe-events/pro/photo/nav.php:40
+#, php-format
+msgid "Next %s"
+msgstr ""
+
+#: tribe-events/list/single-event.php:95
+#: tribe-events/list/single-featured.php:93
+#: tribe-events/modules/meta/details.php:119
+#: tribe-events/pro/photo/single-event.php:41
+#: tribe-events/pro/related-events.php:65
+msgid "Free"
+msgstr ""
+
+#: tribe-events/list/single-event.php:135
+#: tribe-events/list/single-featured.php:137
+#: tribe-events/pro/photo/single-event.php:82
+#: tribe-events/pro/related-events.php:105
+msgid "Share On"
+msgstr ""
+
+#: tribe-events/list/single-event.php:138
+#: tribe-events/list/single-event.php:142
+#: tribe-events/list/single-featured.php:140
+#: tribe-events/list/single-featured.php:144
+#: tribe-events/pro/photo/single-event.php:85
+#: tribe-events/pro/photo/single-event.php:89
+#: tribe-events/pro/related-events.php:108
+#: tribe-events/pro/related-events.php:112
+msgid "Facebook"
+msgstr ""
+
+#: tribe-events/list/single-event.php:144
+#: tribe-events/list/single-event.php:147
+#: tribe-events/list/single-featured.php:146
+#: tribe-events/list/single-featured.php:149
+#: tribe-events/pro/photo/single-event.php:91
+#: tribe-events/pro/photo/single-event.php:94
+#: tribe-events/pro/related-events.php:114
+#: tribe-events/pro/related-events.php:117
+msgid "Twitter"
+msgstr ""
+
+#: tribe-events/list/single-event.php:151
+#: tribe-events/list/single-featured.php:153
+#: tribe-events/pro/photo/single-event.php:98
+#: tribe-events/pro/related-events.php:121
+msgid "Google +"
+msgstr ""
+
+#: tribe-events/list/single-event.php:153
+#: tribe-events/list/single-event.php:157
+#: tribe-events/list/single-featured.php:155
+#: tribe-events/list/single-featured.php:159
+#: tribe-events/pro/photo/single-event.php:100
+#: tribe-events/pro/photo/single-event.php:104
+#: tribe-events/pro/related-events.php:123
+#: tribe-events/pro/related-events.php:127
+msgid "Pinterest"
+msgstr ""
+
+#: tribe-events/list/single-event.php:160
+#: tribe-events/list/single-featured.php:162
+#: tribe-events/pro/photo/single-event.php:107
+#: tribe-events/pro/related-events.php:130
+msgid "Email to a Friend"
+msgstr ""
+
+#: tribe-events/list/single-featured.php:100
+msgid "Featured"
+msgstr ""
+
+#: tribe-events/modules/bar.php:34
+#, php-format
+msgid "%s Search and Views Navigation"
+msgstr ""
+
+#: tribe-events/modules/bar.php:55
+#, php-format
+msgid "Find %s"
+msgstr ""
+
+#: tribe-events/modules/bar.php:62
+msgid "View As"
+msgstr ""
+
+#: tribe-events/modules/meta/details.php:53
+msgid "Time:"
+msgstr ""
+
+#: tribe-events/modules/meta/details.php:69
+#: tribe-events/modules/meta/details.php:79
+#: tribe-events/modules/meta/details.php:100
+msgid "Date:"
+msgstr ""
+
+#: tribe-events/modules/meta/details.php:87
+msgid "Start:"
+msgstr ""
+
+#: tribe-events/modules/meta/details.php:92
+msgid "End:"
+msgstr ""
+
+#: tribe-events/modules/meta/details.php:115
+msgid "Cost:"
+msgstr ""
+
+#: tribe-events/modules/meta/details.php:140
+#: tribe-events/modules/meta/organizer.php:50
+#: tribe-events/modules/meta/venue.php:53
+msgid "Website:"
+msgstr ""
+
+#: tribe-events/modules/meta/organizer.php:20
+msgid "Organizer"
+msgstr ""
+
+#: tribe-events/modules/meta/organizer.php:28
+msgid "Organizer Name:"
+msgstr ""
+
+#: tribe-events/modules/meta/organizer.php:36
+#: tribe-events/modules/meta/venue.php:46
+msgid "Phone:"
+msgstr ""
+
+#: tribe-events/modules/meta/organizer.php:43
+msgid "Email:"
+msgstr ""
+
+#: tribe-events/modules/meta/venue.php:22
+msgid "Venue"
+msgstr ""
+
+#: tribe-events/modules/meta/venue.php:29
+msgid "Venue Name:"
+msgstr ""
+
+#: tribe-events/modules/meta/venue.php:36
+msgid "Address:"
+msgstr ""
+
+#: tribe-events/month/loop-grid.php:29 tribe-events/month/loop-grid.php:31
+#: tribe-events/pro/week/loop-grid.php:19
+#, php-format
+msgid "Calendar of %s"
+msgstr ""
+
+#: tribe-events/month/nav.php:18
+msgid "Calendar Month Navigation"
+msgstr ""
+
+#: tribe-events/month/single-day.php:25
+#, php-format
+msgid "View %s"
+msgstr ""
+
+#: tribe-events/month/single-day.php:49
+#, php-format
+msgid "View %s more"
+msgstr ""
+
+#: tribe-events/month/single-day.php:51
+#, php-format
+msgid "%s for %s"
+msgstr ""
+
+#: tribe-events/pro/photo/loop.php:21
+#, php-format
+msgid "List of %s"
+msgstr ""
+
+#: tribe-events/pro/photo/nav.php:20 tribe-events/single-event.php:94
+#, php-format
+msgid "%s Navigation"
+msgstr ""
+
+#: tribe-events/pro/related-events.php:28
+#, php-format
+msgid "Related %s"
+msgstr ""
+
+#: tribe-events/pro/week/loop-grid-allday.php:18
+msgid "All Day"
+msgstr ""
+
+#: tribe-events/pro/week/loop-grid.php:23
+msgid "Hours"
+msgstr ""
+
+#: tribe-events/pro/week/nav.php:17
+msgid "Week Navigation"
+msgstr ""
+
+#: tribe-events/single-event.php:37
+msgid "+ Google Calendar"
+msgstr ""
+
+#: tribe-events/single-event.php:38
+msgid "+ Export to Calendar"
+msgstr ""

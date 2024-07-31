@@ -1,0 +1,27 @@
+<!--================ Languages List ================-->
+<div class="milenia-dropdown milenia-dropdown--title-icon milenia-dropdown--languages">
+    <button type="button" class="milenia-dropdown-title">
+        {{ current_language_code }} <span class="fa fa-caret-down milenia-dropdown-icon--state-default"></span><span class="fa fa-caret-up milenia-dropdown-icon--state-opened"></span>
+    </button>
+
+    <ul class="milenia-dropdown-element">
+        {% for code, language in languages %}
+            <li class="{{ language.css_classes }}">
+                <a href="{{ language.url }}" class="milenia-ln--independent">
+                    {% if language.flag_url %}
+                        <img src="{{ language.flag_url }}" alt="{{ language.code }}" title="{{ language.flag_title }}">
+                    {% endif %}
+
+                    {% if language.native_name %}
+                        {{ language.native_name }}
+                    {% endif %}
+
+                    {% if language.display_name %}
+                        ({{ language.display_name }})
+                    {% endif %}
+                </a>
+            </li>
+        {% endfor %}
+    </ul>
+</div>
+<!--================ End of Languages List ================-->

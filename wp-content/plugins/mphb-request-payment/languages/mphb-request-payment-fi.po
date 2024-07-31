@@ -1,0 +1,400 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: Hotel Booking Payment Request\n"
+"POT-Creation-Date: 2019-02-07 16:54+0200\n"
+"PO-Revision-Date: 2021-03-16 12:22+0200\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: mphb-request-payment.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-Flags-xgettext: --add-comments\n"
+"Last-Translator: \n"
+"Language: fi_FI\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SearchPathExcluded-1: classes/AdminGroups/LicenseSettingsGroup.php\n"
+
+#: classes/Ajax.php:48
+msgid ""
+"Selected payment method is not available. Refresh the page and try again."
+msgstr ""
+"Valittu maksutapa ei ole käytettävissä. Päivitä sivu ja yritä uudelleen."
+
+#: classes/Ajax.php:54 classes/Shortcodes/CheckoutShortcode.php:171
+msgid "Sorry, but no booking was found."
+msgstr "Anteeksi, mutta varausta ei löytynyt."
+
+#: classes/Ajax.php:76
+msgid "Request did not pass security verification."
+msgstr "Pyyntö ei läpäissyt suojausvahvistusta."
+
+#: classes/Configurator.php:28
+msgid "Hotel Booking Payment Request plugin."
+msgstr "Hotellivaraus Maksupyyntö plugin."
+
+#: classes/Configurator.php:29
+msgid ""
+"This plugin requires a separate Checkout Page to handle payment requests. "
+"Press \"Install Page\" button to create this page. Dismiss this notice if "
+"you already installed it."
+msgstr ""
+"Tämä laajennus vaatii erillisen kassasivun maksupyyntöjen käsittelemiseksi. "
+"Luo tämä sivu painamalla \"Asenna Sivu\" -painiketta. Hylkää tämä ilmoitus, "
+"jos olet jo asentanut sen."
+
+#: classes/Configurator.php:31
+msgid "Install Page"
+msgstr "Asenna Sivu"
+
+#: classes/Configurator.php:33
+msgid "Skip"
+msgstr "Ohita"
+
+#. Register Request Payment meta box for Edit Booking page
+#: classes/Configurator.php:89
+#: classes/Emails/Customer/RequestPaymentEmail.php:24 classes/Plugin.php:100
+#: classes/Utils/SettingsTabUtils.php:24
+msgid "Payment Request"
+msgstr "Maksupyyntö"
+
+#: classes/Emails/Admin/RequestPaidEmail.php:9
+#, fuzzy
+msgid "Payment Received Email"
+msgstr "Maksu vastaanotettu sähköposti"
+
+#: classes/Emails/Admin/RequestPaidEmail.php:14
+#, fuzzy
+msgid ""
+"Email that is sent to Admin after customer has made the requested payment."
+msgstr ""
+"Sähköposti, joka lähetetään järjestelmänvalvojalle sen jälkeen, kun asiakas "
+"on tehnyt pyydetyn maksun."
+
+#: classes/Emails/Admin/RequestPaidEmail.php:19
+#, fuzzy
+msgid "%site_title% - Payment received for booking #%booking_id%"
+msgstr "%site_title% - Varausten maksu #%booking_id%"
+
+#: classes/Emails/Admin/RequestPaidEmail.php:24
+msgid "Payment Received"
+msgstr "Maksu vastaanotettu"
+
+#: classes/Emails/Customer/RequestPaymentEmail.php:9
+#, fuzzy
+msgid "Payment Request Email"
+msgstr "Maksupyynnön sähköposti"
+
+#: classes/Emails/Customer/RequestPaymentEmail.php:14
+#, fuzzy
+msgid ""
+"Email that will be automatically or manually sent to customer in regard to a "
+"booking balance."
+msgstr ""
+"Sähköposti, joka lähetetään asiakkaalle automaattisesti tai manuaalisesti "
+"varaussaldon osalta."
+
+#: classes/Emails/Customer/RequestPaymentEmail.php:19
+#, fuzzy
+msgid "%site_title% - Payment request for booking #%booking_id%"
+msgstr "%site_title% - Maksupyyntö varausta varten #%booking_id%"
+
+#: classes/Emails/NewTags.php:28
+#, fuzzy
+msgid "Booking Payment Request Link"
+msgstr "Varausmaksupyyntölinkki"
+
+#: classes/Emails/NewTags.php:43
+#, fuzzy
+msgid "Booking Balance Due"
+msgstr "Erääntynyt varaussaldo"
+
+#: classes/Listeners/PostUpdateListener.php:36
+#, fuzzy
+msgid "Booking updated and payment request email has been sent to customer."
+msgstr "Varaus päivitetty ja maksupyyntösähköposti on lähetetty asiakkaalle."
+
+#: classes/MetaBoxes/RequestPaymentMetaBox.php:43
+#, fuzzy
+msgid "Disable automatic payment requests for this booking"
+msgstr "Poista tämän varauksen automaattiset maksupyynnöt käytöstä"
+
+#: classes/MetaBoxes/RequestPaymentMetaBox.php:66
+#, fuzzy
+msgid "Payment request link to send manually"
+msgstr "Maksupyyntölinkki manuaalisesti lähetettäväksi"
+
+#: classes/MetaBoxes/RequestPaymentMetaBox.php:71
+#, fuzzy
+msgid "Send Payment Request Now"
+msgstr "Lähetä maksupyyntö nyt"
+
+#: classes/Shortcodes/CheckoutShortcode.php:75
+msgid "Payment method is not valid."
+msgstr "Maksutapa ei kelpaa."
+
+#: classes/Shortcodes/CheckoutShortcode.php:236
+msgid "Booking Details"
+msgstr "Varauksen tiedot"
+
+#: classes/Shortcodes/CheckoutShortcode.php:249
+msgid "Price Breakdown"
+msgstr "Hinta erittely"
+
+#: classes/Shortcodes/CheckoutShortcode.php:270
+msgid "Payment History"
+msgstr "Maksuhistoria"
+
+#: classes/Shortcodes/CheckoutShortcode.php:275
+msgid "Date"
+msgstr "Päivämäärä"
+
+#: classes/Shortcodes/CheckoutShortcode.php:276
+msgid "Payment"
+msgstr "Maksu"
+
+#: classes/Shortcodes/CheckoutShortcode.php:277
+msgid "Status"
+msgstr "Tila"
+
+#: classes/Shortcodes/CheckoutShortcode.php:278
+msgid "Amount"
+msgstr "Summa"
+
+#. translators: "via Payment Method"
+#: classes/Shortcodes/CheckoutShortcode.php:300
+#, php-format
+msgid "via %s"
+msgstr "%s kautta"
+
+#. foreach
+#. else
+#: classes/Shortcodes/CheckoutShortcode.php:312
+msgid "Total Paid"
+msgstr "Maksetut yhteensä"
+
+#: classes/Shortcodes/CheckoutShortcode.php:316
+msgid "Balance Due"
+msgstr "Erääntyvä saldo"
+
+#: classes/Shortcodes/CheckoutShortcode.php:341
+msgid "Total:"
+msgstr "Yhteensä:"
+
+#: classes/Update/EDD_Plugin_Updater.php:203
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr ""
+"Lisäosan %1$s uusi versio on saatavilla. %2$sKatso version %3$s tiedot%4$s."
+
+#: classes/Update/EDD_Plugin_Updater.php:211
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s "
+"or %5$supdate now%6$s."
+msgstr ""
+"Lisäosan %1$s uusi versio on saatavilla. %2$sKatso version %3$s tiedot%4$s "
+"tai %5$späivitä nyt%6$s."
+
+#: classes/Update/EDD_Plugin_Updater.php:398
+msgid "You do not have permission to install plugin updates"
+msgstr "Sinulla ei ole oikeuksia päivittää lisäosia"
+
+#: classes/Update/EDD_Plugin_Updater.php:398
+msgid "Error"
+msgstr "Virhe"
+
+#: classes/Utils/SettingsTabUtils.php:30
+msgid "Automatic Emails"
+msgstr "Automaattinen viesti"
+
+#: classes/Utils/SettingsTabUtils.php:31
+#, fuzzy
+msgid ""
+"Enable automatic payment request emails to customers in regard to the "
+"booking balance or the full balance"
+msgstr ""
+"Ota käyttöön automaattiset maksupyyntösähköpostit asiakkaille varaussaldon "
+"tai koko saldon osalta"
+
+#: classes/Utils/SettingsTabUtils.php:36
+#, fuzzy
+msgid "Days Before Check-in"
+msgstr "Päivää ennen sisäänkirjautumista"
+
+#: classes/Utils/SettingsTabUtils.php:37
+#, fuzzy
+msgid "The number of days to send automatic emails prior to check-in date."
+msgstr ""
+"Päivien määrä, jolloin automaattiset sähköpostit lähetetään ennen "
+"sisäänkirjautumispäivää."
+
+#: classes/Utils/SettingsTabUtils.php:44
+#, fuzzy
+msgid "Payment Request Page"
+msgstr "Maksupyyntö-sivu"
+
+#: classes/Utils/SettingsTabUtils.php:45
+#, fuzzy
+msgid ""
+"Select page user will be redirected to pay the booking balance. Must contain "
+"[mphb_payment_request_checkout] shortcode."
+msgstr ""
+"Valitse sivun käyttäjä ohjataan maksamaan varaussaldo. On sisällettävä "
+"[mphb_payment_request_checkout] lyhytkoodi."
+
+#: classes/Utils/SettingsTabUtils.php:56
+msgid "License"
+msgstr "Lisenssi"
+
+#: templates/emails/admin-request-paid.php:15
+#, fuzzy, php-format
+msgid "New payment received for booking #%s."
+msgstr "Uusi maksu vastaanotettu varausta varten #%s."
+
+#: templates/emails/admin-request-paid.php:17
+msgid "View Booking"
+msgstr "Näytä varaus"
+
+#: templates/emails/admin-request-paid.php:19
+msgid "Details of payment"
+msgstr "Maksun tiedot"
+
+#: templates/emails/admin-request-paid.php:20
+#, php-format
+msgid "Payment ID: #%s"
+msgstr "Maksutunnus: #%s"
+
+#: templates/emails/admin-request-paid.php:21
+#, php-format
+msgid "Amount: %s"
+msgstr "Summa: %s"
+
+#: templates/emails/admin-request-paid.php:22
+#, php-format
+msgid "Method: %s"
+msgstr "Tapa: %s"
+
+#: templates/emails/admin-request-paid.php:24
+#: templates/emails/customer-request-payment.php:22
+msgid "Details of booking"
+msgstr "Varauksen tiedot"
+
+#: templates/emails/admin-request-paid.php:25
+#: templates/emails/customer-request-payment.php:24
+#, php-format
+msgid "Check-in: %1$s, from %2$s"
+msgstr "Check-in: %1$s, alkaen %2$s"
+
+#: templates/emails/admin-request-paid.php:26
+#: templates/emails/customer-request-payment.php:25
+#, php-format
+msgid "Check-out: %1$s, until %2$s"
+msgstr "Check-out: %1$s, saakka %2$s"
+
+#: templates/emails/admin-request-paid.php:28
+msgid "Customer Info"
+msgstr "Asiakkaan tiedot"
+
+#: templates/emails/admin-request-paid.php:29
+#, php-format
+msgid "Name: %1$s %2$s"
+msgstr "Nimi: %1$s %2$s"
+
+#: templates/emails/admin-request-paid.php:30
+#, php-format
+msgid "Email: %s"
+msgstr "Sähköposti: %s"
+
+#: templates/emails/admin-request-paid.php:31
+#, php-format
+msgid "Phone: %s"
+msgstr "Puhelinnumero: %s"
+
+#: templates/emails/admin-request-paid.php:32
+#, php-format
+msgid "Note: %s"
+msgstr "Viesti: %s"
+
+#: templates/emails/customer-request-payment.php:16
+#, fuzzy, php-format
+msgid "Dear %1$s %2$s,"
+msgstr "Hyvä %1$s %2$s,"
+
+#: templates/emails/customer-request-payment.php:18
+#, fuzzy, php-format
+msgid "We are contacting you in regard to %1$s balance due for your booking."
+msgstr "Otamme sinuun yhteyttä koskien %1$s saldoa, joka erääntyy varaukseesi."
+
+#: templates/emails/customer-request-payment.php:20
+#, fuzzy
+msgid "Pay Balance Now"
+msgstr "Maksa saldo nyt"
+
+#: templates/emails/customer-request-payment.php:23
+#, php-format
+msgid "ID: #%s"
+msgstr "Maksutunnus: #%s"
+
+#: templates/emails/customer-request-payment.php:26
+#, fuzzy, php-format
+msgid "Total Price: %s"
+msgstr "Kokonaishinta: %s"
+
+#: templates/emails/customer-request-payment.php:27
+#, fuzzy, php-format
+msgid "Balance Due: %s"
+msgstr "Erääntynyt saldo: %s"
+
+#: templates/emails/customer-request-payment.php:29
+#, fuzzy
+msgid ""
+"If you are unable to complete payment now, please contact us so we can "
+"resolve the issue."
+msgstr ""
+"Jos et pysty suorittamaan maksua nyt, ota meihin yhteyttä, jotta voimme "
+"ratkaista ongelman."
+
+#: templates/emails/customer-request-payment.php:31
+msgid "Thank you!"
+msgstr "Kiitos!"
+
+#: templates/shortcodes/payment-request-checkout/checkout-form.php:45
+#, fuzzy
+msgid "Submit Payment"
+msgstr "Lähetä maksu"
+
+#. Plugin Name of the plugin/theme
+#, fuzzy
+msgid "Hotel Booking Payment Request"
+msgstr "Hotellivaraus Maksupyyntö"
+
+#. Plugin URI of the plugin/theme
+#, fuzzy
+msgid "https://motopress.com/products/hotel-booking-payment-request/"
+msgstr "https://motopress.com/products/hotel-booking-payment-request/"
+
+#. Description of the plugin/theme
+#, fuzzy
+msgid ""
+"Send your clients a payment link, which redirects them to an online checkout "
+"page to pay the booking balance or the full balance in advance."
+msgstr ""
+"Lähetä asiakkaillesi maksulinkki, joka ohjaa heidät online-kassasivulle, "
+"jotta voit maksaa varaussaldon tai täyden saldon etukäteen."
+
+#. Author of the plugin/theme
+msgid "MotoPress"
+msgstr "MotoPress (MotoPress)"
+
+#. Author URI of the plugin/theme
+msgid "https://motopress.com/"
+msgstr "https://motopress.com/"

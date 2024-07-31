@@ -1,0 +1,255 @@
+# Copyright (C) 2020 MotoPress
+# This file is distributed under the same license as the Hotel Booking PDF Invoices plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Hotel Booking PDF Invoices 1.0.2\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/mphb-invoices\n"
+"POT-Creation-Date: 2021-01-19T22:20:44+00:00\n"
+"PO-Revision-Date: 2021-01-20 00:28+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Domain: mphb-invoices\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+
+#. Plugin Name of the plugin
+msgid "Hotel Booking PDF Invoices"
+msgstr "Hotel Booking PDF Invoices"
+
+#. Plugin URI of the plugin
+msgid "https://motopress.com/products/hotel-booking-invoices/"
+msgstr "https://motopress.com/products/hotel-booking-invoices/"
+
+#. Description of the plugin
+msgid ""
+"Send automated PDF invoices with the booking and payment details to your "
+"guests."
+msgstr ""
+"Отправляйте гостям автоматизированные PDF инвойсы с реквизитами бронирования "
+"и оплаты."
+
+#. Author of the plugin
+msgid "MotoPress"
+msgstr "MotoPress"
+
+#. Author URI of the plugin
+msgid "https://motopress.com/"
+msgstr "https://motopress.com/"
+
+#: classes/admin/license-settings-group.php:19
+msgid ""
+"The License Key is required in order to get automatic plugin updates and "
+"support. You can manage your License Key in your personal account. <a>Learn "
+"more</a>."
+msgstr ""
+"Для получения автоматических обновлений и поддержки требуется лицензионный "
+"ключ. Вы можете управлять своими лицензиями в учётной записи. <a>Читать "
+"подробнее</a>."
+
+#: classes/admin/license-settings-group.php:28
+msgid "License Key"
+msgstr "Лицензионный ключ"
+
+#: classes/admin/license-settings-group.php:40
+msgid "Status"
+msgstr "Статус"
+
+#: classes/admin/license-settings-group.php:47
+msgid "Inactive"
+msgstr "Неактивный"
+
+#. translators: %s - date in format d.m.Y
+#: classes/admin/license-settings-group.php:55
+msgid "Valid until %s"
+msgstr "Действительный до"
+
+#: classes/admin/license-settings-group.php:57
+msgid "Valid (Lifetime)"
+msgstr "Действительный (пожизненно)"
+
+#: classes/admin/license-settings-group.php:62
+msgid "Disabled"
+msgstr "Отключено"
+
+#: classes/admin/license-settings-group.php:66
+msgid "Expired"
+msgstr "Срок истёк"
+
+#: classes/admin/license-settings-group.php:70
+msgid "Invalid"
+msgstr "Недействительный"
+
+#: classes/admin/license-settings-group.php:74
+msgid ""
+"Your License Key does not match the installed plugin. <a>How to fix this.</a>"
+msgstr ""
+"Ключ Вашей лицензии не соответствует установленному плагину <a>Как это "
+"исправить.</a>"
+
+#: classes/admin/license-settings-group.php:81
+msgid "Product ID is not valid"
+msgstr "Неверный ID продукта"
+
+#: classes/admin/license-settings-group.php:91
+msgid "Action"
+msgstr "Действие"
+
+#: classes/admin/license-settings-group.php:96
+msgid "Activate License"
+msgstr "Активировать лицензию"
+
+#: classes/admin/license-settings-group.php:99
+msgid "Deactivate License"
+msgstr "Деактивировать лицензию"
+
+#: classes/admin/license-settings-group.php:102
+msgid "Renew License"
+msgstr "Обновить лицензию"
+
+#: classes/admin/settings-tab.php:27
+msgid "Invoices"
+msgstr "Инвойсы"
+
+#: classes/admin/settings-tab.php:35
+msgid "Send Invoice in Email"
+msgstr "Отправить инвойс в письме"
+
+#: classes/admin/settings-tab.php:36
+msgid ""
+"Copy and paste the %pdf_invoice% tag to the Approved booking email template "
+"to send invoice as an attachment."
+msgstr ""
+"Скопируйте и вставьте %pdf_invoice% макрос в шаблон письма о подтвержденном "
+"бронировании для отправки инвойса во вложении."
+
+#: classes/admin/settings-tab.php:40
+msgid "Invoice Title"
+msgstr "Загловок инвойса"
+
+#: classes/admin/settings-tab.php:46
+msgid "Company Logo"
+msgstr "Логотип компании"
+
+#: classes/admin/settings-tab.php:54
+msgid "Company Name"
+msgstr "Название компании"
+
+#: classes/admin/settings-tab.php:55
+msgid "Company name shown on invoice."
+msgstr "Название компании выводимое в инвойсе."
+
+#: classes/admin/settings-tab.php:60
+msgid "Company Information"
+msgstr "Информация о компании"
+
+#: classes/admin/settings-tab.php:61
+msgid "Company information shown on invoice."
+msgstr "Информация о компании выводимая в инвойсе."
+
+#: classes/admin/settings-tab.php:67
+msgid "Additional Information"
+msgstr "Дополнительная информация"
+
+#: classes/admin/settings-tab.php:68
+msgid "The text entered in this box will appear at the bottom of the invoice."
+msgstr "Текст введённый в этом поле появится внизу инвойса."
+
+#: classes/admin/settings-tab.php:74
+msgid "Invoice Link on Confirmation Page"
+msgstr "Ссылка на инвойс на странице подтверждения"
+
+#: classes/admin/settings-tab.php:75
+msgid ""
+"Add a link to a PDF invoice to the booking confirmation page on your site."
+msgstr ""
+"Добавить ссылку на PDF инвойс на страницу подтверджения бронирования на "
+"сайте."
+
+#: classes/admin/settings-tab.php:87
+msgid "License"
+msgstr "Лицензия"
+
+#: classes/email/tags-processor.php:22
+msgid "PDF Invoice"
+msgstr "PDF инвойс"
+
+#: classes/meta-boxes/invoice-meta-box.php:44
+msgid "Generate Invoice"
+msgstr "Создать инвойс"
+
+#: classes/pdf/pdf-helper.php:46
+msgid "Page"
+msgstr "Страница"
+
+#: classes/pdf/pdf-helper.php:93
+msgid "Payment Details"
+msgstr "Детали оплаты"
+
+#: classes/pdf/pdf-helper.php:94
+msgid "Booking Details"
+msgstr "Детали бронирования"
+
+#: classes/pdf/pdf-helper.php:95
+msgid "Booking"
+msgstr "Бронирование"
+
+#: classes/pdf/pdf-helper.php:96
+msgid "Date"
+msgstr "Дата"
+
+#: classes/pdf/pdf-helper.php:97
+msgid "Check In"
+msgstr "Дата заезда"
+
+#: classes/pdf/pdf-helper.php:98
+msgid "Check Out"
+msgstr "Дата отъезда"
+
+#: classes/pdf/pdf-helper.php:99
+msgid "Invoice Date"
+msgstr "Дата инвойса"
+
+#: includes/actions-and-filters.php:10 includes/functions.php:36
+msgid "Invoice"
+msgstr "Инвойс"
+
+#: includes/functions.php:35
+msgid "Open invoice in PDF"
+msgstr "Открыть инвойс в PDF"
+
+#: includes/functions.php:49 includes/functions.php:58
+#: includes/functions.php:93 includes/functions.php:104
+#: includes/functions.php:108
+msgid "No booking found!"
+msgstr "Бронирование не найдено!"
+
+#: includes/functions.php:61
+msgid "You don't have permissions for this action!"
+msgstr "У вас недостаточно прав для этого действия!"
+
+#: includes/functions.php:75
+msgid "View Invoice"
+msgstr "Посмотреть инвойс"
+
+#: includes/mphb-invoice-dependency.php:42
+msgid ""
+"Hotel Booking PDF Invoice plugin requires activated Hotel Booking plugin "
+"version %s or higher."
+msgstr ""
+"Hotel Booking PDF Invoice плагин требует активированный Hotel Booking плагин "
+"версии %s или выше."
+
+#: mphb-invoices.php:34
+msgid ""
+"Your version of PHP is below the minimum version of PHP required by Hotel "
+"Booking Invoices Addon. Please contact your host and request that your "
+"version be upgraded to 7.1 or later."
+msgstr ""
+"Ваша версия PHP ниже минимальной версии PHP, необходимой для дополнения "
+"\"Hotel Booking Invoices\". Свяжитесь с вашим хостом и попросите обновить "
+"вашу версию до 7.1 или выше."

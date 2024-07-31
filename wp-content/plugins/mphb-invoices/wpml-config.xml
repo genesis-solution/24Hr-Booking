@@ -1,0 +1,8 @@
+<wpml-config>
+  <admin-texts>
+    <key name="mphb_invoice_bottom_information"/>
+    <key name="mphb_invoice_company_information"/>
+    <key name="mphb_invoice_company_name"/>
+    <key name="mphb_invoice_title"/>
+  </admin-texts>
+</wpml-config>

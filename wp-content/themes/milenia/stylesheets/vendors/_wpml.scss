@@ -1,0 +1,169 @@
+.wpml-ls-statics-shortcode_actions {
+
+  &.wpml-ls-legacy-dropdown,
+  &.wpml-ls-legacy-dropdown-click {
+
+	width: auto;
+	margin-left: 1rem;
+	margin-right: 1rem;
+
+	> ul {
+
+
+	  a {
+		background-image: none !important;
+		background-color: transparent !important;
+	  }
+
+	}
+
+	a {
+	  color: #1c1c1c;
+	  border: none;
+	  background-color: transparent;
+	  padding: 0;
+	}
+
+	.wpml-ls-sub-menu {
+	  line-height: 1.5rem;
+	  letter-spacing: 0.7px;
+	  width: 6.875rem;
+	  visibility: visible;
+	  pointer-events: none;
+	  opacity: 0;
+	  left: -1.5625rem;
+	  padding-top: 0.6rem;
+	  padding-bottom: 0.6rem;
+	  background-color: #f8f8f8;
+	  margin-top: 0.4rem;
+	  text-align: center;
+	  border: none;
+	  transition: opacity .25s ease;
+
+	  &:empty {
+		display: none;
+	  }
+
+	  li.wpml-ls-item {
+		padding: 8px 25px;
+
+	  	a {
+		  color: #1c1c1c;
+		  font-size: remy(14);
+		  border-top: none;
+		}
+
+		&:hover {
+
+		  > a {
+			color: #858585;
+		  }
+
+		}
+
+	  }
+
+	  &:before {
+		position: absolute;
+		width: 100%;
+		height: 6px;
+		top: -6px;
+		left: 0;
+		content: "";
+	  }
+
+	}
+
+	a.wpml-ls-item-toggle:after {
+	  right: negremy(20);
+	}
+
+  }
+
+  &.wpml-ls-legacy-list-horizontal {
+
+	border: 0;
+	padding: 0;
+
+	ul {
+
+	  li {
+
+		margin: 0 remy(10);
+
+		a {
+
+		 padding-left: 0;
+		  padding-right: 0;
+
+		 span {
+		   font-size: remy(14);
+		   color: #1c1c1c;
+		 }
+		}
+
+	  }
+
+	}
+
+  }
+
+  &.wpml-ls-legacy-list-vertical {
+
+	border: none;
+
+	ul {
+
+	  li {
+
+		&:not(:last-child) {
+		  margin-bottom: remy(7);
+		}
+
+		a {
+
+		  padding: 0;
+
+		  span {
+			font-size: remy(14);
+			color: #1c1c1c;
+		  }
+		}
+
+	  }
+
+	}
+
+  }
+
+}
+
+.wpml-ls-legacy-dropdown {
+
+  .wpml-ls-current-language:hover,
+  .wpml-ls-current-language:focus {
+
+	.wpml-ls-sub-menu {
+	  opacity: 1;
+	  pointer-events: initial;
+	}
+
+  }
+
+}
+
+.milenia-header {
+
+  .wpml-ls-statics-shortcode_actions {
+
+	&.wpml-ls-legacy-dropdown,
+	&.wpml-ls-legacy-dropdown-click {
+
+	  > a {
+		color: #fff;
+	  }
+
+	}
+  }
+
+}

@@ -1,0 +1,6101 @@
+# Copyright (C) 2022 MotoPress
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: hotel-booking-plugin\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/motopress-hotel-booking\n"
+"Last-Translator: \n"
+"Language-Team: Danish\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2022-11-15T19:41:55+00:00\n"
+"PO-Revision-Date: 2022-11-15 20:59\n"
+"X-Generator: WP-CLI 2.6.0\n"
+"X-Domain: motopress-hotel-booking\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: hotel-booking-plugin\n"
+"X-Crowdin-Project-ID: 463550\n"
+"X-Crowdin-Language: da\n"
+"X-Crowdin-File: motopress-hotel-booking.pot\n"
+"X-Crowdin-File-ID: 44\n"
+"Language: da_DK\n"
+
+#. Plugin Name of the plugin
+#. translators: Name of the plugin, do not translate
+msgid "Hotel Booking"
+msgstr "Hotel Booking"
+
+#. Plugin URI of the plugin
+msgid "https://motopress.com/products/hotel-booking/"
+msgstr "https://motopress.com/products/hotel-booking/"
+
+#. Description of the plugin
+msgid "Manage your hotel booking services. Perfect for hotels, villas, guest houses, hostels, and apartments of all sizes."
+msgstr "Administrer dit hotel booking tjenester. Perfekt til hoteller, villaer, pensionater, vandrehjem, og lejligheder i alle størrelser."
+
+#. Author of the plugin
+msgid "MotoPress"
+msgstr "MotoPress"
+
+#. Author URI of the plugin
+msgid "https://motopress.com/"
+msgstr "https://motopress.com/"
+
+msgctxt "Post Status"
+msgid "New"
+msgstr "Ny"
+
+msgctxt "Post Status"
+msgid "Auto Draft"
+msgstr "Automatisk Kladde"
+
+msgctxt "Zero price"
+msgid "Free"
+msgstr "Gratis"
+
+#. translators: Price per one night. Example: $99 per night
+msgctxt "Price per one night. Example: $99 per night"
+msgid "per night"
+msgstr "per nat"
+
+#. translators: Price for X nights. Example: $99 for 2 nights, $99 for 21 nights
+msgctxt "Price for X nights. Example: $99 for 2 nights, $99 for 21 nights"
+msgid "for %d nights"
+msgid_plural "for %d nights"
+msgstr[0] "i %d nat"
+msgstr[1] "i %d nætter"
+
+#. translators: %s: URL to plugins.php page
+msgid "You are using two instances of Hotel Booking plugin at the same time, please <a href=\"%s\">deactivate one of them</a>."
+msgstr "Du bruger to udgaver af Hotel Booking plugin på samme tid, <a href=\"%s\">deaktivere en af dem</a>."
+
+msgid "<a href=\"%s\">Upgrade to Premium</a> to enable this feature."
+msgstr "<a href=\"%s\">Opgrader til Premium</a> for at aktivere denne funktion."
+
+msgid "Nonce verification failed."
+msgstr "Verificering mislykkedes."
+
+msgid "The file does not exist."
+msgstr "Filen findes ikke."
+
+msgid "Source ID is missing."
+msgstr "Kilde ID mangler."
+
+msgid "Error"
+msgstr "Fejl"
+
+msgid "View"
+msgstr "Se"
+
+msgid "Delete"
+msgstr "Slet"
+
+msgid "Name"
+msgstr "Navn"
+
+msgid "Email"
+msgstr "E-mail"
+
+msgid "Bookings"
+msgstr "Bookinger"
+
+msgid "Date Registered"
+msgstr "Dato registreret"
+
+msgid "Last Active"
+msgstr "Sidst aktiv"
+
+#. translators: Terms are variations for Attributes and bear no relation to the Terms and Conditions Page.
+msgid "Terms"
+msgstr "Betingelser"
+
+msgid "Created on:"
+msgstr "Oprettet den:"
+
+#. translators: Terms are variations for Attributes and bear no relation to the Terms and Conditions Page.
+msgid "Please add attribute in default language to configure terms."
+msgstr "Tilføj venligst beskrivelse i standardsprog for at forklare betingelser."
+
+#. translators: Terms are variations for Attributes and bear no relation to the Terms and Conditions Page.
+msgid "Configure terms"
+msgstr "Forklar udtryk"
+
+msgid "Reserved Accommodations"
+msgstr "Reserverede overnatningssteder"
+
+msgid "Update Booking"
+msgstr "Opdater Booking"
+
+msgid "Logs"
+msgstr "Logfiler"
+
+msgid "Delete Permanently"
+msgstr "Slet permanent"
+
+msgid "Move to Trash"
+msgstr "Flyt til Papirkurv"
+
+msgid "Create Booking"
+msgstr "Opret Booking"
+
+msgid "Resend Email"
+msgstr "Send e-mail igen"
+
+msgid "Send a copy of the Approved Booking email to the customer`s email address."
+msgstr "Send en kopi af den godkendte bookingmail til kundens e-mailadresse."
+
+msgid "Edit Accommodations"
+msgstr "Rediger Overnatningssteder"
+
+msgid "Date:"
+msgstr "Dato:"
+
+msgid "Author:"
+msgstr "Forfatter:"
+
+msgid "Auto"
+msgstr "Automatisk"
+
+msgid "Message:"
+msgstr "Beskeder:"
+
+msgid "Confirmation email has been sent to customer."
+msgstr "En e-mail med bekræftelses er blevet sendt til kunde."
+
+msgid "Coupon code"
+msgstr "Rabatkode"
+
+msgid "Update Payment"
+msgstr "Opdater betaling"
+
+msgid "Modified on:"
+msgstr "Ændringsdato:"
+
+msgid "Create Payment"
+msgstr "Opret betaling"
+
+msgid "Season Prices"
+msgstr "Sæson Priser"
+
+msgid "<code>Please select Accommodation Type and click Create Rate button to continue.</code>"
+msgstr "<code>Vælg venligst Overnatningstype og klik på Opret pris knappen for at fortsætte.</code>"
+
+msgid "Update Rate"
+msgstr "Opdater pris"
+
+msgid "Active"
+msgstr "Aktiv"
+
+msgid "Disabled"
+msgstr "Deaktiveret"
+
+msgid "Create Rate"
+msgstr "Opret pris"
+
+msgid "Duplicate Rate"
+msgstr "Dupliker pris"
+
+msgid "Generate Accommodations"
+msgstr "Opret Indkvarteringsmuligheder"
+
+msgid "Attributes"
+msgstr "Egenskaber"
+
+msgid "Accommodation Reviews"
+msgstr "Anmeldelser af Indkvarteringssted"
+
+msgid "Allow guests to <a href=\"%s\" target=\"_blank\">submit star ratings and reviews</a> evaluating your accommodations."
+msgstr "Tillad gæster at <a href=\"%s\" target=\"_blank\">indsende stjernebedømmelser og anmeldelser</a> evaluere dine indkvarteringer."
+
+msgid "Number of Accommodations:"
+msgstr "Antal indkvarteringssteder:"
+
+msgid "Count of real accommodations of this type in your hotel."
+msgstr "Antal rigtige indkvarteringer af denne type på dit hotel."
+
+msgid "Total Accommodations:"
+msgstr "Samlet antal indkvarteringer:"
+
+msgid "Show Accommodations"
+msgstr "Vis Indkvarteringer"
+
+msgid "Active Accommodations:"
+msgstr "Aktive Indkvarteringssteder:"
+
+msgid "Add"
+msgstr "Tilføj"
+
+msgid "Per adult:"
+msgstr "Pr. voksne:"
+
+msgid "Per child:"
+msgstr "Pr. barn:"
+
+msgid "Per adult: "
+msgstr "Pr. voksne: "
+
+msgid "Per child: "
+msgstr "Pr. barn: "
+
+msgid "Actions"
+msgstr "Handlinger"
+
+msgid "Default"
+msgstr "Standard"
+
+msgid "— Select —"
+msgstr "— Vælg —"
+
+msgid "Install & Activate"
+msgstr "Installér & Aktivér"
+
+msgid "Add image"
+msgstr "Tilføj billede"
+
+msgid "Add gallery"
+msgstr "Tilføj galleri"
+
+msgid "Remove image"
+msgstr "Fjern billede"
+
+msgid "Remove gallery"
+msgstr "Fjern galleri"
+
+msgid "Select all"
+msgstr "Vælg alle"
+
+msgid "Unselect all"
+msgstr "Fravælg alle"
+
+msgid "Date"
+msgstr "Dato"
+
+msgid "Author"
+msgstr "Forfatter"
+
+msgid "Edit"
+msgstr "Rediger"
+
+msgid "Done"
+msgstr "Udført"
+
+msgid "All"
+msgstr "Alle"
+
+msgid "None"
+msgstr "Ingen"
+
+msgid "HH:MM"
+msgstr "HH:MM"
+
+msgid "Recalculate Total Price"
+msgstr "Genberegn Total Pris"
+
+msgid "Nights"
+msgstr "Nætter"
+
+msgid "and more"
+msgstr ""
+
+msgid "Remove"
+msgstr "Fjern"
+
+msgid "Add length of stay"
+msgstr "Tilføj længde på ophold"
+
+msgid "Adults"
+msgstr "Voksne"
+
+msgid "Children"
+msgstr "Børn"
+
+msgid "Price per night"
+msgstr "Pris pr. nat"
+
+msgid "Enable variable pricing"
+msgstr "Aktiver variabel prissætning"
+
+msgid "Add Variation"
+msgstr "Tilføj variation"
+
+msgid "Remove variation"
+msgstr "Fjern variation"
+
+msgid "The License Key is required in order to get automatic plugin updates and support. You can manage your License Key in your personal account. <a href='https://motopress.zendesk.com/hc/en-us/articles/202812996-How-to-use-your-personal-MotoPress-account' target='_blank'>Learn more</a>."
+msgstr "Licensnøglen er påkrævet for at få automatisk plugin opdateringer og support. Du kan administrere din licensnøgle på din personlige konto. <a href='https://motopress.zendesk.com/hc/en-us/articles/202812996-How-to-use-your-personal-MotoPress-account' target='_blank'>Læs mere</a>."
+
+msgid "License Key"
+msgstr "Licens Nøgle"
+
+msgid "Status"
+msgstr "Status"
+
+msgid "Inactive"
+msgstr "Inaktiv"
+
+msgid "Valid until"
+msgstr "Gyldig indtil"
+
+msgid "Valid (Lifetime)"
+msgstr "Gyldig (Livstid)"
+
+msgid "Expired"
+msgstr "Udløbet"
+
+msgid "Invalid"
+msgstr "Ugyldig"
+
+msgid "Your License Key does not match the installed plugin. <a href='https://motopress.zendesk.com/hc/en-us/articles/202957243-What-to-do-if-the-license-key-doesn-t-correspond-with-the-plugin-license' target='_blank'>How to fix this.</a>"
+msgstr "Din licensnøgle matcher ikke det installerede plugin. <a href='https://motopress.zendesk.com/hc/en-us/articles/202957243-What-to-do-if-the-license-key-doesn-t-correspond-with-the-plugin-license' target='_blank'>Hvordan man løser dette.</a>"
+
+msgid "Product ID is not valid"
+msgstr "Produkt ID er ikke gyldigt"
+
+msgid "Action"
+msgstr "Handling"
+
+msgid "Activate License"
+msgstr "Aktiver Licens"
+
+msgid "Deactivate License"
+msgstr "Deaktiver Licens"
+
+msgid "Renew License"
+msgstr "Forny Licens"
+
+msgid "Attributes let you define extra accommodation data, such as location or type. You can use these attributes in the search availability form as advanced search filters."
+msgstr "Egenskaber giver dig mulighed for at definere ekstra indkvarteringsdata, såsom placering eller type. Du kan bruge disse egenskaber i søgefunktions formularen som avancerede søgefiltre."
+
+msgid "This attribute refers to non-unique taxonomy - %1$s - which was already registered with attribute %2$s."
+msgstr "Denne egenskab refererer til ikke-unik taksonomi - %1$s - som allerede var registreret med egenskab %2$s."
+
+#. translators: Terms are variations for Attributes and bear no relation to the Terms and Conditions Page.
+msgid "You cannot manage terms of trashed attributes."
+msgstr "Du kan ikke administrere vilkår for kasserede egenskaber."
+
+msgid "New Booking"
+msgstr "Ny booking"
+
+msgid "ID"
+msgstr "Id"
+
+msgid "Check-in / Check-out"
+msgstr "Ankomst og afrejse"
+
+msgid "Guests"
+msgstr "Gæster"
+
+msgid "Customer Info"
+msgstr "Kundeoplysninger"
+
+msgid "Price"
+msgstr "Pris"
+
+msgid "Accommodation"
+msgstr "Indkvartering"
+
+msgid "Booking #%s"
+msgstr "Booking #%s"
+
+msgid "Expire %s"
+msgstr "Udløber: %s"
+
+msgid "Adults: "
+msgstr "Voksne: "
+
+msgid "Children: "
+msgstr "Børn: "
+
+msgid "%s night"
+msgid_plural "%s nights"
+msgstr[0] "%s nat"
+msgstr[1] "%s nætter"
+
+msgid "Summary: %s."
+msgstr "Resume: %s."
+
+msgid "Paid: %s"
+msgstr "Betalt: %s"
+
+msgid "Set to %s"
+msgstr "Indstillet til %s"
+
+msgid "Booking status changed."
+msgid_plural "%s booking statuses changed."
+msgstr[0] "Booking status ændret."
+msgstr[1] "%s bookingstatus ændret."
+
+msgid "All accommodation types"
+msgstr "Alle indkvarteringstyper"
+
+#. translators: The number of imported bookings: "Imported <span>(11)</span>"
+msgid "Imported %s"
+msgstr "Importeret - %s"
+
+msgid "Customer"
+msgstr "Kunde"
+
+msgid "Amount"
+msgstr "Beløb"
+
+msgid "Booking"
+msgstr "Booking"
+
+msgid "Gateway"
+msgstr "Port"
+
+msgid "Transaction ID"
+msgstr "Transaksjons ID"
+
+msgid "Created/Modified Date"
+msgstr "Oprettet/Ændret Dato"
+
+msgid "Payment #%s"
+msgstr "Betaling #%s"
+
+msgid "Created on: "
+msgstr "Oprettet den: "
+
+msgid "Modified on: "
+msgstr "Ændringsdato: "
+
+msgid "Rates are used to offer different prices of the same accommodation type depending on extra conditions. E.g. Double room with breakfast included; double room with no breakfast. Guests will choose the preferable rate when submitting a booking request."
+msgstr "Satserne bruges til at tilbyde forskellige priser af samme indkvarteringstype, afhængigt af ekstra forhold. Dobbeltværelse med morgenmad inkluderet; dobbeltværelse uden morgenmad. Gæsterne vil vælge den ønskede pris, når de indsender en bookingforespørgsel."
+
+msgid "Accommodation Type"
+msgstr "Indkvarterings Type"
+
+msgid "Season &#8212; Price"
+msgstr "Sæson &#8212; pris"
+
+msgid "Duplicate"
+msgstr "Kopier"
+
+msgid "Rate was duplicated."
+msgstr "Prisen blev kopieret."
+
+msgid "These are real accommodations like rooms, apartments, houses, villas, beds (for hostels) etc."
+msgstr "Disse er reelle boliger som værelser, lejligheder, huse, villaer, senge (til vandrehjem) osv."
+
+msgid "All Accommodation Types"
+msgstr "Alle indkvarteringstyper"
+
+msgid "These are not physical accommodations, but their types. E.g. standard double room. To specify the real number of existing accommodations, you'll need to use Generate Accommodations menu."
+msgstr "Disse er ikke fysiske indkvarteringer, men deres typer. F.eks. standard dobbeltværelse. For at angive det reelle antal eksisterende boliger, skal du bruge menuen Opret indkvarteringer."
+
+msgid "Capacity"
+msgstr "Kapacitet"
+
+msgid "Bed Type"
+msgstr "Senge type"
+
+msgid "Accommodations"
+msgstr "Indkvarteringsmuligheder"
+
+msgid "Total:"
+msgstr "I alt:"
+
+msgid "Adults:"
+msgstr "Voksne:"
+
+msgid "Children:"
+msgstr "Børn:"
+
+msgid "Size:"
+msgstr "Størrelse:"
+
+msgid "Active:"
+msgstr "Aktiv:"
+
+msgid "Seasons are real periods of time, dates or days that come with different prices for accommodations. E.g. Winter 2018 ($120 per night), Christmas ($150 per night)."
+msgstr "Sæsoner er reelle perioder, datoer eller dage, der kommer med forskellige priser for indkvartering. F.eks. vinter 2018 ($120 per nat), jul ($150 per nat)."
+
+msgid "Start"
+msgstr "Start"
+
+msgid "End"
+msgstr "Slut"
+
+msgid "Days"
+msgstr "Dage"
+
+msgid "Services are extra offers that you can sell or give for free. E.g. Thai massage, transfer, babysitting. Guests can pre-order them when placing a booking."
+msgstr "Serviceydelser er ekstra tilbud, som du kan sælge eller give gratis. F.eks. Thai massage, overførsel, babysitning. Gæsterne kan forudbestille dem, når de placerer en booking."
+
+msgid "Periodicity"
+msgstr "Periodicitet"
+
+msgid "Charge"
+msgstr "Opkræve"
+
+msgid "Per Day"
+msgstr "Pr. dag"
+
+msgid "Guest Choice"
+msgstr "Gæstens Valg"
+
+msgid "Once"
+msgstr "En gang"
+
+msgid "Per Guest"
+msgstr "Pr. Gæst"
+
+msgid "Per Accommodation"
+msgstr "Pr. Indkvartering"
+
+msgid "These are accommodation amenities, generally free ones. E.g. air-conditioning, wifi."
+msgstr "Det er indkvarteringsfaciliteter, som generelt er gratis. F.eks. aircondition, wifi."
+
+msgid "Booking rules saved."
+msgstr "Booking regler gemt."
+
+msgid "Booking Rules"
+msgstr "Booking Regler"
+
+msgid "Save Changes"
+msgstr "Gem ændringer"
+
+msgid "Check-in days"
+msgstr "Ankomstdatoer"
+
+msgid "Guests can check in any day."
+msgstr "Gæsterne kan tjekke ind på alle dage."
+
+msgid "Add rule"
+msgstr "Tilføj regel"
+
+msgid "Seasons"
+msgstr "Sæsoner"
+
+msgid "Check-out days"
+msgstr "Afrejsedatoer"
+
+msgid "Guests can check out any day."
+msgstr "Gæsterne kan tjekke ud alle dage."
+
+msgid "Minimum stay"
+msgstr "Minimum ophold"
+
+msgid "There are no minimum stay rules."
+msgstr "Der er ingen minimumsregler for ophold."
+
+msgid "nights"
+msgstr "nætter"
+
+msgid "Maximum stay"
+msgstr "Maksimalt ophold"
+
+msgid "There are no maximum stay rules."
+msgstr "Der er ingen regler for maksimal ophold."
+
+msgid "Block accommodation"
+msgstr "Bloker indkvartering"
+
+msgid "There are no blocking accommodation rules."
+msgstr "Der er ingen regler for blokering af indkvartering."
+
+msgid "From"
+msgstr "Fra"
+
+msgid "Till"
+msgstr "Til"
+
+msgid "Restriction"
+msgstr "Begrænsninger"
+
+msgid "Not check-in rule marks the date as unavailable for check-in."
+msgstr ""
+
+msgid "Not check-out rule marks the date as unavailable for check-out."
+msgstr ""
+
+msgid "Not stay-in rule displays the date as blocked. This date is unavailable for check-out and check-in on the next date."
+msgstr ""
+
+msgid "Not stay-in with Not check-out rules completely block the selected date, additionally displaying the previous date as unavailable for check-in."
+msgstr ""
+
+msgid "Not check-in"
+msgstr "Ikke check-in"
+
+msgid "Not check-out"
+msgstr "Ikke check-ud"
+
+msgid "Not stay-in"
+msgstr "Ikke opholdt sig"
+
+msgid "Comment"
+msgstr "Kommentar"
+
+msgid "Minimum advance reservation"
+msgstr "Minimum forudreservation"
+
+msgid "There are no minimum advance reservation rules."
+msgstr "Der er ingen minimumsreserveringsregler for forudbestilling."
+
+msgid "Maximum advance reservation"
+msgstr "Maksimal forudreservation"
+
+msgid "There are no maximum advance reservation rules."
+msgstr "Der er ingen maksimale forudbestillingsregler."
+
+msgid "Booking buffer"
+msgstr "Booking buffer"
+
+msgid "There are no booking buffer rules."
+msgstr "Der er ingen bookingbufferregler."
+
+msgid "Booking Calendar"
+msgstr "Booking Kalender"
+
+msgid "Calendar"
+msgstr "Kalender"
+
+msgid "Add New Booking"
+msgstr "Tilføj Ny Booking"
+
+msgid "Clear Search Results"
+msgstr "Ryd Søgeresultater"
+
+msgid "Note: booking rules are disabled in the plugin settings and are not taken into account."
+msgstr "Bemærk: Reserveringsregler er deaktiveret i plugin-indstillingerne og er ikke taget i betragtning."
+
+msgid "Unable to create booking. Please try again."
+msgstr "Kunne ikke oprette booking. Prøv venligst igen."
+
+msgid "Booking is blocked due to maintenance reason. Please try again later."
+msgstr "Booking er blokeret på grund af vedligeholdelse af siden. Prøv igen senere."
+
+msgid "There are no accommodations selected for reservation."
+msgstr "Der er ingen indkvarteringer valgt til reservation."
+
+msgid "Selected accommodations are not valid."
+msgstr "Valgte indkvartering er ikke gyldig."
+
+msgid "Accommodation Type is not valid."
+msgstr "Indkvarteringstype er ikke gyldig."
+
+msgid "Rate is not valid."
+msgstr "Pris er ikke gyldig."
+
+msgid "Adults number is not valid."
+msgstr "Antallet af voksne er ikke gyldigt."
+
+msgid "Children number is not valid."
+msgstr "Antal børn er ikke gyldigt."
+
+msgid "The total number of guests is not valid."
+msgstr "Det samlede antal gæster er ikke gyldigt."
+
+msgid "Selected dates do not meet booking rules for type %s"
+msgstr "Valgte datoer opfylder ikke reservationsreglerne for indkvarteringen %s"
+
+msgid "Accommodations are not available."
+msgstr "Indkvarteringsmåden er ikke tilgængelig."
+
+msgid "There are no rates for requested dates."
+msgstr "Der er ingen priser for de ønskede datoer."
+
+msgid "Search Results"
+msgstr "Søge resultater"
+
+msgid "— Any —"
+msgstr "— enhver —"
+
+msgid "Search parameters are not set."
+msgstr "Søgekriterier er ikke valgt."
+
+msgid "Check-in date is not valid."
+msgstr "Ankomst-datoen er ikke gyldig."
+
+msgid "Check-in date cannot be earlier than today."
+msgstr "Ankomst-dato kan ikke være tidligere end i dag."
+
+msgid "Check-out date is not valid."
+msgstr "Afrejse-dato er ikke gyldig."
+
+msgid "Nothing found. Please try again with different search parameters."
+msgstr "Intet fundet. Prøv igen med andre søgekriterier."
+
+msgid "Sorry, you are not allowed to access this page."
+msgstr "Du har desværre ikke adgang til denne side."
+
+msgid "User ID"
+msgstr "Bruger-id"
+
+msgid "Username"
+msgstr "Brugernavn"
+
+msgid "First Name"
+msgstr "Fornavn"
+
+msgid "Last Name"
+msgstr "Efternavn"
+
+msgid "Phone"
+msgstr "Telefon"
+
+msgid "Address"
+msgstr "Adresse"
+
+msgid "State / County"
+msgstr "Stat/Land"
+
+msgid "Country"
+msgstr "Land"
+
+msgid "City"
+msgstr "By"
+
+msgid "Postcode"
+msgstr "Postnummer"
+
+msgid "Customer data updated."
+msgstr "Kunde informationer opdateret."
+
+msgid "User account updated."
+msgstr "Brugerkonto opdateret."
+
+msgid "Edit User Profile"
+msgstr "Rediger brugerprofil"
+
+msgid "Update"
+msgstr "Opdater"
+
+msgid "Customers"
+msgstr "Kunder"
+
+msgid "The booking is not set."
+msgstr "Bookingen er ikke angivet."
+
+msgid "The booking not found."
+msgstr "Bookingen blev ikke fundet."
+
+msgid "Edit Booking #%d"
+msgstr "Rediger Booking #%d"
+
+msgid "Cancel"
+msgstr "Annuller"
+
+msgid "Back"
+msgstr "Tilbage"
+
+msgid "Edit Booking"
+msgstr "Rediger Booking"
+
+msgid "You cannot edit the imported booking. Please update the source booking and resync your calendars."
+msgstr "Du kan ikke redigere den importerede booking. Opdater kildereservationen og synkroniser dine kalendere."
+
+msgid "Request does not pass security verification. Please refresh the page and try one more time."
+msgstr "Anmodningen videregiver ikke sikkerhedsbekræftelse. Opdater venligst siden og prøv en gang til."
+
+msgid "Check-in date is not set."
+msgstr "Ankomst-dato er ikke angivet."
+
+msgid "Check-out date is not set."
+msgstr "Afrejse-dato er ikke angivet."
+
+msgid "Unable to update booking. Please try again."
+msgstr "Kan ikke opdatere booking. Prøv venligst igen."
+
+msgid "Booking was edited."
+msgstr "Booking blev redigeret."
+
+msgid "Available"
+msgstr "Tilgængelig"
+
+msgid "Replace"
+msgstr "Erstat"
+
+msgid "— Add new —"
+msgstr "— Tilføj ny —"
+
+msgid "Extensions"
+msgstr "Udvidelser"
+
+msgid "Extend the functionality of Hotel Booking plugin with the number of helpful addons for your custom purposes."
+msgstr "Udvid funktionaliteten af Hotel Booking plugin med antallet af nyttige tilføjelser til dine brugerdefinerede formål."
+
+msgid "Get this Extension"
+msgstr "Hent denne udvidelse"
+
+msgid "No extensions found."
+msgstr "Ingen udvidelser fundet."
+
+msgid "Abort Process"
+msgstr "Afbryd Proces"
+
+msgid "Aborting..."
+msgstr "Afbryder..."
+
+msgid "Import Calendar"
+msgstr "Importer kalender"
+
+msgid "Accommodation: %s"
+msgstr "Indkvartering: %s"
+
+msgid "Accommodation Type: %s"
+msgstr "Indkvarterings Type. %s"
+
+msgid "Please be patient while the calendars are imported. You will be notified via this page when the process is completed."
+msgstr "Vær tålmodig, mens kalenderne er importeret. Du får besked via denne side, når processen er afsluttet."
+
+msgid "Accommodation updated."
+msgstr "Indkvartering opdateret."
+
+msgid "This calendar has already been imported for another accommodation."
+msgstr "Denne kalender er allerede blevet importeret til en anden indkvartering."
+
+msgid "Sync, Import and Export Calendars"
+msgstr "Sync, import og eksport kalendere"
+
+#. translators: %s - room name. Example: "Comfort Triple 1"
+msgid "Edit External Calendars of \"%s\""
+msgstr "Rediger eksterne kalendere for \"%s\""
+
+msgid "Sync All External Calendars"
+msgstr "Synkroniser Alle Eksterne Kalendere"
+
+msgid "Sync your bookings across all online channels like Booking.com, TripAdvisor, Airbnb etc. via iCalendar file format."
+msgstr "Synkroniser dine bookinger på tværs af alle onlinekanaler som Booking.com, TripAdvisor, Airbnb osv. via iCalendar-filformat."
+
+msgid "Calendar URL"
+msgstr "Kalender URL"
+
+msgid "Add New Calendar"
+msgstr "Tilføj Ny Kalender"
+
+msgid "Sync Calendars"
+msgstr "Synkroniser Kalendere"
+
+msgid "Delete All Logs"
+msgstr "Slet alle logs"
+
+msgid "Deleting..."
+msgstr "Sletter..."
+
+msgid "%d item"
+msgstr "%d element"
+
+msgid "%d items"
+msgstr "%d elementer"
+
+msgid "Calendars Synchronization Status"
+msgstr "Synkroniseringsstatus For Kalendere"
+
+msgid "Here you can see synchronization status of your external calendars."
+msgstr "Her kan du se synkroniseringsstatus for dine eksterne kalendere."
+
+msgid "Calendars Sync Status"
+msgstr "Status for synkronisering af kalendere"
+
+msgid "Display calendars synchronization status."
+msgstr "Vis synkroniseringsstatus for kalendere."
+
+msgid "Language Guide"
+msgstr "Sprogguide"
+
+msgid "Default language"
+msgstr "Standardsprog"
+
+msgid "This plugin will display all system messages, labels, buttons in the language set in <em>General > Settings > Site Language</em>. If the plugin is not available in your language, you may <a href=\"%s\">contribute your translation</a>."
+msgstr "Dette plugin vil vise alle systembeskeder, etiketter, knapper på det valgte sproget i <em>Generelt > Indstillinger > Webstedssprog</em>. Hvis plugin'et ikke er tilgængeligt på dit sprog, kan du <a href=\"%s\">bidrage din oversættelse</a>."
+
+msgid "Custom translations and edits"
+msgstr "Bruger oversættelser og redigeringer"
+
+msgid "You may customize plugin translation by editing the needed texts or adding your translation following these steps:"
+msgstr "Du kan tilpasse plugin oversættelse ved at redigere de nødvendige tekster eller tilføje din oversættelse efter disse trin:"
+
+msgid "Take the source file for your translations %s or needed translated locale."
+msgstr "Tag kildefilen til dine oversættelser %s eller nødvendige oversættelser."
+
+msgid "Translate texts with any translation program like Poedit, Loco, Pootle etc."
+msgstr "Oversæt tekster med valgfrit oversættelse program som Poedit, Loco, Pootle osv."
+
+msgid "Put created .mo file with your translations into the folder %s. Where {lang} is ISO-639 language code and {country} is ISO-3166 country code. Example: Brazilian Portuguese file would be called motopress-hotel-booking-pt_BR.mo."
+msgstr "Sæt oprettet .mo-fil med dine oversættelser i mappen %s. Hvor {lang} er ISO-639 sprogkode og {country} er ISO-3166 landekode. Eksempel: Brasiliansk portugisisk fil vil blive kaldt motopress-hotel-booking-pt_BR.mo."
+
+msgid "Multilingual content"
+msgstr "Flersproget indhold"
+
+msgid "If your site is multilingual, you may use additional plugins to translate your added content into multiple languages allowing the site visitors to switch them."
+msgstr "Hvis dit websted er flersproget, kan du bruge yderligere plugins til at oversætte dit tilføjede indhold til flere sprog, så besøgende kan skifte mellem dem."
+
+msgid "Language"
+msgstr "Sprog"
+
+msgid "Reports"
+msgstr "Rapporter"
+
+msgid "Export"
+msgstr "Eksporter"
+
+msgid "All Statuses"
+msgstr "Alle Statusser"
+
+msgid "Booking dates between"
+msgstr "Reservations datoer mellem"
+
+msgid "Check-in date between"
+msgstr "Dato for indtjekning mellem"
+
+msgid "Check-out date between"
+msgstr "Udtjekningsdato mellem"
+
+msgid "In-house between"
+msgstr "Internt mellem"
+
+msgid "Date of reservation between"
+msgstr "Dato for reservation mellem"
+
+msgid "Export Bookings"
+msgstr "Eksporter Bookinger"
+
+msgid "Choose start date"
+msgstr "Vælg startdato"
+
+msgid "Choose end date"
+msgstr "Vælg slutdato"
+
+msgid "Select columns to export"
+msgstr "Vælg kolonner, der skal eksporteres"
+
+msgid "Generate CSV"
+msgstr "Generer CSV"
+
+msgid "Number of accommodations"
+msgstr "Antal indkvarteringssteder"
+
+msgid "Title"
+msgstr "Titel"
+
+msgid "Leave empty to use accommodation type title."
+msgstr "Efterlad blank for at bruge indkvarteringens navn."
+
+msgid "Generate"
+msgstr "Generer"
+
+msgid "Accommodation generated."
+msgid_plural "%s accommodations generated."
+msgstr[0] "Indkvartering oprettet."
+msgstr[1] "%s Indkvarteringer oprettet."
+
+msgid "General"
+msgstr "Generel"
+
+msgid "Pages"
+msgstr "Web-sider"
+
+msgid "Search Results Page"
+msgstr "Side med søgeresultater"
+
+msgid "Select page to display search results. Use search results shortcode on this page."
+msgstr "Vælg side for at vise søgeresultater. Brug kortkode til søgeresultater på denne side."
+
+msgid "Checkout Page"
+msgstr "Checkout Side"
+
+msgid "Select page user will be redirected to complete booking."
+msgstr "Vælg side bruger vil blive omdirigeret til for at fuldføre booking."
+
+msgid "Terms & Conditions"
+msgstr "Handelsbetingelser"
+
+msgid "If you define a \"Terms\" page the customer will be asked if they accept them when checking out."
+msgstr "Hvis du definerer en \"Vilkår\" side vil kunden blive spurgt, om de accepterer dem, når de tjekker ud."
+
+msgid "Open the Terms & Conditions page in a new window"
+msgstr ""
+
+msgid "By enabling this option you can avoid errors related to displaying your terms & conditions inline for website pages created in page builders."
+msgstr ""
+
+msgid "My Account Page"
+msgstr "Min Konto Side"
+
+msgid "Select a page to display user account. Use the customer account shortcode on this page."
+msgstr "Vælg en side til at vise brugerkonto. Brug kortkoden på kundekontoen på denne side."
+
+msgid "Misc"
+msgstr "Diverse"
+
+msgid "Square Units"
+msgstr "Kvadratenheder"
+
+msgid "Currency"
+msgstr "Valuta"
+
+msgid "Currency Position"
+msgstr "Valuta Position"
+
+msgid "Datepicker Date Format"
+msgstr "Datopicker Datoformat"
+
+msgid "Check-out Time"
+msgstr "Afrejse tidspunkt"
+
+msgid "Check-in Time"
+msgstr "Ankomst tidspunkt"
+
+msgid "Bed Types"
+msgstr "Senge type"
+
+msgid "Type"
+msgstr "Type"
+
+msgid "Add Bed Type"
+msgstr "Tilføj Sengetype"
+
+msgid "Show Lowest Price for"
+msgstr "Vis Laveste pris for"
+
+msgid "days"
+msgstr "dage"
+
+msgid "Lowest price of accommodation for selected number of days if check-in and check-out dates are not set. Example: set 0 to display today's lowest price, set 7 to display the lowest price for the next week."
+msgstr "Laveste overnatningspris for valgte antal dage, hvis ankomst og afrejse datoer ikke er angivet. Eksempel: sæt 0 til at vise dagens laveste pris, sæt 7 til at vise den laveste pris for den næste uge."
+
+msgid "Enable search form to recommend the best set of accommodations according to a number of guests."
+msgstr "Aktiver søgeformularen til at anbefale den bedste sæt indkvartering i forhold til antallet af gæster."
+
+msgid "Enable the use of coupons."
+msgstr "Aktiver brug af kuponer."
+
+msgid "Text on Checkout"
+msgstr "Tekst ved Checkout"
+
+msgid "This text will appear on the checkout page."
+msgstr "Denne tekst vil blive vist på checkout siden."
+
+msgid "Disable Booking"
+msgstr "Deaktiver Booking"
+
+msgid "Hide reservation forms and buttons"
+msgstr "Skjul reservationsformularer og -knapper"
+
+msgid "Text instead of reservation form while booking is disabled"
+msgstr "Tekst i stedet for reservationsformular, mens reservationen er deaktiveret"
+
+msgid "Booking Confirmation"
+msgstr "Reservationsbekræftelse"
+
+msgid "Confirmation Mode"
+msgstr "Bekræftelses Tilstand"
+
+msgid "By customer via email"
+msgstr "Til kunde via e-mail"
+
+msgid "By admin manually"
+msgstr "Manuelt af administrator"
+
+msgid "Confirmation upon payment"
+msgstr "Bekræftelse ved betaling"
+
+msgid "Booking Confirmed Page"
+msgstr "Booking Bekræftigelses Side"
+
+msgid "Page user will be redirected to once the booking is confirmed via email or by admin."
+msgstr "Siden brugeren vil blive omdirigeret til når bookingen er bekræftet via e-mail eller ved admin."
+
+msgid "Approval Time for User"
+msgstr "Godkendelse tid for bruger"
+
+msgid "Period of time in minutes the user is given to confirm booking via email. Unconfirmed bookings become Abandoned and accommodation status changes to Available."
+msgstr "Tidsperiode i minutter brugeren har til at bekræfte reservation via e-mail. Ubekræftede bookinger bliver slettet og indkvarteringens status ændringer til tilgængelige."
+
+msgid "Country of residence field is required for reservation."
+msgstr "Felt med bopælsland er påkrævet for reservation."
+
+msgid "Full address fields are required for reservation."
+msgstr "Fuldstændige adressefelter er påkrævet for reservation."
+
+msgid "Customer information is required when placing admin bookings."
+msgstr "Kundeinformation er påkrævet, når du indtaster manuel bookinger."
+
+msgid "Default Country on Checkout"
+msgstr "Standard land ved checkout"
+
+msgid "Price Breakdown"
+msgstr "Pris Opdeling"
+
+msgid "Price breakdown unfolded by default."
+msgstr "Prisopdeling udfoldet som standard."
+
+msgid "Accounts"
+msgstr "Konti"
+
+msgid "Account creation"
+msgstr "Konto oprettelse"
+
+msgid "Automatically create an account for a user at checkout."
+msgstr "Opret automatisk en konto til en bruger ved checkud."
+
+msgid "Allow customers to create an account during checkout."
+msgstr "Tillad kunder at oprette en konto under checkud."
+
+msgid "Allow customers to log into their existing account during checkout."
+msgstr "Tillad kunder at logge ind på deres eksisterende konto under checkud."
+
+msgid "Booking Cancellation"
+msgstr "Annullering af Booking"
+
+msgid "User can cancel booking via link provided inside email."
+msgstr "Brugeren kan annullere reservationen via linket i e-mailen."
+
+msgid "Booking Cancelation Page"
+msgstr "Side til annullering af booking"
+
+msgid "Page to confirm booking cancelation."
+msgstr "Side for at bekræfte annullering af booking."
+
+msgid "Booking Canceled Page"
+msgstr "Side som viser at bookingen er annulleret"
+
+msgid "Page to redirect to after a booking is canceled."
+msgstr "Side der skal omdirigeres til efter en booking er annulleret."
+
+msgid "Search Options"
+msgstr "Søge muligheder"
+
+msgid "Maximum accommodation occupancy available in the Search Form."
+msgstr "Maksimal belægning på indkvarteringsstedet i søgeformular."
+
+msgid "Max Adults"
+msgstr "Max Voksne"
+
+msgid "Max Children"
+msgstr "Max Børn"
+
+msgid "Age of Child"
+msgstr "Barnets alder"
+
+msgid "Optional description of the \"Children\" field."
+msgstr "Valgfri beskrivelse af feltet \"Børn\"."
+
+msgid "Skip Search Results"
+msgstr "Ryd Søgeresultater"
+
+msgid "Skip search results page and enable direct booking from accommodation pages."
+msgstr "Spring over siden med søgeresultater og aktiver direkte booking fra indkvarteringernes sider."
+
+msgid "Direct Booking Form"
+msgstr "Direkte Booking Formular"
+
+msgid "Show price for selected period"
+msgstr "Vis pris for den valgte periode"
+
+msgid "Show price together with adults and children fields"
+msgstr "Vis pris sammen med felter til voksne og børn"
+
+msgid "Book button behavior on the search results page"
+msgstr "Booking knapens adfærd på siden med søgeresultater"
+
+msgid "Redirect to the checkout page immediately after successful addition to reservation."
+msgstr "Omdiriger til checkud siden umiddelbart efter vellykket tilføjelse til reservation."
+
+msgid "Enable \"adults\" and \"children\" options for my website (default)."
+msgstr "Aktiver \"voksne\" og \"børn\" indstillinger for min hjemmeside (som standard)."
+
+msgid "Disable \"children\" option for my website (hide \"children\" field and use Guests label instead)."
+msgstr "Deaktiver \"børn\" mulighed for min hjemmeside (skjul \"børn\" felt og brug Gæster etiket i stedet)."
+
+msgid "Disable \"adults\" and \"children\" options for my website."
+msgstr "Deaktiver \"voksne\" og \"børn\" muligheden på min hjemmeside."
+
+msgid "Guest Management"
+msgstr "Gæste Håndtering"
+
+msgid "Hide \"adults\" and \"children\" fields within search availability forms."
+msgstr "Skjul \"voksne\" og \"børn\" felter i søgefeltet formularer."
+
+msgid "Do not apply booking rules for admin bookings."
+msgstr "Tilføj ikke bookingregler for admin bookinger."
+
+msgid "Display Options"
+msgstr "Vis Indstillinger"
+
+msgid "Display gallery images of accommodation page in lightbox."
+msgstr "Vis galleri billeder af indkvarteringssiden i lightbox."
+
+msgid "Availability Calendar"
+msgstr "Kalender over tilgængelighed"
+
+msgid "Display per-night prices in the availability calendar."
+msgstr ""
+
+msgid "Truncate per-night prices in the availability calendar."
+msgstr ""
+
+msgid "Display the currency sign in the availability calendar."
+msgstr ""
+
+msgid "Calendar Theme"
+msgstr "Kalender Tema"
+
+msgid "Select theme for an availability calendar."
+msgstr "Vælg tema for en tilgængelighedskalender."
+
+msgid "Template Mode"
+msgstr "Skabelon Tilstand"
+
+msgid "Developer Mode"
+msgstr "Udvikler Tilstand"
+
+msgid "Theme Mode"
+msgstr "Tema Tilstand"
+
+msgid "Choose Theme Mode to display the content with the styles of your theme. Choose Developer Mode to control appearance of the content with custom page templates, actions and filters. This option can't be changed if your theme is initially integrated with the plugin."
+msgstr "Vælg Tema tilstand for at vise indholdet med layoutet af dit tema. Vælg Udviklertilstand for at styre udseendet af indholdet med brugerdefinerede sideskabeloner, handlinger og filtre. Denne indstilling kan ikke ændres, hvis dit tema oprindeligt er integreret med plugin."
+
+msgid "More Styles"
+msgstr "Flere styles"
+
+msgid "Extend the styling options of Hotel Booking plugin with the new free addon - Hotel Booking Styles."
+msgstr "Udvid styling muligheder for Hotel Booking plugin med den nye gratis addon - Hotel Booking Styles."
+
+msgid "Calendars Synchronization"
+msgstr "Synkronisering af Kalendere"
+
+msgid "Export admin blocks."
+msgstr "Eksporter administratorblokke."
+
+msgid "Do not export imported bookings."
+msgstr "Eksporter ikke importerede bookings."
+
+msgid "Minimize Logs"
+msgstr "Minimer Logs"
+
+msgid "Enable the plugin to record only important messages."
+msgstr "Aktiver plug-in'et til kun at optage vigtige beskeder."
+
+msgid "Calendars Synchronization Scheduler"
+msgstr "Tidsplan for synkronisering af kalendere"
+
+msgid "Enable automatic external calendars synchronization"
+msgstr "Aktiver automatisk synkronisering af eksterne kalendere"
+
+msgid "Clock"
+msgstr "Ur"
+
+msgid "Sync calendars at this time (UTC) or starting at this time every interval below."
+msgstr "Synkroniser kalendere på dette tidspunkt (UTC) eller starter på dette tidspunkt hvert interval nedenfor."
+
+msgid "Interval"
+msgstr "Interval"
+
+msgid "Quarter an Hour"
+msgstr "Kvarter af en time"
+
+msgid "Half an Hour"
+msgstr "En halv time"
+
+msgid "Once Hourly"
+msgstr "En gang pr time"
+
+msgid "Twice Daily"
+msgstr "To gange dagligt"
+
+msgid "Once Daily"
+msgstr "En Gang Dagligt"
+
+msgid "Automatically delete sync logs older than"
+msgstr "Slet automatisk synkroniseringslogs ældre end"
+
+msgid "Day"
+msgstr "Dag"
+
+msgid "Week"
+msgstr "Uge"
+
+msgid "Month"
+msgstr "Måned"
+
+msgid "Quarter"
+msgstr "Kvartal"
+
+msgid "Half a Year"
+msgstr "Halvår"
+
+msgid "Never Delete"
+msgstr "Slet aldrig"
+
+msgid "Block Editor"
+msgstr "Blok-editor"
+
+msgid "Enable block editor for \"%s\"."
+msgstr "Aktiver blok editor for \"%s\"."
+
+msgid "Accommodation Types"
+msgstr "Indkvarterings måder"
+
+msgid "Services"
+msgstr "Tjenester"
+
+msgid "Admin Emails"
+msgstr "Administrator Email"
+
+msgid "Customer Emails"
+msgstr "Kunde-email"
+
+msgid "Turn one-time guests into loyal customers by sending out automatic marketing campaigns with the <a>Hotel Booking & Mailchimp Integration</a>."
+msgstr "Gør engangs-gæster til loyale kunder ved at sende automatiske markedsføringskampagner med <a>Hotel Booking & Mailchimp Integration</a>."
+
+msgid "Turn one-time guests into loyal customers by sending out automatic marketing campaigns with the Hotel Booking & Mailchimp Integration."
+msgstr "Gør engangs-gæster til loyale kunder ved at sende automatiske markedsføringskampagner med Hotel Booking & Mailchimp Integration."
+
+msgid "Cancellation Details Template"
+msgstr "Skabelon med detaljer for annullering"
+
+msgid "Used for %cancellation_details% tag."
+msgstr "Brugt til %cancellation_details% tag."
+
+msgid "Email Settings"
+msgstr "Email Indstillinger"
+
+msgid "Send automated email notifications, such as key pick-up instructions, house rules, before and after arrival/departure with <a>Hotel Booking Notifier</a>."
+msgstr "Send automatiserede e-mailnotifikationer, såsom nøgleinstruktioner, husregler, før og efter ankomst/afrejse med <a>Hotel Booking Notifier</a>."
+
+msgid "Send automated email notifications, such as key pick-up instructions, house rules, before and after arrival/departure with Hotel Booking Notifier."
+msgstr "Send automatiserede e-mailnotifikationer, såsom nøgleinstruktioner, husregler, før og efter ankomst/afrejse med Hotel Booking Notifier."
+
+msgid "Email Sender"
+msgstr "E-mail afsender"
+
+msgid "Administrator Email"
+msgstr "Administrator email"
+
+msgid "From Email"
+msgstr "Fra email"
+
+msgid "From Name"
+msgstr "Fra navn"
+
+msgid "Logo URL"
+msgstr "Logo URL"
+
+msgid "Footer Text"
+msgstr "Sidefodstekst"
+
+msgid "Reserved Accommodation Details Template"
+msgstr "Reserveret Indlogeringsoplysninger Skabelon"
+
+msgid "Used for %reserved_rooms_details% tag."
+msgstr "Brugt til %reserved_rooms_details% tag."
+
+msgid "Styles"
+msgstr "Styles"
+
+msgid "Base Color"
+msgstr "Grundfarve"
+
+msgid "Background Color"
+msgstr "Baggrundsfarve"
+
+msgid "Body Background Color"
+msgstr "Baggrundsfarve"
+
+msgid "Body Text Color"
+msgstr "Tekst Farve"
+
+msgid "Payment Gateways"
+msgstr "Betalingssystems"
+
+msgid "General Settings"
+msgstr "Generelle indstillinger"
+
+msgid "Need more gateways? Use our Hotel Booking <a href=\"%s\" target=\"_blank\">WooCommerce Payments</a> extension."
+msgstr "Brug for flere gateways? Brug vores Hotel Booking <a href=\"%s\" target=\"_blank\">WooCommerce Betalinger</a> udvidelse."
+
+msgid "You may also email the <a href=\"%s\" target=\"_blank\">balance payment request</a> link to your guests."
+msgstr "Du kan også sende <a href=\"%s\" target=\"_blank\">saldo betalingsanmodning</a> til dine gæster."
+
+msgid "User Pays"
+msgstr "Bruger Betalinger"
+
+msgid "Full Amount"
+msgstr "Fuldt Beløb"
+
+msgid "Deposit"
+msgstr "Depositum"
+
+msgid "Deposit Type"
+msgstr "Depositum Type"
+
+msgid "Fixed"
+msgstr "Låst"
+
+msgid "Percent"
+msgstr "Procent"
+
+msgid "Deposit Amount"
+msgstr "Indbetal Beløb"
+
+msgid "Deposit Time Frame (days)"
+msgstr "Tidsramme For Indbetaling (Dage)"
+
+msgid "Apply deposit to bookings made in at least the selected number of days prior to the check-in date. Otherwise, the full amount is charged."
+msgstr "Anvend depositum på reservationer foretaget i mindst det valgte antal dage før ankomstdatoen. Ellers opkræves det fulde beløb."
+
+msgid "Force Secure Checkout"
+msgstr "Gennemtving Sikker Checkout"
+
+msgid "Force SSL (HTTPS) on the checkout pages. You must have an SSL certificate installed to use this option."
+msgstr "Gennemtving SSL (HTTPS) på betalingssiderne. Du skal have et SSL-certifikat installeret for at bruge denne indstilling."
+
+msgid "Reservation Received Page"
+msgstr "Reservation Modtaget Side"
+
+msgid "Failed Transaction Page"
+msgstr "Mislykket Transaktions side"
+
+msgid "Default Gateway"
+msgstr "Standard port/Gateway"
+
+msgid "Pending Payment Time"
+msgstr "Afventer Betalingstid"
+
+msgid "Period of time in minutes the user is given to complete payment. Unpaid bookings become Abandoned and accommodation status changes to Available."
+msgstr "Periode i minutter brugeren har fået til at fuldføre betaling. Ubetalte bookinger bliver annulleret og indkvarteringens status ændringer til tilgængelige."
+
+msgid "Install <a href=\"%s\" target=\"_blank\">Hotel Booking addons</a> to manage their settings."
+msgstr "Installer <a href=\"%s\" target=\"_blank\">Hotel Booking tilføjelser</a> for at administrere deres indstillinger."
+
+msgid "Install Hotel Booking addons to manage their settings."
+msgstr "Installer Hotel Booking tilføjelser til at administrere deres indstillinger."
+
+msgid "Advanced"
+msgstr "Avanceret"
+
+msgid "License"
+msgstr "Licens"
+
+msgid "Settings saved."
+msgstr "Indstillinger gemt."
+
+msgid "<strong>Note:</strong> Payment methods will appear on the checkout page only when Confirmation Upon Payment is enabled in Accommodation > Settings > General > Confirmation Mode."
+msgstr "<strong>Bemærk:</strong> Betalingsmetoder vises kun på betalingssiden, når bekræftelse ved betaling er aktiveret i Indkvarteringsindstillinger > Generelt > Bekræftelsestilstand."
+
+msgid "Settings"
+msgstr "Indstillinger"
+
+msgid "Availability Search Form"
+msgstr "Formular til at søge tilgængelighed"
+
+msgid "Display search form."
+msgstr "Vis søgeformular."
+
+msgid "The number of adults presetted in the search form."
+msgstr "Antallet af voksne som er forudindstillede i søgeformularen."
+
+msgid "The number of children presetted in the search form."
+msgstr "Antallet af børn som er forudindstillede i søgeformularen."
+
+msgid "Check-in date presetted in the search form."
+msgstr "Ankomstdato forudindstillede i søgeformularen."
+
+msgid "date in format %s"
+msgstr "dato i formatet %s"
+
+msgid "Check-out date presetted in the search form."
+msgstr "Afrejsedato forudindstillede i søgeformularen."
+
+msgid "Custom attributes for advanced search."
+msgstr "Brugerdefinerede egenskaber til avanceret søgning."
+
+msgid "Comma-separated slugs of attributes."
+msgstr "Kommaseparerede mål i egenskaber."
+
+msgid "Custom CSS class for shortcode wrapper"
+msgstr "Tilpasset CSS-klasse til kortkode-wrapper"
+
+msgid "whitespace separated css classes"
+msgstr "blanke tegn adskilt css klasser"
+
+msgid "Accommodation Type ID"
+msgstr "Indkvartering Type ID"
+
+msgid "ID of Accommodation Type to check availability."
+msgstr "Indkvarteringstypens ID for at kontrollere tilgængelighed."
+
+msgid "integer number"
+msgstr "heltal"
+
+msgid "How many months to show."
+msgstr "Hvor mange måneder der skal vises."
+
+msgid "Set the number of columns or the number of rows and columns separated by comma. Example: \"3\" or \"2,3\""
+msgstr "Angiv antallet af kolonner eller antallet af rækker og kolonner adskilt af komma. Eksempel: \"3\" eller \"2,3\""
+
+msgid "Display availability calendar of the current accommodation type or by ID."
+msgstr "Vis tilgængelighedskalender for den aktuelle indkvarteringstype eller ID."
+
+msgid "Availability Search Results"
+msgstr "Tilgængelighed Søgeresultater"
+
+msgid "Display listing of accommodation types that meet the search criteria."
+msgstr "Vis liste over indkvarteringstyper der opfylder søgekriterierne."
+
+msgid "Whether to display title of the accommodation type."
+msgstr "Om titlen på indkvarteringen skal vises."
+
+msgid "Whether to display featured image of the accommodation type."
+msgstr "Om fremhævede billede af indkvarteringstypen skal vises."
+
+msgid "Whether to display gallery of the accommodation type."
+msgstr "Om der skal vises galleri af indkvarteringstypen."
+
+msgid "Whether to display excerpt (short description) of the accommodation type."
+msgstr "Om der skal vises uddrag (kort beskrivelse) af indkvarteringstypen."
+
+msgid "Whether to display details of the accommodation type."
+msgstr "Om detaljer for indkvarteringstypen skal vises."
+
+msgid "Whether to display price of the accommodation type."
+msgstr "Om prisen skal vises for indkvarteringstypen."
+
+msgid "Show View Details button"
+msgstr "Vis Vis detalje knap"
+
+msgid "Whether to display \"View Details\" button with the link to accommodation type."
+msgstr "Om knappen \"Vis detaljer\" skal vises med linket til indkvarteringstypen."
+
+msgid "Sort by."
+msgstr "Sorter efter."
+
+msgid "%1$s. See the <a href=\"%2$s\" target=\"_blank\">full list</a>."
+msgstr "%1$s. Se den <a href=\"%2$s\" target=\"_blank\">fulde liste</a>."
+
+msgid "Designates the ascending or descending order of sorting."
+msgstr "Vælg om rækkefølgen skal være stigende eller faldende sorteringsrækkefølge."
+
+msgid "ASC - from lowest to highest values (1, 2, 3). DESC - from highest to lowest values (3, 2, 1)."
+msgstr "ASC - fra laveste til højeste værdi (1, 2, 3). DESC - fra højeste til laveste værdi (3, 2, 1)."
+
+msgid "Custom field name. Required if \"orderby\" is one of the \"meta_value\", \"meta_value_num\" or \"meta_value_*\"."
+msgstr "Brugerdefineret feltnavn. Påkrævet hvis \"orderby\" er et af \"meta_value\", \"meta_value_num\" eller \"meta_value_*\"."
+
+msgid "custom field name"
+msgstr "navn på Brugerdefineret felt"
+
+msgid "empty string"
+msgstr "tom streng"
+
+msgid "Specified type of the custom field. Can be used in conjunction with orderby=\"meta_value\"."
+msgstr "Angiv type af det brugerdefinerede felt. Kan bruges sammen med orderby=\"meta_value\"."
+
+msgid "Sort by. Use \"orderby\" insted."
+msgstr "Sorter efter. Brug \"orderby\" i stedet."
+
+msgid "Show Book button"
+msgstr "Vis Booking knap"
+
+msgid "Whether to display Book button."
+msgstr "Om Booking knappen skal vises."
+
+msgid "NOTE:"
+msgstr "BEMÆRK:"
+
+msgid "Use only on page that you set as Search Results Page in <a href=\"%s\">Settings</a>"
+msgstr "Brug kun på siden, som du har angivet som søgeresultatside i <a href=\"%s\">indstillinger</a>"
+
+msgid "Accommodation Types Listing"
+msgstr "Liste over indkvarteringsmåder"
+
+msgid "Count per page"
+msgstr "Antal pr. side"
+
+msgid "integer, -1 to display all, default: \"Blog pages show at most\""
+msgstr "integer, -1 for at vise alle, standard: \"Blogsider vises højst\""
+
+msgid "IDs of categories that will be shown."
+msgstr "ID'er for kategorier, der vil blive vist."
+
+msgid "Comma-separated IDs."
+msgstr "Kommaseparerede ID'er."
+
+msgid "IDs of tags that will be shown."
+msgstr "Id'er på tags, der vil blive vist."
+
+msgid "IDs of accommodations that will be shown."
+msgstr "ID'er på indkvarteringer, der vil blive vist."
+
+msgid "Logical relationship between each taxonomy when there is more than one."
+msgstr "Logisk forhold mellem hver taksonomi, når der er mere end en."
+
+msgid "Services Listing"
+msgstr "Oversigt over tjenester"
+
+msgid "IDs"
+msgstr "IDer"
+
+msgid "IDs of services that will be shown. "
+msgstr "ID'er på tjenester, der vil blive vist. "
+
+msgid "Show All Services"
+msgstr "Vis alle tjenester"
+
+msgid "Single Accommodation Type"
+msgstr "Enkelt indkvarteringstype"
+
+msgid "ID of accommodation type to display."
+msgstr "ID for indkvarteringstype der skal vises."
+
+msgid "Display accommodation type with title and image."
+msgstr "Vis indkvarteringstype med titel og billede."
+
+msgid "Checkout Form"
+msgstr "Check-out formular"
+
+msgid "Display checkout form."
+msgstr "Vis check-out formular."
+
+msgid "Use only on page that you set as Checkout Page in <a href=\"%s\">Settings</a>"
+msgstr "Brug kun på siden, som du har angivet som Check-out side i <a href=\"%s\">Indstillinger</a>"
+
+msgid "Booking Form"
+msgstr "Booking formular"
+
+msgid "Show Booking Form for Accommodation Type with id 777"
+msgstr "Vis bookingformular for indkvartering med id 777"
+
+msgid "Accommodation Rates List"
+msgstr "Liste over indkvarteringspriser"
+
+msgid "ID of accommodation type."
+msgstr "ID for indkvarteringstype."
+
+msgid "Show Accommodation Rates List for accommodation type with id 777"
+msgstr "Vis liste over indkvarteringspriser for indkvartering med id 777"
+
+msgid "Display booking and payment details."
+msgstr "Vis booking- og betalingsoplysninger."
+
+msgid "Use this shortcode on Booking Confirmed and Reservation Received pages"
+msgstr "Brug denne kortkode på Booking bekræftet og Reservation modtaget sider"
+
+msgid "Booking Cancelation"
+msgstr "Annullering af Booking"
+
+msgid "Display booking cancelation details."
+msgstr "Vis detaljer for annullering af booking."
+
+msgid "Use this shortcode on the Booking Cancelation page"
+msgstr "Brug denne kortkode på siden til afbestilling af Booking"
+
+msgid "Customer Account"
+msgstr "Kundekonto"
+
+msgid "Display log in form or customer account area."
+msgstr "Vis log ind formular eller kundekonto område."
+
+msgid "Use this shortcode to create the My Account page."
+msgstr "Brug denne kortkode til at oprette siden Min konto."
+
+msgid "Shortcodes"
+msgstr "Kortkoder"
+
+msgid "Shortcode"
+msgstr "Kortkode"
+
+msgid "Parameters"
+msgstr "Parametre"
+
+msgid "Example"
+msgstr "Eksempel"
+
+msgid "Deprecated since %s"
+msgstr "Udgået siden %s"
+
+msgid "Values:"
+msgstr "Værdier:"
+
+msgid "Default:"
+msgstr "Standard:"
+
+msgid "Optional."
+msgstr "Valgfri."
+
+msgid "Required"
+msgstr "Påkrævet"
+
+msgid "Taxes and fees saved."
+msgstr "Skatter og gebyrer gemt."
+
+msgid "Taxes & Fees"
+msgstr "Skatter og gebyrer"
+
+msgid "Fees"
+msgstr "Gebyrer"
+
+msgid "No fees have been created yet."
+msgstr "Ingen gebyrer er blevet oprettet endnu."
+
+msgid "Add new"
+msgstr "Tilføj ny"
+
+msgid "Label"
+msgstr "Etikette"
+
+msgid "New fee"
+msgstr "Nyt gebyr"
+
+msgid "Per guest / per day"
+msgstr "Pr. gæst / per dag"
+
+msgid "Per accommodation / per day"
+msgstr "Per indkvartering / per dag"
+
+msgid "Per accommodation (%)"
+msgstr "Pr. Indkvartering (%)"
+
+msgid "Limit"
+msgstr "Grænse"
+
+msgid "How often this fee is charged. Set 0 to charge each day of the stay period. Set 1 to charge once."
+msgstr "Hvor ofte dette gebyr opkræves. Sæt 0 hvis det skal opkræves hver dag i opholdet. Sæt 1 hvis det skal opkræves en gang pr. ophold."
+
+msgid "Include"
+msgstr "Inkluder"
+
+msgid "Show accommodation rate with this charge included"
+msgstr "Vis overnatningspris med denne opkrævning inkluderet"
+
+msgid "Accommodation Taxes"
+msgstr "Indkvarterings gebyrer"
+
+msgid "No taxes have been created yet."
+msgstr "Ingen gebyrer er blevet oprettet endnu."
+
+msgid "New tax"
+msgstr "Ny afgift"
+
+msgid "Limit of days the fee is charged. Set 0 to charge each day of stay period. Set 1 to charge once."
+msgstr "Hvor ofte dette gebyr opkræves. Sæt 0 hvis det skal opkræves hver dag i opholdet. Sæt 1 hvis det skal opkræves en gang pr. ophold."
+
+msgid "Service Taxes"
+msgstr "Service gebyr"
+
+msgid "Percentage"
+msgstr "Procentdel"
+
+msgid "Fee Taxes"
+msgstr "Gebyrer"
+
+msgid "External Calendars"
+msgstr "Eksterne Kalendere"
+
+msgid "Sync External Calendars"
+msgstr "Synkroniser Eksterne Kalendere"
+
+msgctxt "Placeholder for empty accommodation title"
+msgid "(no title)"
+msgstr "(ingen titel)"
+
+msgid "Download Calendar"
+msgstr "Download Kalender"
+
+msgid "Message"
+msgstr "Besked"
+
+msgid "Success"
+msgstr "Udført"
+
+msgid "Info"
+msgstr "Info"
+
+msgid "Warning"
+msgstr "Advarsler"
+
+msgctxt "This is date and time format 31/12/2017 - 23:59:59"
+msgid "d/m/Y - H:i:s"
+msgstr "d/m/Y - H:i:s"
+
+msgid "Waiting"
+msgstr "Afventer"
+
+msgid "Processing"
+msgstr "Behandler"
+
+msgctxt "Total number of processed bookings"
+msgid "Total"
+msgstr "I alt"
+
+msgid "Succeed"
+msgstr "Lykkedes"
+
+msgid "Skipped"
+msgstr "Droppet"
+
+msgid "Failed"
+msgstr "Mislykkedes"
+
+msgid "Removed"
+msgstr "Fjernet"
+
+msgid "Copying to clipboard failed. Please press Ctrl/Cmd+C to copy."
+msgstr "Kopiering til udklipsholder mislykkedes. Tryk Ctrl/Cmd+C for at kopiere."
+
+msgid "Description is missing."
+msgstr "Beskrivelsen mangler."
+
+msgid "User is missing."
+msgstr "Brugeren mangler."
+
+msgid "Permission is missing."
+msgstr "Tilladelsen mangler."
+
+msgid "You do not have permission to assign API Keys to the selected user."
+msgstr "Du har ikke tilladelse til at tildele API-nøgler til den valgte bruger."
+
+msgid "API Key updated successfully."
+msgstr "API-nøgle opdateret."
+
+msgid "API Key generated successfully. Make sure to copy your new keys now as the secret key will be hidden once you leave this page."
+msgstr "API-nøgle genereret. Sørg for at kopiere dine nye nøgler nu, da den hemmelige nøgle vil blive skjult, når du forlader denne side."
+
+msgid "Revoke key"
+msgstr "Tilbagekald nøgle"
+
+msgid "No keys found."
+msgstr "Ingen nøgler fundet."
+
+msgid "Description"
+msgstr "Beskrivelse"
+
+msgid "Consumer key ending in"
+msgstr "Forbruger nøgle slutter om"
+
+msgid "User"
+msgstr "Bruger"
+
+msgid "Permissions"
+msgstr "Tilladelser"
+
+msgid "Last access"
+msgstr "Seneste login"
+
+msgid "API key"
+msgstr "API nøgle"
+
+#. translators: %d: API key ID.
+msgid "ID: %d"
+msgstr "ID: %d"
+
+msgid "Revoke"
+msgstr "Tilbagekald"
+
+msgid "Read"
+msgstr "Læs"
+
+msgid "Write"
+msgstr "Skriv"
+
+msgid "Read/Write"
+msgstr "Læs/Skriv"
+
+#. translators: 1: last access date 2: last access time
+msgid "%1$s at %2$s"
+msgstr "%1$s ved %2$s"
+
+msgid "Unknown"
+msgstr "Ukendt"
+
+msgid "You do not have permission to edit this API Key"
+msgstr "Du har ikke tilladelse til at redigere denne API-nøgle"
+
+msgid "REST API"
+msgstr "REST API"
+
+msgid "Add key"
+msgstr "Tilføj nøgle"
+
+msgid "You do not have permission to revoke this API Key"
+msgstr "Du har ikke tilladelse til at slette denne API-nøgle"
+
+msgid "You do not have permission to edit API Keys"
+msgstr "Du har ikke tilladelse til at redigere denne API-nøgle"
+
+msgid "You do not have permission to revoke API Keys"
+msgstr "Du har ikke tilladelse til at slette denne API-nøgle"
+
+msgid "Generate API key"
+msgstr "Opret en API-nøgle"
+
+msgid "Friendly name for identifying this key."
+msgstr "Kalde-navn til identifikation af denne nøgle."
+
+msgid "Owner of these keys."
+msgstr "Ejer af disse nøgler."
+
+msgid "Access type of these keys."
+msgstr "Adgangstype for disse nøgler."
+
+msgid "Consumer key"
+msgstr "Kunde nøgle"
+
+msgid "Copied!"
+msgstr "Kopieret!"
+
+msgid "Copy"
+msgstr "Kopier"
+
+msgid "Consumer secret"
+msgstr "Brugerhemmelighed"
+
+msgid "QR Code"
+msgstr "QR Kode"
+
+msgid "No bookings found for your request."
+msgstr "Ingen bookinger fundet til din forespørgsel."
+
+msgid "Uploads directory is not writable."
+msgstr "Mappen Uploads er ikke skrivbar."
+
+msgid "No enough data"
+msgstr "Ikke nok data"
+
+msgid "An error has occurred"
+msgstr "Der er opstået en fejl"
+
+msgid "Please complete all required fields and try again."
+msgstr "Udfyld venligst alle obligatoriske felter og prøv igen."
+
+msgid "An error has occurred, please try again later."
+msgstr "Der opstod en fejl, prøv igen senere."
+
+msgid "The number of adults is not valid."
+msgstr ""
+
+msgid "The number of guests is not valid."
+msgstr ""
+
+msgid "An error has occurred. Please try again later."
+msgstr "Der opstod en fejl. Prøv igen senere."
+
+msgid "Sorry, the minimum allowed payment amount is %s to use this payment method."
+msgstr "Beklager, det mindste tilladte betalingsbeløb er %s for at bruge denne betalingsmetode."
+
+msgid "Chosen payment method is not available. Please refresh the page and try one more time."
+msgstr "Den valgte betalingsmetode er ikke tilgængelig. Opdater venligst siden og prøv en gang til."
+
+msgid "Coupon applied successfully."
+msgstr "Rabatkupon anvendt med succes."
+
+msgid "Coupon is not valid."
+msgstr "Rabatkoden er ikke gyldig."
+
+msgid "Booking Information"
+msgstr "Booking Information"
+
+msgid "Check-in Date"
+msgstr "Ankomstdato"
+
+msgid "Check-out Date"
+msgstr "Afrejsedato"
+
+msgid "Customer Information"
+msgstr "Kundeoplysninger"
+
+msgid "Customer Note"
+msgstr "Kunde-note"
+
+msgid "Additional Information"
+msgstr "Yderligere oplysninger"
+
+msgid "Coupon"
+msgstr "Rabatkupon"
+
+msgid "Total Booking Price"
+msgstr "Samlet pris for din booking"
+
+msgid "Notes"
+msgstr "Noter"
+
+#. translators: %1$s: note author, %1$s: note date
+msgid "%1$s on %2$s"
+msgstr "%1$s på %2$s"
+
+msgid "Based on your search parameters"
+msgstr "Baseret på dine søgeoplysninger"
+
+msgid "You do not have permission to do this action."
+msgstr "Du har ikke tilladelse til at udføre denne handling."
+
+msgctxt "Not selected value in the search form."
+msgid "&mdash;"
+msgstr "&mdash;"
+
+msgid "Year"
+msgstr "År"
+
+msgid "Custom"
+msgstr "Tilpasset"
+
+msgctxt "Booking status"
+msgid "Confirmed"
+msgstr "Bekræftet"
+
+msgid "Show"
+msgstr "Vis"
+
+msgid "Search"
+msgstr "Søg"
+
+msgid "Booked"
+msgstr "Booket"
+
+msgid "Pending"
+msgstr "Afventer"
+
+msgid "External"
+msgstr "Ekstern"
+
+msgid "Blocked"
+msgstr "Blokeret"
+
+msgid "Search results for accommodations that have bookings with status \"%s\" from %s until %s"
+msgstr "Søgeresultater for indkvarteringer med bookinger med status \"%s\" fra %s til %s"
+
+msgid "Free"
+msgstr "Gratis"
+
+msgid "Locked (Booked or Pending)"
+msgstr "Låst (reserveret eller afventer godkendelse)"
+
+msgid "Until"
+msgstr "Indtil"
+
+msgid "Period:"
+msgstr "Periode:"
+
+msgid "&lt; Prev"
+msgstr "&lt; Forrige"
+
+msgid "Next &gt;"
+msgstr "Næste &gt;"
+
+msgid "No accommodations found."
+msgstr "Ingen indkvartering fundet."
+
+msgid "Check-out #%d"
+msgstr "Check-out #%d"
+
+msgid "Check-in #%d"
+msgstr "Indtjekning #%d"
+
+msgid "Booking #%d"
+msgstr "Booking #%d"
+
+msgid "Buffer time."
+msgstr "Buffer tid."
+
+msgctxt "Availability"
+msgid "Free"
+msgstr "Gratis"
+
+msgid "Adults: %s"
+msgstr "Voksne: %s"
+
+msgid "Children: %s"
+msgstr "Børn: %s"
+
+msgid "Booking imported with UID %s."
+msgstr "Booking importeret med UID %s."
+
+msgid "Imported booking."
+msgstr "Importeret booking."
+
+msgid "Description: %s."
+msgstr "Beskrivelse: %s."
+
+msgid "Source: %s."
+msgstr "Kilde: %s."
+
+msgid "Afghanistan"
+msgstr "Afghanistan"
+
+msgid "&#197;land Islands"
+msgstr "&#197;land-øerne"
+
+msgid "Albania"
+msgstr "Albanien"
+
+msgid "Algeria"
+msgstr "Algeriet"
+
+msgid "American Samoa"
+msgstr "American Samoa"
+
+msgid "Andorra"
+msgstr "Andorra"
+
+msgid "Angola"
+msgstr "Angola"
+
+msgid "Anguilla"
+msgstr "Anguilla"
+
+msgid "Antarctica"
+msgstr "Antarktis"
+
+msgid "Antigua and Barbuda"
+msgstr "Antigua og Barbuda"
+
+msgid "Argentina"
+msgstr "Argentina"
+
+msgid "Armenia"
+msgstr "Armenien"
+
+msgid "Aruba"
+msgstr "Aruba"
+
+msgid "Australia"
+msgstr "Australien"
+
+msgid "Austria"
+msgstr "Østrig"
+
+msgid "Azerbaijan"
+msgstr "Aserbajdsjan"
+
+msgid "Bahamas"
+msgstr "Bahamas"
+
+msgid "Bahrain"
+msgstr "Bahrain"
+
+msgid "Bangladesh"
+msgstr "Bangladesh"
+
+msgid "Barbados"
+msgstr "Barbados"
+
+msgid "Belarus"
+msgstr "Hviderusland"
+
+msgid "Belgium"
+msgstr "Belgien"
+
+msgid "Belau"
+msgstr "Belau"
+
+msgid "Belize"
+msgstr "Belize"
+
+msgid "Benin"
+msgstr "Benin"
+
+msgid "Bermuda"
+msgstr "Bermuda"
+
+msgid "Bhutan"
+msgstr "Bhutan"
+
+msgid "Bolivia"
+msgstr "Bolivia"
+
+msgid "Bonaire, Saint Eustatius and Saba"
+msgstr "Bonaire, Saint Eustatius og Saba"
+
+msgid "Bosnia and Herzegovina"
+msgstr "Bosnien-Hercegovina"
+
+msgid "Botswana"
+msgstr "Botswana"
+
+msgid "Bouvet Island"
+msgstr "Bouvetøen"
+
+msgid "Brazil"
+msgstr "Brazilien"
+
+msgid "British Indian Ocean Territory"
+msgstr "Britiske territorium i Det Indiske Ocean"
+
+msgid "British Virgin Islands"
+msgstr "Britiske Jomfruøer"
+
+msgid "Brunei"
+msgstr "Brunei"
+
+msgid "Bulgaria"
+msgstr "Bulgarien"
+
+msgid "Burkina Faso"
+msgstr "Burkina Faso"
+
+msgid "Burundi"
+msgstr "Burundi"
+
+msgid "Cambodia"
+msgstr "Cambodia"
+
+msgid "Cameroon"
+msgstr "Cameroon"
+
+msgid "Canada"
+msgstr "Canada"
+
+msgid "Cape Verde"
+msgstr "Kap Verde"
+
+msgid "Cayman Islands"
+msgstr "Cayman-øerne"
+
+msgid "Central African Republic"
+msgstr "Den Centralafrikanske Republik"
+
+msgid "Chad"
+msgstr "Chad"
+
+msgid "Chile"
+msgstr "Chile"
+
+msgid "China"
+msgstr "Kina"
+
+msgid "Christmas Island"
+msgstr "Christmas Island"
+
+msgid "Cocos (Keeling) Islands"
+msgstr "Cocos (Keeling) Islands"
+
+msgid "Colombia"
+msgstr "Colombia"
+
+msgid "Comoros"
+msgstr "Comorerne"
+
+msgid "Congo (Brazzaville)"
+msgstr "Congo (Brazzaville)"
+
+msgid "Congo (Kinshasa)"
+msgstr "Congo (Kinshasa)"
+
+msgid "Cook Islands"
+msgstr "Cookøerne"
+
+msgid "Costa Rica"
+msgstr "Costa Rica"
+
+msgid "Croatia"
+msgstr "Kroatien"
+
+msgid "Cuba"
+msgstr "Cuba"
+
+msgid "Cura&ccedil;ao"
+msgstr "Cura&ccedil;ao"
+
+msgid "Cyprus"
+msgstr "Cypern"
+
+msgid "Czech Republic"
+msgstr "Tjekkiet"
+
+msgid "Denmark"
+msgstr "Danmark"
+
+msgid "Djibouti"
+msgstr "Djibouti"
+
+msgid "Dominica"
+msgstr "Dominica"
+
+msgid "Dominican Republic"
+msgstr "Den Dominikanske Republik"
+
+msgid "Ecuador"
+msgstr "Ecuador"
+
+msgid "Egypt"
+msgstr "Egypten"
+
+msgid "El Salvador"
+msgstr "El Salvador"
+
+msgid "Equatorial Guinea"
+msgstr "Ækvatorialguinea"
+
+msgid "Eritrea"
+msgstr "Eritrea"
+
+msgid "Estonia"
+msgstr "Estland"
+
+msgid "Ethiopia"
+msgstr "Etiopien"
+
+msgid "Falkland Islands"
+msgstr "Falklandsøerne"
+
+msgid "Faroe Islands"
+msgstr "Færøerne"
+
+msgid "Fiji"
+msgstr "Fiji"
+
+msgid "Finland"
+msgstr "Finland"
+
+msgid "France"
+msgstr "Frankrig"
+
+msgid "French Guiana"
+msgstr "Fransk Guyana"
+
+msgid "French Polynesia"
+msgstr "Fransk Polynesien"
+
+msgid "French Southern Territories"
+msgstr "Franske Sydlige Områder"
+
+msgid "Gabon"
+msgstr "Gabon"
+
+msgid "Gambia"
+msgstr "Gambia"
+
+msgid "Georgia"
+msgstr "Georgien"
+
+msgid "Germany"
+msgstr "Tyskland"
+
+msgid "Ghana"
+msgstr "Ghana"
+
+msgid "Gibraltar"
+msgstr "Gibraltar"
+
+msgid "Greece"
+msgstr "Grækenland"
+
+msgid "Greenland"
+msgstr "Grønland"
+
+msgid "Grenada"
+msgstr "Grenada"
+
+msgid "Guadeloupe"
+msgstr "Guadeloupe"
+
+msgid "Guam"
+msgstr "Guam"
+
+msgid "Guatemala"
+msgstr "Guatemala"
+
+msgid "Guernsey"
+msgstr "Guernsey"
+
+msgid "Guinea"
+msgstr "Guinea"
+
+msgid "Guinea-Bissau"
+msgstr "Guinea Bissau"
+
+msgid "Guyana"
+msgstr "Guyana"
+
+msgid "Haiti"
+msgstr "Haiti"
+
+msgid "Heard Island and McDonald Islands"
+msgstr "Heard- og McDonald-øerne"
+
+msgid "Honduras"
+msgstr "Honduras"
+
+msgid "Hong Kong"
+msgstr "Hong Kong"
+
+msgid "Hungary"
+msgstr "Ungarn"
+
+msgid "Iceland"
+msgstr "Island"
+
+msgid "India"
+msgstr "Indien"
+
+msgid "Indonesia"
+msgstr "Indonesien"
+
+msgid "Iran"
+msgstr "Iran"
+
+msgid "Iraq"
+msgstr "Irak"
+
+msgid "Ireland"
+msgstr "Irland"
+
+msgid "Isle of Man"
+msgstr "Isle of Man"
+
+msgid "Israel"
+msgstr "Israel"
+
+msgid "Italy"
+msgstr "Italien"
+
+msgid "Ivory Coast"
+msgstr "Elfenbenskysten"
+
+msgid "Jamaica"
+msgstr "Jamaica"
+
+msgid "Japan"
+msgstr "Japan"
+
+msgid "Jersey"
+msgstr "Jersey"
+
+msgid "Jordan"
+msgstr "Jordan"
+
+msgid "Kazakhstan"
+msgstr "Kasakhstan"
+
+msgid "Kenya"
+msgstr "Kenya"
+
+msgid "Kiribati"
+msgstr "Kiribati"
+
+msgid "Kuwait"
+msgstr "Kuwait"
+
+msgid "Kyrgyzstan"
+msgstr "Kirgisistan"
+
+msgid "Laos"
+msgstr "Laos"
+
+msgid "Latvia"
+msgstr "Letland"
+
+msgid "Lebanon"
+msgstr "Libanon"
+
+msgid "Lesotho"
+msgstr "Lesotho"
+
+msgid "Liberia"
+msgstr "Liberia"
+
+msgid "Libya"
+msgstr "Libyen"
+
+msgid "Liechtenstein"
+msgstr "Liechtenstein"
+
+msgid "Lithuania"
+msgstr "Litauen"
+
+msgid "Luxembourg"
+msgstr "Luxembourg"
+
+msgid "Macao S.A.R., China"
+msgstr "Macao S.A.R., Kina"
+
+msgid "Macedonia"
+msgstr "Makedonien"
+
+msgid "Madagascar"
+msgstr "Madagaskar"
+
+msgid "Malawi"
+msgstr "Malawi"
+
+msgid "Malaysia"
+msgstr "Malaysia"
+
+msgid "Maldives"
+msgstr "Maldiverne"
+
+msgid "Mali"
+msgstr "Mali"
+
+msgid "Malta"
+msgstr "Malta"
+
+msgid "Marshall Islands"
+msgstr "Marshalløerne"
+
+msgid "Martinique"
+msgstr "Martinique"
+
+msgid "Mauritania"
+msgstr "Mauritania"
+
+msgid "Mauritius"
+msgstr "Mauritius"
+
+msgid "Mayotte"
+msgstr "Mayotte"
+
+msgid "Mexico"
+msgstr "Mexico"
+
+msgid "Micronesia"
+msgstr "Mikronesien"
+
+msgid "Moldova"
+msgstr "Moldova"
+
+msgid "Monaco"
+msgstr "Monaco"
+
+msgid "Mongolia"
+msgstr "Mongolia"
+
+msgid "Montenegro"
+msgstr "Montenegro"
+
+msgid "Montserrat"
+msgstr "Montserrat"
+
+msgid "Morocco"
+msgstr "Marokko"
+
+msgid "Mozambique"
+msgstr "Mozambique"
+
+msgid "Myanmar"
+msgstr "Myanmar"
+
+msgid "Namibia"
+msgstr "Namibia"
+
+msgid "Nauru"
+msgstr "Nauru"
+
+msgid "Nepal"
+msgstr "Nepal"
+
+msgid "Netherlands"
+msgstr "Holland"
+
+msgid "New Caledonia"
+msgstr "Ny Kaledonien"
+
+msgid "New Zealand"
+msgstr "New Zealand"
+
+msgid "Nicaragua"
+msgstr "Nicaragua"
+
+msgid "Niger"
+msgstr "Niger"
+
+msgid "Nigeria"
+msgstr "Nigeria"
+
+msgid "Niue"
+msgstr "Niue"
+
+msgid "Norfolk Island"
+msgstr "Norfolk Island"
+
+msgid "Northern Mariana Islands"
+msgstr "Nordmarianerne"
+
+msgid "North Korea"
+msgstr "Nordkorea"
+
+msgid "Norway"
+msgstr "Norge"
+
+msgid "Oman"
+msgstr "Oman"
+
+msgid "Pakistan"
+msgstr "Pakistan"
+
+msgid "Palestinian Territory"
+msgstr "De palæstinensiske områder"
+
+msgid "Panama"
+msgstr "Panama"
+
+msgid "Papua New Guinea"
+msgstr "Papua Ny Guinea"
+
+msgid "Paraguay"
+msgstr "Paraguay"
+
+msgid "Peru"
+msgstr "Peru"
+
+msgid "Philippines"
+msgstr "Filippinerne"
+
+msgid "Pitcairn"
+msgstr "Pitcairn"
+
+msgid "Poland"
+msgstr "Polen"
+
+msgid "Portugal"
+msgstr "Portugal"
+
+msgid "Puerto Rico"
+msgstr "Puerto Rico"
+
+msgid "Qatar"
+msgstr "Qatar"
+
+msgid "Reunion"
+msgstr "Réunion"
+
+msgid "Romania"
+msgstr "Rumænien"
+
+msgid "Russia"
+msgstr "Rusland"
+
+msgid "Rwanda"
+msgstr "Rwanda"
+
+msgid "Saint Barth&eacute;lemy"
+msgstr "Saint Barth&eacute;lemy"
+
+msgid "Saint Helena"
+msgstr "Saint Helena"
+
+msgid "Saint Kitts and Nevis"
+msgstr "Saint Kitts og Nevis"
+
+msgid "Saint Lucia"
+msgstr "Sankt Lucia"
+
+msgid "Saint Martin (French part)"
+msgstr "Saint Martin (franske del)"
+
+msgid "Saint Martin (Dutch part)"
+msgstr "Sint Maarten (Hollandsk del)"
+
+msgid "Saint Pierre and Miquelon"
+msgstr "Saint Pierre og Miquelon"
+
+msgid "Saint Vincent and the Grenadines"
+msgstr "Sankt Vincent og Grenadinerne"
+
+msgid "San Marino"
+msgstr "San Marino"
+
+msgid "S&atilde;o Tom&eacute; and Pr&iacute;ncipe"
+msgstr "S&atilde;o Tom&eacute; og Pr&iacute;ncipe"
+
+msgid "Saudi Arabia"
+msgstr "Saudi Arabia"
+
+msgid "Senegal"
+msgstr "Senegal"
+
+msgid "Serbia"
+msgstr "Serbien"
+
+msgid "Seychelles"
+msgstr "Seychellerne"
+
+msgid "Sierra Leone"
+msgstr "Sierra Leone"
+
+msgid "Singapore"
+msgstr "Singapore"
+
+msgid "Slovakia"
+msgstr "Slovakiet"
+
+msgid "Slovenia"
+msgstr "Slovenien"
+
+msgid "Solomon Islands"
+msgstr "Salomonøerne"
+
+msgid "Somalia"
+msgstr "Somalia"
+
+msgid "South Africa"
+msgstr "Sydafrika"
+
+msgid "South Georgia/Sandwich Islands"
+msgstr "South Georgia/Sandwich Islands"
+
+msgid "South Korea"
+msgstr "Sydkorea"
+
+msgid "South Sudan"
+msgstr "Sydsudan"
+
+msgid "Spain"
+msgstr "Spanien"
+
+msgid "Sri Lanka"
+msgstr "Sri Lanka"
+
+msgid "Sudan"
+msgstr "Sudan"
+
+msgid "Suriname"
+msgstr "Surinam"
+
+msgid "Svalbard and Jan Mayen"
+msgstr "Svalbard and Jan Mayen"
+
+msgid "Swaziland"
+msgstr "Swaziland"
+
+msgid "Sweden"
+msgstr "Sverige"
+
+msgid "Switzerland"
+msgstr "Schweiz"
+
+msgid "Syria"
+msgstr "Syrien"
+
+msgid "Taiwan"
+msgstr "Taiwan"
+
+msgid "Tajikistan"
+msgstr "Tajikistan"
+
+msgid "Tanzania"
+msgstr "Tanzania"
+
+msgid "Thailand"
+msgstr "Thailand"
+
+msgid "Timor-Leste"
+msgstr "Østtimor"
+
+msgid "Togo"
+msgstr "Togo"
+
+msgid "Tokelau"
+msgstr "Tokelau"
+
+msgid "Tonga"
+msgstr "Tonga"
+
+msgid "Trinidad and Tobago"
+msgstr "Trinidad og Tobago"
+
+msgid "Tunisia"
+msgstr "Tunesien"
+
+msgid "Turkey"
+msgstr "Tyrkiet"
+
+msgid "Turkmenistan"
+msgstr "Turkmenistan"
+
+msgid "Turks and Caicos Islands"
+msgstr "Turks- og Caicosøerne"
+
+msgid "Tuvalu"
+msgstr "Tuvalu"
+
+msgid "Uganda"
+msgstr "Uganda"
+
+msgid "Ukraine"
+msgstr "Ukraine"
+
+msgid "United Arab Emirates"
+msgstr "Forenede Arabiske Emirater"
+
+msgid "United Kingdom (UK)"
+msgstr "Storbritannien"
+
+msgid "United States (US)"
+msgstr "USA"
+
+msgid "United States (US) Minor Outlying Islands"
+msgstr "De Forenede Stater (US) Mindre Oversøiske Øer"
+
+msgid "United States (US) Virgin Islands"
+msgstr "Amerikanske jomfruøer"
+
+msgid "Uruguay"
+msgstr "Uruguay"
+
+msgid "Uzbekistan"
+msgstr "Uzbekistan"
+
+msgid "Vanuatu"
+msgstr "Vanuatu"
+
+msgid "Vatican"
+msgstr "Vatikanstaten"
+
+msgid "Venezuela"
+msgstr "Venezuela"
+
+msgid "Vietnam"
+msgstr "Vietnam"
+
+msgid "Wallis and Futuna"
+msgstr "Wallis og Futuna"
+
+msgid "Western Sahara"
+msgstr "Vestsahara"
+
+msgid "Samoa"
+msgstr "Samoa"
+
+msgid "Yemen"
+msgstr "Yemen"
+
+msgid "Zambia"
+msgstr "Zambia"
+
+msgid "Zimbabwe"
+msgstr "Zimbabwe"
+
+msgid "Euro"
+msgstr "Euro"
+
+msgid "United States (US) dollar"
+msgstr "Amerikanske dollar"
+
+msgid "Pound sterling"
+msgstr "Pund Sterling"
+
+msgid "United Arab Emirates dirham"
+msgstr "Forenede Arabiske Emirater-dirham"
+
+msgid "Afghan afghani"
+msgstr "Afghansk afghani"
+
+msgid "Albanian lek"
+msgstr "Albansk lek"
+
+msgid "Armenian dram"
+msgstr "Armensk dram"
+
+msgid "Netherlands Antillean guilder"
+msgstr "Hollandsk Antiller-gylden"
+
+msgid "Angolan kwanza"
+msgstr "Angolansk Kwanza"
+
+msgid "Argentine peso"
+msgstr "Argentinsk peso"
+
+msgid "Australian dollar"
+msgstr "Australsk dollar"
+
+msgid "Aruban florin"
+msgstr "Arubansk florin"
+
+msgid "Azerbaijani manat"
+msgstr "Aserbajdsjansk manat"
+
+msgid "Bosnia and Herzegovina convertible mark"
+msgstr "Bosnien-hercegovinsk konvertibel mark"
+
+msgid "Barbadian dollar"
+msgstr "Barbadisk dollar"
+
+msgid "Bangladeshi taka"
+msgstr "Bangladeshi taka"
+
+msgid "Bulgarian lev"
+msgstr "Bulgarsk Lev"
+
+msgid "Bahraini dinar"
+msgstr "Bahrainsk dinar"
+
+msgid "Burundian franc"
+msgstr "Burundisk franc"
+
+msgid "Bermudian dollar"
+msgstr "Bermuda dollar"
+
+msgid "Brunei dollar"
+msgstr "Brunei Dollar"
+
+msgid "Bolivian boliviano"
+msgstr "Boliviansk boliviano"
+
+msgid "Brazilian real"
+msgstr "Brasiliansk real"
+
+msgid "Bahamian dollar"
+msgstr "Bahamisk dollar"
+
+msgid "Bitcoin"
+msgstr "Bitcoin"
+
+msgid "Bhutanese ngultrum"
+msgstr "Bhutansk ngultrum"
+
+msgid "Botswana pula"
+msgstr "Botswansk pula"
+
+msgid "Belarusian ruble (old)"
+msgstr "Hviderussisk rubel (gammel)"
+
+msgid "Belarusian ruble"
+msgstr "Hviderussisk rubel"
+
+msgid "Belize dollar"
+msgstr "Belize dollar"
+
+msgid "Canadian dollar"
+msgstr "Canadisk dollar"
+
+msgid "Congolese franc"
+msgstr "Congolesisk franc"
+
+msgid "Swiss franc"
+msgstr "Schweizer franc"
+
+msgid "Chilean peso"
+msgstr "Chilensk pesos"
+
+msgid "Chinese yuan"
+msgstr "Kinesisk yuan"
+
+msgid "Colombian peso"
+msgstr "Colombiansk pesos"
+
+msgid "Costa Rican col&oacute;n"
+msgstr "Costa Rica col&oacute;n"
+
+msgid "Cuban convertible peso"
+msgstr "Cuban Convertible Peso"
+
+msgid "Cuban peso"
+msgstr "Cubansk peso"
+
+msgid "Cape Verdean escudo"
+msgstr "Kapverdisk escudo"
+
+msgid "Czech koruna"
+msgstr "Tjekkisk koruna"
+
+msgid "Djiboutian franc"
+msgstr "Djiboutian franc"
+
+msgid "Danish krone"
+msgstr "Danske kroner"
+
+msgid "Dominican peso"
+msgstr "Dominikansk Peso"
+
+msgid "Algerian dinar"
+msgstr "Algeriske dinar"
+
+msgid "Egyptian pound"
+msgstr "Egyptisk pund"
+
+msgid "Eritrean nakfa"
+msgstr "Eritrean nakfa"
+
+msgid "Ethiopian birr"
+msgstr "Etiopiske birr"
+
+msgid "Fijian dollar"
+msgstr "Fijiansk dollar"
+
+msgid "Falkland Islands pound"
+msgstr "Falklandsøernes pund"
+
+msgid "Georgian lari"
+msgstr "Georgiske lari"
+
+msgid "Guernsey pound"
+msgstr "Guernsey pund"
+
+msgid "Ghana cedi"
+msgstr "Ghanesisk Cedi"
+
+msgid "Gibraltar pound"
+msgstr "Gibraltarisk pund"
+
+msgid "Gambian dalasi"
+msgstr "Gambisk dalasi"
+
+msgid "Guinean franc"
+msgstr "Guineansk franc"
+
+msgid "Guatemalan quetzal"
+msgstr "Guatemalansk quetzal"
+
+msgid "Guyanese dollar"
+msgstr "Guyana Dollar"
+
+msgid "Hong Kong dollar"
+msgstr "Hong Kong dollar"
+
+msgid "Honduran lempira"
+msgstr "Honduransk lempira"
+
+msgid "Croatian kuna"
+msgstr "Kroatisk kuna"
+
+msgid "Haitian gourde"
+msgstr "Haitisk gourde"
+
+msgid "Hungarian forint"
+msgstr "Ungarsk forint"
+
+msgid "Indonesian rupiah"
+msgstr "Indonesisk rupiah"
+
+msgid "Israeli new shekel"
+msgstr "Israelsk ny shekel"
+
+msgid "Manx pound"
+msgstr "Manx pund"
+
+msgid "Indian rupee"
+msgstr "Indisk rupee"
+
+msgid "Iraqi dinar"
+msgstr "Irakisk dinar"
+
+msgid "Iranian rial"
+msgstr "Iransk rial"
+
+msgid "Iranian toman"
+msgstr "Iransk toman"
+
+msgid "Icelandic kr&oacute;na"
+msgstr "Islandsk króna"
+
+msgid "Jersey pound"
+msgstr "Jersey pund"
+
+msgid "Jamaican dollar"
+msgstr "Jamaicansk dollar"
+
+msgid "Jordanian dinar"
+msgstr "Jordansk dinar"
+
+msgid "Japanese yen"
+msgstr "Japansk yen"
+
+msgid "Kenyan shilling"
+msgstr "Kenyansk shilling"
+
+msgid "Kyrgyzstani som"
+msgstr "Kirgisisk som"
+
+msgid "Cambodian riel"
+msgstr "Cambodjansk riel"
+
+msgid "Comorian franc"
+msgstr "Comorisk franc"
+
+msgid "North Korean won"
+msgstr "Nordkoreanske won"
+
+msgid "South Korean won"
+msgstr "Sydkoreansk won"
+
+msgid "Kuwaiti dinar"
+msgstr "Kuwaitisk dinar"
+
+msgid "Cayman Islands dollar"
+msgstr "Cayman Islands Dollar"
+
+msgid "Kazakhstani tenge"
+msgstr "Kasakhisk tenge"
+
+msgid "Lao kip"
+msgstr "Lao Kip"
+
+msgid "Lebanese pound"
+msgstr "Libanesiske pund"
+
+msgid "Sri Lankan rupee"
+msgstr "Srilankansk rupee"
+
+msgid "Liberian dollar"
+msgstr "Liberiansk dollar"
+
+msgid "Lesotho loti"
+msgstr "Lesotho loti"
+
+msgid "Libyan dinar"
+msgstr "Libyske dinarer"
+
+msgid "Moroccan dirham"
+msgstr "Marokkansk dirham"
+
+msgid "Moldovan leu"
+msgstr "Moldovan leu"
+
+msgid "Malagasy ariary"
+msgstr "Malagasy ariary"
+
+msgid "Macedonian denar"
+msgstr "Makedonsk denar"
+
+msgid "Burmese kyat"
+msgstr "Burmesisk kyat"
+
+msgid "Mongolian t&ouml;gr&ouml;g"
+msgstr "Mongolsk tugrik"
+
+msgid "Macanese pataca"
+msgstr "Macanese pataca"
+
+msgid "Mauritanian ouguiya"
+msgstr "Mauritanianske ouguiya"
+
+msgid "Mauritian rupee"
+msgstr "Mauritiske rupee"
+
+msgid "Maldivian rufiyaa"
+msgstr "Maldiviske rufiyaa"
+
+msgid "Malawian kwacha"
+msgstr "Malawisk kwacha"
+
+msgid "Mexican peso"
+msgstr "Mexicansk peso"
+
+msgid "Malaysian ringgit"
+msgstr "Malaysisk ringgit"
+
+msgid "Mozambican metical"
+msgstr "Mozambiquisk metical"
+
+msgid "Namibian dollar"
+msgstr "Namibiske dollar"
+
+msgid "Nigerian naira"
+msgstr "Nigerianske naira"
+
+msgid "Nicaraguan c&oacute;rdoba"
+msgstr "Nicaraguansk cordoba"
+
+msgid "Norwegian krone"
+msgstr "Norsk krone"
+
+msgid "Nepalese rupee"
+msgstr "Nepalesiske rupee"
+
+msgid "New Zealand dollar"
+msgstr "New Zealand dollar"
+
+msgid "Omani rial"
+msgstr "Omani rial"
+
+msgid "Panamanian balboa"
+msgstr "Panamansk balboa"
+
+msgid "Sol"
+msgstr "Sol"
+
+msgid "Papua New Guinean kina"
+msgstr "Papua New Guinean kina"
+
+msgid "Philippine peso"
+msgstr "Philippine peso"
+
+msgid "Pakistani rupee"
+msgstr "Pakistansk rupee"
+
+msgid "Polish z&#x142;oty"
+msgstr "Polsk zloty"
+
+msgid "Transnistrian ruble"
+msgstr "Transnistrian rubel"
+
+msgid "Paraguayan guaran&iacute;"
+msgstr "Paraguayan guaran&iacute;"
+
+msgid "Qatari riyal"
+msgstr "Qatarisk riyal"
+
+msgid "Romanian leu"
+msgstr "Rumænske leu"
+
+msgid "Serbian dinar"
+msgstr "Serbisk dinar"
+
+msgid "Russian ruble"
+msgstr "Russisk rubel"
+
+msgid "Rwandan franc"
+msgstr "Rwandisk franc"
+
+msgid "Saudi riyal"
+msgstr "Saudisk riyal"
+
+msgid "Solomon Islands dollar"
+msgstr "Solomon Islands Dollar"
+
+msgid "Seychellois rupee"
+msgstr "Seychelliske rupee"
+
+msgid "Sudanese pound"
+msgstr "Sudanesiske pund"
+
+msgid "Swedish krona"
+msgstr "Svenske kroner"
+
+msgid "Singapore dollar"
+msgstr "Singapore dollar"
+
+msgid "Saint Helena pound"
+msgstr "Saint Helena pund"
+
+msgid "Sierra Leonean leone"
+msgstr "Sierraleonsk leone"
+
+msgid "Somali shilling"
+msgstr "Somalisk Shilling"
+
+msgid "Surinamese dollar"
+msgstr "Surinamsk dollar"
+
+msgid "South Sudanese pound"
+msgstr "Sydsudansk pund"
+
+msgid "S&atilde;o Tom&eacute; and Pr&iacute;ncipe dobra"
+msgstr "S&atilde;o Tom&eacute; og Pr&iacute;ncipe dobra"
+
+msgid "Syrian pound"
+msgstr "Syrisk pund"
+
+msgid "Swazi lilangeni"
+msgstr "Swazilandsk lilangeni"
+
+msgid "Thai baht"
+msgstr "Thailandsk baht"
+
+msgid "Tajikistani somoni"
+msgstr "Tadsjikisk somoni"
+
+msgid "Turkmenistan manat"
+msgstr "Turkmenske manat"
+
+msgid "Tunisian dinar"
+msgstr "Tunesiske dinar"
+
+msgid "Tongan pa&#x2bb;anga"
+msgstr "Tongan pa&#x2bb;anga"
+
+msgid "Turkish lira"
+msgstr "Tyrkisk lira"
+
+msgid "Trinidad and Tobago dollar"
+msgstr "Trinidad og Tobago dollar"
+
+msgid "New Taiwan dollar"
+msgstr "Ny taiwansk dollar"
+
+msgid "Tanzanian shilling"
+msgstr "Tanzanianske shilling"
+
+msgid "Ukrainian hryvnia"
+msgstr "Ukrainsk hryvnia"
+
+msgid "Ugandan shilling"
+msgstr "Ugandisk shilling"
+
+msgid "Uruguayan peso"
+msgstr "Uruguayan peso"
+
+msgid "Uzbekistani som"
+msgstr "Uzbekistani som"
+
+msgid "Venezuelan bol&iacute;var"
+msgstr "Venezuelan bol&iacute;var"
+
+msgid "Bol&iacute;var soberano"
+msgstr "Bol&iacute;var soberano"
+
+msgid "Vietnamese &#x111;&#x1ed3;ng"
+msgstr "Vietnamese &#x111;&#x1ed3;ng"
+
+msgid "Vanuatu vatu"
+msgstr "Vanuaisk vatu"
+
+msgid "Samoan t&#x101;l&#x101;"
+msgstr "Samoan t&#x101;l&#x101;"
+
+msgid "Central African CFA franc"
+msgstr "Centralafrikansk CFA-franc"
+
+msgid "East Caribbean dollar"
+msgstr "Øst-Caribisk Dollar"
+
+msgid "West African CFA franc"
+msgstr "Vestafrikanske CFA franc"
+
+msgid "CFP franc"
+msgstr "CFP franc"
+
+msgid "Yemeni rial"
+msgstr "Yemenitisk rial"
+
+msgid "South African rand"
+msgstr "Sydafrikansk rand"
+
+msgid "Zambian kwacha"
+msgstr "Zambiansk kwacha"
+
+msgid "Before"
+msgstr "Før"
+
+msgid "After"
+msgstr "Efter"
+
+msgid "Before with space"
+msgstr "Før med plads"
+
+msgid "After with space"
+msgstr "Efter med plads"
+
+msgid "First name is required."
+msgstr "Fornavn er obligatorisk."
+
+msgid "Last name is required."
+msgstr "Efternavn er obligatorisk."
+
+msgid "Email is required."
+msgstr "E-mail er påkrævet."
+
+msgid "Phone is required."
+msgstr "Telefonnummer er obligatorisk."
+
+msgid "Country of residence"
+msgstr "Vælg landet, du bor i"
+
+msgid "Country is required."
+msgstr "Land er påkrævet."
+
+msgid "Address is required."
+msgstr "Adresse er påkrævet."
+
+msgid "City is required."
+msgstr "By er påkrævet."
+
+msgid "State is required."
+msgstr "Stat er påkrævet."
+
+msgid "Postcode is required."
+msgstr "Postnummer er påkrævet."
+
+msgid "Note is required."
+msgstr "Bemærk er påkrævet."
+
+msgid "Check-in"
+msgstr "Tjek ind"
+
+msgid "Check-out"
+msgstr "Tjek ud"
+
+#. translators: The value a hotel wishes to sell their rooms. Also called the Cost, Value, Tariff or Room charge.
+msgid "Rate"
+msgstr "Pris"
+
+msgid "Adults/Guests"
+msgstr "Voksne/gæster"
+
+msgid "Full Guest Name"
+msgstr "Fulde navn på gæst"
+
+msgid "Accommodation Subtotal"
+msgstr "I alt for indkvartering"
+
+msgid "Total Accommodation Taxes"
+msgstr "Total Indkvarteringsafgifter"
+
+msgid "Total Fees"
+msgstr "Gebyr i alt"
+
+msgid "Services Subtotal"
+msgstr "Service gebyrer i alt"
+
+msgid "Total Service Taxes"
+msgstr "Service Skatter i alt"
+
+msgid "Total Fee Taxes"
+msgstr "Gebyrer I Alt"
+
+msgid "Discount"
+msgstr "Rabat"
+
+msgid "Total"
+msgstr "I alt"
+
+msgid "Paid"
+msgstr "Betalt"
+
+msgid "Payment Details"
+msgstr "Betalingsdetaljer"
+
+msgid "Square Meter"
+msgstr "Kvadratmeter"
+
+msgid "Square Foot"
+msgstr "kvadratfod"
+
+msgid "Square Yard"
+msgstr "Kvadrat yard"
+
+msgid "m²"
+msgstr "m²"
+
+msgid "ft²"
+msgstr "ft²"
+
+msgid "yd²"
+msgstr "yd²"
+
+msgid "User Approval Time setted in Hotel Booking Settings"
+msgstr "Bruger Godkendelse Tid indstillet i Hotel Booking indstillinger"
+
+msgid "Pending Payment Time set in Hotel Booking Settings"
+msgstr "Afventende betalingsfrist indstillet i Hotel Booking indstillinger"
+
+msgid "Interval for automatic cleaning of synchronization logs."
+msgstr "Interval for automatisk rengøring af synkroniseringslogfiler."
+
+msgid "x %d guest"
+msgid_plural "x %d guests"
+msgstr[0] "x %d gæst"
+msgstr[1] "x %d gæster"
+
+msgid "x %d time"
+msgid_plural "x %d times"
+msgstr[0] "%d gang"
+msgstr[1] "%d gange"
+
+msgid "Please select columns to export."
+msgstr "Vælg kolonner til eksport."
+
+msgid "Disable this email notification"
+msgstr "Deaktivér denne e-mail notifikation"
+
+msgid "Subject"
+msgstr "Emne"
+
+msgid "Header"
+msgstr "Overskrift"
+
+msgid "Email Template"
+msgstr "Email Skabelon"
+
+msgid "\"%s\" email will not be sent: there is no customer email in the booking."
+msgstr "\"%s\" e-mail vil ikke blive sendt: Der er ingen kunde e-mail i reservationen."
+
+msgid "Deprecated tags in header of %s"
+msgstr "Forældede tags i overskriften på %s"
+
+msgid "Deprecated tags in subject of %s"
+msgstr "Forældede tags i emnet %s"
+
+msgid "Deprecated tags in template of %s"
+msgstr "Forældede tags i skabelon af %s"
+
+msgid "Recipients"
+msgstr "Modtagere"
+
+msgid "You can use multiple comma-separated emails"
+msgstr "Du kan bruge flere kommaseparerede e-mails"
+
+msgid "\"%s\" mail was sent to admin."
+msgstr "\"%s\" mail blev sendt til admin."
+
+msgid "\"%s\" mail sending to admin is failed."
+msgstr "\"%s\" mail afsendelse til admin er mislykkedes."
+
+msgid "Booking Cancelled"
+msgstr "Booking annulleret"
+
+msgid "%site_title% - Booking #%booking_id% Cancelled"
+msgstr "%site_title% - Booking #%booking_id% annulleret"
+
+msgid "Email that will be sent to Admin when customer cancels booking."
+msgstr "E-mail, der vil blive sendt til Administrator, når kunden annullerer reservationen."
+
+msgid "Cancelled Booking Email"
+msgstr "Annulleret Bookingmail"
+
+msgid "Booking Confirmed"
+msgstr "Booking bekræftet"
+
+msgid "%site_title% - Booking #%booking_id% Confirmed"
+msgstr "%site_title% - Booking #%booking_id% Bekræftet"
+
+msgid "Email that will be sent to Admin when payment is completed."
+msgstr "E-mail, der vil blive sendt til Administrator, når betalingen er gennemført."
+
+msgid "Approved Booking Email (via payment)"
+msgstr "Godkendt Booking Email (via betaling)"
+
+msgid "Email that will be sent to Admin when customer confirms booking."
+msgstr "E-mail, der vil blive sendt til Administrator, når kunden bekræfter reservationen."
+
+msgid "Approved Booking Email"
+msgstr "Booking Godkendt Email"
+
+msgid "Confirm new booking"
+msgstr "Bekræft ny booking"
+
+msgid "%site_title% - New booking #%booking_id%"
+msgstr "%site_title% - Ny booking #%booking_id%"
+
+msgid "Email that will be sent to administrator after booking is placed."
+msgstr "E-mail, der vil blive sendt til administrator, når reservationen er placeret."
+
+msgid "Pending Booking Email"
+msgstr "Afventende Booking E-Mail"
+
+msgid "Your booking is approved"
+msgstr "Din booking er godkendt"
+
+msgid "%site_title% - Your booking #%booking_id% is approved"
+msgstr "%site_title% - Din booking #%booking_id% er godkendt"
+
+msgid "Email that will be sent to customer when booking is approved."
+msgstr "E-mail som vil blive sendt til kunden, når bookingen er godkendt."
+
+msgid "\"%s\" mail was sent to customer."
+msgstr "\"%s\" mail blev sendt til kunden."
+
+msgid "\"%s\" mail sending is failed."
+msgstr "\"%s\" mail afsendelse mislykkedes."
+
+msgid "Your booking is cancelled"
+msgstr "Din booking er annulleret"
+
+msgid "%site_title% - Your booking #%booking_id% is cancelled"
+msgstr "%site_title% - Din booking #%booking_id% annulleres"
+
+msgid "Email that will be sent to customer when booking is cancelled."
+msgstr "E-mail, der vil blive sendt til kunden, når bookingen er annulleret."
+
+msgid "Confirm your booking"
+msgstr "Bekræft din booking"
+
+msgid "%site_title% - Confirm your booking #%booking_id%"
+msgstr "%site_title% - Bekræft din booking #%booking_id%"
+
+msgid "This email is sent when \"Booking Confirmation Mode\" is set to Customer confirmation via email."
+msgstr "Denne e-mail sendes, når \"Bookingbekræftelsestilstand\" er indstillet til Kundebekræftelse via e-mail."
+
+msgid "Email that will be sent to customer after booking is placed."
+msgstr "E-mail, der vil blive sendt til kunden efter booking er placeret."
+
+msgid "New Booking Email (Confirmation by User)"
+msgstr "Ny bookingmail (bekræftelse af bruger)"
+
+msgid "Your booking is placed"
+msgstr "Din booking er placeret"
+
+msgid "%site_title% - Booking #%booking_id% is placed"
+msgstr "%site_title% - Booking #%booking_id% er placeret"
+
+msgid "This email is sent when \"Booking Confirmation Mode\" is set to Admin confirmation."
+msgstr "Denne e-mail bliver sendt, når \"Bookingbekræftelsestilstand\" er indstillet til Administratorbekræftelse."
+
+msgid "New Booking Email (Confirmation by Admin)"
+msgstr "Ny bookingmail (bekræftelse fra administrator)"
+
+msgid "Welcome"
+msgstr "Velkommen"
+
+msgid "%site_title% - account details"
+msgstr "%site_title% - kontooplysninger"
+
+msgid "Email that will be sent to a customer after they registered on your site."
+msgstr "E-mail, der vil blive sendt til en kunde, når de er registreret på dit websted."
+
+msgid "Customer Registration Email"
+msgstr "Kunde Registrering E-Mail"
+
+msgid "Possible tags:"
+msgstr "Mulige tags:"
+
+msgid "Deprecated."
+msgstr "Forældet."
+
+msgid "none"
+msgstr "ingen"
+
+msgid "User Cancellation Link"
+msgstr "Brugerens Annulleringslink"
+
+msgid "Site title (set in Settings > General)"
+msgstr "Webstedstitel (valgt i Indstillinger > General)"
+
+msgid "Booking ID"
+msgstr "Booking-ID"
+
+msgid "Booking Edit Link"
+msgstr "Link til redigering af booking"
+
+msgid "Booking Total Price"
+msgstr "Pris i alt for booking"
+
+msgid "Customer First Name"
+msgstr "Kundens fornavn"
+
+msgid "Customer Last Name"
+msgstr "Kundens efternavn"
+
+msgid "Customer Email"
+msgstr "Kundens email"
+
+msgid "Customer Phone"
+msgstr "Kunde Telefon"
+
+msgid "Customer Country"
+msgstr "Kunde Land"
+
+msgid "Customer Address"
+msgstr "Kunde Adresse"
+
+msgid "Customer City"
+msgstr "Kunde By"
+
+msgid "Customer State/County"
+msgstr "Kunde Stat/Kommune"
+
+msgid "Customer Postcode"
+msgstr "Kunde Postnummer"
+
+msgid "Reserved Accommodations Details"
+msgstr "Detaljer over reserveret indkvartering"
+
+msgid "Booking Details"
+msgstr "Bookingdetaljer"
+
+msgid "Confirmation Link"
+msgstr "Bekræftelses Link"
+
+msgid "Confirmation Link Expiration Time ( UTC )"
+msgstr "Bekræftelse Link Udløbstid ( UTC )"
+
+msgid "Cancellation Details (if enabled)"
+msgstr "Annulleringsoplysninger (hvis aktiveret)"
+
+msgid "The total amount of payment"
+msgstr ""
+
+msgid "The unique ID of payment"
+msgstr "Den unikke ID for betaling"
+
+msgid "The method of payment"
+msgstr "Betalingsmetoden"
+
+msgid "Payment instructions"
+msgstr "Betalingsinformationer"
+
+msgid "User login"
+msgstr "Brugerlogin"
+
+msgid "User password"
+msgstr "Bruger adgangskode"
+
+msgid "Link to My Account page"
+msgstr "Link til Min konto side"
+
+msgid "My Account"
+msgstr "Min konto"
+
+msgid "Accommodation Type Link"
+msgstr "Liste over indkvarteringsmåder"
+
+msgid "Accommodation Type Title"
+msgstr "Liste over indkvarteringsmåder"
+
+msgid "Accommodation Type Categories"
+msgstr "Indkvartering Type Kategorier"
+
+msgid "Accommodation Type Bed"
+msgstr "Indkvartering Type Seng"
+
+msgid "Accommodation Rate Title"
+msgstr "Titel på indkvarteringens pris"
+
+msgid "Accommodation Rate Description"
+msgstr "Beskrivelse af pris på indkvartering"
+
+msgid "Sequential Number of Accommodation"
+msgstr "Fortløbende antal af indkvarteringer"
+
+msgid "This coupon has expired."
+msgstr "Denne rabatkupon er udløbet."
+
+msgid "Sorry, this coupon is not applicable to your booking contents."
+msgstr "Beklager, denne kupon gælder ikke for dit bookingindhold."
+
+msgid "Coupon usage limit has been reached."
+msgstr "Antallet af gange kupon kan bruges er nået."
+
+msgid " &#215; %d night"
+msgid_plural " &#215; %d nights"
+msgstr[0] " &#215; %d nat"
+msgstr[1] " &#215; %d nætter"
+
+msgid "%d adult"
+msgid_plural "%d adults"
+msgstr[0] "%d voksen"
+msgstr[1] "%d voksne"
+
+msgid "%d guest"
+msgid_plural "%d guests"
+msgstr[0] "x %d gæst"
+msgstr[1] "x %d gæster"
+
+msgid " &#215; %d time"
+msgid_plural " &#215; %d times"
+msgstr[0] " &#215; %d gang"
+msgstr[1] " &#215; %d gange"
+
+msgid "Per Instance"
+msgstr "Pr. Instans"
+
+msgid "Maximum execution time is set to %d seconds."
+msgstr "Maksimal udførelsestid er indstillet til %d sekunder."
+
+msgid "%d URL pulled for parsing."
+msgid_plural "%d URLs pulled for parsing."
+msgstr[0] "%d URL trukket til analyse."
+msgstr[1] "%d URLer trukket til analyse."
+
+msgid "Skipped. No URLs found for parsing."
+msgstr "Skippet. Ingen URLer fundet til analyse."
+
+msgid "Cannot read uploaded file"
+msgstr "Kan ikke læse uploadet fil"
+
+msgid "We will need to check %d previous booking after importing and remove it if the booking is outdated."
+msgid_plural "We will need to check %d previous bookings after importing and remove the outdated ones."
+msgstr[0] "Vi bliver nødt til at tjekke %d tidligere booking efter import og fjerne det, hvis bookingen er forældet."
+msgstr[1] "Vi bliver nødt til at tjekke %d tidligere bookinger efter import og fjerne de forældede."
+
+msgctxt "%s - calendar URI or calendar filename"
+msgid "%1$d event found in calendar %2$s"
+msgid_plural "%1$d events found in calendar %2$s"
+msgstr[0] "%1$d begivenhed fundet i kalenderen %2$s"
+msgstr[1] "%1$d begivenheder fundet i kalenderen %2$s"
+
+msgctxt "%s - calendar URI or calendar filename"
+msgid "Calendar source is empty (%s)"
+msgstr "Kalenderkilde er tom (%s)"
+
+msgctxt "%s - calendar URI or calendar filename"
+msgid "Calendar file is not empty, but there are no events in %s"
+msgstr "Kalenderfilen er ikke tom, men der er ingen begivenheder i %s"
+
+msgid "Error while loading calendar (%1$s): %2$s"
+msgstr "Fejl under indlæsning af kalender (%1$s): %2$s"
+
+msgctxt "%s - error description"
+msgid "Parse error. %s"
+msgstr "Analyse fejl. %s"
+
+msgid "Skipped. Outdated booking #%d already removed."
+msgstr "Sprunget over. Forældet booking #%d allerede fjernet."
+
+msgid "Skipped. Booking #%d updated with new data."
+msgstr "Sprunget over. Booking #%d opdateret med nye data."
+
+msgid "The outdated booking #%d has been removed."
+msgstr "Den forældede booking #%d er blevet fjernet."
+
+msgid "Skipped. Event from %1$s to %2$s has passed."
+msgstr "Oversprunget. Begivenheden fra %1$s til %2$s er passeret."
+
+msgid "New booking #%1$d. The dates from %2$s to %3$s are now blocked."
+msgstr "Ny booking #%1$d. Datoerne fra %2$s til %3$s er nu blokeret."
+
+msgid "Success. Booking #%d updated with new data."
+msgstr "Succes. Booking #%d opdateret med nye data."
+
+msgid "Skipped. The dates from %1$s to %2$s are already blocked."
+msgstr "Sprunget over. Datoerne fra %1$s til %2$s er allerede blokeret."
+
+msgid "Success. Booking #%1$d updated with new data. Removed %2$d outdated booking."
+msgid_plural "Success. Booking #%1$d updated with new data. Removed %2$d outdated bookings."
+msgstr[0] "Succes. Booking #%1$d opdateret med nye data. Fjernet %2$d forældet booking."
+msgstr[1] "Succes. Booking #%1$d opdateret med nye data. Fjernet %2$d forældede bookinger."
+
+msgid "Success. Booking #%1$d updated with new data."
+msgstr "Succes. Booking #%1$d opdateret med nye data."
+
+msgid "Cannot import new event. Dates from %1$s to %2$s are partially blocked by booking %3$s."
+msgid_plural "Cannot import new event. Dates from %1$s to %2$s are partially blocked by bookings %3$s."
+msgstr[0] "Kan ikke importere ny begivenhed. Datoer fra %1$s til %2$s er delvist blokeret med booking %3$s."
+msgstr[1] "Kan ikke importere ny begivenhed. Datoer fra %1$s til %2$s er delvist blokeret af bookinger %3$s."
+
+msgid "Booking imported with UID %1$s.<br />Summary: %2$s.<br />Description: %3$s.<br />Source: %4$s."
+msgstr "Booking importeret med UID %1$s.<br />Resumé: %2$s.<br />Beskrivelse: %3$s.<br />Kilde: %4$s."
+
+msgid "Process Information"
+msgstr "Behandl Information"
+
+msgid "Total bookings: %s"
+msgstr "Bookinger i alt: %s"
+
+msgid "Success bookings: %s"
+msgstr "Bookinger gennemført: %s"
+
+msgid "Skipped bookings: %s"
+msgstr "Bookinger sprunget over: %s"
+
+msgid "Failed bookings: %s"
+msgstr "Mislykkede bookinger: %s"
+
+msgid "Removed bookings: %s"
+msgstr "Fjernede bookinger: %s"
+
+msgid "Expand All"
+msgstr "Udvid Alle"
+
+msgid "Collapse All"
+msgstr "Skjul Alle"
+
+msgid "All done! %1$d booking was successfully added."
+msgid_plural "All done! %1$d bookings were successfully added."
+msgstr[0] "Færdig! %1$d booking blev tilføjet."
+msgstr[1] "Alle færdige! %1$d bookinger blev tilføjet."
+
+msgid " There was %2$d failure."
+msgid_plural " There were %2$d failures."
+msgstr[0] " Der opstod %2$d fejl."
+msgstr[1] " Der opstod %2$d fejl."
+
+msgid "Dismiss "
+msgstr "Afvis "
+
+msgid "Your License Key is not active. Please, <a href='%s'>activate your License Key</a> to get plugin updates"
+msgstr "Din licensnøgle er ikke aktiv. Aktiver venligst <a href='%s'>din licensnøgle</a> for at få plugin opdateringer"
+
+msgid "Hotel Booking Plugin"
+msgstr "Hotel Booking Plugin"
+
+msgid "Your database is being updated in the background."
+msgstr "Din database opdateres i baggrunden."
+
+msgid "Taking a while? Click here to run it now."
+msgstr "*Det vil tage et stykke tid? Klik her for at køre det nu."
+
+msgid "Add \"Booking Confirmation\" shortcode to your \"Booking Confirmed\" and \"Reservation Received\" pages to show more details about booking or payment.<br/>Click \"Update Pages\" to apply all changes automatically or skip this notice and add \"Booking Confirmation\" shortcode manually.<br/><b><em>This action will replace the whole content of the pages.</em></b>"
+msgstr "Tilføj \"Booking bekræftelse\" kortkode til dine \"Booking bekræftet\" og \"Reservation modtaget\" sider for at vise flere detaljer om booking eller betaling.<br/>Klik på \"Opdater sider\" for at anvende alle ændringer automatisk eller springe denne meddelelse over og tilføje \"Booking bekræftelse\" kortkode manuelt.<br/><b><em>Denne handling vil erstatte hele indholdet af siderne.</em></b>"
+
+msgid "Update Pages"
+msgstr "Opdater Sider"
+
+msgid "Skip"
+msgstr "Spring over"
+
+msgid "Direct Bank Transfer"
+msgstr "Direkte Bankoverførsel"
+
+msgid "Make your payment directly into our bank account. Please use your Booking ID as the payment reference."
+msgstr "Gør din betaling direkte til vores bankkonto. Brug venligst dit bookingid som betalingsreference."
+
+msgid "Beanstream/Bambora"
+msgstr "Beanstream/Bambora"
+
+msgid "Use the card number %1$s with CVC %2$s and a valid expiration date to test a payment."
+msgstr "Brug kortnummeret %1$s med CVC %2$s og en gyldig udløbsdato til at teste en betaling."
+
+msgid "Pay by Card (Beanstream)"
+msgstr "Betal med kort (Beanstream)"
+
+msgid "Pay with your credit card via Beanstream."
+msgstr "Betal med dit kreditkort via Beanstream."
+
+msgid "%1$s is enabled, but the <a href=\"%2$s\">Force Secure Checkout</a> option is disabled. Please enable SSL and ensure your server has a valid SSL certificate. Otherwise, %1$s will only work in Test Mode."
+msgstr "%1$s er aktiveret, men <a href=\"%2$s\">Force Secure Checkout</a> indstillingen er deaktiveret. Aktivér SSL og sørg for, at din server har et gyldigt SSL-certifikat. Ellers vil %1$s kun fungere i testtilstand."
+
+msgid "The <a href=\"%2$s\">Force Secure Checkout</a> option is disabled. Please enable SSL and ensure your server has a valid SSL certificate. Otherwise, %1$s will only work in Test Mode."
+msgstr "Indstillingen <a href=\"%2$s\">Force Secure Checkout</a> er deaktiveret. Aktivér SSL og sørg for, at din server har et gyldigt SSL-certifikat. Ellers vil %1$s kun fungere i testtilstand."
+
+msgid "Beanstream"
+msgstr "Beanstream"
+
+msgid "Merchant ID"
+msgstr "Profil ID"
+
+msgid "Your Merchant ID can be found in the top-right corner of the screen after logging in to the Beanstream Back Office"
+msgstr "Dit profil-id kan findes i øverste højre hjørne af skærmen efter at have logget ind på Beanstream Back Office"
+
+msgid "Payments Passcode"
+msgstr "Betalinger Kode"
+
+msgid "To generate the passcode, navigate to Administration > Account Settings > Order Settings in the sidebar, then scroll to Payment Gateway > Security/Authentication"
+msgstr "For at generere adgangskoden skal du navigere til Administration > Kontoindstillinger > Ordreindstillinger i sidepanelet, og derefter rulle til Betalingsgateway > Sikkerhed/Autentificering"
+
+msgid "Beanstream Payment Error: %s"
+msgstr "Beanstream betalingsfejl: %s"
+
+msgid "Payment single use token is required."
+msgstr "Betalings engangs token er påkrævet."
+
+msgid "Braintree"
+msgstr "Braintree"
+
+msgid "Webhooks Destination URL: %s"
+msgstr "Webhooks Destination URL: %s"
+
+msgid "Pay by Card (Braintree)"
+msgstr "Betal med kort (Braintree)"
+
+msgid "Pay with your credit card via Braintree."
+msgstr "Betal med dit kreditkort via Braintree."
+
+msgid "Braintree gateway cannot be enabled due to some problems: %s"
+msgstr "Braintree gateway kan ikke aktiveres på grund af nogle problemer: %s"
+
+msgid "In your Braintree account select Account > My User > View Authorizations."
+msgstr "Vælg konto > Min bruger > Vis autorisationer på din Braintree konto."
+
+msgid "Public Key"
+msgstr "Offentlig nøgle"
+
+msgid "Private Key"
+msgstr "Privat nøgle"
+
+msgid "Merchant Account ID"
+msgstr "Sælger Konto ID"
+
+msgid "In case the site currency differs from default currency in your Braintree account, you can set specific merchant account to avoid <a href=\"%s\">complications with currencty conversions</a>. Otherwise leave the field empty."
+msgstr "Hvis webstedets valuta afviger fra standard valuta på din Braintree konto, du kan indstille specifikke forhandlerkonto for at undgå <a href=\"%s\">komplikationer med valutakonverteringer</a>. Ellers efterlad feltet tomt."
+
+msgid "Braintree submitted for settlement (Transaction ID: %s)"
+msgstr "Braintree indsendt til afvikling (Transaktion ID: %s)"
+
+msgid "Braintree Payment Error: %s"
+msgstr "Beanstream betalingsfejl: %s"
+
+msgid "Payment method nonce is required."
+msgstr "Betalingsmetode engangskode er påkrævet."
+
+msgid "Payment dispute opened"
+msgstr "Betaling tvist åbnet"
+
+msgid "Payment dispute lost"
+msgstr "Betalingskonflikt tabt"
+
+msgid "Payment dispute won"
+msgstr "Betalingskonflikt vundet"
+
+msgid "Payment refunded in Braintree"
+msgstr "Betaling refunderet i Braintree"
+
+msgid "Braintree transaction voided"
+msgstr "Braintree transaktion annulleret"
+
+msgid "Pay on Arrival"
+msgstr "Betal ved ankomst"
+
+msgid "Pay with cash on arrival."
+msgstr "Betal kontant ved ankomst."
+
+msgid "%s is a required field."
+msgstr "%s er et obligatorisk felt."
+
+msgid "%s is not a valid email address."
+msgstr "%s er ikke en gyldig mailadresse."
+
+#. translators: %s is the payment gateway title.
+msgid "Enable \"%s\""
+msgstr "Aktiver \"%s\""
+
+msgid "Test Mode"
+msgstr "Testtilstand"
+
+msgid "Enable Sandbox Mode"
+msgstr "Aktivér Sandbox-tilstand"
+
+msgid "Sandbox can be used to test payments."
+msgstr "Sandbox kan bruges til at teste betalinger."
+
+msgid "Payment method title that the customer will see on your website."
+msgstr "Liste over betalingsmetode, som kunden vil se på din hjemmeside."
+
+msgid "Payment method description that the customer will see on your website."
+msgstr "Liste over betalingsmetode, som kunden vil se på din hjemmeside."
+
+msgid "Instructions"
+msgstr "Instruktioner"
+
+msgid "Instructions for a customer on how to complete the payment."
+msgstr "Instruktioner til en kunde om, hvordan de gennemfører betalingen."
+
+msgid "Reservation #%d"
+msgstr "Reservation #%d"
+
+msgid "Accommodation(s) reservation"
+msgstr "Reservation af indkvartering(er)"
+
+msgid "Manual Payment"
+msgstr "Kontant betaling"
+
+msgid "PayPal"
+msgstr "PayPal"
+
+msgid "Pay via PayPal"
+msgstr "Betal gennem PayPal"
+
+msgid "Paypal Business Email"
+msgstr "PayPal Business Email"
+
+msgid "Disable IPN Verification"
+msgstr "Deaktivér Ipn Verifikation"
+
+msgid "Specify an IPN listener for a specific payment instead of the listeners specified in your PayPal Profile."
+msgstr "Angiv en IPN-lytter til en specifik betaling i stedet for de lyttere, der er angivet i din PayPal-profil."
+
+msgid "Payment %s via IPN."
+msgstr "Betaling %s via IPN."
+
+msgid "Payment failed due to invalid PayPal business email."
+msgstr "Betaling mislykkedes på grund af ugyldig PayPal business e-mail."
+
+msgid "Payment failed due to invalid currency in PayPal IPN."
+msgstr "Betaling mislykkedes på grund af ugyldig valuta i PayPal IPN."
+
+msgid "Payment failed due to invalid amount in PayPal IPN."
+msgstr "Betaling mislykkedes på grund af ugyldigt beløb i PayPal IPN."
+
+msgid "Payment failed due to invalid purchase key in PayPal IPN."
+msgstr "Betaling mislykkedes på grund af ugyldig købsnøgle i PayPal IPN."
+
+msgid "Payment made via eCheck and will clear automatically in 5-8 days."
+msgstr "Betaling foretaget via eCheck og vil blive trukket automatisk om 5-8 dage."
+
+msgid "Payment requires a confirmed customer address and must be accepted manually through PayPal."
+msgstr "Betaling kræver en bekræftet kundeadresse og skal accepteres manuelt via PayPal."
+
+msgid "Payment must be accepted manually through PayPal due to international account regulations."
+msgstr "Betaling skal accepteres manuelt via PayPal på grund af internationale kontoregler."
+
+msgid "Payment received in non-shop currency and must be accepted manually through PayPal."
+msgstr "Betaling modtaget i ikke-shop valuta og skal accepteres manuelt via PayPal."
+
+msgid "Payment is being reviewed by PayPal staff as high-risk or in possible violation of government regulations."
+msgstr "Betaling bliver gennemgået af PayPal-personale som højrisiko eller i mulig overtrædelse af offentlige regler."
+
+msgid "Payment was sent to unconfirmed or non-registered email address."
+msgstr "Betaling blev sendt til ubekræftet eller ikke-registreret e-mailadresse."
+
+msgid "PayPal account must be upgraded before this payment can be accepted."
+msgstr "PayPal-konto skal opdateres, før denne betaling kan accepteres."
+
+msgid "PayPal account is not verified. Verify account in order to accept this payment."
+msgstr "PayPal-konto er ikke bekræftet. Bekræft konto for at acceptere denne betaling."
+
+msgid "Payment is pending for unknown reasons. Contact PayPal support for assistance."
+msgstr "Betaling afventer af ukendte årsager. Kontakt PayPal support for hjælp."
+
+msgid "Partial PayPal refund processed: %s"
+msgstr "Delvis PayPal refundering behandlet: %s"
+
+msgid "PayPal Payment #%s Refunded for reason: %s"
+msgstr "PayPal Betaling #%s Tilbagebetalt af årsag: %s"
+
+msgid "PayPal Refund Transaction ID: %s"
+msgstr "PayPal Refunderings transaktions-ID: %s"
+
+msgid "Stripe"
+msgstr "Stripe"
+
+msgid "Use the card number %1$s with CVC %2$s, a valid expiration date and random 5-digit ZIP-code to test a payment."
+msgstr "Brug kortnummeret %1$s med CVC %2$s, en gyldig udløbsdato og en tilfældig 5-cifret ZIP-kode til at teste en betaling."
+
+msgid "Pay by Card (Stripe)"
+msgstr "Betal med kort (Stripe)"
+
+msgid "Pay with your credit card via Stripe."
+msgstr "Betal med dit kreditkort via Stripe."
+
+msgid "Bancontact"
+msgstr "Bancontact"
+
+msgid "iDEAL"
+msgstr "iDEAL"
+
+msgid "Giropay"
+msgstr "Girokort"
+
+msgid "SEPA Direct Debit"
+msgstr "SEPA Direkte Debet"
+
+msgid "SOFORT"
+msgstr "SOFORT"
+
+msgid "Euro is the only acceptable currency for the selected payment methods. Change your currency to Euro in General settings."
+msgstr "Euro er den eneste acceptable valuta for de valgte betalingsmetoder. Skift din valuta til Euro i generelle indstillinger."
+
+msgid "Secret Key"
+msgstr "Hemmelig nøgle"
+
+msgid "Webhook Secret"
+msgstr "Webhook Hemmelighed"
+
+msgid "Payment Methods"
+msgstr "Betalingsmetoder"
+
+msgid "Card Payments"
+msgstr "Kortbetaling"
+
+msgid "Checkout Locale"
+msgstr "Checkout Side"
+
+msgid "Display Checkout in the user's preferred language, if available."
+msgstr "Vis Checkout i brugerens foretrukne sprog, hvis tilgængelig."
+
+msgid "The payment method is not selected."
+msgstr "Betalingsmetoden er ikke valgt."
+
+msgid "Payment intent ID is not set."
+msgstr "Intern betalings ID er ikke angivet."
+
+msgid "Source ID is not set."
+msgstr "Kilde ID er ikke angivet."
+
+#. translators: %s - Stripe PaymentIntent ID
+msgid "Payment for PaymentIntent %s succeeded."
+msgstr "Betaling for PaymentIntent %s lykkedes."
+
+#. translators: %s - Stripe PaymentIntent ID
+msgid "Payment for PaymentIntent %s is processing."
+msgstr "Betaling for PaymentIntent %s behandler."
+
+msgid "Failed to process Card payment. %s"
+msgstr "Kunne ikke behandle kortbetaling. %s"
+
+#. translators: %s - Stripe Source ID
+msgid "Payment source %s is waiting for customer confirmation."
+msgstr "Betalingskilde %s venter på kunde bekræftelse."
+
+#. translators: %s - Stripe Source ID
+msgid "Pending source %s received, but the redirect URL is empty."
+msgstr "Afventende kilde %s modtaget, men omdirigering URL er tom."
+
+#. translators: %s - Stripe Source ID
+msgid "Payment source %s was cancelled by customer."
+msgstr "Betalingskilde %s blev annulleret af kunden."
+
+#. translators: %s - Stripe Source ID
+msgid "Payment source %s failed and couldn't be processed."
+msgstr "Betalingskilden %s mislykkedes og kunne ikke behandles."
+
+#. translators: %1$s - Stripe Source ID; %2$s - Stripe Source status
+msgid "Failed to process payment source %1$s: unsupported status - \"%2$s\"."
+msgstr "Mislykkedes at behandle betalingskilde %1$s: ikke-understøttet status - \"%2$s\"."
+
+msgid "Failed to process Source payment. %s"
+msgstr "Kunne ikke behandle Kildebetaling. %s"
+
+msgid "Can't charge the payment again: payment's flow already completed."
+msgstr "Kan ikke opkræve betaling igen: Betalingens flow er allerede fuldført."
+
+#. translators: %s - Stripe Charge ID
+msgid "Charge %s succeeded."
+msgstr "Opkrævning %s gennemført."
+
+#. translators: %1$s - Stripe Charge ID; %2$s - payment price
+msgid "Charge %1$s for %2$s created."
+msgstr "Opkrævning %1$s for %2$s oprettet."
+
+#. translators: %s - Stripe Charge ID
+msgid "Charge %s failed."
+msgstr "Opkrævning %s mislykkedes."
+
+msgid "Charge error. %s"
+msgstr "Opkrævningsfejl. %s"
+
+msgid "Argentinean"
+msgstr "Argentinsk"
+
+msgid "Simplified Chinese"
+msgstr "Forenklet Kinesisk"
+
+msgid "Danish"
+msgstr "Dansk"
+
+msgid "Dutch"
+msgstr "Hollandsk"
+
+msgid "English"
+msgstr "Engelsk"
+
+msgid "Finnish"
+msgstr "Finsk"
+
+msgid "French"
+msgstr "Fransk"
+
+msgid "German"
+msgstr "Tysk"
+
+msgid "Italian"
+msgstr "Italiensk"
+
+msgid "Japanese"
+msgstr "Japansk"
+
+msgid "Norwegian"
+msgstr "Norsk"
+
+msgid "Polish"
+msgstr "Polsk"
+
+msgid "Russian"
+msgstr "Russisk"
+
+msgid "Spanish"
+msgstr "Spansk"
+
+msgid "Swedish"
+msgstr "Svensk"
+
+msgid "Card"
+msgstr "Kort"
+
+msgid "Credit or debit card"
+msgstr "Kredit eller debetkort"
+
+msgid "IBAN"
+msgstr "IBAN"
+
+msgid "Select iDEAL Bank"
+msgstr "Vælg iDEAL Bank"
+
+msgid "You will be redirected to a secure page to complete the payment."
+msgstr "Du vil blive omdirigeret til en sikker side for at fuldføre betalingen."
+
+msgid "By providing your IBAN and confirming this payment, you are authorizing this merchant and Stripe, our payment service provider, to send instructions to your bank to debit your account and your bank to debit your account in accordance with those instructions. You are entitled to a refund from your bank under the terms and conditions of your agreement with your bank. A refund must be claimed within 8 weeks starting from the date on which your account was debited."
+msgstr "Ved at give din IBAN og bekræfte denne betaling, du giver denne udbyder og Stripe, vores betalingstjenesteudbyder, at sende instruktioner til din bank for at debitere din konto og din bank for at debitere din konto i overensstemmelse med disse instruktioner. Du har ret til refusion fra din bank i henhold til vilkårene og betingelserne i din aftale med din bank. En tilbagebetaling skal anmodes inden for 8 uger regnet fra den dato, hvor din konto blev debiteret."
+
+#. translators: %s - event type, like "source.chargeable"
+msgid "Webhook \"%s\" skipped: payment's flow already completed."
+msgstr "Webhook \"%s\" sprunget over: betalingsstrømmen er allerede fuldført."
+
+#. translators: %s - Stripe Source ID
+msgid "Webhook received. The source %s is chargeable."
+msgstr "Webhook modtaget. Kilden %s er opkrævningsværdig."
+
+#. translators: %s - Stripe Source ID
+msgid "Webhook received. Payment source %s was cancelled by customer."
+msgstr "Webhook modtaget. Betalingskilde %s blev annulleret af kunden."
+
+#. translators: %s - Stripe Source ID
+msgid "Webhook received. Payment source %s failed and couldn't be processed."
+msgstr "Webhook modtaget. Betalingskilden %s mislykkedes og kunne ikke behandles."
+
+#. translators: %s - Stripe Charge ID
+msgid "Webhook received. Charge %s succeeded."
+msgstr "Webhook modtaget. Overførslen %s lykkedes."
+
+#. translators: %s - Stripe Charge ID
+msgid "Webhook received. Charge %s failed."
+msgstr "Webhook modtaget. Opladning %s mislykkedes."
+
+msgid "Test Payment"
+msgstr "Test Betaling"
+
+msgid "2Checkout"
+msgstr "2Checkout"
+
+msgid "To setup the callback process for 2Checkout to automatically mark payments completed, you will need to"
+msgstr "For at opsætte tilbagekøbsprocessen for 2Checkout tiol automatisk at markere betalinger fuldført, skal du"
+
+msgid "Login to your 2Checkout account and click the Notifications tab"
+msgstr "Log ind på din 2Checkout konto og klik på fanen Notifikationer"
+
+msgid "Click Enable All Notifications"
+msgstr "Klik Aktivér Alle Notifikationer"
+
+msgid "In the Global URL field, enter the url %s"
+msgstr "Indtast URL'en %s i feltet Global URL"
+
+msgid "Click Apply"
+msgstr "Klik På Anvend"
+
+msgid "Account Number"
+msgstr "Kontonummer"
+
+msgid "Secret Word"
+msgstr "Hemmeligt Ord"
+
+msgid "2Checkout \"Order Created\" notification received."
+msgstr "2Checkout \"Ordre oprettet\" notifikation modtaget."
+
+msgid "Payment refunded in 2Checkout"
+msgstr "Betaling refunderet i 2Checkout"
+
+msgid "2Checkout fraud review passed"
+msgstr "2Checkout bedrageri gennemgang bestået"
+
+msgid "2Checkout fraud review failed"
+msgstr "2Checkout bedrageri gennemgang mislykkedes"
+
+msgid "2Checkout fraud review in progress"
+msgstr "2Checkout bedrageri gennemgang i gang"
+
+msgid "Attribute"
+msgstr "Egenskaber"
+
+msgctxt "Add New Attribute"
+msgid "Add New"
+msgstr "Tilføj ny"
+
+msgid "Add New Attribute"
+msgstr "Tilføj ny egenskab"
+
+msgid "Edit Attribute"
+msgstr "Rediger Egenskab"
+
+msgid "New Attribute"
+msgstr "Ny Egenskab"
+
+msgid "View Attribute"
+msgstr "Vis Egenskab"
+
+msgid "Search Attribute"
+msgstr "Søg efter egenskaber"
+
+msgid "No Attributes found"
+msgstr "Ingen Egenskaber fundet"
+
+msgid "No Attributes found in Trash"
+msgstr "Ingen Egenskaber fundet i papirkurven"
+
+msgid "Insert into attribute description"
+msgstr "Indsæt i beskrivelse af Egenskaber"
+
+#. translators: %s: attribute name
+msgid "Search %s"
+msgstr "Søg %s"
+
+#. translators: %s: attribute name
+msgid "All %s"
+msgstr "Alle %s"
+
+#. translators: %s: attribute name
+msgid "Edit %s"
+msgstr "Rediger %s"
+
+#. translators: %s: attribute name
+msgid "Update %s"
+msgstr "Opdater %s"
+
+#. translators: %s: attribute name
+msgid "Add new %s"
+msgstr "Tilføj ny %s"
+
+#. translators: %s: attribute name
+msgid "New %s"
+msgstr "Ny %s"
+
+#. translators: %s: attribute name
+msgid "No &quot;%s&quot; found"
+msgstr "Ingen &quot;%s&quot; fundet"
+
+msgid "Name (numeric)"
+msgstr "Navn (numerisk)"
+
+msgid "Term ID"
+msgstr "Term ID"
+
+msgid "Enable Archives"
+msgstr "Aktiver Arkiver"
+
+msgid "Link the attribute to an archive page with all accommodation types that have this attribute."
+msgstr "Link egenskaben til en arkivside med alle indkvarteringstyper, der har denne egenskab."
+
+msgid "Visible in Details"
+msgstr "Synlig i detaljer"
+
+msgid "Display the attribute in details section of an accommodation type."
+msgstr "Vis egenskaben i detaljeafsnit af en indkvarteringstype."
+
+msgid "Default Sort Order"
+msgstr "Standard Sorteringsrækkefølge"
+
+msgid "Default Text"
+msgstr "Standardtekst"
+
+msgid "Select"
+msgstr "Vælg"
+
+msgid "Edit Dates"
+msgstr "Rediger dato"
+
+msgid "Note"
+msgstr "Note"
+
+msgctxt "Add New Booking"
+msgid "Add New Booking"
+msgstr "Tilføj Ny Booking"
+
+msgid "View Booking"
+msgstr "Se booking"
+
+msgid "Search Booking"
+msgstr "Søg Booking"
+
+msgid "No bookings found"
+msgstr "Ingen bookinger fundet"
+
+msgid "No bookings found in Trash"
+msgstr "Ingen bookinger fundet i papirkurven"
+
+msgid "All Bookings"
+msgstr "Alle bookinger"
+
+msgid "Insert into booking description"
+msgstr "Indsæt i booking beskrivelse"
+
+msgid "Uploaded to this booking"
+msgstr "Uploadet til denne booking"
+
+msgctxt "Booking status"
+msgid "Pending User Confirmation"
+msgstr "Afventende Bruger Bekræftelse"
+
+msgid "Pending User Confirmation <span class=\"count\">(%s)</span>"
+msgid_plural "Pending User Confirmation <span class=\"count\">(%s)</span>"
+msgstr[0] "Afventer brugerbekræftelse <span class=\"count\">(%s)</span>"
+msgstr[1] "Afventer brugerbekræftelse <span class=\"count\">(%s)</span>"
+
+msgctxt "Booking status"
+msgid "Pending Payment"
+msgstr "Afventer betaling"
+
+msgid "Pending Payment <span class=\"count\">(%s)</span>"
+msgid_plural "Pending Payment <span class=\"count\">(%s)</span>"
+msgstr[0] "Afventer betaling <span class=\"count\">(%s)</span>"
+msgstr[1] "Afventer betaling <span class=\"count\">(%s)</span>"
+
+msgctxt "Booking status"
+msgid "Pending Admin"
+msgstr "Afventer Administrator"
+
+msgid "Pending Admin <span class=\"count\">(%s)</span>"
+msgid_plural "Pending Admin <span class=\"count\">(%s)</span>"
+msgstr[0] "Afventer administrator <span class=\"count\">(%s)</span>"
+msgstr[1] "Afventer administrator <span class=\"count\">(%s)</span>"
+
+msgctxt "Booking status"
+msgid "Abandoned"
+msgstr "Forladt"
+
+msgid "Abandoned <span class=\"count\">(%s)</span>"
+msgid_plural "Abandoned <span class=\"count\">(%s)</span>"
+msgstr[0] "Forladt <span class=\"count\">(%s)</span>"
+msgstr[1] "Forladt <span class=\"count\">(%s)</span>"
+
+msgid "Confirmed <span class=\"count\">(%s)</span>"
+msgid_plural "Confirmed <span class=\"count\">(%s)</span>"
+msgstr[0] "Bekræftet <span class=\"count\">(%s)</span>"
+msgstr[1] "Bekræftet <span class=\"count\">(%s)</span>"
+
+msgctxt "Booking status"
+msgid "Cancelled"
+msgstr "Annulleret"
+
+msgid "Cancelled <span class=\"count\">(%s)</span>"
+msgid_plural "Cancelled <span class=\"count\">(%s)</span>"
+msgstr[0] "Annulleret <span class=\"count\">(%s)</span>"
+msgstr[1] "Annulleret <span class=\"count\">(%s)</span>"
+
+msgid "Status changed from %s to %s."
+msgstr "Status ændret fra %s til %s."
+
+msgid "Coupon Information"
+msgstr "Rabatkode Information"
+
+msgid "Fixed per accommodation per stay"
+msgstr "Fast pr. overnatning pr. ophold"
+
+msgid "Fixed per accommodation per day"
+msgstr "Fast per indkvartering per dag"
+
+msgid "Coupon Amount"
+msgstr "Kupon Beløb"
+
+msgid "Enter percent or fixed amount according to selected type."
+msgstr "Indtast procent eller fast beløb i henhold til valgte type."
+
+msgid "Expiration Date"
+msgstr "Udløbsdato"
+
+msgid "Check-in After"
+msgstr "Indtjekning Efter"
+
+msgid "Check-out Before"
+msgstr "Udtjekning Før"
+
+msgid "Minimum Days"
+msgstr "Minimum Dage"
+
+msgid "Maximum Days"
+msgstr "Maksimum Dage"
+
+msgid "Usage Limit"
+msgstr "Brugsgrænse"
+
+msgid "Usage Count"
+msgstr "Antal brugte"
+
+msgid "Coupons"
+msgstr "Rabatkuponer"
+
+msgctxt "Add New Coupon"
+msgid "Add New"
+msgstr "Tilføj ny"
+
+msgid "Add New Coupon"
+msgstr "Tilføj Ny Rabatkupon"
+
+msgid "Edit Coupon"
+msgstr "Rediger rabatkupon"
+
+msgid "New Coupon"
+msgstr "Ny rabatkupon"
+
+msgid "View Coupon"
+msgstr "Se Rabatkupon"
+
+msgid "Search Coupon"
+msgstr "Søg Rabatkupon"
+
+msgid "No coupons found"
+msgstr "Ingen rabatkuponer fundet"
+
+msgid "No coupons found in Trash"
+msgstr "Ingen rabatkuponer fundet i papirkurven"
+
+msgid "All Coupons"
+msgstr "Alle rabatkuponer"
+
+msgid "Payment History"
+msgstr "Betalingshistorik"
+
+msgid "Payment"
+msgstr "Betaling"
+
+msgctxt "Add New Payment"
+msgid "Add New"
+msgstr "Tilføj ny"
+
+msgid "Add New Payment"
+msgstr "Tilføj Ny Betaling"
+
+msgid "Edit Payment"
+msgstr "Rediger betaling"
+
+msgid "New Payment"
+msgstr "Ny betaling"
+
+msgid "View Payment"
+msgstr "Se Betaling"
+
+msgid "Search Payment"
+msgstr "Søg Efter Betaling"
+
+msgid "No payments found"
+msgstr "Ingen betalinger fundet"
+
+msgid "No payments found in Trash"
+msgstr "Ingen betalinger fundet i papirkurven"
+
+msgid "Payments"
+msgstr "Betalinger"
+
+msgid "Insert into payment description"
+msgstr "Indsæt i betalingsbeskrivelse"
+
+msgid "Uploaded to this payment"
+msgstr "Uploadet til denne betaling"
+
+msgid "Payments."
+msgstr "Betalinger."
+
+msgid "Gateway Mode"
+msgstr "Gateway Tilstand"
+
+msgid "Sandbox"
+msgstr "Sandbox"
+
+msgid "Live"
+msgstr "Live"
+
+msgid "Fee"
+msgstr "Gebyr"
+
+msgid "Payment Type"
+msgstr "Betalingsmåde"
+
+msgid "Billing Info"
+msgstr "Faktura information"
+
+msgid "Address 1"
+msgstr "Adresse 1"
+
+msgid "Address 2"
+msgstr "Adresse 2"
+
+msgid "Postal Code (ZIP)"
+msgstr "Postnummer (ZIP)"
+
+msgctxt "Payment status"
+msgid "Pending"
+msgstr "Afventer"
+
+msgid "Pending <span class=\"count\">(%s)</span>"
+msgid_plural "Pending <span class=\"count\">(%s)</span>"
+msgstr[0] "Afventer <span class=\"count\">(%s)</span>"
+msgstr[1] "Afventer <span class=\"count\">(%s)</span>"
+
+msgctxt "Payment status"
+msgid "Completed"
+msgstr "Udført"
+
+msgid "Completed <span class=\"count\">(%s)</span>"
+msgid_plural "Completed <span class=\"count\">(%s)</span>"
+msgstr[0] "Udført <span class=\"count\">(%s)</span>"
+msgstr[1] "Udført <span class=\"count\">(%s)</span>"
+
+msgctxt "Payment status"
+msgid "Failed"
+msgstr "Mislykkedes"
+
+msgid "Failed <span class=\"count\">(%s)</span>"
+msgid_plural "Failed <span class=\"count\">(%s)</span>"
+msgstr[0] "Mislykkedes <span class=\"count\">(%s)</span>"
+msgstr[1] "Mislykkedes <span class=\"count\">(%s)</span>"
+
+msgctxt "Payment status"
+msgid "Abandoned"
+msgstr "Afbrudt"
+
+msgctxt "Payment status"
+msgid "On Hold"
+msgstr "Afventer"
+
+msgid "On Hold <span class=\"count\">(%s)</span>"
+msgid_plural "On Hold <span class=\"count\">(%s)</span>"
+msgstr[0] "Afventer <span class=\"count\">(%s)</span>"
+msgstr[1] "Afventer <span class=\"count\">(%s)</span>"
+
+msgctxt "Payment status"
+msgid "Refunded"
+msgstr "Refunderet"
+
+msgid "Refunded <span class=\"count\">(%s)</span>"
+msgid_plural "Refunded <span class=\"count\">(%s)</span>"
+msgstr[0] "Refunderet <span class=\"count\">(%s)</span>"
+msgstr[1] "Refunderet <span class=\"count\">(%s)</span>"
+
+msgctxt "Payment status"
+msgid "Cancelled"
+msgstr "Annulleret"
+
+msgid "Payment (#%s) for this booking is on hold"
+msgstr "Betaling (#%s) for denne booking er på pause"
+
+msgid "Rate Info"
+msgstr "Info om pris"
+
+msgid "Season"
+msgstr "Sæson"
+
+msgid "Move price to top to set higher priority."
+msgstr "Flyt prisen til top for at sætte højere prioritet."
+
+msgid "Add New Season Price"
+msgstr "Tilføj Ny Sæson Pris"
+
+msgid "Will be displayed on the checkout page."
+msgstr "Vil blive vist på check-ud siden."
+
+#. translators: The value a hotel wishes to sell their rooms. Also called the Cost, Value, Tariff or Room charge.
+msgid "Rates"
+msgstr "Pris"
+
+msgctxt "Add New Rate"
+msgid "Add New"
+msgstr "Tilføj ny"
+
+msgid "Add New Rate"
+msgstr "Tilføj Ny Pris"
+
+msgid "Edit Rate"
+msgstr "Rediger Pris"
+
+msgid "New Rate"
+msgstr "Ny Pris"
+
+msgid "View Rate"
+msgstr "Gennemse priser"
+
+msgid "Search Rate"
+msgstr "Søg Pris"
+
+msgid "No rates found"
+msgstr "Ingen priser fundet"
+
+msgid "No rates found in Trash"
+msgstr "Ingen priser fundet i papirkurven"
+
+msgid "Insert into rate description"
+msgstr "Indsæt i beskrivelse af priser"
+
+msgid "Uploaded to this rate"
+msgstr "Uploadet til denne pris"
+
+msgid "This is where you can add new rates."
+msgstr "Her kan du tilføje nye priser."
+
+msgid "Reserved Accommodation"
+msgstr "Reserveret Indkvartering"
+
+msgctxt "Add New Accommodation"
+msgid "Add New"
+msgstr "Tilføj ny"
+
+msgid "Add New Accommodation"
+msgstr "Tilføj Ny Indkvartering"
+
+msgid "Edit Accommodation"
+msgstr "Rediger Indkvartering"
+
+msgid "New Accommodation"
+msgstr "Ny Indkvartering"
+
+msgid "View Accommodation"
+msgstr "Se Indkvartering"
+
+msgid "Search Accommodation"
+msgstr "Søg indkvartering"
+
+msgid "No accommodations found"
+msgstr "Ingen indkvartering fundet"
+
+msgid "No accommodations found in Trash"
+msgstr "Ingen Indkvartering fundet i papirkurven"
+
+msgid "Insert into accommodation description"
+msgstr "Indsæt i indkvarteringsbeskrivelse"
+
+msgid "Uploaded to this accommodation"
+msgstr "Uploadet til denne indkvartering"
+
+msgid "This is where you can add new accommodations to your hotel."
+msgstr "Her kan du tilføje nye Indkvarteringer til dit hotel."
+
+msgctxt "Add New Accommodation Type"
+msgid "Add Accommodation Type"
+msgstr "Tilføj Indkvarteringstype"
+
+msgid "Add New Accommodation Type"
+msgstr "Tilføj ny indkvarteringstype"
+
+msgid "Edit Accommodation Type"
+msgstr "Rediger Indkvarteringstype"
+
+msgid "New Accommodation Type"
+msgstr "Ny indkvarteringstype"
+
+msgid "View Accommodation Type"
+msgstr "Se indkvarteringstype"
+
+msgid "Search Accommodation Type"
+msgstr "Søg Indkvarteringstype"
+
+msgid "No Accommodation types found"
+msgstr "Ingen indkvartering fundet"
+
+msgid "No Accommodation types found in Trash"
+msgstr "Ingen Indkvartering fundet i papirkurven"
+
+msgid "Insert into accommodation type description"
+msgstr "Indsæt beskrivelse af indkvartering"
+
+msgid "Uploaded to this accommodation type"
+msgstr "Uploadet til denne type indkvartering"
+
+#. translators: do not translate
+msgctxt "slug"
+msgid "accommodation"
+msgstr "accommodation"
+
+msgid "Accommodation Categories"
+msgstr "Indkvarterings-kategori"
+
+msgid "Accommodation Category"
+msgstr "Indkvarterings-kategori"
+
+msgid "Search Accommodation Categories"
+msgstr "Søg Indkvarterings-kategorier"
+
+msgid "Popular Accommodation Categories"
+msgstr "Populære indkvarterings-kategorier"
+
+msgid "All Accommodation Categories"
+msgstr "Alle indkvarterings-kategorier"
+
+msgid "Parent Accommodation Category"
+msgstr "Overordnet indkvarterings-kategori"
+
+msgid "Parent Accommodation Category:"
+msgstr "Overordnet indkvarterings-kategori:"
+
+msgid "Edit Accommodation Category"
+msgstr "Rediger Indkvarterings-kategori"
+
+msgid "Update Accommodation Category"
+msgstr "Opdater indkvarterings-kategori"
+
+msgid "Add New Accommodation Category"
+msgstr "Tilføj ny indkvarterings-kategori"
+
+msgid "New Accommodation Category Name"
+msgstr "Tilføj navn på ny indkvarterings-kategori"
+
+msgid "Separate categories with commas"
+msgstr "Adskil kategori med kommaer"
+
+msgid "Add or remove categories"
+msgstr "Tilføj eller fjern kategorier"
+
+msgid "Choose from the most used categories"
+msgstr "Vælg mellem de mest anvendte kategorier"
+
+msgid "No categories found."
+msgstr "Ingen kategorier fundet."
+
+msgid "Categories"
+msgstr "Kategorier"
+
+#. translators: do not translate
+msgctxt "slug"
+msgid "accommodation-category"
+msgstr "accommodation-category"
+
+msgid "Accommodation Tags"
+msgstr "Indkvarterings Tags"
+
+msgid "Accommodation Tag"
+msgstr "Indkvarterings Tag"
+
+msgid "Search Accommodation Tags"
+msgstr "Søg Indkvarterings Tags"
+
+msgid "Popular Accommodation Tags"
+msgstr "Populære Indkvarterings-Tags"
+
+msgid "All Accommodation Tags"
+msgstr "Alle Indkvarterings-Tags"
+
+msgid "Parent Accommodation Tag"
+msgstr "Overordnet indkvarterings-tags"
+
+msgid "Parent Accommodation Tag:"
+msgstr "Overordnet indkvarterings-tags:"
+
+msgid "Edit Accommodation Tag"
+msgstr "Rediger Indkvarterings Tag"
+
+msgid "Update Accommodation Tag"
+msgstr "Opdater Indkvarterings Tag"
+
+msgid "Add New Accommodation Tag"
+msgstr "Tilføj ny indkvarterings tag"
+
+msgid "New Accommodation Tag Name"
+msgstr "Nyt navn på Indkvarterings Tag"
+
+msgid "Separate tags with commas"
+msgstr "Adskil tags med kommaer"
+
+msgid "Add or remove tags"
+msgstr "Tilføj eller fjern tags"
+
+msgid "Choose from the most used tags"
+msgstr "Vælg mellem de mest brugte tags"
+
+msgid "No tags found."
+msgstr "Ingen tags fundet."
+
+msgid "Tags"
+msgstr "Tags"
+
+#. translators: do not translate
+msgctxt "slug"
+msgid "accommodation-tag"
+msgstr "accommodation-tag"
+
+msgid "Amenities"
+msgstr "Faciliteter"
+
+msgid "Amenity"
+msgstr "Facilitet"
+
+msgid "Search Amenities"
+msgstr "Søg Faciliteter"
+
+msgid "Popular Amenities"
+msgstr "Populære faciliteter"
+
+msgid "All Amenities"
+msgstr "Alle Faciliteter"
+
+msgid "Parent Amenity"
+msgstr "Overordnet Facilitet"
+
+msgid "Parent Amenity:"
+msgstr "Overordnet Facilitet:"
+
+msgid "Edit Amenity"
+msgstr "Rediger Facilitet"
+
+msgid "Update Amenity"
+msgstr "Opdater Bekvemmeligheder"
+
+msgid "Add New Amenity"
+msgstr "Tilføj Ny Bekvemmelighed"
+
+msgid "New Amenity Name"
+msgstr "Nyt Navn til Bekvemmelighed"
+
+msgid "Separate amenities with commas"
+msgstr "Separat faciliteter med kommaer"
+
+msgid "Add or remove amenities"
+msgstr "Tilføj eller fjern faciliteter"
+
+msgid "Choose from the most used amenities"
+msgstr "Vælg mellem de mest brugte faciliteter"
+
+msgid "No amenities found."
+msgstr "Ingen faciliteter fundet."
+
+#. translators: do not translate
+msgctxt "slug"
+msgid "accommodation-facility"
+msgstr "accommodation-facility"
+
+msgid "State the age or disable children in <a href=\"%s\">settings</a>."
+msgstr "Angiv alder eller deaktiver børn i <a href=\"%s\">indstillinger</a>."
+
+msgid "Leave this option empty to calculate total capacity automatically to meet the exact number of adults AND children set above. This is the default behavior. Configure this option to allow any variations of adults OR children set above at checkout so that in total it meets the limit of manually set \"Capacity\". For example, configuration \"adults:5\", \"children:4\", \"capacity:5\" means the property can accommodate up to 5 adults, up to 4 children, but up to 5 guests in total (not 9)."
+msgstr "Lad denne indstilling være tom for at beregne den samlede kapacitet automatisk for at opfylde det nøjagtige antal voksne OG børn der er angivet ovenfor. Dette er standardadfærden. Konfigurer denne indstilling for at tillade variationer af voksne ELLER børn, der er sat over ved check-ud så den i alt opfylder grænsen for manuelt at indstille \"Kapacitet\". For eksempel, konfiguration \"voksne:5\", \"børn:4\", \"kapacitet:5\" betyder, at ejendommen kan rumme op til 5 voksne, op til 4 børn, men op til 5 gæster i alt (ikke 9)."
+
+msgid "Size, %s"
+msgstr "Størrelse, %s"
+
+msgid "Leave blank to hide."
+msgstr "Lad stå tomt for at skjule."
+
+msgid "Other"
+msgstr "Andet"
+
+msgid "City view, seaside, swimming pool etc."
+msgstr "Byudsigt, havudsigt, swimmingpool osv."
+
+msgid "Bed type"
+msgstr "Senge type"
+
+msgid "Set bed types list in <a href=\"%link%\" target=\"_blank\">settings</a>."
+msgstr "Angiv liste for sengetyper i <a href=\"%link%\" target=\"_blank\">indstillinger</a>."
+
+msgid "Photo Gallery"
+msgstr "Billedgalleri"
+
+msgid "Available Services"
+msgstr "Tilgængelige Tjenester"
+
+msgid "Season Info"
+msgstr "Sæson Info"
+
+msgid "Start date"
+msgstr "Startdato"
+
+msgid "End date"
+msgstr "Slutdato"
+
+msgid "Applied for days"
+msgstr "Anvendt i dage"
+
+msgid "Hold Ctrl / Cmd to select multiple."
+msgstr "Hold Ctrl/Cmd for at vælge flere."
+
+msgctxt "Add New Season"
+msgid "Add New"
+msgstr "Tilføj ny"
+
+msgid "Add New Season"
+msgstr "Tilføj Ny Sæson"
+
+msgid "Edit Season"
+msgstr "Rediger Sæson"
+
+msgid "New Season"
+msgstr "Ny Sæson"
+
+msgid "View Season"
+msgstr "Vis Sæson"
+
+msgid "Search Season"
+msgstr "Søg Sæson"
+
+msgid "No seasons found"
+msgstr "Ingen sæsoner fundet"
+
+msgid "No seasons found in Trash"
+msgstr "Ingen sæsoner fundet i papirkurven"
+
+msgid "Insert into season description"
+msgstr "Indsæt i sæsonbeskrivelse"
+
+msgid "Uploaded to this season"
+msgstr "Uploadet til denne sæson"
+
+msgid "This is where you can add new seasons."
+msgstr "Her kan du tilføje nye sæsoner."
+
+msgid "Service"
+msgstr "Tjeneste"
+
+msgctxt "Add New Service"
+msgid "Add New"
+msgstr "Tilføj ny"
+
+msgid "Add New Service"
+msgstr "Tilføj ny tjeneste"
+
+msgid "Edit Service"
+msgstr "Rediger Tjeneste"
+
+msgid "New Service"
+msgstr "Ny Tjeneste"
+
+msgid "View Service"
+msgstr "Vis Tjeneste"
+
+msgid "Search Service"
+msgstr "Søg Tjeneste"
+
+msgid "No services found"
+msgstr "Ingen tjenester fundet"
+
+msgid "No services found in Trash"
+msgstr "Ingen tjenester fundet i papirkurven"
+
+msgid "Insert into service description"
+msgstr "Indsæt beskrivelse i tjenesten"
+
+msgid "Uploaded to this service"
+msgstr "Uploadet til denne tjeneste"
+
+#. translators: do not translate
+msgctxt "slug"
+msgid "services"
+msgstr "services"
+
+msgid "How many times the customer will be charged."
+msgstr "Hvor mange gange kunden bliver opkrævet."
+
+msgid "Minimum"
+msgstr "Minimum"
+
+msgid "Maximum"
+msgstr "Maksimum"
+
+msgid "Empty means unlimited"
+msgstr "Tom betyder ubegrænset"
+
+msgctxt "Booking status"
+msgid "Pending"
+msgstr ""
+
+msgid "Total Sales"
+msgstr "Salg i alt"
+
+msgid "Total Without Taxes"
+msgstr "I alt ekskl. moms"
+
+msgid "Total Services"
+msgstr "Tjenesteydelser I Alt"
+
+msgid "Total Discounts"
+msgstr "Samlede rabatter"
+
+msgid "Total Bookings"
+msgstr "Bookinger i alt"
+
+msgid "Revenue (Beta)"
+msgstr "Indtægter (Beta)"
+
+msgid "Apply"
+msgstr "Anvend"
+
+msgid "From %s to %s"
+msgstr "Fra %s til %s"
+
+msgid "Today"
+msgstr "I dag"
+
+msgid "Yesterday"
+msgstr "I går"
+
+msgid "This week"
+msgstr "Denne uge"
+
+msgid "Last week"
+msgstr "Sidste uge"
+
+msgid "Last 30 days"
+msgstr "Sidste 30 dage"
+
+msgid "This month"
+msgstr "Denne måned"
+
+msgid "Last month"
+msgstr "Sidste måned"
+
+msgid "This quarter"
+msgstr "Dette kvartal"
+
+msgid "Last quarter"
+msgstr "Sidste kvartal"
+
+msgid "This year"
+msgstr "Dette år"
+
+msgid "Last year"
+msgstr "Sidste år"
+
+#. translators: %s - original Rate title
+msgid "%s - copy"
+msgstr "%s - kopi"
+
+msgid "Accommodation Type Gallery"
+msgstr "Galleri over Indkvarteringstype"
+
+msgid "Add Gallery To Accommodation Type"
+msgstr "Tilføj Galleri til indkvarteringstype"
+
+msgid "Display imported bookings."
+msgstr "Vis importerede bookinger."
+
+msgid "Processing..."
+msgstr "Behandling..."
+
+msgid "Cancelling..."
+msgstr "Annullerer..."
+
+msgid "Want to delete?"
+msgstr "Vil du slette?"
+
+msgid "Not available"
+msgstr "Ikke tilgængelig"
+
+msgid "This is earlier than allowed by our advance reservation rules."
+msgstr "Dette er tidligere end tilladt i henhold til vores regler om forhåndsreservering."
+
+msgid "This is later than allowed by our advance reservation rules."
+msgstr "Dette er senere end tilladt af vores reserveringsregler."
+
+msgid "Day in the past"
+msgstr "Dag i fortiden"
+
+msgid "Check-in date"
+msgstr "Ankomstdato"
+
+msgid "Less than min days stay"
+msgstr "Mindre end min. dage ophold"
+
+msgid "More than max days stay"
+msgstr "Mere end max dage ophold"
+
+msgid "Later than max date for current check-in date"
+msgstr "Senere end maks. dato for aktuel indtjekningsdato"
+
+msgid "Rules:"
+msgstr "Regler:"
+
+msgid "Tokenisation failed: %s"
+msgstr "Tokenisation fejlede: %s"
+
+msgid "%1$d &times; &ldquo;%2$s&rdquo; has been added to your reservation."
+msgid_plural "%1$d &times; &ldquo;%2$s&rdquo; have been added to your reservation."
+msgstr[0] "%1$d &times; &ldquo;%2$s&rdquo; er blevet tilføjet til din reservation."
+msgstr[1] "%1$d &times; &ldquo;%2$s&rdquo; er blevet tilføjet til din reservation."
+
+msgid "%s accommodation selected."
+msgid_plural "%s accommodations selected."
+msgstr[0] "%s indkvartering valgt."
+msgstr[1] "%s indkvarteringer valgt."
+
+msgid "Coupon code is empty."
+msgstr "Kuponkode er tom."
+
+msgid "Dark Blue"
+msgstr "Mørkeblå"
+
+msgid "Dark Green"
+msgstr "Mørkegrøn"
+
+msgid "Dark Red"
+msgstr "Mørkerød"
+
+msgid "Grayscale"
+msgstr "Gråskala"
+
+msgid "Light Blue"
+msgstr "Lyseblå"
+
+msgid "Light Coral"
+msgstr "Lys koral"
+
+msgid "Light Green"
+msgstr "Lysegrøn"
+
+msgid "Light Yellow"
+msgstr "Lysegul"
+
+msgid "Minimal Blue"
+msgstr "Minimal Blå"
+
+msgid "Minimal Orange"
+msgstr "Minimal Orange"
+
+msgid "Minimal"
+msgstr "Minimal"
+
+msgid "Sky Blue"
+msgstr "Himmelblå"
+
+msgid "Slate Blue"
+msgstr "Skifer Blå"
+
+msgid "Turquoise"
+msgstr "Turkis"
+
+msgid "Invalid login or password."
+msgstr "Ugyldig login eller adgangskode."
+
+msgid "Account data updated."
+msgstr "Kontodata opdateret."
+
+msgid "Password changed."
+msgstr "Adgangskode skiftet."
+
+msgid "Dashboard"
+msgstr "Dashboard"
+
+msgid "Account"
+msgstr "Konto"
+
+msgid "Logout"
+msgstr "Log ud"
+
+msgid "Passwords do not match."
+msgstr "Adgangskoder matcher ikke."
+
+msgid "Please, provide a valid current password."
+msgstr "Angiv venligst en gyldig nuværende adgangskode."
+
+msgid "Lost your password?"
+msgstr ""
+
+msgid "Payment:"
+msgstr "Betaling:"
+
+msgid "Payment Method:"
+msgstr "Betalingsmåde:"
+
+msgid "Status:"
+msgstr "Status:"
+
+msgid "Checkout data is not valid."
+msgstr "Afrejse-dato er ikke gyldig."
+
+msgid "Payment method is not valid."
+msgstr "Betalingsmetode er ikke gyldig."
+
+msgid "Accommodation count is not valid."
+msgstr "Antal indkvarteringer er ikke gyldigt."
+
+msgid "Accommodation is already booked."
+msgstr "Indkvarteringen er allerede booket."
+
+msgid "Reservation submitted"
+msgstr "Reservation indsendt"
+
+msgid "Details of your reservation have just been sent to you in a confirmation email. Please check your inbox to complete booking."
+msgstr "Detaljer om din reservation er netop blevet sendt til dig i en bekræftelses-e-mail. Tjek venligst din indbakke for at fuldføre reservationen."
+
+msgid "We received your booking request. Once it is confirmed we will notify you via email."
+msgstr "Vi har modtaget din bookinganmodning. Når det er bekræftet, vil vi give dig besked via e-mail."
+
+msgid "Choose dates to see relevant prices"
+msgstr "Vælg datoer for at se relevante priser"
+
+msgid "Select from available accommodations."
+msgstr "Vælg fra tilgængelige indkvarteringer."
+
+msgid "Confirm Reservation"
+msgstr "Bekræft Reservation"
+
+msgid "Recommended for %d adult"
+msgid_plural "Recommended for %d adults"
+msgstr[0] "Anbefales til %d voksne"
+msgstr[1] "Anbefales til %d voksne"
+
+msgid " and %d child"
+msgid_plural " and %d children"
+msgstr[0] " og %d barn"
+msgstr[1] " og %d børn"
+
+msgid "Recommended for %d guest"
+msgid_plural "Recommended for %d guests"
+msgstr[0] "Anbefalet til %d gæst"
+msgstr[1] "Anbefalet til %d gæster"
+
+msgid "Max occupancy:"
+msgstr "Maks. belægning:"
+
+msgid "%d child"
+msgid_plural "%d children"
+msgstr[0] "%d barn"
+msgstr[1] "%d børn"
+
+msgid "Reserve"
+msgstr "Reserver"
+
+msgid "of %d accommodation available."
+msgid_plural "of %d accommodations available."
+msgstr[0] "af %d tilgængelig indkvartering."
+msgstr[1] "af %d tilgængelige indkvarteringer."
+
+#. translators: Verb. To book an accommodation.
+msgid "Book"
+msgstr "Bestil"
+
+msgid "Please, provide a valid email."
+msgstr "Angiv venligst en gyldig e-mail."
+
+msgid "Could not create a customer."
+msgstr "Kunne ikke oprette en kunde."
+
+msgid "Could not retrieve a customer."
+msgstr "Kunne ikke hente en kunde."
+
+msgid "Please, provide a valid Customer ID."
+msgstr "Angiv venligst et gyldigt kunde-id."
+
+msgid "A database error."
+msgstr "Databasefejl."
+
+msgid "No customer was deleted."
+msgstr "Ingen kunde blev slettet."
+
+msgid "An account with this email already exists. Please, log in."
+msgstr "En konto med denne e-mail findes allerede. Log venligst ind."
+
+msgid "Hotel Manager"
+msgstr "Hotel Manager"
+
+msgid "Hotel Worker"
+msgstr "Hotel arbejder"
+
+msgid "Hotel Customer"
+msgstr "Hotel Kunde"
+
+msgid "Please provide a valid email address."
+msgstr "Angiv venligst en gyldig e-mailadresse."
+
+msgid "Please enter a valid account username."
+msgstr "Venligst indtast et gyldigt brugernavn."
+
+msgid "An account is already registered with that username. Please choose another."
+msgstr "En konto er allerede registreret med dette brugernavn. Vælg venligst en anden."
+
+msgid "Please enter an account password."
+msgstr "Indtast venligst din adgangskode."
+
+msgid "Sunday"
+msgstr "Søndag"
+
+msgid "Monday"
+msgstr "Mandag"
+
+msgid "Tuesday"
+msgstr "Tirsdag"
+
+msgid "Wednesday"
+msgstr "Onsdag"
+
+msgid "Thursday"
+msgstr "Torsdag"
+
+msgid "Friday"
+msgstr "Fredag"
+
+msgid "Saturday"
+msgstr "Lørdag"
+
+msgid "Check-out date cannot be earlier than check-in date."
+msgstr "Afrejse dato kan ikke være tidligere end ankomst dato."
+
+msgid "Adults number is not valid"
+msgstr "Antallet af voksne er ikke gyldigt"
+
+msgid "Children number is not valid"
+msgstr "Antal børn er ikke gyldigt"
+
+msgctxt "Text about taxes and fees below the price."
+msgid " (+taxes and fees)"
+msgstr " (+skatter og gebyrer)"
+
+#. translators: %s is a tax value
+msgctxt "Text about taxes and fees below the price."
+msgid " (+%s taxes and fees)"
+msgstr " (+%s skatter og gebyrer)"
+
+msgctxt "Text about taxes and fees below the price."
+msgid " (includes taxes and fees)"
+msgstr " (omfatter skatter og afgifter)"
+
+msgctxt "Accommodation type in price breakdown table. Example: #1 Double Room"
+msgid "#%d %s"
+msgstr "#%d %s"
+
+msgid "Expand"
+msgstr "Udvid"
+
+msgid "Rate: %s"
+msgstr "Bedøm: %s"
+
+msgid "Dates"
+msgstr "Datoer"
+
+msgid "Dates Subtotal"
+msgstr "Datoer Subtotal"
+
+msgid "Accommodation Taxes Subtotal"
+msgstr "Indkvartering gebyrer Subtotal"
+
+msgid "Details"
+msgstr "Detaljer"
+
+msgid "Service Taxes Subtotal"
+msgstr "Service gebyrer Subtotal"
+
+msgid "Fees Subtotal"
+msgstr "Gebyrer Subtotal"
+
+msgid "Fee Taxes Subtotal"
+msgstr "Gebyrer Subtotal"
+
+msgid "Subtotal"
+msgstr "Subtotal"
+
+msgid "Coupon: %s"
+msgstr "Kupon: %s"
+
+msgid "Subtotal (excl. taxes)"
+msgstr "Subtotal (excl. gebyrer)"
+
+msgid "Taxes"
+msgstr "Gebyrer"
+
+msgid "Coupon Code:"
+msgstr "Kupon Kode:"
+
+msgid "New Booking Details"
+msgstr "Nye Booking Detaljer"
+
+msgid "Original Booking Details"
+msgstr "Oprindelige Booking Detaljer"
+
+msgid "Accommodation:"
+msgstr "Indkvartering:"
+
+msgid "Children %s"
+msgstr "Børn %s"
+
+msgid "Additional Services"
+msgstr "Tillægsydelser"
+
+msgid "Accommodation pagination"
+msgstr "Numerering af Indkvartering fortløbende"
+
+msgid "Services pagination"
+msgstr "Nummerering af ydelser fortløbende"
+
+msgid "Categories:"
+msgstr "Kategorier:"
+
+msgid "Amenities:"
+msgstr "Faciliteter:"
+
+msgid "Guests:"
+msgstr "Gæster:"
+
+msgid "Bed Type:"
+msgstr "Seng Type:"
+
+msgid "View:"
+msgstr "Vis:"
+
+msgid "Prices start at:"
+msgstr "Priserne starter på:"
+
+msgid "Price:"
+msgstr "Pris:"
+
+msgid "x %d adult"
+msgid_plural "x %d adults"
+msgstr[0] "x %d voksen"
+msgstr[1] "x %d voksne"
+
+msgid "Returning customer?"
+msgstr "Tilbagevendende kunde?"
+
+msgid "Click here to log in"
+msgstr "Klik her for at logge ind"
+
+#. translators: 1 - username;
+msgid "Hello %1$s (not %1$s? <a href=\"%2$s\">Log out</a>)."
+msgstr "Hej %1$s (ikke %1$s? <a href=\"%2$s\">Log ud</a>)."
+
+msgid "Accommodation #%d"
+msgstr "Indkvartering #%d"
+
+msgid "Accommodation Type:"
+msgstr "Indkvarterings Type:"
+
+msgid "Choose Rate"
+msgstr "Vælg pris"
+
+msgid "Choose Additional Services"
+msgstr "Vælg Tillægsydelser"
+
+msgid "for "
+msgstr "til "
+
+msgctxt "Example: Breakfast for X guest(s)"
+msgid " guest(s)"
+msgstr " gæste(r)"
+
+msgid "time(s)"
+msgstr "tid(er)"
+
+msgctxt "I've read and accept the terms & conditions"
+msgid "terms & conditions"
+msgstr "handelsbetingelser"
+
+msgctxt "I've read and accept the <tag>terms & conditions</tag>"
+msgid "I've read and accept the %s"
+msgstr "Jeg har læst og accepteret %s"
+
+msgid "Your Information"
+msgstr "Dine oplysninger"
+
+msgid "Required fields are followed by %s"
+msgstr "Obligatoriske felter efterfølges af %s"
+
+msgid "Create an account"
+msgstr "Opret en konto"
+
+msgid "Payment Method"
+msgstr "Betalingsmåde"
+
+msgid "Sorry, it seems that there are no available payment methods."
+msgstr "Desværre, ser det ud til, at der ikke er nogen tilgængelige betalingsmetoder."
+
+msgid "Total Price:"
+msgstr "Total Pris:"
+
+msgid "Deposit:"
+msgstr "Depositum:"
+
+msgid "Check-in:"
+msgstr "Check-in:"
+
+msgctxt "from 10:00 am"
+msgid "from"
+msgstr "fra"
+
+msgid "Check-out:"
+msgstr "Check-ud:"
+
+msgctxt "until 10:00 am"
+msgid "until"
+msgstr "indtil"
+
+msgid "Book Now"
+msgstr "Bestil nu"
+
+msgid "Availability"
+msgstr "Tilgængelighed"
+
+msgid "Reservation Form"
+msgstr "Reservationsformular"
+
+msgid "Display Accommodation Types"
+msgstr "Vis Indkvarteringstyper"
+
+msgid "Featured Image"
+msgstr "Fremhævet billede"
+
+msgid "Excerpt (short description)"
+msgstr "Undtagen (kort beskrivelse)"
+
+msgid "Book Button"
+msgstr "Knap Til booking"
+
+msgid "Search Availability"
+msgstr "Søg Tilgængelighed"
+
+msgid "Search Availability Form"
+msgstr "Søg Tilgængelighedsformular"
+
+msgid "Title:"
+msgstr "Titel:"
+
+msgid "Check-in Date:"
+msgstr "Ankomstdato:"
+
+msgctxt "Date format tip"
+msgid "Preset date. Formatted as %s"
+msgstr "Forudindstillet dato. Formateret som %s"
+
+msgid "Check-out Date:"
+msgstr "Afrejsedato:"
+
+msgid "Preset Adults:"
+msgstr "Forudindstillede Voksne:"
+
+msgid "Preset Children:"
+msgstr "Forudindstillet Børn:"
+
+msgid "Attributes:"
+msgstr "Egenskaber:"
+
+msgid "Booking Confirmation and Search Results pages are required to handle bookings. Press \"Install Pages\" button to create and set up these pages. Dismiss this notice if you already installed them."
+msgstr "Booking Bekræftelse og søgeresultater sider er nødvendige for at håndtere bookinger. Tryk på knappen \"Installer sider\" for at oprette og konfigurere disse sider. Afvis denne meddelelse, hvis du allerede har installeret dem."
+
+msgid "Install Pages"
+msgstr "Installer Sider"
+
+msgid "Booking Canceled"
+msgstr "Booking annulleret"
+
+msgid "Your reservation is canceled."
+msgstr "Din reservation er annulleret."
+
+msgid "Reservation Received"
+msgstr "Reservation Modtaget"
+
+msgid "Transaction Failed"
+msgstr "Transaktionen mislykkedes"
+
+msgid "Unfortunately, your transaction cannot be completed at this time. Please try again or contact us."
+msgstr "Din transaktion kan desværre ikke gennemføres på nuværende tidspunkt. Prøv igen eller kontakt os."
+
+msgid "Prices start at: %s"
+msgstr "Priserne starter på: %s"
+
+msgid "View Details"
+msgstr "Vis detaljer"
+
+msgctxt "Date format tip"
+msgid "Formatted as %s"
+msgstr "Formateret som %s"
+
+msgid "Check Availability"
+msgstr "Tjek tilgængelighed"
+
+msgid "Reserve %1$s of %2$s available accommodations."
+msgstr "Reserver %1$s af %2$s ledige indkvarteringer."
+
+msgid "%s is available for selected dates."
+msgstr "%s er tilgængelig på de valgte datoer."
+
+msgid "Rate:"
+msgstr "Pris:"
+
+msgid "Services:"
+msgstr "Tjenester:"
+
+msgid "Guest:"
+msgstr "Gæst:"
+
+msgid "Payment ID"
+msgstr "Betalings-ID"
+
+msgid "Total Paid"
+msgstr "Betalt I Alt"
+
+msgid "To Pay"
+msgstr "At Betale"
+
+msgid "Add Payment Manually"
+msgstr "Tilføj Betaling Manuelt"
+
+msgid "Change Password"
+msgstr "Skift adgangskode"
+
+msgid "Old Password"
+msgstr "Gammel adgangskode"
+
+msgid "New Password"
+msgstr "Ny adgangskode"
+
+msgid "Confirm New Password"
+msgstr "Bekræft ny adgangskode"
+
+msgid "You are not allowed to access this page."
+msgstr "Du har ikke adgang til denne side."
+
+msgid "No bookings found."
+msgstr "Ingen bookinger fundet."
+
+msgid "From your account dashboard you can view <a href=\"%1$s\">your recent bookings</a> or edit your <a href=\"%2$s\">password and account details</a>."
+msgstr "Fra din kontos dashboard kan du se <a href=\"%1$s\">dine seneste bookinger</a> eller redigere din <a href=\"%2$s\">adgangskode og kontooplysninger</a>."
+
+msgid "Base price"
+msgstr "Grundpris"
+
+msgid "%s accommodation found"
+msgid_plural "%s accommodations found"
+msgstr[0] "%s indkvartering fundet"
+msgstr[1] "%s indkvarteringer fundet"
+
+msgid " from %s - till %s"
+msgstr " fra %s - til %s"
+
+msgid "Add Accommodation"
+msgstr "Tilføj Indkvartering"
+
+msgid "Save"
+msgstr "Gem"
+
+msgid "Choose new dates to check availability of reserved accommodations in the original booking."
+msgstr "Vælg nye datoer for at tjekke ledighed for reserverede indkvarteringssteder i den originale booking."
+
+msgid "Add, remove or replace accommodations in the original booking."
+msgstr "Tilføj, fjern eller erstat indkvartering i den oprindelige booking."
+
+msgid "Not Available"
+msgstr "Ikke ledig"
+
+msgid "Continue"
+msgstr "Fortsæt"
+
+msgid "Choose how to associate data"
+msgstr "Vælg hvordan data tilknyttes"
+
+msgid "Use Source Accommodation to assign pre-filled booking information available in the original booking, e.g., full guest name, selected rate, services, etc."
+msgstr "Brug oprindelig indkvartering til at tildele fyldte bookingoplysninger tilgængelige i den oprindelige booking, f.eks. fulde gæstenavn, valgte sats, tjenester osv."
+
+msgid "Source accommodation"
+msgstr "Oprindelig indkvartering"
+
+msgid "Target accommodation"
+msgstr "Ønsket indkvartering"
+
+msgid "Booking #%s is cancelled by customer."
+msgstr "Booking #%s er annulleret af kunden."
+
+msgid "Details of booking"
+msgstr "Oplysninger om booking"
+
+msgid "Check-in: %1$s, from %2$s"
+msgstr "Indtjekning: %1$s, fra %2$s"
+
+msgid "Check-out: %1$s, until %2$s"
+msgstr "Check-ud: %1$s, indtil %2$s"
+
+msgid "Name: %1$s %2$s"
+msgstr "Navn: %1$s %2$s"
+
+msgid "Email: %s"
+msgstr "Email: %s"
+
+msgid "Phone: %s"
+msgstr "Telefon: %s"
+
+msgid "Note: %s"
+msgstr "Bemærkning: %s"
+
+msgid "Booking #%s is confirmed by customer."
+msgstr "Booking #%s er bekræftet af kunden."
+
+msgid "Booking #%s is confirmed by payment."
+msgstr "Booking #%s er bekræftet ved betaling."
+
+msgid "Details of payment"
+msgstr "Oplysninger om betalingen"
+
+msgid "Payment ID: #%s"
+msgstr "Betalings ID: #%s"
+
+msgid "Amount: %s"
+msgstr "Beløb: %s"
+
+msgid "Method: %s"
+msgstr "Metode: %s"
+
+msgid "Booking #%s is pending for Administrator approval."
+msgstr "Booking #%s afventer til administrator godkendelse."
+
+msgid "Click the link below to cancel your booking."
+msgstr "Klik på linket længere nede for at annullere din booking."
+
+msgid "Cancel your booking"
+msgstr "Annuller din booking"
+
+msgid "Dear %1$s %2$s, your reservation is approved!"
+msgstr "Kære %1$s %2$s, din reservation er godkendt!"
+
+msgid "ID: #%s"
+msgstr "ID: #%s"
+
+msgid "Thank you!"
+msgstr "Mange tak!"
+
+msgid "Dear %1$s %2$s, your reservation is cancelled!"
+msgstr "Kære %1$s %2$s, din reservation er annulleret!"
+
+msgid "Dear %1$s %2$s, we received your request for reservation."
+msgstr "Kære %1$s %2$s, vi har modtaget din anmodning om reservation."
+
+msgid "Click the link below to confirm your booking."
+msgstr "Klik på linket længere nede for at bekræfte din booking."
+
+msgid "Confirm"
+msgstr "Bekræft"
+
+msgid "Note: link expires on"
+msgstr "Bemærk: link udløber den"
+
+msgid "UTC"
+msgstr "UTC"
+
+msgid "If you did not place this booking, please ignore this email."
+msgstr "Hvis du ikke foretog denne efterspørgsel, så skal du blot ignorere denne e-mail."
+
+msgid "Dear %1$s %2$s, your reservation is pending."
+msgstr "Kære %1$s %2$s, din reservation afventer."
+
+msgid "We will notify you by email once it is confirmed by our staff."
+msgstr "Vi vil give dig besked via e-mail, når det er bekræftet af vores personale."
+
+msgid "Hi %1$s %2$s,"
+msgstr "Hej %1$s %2$s,"
+
+msgid "Thanks for creating an account on %1$s."
+msgstr "Tak fordi du oprettede en konto på %1$s."
+
+msgid "You Account Details"
+msgstr "Dine Kontooplysninger"
+
+msgid "Login: %s"
+msgstr "Login: %s"
+
+msgid "Password: %s"
+msgstr "Adgangskode: %s"
+
+msgid "Log in here: %s"
+msgstr "Log ind her: %s"
+
+msgid "Accommodation #%s"
+msgstr "Indkvartering #%s"
+
+msgid "Accommodation: <a href=\"%1$s\">%2$s</a>"
+msgstr "Indkvartering: <a href=\"%1$s\">%2$s</a>"
+
+msgid "Accommodation Rate: %s"
+msgstr "Indkvarteringspris: %s"
+
+msgid "Bed Type: %s"
+msgstr "Seng Type: %s"
+
+msgid "Required fields are followed by"
+msgstr "Obligatoriske felter efterfølges af"
+
+msgid "Booking is already canceled."
+msgstr "Booking er allerede annulleret."
+
+msgid "Cancel Booking"
+msgstr "Annullér booking"
+
+msgid "Invalid request."
+msgstr "Ugyldig forespørgsel."
+
+msgid "Cancelation of your booking is not possible for some reason. Please contact the website administrator."
+msgstr "Annullering af din booking er ikke mulig af en eller anden grund. Kontakt venligst webstedsadministratoren."
+
+msgid "Booking is already confirmed."
+msgstr "Booking er allerede bekræftet."
+
+msgid "Your booking is confirmed. Thank You!"
+msgstr "Din booking er bekræftet. Tak!"
+
+msgid "Your booking request is expired. Please start a new booking request."
+msgstr "Din booking forespørgsel er udløbet. Start venligst en ny booking forespørgsel."
+
+msgid "Confirmation of your booking request is not possible for some reason. Please start a new booking request."
+msgstr "Bekræftelse af din bookinganmodning er ikke mulig af en eller anden grund. Start venligst en ny bookinganmodning."
+
+msgid "We are pleased to inform you that your reservation request has been received and confirmed."
+msgstr "Vi er glade for at informere dig om, at din reservations anmodning er modtaget og bekræftet."
+
+msgid "Booking:"
+msgstr "Booking:"
+
+msgid "Details:"
+msgstr "Detaljer:"
+
+msgid "Thank you for your payment. Your transaction has been completed."
+msgstr "Tak for din betaling. Din transaktion er gennemført."
+
+msgid "We are pleased to inform you that your reservation request has been received."
+msgstr "Vi er glade for at informere dig om, at din reservation anmodning er modtaget."
+
+msgid "from %s"
+msgstr "fra %s"
+
+msgid "No accommodations matching criteria."
+msgstr "Ingen indkvarteringsmuligheder matcher kriterier."
+
+msgid "No services matched criteria."
+msgstr "Ingen tjenester matchede kriterier."
+
+msgid "Nothing found."
+msgstr "Intet fundet."
+
+msgid "Children %s:"
+msgstr "Børn %s:"
+
+msgid "Preset date. Formatted as %s"
+msgstr "Forudindstillet dato. Formateret som %s"
+
+msgid "Gallery"
+msgstr "Galleri"
+
+msgid "View Button"
+msgstr "Vis Knap"
+
+msgid "Order"
+msgstr "Sorter"
+
+msgid "Order By"
+msgstr "Sorter Efter"
+
+msgid "No order"
+msgstr "Ingen sortering"
+
+msgid "Post ID"
+msgstr "Indlægets ID"
+
+msgid "Post author"
+msgstr "Indlægets forfatter"
+
+msgid "Post title"
+msgstr "Indlægets titel"
+
+msgid "Post name (post slug)"
+msgstr "Indlægets navn (post slug)"
+
+msgid "Post date"
+msgstr "Indlægets dato"
+
+msgid "Last modified date"
+msgstr "Dato for sidste ændring"
+
+msgid "Parent ID"
+msgstr "Overordnet ID"
+
+msgid "Random order"
+msgstr "Tilfældig rækkefølge"
+
+msgid "Number of comments"
+msgstr "Antal kommentarer"
+
+msgid "Relevance"
+msgstr "Relevans"
+
+msgid "Page order"
+msgstr "Siderækkefølge"
+
+msgid "Meta value"
+msgstr "Meta value"
+
+msgid "Numeric meta value"
+msgstr "Numerisk meta value"
+
+msgid "Ascending (1, 2, 3)"
+msgstr "Stigende (1, 2, 3)"
+
+msgid "Descending (3, 2, 1)"
+msgstr "Faldende (3, 2, 1)"
+
+msgid "Meta Name"
+msgstr "Meta Navn"
+
+msgid "Meta Type"
+msgstr "Meta Type"
+
+msgid "Specified type of the custom field. Can be used in conjunction with \"orderby\" = \"meta_value\"."
+msgstr "Angiv type af det brugerdefinerede felter. Kan bruges sammen med \"ordnet efter\" = \"meta_value\"."
+
+msgid "Any"
+msgstr "Alle"
+
+msgid "Numeric"
+msgstr "Numerisk"
+
+msgid "Binary"
+msgstr "Binære"
+
+msgid "String"
+msgstr "Streng"
+
+msgid "Time"
+msgstr "Tid"
+
+msgid "Date and time"
+msgstr "Dato og tid"
+
+msgid "Decimal number"
+msgstr "Decimaltal"
+
+msgid "Signed number"
+msgstr "Signeret nummer"
+
+msgid "Unsigned number"
+msgstr "Usigneret nummer"
+
+msgid "Query Settings"
+msgstr "Indstillinger For Forespørgsel"
+
+msgid "Relation"
+msgstr "Relation"
+
+msgid "Values: integer, -1 to display all, default: \"Blog pages show at most\""
+msgstr "Værdier: heltal, -1 for at vise alle, standard: \"Blogsider vises højst\""
+

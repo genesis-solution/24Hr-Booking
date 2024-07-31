@@ -1,0 +1,332 @@
+/*
+* Main style
+*/
+/*
+* datepick-nav
+*/
+/*
+* datepick-cmd
+*/
+/*
+* datepick-ctrl
+*/
+/*
+* datepick-month-header
+*/
+/*
+* datepick-month
+*/
+/*
+* highlight
+*/
+/*
+* today
+*/
+/*
+* available date
+*/
+/*
+* not available date
+*/
+/*
+* check in date
+*/
+/*
+* selectable date
+*/
+.datepick .datepick-month {
+  width: 100%;
+  border: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .datepick .datepick-month {
+    width: 240px;
+  }
+}
+
+.mphb-calendar .mphb-datepicker-admin.datepick,
+.datepick-popup .mphb-datepicker-admin.datepick {
+  font-size: 100%;
+  border: 0px solid;
+  border-radius: 4px;
+  overflow: auto;
+  max-width: 100%;
+  font-family: inherit;
+  -webkit-box-shadow: 0 10px 30px rgba(58, 64, 73, 0.3);
+  box-shadow: 0 10px 30px rgba(58, 64, 73, 0.3);
+}
+
+@media screen and (max-width: 767px) {
+  .mphb-calendar .mphb-datepicker-admin.datepick,
+  .datepick-popup .mphb-datepicker-admin.datepick {
+    width: auto !important;
+    max-width: 95%;
+  }
+}
+
+.mphb-calendar .mphb-datepicker-admin a,
+.datepick-popup .mphb-datepicker-admin a {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.mphb-calendar .mphb-datepicker-admin *,
+.datepick-popup .mphb-datepicker-admin * {
+  outline: none;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.mphb-calendar .mphb-datepicker-admin .datepick-nav, .mphb-calendar .mphb-datepicker-admin .datepick-ctrl,
+.datepick-popup .mphb-datepicker-admin .datepick-nav,
+.datepick-popup .mphb-datepicker-admin .datepick-ctrl {
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.mphb-calendar .mphb-datepicker-admin .datepick-nav,
+.datepick-popup .mphb-datepicker-admin .datepick-nav {
+  background-color: #23282d;
+  margin-bottom: 5px;
+  font-size: 16px;
+  line-height: 2.4;
+}
+
+.mphb-calendar .mphb-datepicker-admin .datepick-nav a,
+.datepick-popup .mphb-datepicker-admin .datepick-nav a {
+  color: #fff;
+  width: 33.33%;
+}
+
+.mphb-calendar .mphb-datepicker-admin .datepick-nav a:hover,
+.datepick-popup .mphb-datepicker-admin .datepick-nav a:hover {
+  background-color: #191e23;
+  color: #fff;
+}
+
+.mphb-calendar .mphb-datepicker-admin .datepick-nav a.datepick-disabled,
+.datepick-popup .mphb-datepicker-admin .datepick-nav a.datepick-disabled {
+  cursor: not-allowed;
+  color: #7b7b7b;
+}
+
+.mphb-calendar .mphb-datepicker-admin .datepick-nav a.datepick-disabled:hover,
+.datepick-popup .mphb-datepicker-admin .datepick-nav a.datepick-disabled:hover {
+  background-color: #191e23;
+}
+
+.mphb-calendar .mphb-datepicker-admin .datepick-nav .datepick-cmd-prev,
+.mphb-calendar .mphb-datepicker-admin .datepick-nav .datepick-cmd-next,
+.datepick-popup .mphb-datepicker-admin .datepick-nav .datepick-cmd-prev,
+.datepick-popup .mphb-datepicker-admin .datepick-nav .datepick-cmd-next {
+  overflow: hidden;
+  height: 40px;
+}
+
+.mphb-calendar .mphb-datepicker-admin .datepick-nav .datepick-cmd-prev:before,
+.mphb-calendar .mphb-datepicker-admin .datepick-nav .datepick-cmd-next:before,
+.datepick-popup .mphb-datepicker-admin .datepick-nav .datepick-cmd-prev:before,
+.datepick-popup .mphb-datepicker-admin .datepick-nav .datepick-cmd-next:before {
+  font-family: dashicons;
+  display: block;
+  width: 100%;
+  overflow: hidden;
+}
+
+.mphb-calendar .mphb-datepicker-admin .datepick-nav .datepick-cmd-next:before,
+.datepick-popup .mphb-datepicker-admin .datepick-nav .datepick-cmd-next:before {
+  content: "\f344";
+}
+
+.mphb-calendar .mphb-datepicker-admin .datepick-nav .datepick-cmd-prev:before,
+.datepick-popup .mphb-datepicker-admin .datepick-nav .datepick-cmd-prev:before {
+  content: "\f340";
+}
+
+.mphb-calendar .mphb-datepicker-admin .datepick-ctrl,
+.datepick-popup .mphb-datepicker-admin .datepick-ctrl {
+  border-left: 0;
+  background-color: #e5e5e5;
+  padding: 0;
+  margin-top: 5px;
+  border-top: 1px solid #ddd;
+}
+
+.mphb-calendar .mphb-datepicker-admin .datepick-ctrl a,
+.datepick-popup .mphb-datepicker-admin .datepick-ctrl a {
+  color: #444;
+}
+
+.mphb-calendar .mphb-datepicker-admin .datepick-ctrl .datepick-cmd,
+.datepick-popup .mphb-datepicker-admin .datepick-ctrl .datepick-cmd {
+  padding: 0 2%;
+}
+
+.mphb-calendar .mphb-datepicker-admin .datepick-ctrl .datepick-cmd:hover,
+.datepick-popup .mphb-datepicker-admin .datepick-ctrl .datepick-cmd:hover {
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.mphb-calendar .mphb-datepicker-admin a.datepick-cmd,
+.datepick-popup .mphb-datepicker-admin a.datepick-cmd {
+  height: auto;
+  line-height: 2.5;
+}
+
+.mphb-calendar .mphb-datepicker-admin .datepick-month-header,
+.datepick-popup .mphb-datepicker-admin .datepick-month-header {
+  height: 35px;
+  background-color: transparent;
+  color: #444;
+  font-weight: normal;
+  line-height: 2.1em;
+}
+
+.mphb-calendar .mphb-datepicker-admin .datepick-month-header select,
+.datepick-popup .mphb-datepicker-admin .datepick-month-header select {
+  color: inherit;
+  background-color: transparent;
+  font-weight: inherit;
+  padding-right: 20px;
+  padding-left: 10px;
+  background-size: 12px;
+  background-position: right 5px top 12px;
+}
+
+.mphb-calendar .mphb-datepicker-admin .datepick-month,
+.datepick-popup .mphb-datepicker-admin .datepick-month {
+  padding: 0 10px;
+  font-size: 16px;
+}
+
+.mphb-calendar .mphb-datepicker-admin .datepick-month table,
+.datepick-popup .mphb-datepicker-admin .datepick-month table {
+  margin: 0 auto;
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: separate;
+  border-spacing: 1px;
+}
+
+.mphb-calendar .mphb-datepicker-admin .datepick-month tbody,
+.datepick-popup .mphb-datepicker-admin .datepick-month tbody {
+  line-height: 1.4em;
+}
+
+.mphb-calendar .mphb-datepicker-admin .datepick-month thead,
+.datepick-popup .mphb-datepicker-admin .datepick-month thead {
+  border: 0;
+}
+
+.mphb-calendar .mphb-datepicker-admin .datepick-month th,
+.datepick-popup .mphb-datepicker-admin .datepick-month th {
+  border: 1px solid #fff;
+  font-weight: 400;
+  padding: 0.5em 0;
+  background: transparent;
+  color: #444;
+  font-size: 12px;
+}
+
+.mphb-calendar .mphb-datepicker-admin .datepick-month th span,
+.datepick-popup .mphb-datepicker-admin .datepick-month th span {
+  opacity: 1;
+}
+
+.mphb-calendar .mphb-datepicker-admin .datepick-month th a,
+.datepick-popup .mphb-datepicker-admin .datepick-month th a {
+  background-color: #fff;
+  color: #444;
+}
+
+.mphb-calendar .mphb-datepicker-admin .datepick-month td,
+.datepick-popup .mphb-datepicker-admin .datepick-month td {
+  background-color: #fff;
+  border: 0;
+}
+
+.mphb-calendar .mphb-datepicker-admin .datepick-month td:hover .datepick-highlight,
+.datepick-popup .mphb-datepicker-admin .datepick-month td:hover .datepick-highlight {
+  background-color: #0096dd;
+  color: #fff;
+}
+
+.mphb-calendar .mphb-datepicker-admin .datepick-month td .datepick-today,
+.datepick-popup .mphb-datepicker-admin .datepick-month td .datepick-today {
+  position: relative;
+  background-color: #f1f1f1;
+}
+
+.mphb-calendar .mphb-datepicker-admin .datepick-month td .datepick-today:after,
+.datepick-popup .mphb-datepicker-admin .datepick-month td .datepick-today:after {
+  content: '';
+  position: absolute;
+  width: 40%;
+  height: 1px;
+  background-color: currentColor;
+  left: 50%;
+  bottom: 6px;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  color: inherit;
+}
+
+.mphb-calendar .mphb-datepicker-admin .datepick-month td .datepick-highlight,
+.datepick-popup .mphb-datepicker-admin .datepick-month td .datepick-highlight {
+  background-color: #f1f1f1;
+  color: #444;
+}
+
+.mphb-calendar .mphb-datepicker-admin .datepick-month td .datepick-weekend,
+.datepick-popup .mphb-datepicker-admin .datepick-month td .datepick-weekend {
+  background-color: #e5e5e5;
+}
+
+.mphb-calendar .mphb-datepicker-admin .datepick-month td .datepick-weekend.mphb-unselectable-date, .mphb-calendar .mphb-datepicker-admin .datepick-month td .datepick-weekend.datepick-other-month,
+.datepick-popup .mphb-datepicker-admin .datepick-month td .datepick-weekend.mphb-unselectable-date,
+.datepick-popup .mphb-datepicker-admin .datepick-month td .datepick-weekend.datepick-other-month {
+  background-color: transparent;
+}
+
+.mphb-calendar .mphb-datepicker-admin .datepick-month td .datepick-selected,
+.datepick-popup .mphb-datepicker-admin .datepick-month td .datepick-selected {
+  background-color: #0073aa;
+  color: #fff;
+}
+
+.mphb-calendar .mphb-datepicker-admin .datepick-month td .mphb-earlier-min-date,
+.mphb-calendar .mphb-datepicker-admin .datepick-month td .mphb-earlier-check-in-date,
+.datepick-popup .mphb-datepicker-admin .datepick-month td .mphb-earlier-min-date,
+.datepick-popup .mphb-datepicker-admin .datepick-month td .mphb-earlier-check-in-date {
+  background-color: transparent;
+}
+
+.mphb-calendar .mphb-datepicker-admin .datepick-month td .mphb-check-in-date,
+.datepick-popup .mphb-datepicker-admin .datepick-month td .mphb-check-in-date {
+  color: #444;
+}
+
+.mphb-calendar .mphb-datepicker-admin .datepick-month span,
+.datepick-popup .mphb-datepicker-admin .datepick-month span {
+  opacity: .5;
+  padding: 0.219em 0;
+}
+
+.mphb-calendar .mphb-datepicker-admin .datepick-month a,
+.datepick-popup .mphb-datepicker-admin .datepick-month a {
+  padding: 0.219em 0;
+  background-color: #f1f1f1;
+  color: #444;
+}
+
+.mphb-calendar .mphb-datepicker-admin a,
+.datepick-popup .mphb-datepicker-admin a {
+  -webkit-transition: 0.3s background, 0.3s color;
+  transition: 0.3s background, 0.3s color;
+}
+
+.datepick-popup {
+  z-index: 99999;
+}

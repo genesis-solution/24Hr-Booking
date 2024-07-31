@@ -1,0 +1,14 @@
+#mphb-customer-details .mphb-checkbox-control input + label {
+    display: inline;
+}
+.theme-twentynineteen #mphb-customer-details .mphb-checkbox-control input + label {
+    margin-left: 0.25em;
+}
+.wp-admin #mphb-customer-details .mphb-date_of_birth-control .mphb-control-component {
+    max-width: 113px;
+}
+.mphb-control-description {
+    display: block;
+    font-size: 0.875em;
+    margin-top: 0.5em;
+}

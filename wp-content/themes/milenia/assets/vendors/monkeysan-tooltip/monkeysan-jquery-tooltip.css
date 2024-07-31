@@ -1,0 +1,104 @@
+/* ----------------------------------------
+  Stylesheet guide:
+    1. General tooltip styles
+    2. Positions
+    3. Color schemes
+ ---------------------------------------- */
+
+ /* ----------------------------------------
+    1. General tooltip styles
+  ---------------------------------------- */
+
+    .monkeysan-tooltip {
+      position: absolute;
+      z-index: 9;
+      -webkit-box-sizing: border-box;
+         -moz-box-sizing: border-box;
+              box-sizing: border-box;
+    }
+
+    .monkeysan-tooltip-hidden {
+      visibility: hidden;
+    }
+
+  /* ----------------------------------------
+      2. Positions
+   ---------------------------------------- */
+
+    .monkeysan-tooltip-top,
+    .monkeysan-tooltip-bottom.monkeysan-tooltip-position-reversed {
+      margin-top: -10px;
+      margin-bottom: 0;
+    }
+
+    .monkeysan-tooltip-bottom,
+    .monkeysan-tooltip-top.monkeysan-tooltip-position-reversed {
+      margin-bottom: 0;
+      margin-top: 10px;
+    }
+
+    .monkeysan-tooltip-left,
+    .monkeysan-tooltip-right.monkeysan-tooltip-position-reversed {
+      margin-left: -10px;
+    }
+
+    .monkeysan-tooltip-right,
+    .monkeysan-tooltip-left.monkeysan-tooltip-position-reversed {
+      margin-left: 10px;
+    }
+
+   /* ----------------------------------------
+      3. Color schemes
+    ---------------------------------------- */
+
+      .monkeysan-tooltip-skin-default {
+        font-size: 12px;
+        line-height: 18px;
+        padding: 5px 15px;
+        color: #fff;
+        background-color: rgba(0, 0, 0, .8);
+        text-align: center;
+        min-height: 28px;
+      }
+
+      .monkeysan-tooltip-skin-default::after {
+        content: "";
+        border-style: solid;
+        position: absolute;
+      }
+
+      .monkeysan-tooltip-top.monkeysan-tooltip-skin-default::after,
+      .monkeysan-tooltip-bottom.monkeysan-tooltip-position-reversed.monkeysan-tooltip-skin-default::after {
+        bottom: auto;
+        top: 100%;
+        left: 50%;
+        margin-left: -7px;
+        border-width: 7px 7px 0 7px;
+        border-color: rgba(0, 0, 0, .8) transparent transparent transparent;
+      }
+
+      .monkeysan-tooltip-bottom.monkeysan-tooltip-skin-default::after,
+      .monkeysan-tooltip-top.monkeysan-tooltip-position-reversed.monkeysan-tooltip-skin-default::after {
+        top: auto;
+        bottom: 100%;
+        left: 50%;
+        margin-left: -7px;
+        border-width: 0 7px 7px 7px;
+        border-color: transparent transparent rgba(0, 0, 0, .8) transparent;
+      }
+
+      .monkeysan-tooltip-right.monkeysan-tooltip-skin-default::after {
+        top: 50%;
+        right: 100%;
+        margin-top: -7px;
+        border-width: 7px 7px 7px 0;
+        border-color: transparent rgba(0, 0, 0, .8) transparent transparent;
+      }
+
+      .monkeysan-tooltip-left.monkeysan-tooltip-skin-default::after {
+        top: 50%;
+        left: 100%;
+        margin-top: -7px;
+        border-width: 7px 0 7px 7px;
+        border-color: transparent transparent transparent rgba(0, 0, 0, .8);
+      }

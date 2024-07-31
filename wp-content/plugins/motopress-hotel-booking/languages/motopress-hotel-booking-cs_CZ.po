@@ -1,0 +1,6176 @@
+# Copyright (C) 2022 MotoPress
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: hotel-booking-plugin\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/motopress-hotel-booking\n"
+"Last-Translator: \n"
+"Language-Team: Czech\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2022-11-15T19:41:55+00:00\n"
+"PO-Revision-Date: 2022-11-15 20:26\n"
+"X-Generator: WP-CLI 2.6.0\n"
+"X-Domain: motopress-hotel-booking\n"
+"Plural-Forms: nplurals=4; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 3;\n"
+"X-Crowdin-Project: hotel-booking-plugin\n"
+"X-Crowdin-Project-ID: 463550\n"
+"X-Crowdin-Language: cs\n"
+"X-Crowdin-File: motopress-hotel-booking.pot\n"
+"X-Crowdin-File-ID: 44\n"
+"Language: cs_CZ\n"
+
+#. Plugin Name of the plugin
+#. translators: Name of the plugin, do not translate
+msgid "Hotel Booking"
+msgstr "Hotel Booking"
+
+#. Plugin URI of the plugin
+msgid "https://motopress.com/products/hotel-booking/"
+msgstr ""
+
+#. Description of the plugin
+msgid "Manage your hotel booking services. Perfect for hotels, villas, guest houses, hostels, and apartments of all sizes."
+msgstr "Spravujte rezervace ubytování v rezervačním systému."
+
+#. Author of the plugin
+msgid "MotoPress"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://motopress.com/"
+msgstr ""
+
+msgctxt "Post Status"
+msgid "New"
+msgstr "Nový"
+
+msgctxt "Post Status"
+msgid "Auto Draft"
+msgstr "Automatická předloha"
+
+msgctxt "Zero price"
+msgid "Free"
+msgstr "Bezplatná"
+
+#. translators: Price per one night. Example: $99 per night
+msgctxt "Price per one night. Example: $99 per night"
+msgid "per night"
+msgstr "za noc"
+
+#. translators: Price for X nights. Example: $99 for 2 nights, $99 for 21 nights
+msgctxt "Price for X nights. Example: $99 for 2 nights, $99 for 21 nights"
+msgid "for %d nights"
+msgid_plural "for %d nights"
+msgstr[0] "za noc"
+msgstr[1] "za %d noci"
+msgstr[2] "za %d noci"
+msgstr[3] "za %d noci"
+
+#. translators: %s: URL to plugins.php page
+msgid "You are using two instances of Hotel Booking plugin at the same time, please <a href=\"%s\">deactivate one of them</a>."
+msgstr "Používáte současně dvě instance modulu Hotel Booking, <a href=\"%s\"> deaktivujte jednu z nich </a>."
+
+msgid "<a href=\"%s\">Upgrade to Premium</a> to enable this feature."
+msgstr "<a href=\"%s\">Upgradujte na Premium</a> pro povolení této funkce."
+
+msgid "Nonce verification failed."
+msgstr "Nonce ověření se nezdařilo."
+
+msgid "The file does not exist."
+msgstr "Soubor neexistuje."
+
+msgid "Source ID is missing."
+msgstr "ID zdroje chybí."
+
+msgid "Error"
+msgstr "Chyba"
+
+msgid "View"
+msgstr "Prohlédnout si"
+
+msgid "Delete"
+msgstr "Smázat"
+
+msgid "Name"
+msgstr "Jméno"
+
+msgid "Email"
+msgstr ""
+
+msgid "Bookings"
+msgstr "Rezervace"
+
+msgid "Date Registered"
+msgstr ""
+
+msgid "Last Active"
+msgstr ""
+
+#. translators: Terms are variations for Attributes and bear no relation to the Terms and Conditions Page.
+msgid "Terms"
+msgstr "Termíny"
+
+msgid "Created on:"
+msgstr "Vytvořeno dne:"
+
+#. translators: Terms are variations for Attributes and bear no relation to the Terms and Conditions Page.
+msgid "Please add attribute in default language to configure terms."
+msgstr "Chcete-li nastavit termíny, přidejte prosím atribut ve výchozím jazyce."
+
+#. translators: Terms are variations for Attributes and bear no relation to the Terms and Conditions Page.
+msgid "Configure terms"
+msgstr "Nastavení termínů"
+
+msgid "Reserved Accommodations"
+msgstr "Rezervované ubytování"
+
+msgid "Update Booking"
+msgstr "Aktualizovat rezervaci"
+
+msgid "Logs"
+msgstr "Logování"
+
+msgid "Delete Permanently"
+msgstr "Odstranit trvale"
+
+msgid "Move to Trash"
+msgstr "Přesunout do koše"
+
+msgid "Create Booking"
+msgstr "Vytvořit rezervaci"
+
+msgid "Resend Email"
+msgstr ""
+
+msgid "Send a copy of the Approved Booking email to the customer`s email address."
+msgstr "Zašlete kopii e-mailu schválené rezervace na e-mailovou adresu zákazníka."
+
+msgid "Edit Accommodations"
+msgstr "Upravit Ubytování"
+
+msgid "Date:"
+msgstr "Datum:"
+
+msgid "Author:"
+msgstr "Autor:"
+
+msgid "Auto"
+msgstr "Automaticky"
+
+msgid "Message:"
+msgstr "Vzkaz:"
+
+msgid "Confirmation email has been sent to customer."
+msgstr "Potvrzovací email byl odeslán zákazníkovi."
+
+msgid "Coupon code"
+msgstr "Kód kupónu"
+
+msgid "Update Payment"
+msgstr "Aktualizovat platbu "
+
+msgid "Modified on:"
+msgstr "Upraveno dne:"
+
+msgid "Create Payment"
+msgstr "Vytvořit Platbu"
+
+msgid "Season Prices"
+msgstr "Ceny za sezónu"
+
+msgid "<code>Please select Accommodation Type and click Create Rate button to continue.</code>"
+msgstr "<code> Vyberte typ ubytování a pokračujte kliknutím na tlačítko Vytvořit cenu. </code>"
+
+msgid "Update Rate"
+msgstr "Aktualizovat platbu"
+
+msgid "Active"
+msgstr "Aktivní"
+
+msgid "Disabled"
+msgstr "Deaktivována"
+
+msgid "Create Rate"
+msgstr "Vytvořit platbu"
+
+msgid "Duplicate Rate"
+msgstr "Kopírovat platbu"
+
+msgid "Generate Accommodations"
+msgstr "Třídit ubytování"
+
+msgid "Attributes"
+msgstr "Atributy"
+
+msgid "Accommodation Reviews"
+msgstr "Recenze ubytování"
+
+msgid "Allow guests to <a href=\"%s\" target=\"_blank\">submit star ratings and reviews</a> evaluating your accommodations."
+msgstr "Umožněte hostům <a href=\"%s\" target=\"_blank\">odesílat hodnocení hvězdami a recenze</a> s hodnocením ubytování."
+
+msgid "Number of Accommodations:"
+msgstr "Počet ubytování:"
+
+msgid "Count of real accommodations of this type in your hotel."
+msgstr "Aktuální počet ubytování tohoto typu ve Vašem hotelu."
+
+msgid "Total Accommodations:"
+msgstr "Celkový počet ubytování:"
+
+msgid "Show Accommodations"
+msgstr "Zobrazit ubytování"
+
+msgid "Active Accommodations:"
+msgstr "Aktivní ubytování:"
+
+msgid "Add"
+msgstr "Přidat"
+
+msgid "Per adult:"
+msgstr "Za dospělého:"
+
+msgid "Per child:"
+msgstr "Za dítě:"
+
+msgid "Per adult: "
+msgstr "Za dospělého:"
+
+msgid "Per child: "
+msgstr "Za dítě:"
+
+msgid "Actions"
+msgstr "Akce"
+
+msgid "Default"
+msgstr "Výchozí"
+
+msgid "— Select —"
+msgstr "— Vybrat —"
+
+msgid "Install & Activate"
+msgstr "Instalovat a aktivovat"
+
+msgid "Add image"
+msgstr "Přidat obrázek"
+
+msgid "Add gallery"
+msgstr "Přidat galerii"
+
+msgid "Remove image"
+msgstr "Odebrat obrázek"
+
+msgid "Remove gallery"
+msgstr "Smázat galerii"
+
+msgid "Select all"
+msgstr "Vybrat vše"
+
+msgid "Unselect all"
+msgstr "Zrušit výběr"
+
+msgid "Date"
+msgstr "Datum"
+
+msgid "Author"
+msgstr "Autor"
+
+msgid "Edit"
+msgstr "Upravit"
+
+msgid "Done"
+msgstr "Hotovo"
+
+msgid "All"
+msgstr "Všechny"
+
+msgid "None"
+msgstr "žádný"
+
+msgid "HH:MM"
+msgstr "HH:MM"
+
+msgid "Recalculate Total Price"
+msgstr "Přepočítat celkovou cenu"
+
+msgid "Nights"
+msgstr "Noci"
+
+msgid "and more"
+msgstr ""
+
+msgid "Remove"
+msgstr "Smazat "
+
+msgid "Add length of stay"
+msgstr "Přidat délku pobytu"
+
+msgid "Adults"
+msgstr "Dospělí"
+
+msgid "Children"
+msgstr "Děti"
+
+msgid "Price per night"
+msgstr "Cena za noc"
+
+msgid "Enable variable pricing"
+msgstr "Povolit variabilní tvorbu cen"
+
+msgid "Add Variation"
+msgstr "Přidat variaci"
+
+msgid "Remove variation"
+msgstr "Odstranit variaci"
+
+msgid "The License Key is required in order to get automatic plugin updates and support. You can manage your License Key in your personal account. <a href='https://motopress.zendesk.com/hc/en-us/articles/202812996-How-to-use-your-personal-MotoPress-account' target='_blank'>Learn more</a>."
+msgstr "Licenční klíč je vyžadován pro získání automatické aktualizace pluginu a podpory.\n"
+"Klíče můžete spravovat přes Váš osobní účet. <a href='https://motopress.zendesk.com/hc/en-us/articles/202812996-How-to-use-your-personal-MotoPress-account' target='_blank'>Více informací</a>."
+
+msgid "License Key"
+msgstr "Licenční klíč"
+
+msgid "Status"
+msgstr "Stav"
+
+msgid "Inactive"
+msgstr "Neaktivní"
+
+msgid "Valid until"
+msgstr "Platná do"
+
+msgid "Valid (Lifetime)"
+msgstr "Validní (doživotní)"
+
+msgid "Expired"
+msgstr "Vypršel"
+
+msgid "Invalid"
+msgstr "Neplatný"
+
+msgid "Your License Key does not match the installed plugin. <a href='https://motopress.zendesk.com/hc/en-us/articles/202957243-What-to-do-if-the-license-key-doesn-t-correspond-with-the-plugin-license' target='_blank'>How to fix this.</a>"
+msgstr "Licenční klíč neodpovídá klíči pro nainstalovaný plugin. <a href='https://motopress.zendesk.com/hc/en-us/articles/202957243-What-to-do-if-the-license-key-doesn-t-correspond-with-the-plugin-license' target='_blank'> Jak to opravit.</a>"
+
+msgid "Product ID is not valid"
+msgstr "ID produktu není platné"
+
+msgid "Action"
+msgstr "Akce"
+
+msgid "Activate License"
+msgstr "Aktivovat licenci"
+
+msgid "Deactivate License"
+msgstr "Deaktivovat licenci"
+
+msgid "Renew License"
+msgstr "Obnovit licenci"
+
+msgid "Attributes let you define extra accommodation data, such as location or type. You can use these attributes in the search availability form as advanced search filters."
+msgstr "Atributy umožňují definovat další údaje o ubytování, například polohu nebo typ. Tyto atributy můžete použít ve formuláři dostupnosti vyhledávání jako filtry pro pokročilé vyhledávání."
+
+msgid "This attribute refers to non-unique taxonomy - %1$s - which was already registered with attribute %2$s."
+msgstr "Tento atribut odkazuje na nejedinečnou taxonomii - %1$s - která již byla zaregistrována u atributu %2$s."
+
+#. translators: Terms are variations for Attributes and bear no relation to the Terms and Conditions Page.
+msgid "You cannot manage terms of trashed attributes."
+msgstr "Nemůžete spravovat výrazy vyhozených atributů."
+
+msgid "New Booking"
+msgstr "Nová rezervace"
+
+msgid "ID"
+msgstr "ID"
+
+msgid "Check-in / Check-out"
+msgstr "Příjezd / Odjezd"
+
+msgid "Guests"
+msgstr "Hosté"
+
+msgid "Customer Info"
+msgstr "Informace o zákazníku"
+
+msgid "Price"
+msgstr "Cena"
+
+msgid "Accommodation"
+msgstr "Ubytování"
+
+msgid "Booking #%s"
+msgstr "Rezervace #%s"
+
+msgid "Expire %s"
+msgstr "Vyprší %s"
+
+msgid "Adults: "
+msgstr "Dospělí:"
+
+msgid "Children: "
+msgstr "Děti:"
+
+msgid "%s night"
+msgid_plural "%s nights"
+msgstr[0] "%s noc"
+msgstr[1] "%s noci"
+msgstr[2] "%s nocí"
+msgstr[3] ""
+
+msgid "Summary: %s."
+msgstr "Celkem: %s."
+
+msgid "Paid: %s"
+msgstr "Zaplaceno: %s"
+
+msgid "Set to %s"
+msgstr "Nastavit na %s"
+
+msgid "Booking status changed."
+msgid_plural "%s booking statuses changed."
+msgstr[0] "Status rezervace se změnil."
+msgstr[1] "%s statusy rezervace se změnily."
+msgstr[2] "%s statusů rezervace se změnily."
+msgstr[3] ""
+
+msgid "All accommodation types"
+msgstr "Všechny typy ubytování"
+
+#. translators: The number of imported bookings: "Imported <span>(11)</span>"
+msgid "Imported %s"
+msgstr "Importováno %s"
+
+msgid "Customer"
+msgstr "Zákazník"
+
+msgid "Amount"
+msgstr "Počet"
+
+msgid "Booking"
+msgstr "Rezervace"
+
+msgid "Gateway"
+msgstr "Brána"
+
+msgid "Transaction ID"
+msgstr "ID transakce"
+
+msgid "Created/Modified Date"
+msgstr "Datum vytvoření/upravení  "
+
+msgid "Payment #%s"
+msgstr "Platba #%s"
+
+msgid "Created on: "
+msgstr "Vytvořeno dne:"
+
+msgid "Modified on: "
+msgstr "Upraveno dne:"
+
+msgid "Rates are used to offer different prices of the same accommodation type depending on extra conditions. E.g. Double room with breakfast included; double room with no breakfast. Guests will choose the preferable rate when submitting a booking request."
+msgstr "Sazby slouží pro nabízení různých cen za stejný typ ubytování v závislosti na zvláštní podmínky. Např.: Dvoulůžkový pokoj včetně snídaní; dvoulůžkový pokoj bez snídaně. Host si zvolí nejvhodnější variantu, když bude podávat žádost o rezervaci. "
+
+msgid "Accommodation Type"
+msgstr "Typ ubytování"
+
+msgid "Season &#8212; Price"
+msgstr "Sezóna &#8212; Cena"
+
+msgid "Duplicate"
+msgstr "Zdvojnásobit"
+
+msgid "Rate was duplicated."
+msgstr "Částka byla zdvojnásobena."
+
+msgid "These are real accommodations like rooms, apartments, houses, villas, beds (for hostels) etc."
+msgstr "V naší nabídce naleznete pouze skutečná ubytování, jako jsou např. apartmány, pokoje, vily, hotely atd."
+
+msgid "All Accommodation Types"
+msgstr "Všechny typy ubytování"
+
+msgid "These are not physical accommodations, but their types. E.g. standard double room. To specify the real number of existing accommodations, you'll need to use Generate Accommodations menu."
+msgstr "Nejedná se o ubytování, ale o typy ubytování. Např.: standardní dvoulůžkový pokoj. Pokud chcete upřesnit skutečný počet stávajících ubytování, musíte použít menu Generovat typu ubytování."
+
+msgid "Capacity"
+msgstr "Kapacita"
+
+msgid "Bed Type"
+msgstr "Typ postele"
+
+msgid "Accommodations"
+msgstr "Ubytování"
+
+msgid "Total:"
+msgstr "Celkem"
+
+msgid "Adults:"
+msgstr "Dospělí:"
+
+msgid "Children:"
+msgstr "Děti:"
+
+msgid "Size:"
+msgstr "Velikost:"
+
+msgid "Active:"
+msgstr "Aktivní:"
+
+msgid "Seasons are real periods of time, dates or days that come with different prices for accommodations. E.g. Winter 2018 ($120 per night), Christmas ($150 per night)."
+msgstr "Sezóny jsou období, které slouží ke stanovení cen za ubytovací služby. Např.: Zima 2018 ($ 120 za noc), Vánoce ($ 150 za noc)."
+
+msgid "Start"
+msgstr "Začátek"
+
+msgid "End"
+msgstr "Konec"
+
+msgid "Days"
+msgstr "Dnů"
+
+msgid "Services are extra offers that you can sell or give for free. E.g. Thai massage, transfer, babysitting. Guests can pre-order them when placing a booking."
+msgstr "Služby jsou dodatečné služby, které můžete prodávat nebo poskytovat zdarma. Např.: Thajská masáž, transfer, hlídání dětí.  Hosté si mohou objednat tyto služby při rezervaci."
+
+msgid "Periodicity"
+msgstr "Periodicita"
+
+msgid "Charge"
+msgstr "Sazba"
+
+msgid "Per Day"
+msgstr "Denně"
+
+msgid "Guest Choice"
+msgstr "Výběr hosta"
+
+msgid "Once"
+msgstr " Jednou"
+
+msgid "Per Guest"
+msgstr "Za hosta"
+
+msgid "Per Accommodation"
+msgstr "Za pobyt"
+
+msgid "These are accommodation amenities, generally free ones. E.g. air-conditioning, wifi."
+msgstr "Toto je vybavení, které je součástí ubytování a zahrnuto v ceně pobytu. Např.: klimatizace, wifi."
+
+msgid "Booking rules saved."
+msgstr "Rezervační pravidla byla uložena."
+
+msgid "Booking Rules"
+msgstr "Pravidla pro rezervaci"
+
+msgid "Save Changes"
+msgstr "Uložit změny"
+
+msgid "Check-in days"
+msgstr "Dny pro příjezd"
+
+msgid "Guests can check in any day."
+msgstr "Hosté mohou přijet jakýkoliv den."
+
+msgid "Add rule"
+msgstr "Přidat pravidlo"
+
+msgid "Seasons"
+msgstr "Sezóny"
+
+msgid "Check-out days"
+msgstr "Dny pro odjezd"
+
+msgid "Guests can check out any day."
+msgstr "Hosté mohou odjet jakýkoliv den."
+
+msgid "Minimum stay"
+msgstr "Minimální délka pobytu"
+
+msgid "There are no minimum stay rules."
+msgstr "Neexistují žádná pravidla pro minimální pobyt."
+
+msgid "nights"
+msgstr "noci"
+
+msgid "Maximum stay"
+msgstr "Maximální délka pobytu"
+
+msgid "There are no maximum stay rules."
+msgstr "Neexistují žádná pravidla pro maximální pobyt."
+
+msgid "Block accommodation"
+msgstr "Blok ubytování"
+
+msgid "There are no blocking accommodation rules."
+msgstr "Neexistují žádná pravidla pro blokování ubytování."
+
+msgid "From"
+msgstr "Do"
+
+msgid "Till"
+msgstr "až do"
+
+msgid "Restriction"
+msgstr "Omezení"
+
+msgid "Not check-in rule marks the date as unavailable for check-in."
+msgstr ""
+
+msgid "Not check-out rule marks the date as unavailable for check-out."
+msgstr ""
+
+msgid "Not stay-in rule displays the date as blocked. This date is unavailable for check-out and check-in on the next date."
+msgstr ""
+
+msgid "Not stay-in with Not check-out rules completely block the selected date, additionally displaying the previous date as unavailable for check-in."
+msgstr ""
+
+msgid "Not check-in"
+msgstr "Neproběhl příjezd"
+
+msgid "Not check-out"
+msgstr "Neproběhl odjezd"
+
+msgid "Not stay-in"
+msgstr "Nezůstal"
+
+msgid "Comment"
+msgstr "Komentář"
+
+msgid "Minimum advance reservation"
+msgstr ""
+
+msgid "There are no minimum advance reservation rules."
+msgstr "Neexistují žádná pravidla minimální předběžné rezervace."
+
+msgid "Maximum advance reservation"
+msgstr ""
+
+msgid "There are no maximum advance reservation rules."
+msgstr "Neexistují žádná pravidla maximální předběžné rezervace."
+
+msgid "Booking buffer"
+msgstr ""
+
+msgid "There are no booking buffer rules."
+msgstr ""
+
+msgid "Booking Calendar"
+msgstr "Kalendář rezervace"
+
+msgid "Calendar"
+msgstr "Kalendář"
+
+msgid "Add New Booking"
+msgstr "Přidat novou rezervaci"
+
+msgid "Clear Search Results"
+msgstr "Vymazat výsledky vyhledávání"
+
+msgid "Note: booking rules are disabled in the plugin settings and are not taken into account."
+msgstr ""
+
+msgid "Unable to create booking. Please try again."
+msgstr "Nelze vytvořit rezervaci. Zkuste to znovu. "
+
+msgid "Booking is blocked due to maintenance reason. Please try again later."
+msgstr "Rezervace je blokovaná z důvodu údržby. Zkuste to prosím později."
+
+msgid "There are no accommodations selected for reservation."
+msgstr "Není vybráno žádné ubytování, které chcete rezervovat. "
+
+msgid "Selected accommodations are not valid."
+msgstr "Vybraná ubytování nejsou platná."
+
+msgid "Accommodation Type is not valid."
+msgstr "Typ ubytování je neplatný."
+
+msgid "Rate is not valid."
+msgstr "Částka je neplatná."
+
+msgid "Adults number is not valid."
+msgstr "Počet dospelých není validní."
+
+msgid "Children number is not valid."
+msgstr "Počet dětí není spravný."
+
+msgid "The total number of guests is not valid."
+msgstr "Celkový počet hostů není platný."
+
+msgid "Selected dates do not meet booking rules for type %s"
+msgstr "Vybraná data nesplňují rezervační pravidla pro typ %s"
+
+msgid "Accommodations are not available."
+msgstr "Ubytování není dostupné"
+
+msgid "There are no rates for requested dates."
+msgstr "K dispozici nejsou žádné ceny za požadovaný termín."
+
+msgid "Search Results"
+msgstr "Výsledky vyhledávání"
+
+msgid "— Any —"
+msgstr "— Jakýkoliv —"
+
+msgid "Search parameters are not set."
+msgstr "Parametry vyhledávání nejsou nastaveny."
+
+msgid "Check-in date is not valid."
+msgstr "Datum příjezdu je neplatné."
+
+msgid "Check-in date cannot be earlier than today."
+msgstr "Datum příjezdu nemůže být starší než dnešní."
+
+msgid "Check-out date is not valid."
+msgstr "Datum odjezdu je neplatné."
+
+msgid "Nothing found. Please try again with different search parameters."
+msgstr "Nic nalezeno. Zkuste to prosím znovu s různými parametry vyhledávání."
+
+msgid "Sorry, you are not allowed to access this page."
+msgstr ""
+
+msgid "User ID"
+msgstr ""
+
+msgid "Username"
+msgstr ""
+
+msgid "First Name"
+msgstr "Jméno"
+
+msgid "Last Name"
+msgstr "Příjmení"
+
+msgid "Phone"
+msgstr "Telefonní číslo"
+
+msgid "Address"
+msgstr "Adresa"
+
+msgid "State / County"
+msgstr "Stát / Země"
+
+msgid "Country"
+msgstr "Země"
+
+msgid "City"
+msgstr "Město"
+
+msgid "Postcode"
+msgstr "PSČ"
+
+msgid "Customer data updated."
+msgstr ""
+
+msgid "User account updated."
+msgstr ""
+
+msgid "Edit User Profile"
+msgstr ""
+
+msgid "Update"
+msgstr "Aktualizovat"
+
+msgid "Customers"
+msgstr ""
+
+msgid "The booking is not set."
+msgstr "Rezervace není nastavena."
+
+msgid "The booking not found."
+msgstr "Rezervace nenalezena."
+
+msgid "Edit Booking #%d"
+msgstr "Upravit rezervaci #%d"
+
+msgid "Cancel"
+msgstr "Zrušit"
+
+msgid "Back"
+msgstr "Zpět"
+
+msgid "Edit Booking"
+msgstr "Upravit rezervaci"
+
+msgid "You cannot edit the imported booking. Please update the source booking and resync your calendars."
+msgstr "Není možné upravit importovanou rezervaci. Upravte zdrojovou rezervaci a synchronizujte Vaše kalendáře."
+
+msgid "Request does not pass security verification. Please refresh the page and try one more time."
+msgstr "Žádost neprošla bezpečnostní kontrolou. Obnovte prosím stránku a zkuste to ještě jednou."
+
+msgid "Check-in date is not set."
+msgstr "Datum příjezdu není nastaveno."
+
+msgid "Check-out date is not set."
+msgstr "Datum odjezdu není nastaveno."
+
+msgid "Unable to update booking. Please try again."
+msgstr "Rezervaci nebylo možné upravit, prosím, zkuste to znova."
+
+msgid "Booking was edited."
+msgstr "Rezervace byla upravena."
+
+msgid "Available"
+msgstr "Dostupný"
+
+msgid "Replace"
+msgstr "Nahradit"
+
+msgid "— Add new —"
+msgstr "— Přidat nový —"
+
+msgid "Extensions"
+msgstr "Rozšíření"
+
+msgid "Extend the functionality of Hotel Booking plugin with the number of helpful addons for your custom purposes."
+msgstr "Rozšiřte funkčnost pluginu Hotel Booking o řadu užitečných doplňků pro vaše vlastní účely."
+
+msgid "Get this Extension"
+msgstr "Získat toto rozšíření"
+
+msgid "No extensions found."
+msgstr "Rozšíření nenalezena."
+
+msgid "Abort Process"
+msgstr "Přerušit proces"
+
+msgid "Aborting..."
+msgstr "Přerušení ..."
+
+msgid "Import Calendar"
+msgstr "Importovat kalendář"
+
+msgid "Accommodation: %s"
+msgstr "Ubytování: %s"
+
+msgid "Accommodation Type: %s"
+msgstr "Typ ubytování: %s"
+
+msgid "Please be patient while the calendars are imported. You will be notified via this page when the process is completed."
+msgstr "Buďte trpěliví při importování kalendáře. Jakmile bude proces dokončen, bude vám zobrazen výsledek na této stránce."
+
+msgid "Accommodation updated."
+msgstr "Ubytování je aktualizováno."
+
+msgid "This calendar has already been imported for another accommodation."
+msgstr "Tento kalendář již byl importován do jiného ubytování."
+
+msgid "Sync, Import and Export Calendars"
+msgstr "Synchronizace, import a export kalendářů"
+
+#. translators: %s - room name. Example: "Comfort Triple 1"
+msgid "Edit External Calendars of \"%s\""
+msgstr "Upravit externí kalendáře \"%s\""
+
+msgid "Sync All External Calendars"
+msgstr "Synchronizovat všechny externí kalendáře"
+
+msgid "Sync your bookings across all online channels like Booking.com, TripAdvisor, Airbnb etc. via iCalendar file format."
+msgstr "Synchronizovat rezervace do všech rezervačních systémů jako je Booking.com, TripAdvisor, Airbnb atd.  pomocí iCalendaru."
+
+msgid "Calendar URL"
+msgstr "URL kalendáře"
+
+msgid "Add New Calendar"
+msgstr "Přidat nový kalendář"
+
+msgid "Sync Calendars"
+msgstr "Synchronizovat kalendáře"
+
+msgid "Delete All Logs"
+msgstr "Vymazat všechna přihlášení "
+
+msgid "Deleting..."
+msgstr "Mazání ..."
+
+msgid "%d item"
+msgstr "%d položka"
+
+msgid "%d items"
+msgstr "%d položek"
+
+msgid "Calendars Synchronization Status"
+msgstr "Status synchronizace kalendářů"
+
+msgid "Here you can see synchronization status of your external calendars."
+msgstr "Tady je status synchronizace externích kalendářů."
+
+msgid "Calendars Sync Status"
+msgstr "Status synchronizace kalendářů"
+
+msgid "Display calendars synchronization status."
+msgstr "Zobrazit status synchronizace kalendářů."
+
+msgid "Language Guide"
+msgstr "Jazykový průvodce"
+
+msgid "Default language"
+msgstr "Výchozí jazyk"
+
+msgid "This plugin will display all system messages, labels, buttons in the language set in <em>General > Settings > Site Language</em>. If the plugin is not available in your language, you may <a href=\"%s\">contribute your translation</a>."
+msgstr "Plugin zobrazí všechny systémové zprávy, štítky, tlačítka v jazyku nastaveném v jazykových nastaveních v <em>Obecné> Nastavení > Jazyk webu </em>. V případě, že plugin není k dispozici v vašem jazyce, můžete <a href=\"%s\">přidat svůj překlad</a>."
+
+msgid "Custom translations and edits"
+msgstr "Upravené a přizpůsobené překlady"
+
+msgid "You may customize plugin translation by editing the needed texts or adding your translation following these steps:"
+msgstr "Můžete přizpůsobit překlad pluginu účelu. Upravte potřebné texty nebo přidejte své překlady. Postupujte podle následujících kroků:"
+
+msgid "Take the source file for your translations %s or needed translated locale."
+msgstr "Vyberte zdrojový soubor pro překlad %s nebo nějakou přeloženou verzi."
+
+msgid "Translate texts with any translation program like Poedit, Loco, Pootle etc."
+msgstr "Přeložit texty pomocí technologií jako jsou Poedit, Loco, Pootle atd."
+
+msgid "Put created .mo file with your translations into the folder %s. Where {lang} is ISO-639 language code and {country} is ISO-3166 country code. Example: Brazilian Portuguese file would be called motopress-hotel-booking-pt_BR.mo."
+msgstr "Uložte vytvořený soubor s překladem .mo do složky %s. Kde je {lang} ISO-639 kód jazyku, a {country} ISO-3166 kód země. Například: soubor pro brazilskou portugalštinu se bude jmenovat motopress-hotel-booking-pt_BR.mo."
+
+msgid "Multilingual content"
+msgstr "Vícejazyčný obsah"
+
+msgid "If your site is multilingual, you may use additional plugins to translate your added content into multiple languages allowing the site visitors to switch them."
+msgstr "Pokud je váš web vícejazyčný, můžete použít doplňkové pluginy, pomocí kterých je možné přeložit obsah webu přeložit do různých jazyků a přepínat mezi různými jazykovými mutacemi."
+
+msgid "Language"
+msgstr "Jazyk"
+
+msgid "Reports"
+msgstr "Reporty"
+
+msgid "Export"
+msgstr "Exportovat"
+
+msgid "All Statuses"
+msgstr "Všechny stavy"
+
+msgid "Booking dates between"
+msgstr "Datum rezervací mezi"
+
+msgid "Check-in date between"
+msgstr "Datum příjezdu mezi"
+
+msgid "Check-out date between"
+msgstr "Datum odjezdu mezi"
+
+msgid "In-house between"
+msgstr "Interně mezi"
+
+msgid "Date of reservation between"
+msgstr "Datum rezervace mezi"
+
+msgid "Export Bookings"
+msgstr "Exportovat rezervace"
+
+msgid "Choose start date"
+msgstr "Vyberte počáteční datum"
+
+msgid "Choose end date"
+msgstr "Vyberte datum"
+
+msgid "Select columns to export"
+msgstr "Vyberte sloupce pro export"
+
+msgid "Generate CSV"
+msgstr "Generovat CSV"
+
+msgid "Number of accommodations"
+msgstr "Počet ubytování"
+
+msgid "Title"
+msgstr "Název"
+
+msgid "Leave empty to use accommodation type title."
+msgstr "Nechat prázdné pro použití názvu typu ubytování."
+
+msgid "Generate"
+msgstr "Generovat"
+
+msgid "Accommodation generated."
+msgid_plural "%s accommodations generated."
+msgstr[0] "Ubytování je generováno"
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+msgid "General"
+msgstr "Všeobecné"
+
+msgid "Pages"
+msgstr "Stránky"
+
+msgid "Search Results Page"
+msgstr "Stránka s výsledky vyhledávání"
+
+msgid "Select page to display search results. Use search results shortcode on this page."
+msgstr "Vyberte stránku, na které se zobrází výsledky vyhledávání. Použít krátky kód pro výsledky vyhledávání na této stránce."
+
+msgid "Checkout Page"
+msgstr "Stránka pro objednávku"
+
+msgid "Select page user will be redirected to complete booking."
+msgstr "Vyberte stránku, která se zobrazí zakazníkovi, aby dokončil rezervaci."
+
+msgid "Terms & Conditions"
+msgstr "Pravidla a podmínky"
+
+msgid "If you define a \"Terms\" page the customer will be asked if they accept them when checking out."
+msgstr "Pokud definujete stránku „Podmínky“, bude zákazník požádán, zda je přijme při odhlášení."
+
+msgid "Open the Terms & Conditions page in a new window"
+msgstr ""
+
+msgid "By enabling this option you can avoid errors related to displaying your terms & conditions inline for website pages created in page builders."
+msgstr ""
+
+msgid "My Account Page"
+msgstr ""
+
+msgid "Select a page to display user account. Use the customer account shortcode on this page."
+msgstr ""
+
+msgid "Misc"
+msgstr "Různé"
+
+msgid "Square Units"
+msgstr "Čtvereční jednotky "
+
+msgid "Currency"
+msgstr "Měna"
+
+msgid "Currency Position"
+msgstr "Měnová pozice"
+
+msgid "Datepicker Date Format"
+msgstr "(Datepicker) Formát výběru data"
+
+msgid "Check-out Time"
+msgstr "čas odjezdu"
+
+msgid "Check-in Time"
+msgstr "čas příjezdu"
+
+msgid "Bed Types"
+msgstr "Typy postele"
+
+msgid "Type"
+msgstr "Typ"
+
+msgid "Add Bed Type"
+msgstr "Přidat typ postele"
+
+msgid "Show Lowest Price for"
+msgstr "Ukázat nejnižší cenu za"
+
+msgid "days"
+msgstr "Dnů"
+
+msgid "Lowest price of accommodation for selected number of days if check-in and check-out dates are not set. Example: set 0 to display today's lowest price, set 7 to display the lowest price for the next week."
+msgstr "Nejnižší cena ubytování za počet dnů pokud data příjezdu a odjezdu nejsou zadána. Například: zadejte 0, pokud chcete zobrazit nejnižší dnešní cenu, zadejte 7, pokud chcete zobrazit nejnižší cenu za týden."
+
+msgid "Enable search form to recommend the best set of accommodations according to a number of guests."
+msgstr "Aktivujte formulář vyhledávání, pokud chcete doporučit nejlepší nabídky ubytování podle počtu hostů."
+
+msgid "Enable the use of coupons."
+msgstr "Povolit použití kupónů."
+
+msgid "Text on Checkout"
+msgstr "Text pro objednávku"
+
+msgid "This text will appear on the checkout page."
+msgstr "Tento text se objeví na stránce pro objednávku."
+
+msgid "Disable Booking"
+msgstr "Zakázat rezervaci"
+
+msgid "Hide reservation forms and buttons"
+msgstr "Skrýt rezervační formulář a tlačítka"
+
+msgid "Text instead of reservation form while booking is disabled"
+msgstr "Text namísto rezervačního formuláře, když rezervace je zakázána"
+
+msgid "Booking Confirmation"
+msgstr "Potvrzení rezervace"
+
+msgid "Confirmation Mode"
+msgstr "Způsob potvrzení"
+
+msgid "By customer via email"
+msgstr "Klientem přes email"
+
+msgid "By admin manually"
+msgstr "Ručně administrátorem"
+
+msgid "Confirmation upon payment"
+msgstr "Potvrzení o platbě"
+
+msgid "Booking Confirmed Page"
+msgstr "Stránka Rezervace potvrzena"
+
+msgid "Page user will be redirected to once the booking is confirmed via email or by admin."
+msgstr "Jakmile bude rezervace potvrzena e-mailem nebo správcem, bude uživatel stránky přesměrován."
+
+msgid "Approval Time for User"
+msgstr "čas na schválení uživatelem"
+
+msgid "Period of time in minutes the user is given to confirm booking via email. Unconfirmed bookings become Abandoned and accommodation status changes to Available."
+msgstr "Doba v minutách, během které uživatel může potvrdit rezervaci e-mailem. Nezaplacené rezervace jsou opuštěné a status se mění na Dostupné."
+
+msgid "Country of residence field is required for reservation."
+msgstr "Pole země trvalého pobytu je vyžadováno pro rezervaci."
+
+msgid "Full address fields are required for reservation."
+msgstr "Kompletní pole s adresou jsou vyžadovány pro rezervaci."
+
+msgid "Customer information is required when placing admin bookings."
+msgstr "Informace o zákazníkovi je požadována, pokud vkládá rezervaci administrátor."
+
+msgid "Default Country on Checkout"
+msgstr "Výchozí země pro objednávku"
+
+msgid "Price Breakdown"
+msgstr "Rozpis cen"
+
+msgid "Price breakdown unfolded by default."
+msgstr "Rozpis cen se ve výchozím nastavení rozvine."
+
+msgid "Accounts"
+msgstr ""
+
+msgid "Account creation"
+msgstr ""
+
+msgid "Automatically create an account for a user at checkout."
+msgstr ""
+
+msgid "Allow customers to create an account during checkout."
+msgstr ""
+
+msgid "Allow customers to log into their existing account during checkout."
+msgstr ""
+
+msgid "Booking Cancellation"
+msgstr "Zrušení rezervace"
+
+msgid "User can cancel booking via link provided inside email."
+msgstr "Uživatel může zrušit rezervaci přes odkaz uvedený v e-mailu."
+
+msgid "Booking Cancelation Page"
+msgstr ""
+
+msgid "Page to confirm booking cancelation."
+msgstr ""
+
+msgid "Booking Canceled Page"
+msgstr ""
+
+msgid "Page to redirect to after a booking is canceled."
+msgstr ""
+
+msgid "Search Options"
+msgstr "Možnosti vyhledávání"
+
+msgid "Maximum accommodation occupancy available in the Search Form."
+msgstr "Maximální ubytovací kapacita, která je dostupná ve vyhledávacím poli."
+
+msgid "Max Adults"
+msgstr "Maximální počet dospělých"
+
+msgid "Max Children"
+msgstr "Maximální počet dětí"
+
+msgid "Age of Child"
+msgstr "Věk dítěte"
+
+msgid "Optional description of the \"Children\" field."
+msgstr "Volitelný popis pole „Děti“."
+
+msgid "Skip Search Results"
+msgstr "Přeskočit výsledky vyhledávání"
+
+msgid "Skip search results page and enable direct booking from accommodation pages."
+msgstr "Přeskočit stránku s výsledky vyhledávání a povolit přímou rezervaci ze stránek ubytování."
+
+msgid "Direct Booking Form"
+msgstr ""
+
+msgid "Show price for selected period"
+msgstr "Zobrazit cenu pro vybrané období"
+
+msgid "Show price together with adults and children fields"
+msgstr "Zobrazit cenu pro děti a dospělé dohromady"
+
+msgid "Book button behavior on the search results page"
+msgstr "Chování tlačítka rezervace na stránce s výsledky vyhledávání"
+
+msgid "Redirect to the checkout page immediately after successful addition to reservation."
+msgstr "Přesměrovat na stránku pro odbavení pobytu ihned po úspěšném přidání rezervace. "
+
+msgid "Enable \"adults\" and \"children\" options for my website (default)."
+msgstr "Povolit pro můj web možnosti „dospělí“ a „děti“ (výchozí)."
+
+msgid "Disable \"children\" option for my website (hide \"children\" field and use Guests label instead)."
+msgstr "Zakažte u mého webu možnost „děti“ (skrýt pole „děti“ a místo toho použít název Hosté)."
+
+msgid "Disable \"adults\" and \"children\" options for my website."
+msgstr "Zakažte možnosti „dospělí“ a „děti“ pro můj web."
+
+msgid "Guest Management"
+msgstr "Správa hostů"
+
+msgid "Hide \"adults\" and \"children\" fields within search availability forms."
+msgstr "Skrýt pole „dospělí“ a „děti“ ve formulářích dostupnosti vyhledávání."
+
+msgid "Do not apply booking rules for admin bookings."
+msgstr ""
+
+msgid "Display Options"
+msgstr "Zobrazit možnosti"
+
+msgid "Display gallery images of accommodation page in lightbox."
+msgstr "Zobrazit galerii obrázků stránek ubytování v lightboxu."
+
+msgid "Availability Calendar"
+msgstr "Dostupnost kalendáře"
+
+msgid "Display per-night prices in the availability calendar."
+msgstr ""
+
+msgid "Truncate per-night prices in the availability calendar."
+msgstr ""
+
+msgid "Display the currency sign in the availability calendar."
+msgstr ""
+
+msgid "Calendar Theme"
+msgstr "Vzhled kalendáře"
+
+msgid "Select theme for an availability calendar."
+msgstr "Vybrat si vzhled kalendáře dostupnosti."
+
+msgid "Template Mode"
+msgstr "Režim šablony"
+
+msgid "Developer Mode"
+msgstr "Režim pro vývojáře"
+
+msgid "Theme Mode"
+msgstr "Testovací režim"
+
+msgid "Choose Theme Mode to display the content with the styles of your theme. Choose Developer Mode to control appearance of the content with custom page templates, actions and filters. This option can't be changed if your theme is initially integrated with the plugin."
+msgstr "Vyberte si režim motivu pro zobrazení obsahu se styly ve vašem motivu. Vyberte si režim pro vývojáře a správujte vzhed stránky pomocí šablony, opcí a filtrů. Tuto možnost nelze změnit, pokud Váš motiv je od začátku integrován s pluginem."
+
+msgid "More Styles"
+msgstr "Více Stylů"
+
+msgid "Extend the styling options of Hotel Booking plugin with the new free addon - Hotel Booking Styles."
+msgstr "Rozšiřte možnosti stylingu pluginu Hotel Booking o nový bezplatný doplněk - Hotel Booking Styles."
+
+msgid "Calendars Synchronization"
+msgstr "Synchronizace kalendáře"
+
+msgid "Export admin blocks."
+msgstr "Exportovat bloky administrátora"
+
+msgid "Do not export imported bookings."
+msgstr "Neexportujte importované rezervace."
+
+msgid "Minimize Logs"
+msgstr ""
+
+msgid "Enable the plugin to record only important messages."
+msgstr ""
+
+msgid "Calendars Synchronization Scheduler"
+msgstr "Plánovač synchronizace kalendářů"
+
+msgid "Enable automatic external calendars synchronization"
+msgstr "Povolit automatickou synchronizaci externích kalendářů"
+
+msgid "Clock"
+msgstr "Hodiny"
+
+msgid "Sync calendars at this time (UTC) or starting at this time every interval below."
+msgstr "Synchronizujte kalendáře v tento čas (UTC) nebo začněte v tuto dobu každý interval níže."
+
+msgid "Interval"
+msgstr ""
+
+msgid "Quarter an Hour"
+msgstr "Čtvrt hodiny"
+
+msgid "Half an Hour"
+msgstr "Půl hodiny"
+
+msgid "Once Hourly"
+msgstr "Jednou za hodinu"
+
+msgid "Twice Daily"
+msgstr "Dvakrát denně"
+
+msgid "Once Daily"
+msgstr "Jednou denně"
+
+msgid "Automatically delete sync logs older than"
+msgstr "Automaticky mazat synchronizované logy starší než"
+
+msgid "Day"
+msgstr "Den"
+
+msgid "Week"
+msgstr "Týden"
+
+msgid "Month"
+msgstr "Měsíc"
+
+msgid "Quarter"
+msgstr "Čtvrt"
+
+msgid "Half a Year"
+msgstr "Půl roku"
+
+msgid "Never Delete"
+msgstr "Nikdy nemazat"
+
+msgid "Block Editor"
+msgstr "Blokový editor"
+
+msgid "Enable block editor for \"%s\"."
+msgstr "Povolit blokový editor pro \"%s\"."
+
+msgid "Accommodation Types"
+msgstr "Typy ubytování"
+
+msgid "Services"
+msgstr "Služby"
+
+msgid "Admin Emails"
+msgstr "Emaily pro administrátora"
+
+msgid "Customer Emails"
+msgstr "Emaily pro zákazníky"
+
+msgid "Turn one-time guests into loyal customers by sending out automatic marketing campaigns with the <a>Hotel Booking & Mailchimp Integration</a>."
+msgstr "Změňte jednorázové hosty na loajální zákazníky zasíláním automatických marketingových kampaní s integrací <a>Hotel Booking & Mailchimp</a>."
+
+msgid "Turn one-time guests into loyal customers by sending out automatic marketing campaigns with the Hotel Booking & Mailchimp Integration."
+msgstr "Změňte jednorázové hosty na loajální zákazníky zasíláním automatických marketingových kampaní s integrací Hotel Booking & Mailchimp."
+
+msgid "Cancellation Details Template"
+msgstr "Šablona podrobnosti o zrušení rezervace"
+
+msgid "Used for %cancellation_details% tag."
+msgstr "Používá se pro tag %cancellation_details%."
+
+msgid "Email Settings"
+msgstr "Nastavení e-mailu"
+
+msgid "Send automated email notifications, such as key pick-up instructions, house rules, before and after arrival/departure with <a>Hotel Booking Notifier</a>."
+msgstr "Odesílejte automatická e-mailová oznámení, jako jsou pokyny k vyzvednutí klíčů, pravidla domu, před a po příjezdu / odjezdu pomocí <a> Hotel Booking Notifier </a>."
+
+msgid "Send automated email notifications, such as key pick-up instructions, house rules, before and after arrival/departure with Hotel Booking Notifier."
+msgstr "Odesílejte automatická e-mailová oznámení, jako jsou pokyny k vyzvednutí klíčů, pravidla domu před/po příjezdu/odjezdu pomocí oznámení o rezervaci hotelu."
+
+msgid "Email Sender"
+msgstr "Odesilatel emailu"
+
+msgid "Administrator Email"
+msgstr "Email administrátora"
+
+msgid "From Email"
+msgstr "Z emailu"
+
+msgid "From Name"
+msgstr "Ze jména"
+
+msgid "Logo URL"
+msgstr "Adresa URL pro logo"
+
+msgid "Footer Text"
+msgstr "Text v patičce"
+
+msgid "Reserved Accommodation Details Template"
+msgstr "Šablona podrobnosti o rezervovaném pokoji"
+
+msgid "Used for %reserved_rooms_details% tag."
+msgstr "Používá se pro tag %reserved_rooms_details%."
+
+msgid "Styles"
+msgstr "Styly"
+
+msgid "Base Color"
+msgstr "Základní barva"
+
+msgid "Background Color"
+msgstr "Barva pozadí"
+
+msgid "Body Background Color"
+msgstr "Barva těla pozadí"
+
+msgid "Body Text Color"
+msgstr "Barva Těla Textu"
+
+msgid "Payment Gateways"
+msgstr "Platební brány"
+
+msgid "General Settings"
+msgstr "Obecné nastavení"
+
+msgid "Need more gateways? Use our Hotel Booking <a href=\"%s\" target=\"_blank\">WooCommerce Payments</a> extension."
+msgstr "Potřebujete více platebních bran? Použijte naše rozšíření pro Hotel Booking <a href=\"%s\" target=\"_blank\">WooCommerce Payments</a>."
+
+msgid "You may also email the <a href=\"%s\" target=\"_blank\">balance payment request</a> link to your guests."
+msgstr "Odkaz na <a href=\"%s\" target=\"_blank\">žádost o platbu zůstatku</a> můžete také poslat svým hostům."
+
+msgid "User Pays"
+msgstr "Uživatel platí"
+
+msgid "Full Amount"
+msgstr "Celková částka"
+
+msgid "Deposit"
+msgstr "Záloha"
+
+msgid "Deposit Type"
+msgstr "Typ zálohy "
+
+msgid "Fixed"
+msgstr ""
+
+msgid "Percent"
+msgstr "Procent"
+
+msgid "Deposit Amount"
+msgstr "Částka zálohy"
+
+msgid "Deposit Time Frame (days)"
+msgstr ""
+
+msgid "Apply deposit to bookings made in at least the selected number of days prior to the check-in date. Otherwise, the full amount is charged."
+msgstr "Uložte zálohu na rezervace provedené alespoň ve vybraném počtu dní před datem příjezdu. V opačném případě je účtována celá částka."
+
+msgid "Force Secure Checkout"
+msgstr "Vyžadovat zabezpečení objednávky"
+
+msgid "Force SSL (HTTPS) on the checkout pages. You must have an SSL certificate installed to use this option."
+msgstr "Vyžadovat SSL (HTTPS) na stránkách pro obejdnávku. Abyste mohl využít tuto funkci, musíte mít nainstalovaný certifikát SSL."
+
+msgid "Reservation Received Page"
+msgstr "Stránka Rezervace obdržena"
+
+msgid "Failed Transaction Page"
+msgstr "Stránka Transakce se nepodařila "
+
+msgid "Default Gateway"
+msgstr "Výchozí brána"
+
+msgid "Pending Payment Time"
+msgstr "Čekací doba na platbu"
+
+msgid "Period of time in minutes the user is given to complete payment. Unpaid bookings become Abandoned and accommodation status changes to Available."
+msgstr "Doba v minutách, během které uživatel může dokončit platbu. Nezaplacené rezervace jsou opuštěné a status se mění na Dostupné."
+
+msgid "Install <a href=\"%s\" target=\"_blank\">Hotel Booking addons</a> to manage their settings."
+msgstr "Nainstalujte <a href=\"%s\" target=\"_blank\">Hotel Booking addons</a> pro správu nastavení."
+
+msgid "Install Hotel Booking addons to manage their settings."
+msgstr "Nainstalujte si doplňky pro Hotel Booking abyste mohli spravovat nastavení."
+
+msgid "Advanced"
+msgstr ""
+
+msgid "License"
+msgstr "Licence"
+
+msgid "Settings saved."
+msgstr "Nastavení uloženo."
+
+msgid "<strong>Note:</strong> Payment methods will appear on the checkout page only when Confirmation Upon Payment is enabled in Accommodation > Settings > General > Confirmation Mode."
+msgstr "<strong> Poznámka: </strong> Způsoby platby se objeví na stránce pokladny pouze v případě, že je v nabídce Ubytování> Nastavení> Obecné> Režim potvrzení aktivováno Potvrzení platby."
+
+msgid "Settings"
+msgstr "Nastavení"
+
+msgid "Availability Search Form"
+msgstr "Vyhledávací formulář Dostupnost"
+
+msgid "Display search form."
+msgstr "Zobrazit vyhledávací pole."
+
+msgid "The number of adults presetted in the search form."
+msgstr "Počet dospělých, který je nastavený ve vyhledávacím poli."
+
+msgid "The number of children presetted in the search form."
+msgstr "Počet dětí, který je nastavený ve vyhledávacím poli."
+
+msgid "Check-in date presetted in the search form."
+msgstr "Datum příjezdu, který je nastavený ve vyhledávacím poli."
+
+msgid "date in format %s"
+msgstr "datum ve formátu %s"
+
+msgid "Check-out date presetted in the search form."
+msgstr "Datum odjezdu, který je nastavený ve vyhledávacím poli."
+
+msgid "Custom attributes for advanced search."
+msgstr "Vlastní atributy pro pokročilé vyhledávání."
+
+msgid "Comma-separated slugs of attributes."
+msgstr "Čárkami oddělené atributy atributů."
+
+msgid "Custom CSS class for shortcode wrapper"
+msgstr "CSS třída pro obálku krátkého kódu"
+
+msgid "whitespace separated css classes"
+msgstr "css třídy oddělené mezerami"
+
+msgid "Accommodation Type ID"
+msgstr "ID typu ubytování"
+
+msgid "ID of Accommodation Type to check availability."
+msgstr "ID typu ubytování pro kontrolu obsazenosti."
+
+msgid "integer number"
+msgstr "celé číslo"
+
+msgid "How many months to show."
+msgstr "Kolik měsíců zobrazit."
+
+msgid "Set the number of columns or the number of rows and columns separated by comma. Example: \"3\" or \"2,3\""
+msgstr "Nastavte počet sloupců nebo počet řádků a sloupců oddělených čárkou. Příklad: „3“ nebo „2,3“"
+
+msgid "Display availability calendar of the current accommodation type or by ID."
+msgstr "Zobrazit kalendář dostupnosti aktuálního typu ubytování nebo podle ID."
+
+msgid "Availability Search Results"
+msgstr "Dostupnost Výsledky vyhledávání"
+
+msgid "Display listing of accommodation types that meet the search criteria."
+msgstr "Zobrazit seznam typu ubytování, která splňují požadovaná kritéria."
+
+msgid "Whether to display title of the accommodation type."
+msgstr "Zda se má zobrazit název typu ubytování."
+
+msgid "Whether to display featured image of the accommodation type."
+msgstr "Zda se má zobrazit doporučený obrázek typu ubytování."
+
+msgid "Whether to display gallery of the accommodation type."
+msgstr "Zda se má zobrazit galerie pro typ ubytování."
+
+msgid "Whether to display excerpt (short description) of the accommodation type."
+msgstr "Zda se má zobrazit výňatek (stručný popis) typu ubytování. "
+
+msgid "Whether to display details of the accommodation type."
+msgstr "Zda se mají zobrazit podrobnosti o typu ubytování."
+
+msgid "Whether to display price of the accommodation type."
+msgstr "Zda zobrazovat cenu za typ ubytování."
+
+msgid "Show View Details button"
+msgstr "Zobrazit tlačítko “Více informací”"
+
+msgid "Whether to display \"View Details\" button with the link to accommodation type."
+msgstr "Zda zobrazovat tlačítko “Více informací” s odkazem na typ ubytování."
+
+msgid "Sort by."
+msgstr "Třídit podle."
+
+msgid "%1$s. See the <a href=\"%2$s\" target=\"_blank\">full list</a>."
+msgstr "%1$s. Podívejte se na <a href=\"%2$s\" target=\"_blank\">úplný seznam</a>."
+
+msgid "Designates the ascending or descending order of sorting."
+msgstr "Označuje vzestupné nebo sestupné pořadí třídění."
+
+msgid "ASC - from lowest to highest values (1, 2, 3). DESC - from highest to lowest values (3, 2, 1)."
+msgstr "ASC - od nejnižší po nejvyšší hodnoty (1, 2, 3). DESC - od nejvyšší k nejnižší hodnotě (3, 2, 1)."
+
+msgid "Custom field name. Required if \"orderby\" is one of the \"meta_value\", \"meta_value_num\" or \"meta_value_*\"."
+msgstr "Název uživatelského pole. Vyžadováno, pokud je \"orderby\" jednou z \"meta_value\", \"meta_value_num\" nebo \"meta_value_ *\"."
+
+msgid "custom field name"
+msgstr "název uživatelského pole"
+
+msgid "empty string"
+msgstr "prázdné pole"
+
+msgid "Specified type of the custom field. Can be used in conjunction with orderby=\"meta_value\"."
+msgstr "Určený typ vlastního pole. Lze použít ve spojení s orderby = \"meta_value\"."
+
+msgid "Sort by. Use \"orderby\" insted."
+msgstr "Seřazeno podle. Místo toho použijte \"orderby\"."
+
+msgid "Show Book button"
+msgstr "Zobrazit tlačítko “zarezervovat“"
+
+msgid "Whether to display Book button."
+msgstr "Zda zobrazovat tlačítko “zarezervovat”."
+
+msgid "NOTE:"
+msgstr "POZNÁMKA:"
+
+msgid "Use only on page that you set as Search Results Page in <a href=\"%s\">Settings</a>"
+msgstr "Použít pouze na stránce, která je nastavena jako Stránka s výsledky vyhledávání v <a href=\"%s\">Nastveních</a>"
+
+msgid "Accommodation Types Listing"
+msgstr "Výpis typů ubytování"
+
+msgid "Count per page"
+msgstr "Počet na stránku"
+
+msgid "integer, -1 to display all, default: \"Blog pages show at most\""
+msgstr "celé číslo, -1 pro zobrazení všech, výchozí: \"Blogové stránky se zobrazují nejvýš\""
+
+msgid "IDs of categories that will be shown."
+msgstr "ID kategorií, které budou zobrazeny."
+
+msgid "Comma-separated IDs."
+msgstr "ID Oddělené Čárkami."
+
+msgid "IDs of tags that will be shown."
+msgstr "ID štítků, které se zobrazí."
+
+msgid "IDs of accommodations that will be shown."
+msgstr "ID ubytování, které budou zobrazeny."
+
+msgid "Logical relationship between each taxonomy when there is more than one."
+msgstr "Logický vztah mezi každou taxonomií, pokud existuje více než jeden."
+
+msgid "Services Listing"
+msgstr "Výpis služeb"
+
+msgid "IDs"
+msgstr "Druhy ID"
+
+msgid "IDs of services that will be shown. "
+msgstr "ID služeb, které budou zobrazeny."
+
+msgid "Show All Services"
+msgstr "Zobrazit všechny služby"
+
+msgid "Single Accommodation Type"
+msgstr "Jednotný typ ubytování"
+
+msgid "ID of accommodation type to display."
+msgstr "ID typu ubytování, které se zobrazí."
+
+msgid "Display accommodation type with title and image."
+msgstr "Zobrazit typ ubytování s názvem a obrázkem."
+
+msgid "Checkout Form"
+msgstr " Formulář pro objednávku"
+
+msgid "Display checkout form."
+msgstr "Zobrazit  formulář pro objednávku."
+
+msgid "Use only on page that you set as Checkout Page in <a href=\"%s\">Settings</a>"
+msgstr "použít pouze na stránce, která je nastavena jako Stránka výpočtu v <a href=\"%s\">Nastveních</a>"
+
+msgid "Booking Form"
+msgstr "Rezervační formulář"
+
+msgid "Show Booking Form for Accommodation Type with id 777"
+msgstr "Zobrazit rezervační formulář pro typ ubytování s ID 777"
+
+msgid "Accommodation Rates List"
+msgstr "Seznam cen za ubytování"
+
+msgid "ID of accommodation type."
+msgstr "ID typu ubytování"
+
+msgid "Show Accommodation Rates List for accommodation type with id 777"
+msgstr "Zobrazit seznam cen za typ ubytování s ID 777"
+
+msgid "Display booking and payment details."
+msgstr "Zobrazit detaily rezervace a platby."
+
+msgid "Use this shortcode on Booking Confirmed and Reservation Received pages"
+msgstr "Použijte tento odkaz (shortcode) pro stránky  \"Rezervace potvrzena\" a \"Rezervace přijata\""
+
+msgid "Booking Cancelation"
+msgstr ""
+
+msgid "Display booking cancelation details."
+msgstr ""
+
+msgid "Use this shortcode on the Booking Cancelation page"
+msgstr ""
+
+msgid "Customer Account"
+msgstr ""
+
+msgid "Display log in form or customer account area."
+msgstr ""
+
+msgid "Use this shortcode to create the My Account page."
+msgstr ""
+
+msgid "Shortcodes"
+msgstr "Krátké kódy"
+
+msgid "Shortcode"
+msgstr "Kráký kód"
+
+msgid "Parameters"
+msgstr "Parametry"
+
+msgid "Example"
+msgstr "Příklad"
+
+msgid "Deprecated since %s"
+msgstr "Zastaralé od %s"
+
+msgid "Values:"
+msgstr "Hodnoty:"
+
+msgid "Default:"
+msgstr "Výchozí:"
+
+msgid "Optional."
+msgstr "Volitelné."
+
+msgid "Required"
+msgstr "Požadovaná"
+
+msgid "Taxes and fees saved."
+msgstr "Daně a poplatky byly uloženy"
+
+msgid "Taxes & Fees"
+msgstr "Daně a poplatky"
+
+msgid "Fees"
+msgstr "Poplatky"
+
+msgid "No fees have been created yet."
+msgstr "Dosud nebyly vytvořeny žádné poplatky."
+
+msgid "Add new"
+msgstr "Přidat nový"
+
+msgid "Label"
+msgstr "Popis"
+
+msgid "New fee"
+msgstr "Nový poplatek"
+
+msgid "Per guest / per day"
+msgstr "Za hosta / za den"
+
+msgid "Per accommodation / per day"
+msgstr "Za ubytování / za den"
+
+msgid "Per accommodation (%)"
+msgstr "Za ubytování (%)"
+
+msgid "Limit"
+msgstr ""
+
+msgid "How often this fee is charged. Set 0 to charge each day of the stay period. Set 1 to charge once."
+msgstr ""
+
+msgid "Include"
+msgstr ""
+
+msgid "Show accommodation rate with this charge included"
+msgstr ""
+
+msgid "Accommodation Taxes"
+msgstr "Poplatky za ubytování"
+
+msgid "No taxes have been created yet."
+msgstr "Poplatky zatím nebyly vytvořeny"
+
+msgid "New tax"
+msgstr "Nový poplatek"
+
+msgid "Limit of days the fee is charged. Set 0 to charge each day of stay period. Set 1 to charge once."
+msgstr ""
+
+msgid "Service Taxes"
+msgstr "Servisní poplatky"
+
+msgid "Percentage"
+msgstr "Procentuelní"
+
+msgid "Fee Taxes"
+msgstr "Daně z poplatků"
+
+msgid "External Calendars"
+msgstr "Externí kalendáře"
+
+msgid "Sync External Calendars"
+msgstr "Synchronizovat externí kalendáře"
+
+msgctxt "Placeholder for empty accommodation title"
+msgid "(no title)"
+msgstr "(bez názvu)"
+
+msgid "Download Calendar"
+msgstr "Stáhnout si kalendář"
+
+msgid "Message"
+msgstr "Zpráva"
+
+msgid "Success"
+msgstr "Úspěch"
+
+msgid "Info"
+msgstr "Informace"
+
+msgid "Warning"
+msgstr "Varování"
+
+msgctxt "This is date and time format 31/12/2017 - 23:59:59"
+msgid "d/m/Y - H:i:s"
+msgstr "d/m/Y - H:i:s"
+
+msgid "Waiting"
+msgstr "Čekejte"
+
+msgid "Processing"
+msgstr "Zpracovávaní"
+
+msgctxt "Total number of processed bookings"
+msgid "Total"
+msgstr "Celkové"
+
+msgid "Succeed"
+msgstr "Povedlo se"
+
+msgid "Skipped"
+msgstr "Přeskočeno"
+
+msgid "Failed"
+msgstr "Nepovedlo se"
+
+msgid "Removed"
+msgstr "Odstraněno"
+
+msgid "Copying to clipboard failed. Please press Ctrl/Cmd+C to copy."
+msgstr ""
+
+msgid "Description is missing."
+msgstr ""
+
+msgid "User is missing."
+msgstr ""
+
+msgid "Permission is missing."
+msgstr ""
+
+msgid "You do not have permission to assign API Keys to the selected user."
+msgstr ""
+
+msgid "API Key updated successfully."
+msgstr ""
+
+msgid "API Key generated successfully. Make sure to copy your new keys now as the secret key will be hidden once you leave this page."
+msgstr ""
+
+msgid "Revoke key"
+msgstr ""
+
+msgid "No keys found."
+msgstr ""
+
+msgid "Description"
+msgstr "Popis"
+
+msgid "Consumer key ending in"
+msgstr ""
+
+msgid "User"
+msgstr ""
+
+msgid "Permissions"
+msgstr ""
+
+msgid "Last access"
+msgstr ""
+
+msgid "API key"
+msgstr ""
+
+#. translators: %d: API key ID.
+msgid "ID: %d"
+msgstr ""
+
+msgid "Revoke"
+msgstr ""
+
+msgid "Read"
+msgstr ""
+
+msgid "Write"
+msgstr ""
+
+msgid "Read/Write"
+msgstr ""
+
+#. translators: 1: last access date 2: last access time
+msgid "%1$s at %2$s"
+msgstr ""
+
+msgid "Unknown"
+msgstr ""
+
+msgid "You do not have permission to edit this API Key"
+msgstr ""
+
+msgid "REST API"
+msgstr ""
+
+msgid "Add key"
+msgstr ""
+
+msgid "You do not have permission to revoke this API Key"
+msgstr ""
+
+msgid "You do not have permission to edit API Keys"
+msgstr ""
+
+msgid "You do not have permission to revoke API Keys"
+msgstr ""
+
+msgid "Generate API key"
+msgstr ""
+
+msgid "Friendly name for identifying this key."
+msgstr ""
+
+msgid "Owner of these keys."
+msgstr ""
+
+msgid "Access type of these keys."
+msgstr ""
+
+msgid "Consumer key"
+msgstr ""
+
+msgid "Copied!"
+msgstr ""
+
+msgid "Copy"
+msgstr ""
+
+msgid "Consumer secret"
+msgstr ""
+
+msgid "QR Code"
+msgstr ""
+
+msgid "No bookings found for your request."
+msgstr "Žádná rezervace neodpvídá Vašemu požadavku."
+
+msgid "Uploads directory is not writable."
+msgstr "Adresář pro nahrávání není zapisovatelný"
+
+msgid "No enough data"
+msgstr "Nedostatek dat"
+
+msgid "An error has occurred"
+msgstr "Došlo k chybě"
+
+msgid "Please complete all required fields and try again."
+msgstr "Vyplňte prosím všechna požadovaná pole a zkuste to znovu."
+
+msgid "An error has occurred, please try again later."
+msgstr "Došlo k chybě. Zkuste to prosím znovu později."
+
+msgid "The number of adults is not valid."
+msgstr ""
+
+msgid "The number of guests is not valid."
+msgstr ""
+
+msgid "An error has occurred. Please try again later."
+msgstr "Došlo k chybě. Zkuste to prosím znovu později."
+
+msgid "Sorry, the minimum allowed payment amount is %s to use this payment method."
+msgstr "Je nám líto, minimální povolená částka platby je %s, pokud chcete použít tento způsob platby."
+
+msgid "Chosen payment method is not available. Please refresh the page and try one more time."
+msgstr "Zvolený způsob platby není dostupný. Obnovte prosím stránku a zkuste to ještě jednou."
+
+msgid "Coupon applied successfully."
+msgstr "Kupón byl úspěšně uplatněn."
+
+msgid "Coupon is not valid."
+msgstr "Kupón je neplatný"
+
+msgid "Booking Information"
+msgstr "Informace o rezervaci"
+
+msgid "Check-in Date"
+msgstr "Datum příjezdu"
+
+msgid "Check-out Date"
+msgstr "Datum odjezdu"
+
+msgid "Customer Information"
+msgstr "Informace o zákazníkovi"
+
+msgid "Customer Note"
+msgstr "Poznámka pro zákazníka"
+
+msgid "Additional Information"
+msgstr "Dodatečné informace"
+
+msgid "Coupon"
+msgstr "Kupón"
+
+msgid "Total Booking Price"
+msgstr "Celková cena za rezervaci"
+
+msgid "Notes"
+msgstr "Poznámky"
+
+#. translators: %1$s: note author, %1$s: note date
+msgid "%1$s on %2$s"
+msgstr ""
+
+msgid "Based on your search parameters"
+msgstr "Na základě vašich parametrů vyhledávání"
+
+msgid "You do not have permission to do this action."
+msgstr ""
+
+msgctxt "Not selected value in the search form."
+msgid "&mdash;"
+msgstr ""
+
+msgid "Year"
+msgstr "Rok"
+
+msgid "Custom"
+msgstr "Zákaznický"
+
+msgctxt "Booking status"
+msgid "Confirmed"
+msgstr "Potvrzeno"
+
+msgid "Show"
+msgstr "Zobrazit"
+
+msgid "Search"
+msgstr "Hledat"
+
+msgid "Booked"
+msgstr "Rezervováno"
+
+msgid "Pending"
+msgstr "Čeká na vyřízení"
+
+msgid "External"
+msgstr ""
+
+msgid "Blocked"
+msgstr "Blokováno"
+
+msgid "Search results for accommodations that have bookings with status \"%s\" from %s until %s"
+msgstr "Výsledky vyhledávání pro ubytování, která mají status \"%s\" od %s do %s"
+
+msgid "Free"
+msgstr "Bezplatná"
+
+msgid "Locked (Booked or Pending)"
+msgstr "Zamčeno (rezervováno nebo čeká)"
+
+msgid "Until"
+msgstr "Od"
+
+msgid "Period:"
+msgstr "Doba:"
+
+msgid "&lt; Prev"
+msgstr "&lt; Předchozí"
+
+msgid "Next &gt;"
+msgstr "Další &gt;"
+
+msgid "No accommodations found."
+msgstr "Nebylo nalazeno žádné ubytvání."
+
+msgid "Check-out #%d"
+msgstr "Odjezd #%d"
+
+msgid "Check-in #%d"
+msgstr "Příjezd #%d"
+
+msgid "Booking #%d"
+msgstr "Rezervace #%d"
+
+msgid "Buffer time."
+msgstr ""
+
+msgctxt "Availability"
+msgid "Free"
+msgstr "k dispozici"
+
+msgid "Adults: %s"
+msgstr "Dospělí: %s"
+
+msgid "Children: %s"
+msgstr "Děti: %s"
+
+msgid "Booking imported with UID %s."
+msgstr "Rezervace importována s UID %s."
+
+msgid "Imported booking."
+msgstr "Importované rezervace."
+
+msgid "Description: %s."
+msgstr "Popis: %s."
+
+msgid "Source: %s."
+msgstr "Zdroj: %s."
+
+msgid "Afghanistan"
+msgstr "Afghánistán"
+
+msgid "&#197;land Islands"
+msgstr ""
+
+msgid "Albania"
+msgstr "Albánie"
+
+msgid "Algeria"
+msgstr "Alžírsko"
+
+msgid "American Samoa"
+msgstr "Americká Samoa"
+
+msgid "Andorra"
+msgstr ""
+
+msgid "Angola"
+msgstr ""
+
+msgid "Anguilla"
+msgstr ""
+
+msgid "Antarctica"
+msgstr "Antarktida"
+
+msgid "Antigua and Barbuda"
+msgstr "Antigua a Barbuda"
+
+msgid "Argentina"
+msgstr ""
+
+msgid "Armenia"
+msgstr "Arménie"
+
+msgid "Aruba"
+msgstr ""
+
+msgid "Australia"
+msgstr "Austrálie"
+
+msgid "Austria"
+msgstr "Rakousko"
+
+msgid "Azerbaijan"
+msgstr "Ázerbajdžán"
+
+msgid "Bahamas"
+msgstr "Bahamské ostrovy"
+
+msgid "Bahrain"
+msgstr "Bahrajn"
+
+msgid "Bangladesh"
+msgstr "Bangladéš"
+
+msgid "Barbados"
+msgstr ""
+
+msgid "Belarus"
+msgstr "Bělorusko"
+
+msgid "Belgium"
+msgstr "Belgie"
+
+msgid "Belau"
+msgstr ""
+
+msgid "Belize"
+msgstr ""
+
+msgid "Benin"
+msgstr ""
+
+msgid "Bermuda"
+msgstr "Bermudy"
+
+msgid "Bhutan"
+msgstr "Bhútán"
+
+msgid "Bolivia"
+msgstr "Bolívie"
+
+msgid "Bonaire, Saint Eustatius and Saba"
+msgstr "Bonaire, Svatý Eustach a Saba"
+
+msgid "Bosnia and Herzegovina"
+msgstr "Bosna a Hercegovina"
+
+msgid "Botswana"
+msgstr ""
+
+msgid "Bouvet Island"
+msgstr "Bouvetův ostrov"
+
+msgid "Brazil"
+msgstr "Brazílie"
+
+msgid "British Indian Ocean Territory"
+msgstr "Britské území v Indickém oceánu"
+
+msgid "British Virgin Islands"
+msgstr "Britské Panenské ostrovy"
+
+msgid "Brunei"
+msgstr "Brunej"
+
+msgid "Bulgaria"
+msgstr "Bulharsko"
+
+msgid "Burkina Faso"
+msgstr ""
+
+msgid "Burundi"
+msgstr ""
+
+msgid "Cambodia"
+msgstr "Kambodža"
+
+msgid "Cameroon"
+msgstr "Kamerun"
+
+msgid "Canada"
+msgstr "Kanada"
+
+msgid "Cape Verde"
+msgstr "Kapverdy"
+
+msgid "Cayman Islands"
+msgstr "Kajmanské ostrovy"
+
+msgid "Central African Republic"
+msgstr "Středoafrická republika"
+
+msgid "Chad"
+msgstr ""
+
+msgid "Chile"
+msgstr ""
+
+msgid "China"
+msgstr "Čína"
+
+msgid "Christmas Island"
+msgstr "Vánoční ostrov"
+
+msgid "Cocos (Keeling) Islands"
+msgstr "Kokosové (Keelingovy) ostrovy"
+
+msgid "Colombia"
+msgstr "Kolumbie"
+
+msgid "Comoros"
+msgstr "Komory"
+
+msgid "Congo (Brazzaville)"
+msgstr "Kongo - Brazzaville"
+
+msgid "Congo (Kinshasa)"
+msgstr "Kongo (Kinshasa)"
+
+msgid "Cook Islands"
+msgstr "Cookovy ostrovy"
+
+msgid "Costa Rica"
+msgstr "Kostarika"
+
+msgid "Croatia"
+msgstr "Chorvatsko"
+
+msgid "Cuba"
+msgstr "Kuba"
+
+msgid "Cura&ccedil;ao"
+msgstr ""
+
+msgid "Cyprus"
+msgstr "Kypr"
+
+msgid "Czech Republic"
+msgstr "Česká republika"
+
+msgid "Denmark"
+msgstr "Dánsko"
+
+msgid "Djibouti"
+msgstr "Džibutsko"
+
+msgid "Dominica"
+msgstr "Dominika"
+
+msgid "Dominican Republic"
+msgstr "Dominikánská republika"
+
+msgid "Ecuador"
+msgstr "Ekvádor"
+
+msgid "Egypt"
+msgstr ""
+
+msgid "El Salvador"
+msgstr ""
+
+msgid "Equatorial Guinea"
+msgstr "Rovníková Guinea"
+
+msgid "Eritrea"
+msgstr ""
+
+msgid "Estonia"
+msgstr "Estonsko"
+
+msgid "Ethiopia"
+msgstr "Etiopie"
+
+msgid "Falkland Islands"
+msgstr "Falklandské ostrovy"
+
+msgid "Faroe Islands"
+msgstr "Faerské ostrovy"
+
+msgid "Fiji"
+msgstr "Fidži"
+
+msgid "Finland"
+msgstr "Finsko"
+
+msgid "France"
+msgstr "Francie"
+
+msgid "French Guiana"
+msgstr "Francouzská Guyana"
+
+msgid "French Polynesia"
+msgstr "Francouzská Polynésie"
+
+msgid "French Southern Territories"
+msgstr "Francouzská jižní území"
+
+msgid "Gabon"
+msgstr ""
+
+msgid "Gambia"
+msgstr "Gambie"
+
+msgid "Georgia"
+msgstr "Gruzie"
+
+msgid "Germany"
+msgstr "Německo"
+
+msgid "Ghana"
+msgstr ""
+
+msgid "Gibraltar"
+msgstr ""
+
+msgid "Greece"
+msgstr "Řecko"
+
+msgid "Greenland"
+msgstr "Grónsko"
+
+msgid "Grenada"
+msgstr ""
+
+msgid "Guadeloupe"
+msgstr ""
+
+msgid "Guam"
+msgstr ""
+
+msgid "Guatemala"
+msgstr ""
+
+msgid "Guernsey"
+msgstr ""
+
+msgid "Guinea"
+msgstr ""
+
+msgid "Guinea-Bissau"
+msgstr ""
+
+msgid "Guyana"
+msgstr ""
+
+msgid "Haiti"
+msgstr ""
+
+msgid "Heard Island and McDonald Islands"
+msgstr "Heardův ostrov a McDonaldovy ostrovy"
+
+msgid "Honduras"
+msgstr ""
+
+msgid "Hong Kong"
+msgstr "Hongkong"
+
+msgid "Hungary"
+msgstr "Maďarsko"
+
+msgid "Iceland"
+msgstr "Island"
+
+msgid "India"
+msgstr "Indie"
+
+msgid "Indonesia"
+msgstr "Indonésie"
+
+msgid "Iran"
+msgstr "Írán"
+
+msgid "Iraq"
+msgstr "Irák"
+
+msgid "Ireland"
+msgstr "Irsko"
+
+msgid "Isle of Man"
+msgstr "Ostrov Man"
+
+msgid "Israel"
+msgstr "Izrael"
+
+msgid "Italy"
+msgstr "Itálie"
+
+msgid "Ivory Coast"
+msgstr "Pobřeží slonoviny"
+
+msgid "Jamaica"
+msgstr "Jamajka"
+
+msgid "Japan"
+msgstr "Japonsko"
+
+msgid "Jersey"
+msgstr ""
+
+msgid "Jordan"
+msgstr "Jordán"
+
+msgid "Kazakhstan"
+msgstr "Kazachstán"
+
+msgid "Kenya"
+msgstr "Keňa"
+
+msgid "Kiribati"
+msgstr ""
+
+msgid "Kuwait"
+msgstr "Kuvajt"
+
+msgid "Kyrgyzstan"
+msgstr "Kyrgyzstán"
+
+msgid "Laos"
+msgstr ""
+
+msgid "Latvia"
+msgstr "Lotyšsko"
+
+msgid "Lebanon"
+msgstr "Libanon"
+
+msgid "Lesotho"
+msgstr ""
+
+msgid "Liberia"
+msgstr "Libérie"
+
+msgid "Libya"
+msgstr "Libye"
+
+msgid "Liechtenstein"
+msgstr "Lichtenštejnsko"
+
+msgid "Lithuania"
+msgstr "Litva"
+
+msgid "Luxembourg"
+msgstr "Lucembursko"
+
+msgid "Macao S.A.R., China"
+msgstr "Macao SAR, Čína"
+
+msgid "Macedonia"
+msgstr "Makedonie"
+
+msgid "Madagascar"
+msgstr "Madagaskar"
+
+msgid "Malawi"
+msgstr ""
+
+msgid "Malaysia"
+msgstr "Malajsie"
+
+msgid "Maldives"
+msgstr "Maledivy"
+
+msgid "Mali"
+msgstr ""
+
+msgid "Malta"
+msgstr ""
+
+msgid "Marshall Islands"
+msgstr "Marshallovy ostrovy"
+
+msgid "Martinique"
+msgstr "Martinik"
+
+msgid "Mauritania"
+msgstr "Mauritánie"
+
+msgid "Mauritius"
+msgstr ""
+
+msgid "Mayotte"
+msgstr ""
+
+msgid "Mexico"
+msgstr "Mexiko"
+
+msgid "Micronesia"
+msgstr "Mikronésie"
+
+msgid "Moldova"
+msgstr "Moldavsko"
+
+msgid "Monaco"
+msgstr "Monako"
+
+msgid "Mongolia"
+msgstr "Mongolsko"
+
+msgid "Montenegro"
+msgstr "Černá Hora"
+
+msgid "Montserrat"
+msgstr ""
+
+msgid "Morocco"
+msgstr "Maroko"
+
+msgid "Mozambique"
+msgstr "Mosambik"
+
+msgid "Myanmar"
+msgstr ""
+
+msgid "Namibia"
+msgstr "Namibie"
+
+msgid "Nauru"
+msgstr ""
+
+msgid "Nepal"
+msgstr "Nepál"
+
+msgid "Netherlands"
+msgstr "Nizozemsko"
+
+msgid "New Caledonia"
+msgstr "Nová Kaledonie"
+
+msgid "New Zealand"
+msgstr "Nový Zéland"
+
+msgid "Nicaragua"
+msgstr "Nikaragua"
+
+msgid "Niger"
+msgstr ""
+
+msgid "Nigeria"
+msgstr "Nigérie"
+
+msgid "Niue"
+msgstr ""
+
+msgid "Norfolk Island"
+msgstr "Norfolk"
+
+msgid "Northern Mariana Islands"
+msgstr "Severní Mariany ostrovy"
+
+msgid "North Korea"
+msgstr "Severní Korea"
+
+msgid "Norway"
+msgstr "Norsko"
+
+msgid "Oman"
+msgstr "Omán"
+
+msgid "Pakistan"
+msgstr "Pákistán"
+
+msgid "Palestinian Territory"
+msgstr "Palestinské území"
+
+msgid "Panama"
+msgstr ""
+
+msgid "Papua New Guinea"
+msgstr "Papua-Nová Guinea"
+
+msgid "Paraguay"
+msgstr ""
+
+msgid "Peru"
+msgstr ""
+
+msgid "Philippines"
+msgstr "Filipíny"
+
+msgid "Pitcairn"
+msgstr ""
+
+msgid "Poland"
+msgstr "Polsko"
+
+msgid "Portugal"
+msgstr "Portugalsko"
+
+msgid "Puerto Rico"
+msgstr "Portoriko"
+
+msgid "Qatar"
+msgstr "Katar"
+
+msgid "Reunion"
+msgstr "Réunion"
+
+msgid "Romania"
+msgstr "Rumunsko"
+
+msgid "Russia"
+msgstr "Rusko"
+
+msgid "Rwanda"
+msgstr ""
+
+msgid "Saint Barth&eacute;lemy"
+msgstr "Svatý Bartoloměj &eacute;lemy"
+
+msgid "Saint Helena"
+msgstr "Svatá Helena"
+
+msgid "Saint Kitts and Nevis"
+msgstr "Svatý Kryštof a Nevis"
+
+msgid "Saint Lucia"
+msgstr "Svatá Lucie"
+
+msgid "Saint Martin (French part)"
+msgstr "Svatý Martin (francouzská část)"
+
+msgid "Saint Martin (Dutch part)"
+msgstr "Svatý Martin (nizozemská část)"
+
+msgid "Saint Pierre and Miquelon"
+msgstr "Saint-Pierre a Miquelon"
+
+msgid "Saint Vincent and the Grenadines"
+msgstr "Svatý Vincent a Grenadiny"
+
+msgid "San Marino"
+msgstr ""
+
+msgid "S&atilde;o Tom&eacute; and Pr&iacute;ncipe"
+msgstr ""
+
+msgid "Saudi Arabia"
+msgstr "Saudská arábie"
+
+msgid "Senegal"
+msgstr ""
+
+msgid "Serbia"
+msgstr "Srbsko"
+
+msgid "Seychelles"
+msgstr "Seychely"
+
+msgid "Sierra Leone"
+msgstr ""
+
+msgid "Singapore"
+msgstr ""
+
+msgid "Slovakia"
+msgstr "Slovensko"
+
+msgid "Slovenia"
+msgstr "Slovinsko"
+
+msgid "Solomon Islands"
+msgstr "Šalamounovy ostrovy"
+
+msgid "Somalia"
+msgstr "Somálsko"
+
+msgid "South Africa"
+msgstr "Jižní Afrika"
+
+msgid "South Georgia/Sandwich Islands"
+msgstr "Jižní Georgie/Jižní Sandwichovy ostrovy"
+
+msgid "South Korea"
+msgstr "Jižní Korea"
+
+msgid "South Sudan"
+msgstr "Jižní Súdán"
+
+msgid "Spain"
+msgstr "Španělsko"
+
+msgid "Sri Lanka"
+msgstr "Srí Lanka"
+
+msgid "Sudan"
+msgstr "Súdán"
+
+msgid "Suriname"
+msgstr "Surinam"
+
+msgid "Svalbard and Jan Mayen"
+msgstr "Svalbard a Jan Mayen"
+
+msgid "Swaziland"
+msgstr "Svazijsko"
+
+msgid "Sweden"
+msgstr "Švédsko"
+
+msgid "Switzerland"
+msgstr "Švýcarsko"
+
+msgid "Syria"
+msgstr "Sýrie"
+
+msgid "Taiwan"
+msgstr "Tchaj-wan"
+
+msgid "Tajikistan"
+msgstr "Tádžikistán"
+
+msgid "Tanzania"
+msgstr "Tanzánie"
+
+msgid "Thailand"
+msgstr "Thajsko"
+
+msgid "Timor-Leste"
+msgstr "Východní Timor"
+
+msgid "Togo"
+msgstr ""
+
+msgid "Tokelau"
+msgstr ""
+
+msgid "Tonga"
+msgstr ""
+
+msgid "Trinidad and Tobago"
+msgstr "Trinidad a Tobago"
+
+msgid "Tunisia"
+msgstr "Tunisko"
+
+msgid "Turkey"
+msgstr "Turecko"
+
+msgid "Turkmenistan"
+msgstr "Turkmenistán"
+
+msgid "Turks and Caicos Islands"
+msgstr "Turks a Caicos Islands"
+
+msgid "Tuvalu"
+msgstr ""
+
+msgid "Uganda"
+msgstr ""
+
+msgid "Ukraine"
+msgstr "Ukrajina"
+
+msgid "United Arab Emirates"
+msgstr "Spojené arabské emiráty"
+
+msgid "United Kingdom (UK)"
+msgstr "Spojené království (UK)"
+
+msgid "United States (US)"
+msgstr "Spojené státy americké (USA)"
+
+msgid "United States (US) Minor Outlying Islands"
+msgstr "Spojené státy americké (USA) Menší odlehlé ostrovy"
+
+msgid "United States (US) Virgin Islands"
+msgstr "Spojené státy americké (USA) Americké Panenské ostrovy"
+
+msgid "Uruguay"
+msgstr ""
+
+msgid "Uzbekistan"
+msgstr "Uzbekistán"
+
+msgid "Vanuatu"
+msgstr ""
+
+msgid "Vatican"
+msgstr "Vatikán"
+
+msgid "Venezuela"
+msgstr ""
+
+msgid "Vietnam"
+msgstr ""
+
+msgid "Wallis and Futuna"
+msgstr "Wallis a Futuna"
+
+msgid "Western Sahara"
+msgstr "Západní Sahara"
+
+msgid "Samoa"
+msgstr ""
+
+msgid "Yemen"
+msgstr "Jemen"
+
+msgid "Zambia"
+msgstr "Zambijská republika"
+
+msgid "Zimbabwe"
+msgstr "Zimbabwská republika"
+
+msgid "Euro"
+msgstr ""
+
+msgid "United States (US) dollar"
+msgstr "Americký dolar"
+
+msgid "Pound sterling"
+msgstr "libry šterlinky"
+
+msgid "United Arab Emirates dirham"
+msgstr "Dirham Spojené arabské emiráty"
+
+msgid "Afghan afghani"
+msgstr "Afghánský afghání"
+
+msgid "Albanian lek"
+msgstr "Albánský lek"
+
+msgid "Armenian dram"
+msgstr "Arménský dram"
+
+msgid "Netherlands Antillean guilder"
+msgstr "Nizozemský antilejský gulden"
+
+msgid "Angolan kwanza"
+msgstr "Angolská kwanza"
+
+msgid "Argentine peso"
+msgstr "Agentinské peso"
+
+msgid "Australian dollar"
+msgstr "Australský dolar"
+
+msgid "Aruban florin"
+msgstr "Arubanský florin"
+
+msgid "Azerbaijani manat"
+msgstr "Ázerbájdžánský manát"
+
+msgid "Bosnia and Herzegovina convertible mark"
+msgstr "Bosna a Hercegovina konvertibilní marka"
+
+msgid "Barbadian dollar"
+msgstr "Barbadiánský dolar"
+
+msgid "Bangladeshi taka"
+msgstr "Bangladéšská taka"
+
+msgid "Bulgarian lev"
+msgstr "Bulharský Lev"
+
+msgid "Bahraini dinar"
+msgstr "Bahrajnský dinár"
+
+msgid "Burundian franc"
+msgstr "Burundský frank"
+
+msgid "Bermudian dollar"
+msgstr "Bermudský dolar"
+
+msgid "Brunei dollar"
+msgstr "Brunejský dolar"
+
+msgid "Bolivian boliviano"
+msgstr "Bolivijský boliviano"
+
+msgid "Brazilian real"
+msgstr "Brazilský real"
+
+msgid "Bahamian dollar"
+msgstr "Bahamský dolar"
+
+msgid "Bitcoin"
+msgstr ""
+
+msgid "Bhutanese ngultrum"
+msgstr "Bhutánský ngultrum"
+
+msgid "Botswana pula"
+msgstr "Botswanská pula"
+
+msgid "Belarusian ruble (old)"
+msgstr "Běloruský rubl (starý)"
+
+msgid "Belarusian ruble"
+msgstr "Běloruský rubl"
+
+msgid "Belize dollar"
+msgstr "Belizejský dolar"
+
+msgid "Canadian dollar"
+msgstr "Kanadský dolar"
+
+msgid "Congolese franc"
+msgstr "Konžský frank"
+
+msgid "Swiss franc"
+msgstr "Švycarský Frank"
+
+msgid "Chilean peso"
+msgstr "Chilské peso"
+
+msgid "Chinese yuan"
+msgstr "Čínský jüan"
+
+msgid "Colombian peso"
+msgstr "Kolumbijské peso"
+
+msgid "Costa Rican col&oacute;n"
+msgstr "Kostarický col&oacute;n"
+
+msgid "Cuban convertible peso"
+msgstr "Kubánské konvertibilní peso"
+
+msgid "Cuban peso"
+msgstr "Kubánské peso"
+
+msgid "Cape Verdean escudo"
+msgstr ""
+
+msgid "Czech koruna"
+msgstr "Česká koruna"
+
+msgid "Djiboutian franc"
+msgstr "Džibutský frank"
+
+msgid "Danish krone"
+msgstr "Dánská koruna"
+
+msgid "Dominican peso"
+msgstr "Dominikánské peso"
+
+msgid "Algerian dinar"
+msgstr "Alžírský dinár"
+
+msgid "Egyptian pound"
+msgstr "Egyptská libra"
+
+msgid "Eritrean nakfa"
+msgstr ""
+
+msgid "Ethiopian birr"
+msgstr "Etiopský birr"
+
+msgid "Fijian dollar"
+msgstr "Fidžijský dolar"
+
+msgid "Falkland Islands pound"
+msgstr "Falklandské ostrovy libra"
+
+msgid "Georgian lari"
+msgstr "Gruzínské lari"
+
+msgid "Guernsey pound"
+msgstr "Guernseyova libra"
+
+msgid "Ghana cedi"
+msgstr ""
+
+msgid "Gibraltar pound"
+msgstr "Gibraltarská libra"
+
+msgid "Gambian dalasi"
+msgstr "Gambijský dalasi"
+
+msgid "Guinean franc"
+msgstr "Guinejský frank"
+
+msgid "Guatemalan quetzal"
+msgstr "Guatemalský quetzal"
+
+msgid "Guyanese dollar"
+msgstr "Guyanský dolar"
+
+msgid "Hong Kong dollar"
+msgstr "Hongkongský dolar"
+
+msgid "Honduran lempira"
+msgstr "Honduraská lempira"
+
+msgid "Croatian kuna"
+msgstr "Chorvatská kuna"
+
+msgid "Haitian gourde"
+msgstr "Haitský gourde"
+
+msgid "Hungarian forint"
+msgstr "Maďarský forint"
+
+msgid "Indonesian rupiah"
+msgstr "Iindonéská rupie"
+
+msgid "Israeli new shekel"
+msgstr "Nový izraelský šekel"
+
+msgid "Manx pound"
+msgstr "Manská libra"
+
+msgid "Indian rupee"
+msgstr "Indická rupie"
+
+msgid "Iraqi dinar"
+msgstr "Irácký dinár"
+
+msgid "Iranian rial"
+msgstr "Íránský riál"
+
+msgid "Iranian toman"
+msgstr "Íránský riál"
+
+msgid "Icelandic kr&oacute;na"
+msgstr "Islandská koruna"
+
+msgid "Jersey pound"
+msgstr "Jerseyská libra"
+
+msgid "Jamaican dollar"
+msgstr "Jamajský dolar"
+
+msgid "Jordanian dinar"
+msgstr "Jordánský dinár"
+
+msgid "Japanese yen"
+msgstr "Japonský jen"
+
+msgid "Kenyan shilling"
+msgstr "Keňský šilink"
+
+msgid "Kyrgyzstani som"
+msgstr "Kyrgyzský som"
+
+msgid "Cambodian riel"
+msgstr "Kambodžský riel"
+
+msgid "Comorian franc"
+msgstr "Komorský frank"
+
+msgid "North Korean won"
+msgstr "Severokorejský won"
+
+msgid "South Korean won"
+msgstr "Jihokorejský won"
+
+msgid "Kuwaiti dinar"
+msgstr "Kuvajtský dinár"
+
+msgid "Cayman Islands dollar"
+msgstr "Kajmanský dolar"
+
+msgid "Kazakhstani tenge"
+msgstr "Tenge"
+
+msgid "Lao kip"
+msgstr "Lao Kip"
+
+msgid "Lebanese pound"
+msgstr "Libanonská libra"
+
+msgid "Sri Lankan rupee"
+msgstr "Srílanská rupie"
+
+msgid "Liberian dollar"
+msgstr "Liberijský dolar"
+
+msgid "Lesotho loti"
+msgstr "Lesothský loti"
+
+msgid "Libyan dinar"
+msgstr "Libyjský dinár"
+
+msgid "Moroccan dirham"
+msgstr "Marocký dirham"
+
+msgid "Moldovan leu"
+msgstr "Moldavské leu"
+
+msgid "Malagasy ariary"
+msgstr "Malgašský ariary"
+
+msgid "Macedonian denar"
+msgstr "Makedonský denár"
+
+msgid "Burmese kyat"
+msgstr "Myanmarský kyat"
+
+msgid "Mongolian t&ouml;gr&ouml;g"
+msgstr "Tugrik"
+
+msgid "Macanese pataca"
+msgstr "Macajská pataca"
+
+msgid "Mauritanian ouguiya"
+msgstr "Mauritánská ukíjá"
+
+msgid "Mauritian rupee"
+msgstr "Mauricijská rupie"
+
+msgid "Maldivian rufiyaa"
+msgstr "Maledivská rupie"
+
+msgid "Malawian kwacha"
+msgstr "Malawijská kwacha"
+
+msgid "Mexican peso"
+msgstr "Mexické peso"
+
+msgid "Malaysian ringgit"
+msgstr "Malajsijský ringgit"
+
+msgid "Mozambican metical"
+msgstr "Mosambický metical"
+
+msgid "Namibian dollar"
+msgstr "Namibijský dolar"
+
+msgid "Nigerian naira"
+msgstr "Nigerijský Naira"
+
+msgid "Nicaraguan c&oacute;rdoba"
+msgstr "Nikaragujská c&oacute;rdoba"
+
+msgid "Norwegian krone"
+msgstr "Norská koruna"
+
+msgid "Nepalese rupee"
+msgstr "Nepálská rupie"
+
+msgid "New Zealand dollar"
+msgstr "Novozélandský dolar"
+
+msgid "Omani rial"
+msgstr "Ománský rial"
+
+msgid "Panamanian balboa"
+msgstr "Panamská balboa"
+
+msgid "Sol"
+msgstr ""
+
+msgid "Papua New Guinean kina"
+msgstr "Papuánská nová kina"
+
+msgid "Philippine peso"
+msgstr "Filipínské peso"
+
+msgid "Pakistani rupee"
+msgstr "Pákistánská rupie"
+
+msgid "Polish z&#x142;oty"
+msgstr "Polský z&#x142;otý"
+
+msgid "Transnistrian ruble"
+msgstr "Podněsterský rubl"
+
+msgid "Paraguayan guaran&iacute;"
+msgstr "Paraguayský guaran&iacute;"
+
+msgid "Qatari riyal"
+msgstr "Katarský riál"
+
+msgid "Romanian leu"
+msgstr "Rumunský leu"
+
+msgid "Serbian dinar"
+msgstr "Srbský dinár"
+
+msgid "Russian ruble"
+msgstr "Ruský rubl"
+
+msgid "Rwandan franc"
+msgstr "Rwandský frank"
+
+msgid "Saudi riyal"
+msgstr "Saudský riál"
+
+msgid "Solomon Islands dollar"
+msgstr "Šalamounský dolar"
+
+msgid "Seychellois rupee"
+msgstr "Seychelská rupie"
+
+msgid "Sudanese pound"
+msgstr "Súdánská libra"
+
+msgid "Swedish krona"
+msgstr "Švédská koruna"
+
+msgid "Singapore dollar"
+msgstr "Singapurský dolar"
+
+msgid "Saint Helena pound"
+msgstr "Svatohelenská libra"
+
+msgid "Sierra Leonean leone"
+msgstr "Sierro-Leonský leone"
+
+msgid "Somali shilling"
+msgstr "Somálský šilink"
+
+msgid "Surinamese dollar"
+msgstr "Surinamský dolar"
+
+msgid "South Sudanese pound"
+msgstr "Jihosúdánská libra"
+
+msgid "S&atilde;o Tom&eacute; and Pr&iacute;ncipe dobra"
+msgstr "Svatotomášská dobra"
+
+msgid "Syrian pound"
+msgstr "Syrská libra"
+
+msgid "Swazi lilangeni"
+msgstr "Svazijský lilangeni"
+
+msgid "Thai baht"
+msgstr "Thaiský baht"
+
+msgid "Tajikistani somoni"
+msgstr "Tádžické somoni"
+
+msgid "Turkmenistan manat"
+msgstr "Turkmenistánská manata"
+
+msgid "Tunisian dinar"
+msgstr "Tuniský dinár"
+
+msgid "Tongan pa&#x2bb;anga"
+msgstr "Tonžská ppa&#x2bb;anga"
+
+msgid "Turkish lira"
+msgstr "Turecká lira"
+
+msgid "Trinidad and Tobago dollar"
+msgstr "Dolar Trinidadu a Tobaga"
+
+msgid "New Taiwan dollar"
+msgstr "Nový tchajwanský dolar"
+
+msgid "Tanzanian shilling"
+msgstr "Tanzánský šilink"
+
+msgid "Ukrainian hryvnia"
+msgstr "Ukrajinská hřivna"
+
+msgid "Ugandan shilling"
+msgstr "Ugandský šilink"
+
+msgid "Uruguayan peso"
+msgstr "Uruguayské peso"
+
+msgid "Uzbekistani som"
+msgstr "Uzbekistánský sum"
+
+msgid "Venezuelan bol&iacute;var"
+msgstr "Venezuelský bol&iacute;var"
+
+msgid "Bol&iacute;var soberano"
+msgstr ""
+
+msgid "Vietnamese &#x111;&#x1ed3;ng"
+msgstr "Vietnamský dong"
+
+msgid "Vanuatu vatu"
+msgstr ""
+
+msgid "Samoan t&#x101;l&#x101;"
+msgstr "Samojská tala"
+
+msgid "Central African CFA franc"
+msgstr "Středoafrický CFA frank"
+
+msgid "East Caribbean dollar"
+msgstr "Východokaribský dolar"
+
+msgid "West African CFA franc"
+msgstr "Západoafrický CFA frank"
+
+msgid "CFP franc"
+msgstr "CFP frank"
+
+msgid "Yemeni rial"
+msgstr "Jemenský rial"
+
+msgid "South African rand"
+msgstr "Jihoafrický rand"
+
+msgid "Zambian kwacha"
+msgstr "Zambijská kwacha"
+
+msgid "Before"
+msgstr "Před"
+
+msgid "After"
+msgstr "Po"
+
+msgid "Before with space"
+msgstr "Dříve s prostorem"
+
+msgid "After with space"
+msgstr "Poté s prostorem"
+
+msgid "First name is required."
+msgstr "Je vyžadováno jméno."
+
+msgid "Last name is required."
+msgstr "Je vyžadováno příjmení."
+
+msgid "Email is required."
+msgstr "Je vyžadován email."
+
+msgid "Phone is required."
+msgstr "Je vyžadováno telefonní číslo."
+
+msgid "Country of residence"
+msgstr "Země trvalého pobytu"
+
+msgid "Country is required."
+msgstr "Je vyžadována země."
+
+msgid "Address is required."
+msgstr "Vaše adresa je požadována."
+
+msgid "City is required."
+msgstr "Město je požadováno."
+
+msgid "State is required."
+msgstr "Region je vyžadován."
+
+msgid "Postcode is required."
+msgstr "Poštovní směrovací číslo je požadováno."
+
+msgid "Note is required."
+msgstr "Poznámka je požadována."
+
+msgid "Check-in"
+msgstr "Příjezd"
+
+msgid "Check-out"
+msgstr "Odjezd"
+
+#. translators: The value a hotel wishes to sell their rooms. Also called the Cost, Value, Tariff or Room charge.
+msgid "Rate"
+msgstr "Hodnocení"
+
+msgid "Adults/Guests"
+msgstr "Dospělých/Hostů"
+
+msgid "Full Guest Name"
+msgstr "Celé jméno "
+
+msgid "Accommodation Subtotal"
+msgstr "Mezisoučet ubytování"
+
+msgid "Total Accommodation Taxes"
+msgstr ""
+
+msgid "Total Fees"
+msgstr ""
+
+msgid "Services Subtotal"
+msgstr "Mezisoučet za služby"
+
+msgid "Total Service Taxes"
+msgstr ""
+
+msgid "Total Fee Taxes"
+msgstr ""
+
+msgid "Discount"
+msgstr "Sleva"
+
+msgid "Total"
+msgstr "Celkem"
+
+msgid "Paid"
+msgstr "Zaplaceno"
+
+msgid "Payment Details"
+msgstr "Podrobnosti o platbě"
+
+msgid "Square Meter"
+msgstr "Metr čtvereční"
+
+msgid "Square Foot"
+msgstr "Čtvereční stopa"
+
+msgid "Square Yard"
+msgstr "čtvereční yard"
+
+msgid "m²"
+msgstr ""
+
+msgid "ft²"
+msgstr ""
+
+msgid "yd²"
+msgstr ""
+
+msgid "User Approval Time setted in Hotel Booking Settings"
+msgstr "Doba čekání na schválení uživatelem, která je nastavena v Nastaveních rezervace hotelu"
+
+msgid "Pending Payment Time set in Hotel Booking Settings"
+msgstr "Doba čekání na platbu, která je nastavena v Nastaveních rezervace hotelu"
+
+msgid "Interval for automatic cleaning of synchronization logs."
+msgstr "Interval pro automatické čištění a synchronizaci logů."
+
+msgid "x %d guest"
+msgid_plural "x %d guests"
+msgstr[0] "x %d host"
+msgstr[1] "x %d hosté"
+msgstr[2] "x %d hostů"
+msgstr[3] ""
+
+msgid "x %d time"
+msgid_plural "x %d times"
+msgstr[0] "x %d"
+msgstr[1] "x %d krát"
+msgstr[2] "x %d krát"
+msgstr[3] ""
+
+msgid "Please select columns to export."
+msgstr "Vyberte sloupce, které chcete exportovat."
+
+msgid "Disable this email notification"
+msgstr "Deaktivovat oznámení o tomto e-mailu"
+
+msgid "Subject"
+msgstr "Předmět"
+
+msgid "Header"
+msgstr "Hlavička"
+
+msgid "Email Template"
+msgstr "Šablona e-mailu"
+
+msgid "\"%s\" email will not be sent: there is no customer email in the booking."
+msgstr "\"%s\" e-mail nebude odeslán: klientův email nebyl uveden."
+
+msgid "Deprecated tags in header of %s"
+msgstr "Zastaralé tagy v záhlaví %s"
+
+msgid "Deprecated tags in subject of %s"
+msgstr "Zastaralé tagy v předmětu %s"
+
+msgid "Deprecated tags in template of %s"
+msgstr "Zastaralé tagy v šabloně %s"
+
+msgid "Recipients"
+msgstr "Příjemci"
+
+msgid "You can use multiple comma-separated emails"
+msgstr "Můžete použít více e-mailů oddělených čárkami"
+
+msgid "\"%s\" mail was sent to admin."
+msgstr "\"%s\" e-mail byl odeslán administrátoru."
+
+msgid "\"%s\" mail sending to admin is failed."
+msgstr "\"%s\" E-Mail pro administrátora není odeslán."
+
+msgid "Booking Cancelled"
+msgstr "Rezervace je zrušena"
+
+msgid "%site_title% - Booking #%booking_id% Cancelled"
+msgstr "%site_title% - Rezervace #%booking_id% Cancelled"
+
+msgid "Email that will be sent to Admin when customer cancels booking."
+msgstr "Email, který obdrží administrátor, pokud klient stornuje rezervaci."
+
+msgid "Cancelled Booking Email"
+msgstr "Email Zrušení rezervace"
+
+msgid "Booking Confirmed"
+msgstr "Rezervace je potvrzena "
+
+msgid "%site_title% - Booking #%booking_id% Confirmed"
+msgstr "%site_title% - Rezervace #%booking_id% potvrzena"
+
+msgid "Email that will be sent to Admin when payment is completed."
+msgstr "Email, který bude odeslán administrátorovi, když je platba hotová."
+
+msgid "Approved Booking Email (via payment)"
+msgstr "Potvrzovací email o rezervaci (přes platbu)"
+
+msgid "Email that will be sent to Admin when customer confirms booking."
+msgstr "Email, který obdrží administrátor, pokud klient potvrdí rezervaci."
+
+msgid "Approved Booking Email"
+msgstr "Email Rezervace je schválená"
+
+msgid "Confirm new booking"
+msgstr "Potvrdit novou rezervaci "
+
+msgid "%site_title% - New booking #%booking_id%"
+msgstr "%site_title% - Nová rezervace #%booking_id%"
+
+msgid "Email that will be sent to administrator after booking is placed."
+msgstr "Email, který obdrží administrátor, pokud je rezervace provedena."
+
+msgid "Pending Booking Email"
+msgstr "Email Rezervace čeká na potvrzení"
+
+msgid "Your booking is approved"
+msgstr "Vaše rezervace je schválená"
+
+msgid "%site_title% - Your booking #%booking_id% is approved"
+msgstr "%site_title% - Vaše rezervace #%booking_id je schválená"
+
+msgid "Email that will be sent to customer when booking is approved."
+msgstr "Email, který obdrží klient, pokud je rezervace je schválená."
+
+msgid "\"%s\" mail was sent to customer."
+msgstr "\"%s\" e-mail byl odeslán zákazníkovi."
+
+msgid "\"%s\" mail sending is failed."
+msgstr "\"%s\" Odeslání e-mailu se nezdařilo."
+
+msgid "Your booking is cancelled"
+msgstr "Vaše rezervace je zrušena"
+
+msgid "%site_title% - Your booking #%booking_id% is cancelled"
+msgstr "%site_title% - Vaše rezervace #%booking_id je zrušena"
+
+msgid "Email that will be sent to customer when booking is cancelled."
+msgstr "Email, který obdrží klient, když stornuje rezervaci."
+
+msgid "Confirm your booking"
+msgstr "Potvrdit svou rezervaci "
+
+msgid "%site_title% - Confirm your booking #%booking_id%"
+msgstr "%site_title% - Potvrdit svou rezervaci #%booking_id%"
+
+msgid "This email is sent when \"Booking Confirmation Mode\" is set to Customer confirmation via email."
+msgstr "Tento e-mail se odešle, když je „Režim potvrzení rezervace“ nastaven na potvrzení zákazníka e-mailem."
+
+msgid "Email that will be sent to customer after booking is placed."
+msgstr "Email, který obdrží klient, pokud je rezervace provedena."
+
+msgid "New Booking Email (Confirmation by User)"
+msgstr "Email Nová rezervace (Potvrzení uživatelem)"
+
+msgid "Your booking is placed"
+msgstr "Vaše rezervace je provedena"
+
+msgid "%site_title% - Booking #%booking_id% is placed"
+msgstr "%site_title% - Rezervace #%booking_id% je provedena"
+
+msgid "This email is sent when \"Booking Confirmation Mode\" is set to Admin confirmation."
+msgstr "E-mail bude odeslán, pokud \"Způsob potvrzení rezervace\" je nastaven jako Ptvrzení adminem."
+
+msgid "New Booking Email (Confirmation by Admin)"
+msgstr "Email Nová rezervace (Potvrzení administrátorem)"
+
+msgid "Welcome"
+msgstr ""
+
+msgid "%site_title% - account details"
+msgstr ""
+
+msgid "Email that will be sent to a customer after they registered on your site."
+msgstr ""
+
+msgid "Customer Registration Email"
+msgstr ""
+
+msgid "Possible tags:"
+msgstr "Případně tagy:"
+
+msgid "Deprecated."
+msgstr "Zastaralé. "
+
+msgid "none"
+msgstr "žádný"
+
+msgid "User Cancellation Link"
+msgstr "Zrušení uživatelem Odkaz"
+
+msgid "Site title (set in Settings > General)"
+msgstr "Nadpis stránky (nastavit v nastaveních > Všeobecná)"
+
+msgid "Booking ID"
+msgstr "ID rezervace"
+
+msgid "Booking Edit Link"
+msgstr "Editace rezervace Odkaz"
+
+msgid "Booking Total Price"
+msgstr "Celková cena za rezervaci"
+
+msgid "Customer First Name"
+msgstr "Jméno zákazníka"
+
+msgid "Customer Last Name"
+msgstr "Příjmení zákazníka"
+
+msgid "Customer Email"
+msgstr "Email zákazníka"
+
+msgid "Customer Phone"
+msgstr "Telefonní číslo zákazníka"
+
+msgid "Customer Country"
+msgstr "Země zákazníka"
+
+msgid "Customer Address"
+msgstr "Adresa zákazníka"
+
+msgid "Customer City"
+msgstr "Město zákazníka"
+
+msgid "Customer State/County"
+msgstr "Stát zákazníka"
+
+msgid "Customer Postcode"
+msgstr "PSČ zákazníka"
+
+msgid "Reserved Accommodations Details"
+msgstr "Podrobnosti o rezervovaných ubytováních"
+
+msgid "Booking Details"
+msgstr "Detaily rezervace"
+
+msgid "Confirmation Link"
+msgstr "Potvrzovací odkaz"
+
+msgid "Confirmation Link Expiration Time ( UTC )"
+msgstr "Potvrzovací odkaz je platný do ( UTC )"
+
+msgid "Cancellation Details (if enabled)"
+msgstr "Podrobnosti o zrušení (pokud je povoleno)"
+
+msgid "The total amount of payment"
+msgstr ""
+
+msgid "The unique ID of payment"
+msgstr "Unikátní ID platby"
+
+msgid "The method of payment"
+msgstr "Platební metoda"
+
+msgid "Payment instructions"
+msgstr "Platební instrukce"
+
+msgid "User login"
+msgstr ""
+
+msgid "User password"
+msgstr ""
+
+msgid "Link to My Account page"
+msgstr ""
+
+msgid "My Account"
+msgstr ""
+
+msgid "Accommodation Type Link"
+msgstr "Typ ubytování Odkaz"
+
+msgid "Accommodation Type Title"
+msgstr "Typ ubytování Nadpis"
+
+msgid "Accommodation Type Categories"
+msgstr "Typ ubytování kategorie"
+
+msgid "Accommodation Type Bed"
+msgstr "Ubytování typ postele"
+
+msgid "Accommodation Rate Title"
+msgstr "Hodnocení ubytování Nadpis"
+
+msgid "Accommodation Rate Description"
+msgstr "Hodnocení ubytování Opis"
+
+msgid "Sequential Number of Accommodation"
+msgstr "Sekvenční počet ubytování"
+
+msgid "This coupon has expired."
+msgstr "Kupón již vypršel"
+
+msgid "Sorry, this coupon is not applicable to your booking contents."
+msgstr "Omlouváme se, kupón nelze uplatnit na rezervační obsah."
+
+msgid "Coupon usage limit has been reached."
+msgstr "Limit použití kupónu byl dosažen."
+
+msgid " &#215; %d night"
+msgid_plural " &#215; %d nights"
+msgstr[0] " &#215; %d noc"
+msgstr[1] " &#215; %d noci"
+msgstr[2] " &#215; %d nocí"
+msgstr[3] ""
+
+msgid "%d adult"
+msgid_plural "%d adults"
+msgstr[0] "%d dospělý"
+msgstr[1] "%d dospělé"
+msgstr[2] "%d dospělých"
+msgstr[3] ""
+
+msgid "%d guest"
+msgid_plural "%d guests"
+msgstr[0] "%d host"
+msgstr[1] "%d hosté"
+msgstr[2] "%d hostů"
+msgstr[3] ""
+
+msgid " &#215; %d time"
+msgid_plural " &#215; %d times"
+msgstr[0] "&#215; %d "
+msgstr[1] "&#215; %d krát"
+msgstr[2] "&#215; %d krát"
+msgstr[3] ""
+
+msgid "Per Instance"
+msgstr "Za instanci"
+
+msgid "Maximum execution time is set to %d seconds."
+msgstr "Maximální doba realizace je nastavena na %d sekund. "
+
+msgid "%d URL pulled for parsing."
+msgid_plural "%d URLs pulled for parsing."
+msgstr[0] "%d URL adresa byla zaslána na analýzu."
+msgstr[1] "%d URL adresy byly zaslány na analýzu."
+msgstr[2] "%d URL adres bylo zasláno na analýzu."
+msgstr[3] ""
+
+msgid "Skipped. No URLs found for parsing."
+msgstr "Přeskočeno. Nebyla nalezena žádná URL adresa k analýze."
+
+msgid "Cannot read uploaded file"
+msgstr "\"Nelze přečíst nahraný soubor"
+
+msgid "We will need to check %d previous booking after importing and remove it if the booking is outdated."
+msgid_plural "We will need to check %d previous bookings after importing and remove the outdated ones."
+msgstr[0] "Po importu budeme muset zkontrolovat %d předchozí rezervaci a pokud je rezervace zastaralá, odstranit ji."
+msgstr[1] "Po importu budeme muset zkontrolovat %d předchozí rezervace a pokud jsou rezervace zastaralé, odstranit je."
+msgstr[2] "Po importu budeme muset zkontrolovat %d předchozích rezervací a pokud jsou rezervace zastaralé, odstranit je."
+msgstr[3] ""
+
+msgctxt "%s - calendar URI or calendar filename"
+msgid "%1$d event found in calendar %2$s"
+msgid_plural "%1$d events found in calendar %2$s"
+msgstr[0] "%1$d Událost nebyla nalezena v kalendáři %2$s"
+msgstr[1] "%1$d Události nebyly nalezeny v kalendáři %2$s"
+msgstr[2] "%1$d Události nebyly nalezeny v kalendáři %2$s"
+msgstr[3] ""
+
+msgctxt "%s - calendar URI or calendar filename"
+msgid "Calendar source is empty (%s)"
+msgstr "Zdrojový kalendář je prázdný (%s)"
+
+msgctxt "%s - calendar URI or calendar filename"
+msgid "Calendar file is not empty, but there are no events in %s"
+msgstr "Soubor kalendáře není prázdný, ale nejsou v %s žádné události"
+
+msgid "Error while loading calendar (%1$s): %2$s"
+msgstr "Došlo k chybě při načítání kalendáře (%1$s): %2$s"
+
+msgctxt "%s - error description"
+msgid "Parse error. %s"
+msgstr "Rozbor chyby. %s"
+
+msgid "Skipped. Outdated booking #%d already removed."
+msgstr "Přeskočeno. Zastaralá rezervace #%d již byla odebrána."
+
+msgid "Skipped. Booking #%d updated with new data."
+msgstr "Přeskočeno. Rezervace #%d byla aktualizována."
+
+msgid "The outdated booking #%d has been removed."
+msgstr "Zastaralá rezervace #%d byla odebrána."
+
+msgid "Skipped. Event from %1$s to %2$s has passed."
+msgstr ""
+
+msgid "New booking #%1$d. The dates from %2$s to %3$s are now blocked."
+msgstr ""
+
+msgid "Success. Booking #%d updated with new data."
+msgstr "Úspěch. Rezervace #%d byla aktualizována."
+
+msgid "Skipped. The dates from %1$s to %2$s are already blocked."
+msgstr "Přeskočeno. Data od  %1$s do %2$s jsou již blokována."
+
+msgid "Success. Booking #%1$d updated with new data. Removed %2$d outdated booking."
+msgid_plural "Success. Booking #%1$d updated with new data. Removed %2$d outdated bookings."
+msgstr[0] "Úspěch. Rezervace #%1$d byla aktualizována o nová data. Odebrána %2$d zastaralá rezervace."
+msgstr[1] "Úspěch. Rezervace #%1$d byla aktualizována o nová data. Odebrány %2$d zastaralé rezervace."
+msgstr[2] "Úspěch. Rezervace #%1$d byla aktualizována o nová data. Odebráno %2$d zastaralých rezervací."
+msgstr[3] ""
+
+msgid "Success. Booking #%1$d updated with new data."
+msgstr "Úspěch. Rezervace #%1$d byla aktualizována."
+
+msgid "Cannot import new event. Dates from %1$s to %2$s are partially blocked by booking %3$s."
+msgid_plural "Cannot import new event. Dates from %1$s to %2$s are partially blocked by bookings %3$s."
+msgstr[0] "Nelze importovat novou událost. Data od %1$s do %2$s jsou částečně blockována jinou rezervací %3$s."
+msgstr[1] "Nelze importovat novou událost. Data od %1$s do %2$s jsou částečně blockována jinými rezervacemi %3$s."
+msgstr[2] "Nelze importovat novou událost. Data od %1$s do %2$s jsou částečně blockována jinými rezervacemi %3$s."
+msgstr[3] ""
+
+msgid "Booking imported with UID %1$s.<br />Summary: %2$s.<br />Description: %3$s.<br />Source: %4$s."
+msgstr "Rezervace importována s UID %1$s.<br />Celkem: %2$s.<br />Popis: %3$s.<br />Zdroj: %4$s."
+
+msgid "Process Information"
+msgstr "Informace o zpracování"
+
+msgid "Total bookings: %s"
+msgstr "Celkem rezervací: %s"
+
+msgid "Success bookings: %s"
+msgstr "úspěšné rezervace: %s"
+
+msgid "Skipped bookings: %s"
+msgstr "Přeskočené rezervace: %s"
+
+msgid "Failed bookings: %s"
+msgstr "Neúspěšné rezervace: %s"
+
+msgid "Removed bookings: %s"
+msgstr "Odebrat rezervace: %s"
+
+msgid "Expand All"
+msgstr "Rozbalit všechno"
+
+msgid "Collapse All"
+msgstr "Sbalit všechno"
+
+msgid "All done! %1$d booking was successfully added."
+msgid_plural "All done! %1$d bookings were successfully added."
+msgstr[0] "Všechno je hotovo! %1$d rezervace byla úspěšně přidána."
+msgstr[1] "Všechno je hotovo! %1$d rezervace byly úspěšně přidány."
+msgstr[2] "Všechno je hotovo! %1$d rezervace byly úspěšně přidány."
+msgstr[3] ""
+
+msgid " There was %2$d failure."
+msgid_plural " There were %2$d failures."
+msgstr[0] "Došlo k %2$d selhání. "
+msgstr[1] "Došlo k %2$d selháním. "
+msgstr[2] "Došlo k %2$d selháním."
+msgstr[3] ""
+
+msgid "Dismiss "
+msgstr "Propustit"
+
+msgid "Your License Key is not active. Please, <a href='%s'>activate your License Key</a> to get plugin updates"
+msgstr "Licenční klíč není aktivní. Prosím, <a href='%s'>aktivujte licenční klíč</a> pro přijímání pravidelných aktualizací pluginu"
+
+msgid "Hotel Booking Plugin"
+msgstr ""
+
+msgid "Your database is being updated in the background."
+msgstr "Vaše databáze se aktualizuje na pozadí."
+
+msgid "Taking a while? Click here to run it now."
+msgstr "Dlouho čekáte? Klikněte zde pro spuštění."
+
+msgid "Add \"Booking Confirmation\" shortcode to your \"Booking Confirmed\" and \"Reservation Received\" pages to show more details about booking or payment.<br/>Click \"Update Pages\" to apply all changes automatically or skip this notice and add \"Booking Confirmation\" shortcode manually.<br/><b><em>This action will replace the whole content of the pages.</em></b>"
+msgstr "Vložte odkaz (shortcode) na stránku \"Potvrzení rezervace\" na stránku \"Rezervace potvrzena\" a \"Rezervace přijata\" pro zobrazení detailů o rezervaci a platbě.<br/>Klikněte na \"Aktualizace stránek\" pro použití všech změn automaticky nebo přeskočte toto upozornění a přidejte odkaz na  \"Potvrzení rezervace\" manuálně.<br/><b><em>Tato akce nahradí celý obsah těchto stránek.</em></b>"
+
+msgid "Update Pages"
+msgstr "Aktualizovat stránky"
+
+msgid "Skip"
+msgstr "Přeskočit"
+
+msgid "Direct Bank Transfer"
+msgstr "Přímý bankovní převod"
+
+msgid "Make your payment directly into our bank account. Please use your Booking ID as the payment reference."
+msgstr "Proveďte platbu přímo na náš bankovní účet. Jako variabilní symbol uveďte číslo Vaší rezervace."
+
+msgid "Beanstream/Bambora"
+msgstr ""
+
+msgid "Use the card number %1$s with CVC %2$s and a valid expiration date to test a payment."
+msgstr "Uveďte číslo karty %1$s s CVC %2$s platné datum vypršení platnosti pro ověření platby."
+
+msgid "Pay by Card (Beanstream)"
+msgstr "Zaplatit kartou (Beanstream)"
+
+msgid "Pay with your credit card via Beanstream."
+msgstr "Zaplatit kreditní kartou přes Beanstream."
+
+msgid "%1$s is enabled, but the <a href=\"%2$s\">Force Secure Checkout</a> option is disabled. Please enable SSL and ensure your server has a valid SSL certificate. Otherwise, %1$s will only work in Test Mode."
+msgstr "%1$s je aktivován, ale volba <a href=\"%2$s\">Force Secure Checkout</a> je deaktivována. Aktivujte SSL a ujistěte se, že váš server má platný certifikát SSL. V opačném případě %1$s budete pracovat v testovacím režimu."
+
+msgid "The <a href=\"%2$s\">Force Secure Checkout</a> option is disabled. Please enable SSL and ensure your server has a valid SSL certificate. Otherwise, %1$s will only work in Test Mode."
+msgstr "Stripe je povolen, ale možnost <a href=\"%2$s\"> Platné Bezpečné platby </a> je zakázána. Povolte SSL a ujistěte se, že váš server má platný certifikát SSL. V opačném případě %1$s bude fungovat pouze v testovacím režimu."
+
+msgid "Beanstream"
+msgstr ""
+
+msgid "Merchant ID"
+msgstr "ID obchodníka"
+
+msgid "Your Merchant ID can be found in the top-right corner of the screen after logging in to the Beanstream Back Office"
+msgstr "Své ID obchodníka naleznete v pravém horním rohu obrazovky po přihlášení do Beanstream Back Office"
+
+msgid "Payments Passcode"
+msgstr "Přístupový kód pro platbu"
+
+msgid "To generate the passcode, navigate to Administration > Account Settings > Order Settings in the sidebar, then scroll to Payment Gateway > Security/Authentication"
+msgstr "Pokud si chcete vygenerovat přístupový kód, přejděte na sekci Administrace > Nastavení účtu > Nastavení objednávky v postranním panelu, pak přejděte na sekci Platební brána > Bezpečnost/Ověření"
+
+msgid "Beanstream Payment Error: %s"
+msgstr "Chyba při platbě přes Beanstream: %s"
+
+msgid "Payment single use token is required."
+msgstr "Pro jednorázovou platbu je vyžadován token."
+
+msgid "Braintree"
+msgstr ""
+
+msgid "Webhooks Destination URL: %s"
+msgstr "Cílové URL adresy Webhooks: %s"
+
+msgid "Pay by Card (Braintree)"
+msgstr "Platit kartou (Braintree)"
+
+msgid "Pay with your credit card via Braintree."
+msgstr "Platit kreditní kartou přes Braintree."
+
+msgid "Braintree gateway cannot be enabled due to some problems: %s"
+msgstr "Brána Braintree nemůže být aktivována z důvodu některých problémů: %s"
+
+msgid "In your Braintree account select Account > My User > View Authorizations."
+msgstr "Ve svém účtu v Braintree vybrte Účet> Můj uživatel> Zobrazit oprávnění."
+
+msgid "Public Key"
+msgstr "Veřejný klíč"
+
+msgid "Private Key"
+msgstr "Soukromý klíč"
+
+msgid "Merchant Account ID"
+msgstr "ID účtu obchodníka"
+
+msgid "In case the site currency differs from default currency in your Braintree account, you can set specific merchant account to avoid <a href=\"%s\">complications with currencty conversions</a>. Otherwise leave the field empty."
+msgstr "Pokud se měna webu stránky liší od výchozí měny v účtu Braintree, můžete nastavit speciální účet pro obchodníka, abyste se vyhnuli <a href=\"%s\">komplikacím při měnových konverzích</a>. V opačném případě nechte pole prázdné."
+
+msgid "Braintree submitted for settlement (Transaction ID: %s)"
+msgstr "Braintree vypořádání odevzdáno (ID transakce: %s)"
+
+msgid "Braintree Payment Error: %s"
+msgstr "Chyba při platbě přes Braintree: %s"
+
+msgid "Payment method nonce is required."
+msgstr "Způsob platby není vyžadován."
+
+msgid "Payment dispute opened"
+msgstr "Spor o platbu byl otevřen"
+
+msgid "Payment dispute lost"
+msgstr "Spor o platbu byl prohrán"
+
+msgid "Payment dispute won"
+msgstr "Spor o platbu byl vyhrán"
+
+msgid "Payment refunded in Braintree"
+msgstr "Platba přes Braintree byla vrácena"
+
+msgid "Braintree transaction voided"
+msgstr "Transakce přes Braintree byla anulována."
+
+msgid "Pay on Arrival"
+msgstr "Platba při příjezdu"
+
+msgid "Pay with cash on arrival."
+msgstr "Platba hotově při příjezdu"
+
+msgid "%s is a required field."
+msgstr "%s je povinné pole."
+
+msgid "%s is not a valid email address."
+msgstr "%s není platná e-mailová adresa."
+
+#. translators: %s is the payment gateway title.
+msgid "Enable \"%s\""
+msgstr "Povolit \"%s\""
+
+msgid "Test Mode"
+msgstr "Testovací režim"
+
+msgid "Enable Sandbox Mode"
+msgstr "Povolit režim Sandbox"
+
+msgid "Sandbox can be used to test payments."
+msgstr "Sandbox může být použit pro testování plateb."
+
+msgid "Payment method title that the customer will see on your website."
+msgstr "Název platební metody, který zákazník uvidí na webu."
+
+msgid "Payment method description that the customer will see on your website."
+msgstr "Popis platební metody, který zákazník uvidí na webu"
+
+msgid "Instructions"
+msgstr "Instrukce"
+
+msgid "Instructions for a customer on how to complete the payment."
+msgstr "Instrukce pro zákazníka, jak provést platbu."
+
+msgid "Reservation #%d"
+msgstr "Rezervace #%d"
+
+msgid "Accommodation(s) reservation"
+msgstr "Rezervace ubytování"
+
+msgid "Manual Payment"
+msgstr "Ruční platba"
+
+msgid "PayPal"
+msgstr ""
+
+msgid "Pay via PayPal"
+msgstr "Platit přes PayPal"
+
+msgid "Paypal Business Email"
+msgstr ""
+
+msgid "Disable IPN Verification"
+msgstr "Zakázat IPN ověření"
+
+msgid "Specify an IPN listener for a specific payment instead of the listeners specified in your PayPal Profile."
+msgstr "Upšesněte IPN posluchače pro specifickou platbu namísto posluchačů uvedených ve Vašem účtu PayPal."
+
+msgid "Payment %s via IPN."
+msgstr "Platba %s přes IPN."
+
+msgid "Payment failed due to invalid PayPal business email."
+msgstr "Platba se nezdařila. Obchodní email PayPal je neplatný."
+
+msgid "Payment failed due to invalid currency in PayPal IPN."
+msgstr "Platba se nezdařila. Neplatná měna v PayPal IPN."
+
+msgid "Payment failed due to invalid amount in PayPal IPN."
+msgstr "Platba se nezdařila. Neplatná částka peněz v PayPal IPN."
+
+msgid "Payment failed due to invalid purchase key in PayPal IPN."
+msgstr "Platba se nezdařila. Nákupní klíč PayPal IPN není platný."
+
+msgid "Payment made via eCheck and will clear automatically in 5-8 days."
+msgstr "Platba je provedena přes eCheck a bude dokončena automaticky během in 5-8 dnů."
+
+msgid "Payment requires a confirmed customer address and must be accepted manually through PayPal."
+msgstr "Pro tuto platbu musí mít zákazník potvrzený email. Platba musí být přijatá manuálně přes PayPal."
+
+msgid "Payment must be accepted manually through PayPal due to international account regulations."
+msgstr "Platba zpracována ručně přes PayPal, což je nutné v souladu mezinárodními předpisy."
+
+msgid "Payment received in non-shop currency and must be accepted manually through PayPal."
+msgstr "Pro tuto platbu musí mít zákazník potvrzený email. Platba musí být přijatá manuálně přes PayPal."
+
+msgid "Payment is being reviewed by PayPal staff as high-risk or in possible violation of government regulations."
+msgstr "Platbu zpracovává PayPal tým jako vysoce rizikovou nebo možného porušení vládních předpisů."
+
+msgid "Payment was sent to unconfirmed or non-registered email address."
+msgstr "Platba byla poslána na nepotvrzenou nebo neregistrovanou email adresu."
+
+msgid "PayPal account must be upgraded before this payment can be accepted."
+msgstr "PayPal účet musí být aktualizován než přijmeme Vaši platbu."
+
+msgid "PayPal account is not verified. Verify account in order to accept this payment."
+msgstr "PayPal účet není ověřen. Ověřte účet, abychom přijali vaší platbu."
+
+msgid "Payment is pending for unknown reasons. Contact PayPal support for assistance."
+msgstr "Platba čeká na vyřízení z neznámých důvodů. Kontaktujte technickou podporu PayPal, pokud potřebujete pomoc."
+
+msgid "Partial PayPal refund processed: %s"
+msgstr "částečné vrácení peněz PayPal se zpracovává: %s"
+
+msgid "PayPal Payment #%s Refunded for reason: %s"
+msgstr "PayPal Peníze byly #%s vráceny z důvodu: %s"
+
+msgid "PayPal Refund Transaction ID: %s"
+msgstr "PayPal Transakce vrácení peněz ID: %s"
+
+msgid "Stripe"
+msgstr ""
+
+msgid "Use the card number %1$s with CVC %2$s, a valid expiration date and random 5-digit ZIP-code to test a payment."
+msgstr "Použijte číslo karty %1$s s CVC %2$s, s termínem vypršení platnosti karty a náhodným 5ti místným PSČ pro test platby"
+
+msgid "Pay by Card (Stripe)"
+msgstr "Platit kartou (Stripe)"
+
+msgid "Pay with your credit card via Stripe."
+msgstr "Platit kreditní kartou přes Stripe."
+
+msgid "Bancontact"
+msgstr ""
+
+msgid "iDEAL"
+msgstr ""
+
+msgid "Giropay"
+msgstr ""
+
+msgid "SEPA Direct Debit"
+msgstr ""
+
+msgid "SOFORT"
+msgstr ""
+
+msgid "Euro is the only acceptable currency for the selected payment methods. Change your currency to Euro in General settings."
+msgstr "Euro je jedinou přijatelnou měnou pro vybrané platební metody. Změňte svou měnu na Euro v obecném nastavení."
+
+msgid "Secret Key"
+msgstr "Tajný klíč"
+
+msgid "Webhook Secret"
+msgstr ""
+
+msgid "Payment Methods"
+msgstr "Platební metody"
+
+msgid "Card Payments"
+msgstr "Platby kartou"
+
+msgid "Checkout Locale"
+msgstr "Lokalita checkoutu"
+
+msgid "Display Checkout in the user's preferred language, if available."
+msgstr "Zobrazit objednávku v jazyku který, uživatel používá, pokud je to možné."
+
+msgid "The payment method is not selected."
+msgstr "Platební metoda není vybrána."
+
+msgid "Payment intent ID is not set."
+msgstr "ID platebního záměru není nastaveno."
+
+msgid "Source ID is not set."
+msgstr "Zdrojové ID není nastaveno."
+
+#. translators: %s - Stripe PaymentIntent ID
+msgid "Payment for PaymentIntent %s succeeded."
+msgstr "Platba pro PaymentIntent %s úspěšná."
+
+#. translators: %s - Stripe PaymentIntent ID
+msgid "Payment for PaymentIntent %s is processing."
+msgstr "Platba pro PaymentIntent %s se zpracovává."
+
+msgid "Failed to process Card payment. %s"
+msgstr "Platba kartou selhala. %s"
+
+#. translators: %s - Stripe Source ID
+msgid "Payment source %s is waiting for customer confirmation."
+msgstr "Zdroj platby %s čeká na potvrzení zákazníkem."
+
+#. translators: %s - Stripe Source ID
+msgid "Pending source %s received, but the redirect URL is empty."
+msgstr "Čeká se zdroj %s, ale adresa URL přesměrování je prázdná."
+
+#. translators: %s - Stripe Source ID
+msgid "Payment source %s was cancelled by customer."
+msgstr "Zdroj platby %s byl zrušen zákazníkem."
+
+#. translators: %s - Stripe Source ID
+msgid "Payment source %s failed and couldn't be processed."
+msgstr "Zdroj platby %s selhal a nelze jej zpracovat."
+
+#. translators: %1$s - Stripe Source ID; %2$s - Stripe Source status
+msgid "Failed to process payment source %1$s: unsupported status - \"%2$s\"."
+msgstr "Nepodařilo se zpracovat zdroj platby %1$s: nepodporovaný stav - „%2$s“."
+
+msgid "Failed to process Source payment. %s"
+msgstr "Nepodařilo se zpracovat platbu ze zdroje. %s"
+
+msgid "Can't charge the payment again: payment's flow already completed."
+msgstr "Platbu nelze znovu účtovat: tok platby je již téměř dokončen."
+
+#. translators: %s - Stripe Charge ID
+msgid "Charge %s succeeded."
+msgstr "Účtování %s úspěšné."
+
+#. translators: %1$s - Stripe Charge ID; %2$s - payment price
+msgid "Charge %1$s for %2$s created."
+msgstr "Účtování %1$s pro %2$s vytvořeno."
+
+#. translators: %s - Stripe Charge ID
+msgid "Charge %s failed."
+msgstr "Účtování %s selhalo."
+
+msgid "Charge error. %s"
+msgstr "Chyba v účtování. %s"
+
+msgid "Argentinean"
+msgstr "Argentinský"
+
+msgid "Simplified Chinese"
+msgstr "Zjednodušená čínština"
+
+msgid "Danish"
+msgstr "Dánština"
+
+msgid "Dutch"
+msgstr "Nizozemština"
+
+msgid "English"
+msgstr "Angličtina"
+
+msgid "Finnish"
+msgstr "Finština"
+
+msgid "French"
+msgstr "Francouzština"
+
+msgid "German"
+msgstr "Němčina"
+
+msgid "Italian"
+msgstr "Italština"
+
+msgid "Japanese"
+msgstr "Japonština"
+
+msgid "Norwegian"
+msgstr "Norština"
+
+msgid "Polish"
+msgstr "Polsky"
+
+msgid "Russian"
+msgstr "Rusky"
+
+msgid "Spanish"
+msgstr "Španělština"
+
+msgid "Swedish"
+msgstr "Švédština"
+
+msgid "Card"
+msgstr "Karta"
+
+msgid "Credit or debit card"
+msgstr "Kreditní nebo debetní karta"
+
+msgid "IBAN"
+msgstr ""
+
+msgid "Select iDEAL Bank"
+msgstr "Vyberte banku iDEAL"
+
+msgid "You will be redirected to a secure page to complete the payment."
+msgstr "Budete přesměrování na zabezpečenou stránku pro dokončení platby."
+
+msgid "By providing your IBAN and confirming this payment, you are authorizing this merchant and Stripe, our payment service provider, to send instructions to your bank to debit your account and your bank to debit your account in accordance with those instructions. You are entitled to a refund from your bank under the terms and conditions of your agreement with your bank. A refund must be claimed within 8 weeks starting from the date on which your account was debited."
+msgstr "Poskytnutím svého čísla IBAN a potvrzením této platby zmocňujete tohoto obchodníka a společnost Stripe, našeho poskytovatele platebních služeb, k zasílání pokynů do vaší banky k inkasu z vašeho účtu a vaší bance k inkasování z vašeho účtu v souladu s těmito pokyny. Máte právo na vrácení peněz od banky podle podmínek vaší dohody s vaší bankou. Vrácení peněz musí být požadováno do 8 týdnů ode dne, kdy byl váš účet odepsán."
+
+#. translators: %s - event type, like "source.chargeable"
+msgid "Webhook \"%s\" skipped: payment's flow already completed."
+msgstr "Webhook \"%s\" přeskočen: tok platby je téměř dokončen."
+
+#. translators: %s - Stripe Source ID
+msgid "Webhook received. The source %s is chargeable."
+msgstr "Webhook přijat. Zdroj %s je zpoplatnitelný."
+
+#. translators: %s - Stripe Source ID
+msgid "Webhook received. Payment source %s was cancelled by customer."
+msgstr "Webhook přijat. Zdroj platby %s byl zrušen zákazníkem."
+
+#. translators: %s - Stripe Source ID
+msgid "Webhook received. Payment source %s failed and couldn't be processed."
+msgstr "Webhook přijat. Poplatek %s selhal a nemůže být zprocesován."
+
+#. translators: %s - Stripe Charge ID
+msgid "Webhook received. Charge %s succeeded."
+msgstr "Webhook přijat. Poplatek %s úspěšný."
+
+#. translators: %s - Stripe Charge ID
+msgid "Webhook received. Charge %s failed."
+msgstr "Webhook přijat. Poplatek %s selhal."
+
+msgid "Test Payment"
+msgstr "Testovat platbu"
+
+msgid "2Checkout"
+msgstr ""
+
+msgid "To setup the callback process for 2Checkout to automatically mark payments completed, you will need to"
+msgstr "Pokud chcete nastavit zpětné volání pro 2Checkout a označit platbu jako zaplacenou, budete potřebovat "
+
+msgid "Login to your 2Checkout account and click the Notifications tab"
+msgstr "Přihlašte se na svůj 2Checkout účet na Klikněte na záložku Oznámení"
+
+msgid "Click Enable All Notifications"
+msgstr "Klikněte na Aktivovat Všechna oznámení"
+
+msgid "In the Global URL field, enter the url %s"
+msgstr "V globálním poli URL, zadejte adresu URL %s"
+
+msgid "Click Apply"
+msgstr "Klikněte na tlačítko Použít"
+
+msgid "Account Number"
+msgstr "Číslo účtu"
+
+msgid "Secret Word"
+msgstr "Vybrat si slovo"
+
+msgid "2Checkout \"Order Created\" notification received."
+msgstr "2Checkout oznámení \"Objednávka byla vytvořena\" bylo obdrženo."
+
+msgid "Payment refunded in 2Checkout"
+msgstr "2Checkout kontrola proti fraudu je ukončena"
+
+msgid "2Checkout fraud review passed"
+msgstr "2Checkout kontrola proti fraudu se podařila"
+
+msgid "2Checkout fraud review failed"
+msgstr "2Kontrola proti fraudu se nepodařila"
+
+msgid "2Checkout fraud review in progress"
+msgstr "2Checkout kontrola proti fraudu se zpracovává"
+
+msgid "Attribute"
+msgstr "Atribut"
+
+msgctxt "Add New Attribute"
+msgid "Add New"
+msgstr "Přidat nový"
+
+msgid "Add New Attribute"
+msgstr "Přidat nový atribut"
+
+msgid "Edit Attribute"
+msgstr "Upravit atribut"
+
+msgid "New Attribute"
+msgstr "Nový atribut"
+
+msgid "View Attribute"
+msgstr "Zobrazit atributy"
+
+msgid "Search Attribute"
+msgstr "Vyhledat atribut"
+
+msgid "No Attributes found"
+msgstr "Atributy nenalezeny"
+
+msgid "No Attributes found in Trash"
+msgstr "Žádné atributy v koši nejsou"
+
+msgid "Insert into attribute description"
+msgstr "Vložit do popisu atributu"
+
+#. translators: %s: attribute name
+msgid "Search %s"
+msgstr "Hledat %s"
+
+#. translators: %s: attribute name
+msgid "All %s"
+msgstr "Vše %s"
+
+#. translators: %s: attribute name
+msgid "Edit %s"
+msgstr "Upravit %s"
+
+#. translators: %s: attribute name
+msgid "Update %s"
+msgstr "Aktualizovat %s"
+
+#. translators: %s: attribute name
+msgid "Add new %s"
+msgstr "Přidat nový %s"
+
+#. translators: %s: attribute name
+msgid "New %s"
+msgstr "Nový %s"
+
+#. translators: %s: attribute name
+msgid "No &quot;%s&quot; found"
+msgstr "&quot;%s&quot; nenalezeno"
+
+msgid "Name (numeric)"
+msgstr "Jméno (číselné)"
+
+msgid "Term ID"
+msgstr "ID termínu"
+
+msgid "Enable Archives"
+msgstr "Povolit archivy"
+
+msgid "Link the attribute to an archive page with all accommodation types that have this attribute."
+msgstr "Propojte atribut s archivní stránkou se všemi typy ubytování, které mají tento atribut."
+
+msgid "Visible in Details"
+msgstr "Viditelné v detailu"
+
+msgid "Display the attribute in details section of an accommodation type."
+msgstr "Zobrazit atributy v části s podrobnostmi o typu ubytování."
+
+msgid "Default Sort Order"
+msgstr "Výchozí pořadí řazení"
+
+msgid "Default Text"
+msgstr "Výchozí text"
+
+msgid "Select"
+msgstr "Vyberte"
+
+msgid "Edit Dates"
+msgstr "Upravit datumy"
+
+msgid "Note"
+msgstr "Poznámka"
+
+msgctxt "Add New Booking"
+msgid "Add New Booking"
+msgstr "Přidat novou rezervaci"
+
+msgid "View Booking"
+msgstr "Zobrazit rezervaci"
+
+msgid "Search Booking"
+msgstr "Hledat rezervaci"
+
+msgid "No bookings found"
+msgstr "Nebyla nalezena žádná rezervace"
+
+msgid "No bookings found in Trash"
+msgstr "V koši nebyla nalezena žádná rezervace"
+
+msgid "All Bookings"
+msgstr "Všechny rezervace"
+
+msgid "Insert into booking description"
+msgstr "Vložit do popisu rezervace"
+
+msgid "Uploaded to this booking"
+msgstr "Nahrano do této rezervace"
+
+msgctxt "Booking status"
+msgid "Pending User Confirmation"
+msgstr "Čeká na potvrzení uživatelem"
+
+msgid "Pending User Confirmation <span class=\"count\">(%s)</span>"
+msgid_plural "Pending User Confirmation <span class=\"count\">(%s)</span>"
+msgstr[0] "Čeká na potvrzení uživatelem <span class=\"count\">(%s)</span>"
+msgstr[1] "Čeká na potvrzení uživatelem <span class=\"count\">(%s)</span>"
+msgstr[2] "Čeká na potvrzení uživatelem <span class=\"count\">(%s)</span>"
+msgstr[3] ""
+
+msgctxt "Booking status"
+msgid "Pending Payment"
+msgstr "Čeká na zaplacení"
+
+msgid "Pending Payment <span class=\"count\">(%s)</span>"
+msgid_plural "Pending Payment <span class=\"count\">(%s)</span>"
+msgstr[0] "Čeká na zaplacení <span class=\"count\">(%s)</span>"
+msgstr[1] "Čekají na zaplacení <span class=\"count\">(%s)</span>"
+msgstr[2] "Čekají na zaplacení <span class=\"count\">(%s)</span>"
+msgstr[3] ""
+
+msgctxt "Booking status"
+msgid "Pending Admin"
+msgstr "Čeká na schválení administrátorem"
+
+msgid "Pending Admin <span class=\"count\">(%s)</span>"
+msgid_plural "Pending Admin <span class=\"count\">(%s)</span>"
+msgstr[0] "Čeká na schválení administrátora <span class=\"count\">(%s)</span>"
+msgstr[1] "Čekají na schválení administrátora <span class=\"count\">(%s)</span>"
+msgstr[2] "Čekají na schválení administrátora <span class=\"count\">(%s)</span>"
+msgstr[3] ""
+
+msgctxt "Booking status"
+msgid "Abandoned"
+msgstr "Opuštěná "
+
+msgid "Abandoned <span class=\"count\">(%s)</span>"
+msgid_plural "Abandoned <span class=\"count\">(%s)</span>"
+msgstr[0] "Opuštěná <span class=\"count\">(%s)</span>"
+msgstr[1] "Opuštěné <span class=\"count\">(%s)</span>"
+msgstr[2] "Opuštěných <span class=\"count\">(%s)</span>"
+msgstr[3] ""
+
+msgid "Confirmed <span class=\"count\">(%s)</span>"
+msgid_plural "Confirmed <span class=\"count\">(%s)</span>"
+msgstr[0] "Potvrzená <span class=\"count\">(%s)</span>"
+msgstr[1] "Potvrzené <span class=\"count\">(%s)</span>"
+msgstr[2] "Potvrzených <span class=\"count\">(%s)</span>"
+msgstr[3] ""
+
+msgctxt "Booking status"
+msgid "Cancelled"
+msgstr "Zrušeno"
+
+msgid "Cancelled <span class=\"count\">(%s)</span>"
+msgid_plural "Cancelled <span class=\"count\">(%s)</span>"
+msgstr[0] "Zrušená <span class=\"count\">(%s)</span>"
+msgstr[1] "Zrušené <span class=\"count\">(%s)</span>"
+msgstr[2] "Zrušených <span class=\"count\">(%s)</span>"
+msgstr[3] ""
+
+msgid "Status changed from %s to %s."
+msgstr "Status se změnil z %s na %s."
+
+msgid "Coupon Information"
+msgstr "Informace o kupónu"
+
+msgid "Fixed per accommodation per stay"
+msgstr "Pevná za ubytování a pobyt"
+
+msgid "Fixed per accommodation per day"
+msgstr "Pevná za ubytování a den"
+
+msgid "Coupon Amount"
+msgstr "Množství kupónů"
+
+msgid "Enter percent or fixed amount according to selected type."
+msgstr ""
+
+msgid "Expiration Date"
+msgstr "Datum vypršení platnosti"
+
+msgid "Check-in After"
+msgstr "Příjezd po"
+
+msgid "Check-out Before"
+msgstr "Odjezd před"
+
+msgid "Minimum Days"
+msgstr "Minimální počet dnů"
+
+msgid "Maximum Days"
+msgstr "Maximální počet dnů"
+
+msgid "Usage Limit"
+msgstr "Limit využití"
+
+msgid "Usage Count"
+msgstr "Počet využití"
+
+msgid "Coupons"
+msgstr "Kupóny"
+
+msgctxt "Add New Coupon"
+msgid "Add New"
+msgstr "Přidat nový"
+
+msgid "Add New Coupon"
+msgstr "Přidat nový kupón"
+
+msgid "Edit Coupon"
+msgstr "Editovat kupón"
+
+msgid "New Coupon"
+msgstr "Nový kupón"
+
+msgid "View Coupon"
+msgstr "Prohlédnout si kupón"
+
+msgid "Search Coupon"
+msgstr "Hledat kupón"
+
+msgid "No coupons found"
+msgstr "Žádný kupón nebyl nalezen "
+
+msgid "No coupons found in Trash"
+msgstr "V koši nebyl nalezen žádný kupón "
+
+msgid "All Coupons"
+msgstr "Všechny kupóny "
+
+msgid "Payment History"
+msgstr "Historie plateb"
+
+msgid "Payment"
+msgstr "Platba"
+
+msgctxt "Add New Payment"
+msgid "Add New"
+msgstr "Přidat novou"
+
+msgid "Add New Payment"
+msgstr "Přidat novou platbu"
+
+msgid "Edit Payment"
+msgstr "Upravit platbu"
+
+msgid "New Payment"
+msgstr "Nová platba"
+
+msgid "View Payment"
+msgstr "Zobrazit platbu"
+
+msgid "Search Payment"
+msgstr "Hledat platbu"
+
+msgid "No payments found"
+msgstr "Nebyly nalezeny žádné platby"
+
+msgid "No payments found in Trash"
+msgstr "V koši nebyla nalezena žádná platba"
+
+msgid "Payments"
+msgstr "Platby"
+
+msgid "Insert into payment description"
+msgstr "Vložit do popisu platby"
+
+msgid "Uploaded to this payment"
+msgstr "Nahrano do této platby"
+
+msgid "Payments."
+msgstr "Platby"
+
+msgid "Gateway Mode"
+msgstr "Platební Brána "
+
+msgid "Sandbox"
+msgstr ""
+
+msgid "Live"
+msgstr ""
+
+msgid "Fee"
+msgstr "Bezplatná"
+
+msgid "Payment Type"
+msgstr "Typ platby"
+
+msgid "Billing Info"
+msgstr "Fakturační údaje"
+
+msgid "Address 1"
+msgstr "Adresa 1"
+
+msgid "Address 2"
+msgstr "Adresa 2"
+
+msgid "Postal Code (ZIP)"
+msgstr "Poštovní směrovací číslo (PSČ)"
+
+msgctxt "Payment status"
+msgid "Pending"
+msgstr "Čeká na vyřízení"
+
+msgid "Pending <span class=\"count\">(%s)</span>"
+msgid_plural "Pending <span class=\"count\">(%s)</span>"
+msgstr[0] "Čeká na vyřízení <span class=\"count\">(%s)</span>"
+msgstr[1] "Čekají na vyřízení <span class=\"count\">(%s)</span>"
+msgstr[2] "Čekají na vyřízení <span class=\"count\">(%s)</span>"
+msgstr[3] ""
+
+msgctxt "Payment status"
+msgid "Completed"
+msgstr "Dokončená"
+
+msgid "Completed <span class=\"count\">(%s)</span>"
+msgid_plural "Completed <span class=\"count\">(%s)</span>"
+msgstr[0] "Dokončen <span class=\"count\">(%s)</span>"
+msgstr[1] "Dokončena <span class=\"count\">(%s)</span>"
+msgstr[2] "Dokončeno <span class=\"count\">(%s)</span>"
+msgstr[3] "Dokončeno <span class=\"count\">(%s)</span>"
+
+msgctxt "Payment status"
+msgid "Failed"
+msgstr "Neúspěšná"
+
+msgid "Failed <span class=\"count\">(%s)</span>"
+msgid_plural "Failed <span class=\"count\">(%s)</span>"
+msgstr[0] "Neúspěšná <span class=\"count\">(%s)</span>"
+msgstr[1] "Neúspěšné <span class=\"count\">(%s)</span>"
+msgstr[2] "Neúspěšných <span class=\"count\">(%s)</span>"
+msgstr[3] "Neúspěšných <span class=\"count\">(%s)</span>"
+
+msgctxt "Payment status"
+msgid "Abandoned"
+msgstr "Opuštěná"
+
+msgctxt "Payment status"
+msgid "On Hold"
+msgstr "Odložená"
+
+msgid "On Hold <span class=\"count\">(%s)</span>"
+msgid_plural "On Hold <span class=\"count\">(%s)</span>"
+msgstr[0] "Odložená <span class=\"count\">(%s)</span>"
+msgstr[1] "Odložené <span class=\"count\">(%s)</span>"
+msgstr[2] "Odložených <span class=\"count\">(%s)</span>"
+msgstr[3] "Odložených <span class=\"count\">(%s)</span>"
+
+msgctxt "Payment status"
+msgid "Refunded"
+msgstr "Vrácena"
+
+msgid "Refunded <span class=\"count\">(%s)</span>"
+msgid_plural "Refunded <span class=\"count\">(%s)</span>"
+msgstr[0] "Vráceno <span class=\"count\">(%s)</span>"
+msgstr[1] "Vráceno <span class=\"count\">(%s)</span>"
+msgstr[2] "Vráceno <span class=\"count\">(%s)</span>"
+msgstr[3] "Vráceno <span class=\"count\">(%s)</span>"
+
+msgctxt "Payment status"
+msgid "Cancelled"
+msgstr "Zrušeno"
+
+msgid "Payment (#%s) for this booking is on hold"
+msgstr "Platba (#%s) pro tuto rezervaci je odložena"
+
+msgid "Rate Info"
+msgstr "Informace o hodnocení"
+
+msgid "Season"
+msgstr "Sezóna"
+
+msgid "Move price to top to set higher priority."
+msgstr "Přetáhnout cenu nahoru a nastavit vyšší prioritu."
+
+msgid "Add New Season Price"
+msgstr "Přidat novou cenu"
+
+msgid "Will be displayed on the checkout page."
+msgstr "Zobrazí se na stránce pro objednávku."
+
+#. translators: The value a hotel wishes to sell their rooms. Also called the Cost, Value, Tariff or Room charge.
+msgid "Rates"
+msgstr "Částky"
+
+msgctxt "Add New Rate"
+msgid "Add New"
+msgstr "Přidat novou"
+
+msgid "Add New Rate"
+msgstr "Přidat novou částku"
+
+msgid "Edit Rate"
+msgstr "Upravit částku"
+
+msgid "New Rate"
+msgstr "Nová částka"
+
+msgid "View Rate"
+msgstr "Zobrazit částku"
+
+msgid "Search Rate"
+msgstr "Hledat částku"
+
+msgid "No rates found"
+msgstr "Sazby nenalezeny"
+
+msgid "No rates found in Trash"
+msgstr "Žádné sazby v koši"
+
+msgid "Insert into rate description"
+msgstr "Vložit popis sazby"
+
+msgid "Uploaded to this rate"
+msgstr "Nahráno do této sazby"
+
+msgid "This is where you can add new rates."
+msgstr "Zde můžete přidávat nové sazby."
+
+msgid "Reserved Accommodation"
+msgstr "Rezervované ubytování"
+
+msgctxt "Add New Accommodation"
+msgid "Add New"
+msgstr "Přidat nové"
+
+msgid "Add New Accommodation"
+msgstr "Přidat nové ubytování"
+
+msgid "Edit Accommodation"
+msgstr "Upravit ubytování"
+
+msgid "New Accommodation"
+msgstr "Nové ubytování"
+
+msgid "View Accommodation"
+msgstr "Prohlédnout si ubytování"
+
+msgid "Search Accommodation"
+msgstr "Hledat ubytování"
+
+msgid "No accommodations found"
+msgstr "Nebylo nalezeno žádné ubytování "
+
+msgid "No accommodations found in Trash"
+msgstr "V koši nebylo nalezeno žádné ubytování"
+
+msgid "Insert into accommodation description"
+msgstr "Vložit do popisu ubytování"
+
+msgid "Uploaded to this accommodation"
+msgstr "Nahráno do tohoto ubytování"
+
+msgid "This is where you can add new accommodations to your hotel."
+msgstr "Zde můžete přidat nové ubytování ve vašem hotelu."
+
+msgctxt "Add New Accommodation Type"
+msgid "Add Accommodation Type"
+msgstr "Přidat typ ubytování"
+
+msgid "Add New Accommodation Type"
+msgstr "Přidat nový typ ubytování"
+
+msgid "Edit Accommodation Type"
+msgstr "Editovat typ ubytování"
+
+msgid "New Accommodation Type"
+msgstr "Nový typ ubytování"
+
+msgid "View Accommodation Type"
+msgstr "Prohlédnout si typy ubytování"
+
+msgid "Search Accommodation Type"
+msgstr "Hledat typ ubytování"
+
+msgid "No Accommodation types found"
+msgstr "Nebyl nalezen žádný typ ubytování"
+
+msgid "No Accommodation types found in Trash"
+msgstr "V koši nebyl nalezen žádný typ ubytování"
+
+msgid "Insert into accommodation type description"
+msgstr "Vložit do popisu typu ubytování"
+
+msgid "Uploaded to this accommodation type"
+msgstr "Nahráno do tohoto typu ubytování"
+
+#. translators: do not translate
+msgctxt "slug"
+msgid "accommodation"
+msgstr "accommodation"
+
+msgid "Accommodation Categories"
+msgstr "Kategorie ubytování"
+
+msgid "Accommodation Category"
+msgstr "Kategorie ubytování"
+
+msgid "Search Accommodation Categories"
+msgstr "Hledat kategorie ubytování"
+
+msgid "Popular Accommodation Categories"
+msgstr "Populární kategorie ubytování"
+
+msgid "All Accommodation Categories"
+msgstr "Všechny kategorie ubytování"
+
+msgid "Parent Accommodation Category"
+msgstr "Hlavní kategorie ubytování "
+
+msgid "Parent Accommodation Category:"
+msgstr "Hlavní kategorie ubytování:"
+
+msgid "Edit Accommodation Category"
+msgstr "Upravit kategorii ubytování"
+
+msgid "Update Accommodation Category"
+msgstr "Aktualizovat kategorii ubytování"
+
+msgid "Add New Accommodation Category"
+msgstr "Přidat novou kategorii ubytování"
+
+msgid "New Accommodation Category Name"
+msgstr "Název nové kategorie ubytování"
+
+msgid "Separate categories with commas"
+msgstr "Kategorie oddělit čárkami"
+
+msgid "Add or remove categories"
+msgstr "Přidat nebo smazat kategorie"
+
+msgid "Choose from the most used categories"
+msgstr "Vyberte si jednu z nejpoužívanějších kategorií"
+
+msgid "No categories found."
+msgstr "Nebyla nalezena žádná kategorie."
+
+msgid "Categories"
+msgstr "Kategorie"
+
+#. translators: do not translate
+msgctxt "slug"
+msgid "accommodation-category"
+msgstr "accommodation-category"
+
+msgid "Accommodation Tags"
+msgstr "Štítky ubytování"
+
+msgid "Accommodation Tag"
+msgstr "Štítek ubytování"
+
+msgid "Search Accommodation Tags"
+msgstr "Vyhledat štítky ubytování"
+
+msgid "Popular Accommodation Tags"
+msgstr "Oblíbené štítky ubytování"
+
+msgid "All Accommodation Tags"
+msgstr "Všechny štítky ubytování"
+
+msgid "Parent Accommodation Tag"
+msgstr "Nadřazený štítek ubytování"
+
+msgid "Parent Accommodation Tag:"
+msgstr "Nadřazený štítek ubytování"
+
+msgid "Edit Accommodation Tag"
+msgstr "Uravit štítek ubytování"
+
+msgid "Update Accommodation Tag"
+msgstr "Aktualizovat štítek ubytování"
+
+msgid "Add New Accommodation Tag"
+msgstr "Přidat nový štítek ubytování"
+
+msgid "New Accommodation Tag Name"
+msgstr "Jméno nového štítku ubytování"
+
+msgid "Separate tags with commas"
+msgstr "Oddělte štítky čárkami"
+
+msgid "Add or remove tags"
+msgstr "Přidat nebo odebrat štítky"
+
+msgid "Choose from the most used tags"
+msgstr "Vyberte si z nejpoužívanějších štítků"
+
+msgid "No tags found."
+msgstr "Štítky nenalezeny"
+
+msgid "Tags"
+msgstr "Štítky"
+
+#. translators: do not translate
+msgctxt "slug"
+msgid "accommodation-tag"
+msgstr "accommodation-tag"
+
+msgid "Amenities"
+msgstr "Příslušenství"
+
+msgid "Amenity"
+msgstr "Příslušenství"
+
+msgid "Search Amenities"
+msgstr "Hledat příslušenství"
+
+msgid "Popular Amenities"
+msgstr "Populární příslušenství"
+
+msgid "All Amenities"
+msgstr "Veškeré příslušenství"
+
+msgid "Parent Amenity"
+msgstr "Rodičovské vybavení"
+
+msgid "Parent Amenity:"
+msgstr "Rodičovské vybavení:"
+
+msgid "Edit Amenity"
+msgstr "Editovat příslušenství"
+
+msgid "Update Amenity"
+msgstr "Aktualizovat příslušenství"
+
+msgid "Add New Amenity"
+msgstr "Přidat nové příslušenství"
+
+msgid "New Amenity Name"
+msgstr "Název nového příslušenství"
+
+msgid "Separate amenities with commas"
+msgstr "Vybavení oddělit čárkami"
+
+msgid "Add or remove amenities"
+msgstr "Přidat nebo smazat vybavení"
+
+msgid "Choose from the most used amenities"
+msgstr "Vyberte si jedno z nejpoužívanějších vybavení"
+
+msgid "No amenities found."
+msgstr "Nebylo nalezeno žádné vybavení."
+
+#. translators: do not translate
+msgctxt "slug"
+msgid "accommodation-facility"
+msgstr "accommodation-facility"
+
+msgid "State the age or disable children in <a href=\"%s\">settings</a>."
+msgstr "V <a href=\"%s\">nastavení</a> uveďte věk nebo deaktivujte děti."
+
+msgid "Leave this option empty to calculate total capacity automatically to meet the exact number of adults AND children set above. This is the default behavior. Configure this option to allow any variations of adults OR children set above at checkout so that in total it meets the limit of manually set \"Capacity\". For example, configuration \"adults:5\", \"children:4\", \"capacity:5\" means the property can accommodate up to 5 adults, up to 4 children, but up to 5 guests in total (not 9)."
+msgstr "Ponechte tuto možnost prázdnou, chcete-li automaticky vypočítat celkovou kapacitu, aby vyhovovala výše uvedenému počtu dospělých a dětí. Toto je výchozí chování. Nakonfigurujte tuto možnost tak, aby při pokladně umožňovala jakékoli výše uvedené variace dospělých nebo dětí, aby celkově splňovaly limit ručně nastavený na „Kapacita“. Například konfigurace „dospělí: 5“, „děti: 4“, „kapacita: 5“ znamená, že se v objektu může ubytovat až 5 dospělých, až 4 děti, ale celkem až 5 hostů (ne 9)."
+
+msgid "Size, %s"
+msgstr "Velikost, %s"
+
+msgid "Leave blank to hide."
+msgstr "Nevyplněné se skryje."
+
+msgid "Other"
+msgstr "Jiný"
+
+msgid "City view, seaside, swimming pool etc."
+msgstr "Výhled na město, moře, bazén atd."
+
+msgid "Bed type"
+msgstr "Typ postele"
+
+msgid "Set bed types list in <a href=\"%link%\" target=\"_blank\">settings</a>."
+msgstr "Nastavte typ postele v <a href=\"%link%\" target=\"_blank\">nastaveních</a>."
+
+msgid "Photo Gallery"
+msgstr "Fotogalerie"
+
+msgid "Available Services"
+msgstr "Dostupné služby"
+
+msgid "Season Info"
+msgstr "Informace o sezóně"
+
+msgid "Start date"
+msgstr "Datum začátku"
+
+msgid "End date"
+msgstr "Datum ukončení"
+
+msgid "Applied for days"
+msgstr "Požádal o pobyt  v délce"
+
+msgid "Hold Ctrl / Cmd to select multiple."
+msgstr "Chcete-li vybrat několik sezón,držte klávesy Ctrl a Cmd"
+
+msgctxt "Add New Season"
+msgid "Add New"
+msgstr "Přidat novou"
+
+msgid "Add New Season"
+msgstr "Přidat novou sezónu"
+
+msgid "Edit Season"
+msgstr "Upravit sezónu"
+
+msgid "New Season"
+msgstr "Nová sezóna "
+
+msgid "View Season"
+msgstr "Zobrazit sezónu"
+
+msgid "Search Season"
+msgstr "Vyhledávání sezóny"
+
+msgid "No seasons found"
+msgstr "Nebyly nalezeny žádné sezóny"
+
+msgid "No seasons found in Trash"
+msgstr "V koši nebyla nalezena žádná sezóna"
+
+msgid "Insert into season description"
+msgstr "Vložit do popisu služby"
+
+msgid "Uploaded to this season"
+msgstr "Nahráno do této sezóny"
+
+msgid "This is where you can add new seasons."
+msgstr "Zde můžete přidat nové sezóny."
+
+msgid "Service"
+msgstr "Služba"
+
+msgctxt "Add New Service"
+msgid "Add New"
+msgstr "Přidat novou"
+
+msgid "Add New Service"
+msgstr "Přidat novou službu"
+
+msgid "Edit Service"
+msgstr "Upravit službu"
+
+msgid "New Service"
+msgstr "Nová služba"
+
+msgid "View Service"
+msgstr "Zobrazit službu"
+
+msgid "Search Service"
+msgstr "Vyhledat služby"
+
+msgid "No services found"
+msgstr "Nebyly nalezeny žádné služby"
+
+msgid "No services found in Trash"
+msgstr "V koši nebyla nalezena žádná služba"
+
+msgid "Insert into service description"
+msgstr "Vložit do popisu služby"
+
+msgid "Uploaded to this service"
+msgstr "Nahrano do této služby"
+
+#. translators: do not translate
+msgctxt "slug"
+msgid "services"
+msgstr "services"
+
+msgid "How many times the customer will be charged."
+msgstr "Kolikrát bude klient platit. "
+
+msgid "Minimum"
+msgstr ""
+
+msgid "Maximum"
+msgstr ""
+
+msgid "Empty means unlimited"
+msgstr "Prázdný znamená neomezeně"
+
+msgctxt "Booking status"
+msgid "Pending"
+msgstr ""
+
+msgid "Total Sales"
+msgstr ""
+
+msgid "Total Without Taxes"
+msgstr ""
+
+msgid "Total Services"
+msgstr ""
+
+msgid "Total Discounts"
+msgstr ""
+
+msgid "Total Bookings"
+msgstr ""
+
+msgid "Revenue (Beta)"
+msgstr ""
+
+msgid "Apply"
+msgstr "Uplatnit"
+
+msgid "From %s to %s"
+msgstr ""
+
+msgid "Today"
+msgstr ""
+
+msgid "Yesterday"
+msgstr ""
+
+msgid "This week"
+msgstr ""
+
+msgid "Last week"
+msgstr ""
+
+msgid "Last 30 days"
+msgstr ""
+
+msgid "This month"
+msgstr ""
+
+msgid "Last month"
+msgstr ""
+
+msgid "This quarter"
+msgstr ""
+
+msgid "Last quarter"
+msgstr ""
+
+msgid "This year"
+msgstr ""
+
+msgid "Last year"
+msgstr ""
+
+#. translators: %s - original Rate title
+msgid "%s - copy"
+msgstr "%s - kopie"
+
+msgid "Accommodation Type Gallery"
+msgstr "Galerie pro typ ubytování"
+
+msgid "Add Gallery To Accommodation Type"
+msgstr "Vytvořte galerii, která ukáže tento typ ubytování"
+
+msgid "Display imported bookings."
+msgstr "Zobrazit importované rezervace."
+
+msgid "Processing..."
+msgstr "Zpracovává se..."
+
+msgid "Cancelling..."
+msgstr "Ruší se..."
+
+msgid "Want to delete?"
+msgstr ""
+
+msgid "Not available"
+msgstr "Není dostupný"
+
+msgid "This is earlier than allowed by our advance reservation rules."
+msgstr "To je dříve, než povolují naše pravidla pro předběžnou rezervaci."
+
+msgid "This is later than allowed by our advance reservation rules."
+msgstr "To je později, než povolují naše pravidla předběžné rezervace."
+
+msgid "Day in the past"
+msgstr "Poslední den "
+
+msgid "Check-in date"
+msgstr "Datum příjezdu"
+
+msgid "Less than min days stay"
+msgstr "Méně, než minimální doba pobytu"
+
+msgid "More than max days stay"
+msgstr "Více, než maximální doba pobytu"
+
+msgid "Later than max date for current check-in date"
+msgstr "Po uplynutí lhůty pro přihlášení "
+
+msgid "Rules:"
+msgstr "Pravidla:"
+
+msgid "Tokenisation failed: %s"
+msgstr "Tokenizace se nepodařila: %s"
+
+msgid "%1$d &times; &ldquo;%2$s&rdquo; has been added to your reservation."
+msgid_plural "%1$d &times; &ldquo;%2$s&rdquo; have been added to your reservation."
+msgstr[0] "%1$d &times; &ldquo;%2$s&rdquo; bylo přidáno k vaší rezervaci."
+msgstr[1] "%1$d &times; &ldquo;%2$s&rdquo; byla přidána k vaší rezervaci."
+msgstr[2] "%1$d &times; &ldquo;%2$s&rdquo; byla přidána k vaší rezervaci."
+msgstr[3] ""
+
+msgid "%s accommodation selected."
+msgid_plural "%s accommodations selected."
+msgstr[0] "Bylo vybráno %s ubytování."
+msgstr[1] "Bylo vybráno %s ubytování."
+msgstr[2] "Bylo vybráno %s ubytování."
+msgstr[3] ""
+
+msgid "Coupon code is empty."
+msgstr "Kód kupónu je prázdný."
+
+msgid "Dark Blue"
+msgstr "Tmavě modrá"
+
+msgid "Dark Green"
+msgstr "Tmavě zelená"
+
+msgid "Dark Red"
+msgstr "Tmavě červená"
+
+msgid "Grayscale"
+msgstr "Odstíny šedé"
+
+msgid "Light Blue"
+msgstr "Světle modrá"
+
+msgid "Light Coral"
+msgstr "Světle korálová"
+
+msgid "Light Green"
+msgstr "Světle zelená"
+
+msgid "Light Yellow"
+msgstr "Světle žlutá"
+
+msgid "Minimal Blue"
+msgstr "Bledě modrá"
+
+msgid "Minimal Orange"
+msgstr "Bledě oranžová"
+
+msgid "Minimal"
+msgstr "Minimální"
+
+msgid "Sky Blue"
+msgstr "Modrá obloha"
+
+msgid "Slate Blue"
+msgstr "Modrá břidlice"
+
+msgid "Turquoise"
+msgstr "Tyrkysový"
+
+msgid "Invalid login or password."
+msgstr ""
+
+msgid "Account data updated."
+msgstr ""
+
+msgid "Password changed."
+msgstr ""
+
+msgid "Dashboard"
+msgstr ""
+
+msgid "Account"
+msgstr ""
+
+msgid "Logout"
+msgstr ""
+
+msgid "Passwords do not match."
+msgstr ""
+
+msgid "Please, provide a valid current password."
+msgstr ""
+
+msgid "Lost your password?"
+msgstr ""
+
+msgid "Payment:"
+msgstr "Platba:"
+
+msgid "Payment Method:"
+msgstr "Platební metoda:"
+
+msgid "Status:"
+msgstr "Stav:"
+
+msgid "Checkout data is not valid."
+msgstr "Data pro objednávku nejsou platná."
+
+msgid "Payment method is not valid."
+msgstr "Tento způsob platby není možné využít."
+
+msgid "Accommodation count is not valid."
+msgstr "Počet ubytování není správný."
+
+msgid "Accommodation is already booked."
+msgstr "Toto ubytování je již rezervováno."
+
+msgid "Reservation submitted"
+msgstr "Rezervace byla odeslána"
+
+msgid "Details of your reservation have just been sent to you in a confirmation email. Please check your inbox to complete booking."
+msgstr "Poslali jsme Vám potvrzující e-mail se všemi detaily Vaší rezervace. Zkontrolujte svou schránku a dokončete rezervaci."
+
+msgid "We received your booking request. Once it is confirmed we will notify you via email."
+msgstr "Obdrželi jsme Vaši žádost o rezervaci. Budeme Vás informovat e-mailem, jakmile bude rezervace potvrzena."
+
+msgid "Choose dates to see relevant prices"
+msgstr "Vyberte si datum pro rezervaci a uvidíte ceny na vámi zvolený termíny"
+
+msgid "Select from available accommodations."
+msgstr "Vyberte si z dostupných ubytování."
+
+msgid "Confirm Reservation"
+msgstr "Potvrďte rezervaci"
+
+msgid "Recommended for %d adult"
+msgid_plural "Recommended for %d adults"
+msgstr[0] "Doporučuje se pro %d dospělého"
+msgstr[1] "Doporučuje se pro %d dospělé"
+msgstr[2] "Doporučuje se pro %d dospělých"
+msgstr[3] ""
+
+msgid " and %d child"
+msgid_plural " and %d children"
+msgstr[0] "a %d dítě"
+msgstr[1] "a %d děti"
+msgstr[2] "a %d děti"
+msgstr[3] ""
+
+msgid "Recommended for %d guest"
+msgid_plural "Recommended for %d guests"
+msgstr[0] "Doporučeno pro %d hosta"
+msgstr[1] "Doporučeno pro %d hosty"
+msgstr[2] "Doporučeno pro %d hostů"
+msgstr[3] ""
+
+msgid "Max occupancy:"
+msgstr "Maximální obsazenost:"
+
+msgid "%d child"
+msgid_plural "%d children"
+msgstr[0] "%d dítě"
+msgstr[1] "%d děti"
+msgstr[2] "%d děti"
+msgstr[3] ""
+
+msgid "Reserve"
+msgstr "Rezervovat"
+
+msgid "of %d accommodation available."
+msgid_plural "of %d accommodations available."
+msgstr[0] "%d Ubytování k dispozici"
+msgstr[1] "%d Ubytování k dispozici"
+msgstr[2] "%d Ubytování k dispozici"
+msgstr[3] ""
+
+#. translators: Verb. To book an accommodation.
+msgid "Book"
+msgstr "Zarezervovat"
+
+msgid "Please, provide a valid email."
+msgstr ""
+
+msgid "Could not create a customer."
+msgstr ""
+
+msgid "Could not retrieve a customer."
+msgstr ""
+
+msgid "Please, provide a valid Customer ID."
+msgstr ""
+
+msgid "A database error."
+msgstr ""
+
+msgid "No customer was deleted."
+msgstr ""
+
+msgid "An account with this email already exists. Please, log in."
+msgstr ""
+
+msgid "Hotel Manager"
+msgstr ""
+
+msgid "Hotel Worker"
+msgstr ""
+
+msgid "Hotel Customer"
+msgstr ""
+
+msgid "Please provide a valid email address."
+msgstr ""
+
+msgid "Please enter a valid account username."
+msgstr ""
+
+msgid "An account is already registered with that username. Please choose another."
+msgstr ""
+
+msgid "Please enter an account password."
+msgstr ""
+
+msgid "Sunday"
+msgstr "Neděle"
+
+msgid "Monday"
+msgstr "Pondělí"
+
+msgid "Tuesday"
+msgstr "Úterý"
+
+msgid "Wednesday"
+msgstr "Středa"
+
+msgid "Thursday"
+msgstr "Čtvrtek"
+
+msgid "Friday"
+msgstr "Pátek"
+
+msgid "Saturday"
+msgstr "Sobota"
+
+msgid "Check-out date cannot be earlier than check-in date."
+msgstr "Datum odjezdu nesmí mít dříve než datum příjezdu."
+
+msgid "Adults number is not valid"
+msgstr "Počet dospělých není platný"
+
+msgid "Children number is not valid"
+msgstr "Počet dětí není platný"
+
+msgctxt "Text about taxes and fees below the price."
+msgid " (+taxes and fees)"
+msgstr ""
+
+#. translators: %s is a tax value
+msgctxt "Text about taxes and fees below the price."
+msgid " (+%s taxes and fees)"
+msgstr ""
+
+msgctxt "Text about taxes and fees below the price."
+msgid " (includes taxes and fees)"
+msgstr ""
+
+msgctxt "Accommodation type in price breakdown table. Example: #1 Double Room"
+msgid "#%d %s"
+msgstr ""
+
+msgid "Expand"
+msgstr "Rozšířit"
+
+msgid "Rate: %s"
+msgstr "Hodnocení: %s"
+
+msgid "Dates"
+msgstr "Datumy:"
+
+msgid "Dates Subtotal"
+msgstr "Mezisoučet"
+
+msgid "Accommodation Taxes Subtotal"
+msgstr "Mezisoučet daní z ubytování"
+
+msgid "Details"
+msgstr "Podrobnosti"
+
+msgid "Service Taxes Subtotal"
+msgstr "Mezisoučet daně ze služeb"
+
+msgid "Fees Subtotal"
+msgstr "Mezisoučet poplatků"
+
+msgid "Fee Taxes Subtotal"
+msgstr "Mezisoučet daně z poplatků"
+
+msgid "Subtotal"
+msgstr "Mezisoučet"
+
+msgid "Coupon: %s"
+msgstr "Kupón: %s"
+
+msgid "Subtotal (excl. taxes)"
+msgstr ""
+
+msgid "Taxes"
+msgstr ""
+
+msgid "Coupon Code:"
+msgstr "Kód kupónu:"
+
+msgid "New Booking Details"
+msgstr "Detaily nové rezervace"
+
+msgid "Original Booking Details"
+msgstr "Detaily původní rezervace"
+
+msgid "Accommodation:"
+msgstr "Ubytování:"
+
+msgid "Children %s"
+msgstr "Děti %s"
+
+msgid "Additional Services"
+msgstr "Doplňkové služby:"
+
+msgid "Accommodation pagination"
+msgstr "Stránkování při výpisu objektů ubytování"
+
+msgid "Services pagination"
+msgstr "Stránkování při výpisu služeb"
+
+msgid "Categories:"
+msgstr "Kategorie:"
+
+msgid "Amenities:"
+msgstr "Příslušenství:"
+
+msgid "Guests:"
+msgstr "Hosté:"
+
+msgid "Bed Type:"
+msgstr "Typ postele:"
+
+msgid "View:"
+msgstr "Prohlédnout si:"
+
+msgid "Prices start at:"
+msgstr "Cena začína na:"
+
+msgid "Price:"
+msgstr "Cena:"
+
+msgid "x %d adult"
+msgid_plural "x %d adults"
+msgstr[0] "x %d dospělý"
+msgstr[1] "x %d dospělé"
+msgstr[2] "x %d dospělých"
+msgstr[3] ""
+
+msgid "Returning customer?"
+msgstr ""
+
+msgid "Click here to log in"
+msgstr ""
+
+#. translators: 1 - username;
+msgid "Hello %1$s (not %1$s? <a href=\"%2$s\">Log out</a>)."
+msgstr ""
+
+msgid "Accommodation #%d"
+msgstr "Ubytování #%d"
+
+msgid "Accommodation Type:"
+msgstr "Typ ubytování:"
+
+msgid "Choose Rate"
+msgstr "Ohodnoťte"
+
+msgid "Choose Additional Services"
+msgstr "Vyberte si doplňkové služby:"
+
+msgid "for "
+msgstr "pro"
+
+msgctxt "Example: Breakfast for X guest(s)"
+msgid " guest(s)"
+msgstr "Hosta/hostů"
+
+msgid "time(s)"
+msgstr "čas(y)"
+
+msgctxt "I've read and accept the terms & conditions"
+msgid "terms & conditions"
+msgstr "všeobecnými obchodními podmínkami"
+
+msgctxt "I've read and accept the <tag>terms & conditions</tag>"
+msgid "I've read and accept the %s"
+msgstr "Četl/a jsem a souhlasím s %s"
+
+msgid "Your Information"
+msgstr "Vaše informace"
+
+msgid "Required fields are followed by %s"
+msgstr "Povinná pole jsou označena %s"
+
+msgid "Create an account"
+msgstr ""
+
+msgid "Payment Method"
+msgstr "Platební metoda"
+
+msgid "Sorry, it seems that there are no available payment methods."
+msgstr "Omlouváme se, ale zdá se, že nejsou k dispozici žádné způsoby platby."
+
+msgid "Total Price:"
+msgstr "Celková cena:"
+
+msgid "Deposit:"
+msgstr "Záloha:"
+
+msgid "Check-in:"
+msgstr "Příjezd:"
+
+msgctxt "from 10:00 am"
+msgid "from"
+msgstr "od"
+
+msgid "Check-out:"
+msgstr "Odjezd:"
+
+msgctxt "until 10:00 am"
+msgid "until"
+msgstr "do"
+
+msgid "Book Now"
+msgstr "Zarezervovat teď"
+
+msgid "Availability"
+msgstr "Dostupnost"
+
+msgid "Reservation Form"
+msgstr "Rezervační formulář"
+
+msgid "Display Accommodation Types"
+msgstr "Zobrazit Typy ubytování"
+
+msgid "Featured Image"
+msgstr "Hlavní obrázek"
+
+msgid "Excerpt (short description)"
+msgstr "Výňatek (stručný popis) "
+
+msgid "Book Button"
+msgstr "Tlačítko rezervace"
+
+msgid "Search Availability"
+msgstr "Vyhledání aktuálně dostupných možností ubytování"
+
+msgid "Search Availability Form"
+msgstr "Formulář pro vyhledání aktuálně dostupných možností ubytování"
+
+msgid "Title:"
+msgstr "Nadpis:"
+
+msgid "Check-in Date:"
+msgstr "Datum příjezdu:"
+
+msgctxt "Date format tip"
+msgid "Preset date. Formatted as %s"
+msgstr "Nastavení datumu. Formát dátumu %s"
+
+msgid "Check-out Date:"
+msgstr "Datum odjezdu:"
+
+msgid "Preset Adults:"
+msgstr "Nastavení počtu dospělých:"
+
+msgid "Preset Children:"
+msgstr "Nastavení počtu dětí: "
+
+msgid "Attributes:"
+msgstr "Atributy:"
+
+msgid "Booking Confirmation and Search Results pages are required to handle bookings. Press \"Install Pages\" button to create and set up these pages. Dismiss this notice if you already installed them."
+msgstr "Stránky “Odjezd” a “Výsledky vyhledávání” musí zpracovat data o rezervaci hotelu. Klikněte na tlačítko \"Nainstalovat stránky\", pokud si chcete si vytvořit a nastavit tyto stránky. Pokud to máte nainstalováno, přeskočte tuto sekci."
+
+msgid "Install Pages"
+msgstr "Nainstalovat stránky"
+
+msgid "Booking Canceled"
+msgstr "Rezervace zrušena"
+
+msgid "Your reservation is canceled."
+msgstr "Vaše rezervace je zrušena."
+
+msgid "Reservation Received"
+msgstr "Rezervace obdržena"
+
+msgid "Transaction Failed"
+msgstr "Transakce selhala"
+
+msgid "Unfortunately, your transaction cannot be completed at this time. Please try again or contact us."
+msgstr "Vaše transakce bohužel v tuto chvíli nelze dokončit. Zkuste to prosím znovu nebo nás kontaktujte."
+
+msgid "Prices start at: %s"
+msgstr "Cena začíná na: %s"
+
+msgid "View Details"
+msgstr "Zobrazit více"
+
+msgctxt "Date format tip"
+msgid "Formatted as %s"
+msgstr "Formát datumu %s"
+
+msgid "Check Availability"
+msgstr "Ověřit dostupnost"
+
+msgid "Reserve %1$s of %2$s available accommodations."
+msgstr "Rezervujte si %1$s z %2$s dostupného ubytování."
+
+msgid "%s is available for selected dates."
+msgstr "%s je ve vybraném období dostupné."
+
+msgid "Rate:"
+msgstr "Sazba:"
+
+msgid "Services:"
+msgstr "Služby:"
+
+msgid "Guest:"
+msgstr "Hosté:"
+
+msgid "Payment ID"
+msgstr "ID Platby"
+
+msgid "Total Paid"
+msgstr "Celkem zaplaceno"
+
+msgid "To Pay"
+msgstr "Zaplatit"
+
+msgid "Add Payment Manually"
+msgstr "Ručně přidat platbu"
+
+msgid "Change Password"
+msgstr ""
+
+msgid "Old Password"
+msgstr ""
+
+msgid "New Password"
+msgstr ""
+
+msgid "Confirm New Password"
+msgstr ""
+
+msgid "You are not allowed to access this page."
+msgstr ""
+
+msgid "No bookings found."
+msgstr "Nebyla nalezena žádná rezervace."
+
+msgid "From your account dashboard you can view <a href=\"%1$s\">your recent bookings</a> or edit your <a href=\"%2$s\">password and account details</a>."
+msgstr ""
+
+msgid "Base price"
+msgstr "Základní cena"
+
+msgid "%s accommodation found"
+msgid_plural "%s accommodations found"
+msgstr[0] "%s možnost ubytování nalezeno "
+msgstr[1] "%s možnosti ubytování nalezeno "
+msgstr[2] "%s možností ubytování nalezeno "
+msgstr[3] ""
+
+msgid " from %s - till %s"
+msgstr " od %s - do %s"
+
+msgid "Add Accommodation"
+msgstr "Přidat ubytování"
+
+msgid "Save"
+msgstr "Uložit"
+
+msgid "Choose new dates to check availability of reserved accommodations in the original booking."
+msgstr "Vyberte nové datumy pro prověření dostupnosti rezervovaného ubytování v původní rezervaci."
+
+msgid "Add, remove or replace accommodations in the original booking."
+msgstr "Přidat, odebrat nebo změnit ubytování v původní rezervaci."
+
+msgid "Not Available"
+msgstr "Není dostupné"
+
+msgid "Continue"
+msgstr "Pokračovat"
+
+msgid "Choose how to associate data"
+msgstr ""
+
+msgid "Use Source Accommodation to assign pre-filled booking information available in the original booking, e.g., full guest name, selected rate, services, etc."
+msgstr ""
+
+msgid "Source accommodation"
+msgstr "Zdrojové ubytování"
+
+msgid "Target accommodation"
+msgstr "Cílové ubytování"
+
+msgid "Booking #%s is cancelled by customer."
+msgstr "Rezervace #%s byla zrušena zákazníkem."
+
+msgid "Details of booking"
+msgstr "Podrobnosti rezervace"
+
+msgid "Check-in: %1$s, from %2$s"
+msgstr "Příjezd: %1$s, od %2$s"
+
+msgid "Check-out: %1$s, until %2$s"
+msgstr "Odjezd: %1$s, do %2$s"
+
+msgid "Name: %1$s %2$s"
+msgstr "Jméno: %1$s %2$s"
+
+msgid "Email: %s"
+msgstr ""
+
+msgid "Phone: %s"
+msgstr "Telefonní číslo: %s"
+
+msgid "Note: %s"
+msgstr "Poznámka: %s"
+
+msgid "Booking #%s is confirmed by customer."
+msgstr "Rezervace #%s je potvrzená zákazníkem. "
+
+msgid "Booking #%s is confirmed by payment."
+msgstr "Rezervace #%s je potvrzena platbou."
+
+msgid "Details of payment"
+msgstr "Podrobnosti o platbě"
+
+msgid "Payment ID: #%s"
+msgstr "ID platby: #%s"
+
+msgid "Amount: %s"
+msgstr "Částka: %s"
+
+msgid "Method: %s"
+msgstr "Metoda: %s"
+
+msgid "Booking #%s is pending for Administrator approval."
+msgstr "Rezervace #%s čeká na schválení od Správce."
+
+msgid "Click the link below to cancel your booking."
+msgstr "Pro zrušení rezervace klikněte na odkaz níže."
+
+msgid "Cancel your booking"
+msgstr "Zrušit svou rezervaci "
+
+msgid "Dear %1$s %2$s, your reservation is approved!"
+msgstr "Vážený/á %1$s %2$s, vaše rezervace je schválena!"
+
+msgid "ID: #%s"
+msgstr ""
+
+msgid "Thank you!"
+msgstr "Děkujeme!"
+
+msgid "Dear %1$s %2$s, your reservation is cancelled!"
+msgstr "Vážený/á %1$s %2$s, Vaše rezervace je zrušena!"
+
+msgid "Dear %1$s %2$s, we received your request for reservation."
+msgstr "Vážený/á %1$s %2$s, obdrželi jsme Váš požadavek na rezervaci."
+
+msgid "Click the link below to confirm your booking."
+msgstr "Klikněte na odkaz níže a potvrďte svou rezervaci."
+
+msgid "Confirm"
+msgstr "Potvrdit"
+
+msgid "Note: link expires on"
+msgstr "Pozor: odkaz platí do"
+
+msgid "UTC"
+msgstr ""
+
+msgid "If you did not place this booking, please ignore this email."
+msgstr "Pokud jste nedělal rezervaci, ignorujte prosím tento e-mail."
+
+msgid "Dear %1$s %2$s, your reservation is pending."
+msgstr "Vážený/á %1$s %2$s, Vaše rezervace čeká na schválení"
+
+msgid "We will notify you by email once it is confirmed by our staff."
+msgstr "Budeme Vás informovat e-mailem, jakmile bude rezervace potvrzena."
+
+msgid "Hi %1$s %2$s,"
+msgstr ""
+
+msgid "Thanks for creating an account on %1$s."
+msgstr ""
+
+msgid "You Account Details"
+msgstr ""
+
+msgid "Login: %s"
+msgstr ""
+
+msgid "Password: %s"
+msgstr ""
+
+msgid "Log in here: %s"
+msgstr ""
+
+msgid "Accommodation #%s"
+msgstr "Ubytování #%s"
+
+msgid "Accommodation: <a href=\"%1$s\">%2$s</a>"
+msgstr "Ubytování: <a href=\"%1$s\">%2$s</a>"
+
+msgid "Accommodation Rate: %s"
+msgstr "Cenové zařazení: %s"
+
+msgid "Bed Type: %s"
+msgstr "Typ postele: %s"
+
+msgid "Required fields are followed by"
+msgstr "Povinná pole jsou označena"
+
+msgid "Booking is already canceled."
+msgstr ""
+
+msgid "Cancel Booking"
+msgstr ""
+
+msgid "Invalid request."
+msgstr "Neplatný požadavek."
+
+msgid "Cancelation of your booking is not possible for some reason. Please contact the website administrator."
+msgstr ""
+
+msgid "Booking is already confirmed."
+msgstr "Rezervace je již potvrzena. "
+
+msgid "Your booking is confirmed. Thank You!"
+msgstr "Vaše rezervace je potvrzena. Děkujeme!"
+
+msgid "Your booking request is expired. Please start a new booking request."
+msgstr "Platnost této žádosti již vypršela. Vytvořte novou žádost o rezervaci."
+
+msgid "Confirmation of your booking request is not possible for some reason. Please start a new booking request."
+msgstr "Není možné potvrdit rezervaci z nějakého důvodu. Odešlete novou žádost o rezervaci."
+
+msgid "We are pleased to inform you that your reservation request has been received and confirmed."
+msgstr "S potěšením vám oznamujeme, že vaše žádost o rezervaci byla přijata a potvrzena."
+
+msgid "Booking:"
+msgstr "Rezervace:"
+
+msgid "Details:"
+msgstr "Detaily:"
+
+msgid "Thank you for your payment. Your transaction has been completed."
+msgstr "Děkujeme za Vaši platbu. Transakce je kompletní."
+
+msgid "We are pleased to inform you that your reservation request has been received."
+msgstr "Dovolujeme si Vás informovat, že jsme obdrželi Vaši žádost o rezervaci."
+
+msgid "from %s"
+msgstr "od %s"
+
+msgid "No accommodations matching criteria."
+msgstr "Dle zadaných kritérií nebyla nalezena žádná nabídka ubytování."
+
+msgid "No services matched criteria."
+msgstr "Nebyly nalezeny žádné služby, které by splňovaly tato kritéria."
+
+msgid "Nothing found."
+msgstr "Nebylo nic nalezeno."
+
+msgid "Children %s:"
+msgstr "Děti %s:"
+
+msgid "Preset date. Formatted as %s"
+msgstr "Přednastavené datum. Formátováno jako %s"
+
+msgid "Gallery"
+msgstr "Galerie"
+
+msgid "View Button"
+msgstr "Zobrazit tlačítko"
+
+msgid "Order"
+msgstr "Pořadí"
+
+msgid "Order By"
+msgstr "Seřadit podle"
+
+msgid "No order"
+msgstr "Bez pořadí"
+
+msgid "Post ID"
+msgstr "ID příspěvku"
+
+msgid "Post author"
+msgstr "Autor příspěvku"
+
+msgid "Post title"
+msgstr "Název příspěvku"
+
+msgid "Post name (post slug)"
+msgstr "Jméno příspěvku (post slug)"
+
+msgid "Post date"
+msgstr "Datum příspěvku"
+
+msgid "Last modified date"
+msgstr "Datum poslední úpravy"
+
+msgid "Parent ID"
+msgstr "Mateřské ID"
+
+msgid "Random order"
+msgstr "Náhodné pořadí"
+
+msgid "Number of comments"
+msgstr "Počet komentářů"
+
+msgid "Relevance"
+msgstr ""
+
+msgid "Page order"
+msgstr "Pořadí stránky"
+
+msgid "Meta value"
+msgstr "Meta hodnota"
+
+msgid "Numeric meta value"
+msgstr "Číselná met hodnota"
+
+msgid "Ascending (1, 2, 3)"
+msgstr "Vzestupně (1, 2, 3)"
+
+msgid "Descending (3, 2, 1)"
+msgstr "Sestupně (3, 2, 1)"
+
+msgid "Meta Name"
+msgstr "Meta jméno"
+
+msgid "Meta Type"
+msgstr "Meta typ"
+
+msgid "Specified type of the custom field. Can be used in conjunction with \"orderby\" = \"meta_value\"."
+msgstr "Specifikovaný typ vlastního pole. Lze použít ve spojení s \"orderby\" = \"meta_value\"."
+
+msgid "Any"
+msgstr "Jakýkoliv"
+
+msgid "Numeric"
+msgstr "Numerický"
+
+msgid "Binary"
+msgstr "Binární"
+
+msgid "String"
+msgstr "Výraz"
+
+msgid "Time"
+msgstr "Čas"
+
+msgid "Date and time"
+msgstr "Datum a čas"
+
+msgid "Decimal number"
+msgstr "Desetinné číslo"
+
+msgid "Signed number"
+msgstr "Přiřazené číslo"
+
+msgid "Unsigned number"
+msgstr "Nepřiřazené číslo"
+
+msgid "Query Settings"
+msgstr "Nastavení dotazu"
+
+msgid "Relation"
+msgstr "Vztah"
+
+msgid "Values: integer, -1 to display all, default: \"Blog pages show at most\""
+msgstr "Hodnoty: celé číslo, -1 pro zobrazení všech, výchozí: „Blogové stránky se zobrazují nejvýš“"
+

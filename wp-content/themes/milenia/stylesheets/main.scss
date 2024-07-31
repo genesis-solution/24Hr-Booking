@@ -1,0 +1,80 @@
+/*
+Theme Name: Milenia
+Theme URI: http://velikorodnov.com/wordpress/milenia/
+Author: Monkeysan
+Author URI: https://themeforest.net/user/monkeysan
+Description: Milenia WordPress Theme is a responsive WordPress theme created especially for hotels, resorts, hostels, boutique and apartments a complete hotel and vacation rental booking system within theme package. Developed for the latest WordPress version. Milenia supports all responsive layouts and looks great on all devices. Theme doesn’t focus on any specific hotel establishment, so you may use it for hotels, bed and breakfast websites, guest houses, apartments, villas, and even hostels. The plugin comes with all needed functionality to run a fully functional hospitality business website and manage reservations and WooCommerce payment gateways to rent out your accommodations.
+Version: 1.3.5
+Tags: one-column, two-columns, left-sidebar, right-sidebar, sticky-post, rtl-language-support, threaded-comments, translation-ready, theme-options, featured-images
+License: Commercial
+License URI: http://themeforest.net/licenses/regular_extended
+Text Domain: milenia
+*/
+
+/*------------------------------------------------------------------
+[Master Stylesheet]
+
+Project:        Milenia
+Last change:    25/02/2023
+Assigned to:    Monkeysan
+Primary use:    Booking
+
+/*------------------------------------------------------------------
+[Color codes]
+
+# Primary Color (Brown skin):      #ae745a
+# Primary Color (Gray skin):       #948685
+# Primary Color (Blue skin):       #19b1d1
+# Primary Color (Lightbrown skin): #c19b76
+# Primary Color (Green skin):      #7eb71c
+
+Background: #ffffff
+Headers:    #1c1c1c
+# */
+
+/*------------------------------------------------------------------
+[Typography]
+
+Body copy:  400 16px/26px "Open Sans", "sans-serif";
+Headers:    "Playfair Display", "sans-serif";
+*/
+
+/* ----------------------------------------
+    Stylesheet Guide
+ ------------------------------------------
+
+    1. Base
+    2. Layout
+    3. Components
+    4. Pages
+    5. WordPress
+    6. Media Queries
+
+---------------------------------------------------------- */
+
+// 1. Configuration and helpers
+@import
+  'abstracts/breakpoints',
+  'abstracts/variables',
+  'abstracts/functions';
+
+// 2. Base stuff
+@import
+'base/reset';
+
+// 3. Layout-related sections
+@import
+  'layout/layout',
+  'layout/_layout2',
+  'layout/_layout3',
+  'layout/_layout4';
+
+// 4. Components
+@import
+'components/carousel';
+
+// 5. Vendors
+@import
+  'vendors/booking',
+  'vendors/woocommerce',
+  'vendors/wpml';

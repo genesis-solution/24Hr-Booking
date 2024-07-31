@@ -1,0 +1,1137 @@
+/* ----------------------------------------
+    Alert Boxes
+---------------------------------------- */
+
+    .milenia-alert-boxes-example {
+        margin-top: -0.8125rem;
+    }
+
+    .milenia-alert-box {
+        padding-top: 0.8125rem;
+        padding-bottom: 0.8125rem;
+    }
+
+    .milenia-alert-box strong {
+        font-weight: inherit;
+    }
+
+    .milenia-alert-box-inner {
+        position: relative;
+        border-width: 1px;
+        border-style: solid;
+        padding-top: 1.6rem;
+        padding-bottom: 1.6rem;
+        padding-left: 4.375rem;
+        padding-right: 3.8rem;
+        text-align: initial;
+        background-color: #fff;
+    }
+
+    .milenia-alert-box-inner::before {
+        font-family: "Linearicons";
+        font-size: 1.875rem;
+        line-height: 1;
+        position: absolute;
+        left: 1.63603rem;
+        top: 50%;
+        margin-top: -0.9375rem;
+    }
+
+    .milenia-alert-box-close {
+        position: absolute;
+        color: transparent;
+        font-size: 1.15rem;
+        line-height: 1;
+        display: block;
+        width: 1.15rem;
+        height: 1.15rem;
+        right: 1.325rem;
+        top: 50%;
+        margin-top: -0.575rem;
+        overflow: hidden;
+    }
+
+    .milenia-alert-box-close::-moz-selection {
+        color: transparent;
+    }
+
+    .milenia-alert-box-close::selection {
+        color: transparent;
+    }
+
+    .milenia-alert-box-close::-webkit-selection {
+        color: transparent;
+    }
+
+    .milenia-alert-box-close::after {
+        font-family: "Linearicons";
+        content: '\e92a';
+        color: #313131;
+        position: absolute;
+        top: 50%;
+        left: 0;
+        right: 0;
+        text-align: center;
+        margin-top: -0.575rem;
+    }
+
+    .milenia-alert-box--success {
+        color: #2ba206;
+    }
+
+    .milenia-alert-box--success .milenia-alert-box-inner {
+        border-color: #2ba206;
+    }
+
+    .milenia-alert-box--success .milenia-alert-box-inner::before {
+        content: "\e959";
+    }
+
+    .milenia-alert-box--warning {
+        color: #eb740b;
+    }
+
+    .milenia-alert-box--warning .milenia-alert-box-inner {
+        border-color: #eb740b;
+    }
+
+    .milenia-alert-box--warning .milenia-alert-box-inner::before {
+        content: "\e956";
+    }
+
+    .milenia-alert-box--info {
+        color: #0648a2;
+    }
+
+    .milenia-alert-box--info .milenia-alert-box-inner {
+        border-color: #0648a2;
+    }
+
+    .milenia-alert-box--info .milenia-alert-box-inner::before {
+        content: "\e965";
+    }
+
+    .milenia-alert-box--error {
+        color: #eb0b0b;
+    }
+
+    .milenia-alert-box--error .milenia-alert-box-inner {
+        border-color: #eb0b0b;
+    }
+
+    .milenia-alert-box--error .milenia-alert-box-inner::before {
+        content: "\e95a";
+    }
+
+    .milenia-csstransforms3d .milenia-alert-box-close {
+        -webkit-transition: -webkit-transform .4s cubic-bezier(0.25, 3, 0.75, 0.9);
+                transition:         transform .4s cubic-bezier(0.25, 3, 0.75, 0.9);
+    }
+
+    .milenia-csstransforms3d .milenia-alert-box-close:hover {
+        -webkit-transform: scale3d(1.3, 1.3, 1.3);
+                transform: scale3d(1.3, 1.3, 1.3);
+    }
+
+/* ----------------------------------------
+    Dropcaps
+---------------------------------------- */
+
+    .milenia-dropcap > *:first-child:first-letter {
+        font-size: 3.25rem;
+        font-weight: 900;
+        line-height: 1;
+        display: block;
+        float: left;
+        margin-right: 1.1rem;
+        margin-top: -2px;
+    }
+
+    .milenia-dropcap--filled > *:first-child:first-letter {
+        font-size: 2.25rem;
+        font-weight: 700;
+        color: #fff;
+        padding-top: 0.15rem;
+        padding-right: 0.72rem;
+        padding-left: 0.72rem;
+        padding-bottom: 0.35rem;
+        margin-top: 4px;
+    }
+
+    /* firefox only */
+    @-moz-document url-prefix() {
+        .milenia-dropcap > *:first-child:first-letter {
+            margin-top: 6px;
+        }
+        .milenia-dropcap--filled > *:first-child:first-letter {
+            margin-top: 4px;
+            padding-top: 0.6rem;
+            padding-bottom: 0.455rem;
+        }
+    }
+
+    .milenia-body--scheme-brown .milenia-dropcap:not(.milenia-dropcap--filled) > *:first-child:first-letter {
+        color: #ae745a;
+    }
+
+    .milenia-body--scheme-brown .milenia-dropcap.milenia-dropcap--filled > *:first-child:first-letter {
+        background-color: #ae745a;
+    }
+
+    .milenia-body--scheme-gray .milenia-dropcap:not(.milenia-dropcap--filled) > *:first-child:first-letter {
+        color: #948685;
+    }
+
+    .milenia-body--scheme-gray .milenia-dropcap.milenia-dropcap--filled > *:first-child:first-letter {
+        background-color: #948685;
+    }
+
+    .milenia-body--scheme-blue .milenia-dropcap:not(.milenia-dropcap--filled) > *:first-child:first-letter {
+        color: #19b1d1;
+    }
+
+    .milenia-body--scheme-blue .milenia-dropcap.milenia-dropcap--filled > *:first-child:first-letter {
+        background-color: #19b1d1;
+    }
+
+    .milenia-body--scheme-lightbrown .milenia-dropcap:not(.milenia-dropcap--filled) > *:first-child:first-letter {
+        color: #c19b76;
+    }
+
+    .milenia-body--scheme-lightbrown .milenia-dropcap.milenia-dropcap--filled > *:first-child:first-letter {
+        background-color: #c19b76;
+    }
+
+    .milenia-body--scheme-green .milenia-dropcap:not(.milenia-dropcap--filled) > *:first-child:first-letter {
+        color: #7eb71c;
+    }
+
+    .milenia-body--scheme-green .milenia-dropcap.milenia-dropcap--filled > *:first-child:first-letter {
+        background-color: #7eb71c;
+    }
+
+/* ----------------------------------------
+    Tabs & Tour Sections
+---------------------------------------- */
+
+    .milenia-tabs:not(.milenia-tabs--unstyled) {
+        overflow: hidden;
+    }
+
+    .milenia-tabs:not(.milenia-tabs--unstyled) .milenia-tabs-nav {
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.18px;
+        font-size: 0;
+        line-height: 0;
+        margin-top: -1px;
+        margin-left: -1px;
+        margin-right: -1px;
+
+        -ms-word-break: break-all;
+            word-break: break-all;
+
+        -webkit-user-select: none;
+           -moz-user-select: none;
+             -o-user-select: none;
+            -ms-user-select: none;
+                user-select: none;
+    }
+
+    .milenia-tabs:not(.milenia-tabs--unstyled) .milenia-tabs-nav > span {
+        display: inline-block;
+        vertical-align: top;
+        margin-right: 1px;
+        margin-left: 1px;
+        margin-top: 1px;
+    }
+
+    .milenia-tabs:not(.milenia-tabs--unstyled) .milenia-tabs-nav a {
+        color: #1c1c1c;
+        display: block;
+        padding-top: 0.92rem;
+        padding-right: 1.625rem;
+        padding-bottom: 0.92rem;
+        padding-left: 1.625rem;
+        font-size: 1.125rem;
+        line-height: 1.3;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.18px;
+
+        -webkit-transition: background-color .5s cubic-bezier(0.165, 0.84, 0.44, 1), color .5s cubic-bezier(0.165, 0.84, 0.44, 1), border-color .5s cubic-bezier(0.165, 0.84, 0.44, 1);
+                transition: background-color .5s cubic-bezier(0.165, 0.84, 0.44, 1), color .5s cubic-bezier(0.165, 0.84, 0.44, 1), border-color .5s cubic-bezier(0.165, 0.84, 0.44, 1);
+    }
+
+    .milenia-tabs:not(.milenia-tabs--unstyled):not(.milenia-tabs--style-2) .milenia-tabs-nav a {
+        background-color: #f8f8f8;
+    }
+
+    .milenia-tabs:not(.milenia-tabs--unstyled):not(.milenia-tabs--style-2) .milenia-tabs-nav .milenia-active > a {
+        color: #fff;
+    }
+
+    .milenia-tabs:not(.milenia-tabs--unstyled).milenia-tabs--style-2 a::before, .milenia-tabs:not(.milenia-tabs--unstyled).milenia-tabs--style-2 a::after {
+        border-color: #dadada;
+    }
+
+    .milenia-tabs:not(.milenia-tabs--unstyled) .milenia-tab {
+        padding-top: 1.65rem;
+        padding-right: 1.625rem;
+        padding-bottom: 0;
+        padding-left: 1.625rem;
+    }
+
+    .milenia-tabs--style-2:not(.milenia-tabs--unstyled) .milenia-tabs-nav,
+    .milenia-tabs--style-2:not(.milenia-tabs--unstyled) .milenia-tabs-nav > span {
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 0;
+    }
+
+    .milenia-tabs--style-2:not(.milenia-tabs--unstyled) .milenia-tabs-nav a {
+        position: relative;
+        padding-top: 1.012rem;
+        padding-bottom: 0.966rem;
+    }
+
+    .milenia-tabs--style-2:not(.milenia-tabs--unstyled) .milenia-tabs-nav a::before {
+        z-index: 1;
+        left: -5000%;
+        right: -5000%;
+    }
+
+    .milenia-tabs--style-2:not(.milenia-tabs--unstyled) .milenia-tabs-nav a::after {
+        z-index: 2;
+        left: 0;
+        right: 0;
+    }
+
+    .milenia-tabs--style-2:not(.milenia-tabs--unstyled) .milenia-tabs-nav a::after, .milenia-tabs--style-2:not(.milenia-tabs--unstyled) .milenia-tabs-nav a::before {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        border-style: solid;
+        border-width: 1px 0 0 0;
+        -webkit-transition-property: border;
+                transition-property: border;
+        -webkit-transition-duration: inherit;
+                transition-duration: inherit;
+        -webkit-transition-delay: inherit;
+                transition-delay: inherit;
+        -webkit-transition-timing-function: inherit;
+                transition-timing-function: inherit;
+    }
+
+    .milenia-tabs--style-2:not(.milenia-tabs--unstyled) .milenia-tab {
+        padding-top: 1.5675rem;
+    }
+
+    .milenia-body--scheme-brown .milenia-tabs:not(.milenia-tabs--unstyled):not(.milenia-tabs--style-2) .milenia-tabs-nav .milenia-active > a:not(.milenia-btn):not(.button) {
+        background-color: #ae745a;
+    }
+
+    .milenia-body--scheme-brown .milenia-tabs:not(.milenia-tabs--unstyled).milenia-tabs--style-2 .milenia-active > a:not(.milenia-btn):not(.button) {
+        color: #ae745a;
+    }
+
+    .milenia-body--scheme-brown .milenia-tabs:not(.milenia-tabs--unstyled).milenia-tabs--style-2 .milenia-active > a::after {
+        border-color: #ae745a;
+    }
+
+    .milenia-body--scheme-gray .milenia-tabs:not(.milenia-tabs--unstyled):not(.milenia-tabs--style-2) .milenia-tabs-nav .milenia-active > a:not(.milenia-btn):not(.button) {
+        background-color: #948685;
+    }
+
+    .milenia-body--scheme-gray .milenia-tabs:not(.milenia-tabs--unstyled).milenia-tabs--style-2 .milenia-active > a:not(.milenia-btn):not(.button) {
+        color: #948685;
+    }
+
+    .milenia-body--scheme-gray .milenia-tabs:not(.milenia-tabs--unstyled).milenia-tabs--style-2 .milenia-active > a::after {
+        border-color: #948685;
+    }
+
+    .milenia-body--scheme-blue .milenia-tabs:not(.milenia-tabs--unstyled):not(.milenia-tabs--style-2) .milenia-tabs-nav .milenia-active > a:not(.milenia-btn):not(.button) {
+        background-color: #19b1d1;
+    }
+
+    .milenia-body--scheme-blue .milenia-tabs:not(.milenia-tabs--unstyled).milenia-tabs--style-2 .milenia-active > a:not(.milenia-btn):not(.button) {
+        color: #19b1d1;
+    }
+
+    .milenia-body--scheme-blue .milenia-tabs:not(.milenia-tabs--unstyled).milenia-tabs--style-2 .milenia-active > a::after {
+        border-color: #19b1d1;
+    }
+
+    .milenia-body--scheme-lightbrown .milenia-tabs:not(.milenia-tabs--unstyled):not(.milenia-tabs--style-2) .milenia-tabs-nav .milenia-active > a:not(.milenia-btn):not(.button) {
+        background-color: #c19b76;
+    }
+
+    .milenia-body--scheme-lightbrown .milenia-tabs:not(.milenia-tabs--unstyled).milenia-tabs--style-2 .milenia-active > a:not(.milenia-btn):not(.button) {
+        color: #c19b76;
+    }
+
+    .milenia-body--scheme-lightbrown .milenia-tabs:not(.milenia-tabs--unstyled).milenia-tabs--style-2 .milenia-active > a::after {
+        border-color: #c19b76;
+    }
+
+    .milenia-body--scheme-green .milenia-tabs:not(.milenia-tabs--unstyled):not(.milenia-tabs--style-2) .milenia-tabs-nav .milenia-active > a:not(.milenia-btn):not(.button) {
+        background-color: #7eb71c;
+    }
+
+    .milenia-body--scheme-green .milenia-tabs:not(.milenia-tabs--unstyled).milenia-tabs--style-2 .milenia-active > a:not(.milenia-btn):not(.button) {
+        color: #7eb71c;
+    }
+
+    .milenia-body--scheme-green .milenia-tabs:not(.milenia-tabs--unstyled).milenia-tabs--style-2 .milenia-active > a::after {
+        border-color: #7eb71c;
+    }
+
+    .milenia-tabs--tour-sections:not(.milenia-tabs--unstyled) .milenia-tabs-nav {
+        float: left;
+        width: 200px;
+    }
+
+    .milenia-tabs--tour-sections:not(.milenia-tabs--unstyled) .milenia-tabs-nav > span {
+        display: block;
+    }
+
+    .milenia-tabs--tour-sections:not(.milenia-tabs--unstyled),
+    .milenia-tabs--tour-sections:not(.milenia-tabs--unstyled) .milenia-tabs-container {
+        overflow: hidden;
+    }
+
+    .milenia-tabs--tour-sections:not(.milenia-tabs--unstyled) .milenia-tab,
+    .milenia-tabs--tour-sections:not(.milenia-tabs--unstyled).milenia-tabs--style-2 .milenia-tab {
+        padding-top: 0.825rem;
+        padding-right: 1.95rem;
+        padding-bottom: 0.825rem;
+        padding-left: 1.95rem;
+    }
+
+    .milenia-tabs--tour-sections:not(.milenia-tabs--unstyled).milenia-tabs--style-2 .milenia-tabs-nav a {
+        padding-top: 0.8832rem;
+        padding-bottom: 0.8832rem;
+    }
+
+    .milenia-tabs--tour-sections:not(.milenia-tabs--unstyled).milenia-tabs--style-2 .milenia-tabs-nav a::before {
+        top: -5000%;
+        bottom: -5000%;
+    }
+
+    .milenia-tabs--tour-sections:not(.milenia-tabs--unstyled).milenia-tabs--style-2 .milenia-tabs-nav a::after {
+        top: 0;
+        bottom: 0;
+    }
+
+    .milenia-tabs--tour-sections:not(.milenia-tabs--unstyled).milenia-tabs--style-2 .milenia-tabs-nav a::before, .milenia-tabs--tour-sections:not(.milenia-tabs--unstyled).milenia-tabs--style-2 .milenia-tabs-nav a::after {
+        left: auto;
+        right: 0;
+    }
+
+    .milenia-tabs--tour-sections:not(.milenia-tabs--unstyled).milenia-tabs--style-2 .milenia-tabs-nav a::after, .milenia-tabs--tour-sections:not(.milenia-tabs--unstyled).milenia-tabs--style-2 .milenia-tabs-nav a::before {
+        border-width: 0 1px 0 0;
+    }
+
+/* ----------------------------------------
+    Counters
+---------------------------------------- */
+
+    .milenia-counter {
+        display: inline-block;
+    }
+
+    .milenia-counter-count {
+        font-size: 3rem;
+        line-height: .9;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        color: #1c1c1c;
+    }
+
+    .milenia-counter-icon {
+        font-size: 3.7rem;
+        line-height: 1;
+        margin-top: 1rem;
+    }
+
+    .milenia-counter-icon:not(:last-child) {
+        margin-bottom: 1.5rem;
+    }
+
+    .milenia-counters {
+        text-align: center;
+    }
+
+    .milenia-counters:not(.milenia-counters--vertical) .milenia-counter {
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    .milenia-counters:not(.milenia-counters--vertical) .milenia-counter-inner {
+        display: table;
+        table-layout: fixed;
+        text-align: initial;
+    }
+
+    .milenia-counters:not(.milenia-counters--vertical) .milenia-counter-icon, .milenia-counters:not(.milenia-counters--vertical) .milenia-counter-content {
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+    .milenia-counters:not(.milenia-counters--vertical) .milenia-counter-icon {
+        padding-right: 1.75rem;
+        text-align: right;
+        margin-top: 0;
+    }
+
+    .milenia-counters:not(.milenia-counters--vertical) .milenia-counter-icon:not(:last-child) {
+        margin-bottom: 0;
+    }
+
+    .milenia-body--scheme-brown .milenia-counter-icon {
+        color: #ae745a;
+    }
+
+    .milenia-body--scheme-gray .milenia-counter-icon {
+        color: #948685;
+    }
+
+    .milenia-body--scheme-blue .milenia-counter-icon {
+        color: #19b1d1;
+    }
+
+    .milenia-body--scheme-lightbrown .milenia-counter-icon {
+        color: #c19b76;
+    }
+
+    .milenia-body--scheme-green .milenia-counter-icon {
+        color: #7eb71c;
+    }
+
+    .milenia-colorizer--scheme-secondary .milenia-counter,
+    .milenia-colorizer--scheme-primary .milenia-counter {
+        color: #a5a5a5;
+    }
+
+    .milenia-colorizer--scheme-secondary .milenia-counter-count,
+    .milenia-colorizer--scheme-primary .milenia-counter-count,
+    .milenia-colorizer--scheme-primary .milenia-counter-icon,
+    .milenia-colorizer--scheme-dark .milenia-counter-count {
+        color: #fff;
+    }
+
+/* ----------------------------------------
+    Google Map
+---------------------------------------- */
+
+    .compose-mode .vc_vc_milenia_google_map {
+        height: 100%;
+    }
+
+/* ----------------------------------------
+    Progress Bars
+---------------------------------------- */
+
+    .milenia-progress-bars-item:not(:last-child) {
+        margin-bottom: 2rem;
+    }
+
+    .milenia-progress-bar {
+        height: 5px;
+        position: relative;
+        background-color: #eaeaea;
+    }
+
+    .milenia-progress-bar-title {
+        font-size: 1.125rem;
+        font-weight: 600;
+        margin-bottom: 0.8rem;
+        display: block;
+        position: relative;
+        padding-right: 6.25rem;
+        color: #1c1c1c;
+    }
+
+    .milenia-progress-bar-title::after {
+        content: attr(data-value) attr(data-units);
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+
+    .milenia-progress-bar-indicator {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: auto;
+    }
+
+    .milenia-progress-bars--style-2 .milenia-progress-bars-item:not(:last-child) {
+        margin-bottom: 1.1rem;
+    }
+
+    .milenia-progress-bars--style-2 .milenia-progress-bar {
+        height: 3px;
+    }
+
+    .milenia-progress-bars--style-2 .milenia-progress-bar-title {
+        font-size: 1rem;
+        font-weight: 400;
+        margin-bottom: 0.35rem;
+    }
+
+    .milenia-colorizer--scheme-dark .milenia-progress-bar-title,
+    .milenia-colorizer--scheme-primary .milenia-progress-bar-title,
+    .milenia-colorizer--scheme-secondary .milenia-progress-bar-title {
+        color: #fff;
+    }
+
+    .milenia-body--scheme-brown .milenia-progress-bars:not(.milenia-progress-bars--secondary) .milenia-progress-bar-indicator {
+        background-color: #ae745a;
+    }
+
+    .milenia-body--scheme-brown .milenia-progress-bars.milenia-progress-bars--secondary .milenia-progress-bar-indicator {
+        background-color: #09355c;
+    }
+
+    .milenia-body--scheme-gray .milenia-progress-bars:not(.milenia-progress-bars--secondary) .milenia-progress-bar-indicator,
+    .milenia-body--scheme-gray .milenia-progress-bars.milenia-progress-bars--secondary .milenia-progress-bar-indicator {
+        background-color: #948685;
+    }
+
+    .milenia-body--scheme-blue .milenia-progress-bars:not(.milenia-progress-bars--secondary) .milenia-progress-bar-indicator,
+    .milenia-body--scheme-blue .milenia-progress-bars.milenia-progress-bars--secondary .milenia-progress-bar-indicator {
+        background-color: #19b1d1;
+    }
+
+    .milenia-body--scheme-lightbrown .milenia-progress-bars:not(.milenia-progress-bars--secondary) .milenia-progress-bar-indicator,
+    .milenia-body--scheme-lightbrown .milenia-progress-bars.milenia-progress-bars--secondary .milenia-progress-bar-indicator {
+        background-color: #c19b76;
+    }
+
+    .milenia-body--scheme-green .milenia-progress-bars:not(.milenia-progress-bars--secondary) .milenia-progress-bar-indicator {
+        background-color: #7eb71c;
+    }
+
+    .milenia-body--scheme-green .milenia-progress-bars.milenia-progress-bars--secondary .milenia-progress-bar-indicator {
+        background-color: #febd11;
+    }
+
+    .milenia-colorizer--scheme-primary .milenia-progress-bars:not(.milenia-progress-bars--secondary) .milenia-progress-bar,
+    .milenia-colorizer--scheme-primary .milenia-progress-bars.milenia-progress-bars--secondary .milenia-progress-bar,
+    .milenia-colorizer--scheme-secondary .milenia-progress-bars:not(.milenia-progress-bars--secondary) .milenia-progress-bar,
+    .milenia-colorizer--scheme-secondary .milenia-progress-bars.milenia-progress-bars--secondary .milenia-progress-bar {
+        background-color: #a5a5a5;
+    }
+
+    .milenia-colorizer--scheme-primary .milenia-progress-bars:not(.milenia-progress-bars--secondary) .milenia-progress-bar-indicator, .milenia-colorizer--scheme-primary .milenia-progress-bars.milenia-progress-bars--secondary .milenia-progress-bar-indicator,
+    .milenia-colorizer--scheme-secondary .milenia-progress-bars:not(.milenia-progress-bars--secondary) .milenia-progress-bar-indicator,
+    .milenia-colorizer--scheme-secondary .milenia-progress-bars.milenia-progress-bars--secondary .milenia-progress-bar-indicator {
+        background-color: #fff;
+    }
+
+/* ----------------------------------------
+    Animation
+---------------------------------------- */
+
+    .animated.stealthy{
+        opacity: 0;
+        visibility: hidden;
+    }
+
+/* ----------------------------------------
+    Non underlined links
+---------------------------------------- */
+
+    #vc_no-content-helper a,
+    .vc_icon_element .vc_icon_element-link,
+    .wpb_gallery .flex-direction-nav a,
+    .vc_images_carousel .vc_carousel-control,
+    .wpb-js-composer .vc_tta-tab > a,
+    .wpb-js-composer .vc_tta-panel-title > a,
+    .vc_pagination .vc_pagination-trigger,
+    .vc_custom_heading > a,
+    .milenia-page-wrapper-content .vc_gitem-zone .vc-zone-link {
+        background-image: none;
+    }
+
+/* ----------------------------------------
+    Overriding default VC offsets
+---------------------------------------- */
+    .compose-mode .milenia-page-wrapper .vc_vc_row_inner,
+    .milenia-page-wrapper .vc_row-has-fill>.vc_column_container>.vc_column-inner,
+    .milenia-page-wrapper .vc_row-has-fill+.vc_row-full-width+.vc_row>.vc_column_container>.vc_column-inner,
+    .milenia-page-wrapper .vc_row-has-fill+.vc_vc_row>.vc_row>.vc_vc_column>.vc_column_container>.vc_column-inner,
+    .milenia-page-wrapper .vc_row-has-fill>.vc_row>.vc_vc_column>.vc_column_container>.vc_column-inner,
+    .compose-mode .milenia-page-wrapper .vc_vc_section>[data-vc-full-width=true],
+    .compose-mode .milenia-page-wrapper .vc_vc_row>[data-vc-full-width=true],
+    .milenia-page-wrapper .vc_row-has-fill+.vc_row>.vc_column_container>.vc_column-inner,
+    .milenia-page-wrapper .vc_row-has-fill>.vc_column_container>.vc_column-inner,
+    .milenia-page-wrapper .vc_row-has-fill+.vc_vc_row_inner>.vc_row>.vc_vc_column_inner>.vc_column_container>.vc_column-inner,
+    .compose-mode .vc_vc_row>[data-vc-full-width=true],
+    .compose-mode .vc_vc_row_inner,
+    .compose-mode .vc_vc_section>[data-vc-full-width=true],
+    .compose-mode .vc_vc_row>.vc_parallax,
+    .compose-mode .vc_vc_section>.vc_parallax {
+        padding-top: 0;
+    }
+
+/* ----------------------------------------
+    Sections & Rows
+ ---------------------------------------- */
+
+    /* .vc_row[class*="vc_custom"] {
+        background-image: none !important;
+        background-color: transparent !important;
+    } */
+
+    .vc_parallax .milenia-colorizer-bg-color,
+    .vc_parallax .milenia-colorizer-bg-image {
+        position: absolute;
+        z-index: -2;
+    }
+
+    .vc_parallax .milenia-colorizer-bg-image {
+        z-index: -1;
+    }
+
+    .vc_row,
+    .vc_section {
+        padding-bottom: 5.9rem;
+    }
+
+    .vc_row-has-fill,
+    .vc_row-has-fill + .vc_row,
+    .vc_row-has-fill + script + .vc_row,
+    .vc_row-has-fill + .vc_section,
+    .vc_row-has-fill + script + .vc_section,
+    .vc_section-has-fill + .vc_row,
+    .vc_section-has-fill + .vc_section,
+    .vc_row-has-fill + .vc_clearfix + .vc_row,
+    .vc_row-has-fill + .vc_clearfix + script + .vc_row,
+    .vc_row-has-fill + .vc_clearfix + .vc_section,
+    .vc_row-has-fill + .vc_clearfix + script + .vc_section,
+    .vc_section-has-fill + .vc_clearfix + .vc_row,
+    .vc_section-has-fill + .vc_clearfix + .vc_section,
+    .compose-mode .vc_vc_row.vc_row-has-fill > .vc_row,
+    .compose-mode .vc_vc_row_inner.vc_row-has-fill > .vc_row,
+    .compose-mode .vc_vc_section.vc_row-has-fill > .vc_section,
+    .compose-mode .vc_vc_section_inner.vc_section-has-fill > .vc_section,
+    .compose-mode .vc_vc_row_inner.vc_row-has-fill + .vc_vc_section_inner > .vc_section,
+    .compose-mode .vc_vc_row_inner.vc_row-has-fill + script + .vc_vc_section_inner > .vc_section,
+    .compose-mode .vc_vc_row_inner.vc_row-has-fill + .vc_vc_row_inner > .vc_row,
+    .compose-mode .vc_vc_row_inner.vc_row-has-fill + script + .vc_vc_row_inner > .vc_row,
+    .compose-mode .vc_vc_section_inner.vc_section-has-fill + .vc_vc_section_inner > .vc_section,
+    .compose-mode .vc_vc_section_inner.vc_section-has-fill + .vc_vc_row_inner > .vc_row,
+    .compose-mode .vc_vc_row.vc_row-has-fill + .vc_vc_row > .vc_row,
+    .compose-mode .vc_vc_row.vc_row-has-fill + script + .vc_vc_row > .vc_row,
+    .compose-mode .vc_vc_row.vc_row-has-fill + .vc_vc_section > .vc_section,
+    .compose-mode .vc_vc_row.vc_row-has-fill + script + .vc_vc_section > .vc_section,
+    .compose-mode .vc_vc_section.vc_section-has-fill + .vc_vc_row > .vc_row,
+    .compose-mode .vc_vc_section.vc_section-has-fill + .vc_vc_section > .vc_section,
+    .milenia-page-wrapper .vc_section.vc_section-has-fill,
+    .milenia-page-wrapper .vc_section.vc_section-has-fill+.vc_row-full-width+.vc_section {
+        padding-top: 5.9rem;
+    }
+
+    .compose-mode .vc_vc_row.vc_row-has-fill,
+    .compose-mode .vc_vc_row_inner.vc_row-has-fill {
+        padding-top: 0;
+    }
+
+    .compose-mode .vc_vc_row:last-child:not(.vc_row-has-fill) > .vc_row,
+    .compose-mode .vc_vc_row_inner:last-child:not(.vc_row-has-fill) > .vc_row,
+    .vc_row:last-child:not(.vc_row-has-fill),
+    .vc_section.vc_section-has-fill.vc_parallax > .vc_row:nth-last-child(2),
+    .compose-mode .vc_section.vc_section-has-fill > .vc_vc_row:nth-last-child(2) > .vc_row {
+        padding-bottom: 0;
+    }
+
+    .apo-header-vertical-left .vc_row[data-vc-stretch-content="true"],
+    .apo-header-vertical-left .vc_section[data-vc-stretch-content="true"] {
+        padding-left: 100px;
+    }
+
+    .apo-header-vertical-left .vc_section[data-vc-stretch-content="true"] ~ .vc_controls-container > .vc_controls-out-tl {
+        margin-left: 100px;
+    }
+
+    .apo-header-vertical-right .vc_row[data-vc-stretch-content="true"],
+    .apo-header-vertical-right .vc_section[data-vc-stretch-content="true"] {
+        padding-right: 100px;
+    }
+
+    .apo-header-vertical-right .vc_section[data-vc-stretch-content="true"] ~ .vc_controls-container > .vc_controls-out-tl {
+        margin-right: 100px;
+    }
+
+    .milenia-theme .vc_row[data-vc-full-width]:not([data-vc-parallax]) {
+        overflow: visible;
+    }
+
+/* ----------------------------------------
+     Additionals
+ ---------------------------------------- */
+
+    .compose-mode .vc_vc_milenia_flexible_grid .vc_controls > .vc_controls-out-tl {
+        top: 0px;
+        left: 30px;
+    }
+    .compose-mode .vc_vc_milenia_flexible_grid_column .vc_controls > .vc_controls-out-tl {
+        top: 30px;
+        left: 30px;
+    }
+
+    .compose-mode .vc_vc_milenia_flexible_grid_column.vc_empty-shortcode-element {
+        width: 100%;
+    }
+
+    .compose-mode .vc_vc_milenia_flexible_grid_column {
+        position: relative;
+    }
+
+    .compose-mode .vc_vc_milenia_flexible_grid_column [class*="milenia-flexible-grid-col"] {
+        -webkit-box-flex: 1;
+                -ms-flex: 1 1 100%;
+                    flex: 1 1 100%;
+        max-width: 100%;
+        position: static;
+        height: 100%;
+    }
+
+    [class*="milenia-flexible-grid-col"] .wpb_content_element {
+        position: relative;
+        z-index: 1;
+    }
+
+/* ----------------------------------------
+    Content Elements
+ ---------------------------------------- */
+
+     .milenia-page-wrapper .wpb_content_element {
+         margin-bottom: 0;
+     }
+
+     .milenia-page-wrapper .wpb_content_element + .wpb_content_element {
+         margin-top: 35px;
+     }
+
+    .milenia-page-wrapper .vc_vc_separator:not(:first-child) {
+        margin-top: 37px;
+    }
+
+    .milenia-page-wrapper .vc_vc_separator:not(:last-child) {
+        margin-bottom: 37px;
+    }
+
+    .compose-mode .milenia-page-wrapper .vc_element.vc_vc_separator:last-child {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .vc_separator.vc_separator_align_center h4:not(:first-child) {
+        margin-top: 0;
+    }
+
+/* ----------------------------------------
+    Content Elements
+ ---------------------------------------- */
+
+    .compose-mode .vc_control-btn,
+    .compose-mode .vc_ui-button,
+    .compose-mode .vc_add-element-not-empty-button,
+    .milenia-page-wrapper-content [class*="vc_btn"] {
+        background-image: none !important;
+    }
+
+    .compose-mode .vc_empty-placeholder {
+        margin-bottom: 0;
+    }
+
+    .compose-mode .fp-tableCell {
+        width: 1%;
+    }
+
+    .compose-mode .vc_element.fp-section.fp-table,
+    .compose-mode .vc_element.fp-slide.fp-table {
+        display: table !important;
+    }
+
+    .milenia-page-wrapper-dark-skin .flex-control-paging li a.flex-active,
+    .milenia-page-wrapper-dark-skin .flex-control-paging li a:hover {
+        background-color: #c5c5c5;
+    }
+
+    .milenia-page-wrapper-dark-skin .milenia-page-wrapper-content .vc_gitem-post-data h1,
+    .milenia-page-wrapper-dark-skin .milenia-page-wrapper-content .vc_gitem-post-data h2,
+    .milenia-page-wrapper-dark-skin .milenia-page-wrapper-content .vc_gitem-post-data h3,
+    .milenia-page-wrapper-dark-skin .milenia-page-wrapper-content .vc_gitem-post-data h4,
+    .milenia-page-wrapper-dark-skin .milenia-page-wrapper-content .vc_gitem-post-data h5,
+    .milenia-page-wrapper-dark-skin .milenia-page-wrapper-content .vc_gitem-post-data h6 {
+        color: #000000;
+    }
+
+    /* ----------------------------------------
+        'About' shortcode
+     ---------------------------------------- */
+
+        .vc_vc_milenia_section .vc_controls-container .element-vc_milenia_section {
+            position: relative;
+            top: -30px;
+        }
+
+        .compose-mode .vc_element.vc_empty .vc_empty-element.apo-fh-article,
+        .view-mode .vc_element.vc_empty .vc_empty-element.apo-fh-article {
+            min-height: 100vh;
+        }
+
+
+    @media (min-width: 576px) {
+        .milenia-tabs--tour-sections-sm:not(.milenia-tabs--unstyled) .milenia-tabs-nav {
+            float: left;
+            width: 200px;
+        }
+        .milenia-tabs--tour-sections-sm:not(.milenia-tabs--unstyled) .milenia-tabs-nav > span {
+            display: block;
+        }
+        .milenia-tabs--tour-sections-sm:not(.milenia-tabs--unstyled),
+        .milenia-tabs--tour-sections-sm:not(.milenia-tabs--unstyled) .milenia-tabs-container {
+            overflow: hidden;
+        }
+        .milenia-tabs--tour-sections-sm:not(.milenia-tabs--unstyled) .milenia-tab,
+        .milenia-tabs--tour-sections-sm:not(.milenia-tabs--unstyled).milenia-tabs--style-2 .milenia-tab {
+            padding-top: 0.825rem;
+            padding-right: 1.95rem;
+            padding-bottom: 0.825rem;
+            padding-left: 1.95rem;
+        }
+        .milenia-tabs--tour-sections-sm:not(.milenia-tabs--unstyled).milenia-tabs--style-2 .milenia-tabs-nav a {
+            padding-top: 0.8832rem;
+            padding-bottom: 0.8832rem;
+        }
+        .milenia-tabs--tour-sections-sm:not(.milenia-tabs--unstyled).milenia-tabs--style-2 .milenia-tabs-nav a::before {
+            top: -5000%;
+            bottom: -5000%;
+        }
+        .milenia-tabs--tour-sections-sm:not(.milenia-tabs--unstyled).milenia-tabs--style-2 .milenia-tabs-nav a::after {
+            top: 0;
+            bottom: 0;
+        }
+        .milenia-tabs--tour-sections-sm:not(.milenia-tabs--unstyled).milenia-tabs--style-2 .milenia-tabs-nav a::before, .milenia-tabs--tour-sections-sm:not(.milenia-tabs--unstyled).milenia-tabs--style-2 .milenia-tabs-nav a::after {
+            left: auto;
+            right: 0;
+        }
+        .milenia-tabs--tour-sections-sm:not(.milenia-tabs--unstyled).milenia-tabs--style-2 .milenia-tabs-nav a::after, .milenia-tabs--tour-sections-sm:not(.milenia-tabs--unstyled).milenia-tabs--style-2 .milenia-tabs-nav a::before {
+            border-width: 0 1px 0 0;
+        }
+    }
+
+    @media (min-width: 768px) {
+        .milenia-tabs--tour-sections-md:not(.milenia-tabs--unstyled) .milenia-tabs-nav {
+            float: left;
+            width: 200px;
+        }
+        .milenia-tabs--tour-sections-md:not(.milenia-tabs--unstyled) .milenia-tabs-nav > span {
+            display: block;
+        }
+        .milenia-tabs--tour-sections-md:not(.milenia-tabs--unstyled),
+        .milenia-tabs--tour-sections-md:not(.milenia-tabs--unstyled) .milenia-tabs-container {
+            overflow: hidden;
+        }
+        .milenia-tabs--tour-sections-md:not(.milenia-tabs--unstyled) .milenia-tab,
+        .milenia-tabs--tour-sections-md:not(.milenia-tabs--unstyled).milenia-tabs--style-2 .milenia-tab {
+            padding-top: 0.825rem;
+            padding-right: 1.95rem;
+            padding-bottom: 0.825rem;
+            padding-left: 1.95rem;
+        }
+        .milenia-tabs--tour-sections-md:not(.milenia-tabs--unstyled).milenia-tabs--style-2 .milenia-tabs-nav a {
+            padding-top: 0.8832rem;
+            padding-bottom: 0.8832rem;
+        }
+        .milenia-tabs--tour-sections-md:not(.milenia-tabs--unstyled).milenia-tabs--style-2 .milenia-tabs-nav a::before {
+            top: -5000%;
+            bottom: -5000%;
+        }
+        .milenia-tabs--tour-sections-md:not(.milenia-tabs--unstyled).milenia-tabs--style-2 .milenia-tabs-nav a::after {
+            top: 0;
+            bottom: 0;
+        }
+        .milenia-tabs--tour-sections-md:not(.milenia-tabs--unstyled).milenia-tabs--style-2 .milenia-tabs-nav a::before, .milenia-tabs--tour-sections-md:not(.milenia-tabs--unstyled).milenia-tabs--style-2 .milenia-tabs-nav a::after {
+            left: auto;
+            right: 0;
+        }
+        .milenia-tabs--tour-sections-md:not(.milenia-tabs--unstyled).milenia-tabs--style-2 .milenia-tabs-nav a::after, .milenia-tabs--tour-sections-md:not(.milenia-tabs--unstyled).milenia-tabs--style-2 .milenia-tabs-nav a::before {
+            border-width: 0 1px 0 0;
+        }
+
+        /* .milenia-body--border-layout [data-vc-full-width="true"] {
+            border-left: 30px solid transparent !important;
+            border-right: 30px solid transparent !important;
+        } */
+    }
+
+    @media (min-width: 992px) {
+        .milenia-tabs--tour-sections-lg:not(.milenia-tabs--unstyled) .milenia-tabs-nav {
+            /*float: left;*/
+            /*width: 250px;*/
+        }
+        .milenia-tabs--tour-sections-lg:not(.milenia-tabs--unstyled) .milenia-tabs-nav > span {
+            display: block;
+        }
+        .milenia-tabs--tour-sections-lg:not(.milenia-tabs--unstyled),
+        .milenia-tabs--tour-sections-lg:not(.milenia-tabs--unstyled) .milenia-tabs-container {
+            /*overflow: hidden;*/
+            display: grid;
+            grid-template-columns: 250px 1fr;
+        }
+        .milenia-tabs--tour-sections-lg:not(.milenia-tabs--unstyled) .milenia-tab,
+        .milenia-tabs--tour-sections-lg:not(.milenia-tabs--unstyled).milenia-tabs--style-2 .milenia-tab {
+            padding-top: 0.825rem;
+            padding-right: 1.95rem;
+            padding-bottom: 0.825rem;
+            padding-left: 1.95rem;
+        }
+        .milenia-tabs--tour-sections-lg:not(.milenia-tabs--unstyled).milenia-tabs--style-2 .milenia-tabs-nav a {
+            padding-top: 0.8832rem;
+            padding-bottom: 0.8832rem;
+        }
+        /*.milenia-tabs--tour-sections-lg:not(.milenia-tabs--unstyled).milenia-tabs--style-2 .milenia-tabs-nav a::before {*/
+        /*    top: -5000%;*/
+        /*    bottom: -5000%;*/
+        /*}*/
+        .milenia-tabs--tour-sections-lg:not(.milenia-tabs--unstyled).milenia-tabs--style-2 .milenia-tabs-nav a::after {
+            top: 0;
+            bottom: 0;
+        }
+        .milenia-tabs--tour-sections-lg:not(.milenia-tabs--unstyled).milenia-tabs--style-2 .milenia-tabs-nav a::before, .milenia-tabs--tour-sections-lg:not(.milenia-tabs--unstyled).milenia-tabs--style-2 .milenia-tabs-nav a::after {
+            left: auto;
+            right: 0;
+        }
+        .milenia-tabs--tour-sections-lg:not(.milenia-tabs--unstyled).milenia-tabs--style-2 .milenia-tabs-nav a::after, .milenia-tabs--tour-sections-lg:not(.milenia-tabs--unstyled).milenia-tabs--style-2 .milenia-tabs-nav a::before {
+            border-width: 0 1px 0 0;
+        }
+    }
+
+    @media (min-width: 1200px) {
+        .milenia-tabs--tour-sections-xl:not(.milenia-tabs--unstyled) .milenia-tabs-nav {
+            float: left;
+            width: 200px;
+        }
+        .milenia-tabs--tour-sections-xl:not(.milenia-tabs--unstyled) .milenia-tabs-nav > span {
+            display: block;
+        }
+        .milenia-tabs--tour-sections-xl:not(.milenia-tabs--unstyled),
+        .milenia-tabs--tour-sections-xl:not(.milenia-tabs--unstyled) .milenia-tabs-container {
+            overflow: hidden;
+        }
+        .milenia-tabs--tour-sections-xl:not(.milenia-tabs--unstyled) .milenia-tab,
+        .milenia-tabs--tour-sections-xl:not(.milenia-tabs--unstyled).milenia-tabs--style-2 .milenia-tab {
+            padding-top: 0.825rem;
+            padding-right: 1.95rem;
+            padding-bottom: 0.825rem;
+            padding-left: 1.95rem;
+        }
+        .milenia-tabs--tour-sections-xl:not(.milenia-tabs--unstyled).milenia-tabs--style-2 .milenia-tabs-nav a {
+            padding-top: 0.8832rem;
+            padding-bottom: 0.8832rem;
+        }
+        .milenia-tabs--tour-sections-xl:not(.milenia-tabs--unstyled).milenia-tabs--style-2 .milenia-tabs-nav a::before {
+            top: -5000%;
+            bottom: -5000%;
+        }
+        .milenia-tabs--tour-sections-xl:not(.milenia-tabs--unstyled).milenia-tabs--style-2 .milenia-tabs-nav a::after {
+            top: 0;
+            bottom: 0;
+        }
+        .milenia-tabs--tour-sections-xl:not(.milenia-tabs--unstyled).milenia-tabs--style-2 .milenia-tabs-nav a::before, .milenia-tabs--tour-sections-xl:not(.milenia-tabs--unstyled).milenia-tabs--style-2 .milenia-tabs-nav a::after {
+            left: auto;
+            right: 0;
+        }
+        .milenia-tabs--tour-sections-xl:not(.milenia-tabs--unstyled).milenia-tabs--style-2 .milenia-tabs-nav a::after, .milenia-tabs--tour-sections-xl:not(.milenia-tabs--unstyled).milenia-tabs--style-2 .milenia-tabs-nav a::before {
+            border-width: 0 1px 0 0;
+        }
+    }
+
+    @media (min-width: 1380px) {
+        .milenia-tabs--tour-sections-xxl:not(.milenia-tabs--unstyled) .milenia-tabs-nav {
+            float: left;
+            width: 200px;
+        }
+        .milenia-tabs--tour-sections-xxl:not(.milenia-tabs--unstyled) .milenia-tabs-nav > span {
+            display: block;
+        }
+        .milenia-tabs--tour-sections-xxl:not(.milenia-tabs--unstyled),
+        .milenia-tabs--tour-sections-xxl:not(.milenia-tabs--unstyled) .milenia-tabs-container {
+            overflow: hidden;
+        }
+        .milenia-tabs--tour-sections-xxl:not(.milenia-tabs--unstyled) .milenia-tab,
+        .milenia-tabs--tour-sections-xxl:not(.milenia-tabs--unstyled).milenia-tabs--style-2 .milenia-tab {
+            padding-top: 0.825rem;
+            padding-right: 1.95rem;
+            padding-bottom: 0.825rem;
+            padding-left: 1.95rem;
+        }
+        .milenia-tabs--tour-sections-xxl:not(.milenia-tabs--unstyled).milenia-tabs--style-2 .milenia-tabs-nav a {
+            padding-top: 0.8832rem;
+            padding-bottom: 0.8832rem;
+        }
+        .milenia-tabs--tour-sections-xxl:not(.milenia-tabs--unstyled).milenia-tabs--style-2 .milenia-tabs-nav a::before {
+            top: -5000%;
+            bottom: -5000%;
+        }
+        .milenia-tabs--tour-sections-xxl:not(.milenia-tabs--unstyled).milenia-tabs--style-2 .milenia-tabs-nav a::after {
+            top: 0;
+            bottom: 0;
+        }
+        .milenia-tabs--tour-sections-xxl:not(.milenia-tabs--unstyled).milenia-tabs--style-2 .milenia-tabs-nav a::before, .milenia-tabs--tour-sections-xxl:not(.milenia-tabs--unstyled).milenia-tabs--style-2 .milenia-tabs-nav a::after {
+            left: auto;
+            right: 0;
+        }
+        .milenia-tabs--tour-sections-xxl:not(.milenia-tabs--unstyled).milenia-tabs--style-2 .milenia-tabs-nav a::after, .milenia-tabs--tour-sections-xxl:not(.milenia-tabs--unstyled).milenia-tabs--style-2 .milenia-tabs-nav a::before {
+            border-width: 0 1px 0 0;
+        }
+    }
+
+    @media (min-width: 1600px) {
+        .milenia-tabs--tour-sections-xxxl:not(.milenia-tabs--unstyled) .milenia-tabs-nav {
+            float: left;
+            width: 200px;
+        }
+        .milenia-tabs--tour-sections-xxxl:not(.milenia-tabs--unstyled) .milenia-tabs-nav > span {
+            display: block;
+        }
+        .milenia-tabs--tour-sections-xxxl:not(.milenia-tabs--unstyled),
+        .milenia-tabs--tour-sections-xxxl:not(.milenia-tabs--unstyled) .milenia-tabs-container {
+            overflow: hidden;
+        }
+        .milenia-tabs--tour-sections-xxxl:not(.milenia-tabs--unstyled) .milenia-tab,
+        .milenia-tabs--tour-sections-xxxl:not(.milenia-tabs--unstyled).milenia-tabs--style-2 .milenia-tab {
+            padding-top: 0.825rem;
+            padding-right: 1.95rem;
+            padding-bottom: 0.825rem;
+            padding-left: 1.95rem;
+        }
+        .milenia-tabs--tour-sections-xxxl:not(.milenia-tabs--unstyled).milenia-tabs--style-2 .milenia-tabs-nav a {
+            padding-top: 0.8832rem;
+            padding-bottom: 0.8832rem;
+        }
+        .milenia-tabs--tour-sections-xxxl:not(.milenia-tabs--unstyled).milenia-tabs--style-2 .milenia-tabs-nav a::before {
+            top: -5000%;
+            bottom: -5000%;
+        }
+        .milenia-tabs--tour-sections-xxxl:not(.milenia-tabs--unstyled).milenia-tabs--style-2 .milenia-tabs-nav a::after {
+            top: 0;
+            bottom: 0;
+        }
+        .milenia-tabs--tour-sections-xxxl:not(.milenia-tabs--unstyled).milenia-tabs--style-2 .milenia-tabs-nav a::before, .milenia-tabs--tour-sections-xxxl:not(.milenia-tabs--unstyled).milenia-tabs--style-2 .milenia-tabs-nav a::after {
+            left: auto;
+            right: 0;
+        }
+        .milenia-tabs--tour-sections-xxxl:not(.milenia-tabs--unstyled).milenia-tabs--style-2 .milenia-tabs-nav a::after, .milenia-tabs--tour-sections-xxxl:not(.milenia-tabs--unstyled).milenia-tabs--style-2 .milenia-tabs-nav a::before {
+            border-width: 0 1px 0 0;
+        }
+    }
