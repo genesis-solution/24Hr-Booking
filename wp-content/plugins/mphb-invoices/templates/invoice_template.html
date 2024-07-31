@@ -1,0 +1,188 @@
+<html lang="en" style="background:#fff!important;background-color:#fff!important" class="{%CLASS_HTML%}">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="charset=utf-8"/>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&amp;subset=cyrillic,latin-ext" rel="stylesheet">
+    <title>{%OPTIONS_INVOICE_TITLE%}</title>
+    <style>
+	* {
+        margin: 0;
+        padding: 0;
+    }
+    html {
+		font-size: 12px;
+        margin: 4rem 4rem;
+		font-family: 'open sans', sans-serif;
+    }
+    
+    html.open_sans {
+        font-family: 'open sans', sans-serif;
+    }
+    
+    html.courier {
+        font-family: 'courier', sans-serif;
+    }
+    
+    html.dejavu {
+        font-family: 'dejavu sans', sans-serif;
+    }
+    
+    html.helvetica {
+        font-family: 'helvetica', sans-serif;
+    }
+    
+    html.times {
+        font-family: 'times', sans-serif;
+    }
+    
+    html.ipam {
+        font-family: 'ipam';
+    }
+    
+    html.ibmplexsansthai {
+        font-family: 'ibmplexsansthai';
+    }
+    
+    body {
+        margin: 0;
+        padding: 0;
+		font-size: 0.875rem;
+		line-height: 1;
+    }
+    h1, h2, h3 {
+		font-size: 1rem;
+		text-transform: uppercase;
+	}
+	table {
+		border-collapse: collapse;
+	}
+	th, td {
+		font-size: 1rem;
+		line-height: 1.1;
+		font-weight: normal;
+	}
+	th, td {
+		padding: 0 0.5rem;
+		vertical-align: top;
+		text-align: left;
+	}
+	th {
+		text-transform: uppercase;
+	}
+	table.customer_booking_info_table {
+		padding-bottom: 2rem;
+	}
+	table.resultstables {
+		padding-top: 0.5rem;
+		padding-bottom: 2rem;
+	}
+    .resultstables tr td {
+		border: 1px solid #dddddd;
+    }
+    .resultstables th {
+		border: 1px solid #dddddd;
+    }
+	.resultstables th,
+	.resultstables td {
+		padding: 0.125rem 0.5rem;
+	}
+    .mphb-price .mphb-special-symbol {
+        font-family: 'dejavu sans', sans-serif;
+        display: inline-block;
+        text-align: left;
+        line-height: 1rem;
+        font-size: 1rem;
+        text-transform: none;
+    }
+    </style>
+</head>
+<body>
+
+<table class="top_table" style="width: 100%;">
+    <tbody>
+        <tr>
+            <td style="width: 50%;text-align: left; vertical-align: top;">
+				<img src="{%OPTIONS_LOGO_IMAGE%}" alt="logo" style="outline:0; max-width: 300px; margin:0; padding: 0">
+			</td>
+            <td style="width: 50%;text-align: right; vertical-align: top;">
+                <h2>{%OPTIONS_HOTEL_TITLE%}</h2>
+                <p>{%OPTIONS_HOTEL_INFORMATION%}</p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<table class="invoice_title_table" style="width: 100%;">
+    <tbody>
+    <tr>
+        <td style="width: 100%; padding: 1rem 0 2rem 0;">
+            <h1 style="text-align: center; font-size: 2rem;">{%OPTIONS_INVOICE_TITLE%}</h1>
+        </td>
+    </tr>
+    </tbody>
+</table>
+<table class="customer_booking_info_table" style="width: 100%;">
+    <tbody>
+    <tr>
+        <td style="width: 50%;text-align: left; vertical-align: top;">
+            <p>{%CUSTOMER_INFORMATION%}</p>
+        </td>
+        <td style="width: 50%;text-align: right; vertical-align: top;">
+            <table class="booking_info_table" style="width: 100%;">
+                <tbody>
+                    <tr>
+                        <td style="text-align: right; vertical-align: top;">
+                            {%CPT_INVOICE_DATE%}:
+                        </td>
+                        <td style="text-align: left; vertical-align: top; font-weight: bold;">
+                            {%BOOKING_CURRENT_DATE%}
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: right; vertical-align: top;">
+                            {%CPT_BOOKING%}:
+                        </td>
+                        <td style="text-align: left; vertical-align: top; font-weight: bold;">
+                            {%BOOKING_ID%}
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: right; vertical-align: top;">
+                            {%CPT_DATE%}:
+                        </td>
+                        <td style="text-align: left; vertical-align: top; font-weight: bold;">
+                            {%BOOKING_DATE%}
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: right; vertical-align: top;">
+                            {%CPT_BOOKING_CHECK_IN_DATE%}:
+                        </td>
+                        <td style="text-align: left; vertical-align: top; font-weight: bold;">
+                            {%BOOKING_CHECK_IN%}
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: right; vertical-align: top;">
+                            {%CPT_BOOKING_CHECK_OUT_DATE%}:
+                        </td>
+                        <td style="text-align: left; vertical-align: top; font-weight: bold;">
+                            {%BOOKING_CHECK_OUT%}
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </td>
+    </tr>
+    </tbody>
+</table>
+
+<h2>{%CPT_BOOKING_DETAILS%}</h2>
+{%BOOKING_DETAILS%}
+
+<h2>{%CPT_PAYMENT_DETAILS%}</h2>
+{%PAYMENT_DETAILS%}
+
+{%OPTIONS_BOTTOM_INFORMATION%}
+
+</body>
+</html>

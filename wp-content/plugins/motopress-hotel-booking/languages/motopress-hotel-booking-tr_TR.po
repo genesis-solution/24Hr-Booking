@@ -1,0 +1,6101 @@
+# Copyright (C) 2022 MotoPress
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: hotel-booking-plugin\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/motopress-hotel-booking\n"
+"Last-Translator: \n"
+"Language-Team: Turkish\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2022-11-15T19:41:55+00:00\n"
+"PO-Revision-Date: 2022-11-15 20:59\n"
+"X-Generator: WP-CLI 2.6.0\n"
+"X-Domain: motopress-hotel-booking\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: hotel-booking-plugin\n"
+"X-Crowdin-Project-ID: 463550\n"
+"X-Crowdin-Language: tr\n"
+"X-Crowdin-File: motopress-hotel-booking.pot\n"
+"X-Crowdin-File-ID: 44\n"
+"Language: tr_TR\n"
+
+#. Plugin Name of the plugin
+#. translators: Name of the plugin, do not translate
+msgid "Hotel Booking"
+msgstr "Hotel Booking"
+
+#. Plugin URI of the plugin
+msgid "https://motopress.com/products/hotel-booking/"
+msgstr ""
+
+#. Description of the plugin
+msgid "Manage your hotel booking services. Perfect for hotels, villas, guest houses, hostels, and apartments of all sizes."
+msgstr "Otel rezervasyon hizmetlerinizi yönetin."
+
+#. Author of the plugin
+msgid "MotoPress"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://motopress.com/"
+msgstr ""
+
+msgctxt "Post Status"
+msgid "New"
+msgstr "Yeni"
+
+msgctxt "Post Status"
+msgid "Auto Draft"
+msgstr "Otomatik taslak"
+
+msgctxt "Zero price"
+msgid "Free"
+msgstr "Ücretsiz"
+
+#. translators: Price per one night. Example: $99 per night
+msgctxt "Price per one night. Example: $99 per night"
+msgid "per night"
+msgstr "gecelik"
+
+#. translators: Price for X nights. Example: $99 for 2 nights, $99 for 21 nights
+msgctxt "Price for X nights. Example: $99 for 2 nights, $99 for 21 nights"
+msgid "for %d nights"
+msgid_plural "for %d nights"
+msgstr[0] "gecelik"
+msgstr[1] "%d gece"
+
+#. translators: %s: URL to plugins.php page
+msgid "You are using two instances of Hotel Booking plugin at the same time, please <a href=\"%s\">deactivate one of them</a>."
+msgstr "Aynı anda iki tane Hotel Booking eklentisi kullanıyorsunuz, lütfen birini <a href=\"%s\">devre dışı</a> bırakın"
+
+msgid "<a href=\"%s\">Upgrade to Premium</a> to enable this feature."
+msgstr ""
+
+msgid "Nonce verification failed."
+msgstr ""
+
+msgid "The file does not exist."
+msgstr ""
+
+msgid "Source ID is missing."
+msgstr ""
+
+msgid "Error"
+msgstr "Hata"
+
+msgid "View"
+msgstr "Görüntüle"
+
+msgid "Delete"
+msgstr "Sil"
+
+msgid "Name"
+msgstr "Ad"
+
+msgid "Email"
+msgstr "E-Posta"
+
+msgid "Bookings"
+msgstr "Rezervasyonlar"
+
+msgid "Date Registered"
+msgstr ""
+
+msgid "Last Active"
+msgstr ""
+
+#. translators: Terms are variations for Attributes and bear no relation to the Terms and Conditions Page.
+msgid "Terms"
+msgstr "Şartlar"
+
+msgid "Created on:"
+msgstr "Oluşturulma tarihi:"
+
+#. translators: Terms are variations for Attributes and bear no relation to the Terms and Conditions Page.
+msgid "Please add attribute in default language to configure terms."
+msgstr "Lütfen Şartları yapılandırmak için varsayılan dilde özellik ekleyin."
+
+#. translators: Terms are variations for Attributes and bear no relation to the Terms and Conditions Page.
+msgid "Configure terms"
+msgstr "Şartları Ayarla"
+
+msgid "Reserved Accommodations"
+msgstr "Rezerve Edilmiş Konaklama"
+
+msgid "Update Booking"
+msgstr "Rezervasyonu Güncelle"
+
+msgid "Logs"
+msgstr "Kayıtlar"
+
+msgid "Delete Permanently"
+msgstr "Kalıcı Olarak Sil"
+
+msgid "Move to Trash"
+msgstr "Çöpe At"
+
+msgid "Create Booking"
+msgstr "Rezervasyon Oluştur"
+
+msgid "Resend Email"
+msgstr ""
+
+msgid "Send a copy of the Approved Booking email to the customer`s email address."
+msgstr ""
+
+msgid "Edit Accommodations"
+msgstr ""
+
+msgid "Date:"
+msgstr "Tarih:"
+
+msgid "Author:"
+msgstr "Yazar:"
+
+msgid "Auto"
+msgstr "Otomatik"
+
+msgid "Message:"
+msgstr "Mesaj:"
+
+msgid "Confirmation email has been sent to customer."
+msgstr ""
+
+msgid "Coupon code"
+msgstr "Kupon Kodu"
+
+msgid "Update Payment"
+msgstr "Ödemeyi Güncelle"
+
+msgid "Modified on:"
+msgstr "Değiştirilme tarihi:"
+
+msgid "Create Payment"
+msgstr "Ödemeyi Oluştur"
+
+msgid "Season Prices"
+msgstr "Sezon Fiyatları"
+
+msgid "<code>Please select Accommodation Type and click Create Rate button to continue.</code>"
+msgstr "<code>Lütfen Konaklama Türü'nü seçin ve devam etmek için Fiyat Yarat düğmesini tıklayın.</code>"
+
+msgid "Update Rate"
+msgstr "Puanı Güncelle"
+
+msgid "Active"
+msgstr "Aktif"
+
+msgid "Disabled"
+msgstr "Devre Dışı"
+
+msgid "Create Rate"
+msgstr "Puan Oluştur"
+
+msgid "Duplicate Rate"
+msgstr "Puanı Kopyala"
+
+msgid "Generate Accommodations"
+msgstr "Konaklama Oluştur"
+
+msgid "Attributes"
+msgstr "Özellikler"
+
+msgid "Accommodation Reviews"
+msgstr ""
+
+msgid "Allow guests to <a href=\"%s\" target=\"_blank\">submit star ratings and reviews</a> evaluating your accommodations."
+msgstr ""
+
+msgid "Number of Accommodations:"
+msgstr "Konaklama Sayısı:"
+
+msgid "Count of real accommodations of this type in your hotel."
+msgstr "Otelinizde bu tür gerçek konaklama sayısı."
+
+msgid "Total Accommodations:"
+msgstr "Toplam Konanklama:"
+
+msgid "Show Accommodations"
+msgstr "Konaklamaları Göster"
+
+msgid "Active Accommodations:"
+msgstr "Aktif Konaklamalar:"
+
+msgid "Add"
+msgstr "Ekle"
+
+msgid "Per adult:"
+msgstr "Yetişkin Başına:"
+
+msgid "Per child:"
+msgstr "Çocuk Başına:"
+
+msgid "Per adult: "
+msgstr "Yetişkin Başına:"
+
+msgid "Per child: "
+msgstr "Çocuk Başına:"
+
+msgid "Actions"
+msgstr "Eylemler"
+
+msgid "Default"
+msgstr "Varsayılan"
+
+msgid "— Select —"
+msgstr "— Seç —"
+
+msgid "Install & Activate"
+msgstr ""
+
+msgid "Add image"
+msgstr ""
+
+msgid "Add gallery"
+msgstr "Galeri Ekle"
+
+msgid "Remove image"
+msgstr ""
+
+msgid "Remove gallery"
+msgstr "Galeri Kaldır"
+
+msgid "Select all"
+msgstr ""
+
+msgid "Unselect all"
+msgstr ""
+
+msgid "Date"
+msgstr "Tarih"
+
+msgid "Author"
+msgstr "Sahibi"
+
+msgid "Edit"
+msgstr "Düzenle"
+
+msgid "Done"
+msgstr ""
+
+msgid "All"
+msgstr "Tümü"
+
+msgid "None"
+msgstr "Hiçbiri"
+
+msgid "HH:MM"
+msgstr "HH:MM"
+
+msgid "Recalculate Total Price"
+msgstr "Toplam Fiyatı Tekrar Hesapla"
+
+msgid "Nights"
+msgstr "Gece"
+
+msgid "and more"
+msgstr ""
+
+msgid "Remove"
+msgstr "Kaldır"
+
+msgid "Add length of stay"
+msgstr "Kalma süresi ekle"
+
+msgid "Adults"
+msgstr "Yetişkinler"
+
+msgid "Children"
+msgstr "Çocuklar"
+
+msgid "Price per night"
+msgstr "Gecelik Fiyat"
+
+msgid "Enable variable pricing"
+msgstr "Değişken fiyatlandırmayı etkinleştir"
+
+msgid "Add Variation"
+msgstr "Varyasyon ekle"
+
+msgid "Remove variation"
+msgstr "Varyasyonu kaldır"
+
+msgid "The License Key is required in order to get automatic plugin updates and support. You can manage your License Key in your personal account. <a href='https://motopress.zendesk.com/hc/en-us/articles/202812996-How-to-use-your-personal-MotoPress-account' target='_blank'>Learn more</a>."
+msgstr "Otomatik eklenti güncellemeleri ve destek almak için Lisans Anahtarı gereklidir. Lisans Anahtarınızı kişisel hesabınızdan yönetebilirsiniz.  <a href='https://motopress.zendesk.com/hc/en-us/articles/202812996-How-to-use-your-personal-MotoPress-account' target='_blank'>Daha Fazlasını Öğren</a>."
+
+msgid "License Key"
+msgstr "Lisans Anahtarı"
+
+msgid "Status"
+msgstr "Durum"
+
+msgid "Inactive"
+msgstr "Pasif"
+
+msgid "Valid until"
+msgstr "Kadar Geçerli"
+
+msgid "Valid (Lifetime)"
+msgstr "Geçerli (Ömür boyu)"
+
+msgid "Expired"
+msgstr "Süresi Doldu"
+
+msgid "Invalid"
+msgstr "Geçersiz"
+
+msgid "Your License Key does not match the installed plugin. <a href='https://motopress.zendesk.com/hc/en-us/articles/202957243-What-to-do-if-the-license-key-doesn-t-correspond-with-the-plugin-license' target='_blank'>How to fix this.</a>"
+msgstr "Lisans Anahtarınız yüklenmiş eklentiyle eşleşmiyor.  <a href='https://motopress.zendesk.com/hc/en-us/articles/202957243-What-to-do-if-the-license-key-doesn-t-correspond-with-the-plugin-license' target='_blank'>Bunu nasıl düzeltebilirim.</a>"
+
+msgid "Product ID is not valid"
+msgstr "Ürün ID geçerli değil"
+
+msgid "Action"
+msgstr "Eylem"
+
+msgid "Activate License"
+msgstr "Lisansı Aktif et"
+
+msgid "Deactivate License"
+msgstr "Lisansı Devre Dışı Bırak"
+
+msgid "Renew License"
+msgstr "Lisansı Yenile"
+
+msgid "Attributes let you define extra accommodation data, such as location or type. You can use these attributes in the search availability form as advanced search filters."
+msgstr "Özellikler, konum veya tür gibi ekstra konaklama verilerini tanımlamanıza izin verir. Bu özellikleri arama kullanılabilirliği formunda gelişmiş arama filtreleri olarak kullanabilirsiniz."
+
+msgid "This attribute refers to non-unique taxonomy - %1$s - which was already registered with attribute %2$s."
+msgstr ""
+
+#. translators: Terms are variations for Attributes and bear no relation to the Terms and Conditions Page.
+msgid "You cannot manage terms of trashed attributes."
+msgstr "Silinen niteliklerin şartlarını yönetemezsiniz."
+
+msgid "New Booking"
+msgstr "Yeni Rezervasyon"
+
+msgid "ID"
+msgstr "Kimlik"
+
+msgid "Check-in / Check-out"
+msgstr "Giriş/Çıkış"
+
+msgid "Guests"
+msgstr "Misafirler"
+
+msgid "Customer Info"
+msgstr "Müşteri Bilgisi"
+
+msgid "Price"
+msgstr "Fiyat"
+
+msgid "Accommodation"
+msgstr "Konaklama"
+
+msgid "Booking #%s"
+msgstr "Rezervasyon #%s"
+
+msgid "Expire %s"
+msgstr "Son kullanma tarihi %s"
+
+msgid "Adults: "
+msgstr "Yetişkin: "
+
+msgid "Children: "
+msgstr "Çocuklar: "
+
+msgid "%s night"
+msgid_plural "%s nights"
+msgstr[0] "%s gece"
+msgstr[1] "%s gece"
+
+msgid "Summary: %s."
+msgstr "Özet: %s."
+
+msgid "Paid: %s"
+msgstr "Ödendi: %s"
+
+msgid "Set to %s"
+msgstr "%s olarak ayarla"
+
+msgid "Booking status changed."
+msgid_plural "%s booking statuses changed."
+msgstr[0] "Rezervasyon durumu değişti."
+msgstr[1] "%s rezervasyon durumu değişti."
+
+msgid "All accommodation types"
+msgstr "Tüm konaklama tipleri"
+
+#. translators: The number of imported bookings: "Imported <span>(11)</span>"
+msgid "Imported %s"
+msgstr ""
+
+msgid "Customer"
+msgstr "Müşteri"
+
+msgid "Amount"
+msgstr "Miktar"
+
+msgid "Booking"
+msgstr "Rezervasyon"
+
+msgid "Gateway"
+msgstr "Ağ Geçidi"
+
+msgid "Transaction ID"
+msgstr "İşlem Kimliği"
+
+msgid "Created/Modified Date"
+msgstr "Oluşturulma/Değiştirilme Tarihi"
+
+msgid "Payment #%s"
+msgstr "Ödeme #%s"
+
+msgid "Created on: "
+msgstr "Oluşturulma tarihi: "
+
+msgid "Modified on: "
+msgstr "Değiştirilme tarihi: "
+
+msgid "Rates are used to offer different prices of the same accommodation type depending on extra conditions. E.g. Double room with breakfast included; double room with no breakfast. Guests will choose the preferable rate when submitting a booking request."
+msgstr "İlave koşullara bağlı olarak, aynı konaklama tipinde farklı fiyatlar sunmak için fiyatlar kullanılmaktadır. Örneğin. Kahvaltı dahil çift kişilik oda; hiçbir kahvaltı ile çift kişilik oda. Konuklar, rezervasyon talebinde bulunurken tercih edilen fiyatı seçeceklerdir."
+
+msgid "Accommodation Type"
+msgstr "Konaklama Tipi"
+
+msgid "Season &#8212; Price"
+msgstr "Sezon &#8212; Fiyat"
+
+msgid "Duplicate"
+msgstr "Kopyala"
+
+msgid "Rate was duplicated."
+msgstr "Puan kopyalandı."
+
+msgid "These are real accommodations like rooms, apartments, houses, villas, beds (for hostels) etc."
+msgstr "Bunlar, odalar, apartmanlar, evler, villalar, yataklar (pansiyonlar için) gibi gerçek konaklama yerleri."
+
+msgid "All Accommodation Types"
+msgstr "Tüm Konaklama Çeşitleri"
+
+msgid "These are not physical accommodations, but their types. E.g. standard double room. To specify the real number of existing accommodations, you'll need to use Generate Accommodations menu."
+msgstr "Bunlar fiziksel barınma değil, çeşitleri. Örneğin. standart çift kişilik oda. Gerçek konaklama sayısını belirtmek için Konaklama Oluşturma menüsünü kullanmanız gerekir."
+
+msgid "Capacity"
+msgstr "Kapasite"
+
+msgid "Bed Type"
+msgstr "Yatak Tipi"
+
+msgid "Accommodations"
+msgstr "Konaklamalar"
+
+msgid "Total:"
+msgstr "Toplam:"
+
+msgid "Adults:"
+msgstr "Yetişkin:"
+
+msgid "Children:"
+msgstr "Çocuklar:"
+
+msgid "Size:"
+msgstr "Boyut:"
+
+msgid "Active:"
+msgstr "Aktif:"
+
+msgid "Seasons are real periods of time, dates or days that come with different prices for accommodations. E.g. Winter 2018 ($120 per night), Christmas ($150 per night)."
+msgstr "Mevsimler konaklama için farklı fiyatlarla gelen gerçek zaman, tarih veya günlerdir. Örneğin. Kış 2018 (gecelik 120 TRY), Noel (gecelik 150 TRY)."
+
+msgid "Start"
+msgstr "Başla"
+
+msgid "End"
+msgstr "Son"
+
+msgid "Days"
+msgstr "Günler"
+
+msgid "Services are extra offers that you can sell or give for free. E.g. Thai massage, transfer, babysitting. Guests can pre-order them when placing a booking."
+msgstr "Hizmetler, ücretsiz olarak satabileceğiniz veya verebileceğiniz ekstra tekliflerdir. Örneğin. Thai masajı, transfer, bebek bakıcılığı. Konuklar rezervasyon yaparken ön sipariş verebilmektedir."
+
+msgid "Periodicity"
+msgstr "Periyodiklik"
+
+msgid "Charge"
+msgstr "Yükleme"
+
+msgid "Per Day"
+msgstr "Günlük"
+
+msgid "Guest Choice"
+msgstr "Misafir Seçimi"
+
+msgid "Once"
+msgstr "Bir defa"
+
+msgid "Per Guest"
+msgstr "Konuk başına"
+
+msgid "Per Accommodation"
+msgstr "Konaklama Başına"
+
+msgid "These are accommodation amenities, generally free ones. E.g. air-conditioning, wifi."
+msgstr "Bunlar konaklama olanakları, genellikle ücretsiz olanlar. Örneğin. klima, wifi var."
+
+msgid "Booking rules saved."
+msgstr "Rezervasyon kuralları kaydedildi."
+
+msgid "Booking Rules"
+msgstr "Rezervasyon Kuralları"
+
+msgid "Save Changes"
+msgstr "Değişiklikleri Kaydet"
+
+msgid "Check-in days"
+msgstr "Giriş Günleri"
+
+msgid "Guests can check in any day."
+msgstr "Konuklar her gün check-in yapabilir."
+
+msgid "Add rule"
+msgstr "Kural ekle"
+
+msgid "Seasons"
+msgstr "Sezonlar"
+
+msgid "Check-out days"
+msgstr "Çıkış Günleri"
+
+msgid "Guests can check out any day."
+msgstr "Konuklar herhangi bir gün kontrol edebilirler."
+
+msgid "Minimum stay"
+msgstr "En az konaklama süresi"
+
+msgid "There are no minimum stay rules."
+msgstr "En az konaklama süresi yoktur."
+
+msgid "nights"
+msgstr "gece"
+
+msgid "Maximum stay"
+msgstr "En fazla konaklama süresi"
+
+msgid "There are no maximum stay rules."
+msgstr "En fazla kalış süresi kuralları yoktur."
+
+msgid "Block accommodation"
+msgstr "Blok konaklama"
+
+msgid "There are no blocking accommodation rules."
+msgstr "Engelleyici konaklama kuralları yoktur."
+
+msgid "From"
+msgstr "itibaren"
+
+msgid "Till"
+msgstr "Kadar"
+
+msgid "Restriction"
+msgstr "Kısıtlama"
+
+msgid "Not check-in rule marks the date as unavailable for check-in."
+msgstr ""
+
+msgid "Not check-out rule marks the date as unavailable for check-out."
+msgstr ""
+
+msgid "Not stay-in rule displays the date as blocked. This date is unavailable for check-out and check-in on the next date."
+msgstr ""
+
+msgid "Not stay-in with Not check-out rules completely block the selected date, additionally displaying the previous date as unavailable for check-in."
+msgstr ""
+
+msgid "Not check-in"
+msgstr "Giriş yapılmıyor"
+
+msgid "Not check-out"
+msgstr "Çıkış yapılmıyor"
+
+msgid "Not stay-in"
+msgstr "Kalınmıyor"
+
+msgid "Comment"
+msgstr "Yorum"
+
+msgid "Minimum advance reservation"
+msgstr ""
+
+msgid "There are no minimum advance reservation rules."
+msgstr ""
+
+msgid "Maximum advance reservation"
+msgstr ""
+
+msgid "There are no maximum advance reservation rules."
+msgstr ""
+
+msgid "Booking buffer"
+msgstr ""
+
+msgid "There are no booking buffer rules."
+msgstr ""
+
+msgid "Booking Calendar"
+msgstr "Rezervasyon Takvimi"
+
+msgid "Calendar"
+msgstr "Takvim"
+
+msgid "Add New Booking"
+msgstr "Yeni Rezervasyon Ekle"
+
+msgid "Clear Search Results"
+msgstr "Arama Sonuçlarını Temizle"
+
+msgid "Note: booking rules are disabled in the plugin settings and are not taken into account."
+msgstr ""
+
+msgid "Unable to create booking. Please try again."
+msgstr "Rezervasyon oluşturulamadı. Lütfen tekrar deneyin."
+
+msgid "Booking is blocked due to maintenance reason. Please try again later."
+msgstr "Bakım nedeniyle rezervasyon engellendi. Lütfen daha sonra tekrar deneyiniz."
+
+msgid "There are no accommodations selected for reservation."
+msgstr "Rezervasyon için seçilen konaklama bulunamadı."
+
+msgid "Selected accommodations are not valid."
+msgstr "Seçilen konaklamalar geçerli değil."
+
+msgid "Accommodation Type is not valid."
+msgstr "Konaklama Tipi geçerli değildir."
+
+msgid "Rate is not valid."
+msgstr "Puan geçerli değil."
+
+msgid "Adults number is not valid."
+msgstr "Yetişkin sayısı geçerli değil."
+
+msgid "Children number is not valid."
+msgstr "Çocuk sayısı geçerli değil."
+
+msgid "The total number of guests is not valid."
+msgstr ""
+
+msgid "Selected dates do not meet booking rules for type %s"
+msgstr "Seçilen tarihler %s tipi için rezervasyon kurallarına uymuyor"
+
+msgid "Accommodations are not available."
+msgstr "Konaklama mevcut değil."
+
+msgid "There are no rates for requested dates."
+msgstr ""
+
+msgid "Search Results"
+msgstr "Arama sonuçları"
+
+msgid "— Any —"
+msgstr "— Herhangi biri —"
+
+msgid "Search parameters are not set."
+msgstr "Arama parametreleri ayarlanmadı."
+
+msgid "Check-in date is not valid."
+msgstr "Giriş tarihi geçerli değildir."
+
+msgid "Check-in date cannot be earlier than today."
+msgstr "Çıkış tarihi bugünden daha erken olamaz."
+
+msgid "Check-out date is not valid."
+msgstr "Çıkış tarihi geçerli değil."
+
+msgid "Nothing found. Please try again with different search parameters."
+msgstr "Hiçbir şey Bulunamadı. Lütfen farklı arama parametreleriyle tekrar deneyin."
+
+msgid "Sorry, you are not allowed to access this page."
+msgstr ""
+
+msgid "User ID"
+msgstr ""
+
+msgid "Username"
+msgstr ""
+
+msgid "First Name"
+msgstr "İsim"
+
+msgid "Last Name"
+msgstr "Soy isim"
+
+msgid "Phone"
+msgstr "Telefon"
+
+msgid "Address"
+msgstr "Adres"
+
+msgid "State / County"
+msgstr "Bölge / Ülke"
+
+msgid "Country"
+msgstr "Ülke"
+
+msgid "City"
+msgstr "Şehir"
+
+msgid "Postcode"
+msgstr "Posta Kodu"
+
+msgid "Customer data updated."
+msgstr ""
+
+msgid "User account updated."
+msgstr ""
+
+msgid "Edit User Profile"
+msgstr ""
+
+msgid "Update"
+msgstr "Güncelle"
+
+msgid "Customers"
+msgstr ""
+
+msgid "The booking is not set."
+msgstr ""
+
+msgid "The booking not found."
+msgstr "Rezervasyon bulunamadı."
+
+msgid "Edit Booking #%d"
+msgstr ""
+
+msgid "Cancel"
+msgstr "İptal"
+
+msgid "Back"
+msgstr ""
+
+msgid "Edit Booking"
+msgstr "Rezervasyonu Düzenle"
+
+msgid "You cannot edit the imported booking. Please update the source booking and resync your calendars."
+msgstr ""
+
+msgid "Request does not pass security verification. Please refresh the page and try one more time."
+msgstr "İstek güvenlik doğrulamasını geçirmiyor. Lütfen sayfayı yenileyin ve bir kez daha deneyin."
+
+msgid "Check-in date is not set."
+msgstr ""
+
+msgid "Check-out date is not set."
+msgstr ""
+
+msgid "Unable to update booking. Please try again."
+msgstr ""
+
+msgid "Booking was edited."
+msgstr ""
+
+msgid "Available"
+msgstr "Müsait"
+
+msgid "Replace"
+msgstr ""
+
+msgid "— Add new —"
+msgstr ""
+
+msgid "Extensions"
+msgstr "Eklentiler"
+
+msgid "Extend the functionality of Hotel Booking plugin with the number of helpful addons for your custom purposes."
+msgstr ""
+
+msgid "Get this Extension"
+msgstr ""
+
+msgid "No extensions found."
+msgstr ""
+
+msgid "Abort Process"
+msgstr "İşlemi İptal Et"
+
+msgid "Aborting..."
+msgstr "İptal Ediliyor..."
+
+msgid "Import Calendar"
+msgstr ""
+
+msgid "Accommodation: %s"
+msgstr ""
+
+msgid "Accommodation Type: %s"
+msgstr ""
+
+msgid "Please be patient while the calendars are imported. You will be notified via this page when the process is completed."
+msgstr ""
+
+msgid "Accommodation updated."
+msgstr ""
+
+msgid "This calendar has already been imported for another accommodation."
+msgstr ""
+
+msgid "Sync, Import and Export Calendars"
+msgstr ""
+
+#. translators: %s - room name. Example: "Comfort Triple 1"
+msgid "Edit External Calendars of \"%s\""
+msgstr ""
+
+msgid "Sync All External Calendars"
+msgstr ""
+
+msgid "Sync your bookings across all online channels like Booking.com, TripAdvisor, Airbnb etc. via iCalendar file format."
+msgstr ""
+
+msgid "Calendar URL"
+msgstr "Takvim URL"
+
+msgid "Add New Calendar"
+msgstr "Yeni takvim ekle"
+
+msgid "Sync Calendars"
+msgstr "Takvimleri Senkronize Et"
+
+msgid "Delete All Logs"
+msgstr "Tüm logları temizle."
+
+msgid "Deleting..."
+msgstr "Siliniyor..."
+
+msgid "%d item"
+msgstr "%d öğe"
+
+msgid "%d items"
+msgstr "%d öğeler"
+
+msgid "Calendars Synchronization Status"
+msgstr "Takvimler Senkronizasyon Durumu"
+
+msgid "Here you can see synchronization status of your external calendars."
+msgstr "Burada harici takvimlerinizin senkronizasyon durumunu görebilirsiniz."
+
+msgid "Calendars Sync Status"
+msgstr "Takvimler Senkronizasyon Durumu"
+
+msgid "Display calendars synchronization status."
+msgstr "Takvimler senkronizasyon durumunu görüntüleme."
+
+msgid "Language Guide"
+msgstr "Dil Rehberi"
+
+msgid "Default language"
+msgstr "Varsayılan dil"
+
+msgid "This plugin will display all system messages, labels, buttons in the language set in <em>General > Settings > Site Language</em>. If the plugin is not available in your language, you may <a href=\"%s\">contribute your translation</a>."
+msgstr "Bu eklenti,  tüm sistem mesajları, etiketler ve düğmeleri <em> Genel> Ayarlar> Site Dili</em> 'de ayarlanan dilde görüntüleyecektir. Eklenti, dilinizde mevcut değilse <a href=\"%s\"> çeviri katkıda bulunabilir </a>."
+
+msgid "Custom translations and edits"
+msgstr "Özel çeviriler ve düzenlemeler"
+
+msgid "You may customize plugin translation by editing the needed texts or adding your translation following these steps:"
+msgstr "Gerekli metinleri düzenleyerek veya şu adımları izleyerek çevirinizi ekleyerek eklenti çevirisini özelleştirebilirsiniz:"
+
+msgid "Take the source file for your translations %s or needed translated locale."
+msgstr "%s çevirilerinizin kaynak dosyasını alın veya çevrilen yerel ayarı yapın."
+
+msgid "Translate texts with any translation program like Poedit, Loco, Pootle etc."
+msgstr "Poedit, Loco, Pootle vb. Gibi herhangi bir çeviri programıyla metinleri çevirin."
+
+msgid "Put created .mo file with your translations into the folder %s. Where {lang} is ISO-639 language code and {country} is ISO-3166 country code. Example: Brazilian Portuguese file would be called motopress-hotel-booking-pt_BR.mo."
+msgstr "Oluşturulan .mo dosyasını çevirilerinizle birlikte %s klasörüne yerleştirin. {Lang}, ISO-639 dil kodu ve {country} ise ISO-3166 ülke kodudur. Örnek: Brezilya Portekizce dosyaya motopress-hotel-booking-pt_BR.mo adı verilecektir."
+
+msgid "Multilingual content"
+msgstr "Çoklu dil içeriği"
+
+msgid "If your site is multilingual, you may use additional plugins to translate your added content into multiple languages allowing the site visitors to switch them."
+msgstr "Siteniz çok dilli ise eklediğiniz içerikleri birden çok dile çevirmek için ek eklentiler kullanabilir, böylece site ziyaretçilerinizin bunları değiştirmelerine izin verebilirsiniz."
+
+msgid "Language"
+msgstr "Dil"
+
+msgid "Reports"
+msgstr ""
+
+msgid "Export"
+msgstr "Dışarı Aktar"
+
+msgid "All Statuses"
+msgstr ""
+
+msgid "Booking dates between"
+msgstr ""
+
+msgid "Check-in date between"
+msgstr ""
+
+msgid "Check-out date between"
+msgstr ""
+
+msgid "In-house between"
+msgstr ""
+
+msgid "Date of reservation between"
+msgstr ""
+
+msgid "Export Bookings"
+msgstr ""
+
+msgid "Choose start date"
+msgstr ""
+
+msgid "Choose end date"
+msgstr ""
+
+msgid "Select columns to export"
+msgstr ""
+
+msgid "Generate CSV"
+msgstr ""
+
+msgid "Number of accommodations"
+msgstr "Konaklama Sayısı"
+
+msgid "Title"
+msgstr "Başlık"
+
+msgid "Leave empty to use accommodation type title."
+msgstr "Konaklama tipi başlığı kullanmak için boş bırakın."
+
+msgid "Generate"
+msgstr "Oluşturun"
+
+msgid "Accommodation generated."
+msgid_plural "%s accommodations generated."
+msgstr[0] "Konaklama oluşturuldu."
+msgstr[1] "%s  Konaklama oluşturuldu."
+
+msgid "General"
+msgstr "Genel"
+
+msgid "Pages"
+msgstr "Sayfalar"
+
+msgid "Search Results Page"
+msgstr "Arama Sonuçları Sayfası"
+
+msgid "Select page to display search results. Use search results shortcode on this page."
+msgstr "Arama sonuçlarını görüntülemek için sayfayı seçin. Bu sayfada arama sonuçları kısakodunu kullanın."
+
+msgid "Checkout Page"
+msgstr "Ödeme Sayfası"
+
+msgid "Select page user will be redirected to complete booking."
+msgstr "Bir kullanıcının rezervasyon işlemlerini tamamlayabileceği bir sayfa seçin."
+
+msgid "Terms & Conditions"
+msgstr "Şartlar ve Koşullar"
+
+msgid "If you define a \"Terms\" page the customer will be asked if they accept them when checking out."
+msgstr "Bir \"Şartlar\" sayfası tanımlarsanız, müşteriden check-out sırasında kabul etmeleri istenir."
+
+msgid "Open the Terms & Conditions page in a new window"
+msgstr ""
+
+msgid "By enabling this option you can avoid errors related to displaying your terms & conditions inline for website pages created in page builders."
+msgstr ""
+
+msgid "My Account Page"
+msgstr ""
+
+msgid "Select a page to display user account. Use the customer account shortcode on this page."
+msgstr ""
+
+msgid "Misc"
+msgstr "Çeşitli"
+
+msgid "Square Units"
+msgstr "Kare Birimleri"
+
+msgid "Currency"
+msgstr "Para birimi"
+
+msgid "Currency Position"
+msgstr "Para birimi pozisyonu"
+
+msgid "Datepicker Date Format"
+msgstr "Tarih seçici Tarih Formatı"
+
+msgid "Check-out Time"
+msgstr "Çıkış Zamanı"
+
+msgid "Check-in Time"
+msgstr "Giriş Zamanı"
+
+msgid "Bed Types"
+msgstr "Yatak Tipi"
+
+msgid "Type"
+msgstr "Tip"
+
+msgid "Add Bed Type"
+msgstr "Yatak Tipi Ekle"
+
+msgid "Show Lowest Price for"
+msgstr "En Düşük Fiyatı Göster"
+
+msgid "days"
+msgstr "Günler"
+
+msgid "Lowest price of accommodation for selected number of days if check-in and check-out dates are not set. Example: set 0 to display today's lowest price, set 7 to display the lowest price for the next week."
+msgstr "Check-in ve check-out tarihleri belirlenmediyse, seçilen gün sayısı için en düşük fiyat uygulanır. Örnek: bugünün en düşük fiyatını görüntülemek için 0, sonraki haftanın en düşük fiyatını görüntülemek için 7 değerini ayarlayın."
+
+msgid "Enable search form to recommend the best set of accommodations according to a number of guests."
+msgstr "Bir dizi konuğa göre en iyi konaklama tipini önermek için arama formunu etkinleştirin."
+
+msgid "Enable the use of coupons."
+msgstr "Kupon kullanımını etkinleştir."
+
+msgid "Text on Checkout"
+msgstr "Ödeme Üzerine Metin"
+
+msgid "This text will appear on the checkout page."
+msgstr "Bu metin ödeme sayfasında görünecektir."
+
+msgid "Disable Booking"
+msgstr "Rezervasyonu Devre Dışı Bırak"
+
+msgid "Hide reservation forms and buttons"
+msgstr "Rezervasyon formlarını ve butonlarını gizle"
+
+msgid "Text instead of reservation form while booking is disabled"
+msgstr "Rezervasyon devre dışı iken rezervasyon formu yerine olan metin"
+
+msgid "Booking Confirmation"
+msgstr "Rezervasyon onayı"
+
+msgid "Confirmation Mode"
+msgstr "Onay Modu"
+
+msgid "By customer via email"
+msgstr "Müşteri Tarafından e-posta yoluyla"
+
+msgid "By admin manually"
+msgstr "Yönetici Tarafından Manuel olarak"
+
+msgid "Confirmation upon payment"
+msgstr "Ödeme Üzerine Onay"
+
+msgid "Booking Confirmed Page"
+msgstr ""
+
+msgid "Page user will be redirected to once the booking is confirmed via email or by admin."
+msgstr ""
+
+msgid "Approval Time for User"
+msgstr "Kullanıcı Onayı Süresi"
+
+msgid "Period of time in minutes the user is given to confirm booking via email. Unconfirmed bookings become Abandoned and accommodation status changes to Available."
+msgstr "Kullanıcıya e-posta yoluyla rezervasyon onaylamak için verilen dakika cinsinden süre. Teyit edilmeyen rezervasyonlar İptal Edildi ve konaklama durumu Müsait olarak değiştirilir."
+
+msgid "Country of residence field is required for reservation."
+msgstr "Rezidans için ülke alanı gereklidir."
+
+msgid "Full address fields are required for reservation."
+msgstr "Rezervasyon için tam adres alanları gereklidir."
+
+msgid "Customer information is required when placing admin bookings."
+msgstr ""
+
+msgid "Default Country on Checkout"
+msgstr "Varsayılan Ödeme Ülkesi"
+
+msgid "Price Breakdown"
+msgstr "Fiyat dökümü"
+
+msgid "Price breakdown unfolded by default."
+msgstr "Fiyat dağılımı varsayılan olarak gelişmiştir."
+
+msgid "Accounts"
+msgstr ""
+
+msgid "Account creation"
+msgstr ""
+
+msgid "Automatically create an account for a user at checkout."
+msgstr ""
+
+msgid "Allow customers to create an account during checkout."
+msgstr ""
+
+msgid "Allow customers to log into their existing account during checkout."
+msgstr ""
+
+msgid "Booking Cancellation"
+msgstr "Rezervasyon İptali"
+
+msgid "User can cancel booking via link provided inside email."
+msgstr "Kullanıcı, e-postanın sağladığı link yoluyla rezervasyon iptal edebilir."
+
+msgid "Booking Cancelation Page"
+msgstr ""
+
+msgid "Page to confirm booking cancelation."
+msgstr ""
+
+msgid "Booking Canceled Page"
+msgstr ""
+
+msgid "Page to redirect to after a booking is canceled."
+msgstr ""
+
+msgid "Search Options"
+msgstr "Arama seçenekleri"
+
+msgid "Maximum accommodation occupancy available in the Search Form."
+msgstr "Maksimum bir konaklama doluluk oranı Arama Formunda mevcuttur."
+
+msgid "Max Adults"
+msgstr "Maksimum Yetişkin"
+
+msgid "Max Children"
+msgstr "Maksimum Çocuk"
+
+msgid "Age of Child"
+msgstr "Çocuk yaşı"
+
+msgid "Optional description of the \"Children\" field."
+msgstr "\"Çocuklar\" alanının isteğe bağlı açıklaması."
+
+msgid "Skip Search Results"
+msgstr "Arama Sonuçlarını Atla"
+
+msgid "Skip search results page and enable direct booking from accommodation pages."
+msgstr "Arama sonuçları sayfasını atla ve konaklama sayfalarından doğrudan rezervasyon yap."
+
+msgid "Direct Booking Form"
+msgstr ""
+
+msgid "Show price for selected period"
+msgstr ""
+
+msgid "Show price together with adults and children fields"
+msgstr ""
+
+msgid "Book button behavior on the search results page"
+msgstr ""
+
+msgid "Redirect to the checkout page immediately after successful addition to reservation."
+msgstr ""
+
+msgid "Enable \"adults\" and \"children\" options for my website (default)."
+msgstr "Web sitem için \"yetişkinler\" ve \"çocuklar\" seçeneklerini etkinleştir (varsayılan)."
+
+msgid "Disable \"children\" option for my website (hide \"children\" field and use Guests label instead)."
+msgstr "Web sitem için \"çocuklar\" seçeneğini devre dışı bırak (\"çocuklar\" alanını gizle ve Konuklar etiketini kullan)."
+
+msgid "Disable \"adults\" and \"children\" options for my website."
+msgstr "Web sitem için \"yetişkinler\" ve \"çocuklar\" seçeneklerini devre dışı bırak."
+
+msgid "Guest Management"
+msgstr "Konuk Yönetimi"
+
+msgid "Hide \"adults\" and \"children\" fields within search availability forms."
+msgstr "Arama uygunluk formlarındaki \"yetişkinler\" ve \"çocuklar\" alanlarını gizleyin."
+
+msgid "Do not apply booking rules for admin bookings."
+msgstr ""
+
+msgid "Display Options"
+msgstr "Görüntüleme seçenekleri"
+
+msgid "Display gallery images of accommodation page in lightbox."
+msgstr "Lightbox'ta konaklama sayfasının galeri resimlerini göster."
+
+msgid "Availability Calendar"
+msgstr "Müsaitlik Takvimi"
+
+msgid "Display per-night prices in the availability calendar."
+msgstr ""
+
+msgid "Truncate per-night prices in the availability calendar."
+msgstr ""
+
+msgid "Display the currency sign in the availability calendar."
+msgstr ""
+
+msgid "Calendar Theme"
+msgstr "Takvim Teması"
+
+msgid "Select theme for an availability calendar."
+msgstr "Uygunluk takvimi için tema seçin."
+
+msgid "Template Mode"
+msgstr "Şablon Modu"
+
+msgid "Developer Mode"
+msgstr "Geliştirici Modu"
+
+msgid "Theme Mode"
+msgstr "Tema Modu"
+
+msgid "Choose Theme Mode to display the content with the styles of your theme. Choose Developer Mode to control appearance of the content with custom page templates, actions and filters. This option can't be changed if your theme is initially integrated with the plugin."
+msgstr "Temanızın stilleri ile içeriği görüntülemek için Tema Modu'nu seçin. Özel sayfa şablonları, eylemler ve filtrelerle Içeriğin görünüşünün kontrolünü yapmak için Geliştirici Modu'nu seçin. Temanız başlangıçta eklentilerle entegre edilmişse, bu seçenek değiştirilemez."
+
+msgid "More Styles"
+msgstr ""
+
+msgid "Extend the styling options of Hotel Booking plugin with the new free addon - Hotel Booking Styles."
+msgstr ""
+
+msgid "Calendars Synchronization"
+msgstr ""
+
+msgid "Export admin blocks."
+msgstr ""
+
+msgid "Do not export imported bookings."
+msgstr ""
+
+msgid "Minimize Logs"
+msgstr ""
+
+msgid "Enable the plugin to record only important messages."
+msgstr ""
+
+msgid "Calendars Synchronization Scheduler"
+msgstr "Takvimler Senkronizasyon Zamanlayıcısı"
+
+msgid "Enable automatic external calendars synchronization"
+msgstr "Otomatik harici takvimler senkronizasyonunu etkinleştir"
+
+msgid "Clock"
+msgstr "Saat"
+
+msgid "Sync calendars at this time (UTC) or starting at this time every interval below."
+msgstr "Takvimleri şu anda senkronize edin (UTC) veya şu anda aşağıdaki her aralıkta başlayabilirsiniz."
+
+msgid "Interval"
+msgstr "Aralık"
+
+msgid "Quarter an Hour"
+msgstr ""
+
+msgid "Half an Hour"
+msgstr ""
+
+msgid "Once Hourly"
+msgstr "Saatte bir"
+
+msgid "Twice Daily"
+msgstr "Günde iki kez"
+
+msgid "Once Daily"
+msgstr "Günde bir kez"
+
+msgid "Automatically delete sync logs older than"
+msgstr ""
+
+msgid "Day"
+msgstr ""
+
+msgid "Week"
+msgstr ""
+
+msgid "Month"
+msgstr "Ay"
+
+msgid "Quarter"
+msgstr "Çeyrek"
+
+msgid "Half a Year"
+msgstr ""
+
+msgid "Never Delete"
+msgstr ""
+
+msgid "Block Editor"
+msgstr "Blok Editörü"
+
+msgid "Enable block editor for \"%s\"."
+msgstr "Blok Düzenleyiciyi Etkinleştir \"%s\"."
+
+msgid "Accommodation Types"
+msgstr "Konaklama Türleri"
+
+msgid "Services"
+msgstr "Hizmetler"
+
+msgid "Admin Emails"
+msgstr "Yönetici E-postaları"
+
+msgid "Customer Emails"
+msgstr "Müşteri E-postaları"
+
+msgid "Turn one-time guests into loyal customers by sending out automatic marketing campaigns with the <a>Hotel Booking & Mailchimp Integration</a>."
+msgstr ""
+
+msgid "Turn one-time guests into loyal customers by sending out automatic marketing campaigns with the Hotel Booking & Mailchimp Integration."
+msgstr ""
+
+msgid "Cancellation Details Template"
+msgstr "İptal Detayları Şablonu"
+
+msgid "Used for %cancellation_details% tag."
+msgstr "%cancellation_details% etiketi için kullanılır."
+
+msgid "Email Settings"
+msgstr "E-posta Ayarları"
+
+msgid "Send automated email notifications, such as key pick-up instructions, house rules, before and after arrival/departure with <a>Hotel Booking Notifier</a>."
+msgstr ""
+
+msgid "Send automated email notifications, such as key pick-up instructions, house rules, before and after arrival/departure with Hotel Booking Notifier."
+msgstr ""
+
+msgid "Email Sender"
+msgstr "E-posta Göndereni"
+
+msgid "Administrator Email"
+msgstr "Yönetici Eposta"
+
+msgid "From Email"
+msgstr "E-posta'dan"
+
+msgid "From Name"
+msgstr "İsmden"
+
+msgid "Logo URL"
+msgstr ""
+
+msgid "Footer Text"
+msgstr "Altbilgi Metni"
+
+msgid "Reserved Accommodation Details Template"
+msgstr "Ayrılmış Konaklama Detayları Şablonu"
+
+msgid "Used for %reserved_rooms_details% tag."
+msgstr "%reserved_rooms_details% etiketi için kullanılır."
+
+msgid "Styles"
+msgstr "Stiller"
+
+msgid "Base Color"
+msgstr "Taban Rengi"
+
+msgid "Background Color"
+msgstr "Arkaplan Rengi"
+
+msgid "Body Background Color"
+msgstr "Gövde Arka Planı Rengi"
+
+msgid "Body Text Color"
+msgstr "Gövde Metni Rengi"
+
+msgid "Payment Gateways"
+msgstr "Ödeme Ağ Geçitleri"
+
+msgid "General Settings"
+msgstr "Genel Ayarlar"
+
+msgid "Need more gateways? Use our Hotel Booking <a href=\"%s\" target=\"_blank\">WooCommerce Payments</a> extension."
+msgstr ""
+
+msgid "You may also email the <a href=\"%s\" target=\"_blank\">balance payment request</a> link to your guests."
+msgstr ""
+
+msgid "User Pays"
+msgstr "Kullanıcı Öder"
+
+msgid "Full Amount"
+msgstr "Tam Miktar"
+
+msgid "Deposit"
+msgstr "Depozit"
+
+msgid "Deposit Type"
+msgstr "Depozit Tipi"
+
+msgid "Fixed"
+msgstr "Belirlendi"
+
+msgid "Percent"
+msgstr "Yüzde"
+
+msgid "Deposit Amount"
+msgstr "Depozit Miktarı"
+
+msgid "Deposit Time Frame (days)"
+msgstr ""
+
+msgid "Apply deposit to bookings made in at least the selected number of days prior to the check-in date. Otherwise, the full amount is charged."
+msgstr ""
+
+msgid "Force Secure Checkout"
+msgstr "Güvenli Ödeme zorunlu hale getir"
+
+msgid "Force SSL (HTTPS) on the checkout pages. You must have an SSL certificate installed to use this option."
+msgstr "Ödeme sayfalarında SSL'yi (HTTPS) zorunlu hale getirin. Bu seçeneği kullanmak için bir SSL sertifikası kurulu olmalıdır."
+
+msgid "Reservation Received Page"
+msgstr ""
+
+msgid "Failed Transaction Page"
+msgstr "Başarısız İşlem Sayfası"
+
+msgid "Default Gateway"
+msgstr "Varsayılan Ağ Geçidi"
+
+msgid "Pending Payment Time"
+msgstr "Bekleyen Ödeme Süresi"
+
+msgid "Period of time in minutes the user is given to complete payment. Unpaid bookings become Abandoned and accommodation status changes to Available."
+msgstr "Kullanıcının ödemeyi tamamlaması için dakika olarak verilen süre. Ödemesi yapılmauan rezervasyonlar İptal Edildi ve konaklama durumu Müsait olarak değiştilir."
+
+msgid "Install <a href=\"%s\" target=\"_blank\">Hotel Booking addons</a> to manage their settings."
+msgstr ""
+
+msgid "Install Hotel Booking addons to manage their settings."
+msgstr "Ayarlarını yönetmek için Otel Rezervasyon eklentilerini kurun."
+
+msgid "Advanced"
+msgstr ""
+
+msgid "License"
+msgstr "Lisans"
+
+msgid "Settings saved."
+msgstr "Ayarlar kaydedildi."
+
+msgid "<strong>Note:</strong> Payment methods will appear on the checkout page only when Confirmation Upon Payment is enabled in Accommodation > Settings > General > Confirmation Mode."
+msgstr ""
+
+msgid "Settings"
+msgstr "Ayarlar"
+
+msgid "Availability Search Form"
+msgstr "Müsaitliği Arama Formu"
+
+msgid "Display search form."
+msgstr "Arama formunu görüntüle."
+
+msgid "The number of adults presetted in the search form."
+msgstr "Arama formunda önceden ayarlanmış yetişkinlerin sayısı."
+
+msgid "The number of children presetted in the search form."
+msgstr "Arama formunda önceden ayarlanmış çocukların sayısı."
+
+msgid "Check-in date presetted in the search form."
+msgstr "Arama formunda önceden ayarlanmış giriş tarihi."
+
+msgid "date in format %s"
+msgstr "Tarih %s biçiminde"
+
+msgid "Check-out date presetted in the search form."
+msgstr "Arama formunda önceden ayarlanmış çıkış tarihi."
+
+msgid "Custom attributes for advanced search."
+msgstr "Özellikler için gelişmiş arama."
+
+msgid "Comma-separated slugs of attributes."
+msgstr "Virgülle ayrılmış özellikler."
+
+msgid "Custom CSS class for shortcode wrapper"
+msgstr "Kısa kod sarıcı için özel CSS sınıfı"
+
+msgid "whitespace separated css classes"
+msgstr "Boşluklarla ayrılmış css sınıfları"
+
+msgid "Accommodation Type ID"
+msgstr "Konaklama Tipi Kimliği"
+
+msgid "ID of Accommodation Type to check availability."
+msgstr "Mevcudiyet durumunu kontrol etmek için Konaklama Tipi kimliği."
+
+msgid "integer number"
+msgstr "tam sayı"
+
+msgid "How many months to show."
+msgstr "Kaç ay gösterilsin"
+
+msgid "Set the number of columns or the number of rows and columns separated by comma. Example: \"3\" or \"2,3\""
+msgstr "Sütun sayısını veya virgülle ayrılmış satır ve sütun sayısını ayarlayın. Örnek: \"3\" veya \"2,3\""
+
+msgid "Display availability calendar of the current accommodation type or by ID."
+msgstr "Mevcut konaklama tipine veya numaraya göre uygunluk takvimini görüntüleyin."
+
+msgid "Availability Search Results"
+msgstr "Kullanılabilirlik arama sonuçları"
+
+msgid "Display listing of accommodation types that meet the search criteria."
+msgstr "Arama kriterlerini karşılayan konaklama türlerini görüntüleyin."
+
+msgid "Whether to display title of the accommodation type."
+msgstr "Konaklama türünün başlığını görüntülenip görüntülenmemesi."
+
+msgid "Whether to display featured image of the accommodation type."
+msgstr "Konaklama türünün öne çıkan görüntüsünü görüntülenip görüntülenmemesi."
+
+msgid "Whether to display gallery of the accommodation type."
+msgstr "Konaklama türünün galerisini görüntülenip görüntülenmemesi."
+
+msgid "Whether to display excerpt (short description) of the accommodation type."
+msgstr "Konaklama tipinin alıntısını (kısa açıklama) gösterilip gösterilmemesi."
+
+msgid "Whether to display details of the accommodation type."
+msgstr "Konaklama türünün ayrıntılarını görüntüleme veya görüntülememe."
+
+msgid "Whether to display price of the accommodation type."
+msgstr "Konaklama türünün fiyatının görüntülenip görüntülenmemesi."
+
+msgid "Show View Details button"
+msgstr "Ayrıntıları Görüntüle düğmesini göster"
+
+msgid "Whether to display \"View Details\" button with the link to accommodation type."
+msgstr "Konaklama türüne bağlantılı \"Detayları Görüntüle\" düğmesini görüntüleyip görüntülememek."
+
+msgid "Sort by."
+msgstr "Göre sırala."
+
+msgid "%1$s. See the <a href=\"%2$s\" target=\"_blank\">full list</a>."
+msgstr "%1$s. <a href=\"%2$s\" target=\"_blank\">Tam listeye bakın</a>."
+
+msgid "Designates the ascending or descending order of sorting."
+msgstr "Artan veya azalan sıralama düzenini belirtir."
+
+msgid "ASC - from lowest to highest values (1, 2, 3). DESC - from highest to lowest values (3, 2, 1)."
+msgstr "ASC - Düşükten Yükseğe. DESC - Yüksekten Düşüğe"
+
+msgid "Custom field name. Required if \"orderby\" is one of the \"meta_value\", \"meta_value_num\" or \"meta_value_*\"."
+msgstr "özel alan adı. \"orderby\", \"meta_value\", \"meta_value_num\", \"meta_value_*\" dan birisi gereklidir."
+
+msgid "custom field name"
+msgstr "özel alan adı"
+
+msgid "empty string"
+msgstr "Boş dize"
+
+msgid "Specified type of the custom field. Can be used in conjunction with orderby=\"meta_value\"."
+msgstr "Özel alanın belirtilen türü. orderby=\"meta_value\" ile kullanılabilir."
+
+msgid "Sort by. Use \"orderby\" insted."
+msgstr "Sırala. \"orderby\""
+
+msgid "Show Book button"
+msgstr "Rezervasyon düğmesini göster"
+
+msgid "Whether to display Book button."
+msgstr "Rezervasyon düğmesini görüntüleyip görüntülememek."
+
+msgid "NOTE:"
+msgstr "NOT:"
+
+msgid "Use only on page that you set as Search Results Page in <a href=\"%s\">Settings</a>"
+msgstr "Yalnızca <a href=\"%s\"> Ayarlarda </a> Arama Sonuçları Sayfası olarak ayarladığınız sayfada kullanın"
+
+msgid "Accommodation Types Listing"
+msgstr "Konaklama Türleri Listeleme"
+
+msgid "Count per page"
+msgstr "Sayfa başına say"
+
+msgid "integer, -1 to display all, default: \"Blog pages show at most\""
+msgstr ""
+
+msgid "IDs of categories that will be shown."
+msgstr "Gösterilecek kategorilerin ID'leri."
+
+msgid "Comma-separated IDs."
+msgstr "Virgülle Ayrılmış Kimlikler."
+
+msgid "IDs of tags that will be shown."
+msgstr "Gösterilecek etiketlerin ID'leri."
+
+msgid "IDs of accommodations that will be shown."
+msgstr "Gösterilecek konaklama yerlerinin ID'leri."
+
+msgid "Logical relationship between each taxonomy when there is more than one."
+msgstr "Birden fazla olduğunda her bir taksonomi arasındaki mantıksal ilişki."
+
+msgid "Services Listing"
+msgstr "Hizmetler Listesi"
+
+msgid "IDs"
+msgstr "Kimlikler"
+
+msgid "IDs of services that will be shown. "
+msgstr "Gösterilecek servislerin kimlikleri. "
+
+msgid "Show All Services"
+msgstr "Tüm Hizmetleri Göster"
+
+msgid "Single Accommodation Type"
+msgstr "Tek Kişilik Konaklama Tipi"
+
+msgid "ID of accommodation type to display."
+msgstr "Görüntülenecek konaklama türü kimliği."
+
+msgid "Display accommodation type with title and image."
+msgstr "Başlık ve resim içeren konaklama türlerini görüntüleyin."
+
+msgid "Checkout Form"
+msgstr "Ödeme formu"
+
+msgid "Display checkout form."
+msgstr "Ödeme formu görüntüle."
+
+msgid "Use only on page that you set as Checkout Page in <a href=\"%s\">Settings</a>"
+msgstr "Yalnızca  <a href=\"%s\">Ayarlar'da </a>Ödeme Sayfası olarak ayarladığınız sayfada kullanın"
+
+msgid "Booking Form"
+msgstr "Rezervasyon Formu"
+
+msgid "Show Booking Form for Accommodation Type with id 777"
+msgstr "777 numaralı Konaklama Tipi için rezervasyon formunu göster"
+
+msgid "Accommodation Rates List"
+msgstr "Konaklama Puan Listesi"
+
+msgid "ID of accommodation type."
+msgstr "Konaklama türü kimliği."
+
+msgid "Show Accommodation Rates List for accommodation type with id 777"
+msgstr "777 numaralı konaklama türü için konaklama puan listesini göster"
+
+msgid "Display booking and payment details."
+msgstr ""
+
+msgid "Use this shortcode on Booking Confirmed and Reservation Received pages"
+msgstr ""
+
+msgid "Booking Cancelation"
+msgstr ""
+
+msgid "Display booking cancelation details."
+msgstr ""
+
+msgid "Use this shortcode on the Booking Cancelation page"
+msgstr ""
+
+msgid "Customer Account"
+msgstr ""
+
+msgid "Display log in form or customer account area."
+msgstr ""
+
+msgid "Use this shortcode to create the My Account page."
+msgstr ""
+
+msgid "Shortcodes"
+msgstr "Kısa kodlar"
+
+msgid "Shortcode"
+msgstr "Kıda kod"
+
+msgid "Parameters"
+msgstr "Parametreler"
+
+msgid "Example"
+msgstr "Örnek"
+
+msgid "Deprecated since %s"
+msgstr "%s değerinden beri kullanımdan kaldırıldı"
+
+msgid "Values:"
+msgstr "Değerler:"
+
+msgid "Default:"
+msgstr "Varsayılan:"
+
+msgid "Optional."
+msgstr "İsteğe bağlı."
+
+msgid "Required"
+msgstr "Gerekli"
+
+msgid "Taxes and fees saved."
+msgstr "Vergiler ve ücretler kaydedildi."
+
+msgid "Taxes & Fees"
+msgstr "Vergiler ve Ücretler"
+
+msgid "Fees"
+msgstr "Ücretler"
+
+msgid "No fees have been created yet."
+msgstr "Henüz bir ücret oluşturulmadı."
+
+msgid "Add new"
+msgstr "Yeni ekle"
+
+msgid "Label"
+msgstr "Etiket"
+
+msgid "New fee"
+msgstr "Yeni ücret"
+
+msgid "Per guest / per day"
+msgstr "Konuk başına / günlük"
+
+msgid "Per accommodation / per day"
+msgstr "Konaklama başına / günlük"
+
+msgid "Per accommodation (%)"
+msgstr "Konaklama başına (%)"
+
+msgid "Limit"
+msgstr ""
+
+msgid "How often this fee is charged. Set 0 to charge each day of the stay period. Set 1 to charge once."
+msgstr ""
+
+msgid "Include"
+msgstr ""
+
+msgid "Show accommodation rate with this charge included"
+msgstr ""
+
+msgid "Accommodation Taxes"
+msgstr "Konaklama Puanı"
+
+msgid "No taxes have been created yet."
+msgstr "Henüz bir vergi oluşturulmadı."
+
+msgid "New tax"
+msgstr "Yeni vergi"
+
+msgid "Limit of days the fee is charged. Set 0 to charge each day of stay period. Set 1 to charge once."
+msgstr ""
+
+msgid "Service Taxes"
+msgstr "Servis Vergileri"
+
+msgid "Percentage"
+msgstr "Yüzde"
+
+msgid "Fee Taxes"
+msgstr "Vergiler"
+
+msgid "External Calendars"
+msgstr "Harici Takvimler"
+
+msgid "Sync External Calendars"
+msgstr "Harici Takvimleri Senkronize Et"
+
+msgctxt "Placeholder for empty accommodation title"
+msgid "(no title)"
+msgstr "(başlık yok)"
+
+msgid "Download Calendar"
+msgstr "Takvimi indir"
+
+msgid "Message"
+msgstr "Mesaj"
+
+msgid "Success"
+msgstr "Başarılı"
+
+msgid "Info"
+msgstr "Bilgi"
+
+msgid "Warning"
+msgstr "Uyarı"
+
+msgctxt "This is date and time format 31/12/2017 - 23:59:59"
+msgid "d/m/Y - H:i:s"
+msgstr ""
+
+msgid "Waiting"
+msgstr "Bekleniyor"
+
+msgid "Processing"
+msgstr ""
+
+msgctxt "Total number of processed bookings"
+msgid "Total"
+msgstr "Toplam"
+
+msgid "Succeed"
+msgstr "Başarılı"
+
+msgid "Skipped"
+msgstr "Atlandı"
+
+msgid "Failed"
+msgstr "Başarısız"
+
+msgid "Removed"
+msgstr ""
+
+msgid "Copying to clipboard failed. Please press Ctrl/Cmd+C to copy."
+msgstr ""
+
+msgid "Description is missing."
+msgstr ""
+
+msgid "User is missing."
+msgstr ""
+
+msgid "Permission is missing."
+msgstr ""
+
+msgid "You do not have permission to assign API Keys to the selected user."
+msgstr ""
+
+msgid "API Key updated successfully."
+msgstr ""
+
+msgid "API Key generated successfully. Make sure to copy your new keys now as the secret key will be hidden once you leave this page."
+msgstr ""
+
+msgid "Revoke key"
+msgstr ""
+
+msgid "No keys found."
+msgstr ""
+
+msgid "Description"
+msgstr "Açıklama"
+
+msgid "Consumer key ending in"
+msgstr ""
+
+msgid "User"
+msgstr ""
+
+msgid "Permissions"
+msgstr ""
+
+msgid "Last access"
+msgstr ""
+
+msgid "API key"
+msgstr ""
+
+#. translators: %d: API key ID.
+msgid "ID: %d"
+msgstr ""
+
+msgid "Revoke"
+msgstr ""
+
+msgid "Read"
+msgstr ""
+
+msgid "Write"
+msgstr ""
+
+msgid "Read/Write"
+msgstr ""
+
+#. translators: 1: last access date 2: last access time
+msgid "%1$s at %2$s"
+msgstr ""
+
+msgid "Unknown"
+msgstr ""
+
+msgid "You do not have permission to edit this API Key"
+msgstr ""
+
+msgid "REST API"
+msgstr ""
+
+msgid "Add key"
+msgstr ""
+
+msgid "You do not have permission to revoke this API Key"
+msgstr ""
+
+msgid "You do not have permission to edit API Keys"
+msgstr ""
+
+msgid "You do not have permission to revoke API Keys"
+msgstr ""
+
+msgid "Generate API key"
+msgstr ""
+
+msgid "Friendly name for identifying this key."
+msgstr ""
+
+msgid "Owner of these keys."
+msgstr ""
+
+msgid "Access type of these keys."
+msgstr ""
+
+msgid "Consumer key"
+msgstr ""
+
+msgid "Copied!"
+msgstr ""
+
+msgid "Copy"
+msgstr ""
+
+msgid "Consumer secret"
+msgstr ""
+
+msgid "QR Code"
+msgstr ""
+
+msgid "No bookings found for your request."
+msgstr ""
+
+msgid "Uploads directory is not writable."
+msgstr ""
+
+msgid "No enough data"
+msgstr ""
+
+msgid "An error has occurred"
+msgstr "Bir hata oluştu"
+
+msgid "Please complete all required fields and try again."
+msgstr "Lütfen tüm gerekli alanları doldurun ve tekrar deneyin."
+
+msgid "An error has occurred, please try again later."
+msgstr "Bir hata oluştu. Lütfen daha sonra tekrar deneyiniz."
+
+msgid "The number of adults is not valid."
+msgstr ""
+
+msgid "The number of guests is not valid."
+msgstr ""
+
+msgid "An error has occurred. Please try again later."
+msgstr "Bir hata oluştu. Lütfen daha sonra tekrar deneyiniz."
+
+msgid "Sorry, the minimum allowed payment amount is %s to use this payment method."
+msgstr "Maalesef, bu ödeme yöntemini kullanabilmek için izin verilen minimum ödeme tutarı %s."
+
+msgid "Chosen payment method is not available. Please refresh the page and try one more time."
+msgstr "Seçilen ödeme yöntemi kullanılamıyor. Lütfen sayfayı yenileyin ve bir kez daha deneyin."
+
+msgid "Coupon applied successfully."
+msgstr "Kupon başarıyla uygulandı."
+
+msgid "Coupon is not valid."
+msgstr "Kupon geçerli değil."
+
+msgid "Booking Information"
+msgstr "Rezervasyon Bilgisi"
+
+msgid "Check-in Date"
+msgstr "Giriş Tarihi"
+
+msgid "Check-out Date"
+msgstr "Çıkış Tarihi"
+
+msgid "Customer Information"
+msgstr "Müşteri Bilgisi"
+
+msgid "Customer Note"
+msgstr "Müşteri Notu"
+
+msgid "Additional Information"
+msgstr "Ek Bilgi"
+
+msgid "Coupon"
+msgstr "Kupon"
+
+msgid "Total Booking Price"
+msgstr "Toplam Rezervasyon Ücreti"
+
+msgid "Notes"
+msgstr "Notlar"
+
+#. translators: %1$s: note author, %1$s: note date
+msgid "%1$s on %2$s"
+msgstr ""
+
+msgid "Based on your search parameters"
+msgstr "Arama parametrelerinize dayanarak"
+
+msgid "You do not have permission to do this action."
+msgstr ""
+
+msgctxt "Not selected value in the search form."
+msgid "&mdash;"
+msgstr ""
+
+msgid "Year"
+msgstr "Yıl"
+
+msgid "Custom"
+msgstr "Özel"
+
+msgctxt "Booking status"
+msgid "Confirmed"
+msgstr "Onaylandı"
+
+msgid "Show"
+msgstr "Göster"
+
+msgid "Search"
+msgstr "Ara"
+
+msgid "Booked"
+msgstr "Rezerve edildi"
+
+msgid "Pending"
+msgstr "Beklemede"
+
+msgid "External"
+msgstr ""
+
+msgid "Blocked"
+msgstr "bloke edilmiş"
+
+msgid "Search results for accommodations that have bookings with status \"%s\" from %s until %s"
+msgstr "%s ' dan %s ' kadar    rezervasyon durumu  \"%s\" olan konaklamalar için arama sonuçları için"
+
+msgid "Free"
+msgstr "Ücretsiz"
+
+msgid "Locked (Booked or Pending)"
+msgstr "Kilitli (Rezervasyonlu veya Beklemede)"
+
+msgid "Until"
+msgstr "Kadar"
+
+msgid "Period:"
+msgstr "Periyot:"
+
+msgid "&lt; Prev"
+msgstr "&lt; Bir önceki"
+
+msgid "Next &gt;"
+msgstr "Bir sonraki &gt;"
+
+msgid "No accommodations found."
+msgstr "Konaklama bulunamadı."
+
+msgid "Check-out #%d"
+msgstr "Çıkış #%d"
+
+msgid "Check-in #%d"
+msgstr "Giriş #%d"
+
+msgid "Booking #%d"
+msgstr "Rezervasyon #%d"
+
+msgid "Buffer time."
+msgstr ""
+
+msgctxt "Availability"
+msgid "Free"
+msgstr "Serbestçe"
+
+msgid "Adults: %s"
+msgstr "Yetişkin: %s"
+
+msgid "Children: %s"
+msgstr "Çocuk: %s"
+
+msgid "Booking imported with UID %s."
+msgstr "UID ile içe aktarılan rezervasyon %s."
+
+msgid "Imported booking."
+msgstr ""
+
+msgid "Description: %s."
+msgstr "Açıklama: %s."
+
+msgid "Source: %s."
+msgstr "Kaynak: %s."
+
+msgid "Afghanistan"
+msgstr ""
+
+msgid "&#197;land Islands"
+msgstr ""
+
+msgid "Albania"
+msgstr "Arnavutluk"
+
+msgid "Algeria"
+msgstr "Cezayir"
+
+msgid "American Samoa"
+msgstr ""
+
+msgid "Andorra"
+msgstr "Andora"
+
+msgid "Angola"
+msgstr ""
+
+msgid "Anguilla"
+msgstr ""
+
+msgid "Antarctica"
+msgstr ""
+
+msgid "Antigua and Barbuda"
+msgstr "Antigua ve Barbuda"
+
+msgid "Argentina"
+msgstr "Arjantin"
+
+msgid "Armenia"
+msgstr "Ermenistan"
+
+msgid "Aruba"
+msgstr ""
+
+msgid "Australia"
+msgstr "Avustralya"
+
+msgid "Austria"
+msgstr "Avustruya"
+
+msgid "Azerbaijan"
+msgstr "Azerbaycan"
+
+msgid "Bahamas"
+msgstr "Bahamalar"
+
+msgid "Bahrain"
+msgstr "Bahreyn"
+
+msgid "Bangladesh"
+msgstr ""
+
+msgid "Barbados"
+msgstr ""
+
+msgid "Belarus"
+msgstr "Beyaz Rusya"
+
+msgid "Belgium"
+msgstr "Belçika"
+
+msgid "Belau"
+msgstr ""
+
+msgid "Belize"
+msgstr ""
+
+msgid "Benin"
+msgstr ""
+
+msgid "Bermuda"
+msgstr ""
+
+msgid "Bhutan"
+msgstr ""
+
+msgid "Bolivia"
+msgstr "Bolivya"
+
+msgid "Bonaire, Saint Eustatius and Saba"
+msgstr ""
+
+msgid "Bosnia and Herzegovina"
+msgstr "Bosna Hersek"
+
+msgid "Botswana"
+msgstr ""
+
+msgid "Bouvet Island"
+msgstr ""
+
+msgid "Brazil"
+msgstr "Brezilya"
+
+msgid "British Indian Ocean Territory"
+msgstr ""
+
+msgid "British Virgin Islands"
+msgstr "İngiliz Virgin Adaları"
+
+msgid "Brunei"
+msgstr ""
+
+msgid "Bulgaria"
+msgstr "Bulgaristan"
+
+msgid "Burkina Faso"
+msgstr ""
+
+msgid "Burundi"
+msgstr ""
+
+msgid "Cambodia"
+msgstr "Kamboçya"
+
+msgid "Cameroon"
+msgstr "Kamerun"
+
+msgid "Canada"
+msgstr "Kanada"
+
+msgid "Cape Verde"
+msgstr ""
+
+msgid "Cayman Islands"
+msgstr "Cayman Adaları"
+
+msgid "Central African Republic"
+msgstr ""
+
+msgid "Chad"
+msgstr "Çad"
+
+msgid "Chile"
+msgstr "Şili"
+
+msgid "China"
+msgstr "Şili"
+
+msgid "Christmas Island"
+msgstr ""
+
+msgid "Cocos (Keeling) Islands"
+msgstr ""
+
+msgid "Colombia"
+msgstr "Kolombiya"
+
+msgid "Comoros"
+msgstr "Komorlar"
+
+msgid "Congo (Brazzaville)"
+msgstr "Kongo - Brazzaville"
+
+msgid "Congo (Kinshasa)"
+msgstr "Kongo - Kinşasa"
+
+msgid "Cook Islands"
+msgstr "Cook Adaları"
+
+msgid "Costa Rica"
+msgstr "Kosta Rika"
+
+msgid "Croatia"
+msgstr "Hırvatistan"
+
+msgid "Cuba"
+msgstr ""
+
+msgid "Cura&ccedil;ao"
+msgstr ""
+
+msgid "Cyprus"
+msgstr "Kıbrıs"
+
+msgid "Czech Republic"
+msgstr "Çek Cumhuriyeti"
+
+msgid "Denmark"
+msgstr "Danimarka"
+
+msgid "Djibouti"
+msgstr ""
+
+msgid "Dominica"
+msgstr "Dominika"
+
+msgid "Dominican Republic"
+msgstr "Dominik Cumhuriyeti"
+
+msgid "Ecuador"
+msgstr "Ekvator"
+
+msgid "Egypt"
+msgstr "Mısır"
+
+msgid "El Salvador"
+msgstr ""
+
+msgid "Equatorial Guinea"
+msgstr ""
+
+msgid "Eritrea"
+msgstr "Eritre"
+
+msgid "Estonia"
+msgstr "Estonya"
+
+msgid "Ethiopia"
+msgstr "Etiyopya"
+
+msgid "Falkland Islands"
+msgstr "Falkland Adaları"
+
+msgid "Faroe Islands"
+msgstr "Faroe Adaları"
+
+msgid "Fiji"
+msgstr ""
+
+msgid "Finland"
+msgstr "Finlandiya"
+
+msgid "France"
+msgstr "Fransa"
+
+msgid "French Guiana"
+msgstr "Fransız Guyanası"
+
+msgid "French Polynesia"
+msgstr "Fransız Polinezyası"
+
+msgid "French Southern Territories"
+msgstr ""
+
+msgid "Gabon"
+msgstr ""
+
+msgid "Gambia"
+msgstr "Gambiya"
+
+msgid "Georgia"
+msgstr "Gürcüstan"
+
+msgid "Germany"
+msgstr "Almanya"
+
+msgid "Ghana"
+msgstr ""
+
+msgid "Gibraltar"
+msgstr "Cebelitarık"
+
+msgid "Greece"
+msgstr "Yunanistan"
+
+msgid "Greenland"
+msgstr "Grönland"
+
+msgid "Grenada"
+msgstr ""
+
+msgid "Guadeloupe"
+msgstr ""
+
+msgid "Guam"
+msgstr ""
+
+msgid "Guatemala"
+msgstr ""
+
+msgid "Guernsey"
+msgstr ""
+
+msgid "Guinea"
+msgstr "Gine"
+
+msgid "Guinea-Bissau"
+msgstr "Gine-Bissau"
+
+msgid "Guyana"
+msgstr ""
+
+msgid "Haiti"
+msgstr ""
+
+msgid "Heard Island and McDonald Islands"
+msgstr ""
+
+msgid "Honduras"
+msgstr ""
+
+msgid "Hong Kong"
+msgstr ""
+
+msgid "Hungary"
+msgstr "Macaristan"
+
+msgid "Iceland"
+msgstr "İzlanda"
+
+msgid "India"
+msgstr "Hindistan"
+
+msgid "Indonesia"
+msgstr "Endonezya"
+
+msgid "Iran"
+msgstr ""
+
+msgid "Iraq"
+msgstr ""
+
+msgid "Ireland"
+msgstr "İrlanda"
+
+msgid "Isle of Man"
+msgstr ""
+
+msgid "Israel"
+msgstr "İsrail"
+
+msgid "Italy"
+msgstr "İtalya"
+
+msgid "Ivory Coast"
+msgstr ""
+
+msgid "Jamaica"
+msgstr "Jamaika"
+
+msgid "Japan"
+msgstr "Japonya"
+
+msgid "Jersey"
+msgstr ""
+
+msgid "Jordan"
+msgstr "Ürdün"
+
+msgid "Kazakhstan"
+msgstr "Kazakistan"
+
+msgid "Kenya"
+msgstr ""
+
+msgid "Kiribati"
+msgstr ""
+
+msgid "Kuwait"
+msgstr "Kuveyt"
+
+msgid "Kyrgyzstan"
+msgstr "Kırgızistan"
+
+msgid "Laos"
+msgstr ""
+
+msgid "Latvia"
+msgstr "Letonya"
+
+msgid "Lebanon"
+msgstr ""
+
+msgid "Lesotho"
+msgstr ""
+
+msgid "Liberia"
+msgstr ""
+
+msgid "Libya"
+msgstr ""
+
+msgid "Liechtenstein"
+msgstr "Lihtenştayn"
+
+msgid "Lithuania"
+msgstr "Litvanya"
+
+msgid "Luxembourg"
+msgstr "Lüksemburg"
+
+msgid "Macao S.A.R., China"
+msgstr ""
+
+msgid "Macedonia"
+msgstr "Makedonya"
+
+msgid "Madagascar"
+msgstr "Madagaskar"
+
+msgid "Malawi"
+msgstr ""
+
+msgid "Malaysia"
+msgstr "Malezya"
+
+msgid "Maldives"
+msgstr "Maldivler"
+
+msgid "Mali"
+msgstr ""
+
+msgid "Malta"
+msgstr ""
+
+msgid "Marshall Islands"
+msgstr "Marshall Adaları"
+
+msgid "Martinique"
+msgstr "Martinik"
+
+msgid "Mauritania"
+msgstr "Moritanya"
+
+msgid "Mauritius"
+msgstr ""
+
+msgid "Mayotte"
+msgstr ""
+
+msgid "Mexico"
+msgstr "Meksika"
+
+msgid "Micronesia"
+msgstr "Mikronezya"
+
+msgid "Moldova"
+msgstr "Moldovya"
+
+msgid "Monaco"
+msgstr ""
+
+msgid "Mongolia"
+msgstr "Moğolistan"
+
+msgid "Montenegro"
+msgstr "Karadağ"
+
+msgid "Montserrat"
+msgstr ""
+
+msgid "Morocco"
+msgstr "Fas"
+
+msgid "Mozambique"
+msgstr "Mozambik"
+
+msgid "Myanmar"
+msgstr ""
+
+msgid "Namibia"
+msgstr "Namibya"
+
+msgid "Nauru"
+msgstr ""
+
+msgid "Nepal"
+msgstr ""
+
+msgid "Netherlands"
+msgstr "Hollanda"
+
+msgid "New Caledonia"
+msgstr "Yeni Kaledonya"
+
+msgid "New Zealand"
+msgstr "Yeni Zelanda"
+
+msgid "Nicaragua"
+msgstr "Nikaragua"
+
+msgid "Niger"
+msgstr "Nijer"
+
+msgid "Nigeria"
+msgstr "Nijerya"
+
+msgid "Niue"
+msgstr ""
+
+msgid "Norfolk Island"
+msgstr "Norfolk Adası"
+
+msgid "Northern Mariana Islands"
+msgstr ""
+
+msgid "North Korea"
+msgstr ""
+
+msgid "Norway"
+msgstr "Norveç"
+
+msgid "Oman"
+msgstr ""
+
+msgid "Pakistan"
+msgstr ""
+
+msgid "Palestinian Territory"
+msgstr ""
+
+msgid "Panama"
+msgstr ""
+
+msgid "Papua New Guinea"
+msgstr "Papua Yeni Gine"
+
+msgid "Paraguay"
+msgstr ""
+
+msgid "Peru"
+msgstr ""
+
+msgid "Philippines"
+msgstr "Filipinler"
+
+msgid "Pitcairn"
+msgstr ""
+
+msgid "Poland"
+msgstr "Polonya"
+
+msgid "Portugal"
+msgstr "Portekiz"
+
+msgid "Puerto Rico"
+msgstr ""
+
+msgid "Qatar"
+msgstr "Katar"
+
+msgid "Reunion"
+msgstr "Réunion"
+
+msgid "Romania"
+msgstr "Romanya"
+
+msgid "Russia"
+msgstr "Rusya"
+
+msgid "Rwanda"
+msgstr "Ruanda"
+
+msgid "Saint Barth&eacute;lemy"
+msgstr ""
+
+msgid "Saint Helena"
+msgstr ""
+
+msgid "Saint Kitts and Nevis"
+msgstr ""
+
+msgid "Saint Lucia"
+msgstr ""
+
+msgid "Saint Martin (French part)"
+msgstr ""
+
+msgid "Saint Martin (Dutch part)"
+msgstr ""
+
+msgid "Saint Pierre and Miquelon"
+msgstr ""
+
+msgid "Saint Vincent and the Grenadines"
+msgstr ""
+
+msgid "San Marino"
+msgstr ""
+
+msgid "S&atilde;o Tom&eacute; and Pr&iacute;ncipe"
+msgstr ""
+
+msgid "Saudi Arabia"
+msgstr "Suudi Arabistan"
+
+msgid "Senegal"
+msgstr ""
+
+msgid "Serbia"
+msgstr "Sırbistan"
+
+msgid "Seychelles"
+msgstr "Seyşel Adaları"
+
+msgid "Sierra Leone"
+msgstr ""
+
+msgid "Singapore"
+msgstr "Singapur"
+
+msgid "Slovakia"
+msgstr "Slovakya"
+
+msgid "Slovenia"
+msgstr "Slovenya"
+
+msgid "Solomon Islands"
+msgstr "Solomon Adaları"
+
+msgid "Somalia"
+msgstr "Somali"
+
+msgid "South Africa"
+msgstr "Güney Afrika"
+
+msgid "South Georgia/Sandwich Islands"
+msgstr ""
+
+msgid "South Korea"
+msgstr "Güney Kore"
+
+msgid "South Sudan"
+msgstr ""
+
+msgid "Spain"
+msgstr "İspanya"
+
+msgid "Sri Lanka"
+msgstr ""
+
+msgid "Sudan"
+msgstr ""
+
+msgid "Suriname"
+msgstr "Surinam"
+
+msgid "Svalbard and Jan Mayen"
+msgstr "Svalbard ve Jan Mayen"
+
+msgid "Swaziland"
+msgstr "Svaziland"
+
+msgid "Sweden"
+msgstr "İsveç"
+
+msgid "Switzerland"
+msgstr "İsviçre"
+
+msgid "Syria"
+msgstr ""
+
+msgid "Taiwan"
+msgstr "Tayvan"
+
+msgid "Tajikistan"
+msgstr ""
+
+msgid "Tanzania"
+msgstr "Tanzanya"
+
+msgid "Thailand"
+msgstr "Tayland"
+
+msgid "Timor-Leste"
+msgstr ""
+
+msgid "Togo"
+msgstr ""
+
+msgid "Tokelau"
+msgstr ""
+
+msgid "Tonga"
+msgstr ""
+
+msgid "Trinidad and Tobago"
+msgstr "Trinidad & Tobago"
+
+msgid "Tunisia"
+msgstr "Tunus"
+
+msgid "Turkey"
+msgstr ""
+
+msgid "Turkmenistan"
+msgstr "Türkmenistan"
+
+msgid "Turks and Caicos Islands"
+msgstr "Türkler ve Caicos Adaları"
+
+msgid "Tuvalu"
+msgstr ""
+
+msgid "Uganda"
+msgstr ""
+
+msgid "Ukraine"
+msgstr "Ukrayna"
+
+msgid "United Arab Emirates"
+msgstr "Birleşik Arap Emirlikleri"
+
+msgid "United Kingdom (UK)"
+msgstr ""
+
+msgid "United States (US)"
+msgstr ""
+
+msgid "United States (US) Minor Outlying Islands"
+msgstr ""
+
+msgid "United States (US) Virgin Islands"
+msgstr ""
+
+msgid "Uruguay"
+msgstr ""
+
+msgid "Uzbekistan"
+msgstr ""
+
+msgid "Vanuatu"
+msgstr ""
+
+msgid "Vatican"
+msgstr ""
+
+msgid "Venezuela"
+msgstr ""
+
+msgid "Vietnam"
+msgstr "Viyetnam"
+
+msgid "Wallis and Futuna"
+msgstr "Wallis ve Futuna"
+
+msgid "Western Sahara"
+msgstr ""
+
+msgid "Samoa"
+msgstr ""
+
+msgid "Yemen"
+msgstr ""
+
+msgid "Zambia"
+msgstr "Zambiya"
+
+msgid "Zimbabwe"
+msgstr "Zimbabve"
+
+msgid "Euro"
+msgstr ""
+
+msgid "United States (US) dollar"
+msgstr ""
+
+msgid "Pound sterling"
+msgstr "Pound Sterling"
+
+msgid "United Arab Emirates dirham"
+msgstr "Birleşik Arap Emirlikleri Dirhemi"
+
+msgid "Afghan afghani"
+msgstr ""
+
+msgid "Albanian lek"
+msgstr ""
+
+msgid "Armenian dram"
+msgstr ""
+
+msgid "Netherlands Antillean guilder"
+msgstr ""
+
+msgid "Angolan kwanza"
+msgstr ""
+
+msgid "Argentine peso"
+msgstr "Arjantin Pezosu"
+
+msgid "Australian dollar"
+msgstr "Avustralya Doları"
+
+msgid "Aruban florin"
+msgstr ""
+
+msgid "Azerbaijani manat"
+msgstr ""
+
+msgid "Bosnia and Herzegovina convertible mark"
+msgstr ""
+
+msgid "Barbadian dollar"
+msgstr ""
+
+msgid "Bangladeshi taka"
+msgstr "Bangladeşli Yani"
+
+msgid "Bulgarian lev"
+msgstr "Bulgar Levası"
+
+msgid "Bahraini dinar"
+msgstr ""
+
+msgid "Burundian franc"
+msgstr ""
+
+msgid "Bermudian dollar"
+msgstr ""
+
+msgid "Brunei dollar"
+msgstr ""
+
+msgid "Bolivian boliviano"
+msgstr ""
+
+msgid "Brazilian real"
+msgstr "Brezilya Reali"
+
+msgid "Bahamian dollar"
+msgstr ""
+
+msgid "Bitcoin"
+msgstr ""
+
+msgid "Bhutanese ngultrum"
+msgstr ""
+
+msgid "Botswana pula"
+msgstr ""
+
+msgid "Belarusian ruble (old)"
+msgstr ""
+
+msgid "Belarusian ruble"
+msgstr ""
+
+msgid "Belize dollar"
+msgstr ""
+
+msgid "Canadian dollar"
+msgstr "Kanada Doları"
+
+msgid "Congolese franc"
+msgstr ""
+
+msgid "Swiss franc"
+msgstr "İsviçre Frangı"
+
+msgid "Chilean peso"
+msgstr "Şili Pezosu"
+
+msgid "Chinese yuan"
+msgstr "Çin Yuanı"
+
+msgid "Colombian peso"
+msgstr "Kolombiya Pezosu"
+
+msgid "Costa Rican col&oacute;n"
+msgstr ""
+
+msgid "Cuban convertible peso"
+msgstr ""
+
+msgid "Cuban peso"
+msgstr ""
+
+msgid "Cape Verdean escudo"
+msgstr ""
+
+msgid "Czech koruna"
+msgstr "Çek Korunası"
+
+msgid "Djiboutian franc"
+msgstr ""
+
+msgid "Danish krone"
+msgstr "Danimarka Kralı"
+
+msgid "Dominican peso"
+msgstr "Dominik Pezosu"
+
+msgid "Algerian dinar"
+msgstr ""
+
+msgid "Egyptian pound"
+msgstr "Mısır Poundu"
+
+msgid "Eritrean nakfa"
+msgstr ""
+
+msgid "Ethiopian birr"
+msgstr ""
+
+msgid "Fijian dollar"
+msgstr ""
+
+msgid "Falkland Islands pound"
+msgstr ""
+
+msgid "Georgian lari"
+msgstr ""
+
+msgid "Guernsey pound"
+msgstr ""
+
+msgid "Ghana cedi"
+msgstr ""
+
+msgid "Gibraltar pound"
+msgstr ""
+
+msgid "Gambian dalasi"
+msgstr ""
+
+msgid "Guinean franc"
+msgstr ""
+
+msgid "Guatemalan quetzal"
+msgstr ""
+
+msgid "Guyanese dollar"
+msgstr ""
+
+msgid "Hong Kong dollar"
+msgstr "Hong Kong Doları"
+
+msgid "Honduran lempira"
+msgstr ""
+
+msgid "Croatian kuna"
+msgstr "Hırvat Kunası"
+
+msgid "Haitian gourde"
+msgstr ""
+
+msgid "Hungarian forint"
+msgstr "Macar Forinti"
+
+msgid "Indonesian rupiah"
+msgstr "Endonezya Rupiah"
+
+msgid "Israeli new shekel"
+msgstr ""
+
+msgid "Manx pound"
+msgstr ""
+
+msgid "Indian rupee"
+msgstr "Hint Rupisi"
+
+msgid "Iraqi dinar"
+msgstr ""
+
+msgid "Iranian rial"
+msgstr ""
+
+msgid "Iranian toman"
+msgstr ""
+
+msgid "Icelandic kr&oacute;na"
+msgstr ""
+
+msgid "Jersey pound"
+msgstr ""
+
+msgid "Jamaican dollar"
+msgstr ""
+
+msgid "Jordanian dinar"
+msgstr ""
+
+msgid "Japanese yen"
+msgstr "Japon Yeni"
+
+msgid "Kenyan shilling"
+msgstr "Kenya Şilini"
+
+msgid "Kyrgyzstani som"
+msgstr ""
+
+msgid "Cambodian riel"
+msgstr ""
+
+msgid "Comorian franc"
+msgstr ""
+
+msgid "North Korean won"
+msgstr "Kuzey Kore Wonu"
+
+msgid "South Korean won"
+msgstr "Güney Kore Wonu"
+
+msgid "Kuwaiti dinar"
+msgstr ""
+
+msgid "Cayman Islands dollar"
+msgstr ""
+
+msgid "Kazakhstani tenge"
+msgstr ""
+
+msgid "Lao kip"
+msgstr "Lao Kip"
+
+msgid "Lebanese pound"
+msgstr ""
+
+msgid "Sri Lankan rupee"
+msgstr ""
+
+msgid "Liberian dollar"
+msgstr ""
+
+msgid "Lesotho loti"
+msgstr ""
+
+msgid "Libyan dinar"
+msgstr ""
+
+msgid "Moroccan dirham"
+msgstr ""
+
+msgid "Moldovan leu"
+msgstr ""
+
+msgid "Malagasy ariary"
+msgstr ""
+
+msgid "Macedonian denar"
+msgstr ""
+
+msgid "Burmese kyat"
+msgstr ""
+
+msgid "Mongolian t&ouml;gr&ouml;g"
+msgstr ""
+
+msgid "Macanese pataca"
+msgstr ""
+
+msgid "Mauritanian ouguiya"
+msgstr ""
+
+msgid "Mauritian rupee"
+msgstr ""
+
+msgid "Maldivian rufiyaa"
+msgstr ""
+
+msgid "Malawian kwacha"
+msgstr ""
+
+msgid "Mexican peso"
+msgstr "Meksika Pezosu"
+
+msgid "Malaysian ringgit"
+msgstr "Malezya Ringgitsi"
+
+msgid "Mozambican metical"
+msgstr ""
+
+msgid "Namibian dollar"
+msgstr ""
+
+msgid "Nigerian naira"
+msgstr "Nijerya Nairasi"
+
+msgid "Nicaraguan c&oacute;rdoba"
+msgstr ""
+
+msgid "Norwegian krone"
+msgstr "Norveç Kranı"
+
+msgid "Nepalese rupee"
+msgstr ""
+
+msgid "New Zealand dollar"
+msgstr "Yeni Zelanda Doları"
+
+msgid "Omani rial"
+msgstr ""
+
+msgid "Panamanian balboa"
+msgstr ""
+
+msgid "Sol"
+msgstr ""
+
+msgid "Papua New Guinean kina"
+msgstr ""
+
+msgid "Philippine peso"
+msgstr "Filipin Pesosu"
+
+msgid "Pakistani rupee"
+msgstr "Pakistan Rupisi"
+
+msgid "Polish z&#x142;oty"
+msgstr ""
+
+msgid "Transnistrian ruble"
+msgstr ""
+
+msgid "Paraguayan guaran&iacute;"
+msgstr ""
+
+msgid "Qatari riyal"
+msgstr ""
+
+msgid "Romanian leu"
+msgstr "Rumen Leu"
+
+msgid "Serbian dinar"
+msgstr ""
+
+msgid "Russian ruble"
+msgstr "Rus Rublesi"
+
+msgid "Rwandan franc"
+msgstr ""
+
+msgid "Saudi riyal"
+msgstr "Suudi Arabistan Riyali"
+
+msgid "Solomon Islands dollar"
+msgstr ""
+
+msgid "Seychellois rupee"
+msgstr ""
+
+msgid "Sudanese pound"
+msgstr ""
+
+msgid "Swedish krona"
+msgstr "İsveç Kronu"
+
+msgid "Singapore dollar"
+msgstr "Singapur Doları"
+
+msgid "Saint Helena pound"
+msgstr ""
+
+msgid "Sierra Leonean leone"
+msgstr ""
+
+msgid "Somali shilling"
+msgstr ""
+
+msgid "Surinamese dollar"
+msgstr ""
+
+msgid "South Sudanese pound"
+msgstr ""
+
+msgid "S&atilde;o Tom&eacute; and Pr&iacute;ncipe dobra"
+msgstr ""
+
+msgid "Syrian pound"
+msgstr ""
+
+msgid "Swazi lilangeni"
+msgstr ""
+
+msgid "Thai baht"
+msgstr "Tayland Bahtısı"
+
+msgid "Tajikistani somoni"
+msgstr ""
+
+msgid "Turkmenistan manat"
+msgstr ""
+
+msgid "Tunisian dinar"
+msgstr ""
+
+msgid "Tongan pa&#x2bb;anga"
+msgstr ""
+
+msgid "Turkish lira"
+msgstr "Türk Lirası"
+
+msgid "Trinidad and Tobago dollar"
+msgstr ""
+
+msgid "New Taiwan dollar"
+msgstr ""
+
+msgid "Tanzanian shilling"
+msgstr ""
+
+msgid "Ukrainian hryvnia"
+msgstr "Ukrayna Grivnası"
+
+msgid "Ugandan shilling"
+msgstr ""
+
+msgid "Uruguayan peso"
+msgstr ""
+
+msgid "Uzbekistani som"
+msgstr ""
+
+msgid "Venezuelan bol&iacute;var"
+msgstr ""
+
+msgid "Bol&iacute;var soberano"
+msgstr ""
+
+msgid "Vietnamese &#x111;&#x1ed3;ng"
+msgstr ""
+
+msgid "Vanuatu vatu"
+msgstr ""
+
+msgid "Samoan t&#x101;l&#x101;"
+msgstr ""
+
+msgid "Central African CFA franc"
+msgstr ""
+
+msgid "East Caribbean dollar"
+msgstr ""
+
+msgid "West African CFA franc"
+msgstr ""
+
+msgid "CFP franc"
+msgstr "CFP frangı"
+
+msgid "Yemeni rial"
+msgstr "Yemen Riyali"
+
+msgid "South African rand"
+msgstr "Güney Afrika randı"
+
+msgid "Zambian kwacha"
+msgstr ""
+
+msgid "Before"
+msgstr "Önce"
+
+msgid "After"
+msgstr "Sonra"
+
+msgid "Before with space"
+msgstr "Boşluktan önce"
+
+msgid "After with space"
+msgstr "Boşluktan sonra"
+
+msgid "First name is required."
+msgstr "Ad gerekli."
+
+msgid "Last name is required."
+msgstr "Soyadı gerekli."
+
+msgid "Email is required."
+msgstr "E-posta gerekli."
+
+msgid "Phone is required."
+msgstr "Telefon gerekli."
+
+msgid "Country of residence"
+msgstr ""
+
+msgid "Country is required."
+msgstr "Ülke gerekli."
+
+msgid "Address is required."
+msgstr "Adres gerekli."
+
+msgid "City is required."
+msgstr "İlçe gerekli."
+
+msgid "State is required."
+msgstr "İl gerekli."
+
+msgid "Postcode is required."
+msgstr "Posta Kodu gerekli."
+
+msgid "Note is required."
+msgstr ""
+
+msgid "Check-in"
+msgstr "Giriş"
+
+msgid "Check-out"
+msgstr "Çıkış"
+
+#. translators: The value a hotel wishes to sell their rooms. Also called the Cost, Value, Tariff or Room charge.
+msgid "Rate"
+msgstr "Puan"
+
+msgid "Adults/Guests"
+msgstr ""
+
+msgid "Full Guest Name"
+msgstr ""
+
+msgid "Accommodation Subtotal"
+msgstr "Konaklama Toplamı"
+
+msgid "Total Accommodation Taxes"
+msgstr ""
+
+msgid "Total Fees"
+msgstr ""
+
+msgid "Services Subtotal"
+msgstr "Hizmetler Ara Toplamı"
+
+msgid "Total Service Taxes"
+msgstr ""
+
+msgid "Total Fee Taxes"
+msgstr ""
+
+msgid "Discount"
+msgstr "İndirim"
+
+msgid "Total"
+msgstr "Toplam"
+
+msgid "Paid"
+msgstr "Ödendi"
+
+msgid "Payment Details"
+msgstr "Ödeme Detayları"
+
+msgid "Square Meter"
+msgstr "metre kare"
+
+msgid "Square Foot"
+msgstr "feet kare"
+
+msgid "Square Yard"
+msgstr "yard kare"
+
+msgid "m²"
+msgstr ""
+
+msgid "ft²"
+msgstr ""
+
+msgid "yd²"
+msgstr ""
+
+msgid "User Approval Time setted in Hotel Booking Settings"
+msgstr "Otel Rezervasyon Ayarlarında belirlenen Kullanıcı Onay Süresi"
+
+msgid "Pending Payment Time set in Hotel Booking Settings"
+msgstr "Otel Rezervasyon Ayarlarında belirlenen Bekleyen Ödeme Süresi"
+
+msgid "Interval for automatic cleaning of synchronization logs."
+msgstr ""
+
+msgid "x %d guest"
+msgid_plural "x %d guests"
+msgstr[0] "x %d konuk"
+msgstr[1] "x %d konuklar"
+
+msgid "x %d time"
+msgid_plural "x %d times"
+msgstr[0] "x %d zaman"
+msgstr[1] "x %d zamanlar"
+
+msgid "Please select columns to export."
+msgstr ""
+
+msgid "Disable this email notification"
+msgstr "Bu e-postadan gelen bildirimleri kaldır"
+
+msgid "Subject"
+msgstr "Konu"
+
+msgid "Header"
+msgstr "Üst bilgi"
+
+msgid "Email Template"
+msgstr "E-posta Şablonu"
+
+msgid "\"%s\" email will not be sent: there is no customer email in the booking."
+msgstr "\"%s\" e-postası gönderilmeyecek: rezervasyonda müşteri e-postası yok."
+
+msgid "Deprecated tags in header of %s"
+msgstr ""
+
+msgid "Deprecated tags in subject of %s"
+msgstr ""
+
+msgid "Deprecated tags in template of %s"
+msgstr "%s şablonundaki kullanımdan kaldırılmış etiketler"
+
+msgid "Recipients"
+msgstr "Alıcılar"
+
+msgid "You can use multiple comma-separated emails"
+msgstr "Birden çok virgülle ayrılmış e-posta kullanabilirsiniz"
+
+msgid "\"%s\" mail was sent to admin."
+msgstr "\"%s\"  postası yöneticiye gönderildi."
+
+msgid "\"%s\" mail sending to admin is failed."
+msgstr "\"%s\" yöneticiye gönderilen e-posta başarısız oldu."
+
+msgid "Booking Cancelled"
+msgstr "Rzervasyon iptal edildi"
+
+msgid "%site_title% - Booking #%booking_id% Cancelled"
+msgstr "%site_title% - Rezervasyon #%booking_id% İptal Edildi"
+
+msgid "Email that will be sent to Admin when customer cancels booking."
+msgstr "Müşteri rezervasyon iptal ettiğinde Yönetici'ye gönderilecek e-posta."
+
+msgid "Cancelled Booking Email"
+msgstr "İptal Edilen Rezervasyon E-postası"
+
+msgid "Booking Confirmed"
+msgstr "Rezervasyon Onaylanmıştır"
+
+msgid "%site_title% - Booking #%booking_id% Confirmed"
+msgstr "%site_title% - Rezervasyonunuz #%booking_id% Onaylanmıştır"
+
+msgid "Email that will be sent to Admin when payment is completed."
+msgstr "Ödeme tamamlandığında Yönetici'ye gönderilecek e-posta."
+
+msgid "Approved Booking Email (via payment)"
+msgstr "Onaylanan Rezervasyon E-postası (ödeme yoluyla)"
+
+msgid "Email that will be sent to Admin when customer confirms booking."
+msgstr "Müşteri rezervasyonu onayladığında Yönetici'ye gönderilecek e-posta."
+
+msgid "Approved Booking Email"
+msgstr "Onaylanan Rezervasyon E-postası"
+
+msgid "Confirm new booking"
+msgstr "Yeni rezervasyonu onayla"
+
+msgid "%site_title% - New booking #%booking_id%"
+msgstr "%site_title% - Yeni Rezervasyon #%booking_id%"
+
+msgid "Email that will be sent to administrator after booking is placed."
+msgstr "Rezervasyon ayarlandığında müşteriye gönderilecek e-posta."
+
+msgid "Pending Booking Email"
+msgstr "Beklemedeki Rezevasyon E-postası"
+
+msgid "Your booking is approved"
+msgstr "Rezervasyonunuz onaylandı"
+
+msgid "%site_title% - Your booking #%booking_id% is approved"
+msgstr "%site_title% - Rezervasyonunuz  #%booking_id% onaylandı"
+
+msgid "Email that will be sent to customer when booking is approved."
+msgstr "Rezervasyon onaylandığında müşteriye gönderilecek e-posta."
+
+msgid "\"%s\" mail was sent to customer."
+msgstr "\"%s\"  posta müşteriye gönderildi."
+
+msgid "\"%s\" mail sending is failed."
+msgstr "\"%s\" posta gönderilemedi."
+
+msgid "Your booking is cancelled"
+msgstr "Rezervasyonunuz iptal edildi"
+
+msgid "%site_title% - Your booking #%booking_id% is cancelled"
+msgstr "%site_title% - Rezervasyonunuz #%booking_id% iptal edildi"
+
+msgid "Email that will be sent to customer when booking is cancelled."
+msgstr "Rezervasyon iptal edildiği sırada müşteriye gönderilecek e-posta."
+
+msgid "Confirm your booking"
+msgstr "Rezervasyonunuzu onaylayın"
+
+msgid "%site_title% - Confirm your booking #%booking_id%"
+msgstr "%site_title% - Rezervasyonunuzu onaylayın #%booking_id%"
+
+msgid "This email is sent when \"Booking Confirmation Mode\" is set to Customer confirmation via email."
+msgstr "Bu e-posta, \"Rezervasyon Onayı Modu\", e-posta yoluyla Müşteri onayı olarak ayarlandığında gönderilir."
+
+msgid "Email that will be sent to customer after booking is placed."
+msgstr "Rezervasyon ayarlandığında müşteriye gönderilecek e-posta."
+
+msgid "New Booking Email (Confirmation by User)"
+msgstr "Yeni Rezervasyon E-postası (Kullanıcı Tarafından Doğrulama)"
+
+msgid "Your booking is placed"
+msgstr "Rezervasyonunuz ayarlandı"
+
+msgid "%site_title% - Booking #%booking_id% is placed"
+msgstr "%site_title% - Rezervasyon #%booking_id% ayarlandı"
+
+msgid "This email is sent when \"Booking Confirmation Mode\" is set to Admin confirmation."
+msgstr "Bu e-posta, \"Rezervasyon Onay Modu\", Yönetici Onayı olarak ayarlandığında gönderilir."
+
+msgid "New Booking Email (Confirmation by Admin)"
+msgstr "Yeni Rezervasyon E-postası (Yönetici tarafından Onaylama)"
+
+msgid "Welcome"
+msgstr ""
+
+msgid "%site_title% - account details"
+msgstr ""
+
+msgid "Email that will be sent to a customer after they registered on your site."
+msgstr ""
+
+msgid "Customer Registration Email"
+msgstr ""
+
+msgid "Possible tags:"
+msgstr "Olası etiketler:"
+
+msgid "Deprecated."
+msgstr "Kullanımdan kaldırılan"
+
+msgid "none"
+msgstr "Hiçbiri"
+
+msgid "User Cancellation Link"
+msgstr "Kullanıcı İptal Linki"
+
+msgid "Site title (set in Settings > General)"
+msgstr "Site başlığı (Ayarlar> Genel olarak ayarlanır)"
+
+msgid "Booking ID"
+msgstr "Rezervasyon Kimliği"
+
+msgid "Booking Edit Link"
+msgstr "Rezervasyonu Düzenleme Linki"
+
+msgid "Booking Total Price"
+msgstr "Toplam Rezervasyon Ücreti"
+
+msgid "Customer First Name"
+msgstr "Müşteri Adı"
+
+msgid "Customer Last Name"
+msgstr "Müşteri Soy Adı"
+
+msgid "Customer Email"
+msgstr "Müşteri E-postası"
+
+msgid "Customer Phone"
+msgstr "Müşteri Telefonu"
+
+msgid "Customer Country"
+msgstr ""
+
+msgid "Customer Address"
+msgstr ""
+
+msgid "Customer City"
+msgstr ""
+
+msgid "Customer State/County"
+msgstr ""
+
+msgid "Customer Postcode"
+msgstr ""
+
+msgid "Reserved Accommodations Details"
+msgstr "Ayrılmış Konaklama Detayları"
+
+msgid "Booking Details"
+msgstr "Rezervasyon Detayları"
+
+msgid "Confirmation Link"
+msgstr "Onay Bağlantısı"
+
+msgid "Confirmation Link Expiration Time ( UTC )"
+msgstr "Doğrulama Linkinin Sona Erme Süresi (UTC)"
+
+msgid "Cancellation Details (if enabled)"
+msgstr "İptal Detayları (etkinse)"
+
+msgid "The total amount of payment"
+msgstr ""
+
+msgid "The unique ID of payment"
+msgstr "Benzersiz ödeme kimliği"
+
+msgid "The method of payment"
+msgstr "Ödeme yöntemi"
+
+msgid "Payment instructions"
+msgstr ""
+
+msgid "User login"
+msgstr ""
+
+msgid "User password"
+msgstr ""
+
+msgid "Link to My Account page"
+msgstr ""
+
+msgid "My Account"
+msgstr ""
+
+msgid "Accommodation Type Link"
+msgstr "Konaklama Tipi Bağlantısı"
+
+msgid "Accommodation Type Title"
+msgstr "Konaklama Tipi Başlığı"
+
+msgid "Accommodation Type Categories"
+msgstr "Konaklama Tipi Kategorileri"
+
+msgid "Accommodation Type Bed"
+msgstr "Konaklama Tipi Yatak"
+
+msgid "Accommodation Rate Title"
+msgstr "Konaklama Puanı Başlığı"
+
+msgid "Accommodation Rate Description"
+msgstr "Konaklama Puanı Açıklaması"
+
+msgid "Sequential Number of Accommodation"
+msgstr "Sıralı Konaklama Sayısı"
+
+msgid "This coupon has expired."
+msgstr "Bu kuponun süresi doldu."
+
+msgid "Sorry, this coupon is not applicable to your booking contents."
+msgstr "Üzgünüz, bu kupon rezervasyon içeriğiniz için geçerli değildir."
+
+msgid "Coupon usage limit has been reached."
+msgstr "Kupon kullanım limitine ulaşıldı."
+
+msgid " &#215; %d night"
+msgid_plural " &#215; %d nights"
+msgstr[0] " &#215; %d gece"
+msgstr[1] " &#215; %d gece"
+
+msgid "%d adult"
+msgid_plural "%d adults"
+msgstr[0] "%d Yetişkin"
+msgstr[1] "%d Yetişkin"
+
+msgid "%d guest"
+msgid_plural "%d guests"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid " &#215; %d time"
+msgid_plural " &#215; %d times"
+msgstr[0] "&#215; %d zaman"
+msgstr[1] "&#215; %d zamanlar"
+
+msgid "Per Instance"
+msgstr "Durum Başına"
+
+msgid "Maximum execution time is set to %d seconds."
+msgstr "Rezervasyon için en fazla bekleme süresi. (%d)"
+
+msgid "%d URL pulled for parsing."
+msgid_plural "%d URLs pulled for parsing."
+msgstr[0] "%d URL ayrıştırma için çekti."
+msgstr[1] "%d URL'leri ayrıştırma için çekti."
+
+msgid "Skipped. No URLs found for parsing."
+msgstr "Atlandı. Ayrıştırma için URL bulunamadı."
+
+msgid "Cannot read uploaded file"
+msgstr "Yüklenen dosya okunamıyor"
+
+msgid "We will need to check %d previous booking after importing and remove it if the booking is outdated."
+msgid_plural "We will need to check %d previous bookings after importing and remove the outdated ones."
+msgstr[0] ""
+msgstr[1] ""
+
+msgctxt "%s - calendar URI or calendar filename"
+msgid "%1$d event found in calendar %2$s"
+msgid_plural "%1$d events found in calendar %2$s"
+msgstr[0] "%1$d etkinliği %2$s takviminde bulundu"
+msgstr[1] "%1$d etkinlikleri %2$s takviminde bulundu"
+
+msgctxt "%s - calendar URI or calendar filename"
+msgid "Calendar source is empty (%s)"
+msgstr "Takvim kaynağı boş (%s)"
+
+msgctxt "%s - calendar URI or calendar filename"
+msgid "Calendar file is not empty, but there are no events in %s"
+msgstr "Takvim dosyası boş değil, %s'te etkinlik yok"
+
+msgid "Error while loading calendar (%1$s): %2$s"
+msgstr "Takvim yüklenirken hata oluştu (%1$s): %2$s"
+
+msgctxt "%s - error description"
+msgid "Parse error. %s"
+msgstr "Ayrıştırma hatası. %s"
+
+msgid "Skipped. Outdated booking #%d already removed."
+msgstr ""
+
+msgid "Skipped. Booking #%d updated with new data."
+msgstr ""
+
+msgid "The outdated booking #%d has been removed."
+msgstr ""
+
+msgid "Skipped. Event from %1$s to %2$s has passed."
+msgstr ""
+
+msgid "New booking #%1$d. The dates from %2$s to %3$s are now blocked."
+msgstr ""
+
+msgid "Success. Booking #%d updated with new data."
+msgstr ""
+
+msgid "Skipped. The dates from %1$s to %2$s are already blocked."
+msgstr ""
+
+msgid "Success. Booking #%1$d updated with new data. Removed %2$d outdated booking."
+msgid_plural "Success. Booking #%1$d updated with new data. Removed %2$d outdated bookings."
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "Success. Booking #%1$d updated with new data."
+msgstr ""
+
+msgid "Cannot import new event. Dates from %1$s to %2$s are partially blocked by booking %3$s."
+msgid_plural "Cannot import new event. Dates from %1$s to %2$s are partially blocked by bookings %3$s."
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "Booking imported with UID %1$s.<br />Summary: %2$s.<br />Description: %3$s.<br />Source: %4$s."
+msgstr "Rezervasyon UID %1$s ile içe aktarıldı.<br />Özet: %2$s.<br />Açıklama: %3$s.<br />Kaynak: %4$s."
+
+msgid "Process Information"
+msgstr "İşlem bilgisi"
+
+msgid "Total bookings: %s"
+msgstr "Toplam Rezervasyonlar: %s"
+
+msgid "Success bookings: %s"
+msgstr "Başarılı Rezervasyonlar: %s"
+
+msgid "Skipped bookings: %s"
+msgstr "Atlanan Rezervasyonlar: %s"
+
+msgid "Failed bookings: %s"
+msgstr "Başarısız Rezervasyonlar: %s"
+
+msgid "Removed bookings: %s"
+msgstr ""
+
+msgid "Expand All"
+msgstr "Hepsini genişlet."
+
+msgid "Collapse All"
+msgstr "Hepsini daralt."
+
+msgid "All done! %1$d booking was successfully added."
+msgid_plural "All done! %1$d bookings were successfully added."
+msgstr[0] "Hepsi tamam! %1$d rezervasyon başarıyla eklendi."
+msgstr[1] "Hepsi tamam! %1$d rezervasyonları başarıyla eklendi."
+
+msgid " There was %2$d failure."
+msgid_plural " There were %2$d failures."
+msgstr[0] "%2$d hatası oluştu."
+msgstr[1] "%2$d hataları oluştu."
+
+msgid "Dismiss "
+msgstr "Reddet "
+
+msgid "Your License Key is not active. Please, <a href='%s'>activate your License Key</a> to get plugin updates"
+msgstr "Lisans Anahtarınız etkin değil. Lütfen eklenti güncellemeleri almak için<a href='%s'> Lisans Anahtarınızı</a> etkinleştirin"
+
+msgid "Hotel Booking Plugin"
+msgstr "Otel Rezervasyon Eklentisi"
+
+msgid "Your database is being updated in the background."
+msgstr "Veritabanınız arka planda güncellenmektedir."
+
+msgid "Taking a while? Click here to run it now."
+msgstr "Biraz zaman alıyor Şimdi çalıştırmak için buraya tıklayın."
+
+msgid "Add \"Booking Confirmation\" shortcode to your \"Booking Confirmed\" and \"Reservation Received\" pages to show more details about booking or payment.<br/>Click \"Update Pages\" to apply all changes automatically or skip this notice and add \"Booking Confirmation\" shortcode manually.<br/><b><em>This action will replace the whole content of the pages.</em></b>"
+msgstr ""
+
+msgid "Update Pages"
+msgstr ""
+
+msgid "Skip"
+msgstr "Geçin"
+
+msgid "Direct Bank Transfer"
+msgstr ""
+
+msgid "Make your payment directly into our bank account. Please use your Booking ID as the payment reference."
+msgstr ""
+
+msgid "Beanstream/Bambora"
+msgstr ""
+
+msgid "Use the card number %1$s with CVC %2$s and a valid expiration date to test a payment."
+msgstr "Bir ödemeyi test etmek için %1$s kart numarasını CVC %2$s ve geçerli bir son kullanma tarihi ile kullanın."
+
+msgid "Pay by Card (Beanstream)"
+msgstr ""
+
+msgid "Pay with your credit card via Beanstream."
+msgstr ""
+
+msgid "%1$s is enabled, but the <a href=\"%2$s\">Force Secure Checkout</a> option is disabled. Please enable SSL and ensure your server has a valid SSL certificate. Otherwise, %1$s will only work in Test Mode."
+msgstr ""
+
+msgid "The <a href=\"%2$s\">Force Secure Checkout</a> option is disabled. Please enable SSL and ensure your server has a valid SSL certificate. Otherwise, %1$s will only work in Test Mode."
+msgstr "Stripe etkinleştirildi, Ancak <a href=\"%2$s\"> Güvenli Ödeme Yap </a> seçeneği devre dışıdır. Lütfen SSL'yi etkinleştirin ve sunucunuzun geçerli bir SSL sertifikasına sahip olduğundan emin olun. Aksi takdirde, %1$s yalnızca Test Modunda çalışır."
+
+msgid "Beanstream"
+msgstr ""
+
+msgid "Merchant ID"
+msgstr "Tüccar ID"
+
+msgid "Your Merchant ID can be found in the top-right corner of the screen after logging in to the Beanstream Back Office"
+msgstr ""
+
+msgid "Payments Passcode"
+msgstr "Ödemeler Şifresi"
+
+msgid "To generate the passcode, navigate to Administration > Account Settings > Order Settings in the sidebar, then scroll to Payment Gateway > Security/Authentication"
+msgstr "Şifreyi oluşturmak için, navigate to Administration > Account Settings > Order Settings in the sidebar, then scroll to Payment Gateway > Security/Authentication"
+
+msgid "Beanstream Payment Error: %s"
+msgstr ""
+
+msgid "Payment single use token is required."
+msgstr "Tek kullanımlık ödeme belirteci gereklidir."
+
+msgid "Braintree"
+msgstr ""
+
+msgid "Webhooks Destination URL: %s"
+msgstr ""
+
+msgid "Pay by Card (Braintree)"
+msgstr ""
+
+msgid "Pay with your credit card via Braintree."
+msgstr ""
+
+msgid "Braintree gateway cannot be enabled due to some problems: %s"
+msgstr ""
+
+msgid "In your Braintree account select Account > My User > View Authorizations."
+msgstr ""
+
+msgid "Public Key"
+msgstr "Genel anahtar"
+
+msgid "Private Key"
+msgstr ""
+
+msgid "Merchant Account ID"
+msgstr ""
+
+msgid "In case the site currency differs from default currency in your Braintree account, you can set specific merchant account to avoid <a href=\"%s\">complications with currencty conversions</a>. Otherwise leave the field empty."
+msgstr ""
+
+msgid "Braintree submitted for settlement (Transaction ID: %s)"
+msgstr ""
+
+msgid "Braintree Payment Error: %s"
+msgstr ""
+
+msgid "Payment method nonce is required."
+msgstr ""
+
+msgid "Payment dispute opened"
+msgstr ""
+
+msgid "Payment dispute lost"
+msgstr "Ödeme anlaşmazlığı kaybedildi"
+
+msgid "Payment dispute won"
+msgstr "Ödeme anlaşmazlığı kazandı"
+
+msgid "Payment refunded in Braintree"
+msgstr ""
+
+msgid "Braintree transaction voided"
+msgstr ""
+
+msgid "Pay on Arrival"
+msgstr "Varışta Ödeme"
+
+msgid "Pay with cash on arrival."
+msgstr "Otele varışta nakit ödeme yapın."
+
+msgid "%s is a required field."
+msgstr "%s gerekli bir alandır."
+
+msgid "%s is not a valid email address."
+msgstr "%s geçerli bir e-posta adresi değil."
+
+#. translators: %s is the payment gateway title.
+msgid "Enable \"%s\""
+msgstr "Aktifleştir \"%s\""
+
+msgid "Test Mode"
+msgstr "Test Modu"
+
+msgid "Enable Sandbox Mode"
+msgstr "Sandbox modu etkinleştir"
+
+msgid "Sandbox can be used to test payments."
+msgstr "Sandbox, ödemeleri test etmek için kullanılabilir."
+
+msgid "Payment method title that the customer will see on your website."
+msgstr "Müşterinin web sitenizde göreceği ödeme yöntemi başlığı."
+
+msgid "Payment method description that the customer will see on your website."
+msgstr "Müşterinin web sitenizde göreceği ödeme yöntemi açıklaması."
+
+msgid "Instructions"
+msgstr ""
+
+msgid "Instructions for a customer on how to complete the payment."
+msgstr ""
+
+msgid "Reservation #%d"
+msgstr ""
+
+msgid "Accommodation(s) reservation"
+msgstr "Konaklama rezervasyonu(ları)"
+
+msgid "Manual Payment"
+msgstr "Manuel Ödeme"
+
+msgid "PayPal"
+msgstr ""
+
+msgid "Pay via PayPal"
+msgstr "PayPal ile ödeme yapın"
+
+msgid "Paypal Business Email"
+msgstr "Paypal Ticari E-posta"
+
+msgid "Disable IPN Verification"
+msgstr "IPN Doğrulamayı Devre Dışı Bırak"
+
+msgid "Specify an IPN listener for a specific payment instead of the listeners specified in your PayPal Profile."
+msgstr "PayPal Profilinizde belirtilen dinleyiciler yerine belirli bir ödeme için bir IPN dinleyicisi belirleyin."
+
+msgid "Payment %s via IPN."
+msgstr "IPN üzerinden ödeme %s."
+
+msgid "Payment failed due to invalid PayPal business email."
+msgstr "Geçersiz PayPal işletme e-postası nedeniyle ödeme başarısız oldu."
+
+msgid "Payment failed due to invalid currency in PayPal IPN."
+msgstr "PayPal IPN'de geçersiz para birimi nedeniyle ödeme başarısız oldu."
+
+msgid "Payment failed due to invalid amount in PayPal IPN."
+msgstr "PayPal IPN'deki geçersiz miktar nedeniyle ödeme yapılamadı."
+
+msgid "Payment failed due to invalid purchase key in PayPal IPN."
+msgstr "PayPal IPN'de geçersiz satın alma anahtarı nedeniyle ödeme başarısız oldu."
+
+msgid "Payment made via eCheck and will clear automatically in 5-8 days."
+msgstr "Ödeme eCheck üzerinden yapılır ve 5-8 gün içinde otomatik olarak silinir."
+
+msgid "Payment requires a confirmed customer address and must be accepted manually through PayPal."
+msgstr "Ödeme, teyit edilmiş bir müşteri adresine ihtiyaç duyar ve PayPal aracılığıyla manuel olarak kabul edilmesi gerekir."
+
+msgid "Payment must be accepted manually through PayPal due to international account regulations."
+msgstr "Ödeme, uluslararası hesap düzenlemelerinden dolayı PayPal aracılığıyla manuel olarak kabul edilmelidir."
+
+msgid "Payment received in non-shop currency and must be accepted manually through PayPal."
+msgstr "Ödeme, alışverişe uygun olmayan para birimi cinsinden alındı ve PayPal aracılığıyla manuel olarak kabul edilmesi gerekir."
+
+msgid "Payment is being reviewed by PayPal staff as high-risk or in possible violation of government regulations."
+msgstr "Ödeme, yüksek riskli veya hükümet düzenlemelerinin olası ihlaline karşın PayPal personeli tarafından gözden geçiriliyor."
+
+msgid "Payment was sent to unconfirmed or non-registered email address."
+msgstr "Ödeme, teyit edilmemiş veya kayıtlı olmayan bir e-posta adresine gönderildi."
+
+msgid "PayPal account must be upgraded before this payment can be accepted."
+msgstr "Bu ödeme kabul edilmeden önce PayPal hesabı yükseltilmelidir."
+
+msgid "PayPal account is not verified. Verify account in order to accept this payment."
+msgstr "PayPal hesabı doğrulanmadı. Bu ödemeyi kabul etmek için hesabı doğrulayın."
+
+msgid "Payment is pending for unknown reasons. Contact PayPal support for assistance."
+msgstr "Ödeme, bilinmeyen nedenlerle beklemede. Yardım için PayPal desteğiyle iletişime geçin."
+
+msgid "Partial PayPal refund processed: %s"
+msgstr "Kısmi PayPal geri ödeme işlendi: %s"
+
+msgid "PayPal Payment #%s Refunded for reason: %s"
+msgstr "PayPal Ödeme #%s Nedeniyle iadesi: %s"
+
+msgid "PayPal Refund Transaction ID: %s"
+msgstr "PayPal Geri Ödeme İşlem Kimliği: %s"
+
+msgid "Stripe"
+msgstr ""
+
+msgid "Use the card number %1$s with CVC %2$s, a valid expiration date and random 5-digit ZIP-code to test a payment."
+msgstr ""
+
+msgid "Pay by Card (Stripe)"
+msgstr "Kartla Öde (Stripe)"
+
+msgid "Pay with your credit card via Stripe."
+msgstr "Stripe yoluyla kredi kartınızla ödeme yapın."
+
+msgid "Bancontact"
+msgstr ""
+
+msgid "iDEAL"
+msgstr ""
+
+msgid "Giropay"
+msgstr ""
+
+msgid "SEPA Direct Debit"
+msgstr ""
+
+msgid "SOFORT"
+msgstr ""
+
+msgid "Euro is the only acceptable currency for the selected payment methods. Change your currency to Euro in General settings."
+msgstr ""
+
+msgid "Secret Key"
+msgstr "Gizli Anahtar"
+
+msgid "Webhook Secret"
+msgstr ""
+
+msgid "Payment Methods"
+msgstr ""
+
+msgid "Card Payments"
+msgstr ""
+
+msgid "Checkout Locale"
+msgstr "Ödeme yapılan ülke"
+
+msgid "Display Checkout in the user's preferred language, if available."
+msgstr "Ödeme'yi mevcutsa, kullanıcının tercih ettiği dilde gösterin."
+
+msgid "The payment method is not selected."
+msgstr ""
+
+msgid "Payment intent ID is not set."
+msgstr ""
+
+msgid "Source ID is not set."
+msgstr ""
+
+#. translators: %s - Stripe PaymentIntent ID
+msgid "Payment for PaymentIntent %s succeeded."
+msgstr ""
+
+#. translators: %s - Stripe PaymentIntent ID
+msgid "Payment for PaymentIntent %s is processing."
+msgstr ""
+
+msgid "Failed to process Card payment. %s"
+msgstr ""
+
+#. translators: %s - Stripe Source ID
+msgid "Payment source %s is waiting for customer confirmation."
+msgstr ""
+
+#. translators: %s - Stripe Source ID
+msgid "Pending source %s received, but the redirect URL is empty."
+msgstr ""
+
+#. translators: %s - Stripe Source ID
+msgid "Payment source %s was cancelled by customer."
+msgstr ""
+
+#. translators: %s - Stripe Source ID
+msgid "Payment source %s failed and couldn't be processed."
+msgstr ""
+
+#. translators: %1$s - Stripe Source ID; %2$s - Stripe Source status
+msgid "Failed to process payment source %1$s: unsupported status - \"%2$s\"."
+msgstr ""
+
+msgid "Failed to process Source payment. %s"
+msgstr ""
+
+msgid "Can't charge the payment again: payment's flow already completed."
+msgstr ""
+
+#. translators: %s - Stripe Charge ID
+msgid "Charge %s succeeded."
+msgstr ""
+
+#. translators: %1$s - Stripe Charge ID; %2$s - payment price
+msgid "Charge %1$s for %2$s created."
+msgstr ""
+
+#. translators: %s - Stripe Charge ID
+msgid "Charge %s failed."
+msgstr ""
+
+msgid "Charge error. %s"
+msgstr ""
+
+msgid "Argentinean"
+msgstr ""
+
+msgid "Simplified Chinese"
+msgstr "Basitleştirilmiş Çince"
+
+msgid "Danish"
+msgstr "Danimarkaca"
+
+msgid "Dutch"
+msgstr "Flemenkçe"
+
+msgid "English"
+msgstr "İngilizce"
+
+msgid "Finnish"
+msgstr "Fince"
+
+msgid "French"
+msgstr "Fransızca"
+
+msgid "German"
+msgstr "Almanca"
+
+msgid "Italian"
+msgstr "İtalyanca"
+
+msgid "Japanese"
+msgstr "Japonca"
+
+msgid "Norwegian"
+msgstr "Norveççe"
+
+msgid "Polish"
+msgstr ""
+
+msgid "Russian"
+msgstr ""
+
+msgid "Spanish"
+msgstr "İspanyolca"
+
+msgid "Swedish"
+msgstr "İsveççe"
+
+msgid "Card"
+msgstr ""
+
+msgid "Credit or debit card"
+msgstr ""
+
+msgid "IBAN"
+msgstr ""
+
+msgid "Select iDEAL Bank"
+msgstr ""
+
+msgid "You will be redirected to a secure page to complete the payment."
+msgstr ""
+
+msgid "By providing your IBAN and confirming this payment, you are authorizing this merchant and Stripe, our payment service provider, to send instructions to your bank to debit your account and your bank to debit your account in accordance with those instructions. You are entitled to a refund from your bank under the terms and conditions of your agreement with your bank. A refund must be claimed within 8 weeks starting from the date on which your account was debited."
+msgstr ""
+
+#. translators: %s - event type, like "source.chargeable"
+msgid "Webhook \"%s\" skipped: payment's flow already completed."
+msgstr ""
+
+#. translators: %s - Stripe Source ID
+msgid "Webhook received. The source %s is chargeable."
+msgstr ""
+
+#. translators: %s - Stripe Source ID
+msgid "Webhook received. Payment source %s was cancelled by customer."
+msgstr ""
+
+#. translators: %s - Stripe Source ID
+msgid "Webhook received. Payment source %s failed and couldn't be processed."
+msgstr ""
+
+#. translators: %s - Stripe Charge ID
+msgid "Webhook received. Charge %s succeeded."
+msgstr ""
+
+#. translators: %s - Stripe Charge ID
+msgid "Webhook received. Charge %s failed."
+msgstr ""
+
+msgid "Test Payment"
+msgstr "Test Ödemesi"
+
+msgid "2Checkout"
+msgstr ""
+
+msgid "To setup the callback process for 2Checkout to automatically mark payments completed, you will need to"
+msgstr "2Checkout' ta Tamamlanan ödemeleri otomatik olarak işaretlemek amacıyla geri arama işlemini kurmak için, ihtiyacınız olacak"
+
+msgid "Login to your 2Checkout account and click the Notifications tab"
+msgstr "2Checkout hesabınıza giriş yapın ve Bildirimler sekmesini tıklayın"
+
+msgid "Click Enable All Notifications"
+msgstr "Tüm Bildirimleri Etkinleştir'i tıklayın"
+
+msgid "In the Global URL field, enter the url %s"
+msgstr "Evrensel URL alanına url %s girin"
+
+msgid "Click Apply"
+msgstr "Uygula' ya tıklayın"
+
+msgid "Account Number"
+msgstr "Hesap Numarası"
+
+msgid "Secret Word"
+msgstr "Gizli Kelime"
+
+msgid "2Checkout \"Order Created\" notification received."
+msgstr "2Checkout \"Sipariş Oluşturma\" bildirimi alındı."
+
+msgid "Payment refunded in 2Checkout"
+msgstr "2Checkout ile ödeme iade edildi"
+
+msgid "2Checkout fraud review passed"
+msgstr "\"2Checkout\" dolandırıcılık incelemesi geçti"
+
+msgid "2Checkout fraud review failed"
+msgstr "\"2Checkout\" sahtekarlık incelemesi başarısız oldu"
+
+msgid "2Checkout fraud review in progress"
+msgstr "\"2Checkout\" sahtekarlık incelemesi devam ediyor"
+
+msgid "Attribute"
+msgstr "Özellik"
+
+msgctxt "Add New Attribute"
+msgid "Add New"
+msgstr "Yeni Ekle"
+
+msgid "Add New Attribute"
+msgstr "Yeni Özellik Ekle"
+
+msgid "Edit Attribute"
+msgstr "Özellik Düzenle"
+
+msgid "New Attribute"
+msgstr "Yeni Özellik"
+
+msgid "View Attribute"
+msgstr "Özellik gör"
+
+msgid "Search Attribute"
+msgstr "Özellik Ara"
+
+msgid "No Attributes found"
+msgstr "Özellik bulunamadı"
+
+msgid "No Attributes found in Trash"
+msgstr "Çöp Kutusu'nda Özellik bulunamadı"
+
+msgid "Insert into attribute description"
+msgstr "Özellik açıklamasına ekle"
+
+#. translators: %s: attribute name
+msgid "Search %s"
+msgstr "Ara %s"
+
+#. translators: %s: attribute name
+msgid "All %s"
+msgstr "Tüm %s"
+
+#. translators: %s: attribute name
+msgid "Edit %s"
+msgstr "Düzenle %s"
+
+#. translators: %s: attribute name
+msgid "Update %s"
+msgstr "Güncelle %s"
+
+#. translators: %s: attribute name
+msgid "Add new %s"
+msgstr "Yeni %s ekle"
+
+#. translators: %s: attribute name
+msgid "New %s"
+msgstr "Yeni %s"
+
+#. translators: %s: attribute name
+msgid "No &quot;%s&quot; found"
+msgstr "&quot;%s&quot; bulunamadı"
+
+msgid "Name (numeric)"
+msgstr "Ad (nümerik)"
+
+msgid "Term ID"
+msgstr "Terim ID"
+
+msgid "Enable Archives"
+msgstr "Arşivleri Etkinleştir"
+
+msgid "Link the attribute to an archive page with all accommodation types that have this attribute."
+msgstr "Özelliği, bu özelliğe sahip tüm konaklama türleriyle bir arşiv sayfasına bağlayın."
+
+msgid "Visible in Details"
+msgstr "Detaylarda görünür"
+
+msgid "Display the attribute in details section of an accommodation type."
+msgstr "Özelliği konaklama tipinin ayrıntılar bölümünde gösterin."
+
+msgid "Default Sort Order"
+msgstr "Varsayılan Sıralama"
+
+msgid "Default Text"
+msgstr ""
+
+msgid "Select"
+msgstr "Seç"
+
+msgid "Edit Dates"
+msgstr ""
+
+msgid "Note"
+msgstr ""
+
+msgctxt "Add New Booking"
+msgid "Add New Booking"
+msgstr "Yeni Rezervasyon Ekle"
+
+msgid "View Booking"
+msgstr "Rezervasyonu Görüntüle"
+
+msgid "Search Booking"
+msgstr "Rezervasyon Ara"
+
+msgid "No bookings found"
+msgstr "Hiçbir rezervasyon bulunamadı"
+
+msgid "No bookings found in Trash"
+msgstr "Çöp Kutusunda hiçbir rezervasyon bulunamadı"
+
+msgid "All Bookings"
+msgstr "Tüm Rezervasyonlar"
+
+msgid "Insert into booking description"
+msgstr "Rezervasyon açıklamalarına ekle"
+
+msgid "Uploaded to this booking"
+msgstr "Bu rezervasyona yüklendi"
+
+msgctxt "Booking status"
+msgid "Pending User Confirmation"
+msgstr "Kullanıcı Onayı Bekleniyor"
+
+msgid "Pending User Confirmation <span class=\"count\">(%s)</span>"
+msgid_plural "Pending User Confirmation <span class=\"count\">(%s)</span>"
+msgstr[0] "Kullanıcı onayı bekleniyor <span class=\"count\">(%s)</span>"
+msgstr[1] "Kullanıcı onayı bekleniyor <span class=\"count\">(%s)</span>"
+
+msgctxt "Booking status"
+msgid "Pending Payment"
+msgstr "Ödeme bekleniyor"
+
+msgid "Pending Payment <span class=\"count\">(%s)</span>"
+msgid_plural "Pending Payment <span class=\"count\">(%s)</span>"
+msgstr[0] "Ödeme bekleniyor <span class=\"count\">(%s)</span>"
+msgstr[1] "Ödeme bekleniyor <span class=\"count\">(%s)</span>"
+
+msgctxt "Booking status"
+msgid "Pending Admin"
+msgstr "Yöneticiyi beklemede"
+
+msgid "Pending Admin <span class=\"count\">(%s)</span>"
+msgid_plural "Pending Admin <span class=\"count\">(%s)</span>"
+msgstr[0] "Yöneticiyi beklemede <span class=\"count\">(%s)</span>"
+msgstr[1] "Yöneticiyi beklemede <span class=\"count\">(%s)</span>"
+
+msgctxt "Booking status"
+msgid "Abandoned"
+msgstr "Terk edildi"
+
+msgid "Abandoned <span class=\"count\">(%s)</span>"
+msgid_plural "Abandoned <span class=\"count\">(%s)</span>"
+msgstr[0] "Terk edildi <span class=\"count\">(%s)</span>"
+msgstr[1] "Terk edildi <span class=\"count\">(%s)</span>"
+
+msgid "Confirmed <span class=\"count\">(%s)</span>"
+msgid_plural "Confirmed <span class=\"count\">(%s)</span>"
+msgstr[0] "Onaylandı <span class=\"count\">(%s)</span>"
+msgstr[1] "Onaylandı <span class=\"count\">(%s)</span>"
+
+msgctxt "Booking status"
+msgid "Cancelled"
+msgstr "İptal edildi"
+
+msgid "Cancelled <span class=\"count\">(%s)</span>"
+msgid_plural "Cancelled <span class=\"count\">(%s)</span>"
+msgstr[0] "İptal <span class=\"count\">(%s)</span>"
+msgstr[1] "İptal <span class=\"count\">(%s)</span>"
+
+msgid "Status changed from %s to %s."
+msgstr "Durum %s'dan %s olarak değişmiştir."
+
+msgid "Coupon Information"
+msgstr "Kupon Bilgisi"
+
+msgid "Fixed per accommodation per stay"
+msgstr "Konaklama başına sabit"
+
+msgid "Fixed per accommodation per day"
+msgstr "Günlük konaklama başına sabit"
+
+msgid "Coupon Amount"
+msgstr "Kupon Miktarı"
+
+msgid "Enter percent or fixed amount according to selected type."
+msgstr ""
+
+msgid "Expiration Date"
+msgstr "Son kullanma tarihi"
+
+msgid "Check-in After"
+msgstr "Sonra Giriş Yapın"
+
+msgid "Check-out Before"
+msgstr "Önce Çıkış Yapın"
+
+msgid "Minimum Days"
+msgstr "En az gün"
+
+msgid "Maximum Days"
+msgstr "En fazla gün"
+
+msgid "Usage Limit"
+msgstr ""
+
+msgid "Usage Count"
+msgstr ""
+
+msgid "Coupons"
+msgstr ""
+
+msgctxt "Add New Coupon"
+msgid "Add New"
+msgstr "Yeni Ekle"
+
+msgid "Add New Coupon"
+msgstr ""
+
+msgid "Edit Coupon"
+msgstr "Kuponu Düzenle"
+
+msgid "New Coupon"
+msgstr "Yeni Kupon"
+
+msgid "View Coupon"
+msgstr "Kuponu Gör"
+
+msgid "Search Coupon"
+msgstr "Kupon Ara"
+
+msgid "No coupons found"
+msgstr "Kupon bulunamadı"
+
+msgid "No coupons found in Trash"
+msgstr "Çöp kutusunda kupon bulunamadı"
+
+msgid "All Coupons"
+msgstr "Tüm Kuponlar"
+
+msgid "Payment History"
+msgstr "Ödeme Geçmişi"
+
+msgid "Payment"
+msgstr "Ödeme"
+
+msgctxt "Add New Payment"
+msgid "Add New"
+msgstr "Yeni Ekle"
+
+msgid "Add New Payment"
+msgstr "Yeni Ödeme Ekle"
+
+msgid "Edit Payment"
+msgstr "Ödemeyi Düzenle"
+
+msgid "New Payment"
+msgstr "Yeni Ödeme"
+
+msgid "View Payment"
+msgstr "Ödemeyi Görüntüle"
+
+msgid "Search Payment"
+msgstr "Ödemeyi Ara"
+
+msgid "No payments found"
+msgstr "Hiç bir ödeme bulunamadı"
+
+msgid "No payments found in Trash"
+msgstr "Çöp Kutusunda hiçbir ödeme bulunamadı"
+
+msgid "Payments"
+msgstr "Ödemeler"
+
+msgid "Insert into payment description"
+msgstr "Ödeme açıklamalarına ekle"
+
+msgid "Uploaded to this payment"
+msgstr "Bu ödemeye yüklendi"
+
+msgid "Payments."
+msgstr "Ödemeler."
+
+msgid "Gateway Mode"
+msgstr "Ağ Geçidi Modu"
+
+msgid "Sandbox"
+msgstr ""
+
+msgid "Live"
+msgstr "Canlı"
+
+msgid "Fee"
+msgstr "Ücret"
+
+msgid "Payment Type"
+msgstr "Ödeme Türü"
+
+msgid "Billing Info"
+msgstr "Fatura bilgisi"
+
+msgid "Address 1"
+msgstr "Adres 1"
+
+msgid "Address 2"
+msgstr "Adres 2"
+
+msgid "Postal Code (ZIP)"
+msgstr "Posta Kodu"
+
+msgctxt "Payment status"
+msgid "Pending"
+msgstr "Beklemede"
+
+msgid "Pending <span class=\"count\">(%s)</span>"
+msgid_plural "Pending <span class=\"count\">(%s)</span>"
+msgstr[0] "Beklemede <span class=\"count\">(%s)</span>"
+msgstr[1] "Beklemede <span class=\"count\">(%s)</span>"
+
+msgctxt "Payment status"
+msgid "Completed"
+msgstr "Tamamlandı"
+
+msgid "Completed <span class=\"count\">(%s)</span>"
+msgid_plural "Completed <span class=\"count\">(%s)</span>"
+msgstr[0] "Tamamlandı <span class=\"count\">(%s)</span>"
+msgstr[1] "Tamamlandı <span class=\"count\">(%s)</span>"
+
+msgctxt "Payment status"
+msgid "Failed"
+msgstr "Başarısız"
+
+msgid "Failed <span class=\"count\">(%s)</span>"
+msgid_plural "Failed <span class=\"count\">(%s)</span>"
+msgstr[0] "Başarısız <span class=\"count\">(%s)</span>"
+msgstr[1] "Başarısız <span class=\"count\">(%s)</span>"
+
+msgctxt "Payment status"
+msgid "Abandoned"
+msgstr "Terkedilmiş"
+
+msgctxt "Payment status"
+msgid "On Hold"
+msgstr "Beklemede"
+
+msgid "On Hold <span class=\"count\">(%s)</span>"
+msgid_plural "On Hold <span class=\"count\">(%s)</span>"
+msgstr[0] "Beklemede <span class=\"count\">(%s)</span>"
+msgstr[1] "Beklemede <span class=\"count\">(%s)</span>"
+
+msgctxt "Payment status"
+msgid "Refunded"
+msgstr "Geri Ödendi"
+
+msgid "Refunded <span class=\"count\">(%s)</span>"
+msgid_plural "Refunded <span class=\"count\">(%s)</span>"
+msgstr[0] "Geri Ödendi <span class=\"count\">(%s)</span>"
+msgstr[1] "Geri Ödendi <span class=\"count\">(%s)</span>"
+
+msgctxt "Payment status"
+msgid "Cancelled"
+msgstr "İptal edildi"
+
+msgid "Payment (#%s) for this booking is on hold"
+msgstr "Bu Rezervasyon için olan Ödeme (#%s) beklemede"
+
+msgid "Rate Info"
+msgstr "Puan Bilgisi"
+
+msgid "Season"
+msgstr "Sezon"
+
+msgid "Move price to top to set higher priority."
+msgstr "Daha yüksek önceliği ayarlamak için fiyatı en üste getirin."
+
+msgid "Add New Season Price"
+msgstr "Yeni Sezon Fıyatını Ekle"
+
+msgid "Will be displayed on the checkout page."
+msgstr "Ödeme Sayfasında görüntülenecek."
+
+#. translators: The value a hotel wishes to sell their rooms. Also called the Cost, Value, Tariff or Room charge.
+msgid "Rates"
+msgstr "Puan"
+
+msgctxt "Add New Rate"
+msgid "Add New"
+msgstr "Yeni Ekle"
+
+msgid "Add New Rate"
+msgstr "Yeni Puan Ekle"
+
+msgid "Edit Rate"
+msgstr "Puan Düzenle"
+
+msgid "New Rate"
+msgstr "Yeni Puan"
+
+msgid "View Rate"
+msgstr "Puan Görüntüle"
+
+msgid "Search Rate"
+msgstr "Puan Ara"
+
+msgid "No rates found"
+msgstr "Oran bulunamadı"
+
+msgid "No rates found in Trash"
+msgstr "Çöp kutusunda oran bulunamadı."
+
+msgid "Insert into rate description"
+msgstr "Yeni oran yükle"
+
+msgid "Uploaded to this rate"
+msgstr ""
+
+msgid "This is where you can add new rates."
+msgstr "Burası yeni oranlar ekleyebileceğiniz yerdir."
+
+msgid "Reserved Accommodation"
+msgstr "Rezerve Edilmiş Konaklama"
+
+msgctxt "Add New Accommodation"
+msgid "Add New"
+msgstr "Yeni Ekle"
+
+msgid "Add New Accommodation"
+msgstr "Yeni Konaklama Ekle"
+
+msgid "Edit Accommodation"
+msgstr "Konaklamayı Düzenle"
+
+msgid "New Accommodation"
+msgstr "Yeni Konaklama"
+
+msgid "View Accommodation"
+msgstr "Konaklama Görüntüle"
+
+msgid "Search Accommodation"
+msgstr "Konaklama Ara"
+
+msgid "No accommodations found"
+msgstr "Hiçbir konaklama bulunamadı"
+
+msgid "No accommodations found in Trash"
+msgstr "Çöp Kutusunda hiçbir Konaklama türü bulunamadı"
+
+msgid "Insert into accommodation description"
+msgstr "Konaklama türü açıklamalarına ekle"
+
+msgid "Uploaded to this accommodation"
+msgstr "Bu konaklama türüne yüklendi"
+
+msgid "This is where you can add new accommodations to your hotel."
+msgstr "Burası, otelinize yeni konaklama ekleyebileceğiniz yerdir."
+
+msgctxt "Add New Accommodation Type"
+msgid "Add Accommodation Type"
+msgstr "Konaklama Türünü Ekle"
+
+msgid "Add New Accommodation Type"
+msgstr "Yeni Konaklama Türünü Ekle"
+
+msgid "Edit Accommodation Type"
+msgstr "Konaklama Türünü Düzenle"
+
+msgid "New Accommodation Type"
+msgstr "Yeni Konaklama Türü"
+
+msgid "View Accommodation Type"
+msgstr "Konaklama Türünü Görüntüle"
+
+msgid "Search Accommodation Type"
+msgstr "Konaklama Türü Ara"
+
+msgid "No Accommodation types found"
+msgstr "Hiçbir Konaklama türü bulunamadı"
+
+msgid "No Accommodation types found in Trash"
+msgstr "Çöp Kutusunda hiçbir Konaklama türü bulunamadı"
+
+msgid "Insert into accommodation type description"
+msgstr "Konaklama türü açıklamalarına ekle"
+
+msgid "Uploaded to this accommodation type"
+msgstr "Bu konaklama türüne yüklendi"
+
+#. translators: do not translate
+msgctxt "slug"
+msgid "accommodation"
+msgstr "accommodation"
+
+msgid "Accommodation Categories"
+msgstr "Konaklama Kategorileri"
+
+msgid "Accommodation Category"
+msgstr "Konaklama Kategorisi"
+
+msgid "Search Accommodation Categories"
+msgstr "Konaklama Kategorisi Ara"
+
+msgid "Popular Accommodation Categories"
+msgstr "Popüler Konaklama Kategorisi"
+
+msgid "All Accommodation Categories"
+msgstr "Tüm Konaklama Kategorileri"
+
+msgid "Parent Accommodation Category"
+msgstr "Uygun Konaklama Kategorisi"
+
+msgid "Parent Accommodation Category:"
+msgstr "Uygun Konaklama Kategorisi:"
+
+msgid "Edit Accommodation Category"
+msgstr "Konaklama Kategorisini Güncelle"
+
+msgid "Update Accommodation Category"
+msgstr "Konaklama Kategorisini Güncelle"
+
+msgid "Add New Accommodation Category"
+msgstr "Yeni Konaklama Kategori İsmi Ekle"
+
+msgid "New Accommodation Category Name"
+msgstr "Yeni Konaklama Kategori İsmi"
+
+msgid "Separate categories with commas"
+msgstr "Kategorileri virgül ile ayırın"
+
+msgid "Add or remove categories"
+msgstr "Kategori ekle veya çıkarın"
+
+msgid "Choose from the most used categories"
+msgstr "En çok kullanılan kategoriler seçin"
+
+msgid "No categories found."
+msgstr "Hiç bir kategori bulunmadı."
+
+msgid "Categories"
+msgstr "Kategoriler"
+
+#. translators: do not translate
+msgctxt "slug"
+msgid "accommodation-category"
+msgstr "accommodation-category"
+
+msgid "Accommodation Tags"
+msgstr "Konaklama Etiketleri"
+
+msgid "Accommodation Tag"
+msgstr "Konaklama Etiketi"
+
+msgid "Search Accommodation Tags"
+msgstr "Konaklama Etiketlerini Ara"
+
+msgid "Popular Accommodation Tags"
+msgstr "Popüler Konaklama Etiketleri"
+
+msgid "All Accommodation Tags"
+msgstr "Tüm Konaklama Etiketleri"
+
+msgid "Parent Accommodation Tag"
+msgstr "Ebeveyn Konaklama Etiketi"
+
+msgid "Parent Accommodation Tag:"
+msgstr "Ana Konaklama Etiketi"
+
+msgid "Edit Accommodation Tag"
+msgstr "Konaklama Etiketi Düzenle"
+
+msgid "Update Accommodation Tag"
+msgstr "Konaklama Etiketi Güncelle"
+
+msgid "Add New Accommodation Tag"
+msgstr "Yeni Konaklama Etiketi Ekle"
+
+msgid "New Accommodation Tag Name"
+msgstr "Yeni Konaklama Etiketi Adı"
+
+msgid "Separate tags with commas"
+msgstr "Virgül ile ayrı etiketler"
+
+msgid "Add or remove tags"
+msgstr "Etiket ekle-çıkar"
+
+msgid "Choose from the most used tags"
+msgstr "En çok kullanılan etiketlerden birini seçin"
+
+msgid "No tags found."
+msgstr "Etiket bulunamadı."
+
+msgid "Tags"
+msgstr "Etiketler"
+
+#. translators: do not translate
+msgctxt "slug"
+msgid "accommodation-tag"
+msgstr "accommodation-tag"
+
+msgid "Amenities"
+msgstr "Kolaylıklar"
+
+msgid "Amenity"
+msgstr "Kolaylık"
+
+msgid "Search Amenities"
+msgstr "Tesisleri Ara"
+
+msgid "Popular Amenities"
+msgstr "Popüler Tesisler"
+
+msgid "All Amenities"
+msgstr ""
+
+msgid "Parent Amenity"
+msgstr ""
+
+msgid "Parent Amenity:"
+msgstr ""
+
+msgid "Edit Amenity"
+msgstr ""
+
+msgid "Update Amenity"
+msgstr ""
+
+msgid "Add New Amenity"
+msgstr ""
+
+msgid "New Amenity Name"
+msgstr ""
+
+msgid "Separate amenities with commas"
+msgstr "Tesisleri virgül ile ayırın"
+
+msgid "Add or remove amenities"
+msgstr "Tesis ekle veya çıkarın"
+
+msgid "Choose from the most used amenities"
+msgstr "En çok kullanılan tesislerden seçin"
+
+msgid "No amenities found."
+msgstr "Hiç bir tesis bulunmadı."
+
+#. translators: do not translate
+msgctxt "slug"
+msgid "accommodation-facility"
+msgstr "accommodation-facility"
+
+msgid "State the age or disable children in <a href=\"%s\">settings</a>."
+msgstr ""
+
+msgid "Leave this option empty to calculate total capacity automatically to meet the exact number of adults AND children set above. This is the default behavior. Configure this option to allow any variations of adults OR children set above at checkout so that in total it meets the limit of manually set \"Capacity\". For example, configuration \"adults:5\", \"children:4\", \"capacity:5\" means the property can accommodate up to 5 adults, up to 4 children, but up to 5 guests in total (not 9)."
+msgstr ""
+
+msgid "Size, %s"
+msgstr "Boyut, %s"
+
+msgid "Leave blank to hide."
+msgstr ""
+
+msgid "Other"
+msgstr "Diğerleri"
+
+msgid "City view, seaside, swimming pool etc."
+msgstr "Şehir manzarası, deniz kenarı, yüzme havuzu vb."
+
+msgid "Bed type"
+msgstr "Yatak Tipi"
+
+msgid "Set bed types list in <a href=\"%link%\" target=\"_blank\">settings</a>."
+msgstr "Yatak tiplerini <a href=\"%link%\" target=\"_blank\"> ayarlar </a> bölümünde ayarla."
+
+msgid "Photo Gallery"
+msgstr "Fotoğraf Galerisi"
+
+msgid "Available Services"
+msgstr "Kullanılabilir Hizmetler"
+
+msgid "Season Info"
+msgstr "Sezon bilgisi"
+
+msgid "Start date"
+msgstr "Başlayış tarihi"
+
+msgid "End date"
+msgstr "Bitiş tarihi"
+
+msgid "Applied for days"
+msgstr "Günler için uygulanır"
+
+msgid "Hold Ctrl / Cmd to select multiple."
+msgstr "Çoklu seçmek için Ctrl/Cmd  basınız."
+
+msgctxt "Add New Season"
+msgid "Add New"
+msgstr "Yeni Ekle"
+
+msgid "Add New Season"
+msgstr "Yeni Sezon Ekle"
+
+msgid "Edit Season"
+msgstr "Sezon Düzenle"
+
+msgid "New Season"
+msgstr "Yeni Sezon"
+
+msgid "View Season"
+msgstr "Sezon Görüntüle"
+
+msgid "Search Season"
+msgstr "Sezon Ara"
+
+msgid "No seasons found"
+msgstr "Hiçbir sezon bulunamadı"
+
+msgid "No seasons found in Trash"
+msgstr "Çöp Kutusunda hiçbir sezon bulunamadı"
+
+msgid "Insert into season description"
+msgstr "Sezon açıklamalarına ekle"
+
+msgid "Uploaded to this season"
+msgstr "Bu sezona yüklendi"
+
+msgid "This is where you can add new seasons."
+msgstr "Burası, otelinize yeni sezonlar ekleyebileceğiniz yerdir."
+
+msgid "Service"
+msgstr "Hizmet"
+
+msgctxt "Add New Service"
+msgid "Add New"
+msgstr "Yeni Ekle"
+
+msgid "Add New Service"
+msgstr "Yeni Hizmet Ekle"
+
+msgid "Edit Service"
+msgstr "Hizmeti Düzenle"
+
+msgid "New Service"
+msgstr "Yeni Hizmet"
+
+msgid "View Service"
+msgstr "Hizmet Görüntüle"
+
+msgid "Search Service"
+msgstr "Hizmet ara"
+
+msgid "No services found"
+msgstr "Hiç bir hizmet bulunamadı"
+
+msgid "No services found in Trash"
+msgstr "Çöp Kutusunda hiçbir hizmet bulunamadı"
+
+msgid "Insert into service description"
+msgstr "Hizmet açıklamalarına ekle"
+
+msgid "Uploaded to this service"
+msgstr "Bu servise yüklendi"
+
+#. translators: do not translate
+msgctxt "slug"
+msgid "services"
+msgstr "services"
+
+msgid "How many times the customer will be charged."
+msgstr "Kaç kez müşteri ücretlendirilecek."
+
+msgid "Minimum"
+msgstr ""
+
+msgid "Maximum"
+msgstr "Maksimum"
+
+msgid "Empty means unlimited"
+msgstr "Boş sınırsız demektir"
+
+msgctxt "Booking status"
+msgid "Pending"
+msgstr ""
+
+msgid "Total Sales"
+msgstr ""
+
+msgid "Total Without Taxes"
+msgstr ""
+
+msgid "Total Services"
+msgstr ""
+
+msgid "Total Discounts"
+msgstr ""
+
+msgid "Total Bookings"
+msgstr ""
+
+msgid "Revenue (Beta)"
+msgstr ""
+
+msgid "Apply"
+msgstr "Uygula"
+
+msgid "From %s to %s"
+msgstr ""
+
+msgid "Today"
+msgstr ""
+
+msgid "Yesterday"
+msgstr ""
+
+msgid "This week"
+msgstr ""
+
+msgid "Last week"
+msgstr ""
+
+msgid "Last 30 days"
+msgstr ""
+
+msgid "This month"
+msgstr ""
+
+msgid "Last month"
+msgstr ""
+
+msgid "This quarter"
+msgstr ""
+
+msgid "Last quarter"
+msgstr ""
+
+msgid "This year"
+msgstr ""
+
+msgid "Last year"
+msgstr ""
+
+#. translators: %s - original Rate title
+msgid "%s - copy"
+msgstr "%s - kopyala"
+
+msgid "Accommodation Type Gallery"
+msgstr "Konaklama Türü Galerisi"
+
+msgid "Add Gallery To Accommodation Type"
+msgstr "Konaklama Tipine Galeri Ekle"
+
+msgid "Display imported bookings."
+msgstr ""
+
+msgid "Processing..."
+msgstr ""
+
+msgid "Cancelling..."
+msgstr ""
+
+msgid "Want to delete?"
+msgstr ""
+
+msgid "Not available"
+msgstr "Müsait değil"
+
+msgid "This is earlier than allowed by our advance reservation rules."
+msgstr ""
+
+msgid "This is later than allowed by our advance reservation rules."
+msgstr ""
+
+msgid "Day in the past"
+msgstr "Geçen gün"
+
+msgid "Check-in date"
+msgstr "Giriş Tarihi"
+
+msgid "Less than min days stay"
+msgstr ""
+
+msgid "More than max days stay"
+msgstr ""
+
+msgid "Later than max date for current check-in date"
+msgstr "Geçerli check-in tarihinin maksimum tarihten sonra"
+
+msgid "Rules:"
+msgstr "Kurallar:"
+
+msgid "Tokenisation failed: %s"
+msgstr "Tokenizasyon başarısız oldu. %s"
+
+msgid "%1$d &times; &ldquo;%2$s&rdquo; has been added to your reservation."
+msgid_plural "%1$d &times; &ldquo;%2$s&rdquo; have been added to your reservation."
+msgstr[0] "%1$d &times; &ldquo;%2$s&rdquo; Rezervasyonunuza eklendi."
+msgstr[1] "%1$d &times; &ldquo;%2$s&rdquo; Rezervasyonunuza eklendi."
+
+msgid "%s accommodation selected."
+msgid_plural "%s accommodations selected."
+msgstr[0] "%s konaklama seçildi."
+msgstr[1] "%s konaklamalar seçildi."
+
+msgid "Coupon code is empty."
+msgstr "Kupon kodu boş."
+
+msgid "Dark Blue"
+msgstr ""
+
+msgid "Dark Green"
+msgstr ""
+
+msgid "Dark Red"
+msgstr ""
+
+msgid "Grayscale"
+msgstr "Gri tonlama"
+
+msgid "Light Blue"
+msgstr ""
+
+msgid "Light Coral"
+msgstr ""
+
+msgid "Light Green"
+msgstr ""
+
+msgid "Light Yellow"
+msgstr ""
+
+msgid "Minimal Blue"
+msgstr ""
+
+msgid "Minimal Orange"
+msgstr ""
+
+msgid "Minimal"
+msgstr ""
+
+msgid "Sky Blue"
+msgstr ""
+
+msgid "Slate Blue"
+msgstr ""
+
+msgid "Turquoise"
+msgstr "Turkuaz"
+
+msgid "Invalid login or password."
+msgstr ""
+
+msgid "Account data updated."
+msgstr ""
+
+msgid "Password changed."
+msgstr ""
+
+msgid "Dashboard"
+msgstr ""
+
+msgid "Account"
+msgstr ""
+
+msgid "Logout"
+msgstr ""
+
+msgid "Passwords do not match."
+msgstr ""
+
+msgid "Please, provide a valid current password."
+msgstr ""
+
+msgid "Lost your password?"
+msgstr ""
+
+msgid "Payment:"
+msgstr "Ödeme:"
+
+msgid "Payment Method:"
+msgstr ""
+
+msgid "Status:"
+msgstr "Durum:"
+
+msgid "Checkout data is not valid."
+msgstr "Ödeme verileri geçerli değil."
+
+msgid "Payment method is not valid."
+msgstr ""
+
+msgid "Accommodation count is not valid."
+msgstr ""
+
+msgid "Accommodation is already booked."
+msgstr "Konaklama rezerv edildi."
+
+msgid "Reservation submitted"
+msgstr "Rezervasyon teslim edildi"
+
+msgid "Details of your reservation have just been sent to you in a confirmation email. Please check your inbox to complete booking."
+msgstr "Rezervasyonunuzun ayrıntıları size bir onay e-postasıyla gönderildi. Lütfen rezervasyonunuzu tamamlamak için gelen kutunuzu kontrol edin."
+
+msgid "We received your booking request. Once it is confirmed we will notify you via email."
+msgstr "Rezervasyon isteğinizi aldık. Onaylandığında size e-posta yoluyla haber vereceğiz."
+
+msgid "Choose dates to see relevant prices"
+msgstr "İlgili fiyatları görmek için tarih seçiniz"
+
+msgid "Select from available accommodations."
+msgstr ""
+
+msgid "Confirm Reservation"
+msgstr ""
+
+msgid "Recommended for %d adult"
+msgid_plural "Recommended for %d adults"
+msgstr[0] "%d yetişkin için önerilir"
+msgstr[1] "%d yetişkinler için önerilir"
+
+msgid " and %d child"
+msgid_plural " and %d children"
+msgstr[0] "ve %d çocuk"
+msgstr[1] "ve %d çocuklar"
+
+msgid "Recommended for %d guest"
+msgid_plural "Recommended for %d guests"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "Max occupancy:"
+msgstr "Maksimum Müsaitlik:"
+
+msgid "%d child"
+msgid_plural "%d children"
+msgstr[0] "%d çocuk"
+msgstr[1] "%d çocuklar"
+
+msgid "Reserve"
+msgstr "Rezerv edin"
+
+msgid "of %d accommodation available."
+msgid_plural "of %d accommodations available."
+msgstr[0] "%d konaklama mevcut."
+msgstr[1] "%d konaklamalar mevcut."
+
+#. translators: Verb. To book an accommodation.
+msgid "Book"
+msgstr "Rezerve Edin"
+
+msgid "Please, provide a valid email."
+msgstr ""
+
+msgid "Could not create a customer."
+msgstr ""
+
+msgid "Could not retrieve a customer."
+msgstr ""
+
+msgid "Please, provide a valid Customer ID."
+msgstr ""
+
+msgid "A database error."
+msgstr ""
+
+msgid "No customer was deleted."
+msgstr ""
+
+msgid "An account with this email already exists. Please, log in."
+msgstr ""
+
+msgid "Hotel Manager"
+msgstr ""
+
+msgid "Hotel Worker"
+msgstr ""
+
+msgid "Hotel Customer"
+msgstr ""
+
+msgid "Please provide a valid email address."
+msgstr ""
+
+msgid "Please enter a valid account username."
+msgstr ""
+
+msgid "An account is already registered with that username. Please choose another."
+msgstr ""
+
+msgid "Please enter an account password."
+msgstr ""
+
+msgid "Sunday"
+msgstr "Pazar"
+
+msgid "Monday"
+msgstr "Pazartesi"
+
+msgid "Tuesday"
+msgstr "Salı"
+
+msgid "Wednesday"
+msgstr "Çarşamba"
+
+msgid "Thursday"
+msgstr "Perşembe"
+
+msgid "Friday"
+msgstr "Cuma"
+
+msgid "Saturday"
+msgstr "Cumartesi"
+
+msgid "Check-out date cannot be earlier than check-in date."
+msgstr ""
+
+msgid "Adults number is not valid"
+msgstr "Yetişkin sayısı geçerli değil"
+
+msgid "Children number is not valid"
+msgstr "Çocuk sayısı geçerli değil"
+
+msgctxt "Text about taxes and fees below the price."
+msgid " (+taxes and fees)"
+msgstr ""
+
+#. translators: %s is a tax value
+msgctxt "Text about taxes and fees below the price."
+msgid " (+%s taxes and fees)"
+msgstr ""
+
+msgctxt "Text about taxes and fees below the price."
+msgid " (includes taxes and fees)"
+msgstr ""
+
+msgctxt "Accommodation type in price breakdown table. Example: #1 Double Room"
+msgid "#%d %s"
+msgstr ""
+
+msgid "Expand"
+msgstr "Genişlet"
+
+msgid "Rate: %s"
+msgstr "Puan: %s"
+
+msgid "Dates"
+msgstr "Tarih"
+
+msgid "Dates Subtotal"
+msgstr "Alt toplam tarihleri."
+
+msgid "Accommodation Taxes Subtotal"
+msgstr "Konaklama Vergileri"
+
+msgid "Details"
+msgstr "Detaylar"
+
+msgid "Service Taxes Subtotal"
+msgstr "Hizmet Vergileri"
+
+msgid "Fees Subtotal"
+msgstr "Toplam Ücretler"
+
+msgid "Fee Taxes Subtotal"
+msgstr "Alt Vergiler"
+
+msgid "Subtotal"
+msgstr "Ara Toplam"
+
+msgid "Coupon: %s"
+msgstr "Kupon: %s"
+
+msgid "Subtotal (excl. taxes)"
+msgstr ""
+
+msgid "Taxes"
+msgstr ""
+
+msgid "Coupon Code:"
+msgstr "Kupon Kodu:"
+
+msgid "New Booking Details"
+msgstr ""
+
+msgid "Original Booking Details"
+msgstr ""
+
+msgid "Accommodation:"
+msgstr "Konaklama:"
+
+msgid "Children %s"
+msgstr "Çocuk %s"
+
+msgid "Additional Services"
+msgstr "Ek hizmetler"
+
+msgid "Accommodation pagination"
+msgstr "Konaklamaları sayfalandırma"
+
+msgid "Services pagination"
+msgstr "Hizmetler sayfalandırma"
+
+msgid "Categories:"
+msgstr "Kategoriler:"
+
+msgid "Amenities:"
+msgstr "Kolaylıklar:"
+
+msgid "Guests:"
+msgstr "Misafirler:"
+
+msgid "Bed Type:"
+msgstr "Yatak Tipi:"
+
+msgid "View:"
+msgstr "Görüntüle:"
+
+msgid "Prices start at:"
+msgstr "Ücretten itibaren:"
+
+msgid "Price:"
+msgstr "Fiyat:"
+
+msgid "x %d adult"
+msgid_plural "x %d adults"
+msgstr[0] "x %d yetişkin"
+msgstr[1] "x %d yetişkin"
+
+msgid "Returning customer?"
+msgstr ""
+
+msgid "Click here to log in"
+msgstr ""
+
+#. translators: 1 - username;
+msgid "Hello %1$s (not %1$s? <a href=\"%2$s\">Log out</a>)."
+msgstr ""
+
+msgid "Accommodation #%d"
+msgstr "Konaklama #%d"
+
+msgid "Accommodation Type:"
+msgstr "Konaklama Tipi:"
+
+msgid "Choose Rate"
+msgstr "Puan Seç"
+
+msgid "Choose Additional Services"
+msgstr "Ek hizmetler seçiniz"
+
+msgid "for "
+msgstr "için "
+
+msgctxt "Example: Breakfast for X guest(s)"
+msgid " guest(s)"
+msgstr ""
+
+msgid "time(s)"
+msgstr "zaman(lar)"
+
+msgctxt "I've read and accept the terms & conditions"
+msgid "terms & conditions"
+msgstr "şartlar ve koşullar"
+
+msgctxt "I've read and accept the <tag>terms & conditions</tag>"
+msgid "I've read and accept the %s"
+msgstr "%s okudum ve kabul ediyorum."
+
+msgid "Your Information"
+msgstr ""
+
+msgid "Required fields are followed by %s"
+msgstr "Gerekli alanlar aşağıdakiler tarafından takip edilir %s"
+
+msgid "Create an account"
+msgstr ""
+
+msgid "Payment Method"
+msgstr ""
+
+msgid "Sorry, it seems that there are no available payment methods."
+msgstr "Maalesef, ödeme yöntemi mevcut  değil gibi görünüyor."
+
+msgid "Total Price:"
+msgstr "Toplam Fiyat:"
+
+msgid "Deposit:"
+msgstr "Depozit:"
+
+msgid "Check-in:"
+msgstr "Giriş:"
+
+msgctxt "from 10:00 am"
+msgid "from"
+msgstr "itibaren"
+
+msgid "Check-out:"
+msgstr "Çıkış:"
+
+msgctxt "until 10:00 am"
+msgid "until"
+msgstr "'a kadar"
+
+msgid "Book Now"
+msgstr "Şimdi Rezerv Edin"
+
+msgid "Availability"
+msgstr "Müsaitlik"
+
+msgid "Reservation Form"
+msgstr "Rezervasyon Formu"
+
+msgid "Display Accommodation Types"
+msgstr "Konaklama Türlerini Görüntüle"
+
+msgid "Featured Image"
+msgstr "Öne Çıkan Görsel"
+
+msgid "Excerpt (short description)"
+msgstr "Alıntıyı Göster (kısa açıklama)"
+
+msgid "Book Button"
+msgstr "Rezervasyon Butonu"
+
+msgid "Search Availability"
+msgstr "Müsaitliği Ara"
+
+msgid "Search Availability Form"
+msgstr "Müsaitliği Arama Formu"
+
+msgid "Title:"
+msgstr "Başlık:"
+
+msgid "Check-in Date:"
+msgstr "Giriş Tarihi:"
+
+msgctxt "Date format tip"
+msgid "Preset date. Formatted as %s"
+msgstr "Önceden ayarlanmış tarih. %s olarak biçimlendirildi"
+
+msgid "Check-out Date:"
+msgstr "Çıkış Tarihi:"
+
+msgid "Preset Adults:"
+msgstr "Yetişkinler için hazır ayar:"
+
+msgid "Preset Children:"
+msgstr "Çocuklar için hazır ayar:"
+
+msgid "Attributes:"
+msgstr "Özellikler:"
+
+msgid "Booking Confirmation and Search Results pages are required to handle bookings. Press \"Install Pages\" button to create and set up these pages. Dismiss this notice if you already installed them."
+msgstr "Rezervasyon işlemlerini gerçekleştirmek için Ödeme ve Arama Sonuçları sayfaları gerekir. Bu sayfaları oluşturmak ve kurmak için \"Sayfaları Kur\" düğmesine basın. Zaten bunları yüklediyseniz bu uyarıyı reddet."
+
+msgid "Install Pages"
+msgstr "Sayfaları Yükleyin"
+
+msgid "Booking Canceled"
+msgstr "Rezervasyon İptal Edildi"
+
+msgid "Your reservation is canceled."
+msgstr "Rezervasyonunuz iptal edildi."
+
+msgid "Reservation Received"
+msgstr ""
+
+msgid "Transaction Failed"
+msgstr "İşlem Başarısız"
+
+msgid "Unfortunately, your transaction cannot be completed at this time. Please try again or contact us."
+msgstr "Maalesef, işleminiz şu anda tamamlanamıyor. Lütfen tekrar deneyin veya bizimle iletişime geçin."
+
+msgid "Prices start at: %s"
+msgstr "Başlangıç Fiyatı: %s"
+
+msgid "View Details"
+msgstr "Detayları Görüntüleyin"
+
+msgctxt "Date format tip"
+msgid "Formatted as %s"
+msgstr "%s olarak biçimlendirildi"
+
+msgid "Check Availability"
+msgstr "Müsaitliği kontrol et"
+
+msgid "Reserve %1$s of %2$s available accommodations."
+msgstr "%1$s / %2$s müsait konaklama yeri ayırtın."
+
+msgid "%s is available for selected dates."
+msgstr "%s seçilen tarihler için uygun."
+
+msgid "Rate:"
+msgstr "Oran:"
+
+msgid "Services:"
+msgstr "Servisler:"
+
+msgid "Guest:"
+msgstr "Misafirler:"
+
+msgid "Payment ID"
+msgstr "Ödeme Kimliği"
+
+msgid "Total Paid"
+msgstr "Toplam Ödenen"
+
+msgid "To Pay"
+msgstr "Ödemek"
+
+msgid "Add Payment Manually"
+msgstr "Manuel Olarak Ödeme Ekle"
+
+msgid "Change Password"
+msgstr ""
+
+msgid "Old Password"
+msgstr ""
+
+msgid "New Password"
+msgstr ""
+
+msgid "Confirm New Password"
+msgstr ""
+
+msgid "You are not allowed to access this page."
+msgstr ""
+
+msgid "No bookings found."
+msgstr "Hiçbir rezervasyon bulunamadı."
+
+msgid "From your account dashboard you can view <a href=\"%1$s\">your recent bookings</a> or edit your <a href=\"%2$s\">password and account details</a>."
+msgstr ""
+
+msgid "Base price"
+msgstr "Taban fiyat"
+
+msgid "%s accommodation found"
+msgid_plural "%s accommodations found"
+msgstr[0] "%s konaklama bulundu"
+msgstr[1] "%s konaklama bulundu"
+
+msgid " from %s - till %s"
+msgstr " %s'dan %s 'a kadar"
+
+msgid "Add Accommodation"
+msgstr ""
+
+msgid "Save"
+msgstr "Kaydet"
+
+msgid "Choose new dates to check availability of reserved accommodations in the original booking."
+msgstr ""
+
+msgid "Add, remove or replace accommodations in the original booking."
+msgstr ""
+
+msgid "Not Available"
+msgstr ""
+
+msgid "Continue"
+msgstr ""
+
+msgid "Choose how to associate data"
+msgstr ""
+
+msgid "Use Source Accommodation to assign pre-filled booking information available in the original booking, e.g., full guest name, selected rate, services, etc."
+msgstr ""
+
+msgid "Source accommodation"
+msgstr ""
+
+msgid "Target accommodation"
+msgstr "Konaklama hedefi"
+
+msgid "Booking #%s is cancelled by customer."
+msgstr "Rezervasyon #%s müşteri tarafından iptal edildi."
+
+msgid "Details of booking"
+msgstr "Rezervasyon Detayları"
+
+msgid "Check-in: %1$s, from %2$s"
+msgstr "Check-in: %1$s, %2$s 'ye kadar"
+
+msgid "Check-out: %1$s, until %2$s"
+msgstr "Check-out: %1$s, %2$s 'ye kadar"
+
+msgid "Name: %1$s %2$s"
+msgstr "İsim: %1$s %2$s"
+
+msgid "Email: %s"
+msgstr "E-posta: %s"
+
+msgid "Phone: %s"
+msgstr "Telefon Numarası: %s"
+
+msgid "Note: %s"
+msgstr "Not:  %s"
+
+msgid "Booking #%s is confirmed by customer."
+msgstr "Rezervasyon #%s müşteri tarafından onaylandı."
+
+msgid "Booking #%s is confirmed by payment."
+msgstr "#%s rezervasyonu ödeme ile teyit edilir."
+
+msgid "Details of payment"
+msgstr "Ödeme detayları"
+
+msgid "Payment ID: #%s"
+msgstr "Ödeme Kimliği: #%s"
+
+msgid "Amount: %s"
+msgstr "Miktar : %s"
+
+msgid "Method: %s"
+msgstr "Yöntem: %s"
+
+msgid "Booking #%s is pending for Administrator approval."
+msgstr "#%s Rezervasyonu, Yöneticinin onaylamasını bekliyor."
+
+msgid "Click the link below to cancel your booking."
+msgstr "Rezervasyonunuzu iptal etmek için aşağıdaki bağlantıyı tıklayın."
+
+msgid "Cancel your booking"
+msgstr "Rezervasyonunuzu iptal edin"
+
+msgid "Dear %1$s %2$s, your reservation is approved!"
+msgstr "Sayın %1$s %2$s, Rezervasyonunuz onaylandı!"
+
+msgid "ID: #%s"
+msgstr "Kimlik numarası: #%s"
+
+msgid "Thank you!"
+msgstr "Teşekkürler!"
+
+msgid "Dear %1$s %2$s, your reservation is cancelled!"
+msgstr "Sayın %1$s %2$s, Rezervasyonunuz iptal edildi!"
+
+msgid "Dear %1$s %2$s, we received your request for reservation."
+msgstr "Sayın %1$s %2$s, rezervasyon talebinizi aldık."
+
+msgid "Click the link below to confirm your booking."
+msgstr "Rezervasyonunuzu onaylamak için aşağıdaki bağlantıyı tıklayın."
+
+msgid "Confirm"
+msgstr "Onayla"
+
+msgid "Note: link expires on"
+msgstr "Not: bağlantı sona eriyor"
+
+msgid "UTC"
+msgstr ""
+
+msgid "If you did not place this booking, please ignore this email."
+msgstr "Bu rezervasyonu düzenlemediyseniz, lütfen bu e-postayı yoksayın."
+
+msgid "Dear %1$s %2$s, your reservation is pending."
+msgstr "Sayın %1$s %2$s, Rezervasyonunuz bekliyor."
+
+msgid "We will notify you by email once it is confirmed by our staff."
+msgstr "Çalışanlarımız tarafından onaylandıktan sonra sizi e-postayla bilgilendireceğiz."
+
+msgid "Hi %1$s %2$s,"
+msgstr ""
+
+msgid "Thanks for creating an account on %1$s."
+msgstr ""
+
+msgid "You Account Details"
+msgstr ""
+
+msgid "Login: %s"
+msgstr ""
+
+msgid "Password: %s"
+msgstr ""
+
+msgid "Log in here: %s"
+msgstr ""
+
+msgid "Accommodation #%s"
+msgstr "Konaklama #%s"
+
+msgid "Accommodation: <a href=\"%1$s\">%2$s</a>"
+msgstr "Konaklama: <a href=\"%1$s\">%2$s</a>"
+
+msgid "Accommodation Rate: %s"
+msgstr "Konaklama Puanı: %s"
+
+msgid "Bed Type: %s"
+msgstr "Yatak Tipi: %s"
+
+msgid "Required fields are followed by"
+msgstr "Gerekli alanlar aşağıdakiler tarafından takip edilir"
+
+msgid "Booking is already canceled."
+msgstr ""
+
+msgid "Cancel Booking"
+msgstr ""
+
+msgid "Invalid request."
+msgstr "Geçersiz istek."
+
+msgid "Cancelation of your booking is not possible for some reason. Please contact the website administrator."
+msgstr ""
+
+msgid "Booking is already confirmed."
+msgstr "Rezervasyon zaten onaylandı."
+
+msgid "Your booking is confirmed. Thank You!"
+msgstr "Rezervasyonunuz onaylandı. Teşekkür ederiz!"
+
+msgid "Your booking request is expired. Please start a new booking request."
+msgstr "Rezervasyon isteğinizin süresi doldu. Lütfen yeni bir rezervasyon talebi başlatın."
+
+msgid "Confirmation of your booking request is not possible for some reason. Please start a new booking request."
+msgstr "Rezervasyon isteğinizin doğrulanması bazı nedenlerle mümkün değildir. Lütfen yeni bir rezervasyon talebi başlatın."
+
+msgid "We are pleased to inform you that your reservation request has been received and confirmed."
+msgstr "Rezervasyon talebinizin alındığını ve teyit edildiğini size bildirmekten mutluluk duyuyoruz."
+
+msgid "Booking:"
+msgstr "Rezervasyon:"
+
+msgid "Details:"
+msgstr "Detaylar:"
+
+msgid "Thank you for your payment. Your transaction has been completed."
+msgstr ""
+
+msgid "We are pleased to inform you that your reservation request has been received."
+msgstr ""
+
+msgid "from %s"
+msgstr "%s 'dan"
+
+msgid "No accommodations matching criteria."
+msgstr "Aranılan kriterlere uygun konaklama yoktur."
+
+msgid "No services matched criteria."
+msgstr "Hiçbir hizmet ölçütleriyle eşleşmedi."
+
+msgid "Nothing found."
+msgstr "Hiçbirşey Bulunamadı."
+
+msgid "Children %s:"
+msgstr "Çocuk %s:"
+
+msgid "Preset date. Formatted as %s"
+msgstr "Ön ayar tarihi. %s şeklinde"
+
+msgid "Gallery"
+msgstr "Galeri"
+
+msgid "View Button"
+msgstr "Önizleme Butonu"
+
+msgid "Order"
+msgstr "Sıralama"
+
+msgid "Order By"
+msgstr "Sıralama Türü"
+
+msgid "No order"
+msgstr "Sıralama Yok"
+
+msgid "Post ID"
+msgstr "İçerik ID"
+
+msgid "Post author"
+msgstr "İçerik Yazarı"
+
+msgid "Post title"
+msgstr "İçerik Başlığı"
+
+msgid "Post name (post slug)"
+msgstr "İçerik Adı (İçerik URL)"
+
+msgid "Post date"
+msgstr "İçerik tarihi"
+
+msgid "Last modified date"
+msgstr "Son düzenlenme tarihi"
+
+msgid "Parent ID"
+msgstr "Ana ID"
+
+msgid "Random order"
+msgstr "Rasgele sırala"
+
+msgid "Number of comments"
+msgstr "Yorum Sayısı"
+
+msgid "Relevance"
+msgstr "Uygunluk"
+
+msgid "Page order"
+msgstr "Sayfa Sıralaması"
+
+msgid "Meta value"
+msgstr "Meta Değeri"
+
+msgid "Numeric meta value"
+msgstr "Nümerik Meta değeri"
+
+msgid "Ascending (1, 2, 3)"
+msgstr ""
+
+msgid "Descending (3, 2, 1)"
+msgstr ""
+
+msgid "Meta Name"
+msgstr ""
+
+msgid "Meta Type"
+msgstr ""
+
+msgid "Specified type of the custom field. Can be used in conjunction with \"orderby\" = \"meta_value\"."
+msgstr "Özel alanın belirtilen türü. \"orderby\" = \"meta_value\" ile kullanılabilir."
+
+msgid "Any"
+msgstr "Herhangi"
+
+msgid "Numeric"
+msgstr "Nümerik"
+
+msgid "Binary"
+msgstr ""
+
+msgid "String"
+msgstr ""
+
+msgid "Time"
+msgstr "Zaman"
+
+msgid "Date and time"
+msgstr "Tarih ve Saat"
+
+msgid "Decimal number"
+msgstr "Ondalık Sayı"
+
+msgid "Signed number"
+msgstr "Onaylı Numara"
+
+msgid "Unsigned number"
+msgstr "Onaysız Numara"
+
+msgid "Query Settings"
+msgstr "Sorgu Ayarları"
+
+msgid "Relation"
+msgstr "İlişki"
+
+msgid "Values: integer, -1 to display all, default: \"Blog pages show at most\""
+msgstr ""
+

@@ -1,0 +1,90 @@
+/* ----------------------------------------
+    Team Members
+---------------------------------------- */
+
+    .milenia-team-member {
+        text-align: center;
+    }
+
+    .milenia-team-member-photo {
+        display: block;
+        overflow: hidden;
+    }
+
+    .milenia-team-member-photo img {
+        width: 100%;
+    }
+
+    .milenia-team-member-photo:not(:last-child) {
+        margin-bottom: 1.4rem;
+    }
+
+    .milenia-team-member .milenia-social-icons {
+        font-size: 1.1rem;
+        margin-top: -0.2rem;
+        margin-left: -0.2rem;
+        margin-right: -0.2rem;
+    }
+
+    .milenia-team-member .milenia-social-icons > li {
+        padding-top: 0.2rem;
+        padding-left: 0.2rem;
+        padding-right: 0.2rem;
+    }
+
+    .milenia-team-member-name {
+        font-size: 1.5rem;
+        line-height: 1.875rem;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: 0;
+        text-transform: none;
+    }
+
+    .milenia-team-member-name:not(:last-child) {
+        margin-bottom: 0.75rem;
+    }
+
+    .milenia-team-member-position:not(:last-child) {
+        margin-bottom: 1rem;
+    }
+
+    [class*="milenia-body--scheme-"] .milenia-team-member-name a:not(.milenia-ln--independent):not(.milenia-btn) {
+        color: #1c1c1c;
+        background-image: -webkit-gradient(linear, left top, left bottom, color-stop(100%, #1c1c1c), to(#1c1c1c));
+        background-image: linear-gradient(to bottom, #1c1c1c 100%, #1c1c1c 100%);
+    }
+
+    .milenia-team-member-position {
+        display: inline-block;
+        font-size: 0.875rem;
+        line-height: 1.09375rem;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: 4.2px;
+        text-transform: uppercase;
+    }
+
+    .milenia-csstransforms3d .milenia-team-member-photo {
+        display: block;
+        overflow: hidden;
+    }
+
+    .milenia-csstransforms3d .milenia-team-member-photo img {
+        -webkit-transition: -webkit-transform .5s cubic-bezier(0.165, 0.84, 0.44, 1);
+                transition:         transform .5s cubic-bezier(0.165, 0.84, 0.44, 1);
+    }
+
+    .milenia-csstransforms3d .milenia-team-member:hover .milenia-team-member-photo img {
+        -webkit-transform: scale3d(1.05, 1.05, 1.05);
+                transform: scale3d(1.05, 1.05, 1.05);
+    }
+
+    .milenia-entity--team-member-single .milenia-entity-content:not(:last-child),
+    .milenia-entity--team-member-single .milenia-social-icons:not(:last-child) {
+        margin-bottom: 1.6rem;
+    }
+
+    .rwmb-color-wrapper .wp-picker-holder {
+        z-index: 120 !important;
+    }

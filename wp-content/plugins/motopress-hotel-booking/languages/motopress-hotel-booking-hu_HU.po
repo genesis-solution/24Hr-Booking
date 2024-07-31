@@ -1,0 +1,6101 @@
+# Copyright (C) 2022 MotoPress
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: hotel-booking-plugin\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/motopress-hotel-booking\n"
+"Last-Translator: \n"
+"Language-Team: Hungarian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2022-11-15T19:41:55+00:00\n"
+"PO-Revision-Date: 2022-11-15 20:26\n"
+"X-Generator: WP-CLI 2.6.0\n"
+"X-Domain: motopress-hotel-booking\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: hotel-booking-plugin\n"
+"X-Crowdin-Project-ID: 463550\n"
+"X-Crowdin-Language: hu\n"
+"X-Crowdin-File: motopress-hotel-booking.pot\n"
+"X-Crowdin-File-ID: 44\n"
+"Language: hu_HU\n"
+
+#. Plugin Name of the plugin
+#. translators: Name of the plugin, do not translate
+msgid "Hotel Booking"
+msgstr "Hotel Booking"
+
+#. Plugin URI of the plugin
+msgid "https://motopress.com/products/hotel-booking/"
+msgstr ""
+
+#. Description of the plugin
+msgid "Manage your hotel booking services. Perfect for hotels, villas, guest houses, hostels, and apartments of all sizes."
+msgstr "Kezelje a szállásfoglalási szolgáltatásait."
+
+#. Author of the plugin
+msgid "MotoPress"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://motopress.com/"
+msgstr ""
+
+msgctxt "Post Status"
+msgid "New"
+msgstr "Új"
+
+msgctxt "Post Status"
+msgid "Auto Draft"
+msgstr "Auto-tervezet"
+
+msgctxt "Zero price"
+msgid "Free"
+msgstr "Ingyenes"
+
+#. translators: Price per one night. Example: $99 per night
+msgctxt "Price per one night. Example: $99 per night"
+msgid "per night"
+msgstr "egy éjszaka"
+
+#. translators: Price for X nights. Example: $99 for 2 nights, $99 for 21 nights
+msgctxt "Price for X nights. Example: $99 for 2 nights, $99 for 21 nights"
+msgid "for %d nights"
+msgid_plural "for %d nights"
+msgstr[0] "egy éjszaka"
+msgstr[1] "%d éjszaka"
+
+#. translators: %s: URL to plugins.php page
+msgid "You are using two instances of Hotel Booking plugin at the same time, please <a href=\"%s\">deactivate one of them</a>."
+msgstr ""
+
+msgid "<a href=\"%s\">Upgrade to Premium</a> to enable this feature."
+msgstr ""
+
+msgid "Nonce verification failed."
+msgstr ""
+
+msgid "The file does not exist."
+msgstr ""
+
+msgid "Source ID is missing."
+msgstr ""
+
+msgid "Error"
+msgstr "Hiba"
+
+msgid "View"
+msgstr "Nézet"
+
+msgid "Delete"
+msgstr "Törlés"
+
+msgid "Name"
+msgstr "Név"
+
+msgid "Email"
+msgstr "E-mail"
+
+msgid "Bookings"
+msgstr "Foglalások"
+
+msgid "Date Registered"
+msgstr ""
+
+msgid "Last Active"
+msgstr ""
+
+#. translators: Terms are variations for Attributes and bear no relation to the Terms and Conditions Page.
+msgid "Terms"
+msgstr ""
+
+msgid "Created on:"
+msgstr "Létrehozva:"
+
+#. translators: Terms are variations for Attributes and bear no relation to the Terms and Conditions Page.
+msgid "Please add attribute in default language to configure terms."
+msgstr ""
+
+#. translators: Terms are variations for Attributes and bear no relation to the Terms and Conditions Page.
+msgid "Configure terms"
+msgstr ""
+
+msgid "Reserved Accommodations"
+msgstr "Foglalt szállások"
+
+msgid "Update Booking"
+msgstr "Foglalás frissítése"
+
+msgid "Logs"
+msgstr "Naplók"
+
+msgid "Delete Permanently"
+msgstr "Végleges törlés"
+
+msgid "Move to Trash"
+msgstr "Áthelyezés a Kukába"
+
+msgid "Create Booking"
+msgstr "Szállásfoglalás"
+
+msgid "Resend Email"
+msgstr ""
+
+msgid "Send a copy of the Approved Booking email to the customer`s email address."
+msgstr ""
+
+msgid "Edit Accommodations"
+msgstr ""
+
+msgid "Date:"
+msgstr "Dátum:"
+
+msgid "Author:"
+msgstr "Szerző:"
+
+msgid "Auto"
+msgstr "Automatikus"
+
+msgid "Message:"
+msgstr "Üzenet:"
+
+msgid "Confirmation email has been sent to customer."
+msgstr ""
+
+msgid "Coupon code"
+msgstr "Kupon kód"
+
+msgid "Update Payment"
+msgstr "Fizetőeszköz frissítése"
+
+msgid "Modified on:"
+msgstr "Módosítva:"
+
+msgid "Create Payment"
+msgstr "Fizetés létrehozása"
+
+msgid "Season Prices"
+msgstr "Évszak árak"
+
+msgid "<code>Please select Accommodation Type and click Create Rate button to continue.</code>"
+msgstr ""
+
+msgid "Update Rate"
+msgstr "Értékelés frissitése"
+
+msgid "Active"
+msgstr "Aktív"
+
+msgid "Disabled"
+msgstr "Ki van kapcsolva"
+
+msgid "Create Rate"
+msgstr "Értékelés létrehozása"
+
+msgid "Duplicate Rate"
+msgstr "Értékelés duplikálása"
+
+msgid "Generate Accommodations"
+msgstr "Szálláshelyek generálása"
+
+msgid "Attributes"
+msgstr ""
+
+msgid "Accommodation Reviews"
+msgstr ""
+
+msgid "Allow guests to <a href=\"%s\" target=\"_blank\">submit star ratings and reviews</a> evaluating your accommodations."
+msgstr ""
+
+msgid "Number of Accommodations:"
+msgstr "Szálláshelyek száma:"
+
+msgid "Count of real accommodations of this type in your hotel."
+msgstr "Az adott típusú szálláshelyek száma."
+
+msgid "Total Accommodations:"
+msgstr "Szálláshelyek:"
+
+msgid "Show Accommodations"
+msgstr "Szálláshelyek megjelenítése"
+
+msgid "Active Accommodations:"
+msgstr "Aktív szálláshelyek:"
+
+msgid "Add"
+msgstr "Hozzáadás"
+
+msgid "Per adult:"
+msgstr ""
+
+msgid "Per child:"
+msgstr ""
+
+msgid "Per adult: "
+msgstr ""
+
+msgid "Per child: "
+msgstr ""
+
+msgid "Actions"
+msgstr "Cselekvések"
+
+msgid "Default"
+msgstr "Alapértelmezett beállítások"
+
+msgid "— Select —"
+msgstr "— Választ —"
+
+msgid "Install & Activate"
+msgstr ""
+
+msgid "Add image"
+msgstr ""
+
+msgid "Add gallery"
+msgstr "Galéria hozzáadása"
+
+msgid "Remove image"
+msgstr ""
+
+msgid "Remove gallery"
+msgstr "Galéria törlése"
+
+msgid "Select all"
+msgstr ""
+
+msgid "Unselect all"
+msgstr ""
+
+msgid "Date"
+msgstr "Dátum"
+
+msgid "Author"
+msgstr "Szerző"
+
+msgid "Edit"
+msgstr "Módosítás"
+
+msgid "Done"
+msgstr "Kész"
+
+msgid "All"
+msgstr "Összes"
+
+msgid "None"
+msgstr "Nincs"
+
+msgid "HH:MM"
+msgstr ""
+
+msgid "Recalculate Total Price"
+msgstr "Teljes ár újraszámolása"
+
+msgid "Nights"
+msgstr ""
+
+msgid "and more"
+msgstr ""
+
+msgid "Remove"
+msgstr "Törlés"
+
+msgid "Add length of stay"
+msgstr ""
+
+msgid "Adults"
+msgstr "Felnőttek"
+
+msgid "Children"
+msgstr "Gyermekek"
+
+msgid "Price per night"
+msgstr ""
+
+msgid "Enable variable pricing"
+msgstr ""
+
+msgid "Add Variation"
+msgstr ""
+
+msgid "Remove variation"
+msgstr ""
+
+msgid "The License Key is required in order to get automatic plugin updates and support. You can manage your License Key in your personal account. <a href='https://motopress.zendesk.com/hc/en-us/articles/202812996-How-to-use-your-personal-MotoPress-account' target='_blank'>Learn more</a>."
+msgstr "Annak érdekében, hogy Ön automatikus bővítmény frissítéseket és támogatást tudjon kapni, egy licenc kulcsra lesz szüksége. Ön a licenc kulcsát a személyes fiókjában kezelheti. <a href='https://motopress.zendesk.com/hc/en-us/articles/202812996-How-to-use-your-personal-MotoPress-account' target='_blank'>Learn more</a>."
+
+msgid "License Key"
+msgstr "Licenc kulcs"
+
+msgid "Status"
+msgstr "Állapot"
+
+msgid "Inactive"
+msgstr "Inaktív"
+
+msgid "Valid until"
+msgstr "Eddig érvényes"
+
+msgid "Valid (Lifetime)"
+msgstr "Érvényes (Élettartam)"
+
+msgid "Expired"
+msgstr "Lejárt"
+
+msgid "Invalid"
+msgstr "Érvénytelen"
+
+msgid "Your License Key does not match the installed plugin. <a href='https://motopress.zendesk.com/hc/en-us/articles/202957243-What-to-do-if-the-license-key-doesn-t-correspond-with-the-plugin-license' target='_blank'>How to fix this.</a>"
+msgstr "Az Ön licenc kulcsa nem egyezik a feltelepített bővítménnyel. <a href='https://motopress.zendesk.com/hc/en-us/articles/202957243-What-to-do-if-the-license-key-doesn-t-correspond-with-the-plugin-license' target='_blank'>How to fix this.</a>"
+
+msgid "Product ID is not valid"
+msgstr "A termék ID nem érvényes"
+
+msgid "Action"
+msgstr "Cselekvés"
+
+msgid "Activate License"
+msgstr "Licenc aktiválása"
+
+msgid "Deactivate License"
+msgstr "Licenc deaktiválása"
+
+msgid "Renew License"
+msgstr "Licenc megújítása"
+
+msgid "Attributes let you define extra accommodation data, such as location or type. You can use these attributes in the search availability form as advanced search filters."
+msgstr ""
+
+msgid "This attribute refers to non-unique taxonomy - %1$s - which was already registered with attribute %2$s."
+msgstr ""
+
+#. translators: Terms are variations for Attributes and bear no relation to the Terms and Conditions Page.
+msgid "You cannot manage terms of trashed attributes."
+msgstr ""
+
+msgid "New Booking"
+msgstr "Új foglalás"
+
+msgid "ID"
+msgstr "ID"
+
+msgid "Check-in / Check-out"
+msgstr "Bejelentkezés / kijelentkezés"
+
+msgid "Guests"
+msgstr "Vendégek"
+
+msgid "Customer Info"
+msgstr "Ügyféladatok"
+
+msgid "Price"
+msgstr "Ár"
+
+msgid "Accommodation"
+msgstr "Szálláshely"
+
+msgid "Booking #%s"
+msgstr "Foglalás #%s"
+
+msgid "Expire %s"
+msgstr "Lejár %s"
+
+msgid "Adults: "
+msgstr "Felnőtt:"
+
+msgid "Children: "
+msgstr "Gyerek:"
+
+msgid "%s night"
+msgid_plural "%s nights"
+msgstr[0] "%s északa"
+msgstr[1] "%s északa"
+
+msgid "Summary: %s."
+msgstr ""
+
+msgid "Paid: %s"
+msgstr "Befizetett: %s"
+
+msgid "Set to %s"
+msgstr "Beállítás %s"
+
+msgid "Booking status changed."
+msgid_plural "%s booking statuses changed."
+msgstr[0] "Szállásfoglalás állapota megváltozott."
+msgstr[1] " %s szállásfoglalás állapota megváltozott."
+
+msgid "All accommodation types"
+msgstr ""
+
+#. translators: The number of imported bookings: "Imported <span>(11)</span>"
+msgid "Imported %s"
+msgstr ""
+
+msgid "Customer"
+msgstr "Vevő"
+
+msgid "Amount"
+msgstr "Mennyíség"
+
+msgid "Booking"
+msgstr "Szállásfoglalás"
+
+msgid "Gateway"
+msgstr "Bejárat"
+
+msgid "Transaction ID"
+msgstr "Tranzakció ID"
+
+msgid "Created/Modified Date"
+msgstr "Létrehozott/Módosított dátum"
+
+msgid "Payment #%s"
+msgstr "Fizetés #%s"
+
+msgid "Created on: "
+msgstr "Létrehozva:"
+
+msgid "Modified on: "
+msgstr "Módosítva:"
+
+msgid "Rates are used to offer different prices of the same accommodation type depending on extra conditions. E.g. Double room with breakfast included; double room with no breakfast. Guests will choose the preferable rate when submitting a booking request."
+msgstr "A díjakra azért van szükség, hogy különböző árakat lehessen kínálni az extra feltételektől függően. Például: kétágyas szoba reggelivel, kétágyas szoba reggeli nélkül. A vendégek a foglaláskor kiválaszthatják a megfelelő díjatt."
+
+msgid "Accommodation Type"
+msgstr "Szálláshely típus"
+
+msgid "Season &#8212; Price"
+msgstr "Évszak &#8212; ár"
+
+msgid "Duplicate"
+msgstr "Másolás"
+
+msgid "Rate was duplicated."
+msgstr "A díj másolva volt."
+
+msgid "These are real accommodations like rooms, apartments, houses, villas, beds (for hostels) etc."
+msgstr "Ezek valódi szálláshelyek, mint például szobák, apartmanok, házak, villák, ágyak (szállók) stb. "
+
+msgid "All Accommodation Types"
+msgstr "Összes szálláshely típus"
+
+msgid "These are not physical accommodations, but their types. E.g. standard double room. To specify the real number of existing accommodations, you'll need to use Generate Accommodations menu."
+msgstr "Ezek nem valódi szálláshelyek, hanem a típusai. Például kétágyas szoba. A meglévő szálláshelyek tényleges számának a megadásához a szálláshelyek generálása menüt kell választani."
+
+msgid "Capacity"
+msgstr "Kapacitás"
+
+msgid "Bed Type"
+msgstr "Ágy típus"
+
+msgid "Accommodations"
+msgstr "Szálláshelyek"
+
+msgid "Total:"
+msgstr "Összesen:"
+
+msgid "Adults:"
+msgstr "Felnőtt:"
+
+msgid "Children:"
+msgstr "Gyermek:"
+
+msgid "Size:"
+msgstr "Méret:"
+
+msgid "Active:"
+msgstr "Aktív:"
+
+msgid "Seasons are real periods of time, dates or days that come with different prices for accommodations. E.g. Winter 2018 ($120 per night), Christmas ($150 per night)."
+msgstr "Az évszakok valóságos időszakok, dátumok vagy napok, amelyek különböző szálláslehetőségi árral rendelkeznek. Például Tél 2018 (120 dollár/éjszaka), Karácsony (150 dollár/éjszaka)."
+
+msgid "Start"
+msgstr "Kezdet"
+
+msgid "End"
+msgstr "Vég"
+
+msgid "Days"
+msgstr "Nap"
+
+msgid "Services are extra offers that you can sell or give for free. E.g. Thai massage, transfer, babysitting. Guests can pre-order them when placing a booking."
+msgstr "A szolgáltatások extra ajánlatok, amelyeket pénzért vagy ingyen kínál. Például thai masszázs, transzfer, gyermekfelügyelet. Az ajánlatok a foglaláskor igénybevehetők."
+
+msgid "Periodicity"
+msgstr "Időszakosság"
+
+msgid "Charge"
+msgstr "Díj"
+
+msgid "Per Day"
+msgstr "Naponta"
+
+msgid "Guest Choice"
+msgstr ""
+
+msgid "Once"
+msgstr "Egyszer"
+
+msgid "Per Guest"
+msgstr "Fejenként"
+
+msgid "Per Accommodation"
+msgstr "Szálláshelyként"
+
+msgid "These are accommodation amenities, generally free ones. E.g. air-conditioning, wifi."
+msgstr "Ezek szálláslehetőségek, amelyek általában ingyenesek. Például légkondicionálás, wifi."
+
+msgid "Booking rules saved."
+msgstr ""
+
+msgid "Booking Rules"
+msgstr "Foglalási szabályok"
+
+msgid "Save Changes"
+msgstr ""
+
+msgid "Check-in days"
+msgstr "Bejelentkezési napok"
+
+msgid "Guests can check in any day."
+msgstr ""
+
+msgid "Add rule"
+msgstr ""
+
+msgid "Seasons"
+msgstr "Évszakok"
+
+msgid "Check-out days"
+msgstr "Kijelentkezési napok"
+
+msgid "Guests can check out any day."
+msgstr ""
+
+msgid "Minimum stay"
+msgstr ""
+
+msgid "There are no minimum stay rules."
+msgstr ""
+
+msgid "nights"
+msgstr ""
+
+msgid "Maximum stay"
+msgstr ""
+
+msgid "There are no maximum stay rules."
+msgstr ""
+
+msgid "Block accommodation"
+msgstr ""
+
+msgid "There are no blocking accommodation rules."
+msgstr ""
+
+msgid "From"
+msgstr "Érkezés"
+
+msgid "Till"
+msgstr ""
+
+msgid "Restriction"
+msgstr ""
+
+msgid "Not check-in rule marks the date as unavailable for check-in."
+msgstr ""
+
+msgid "Not check-out rule marks the date as unavailable for check-out."
+msgstr ""
+
+msgid "Not stay-in rule displays the date as blocked. This date is unavailable for check-out and check-in on the next date."
+msgstr ""
+
+msgid "Not stay-in with Not check-out rules completely block the selected date, additionally displaying the previous date as unavailable for check-in."
+msgstr ""
+
+msgid "Not check-in"
+msgstr "Nem bejelentkezés"
+
+msgid "Not check-out"
+msgstr "Nem kijelentkezés"
+
+msgid "Not stay-in"
+msgstr "Nem tartózkodás"
+
+msgid "Comment"
+msgstr ""
+
+msgid "Minimum advance reservation"
+msgstr ""
+
+msgid "There are no minimum advance reservation rules."
+msgstr ""
+
+msgid "Maximum advance reservation"
+msgstr ""
+
+msgid "There are no maximum advance reservation rules."
+msgstr ""
+
+msgid "Booking buffer"
+msgstr ""
+
+msgid "There are no booking buffer rules."
+msgstr ""
+
+msgid "Booking Calendar"
+msgstr "Foglalási naptár"
+
+msgid "Calendar"
+msgstr "Naptár"
+
+msgid "Add New Booking"
+msgstr "Új foglalás hozzáadása"
+
+msgid "Clear Search Results"
+msgstr ""
+
+msgid "Note: booking rules are disabled in the plugin settings and are not taken into account."
+msgstr ""
+
+msgid "Unable to create booking. Please try again."
+msgstr "A foglalás nem lehet sikerült. Kérjük, próbálja újra."
+
+msgid "Booking is blocked due to maintenance reason. Please try again later."
+msgstr "A foglalás karbantartási okokból blokkolva van. Kérjük, próbálja újra később."
+
+msgid "There are no accommodations selected for reservation."
+msgstr "A szálláshely nincs kiválasztva."
+
+msgid "Selected accommodations are not valid."
+msgstr ""
+
+msgid "Accommodation Type is not valid."
+msgstr "A szállástípus nem érvényes."
+
+msgid "Rate is not valid."
+msgstr "Az ár nem érvényes."
+
+msgid "Adults number is not valid."
+msgstr "Felnőttek száma nem érvényes."
+
+msgid "Children number is not valid."
+msgstr "Gyermekek száma nem érvényes."
+
+msgid "The total number of guests is not valid."
+msgstr ""
+
+msgid "Selected dates do not meet booking rules for type %s"
+msgstr ""
+
+msgid "Accommodations are not available."
+msgstr ""
+
+msgid "There are no rates for requested dates."
+msgstr "Nincs elérhető szállás az adott dátumokon."
+
+msgid "Search Results"
+msgstr "Keresési eredmények"
+
+msgid "— Any —"
+msgstr ""
+
+msgid "Search parameters are not set."
+msgstr ""
+
+msgid "Check-in date is not valid."
+msgstr "A bejelentkezési dátum nem érvényes."
+
+msgid "Check-in date cannot be earlier than today."
+msgstr "A bejelentkezési dátum a mai napnál nem lehet hamarabb."
+
+msgid "Check-out date is not valid."
+msgstr "A kijelentkezési dátum nem érvényes."
+
+msgid "Nothing found. Please try again with different search parameters."
+msgstr ""
+
+msgid "Sorry, you are not allowed to access this page."
+msgstr ""
+
+msgid "User ID"
+msgstr ""
+
+msgid "Username"
+msgstr ""
+
+msgid "First Name"
+msgstr "Keresztnév"
+
+msgid "Last Name"
+msgstr "Vezetéknév"
+
+msgid "Phone"
+msgstr "Telefonszám"
+
+msgid "Address"
+msgstr "Cím"
+
+msgid "State / County"
+msgstr ""
+
+msgid "Country"
+msgstr "Ország"
+
+msgid "City"
+msgstr "Város"
+
+msgid "Postcode"
+msgstr "Irányítószám"
+
+msgid "Customer data updated."
+msgstr ""
+
+msgid "User account updated."
+msgstr ""
+
+msgid "Edit User Profile"
+msgstr ""
+
+msgid "Update"
+msgstr "Frissítés"
+
+msgid "Customers"
+msgstr ""
+
+msgid "The booking is not set."
+msgstr ""
+
+msgid "The booking not found."
+msgstr ""
+
+msgid "Edit Booking #%d"
+msgstr ""
+
+msgid "Cancel"
+msgstr "Mégse"
+
+msgid "Back"
+msgstr "Vissza"
+
+msgid "Edit Booking"
+msgstr "Foglalás módosítása"
+
+msgid "You cannot edit the imported booking. Please update the source booking and resync your calendars."
+msgstr ""
+
+msgid "Request does not pass security verification. Please refresh the page and try one more time."
+msgstr "A kérés nem engedte át a biztonsági ellenőrzés. Kérjük, frissítse az oldalt, és próbálja meg még egyszer."
+
+msgid "Check-in date is not set."
+msgstr ""
+
+msgid "Check-out date is not set."
+msgstr ""
+
+msgid "Unable to update booking. Please try again."
+msgstr ""
+
+msgid "Booking was edited."
+msgstr ""
+
+msgid "Available"
+msgstr "Elérhető"
+
+msgid "Replace"
+msgstr ""
+
+msgid "— Add new —"
+msgstr ""
+
+msgid "Extensions"
+msgstr ""
+
+msgid "Extend the functionality of Hotel Booking plugin with the number of helpful addons for your custom purposes."
+msgstr ""
+
+msgid "Get this Extension"
+msgstr ""
+
+msgid "No extensions found."
+msgstr ""
+
+msgid "Abort Process"
+msgstr "Megszakítási folyamat"
+
+msgid "Aborting..."
+msgstr "Megszakítás..."
+
+msgid "Import Calendar"
+msgstr "Naptár importálása"
+
+msgid "Accommodation: %s"
+msgstr "Szálláshely: %s"
+
+msgid "Accommodation Type: %s"
+msgstr "Szálláshely típus: %s"
+
+msgid "Please be patient while the calendars are imported. You will be notified via this page when the process is completed."
+msgstr "Kérjük, legyen türelmes a naptárak importálása közben. Ezen az oldalon fogjuk értesítetni a folyamat befelyezését illetően."
+
+msgid "Accommodation updated."
+msgstr "Szálláshelyek frissítve."
+
+msgid "This calendar has already been imported for another accommodation."
+msgstr ""
+
+msgid "Sync, Import and Export Calendars"
+msgstr "Naptárak szinkronizálása, importálása és exportálása"
+
+#. translators: %s - room name. Example: "Comfort Triple 1"
+msgid "Edit External Calendars of \"%s\""
+msgstr "\"%s\" Külső naptárai módosítása"
+
+msgid "Sync All External Calendars"
+msgstr "Összes külső naptár szinkronizálása"
+
+msgid "Sync your bookings across all online channels like Booking.com, TripAdvisor, Airbnb etc. via iCalendar file format."
+msgstr "Szinkronizálja foglalásait az olyan oldalakon, mint a Booking.com, TripAdvisor, Airbnb stb. a iCalendar fájlformátummal."
+
+msgid "Calendar URL"
+msgstr "Naptár URL"
+
+msgid "Add New Calendar"
+msgstr "Új naptár hozzáadása"
+
+msgid "Sync Calendars"
+msgstr "Naptárak szinkronizálása"
+
+msgid "Delete All Logs"
+msgstr "Összes napló törlése"
+
+msgid "Deleting..."
+msgstr "Törlés..."
+
+msgid "%d item"
+msgstr "%d tétel"
+
+msgid "%d items"
+msgstr "%d tétel"
+
+msgid "Calendars Synchronization Status"
+msgstr "Naptárak szinkronizálási állapota"
+
+msgid "Here you can see synchronization status of your external calendars."
+msgstr "Itt Ön láthatja a külső naptárak szinkronizálási állapotát."
+
+msgid "Calendars Sync Status"
+msgstr "Naptárak szinkronizálási állapota"
+
+msgid "Display calendars synchronization status."
+msgstr "A naptárak szinkronizálási állapotának megjelenítése."
+
+msgid "Language Guide"
+msgstr "Nyelvi útmutató"
+
+msgid "Default language"
+msgstr "Alapértelmezett nyelv"
+
+msgid "This plugin will display all system messages, labels, buttons in the language set in <em>General > Settings > Site Language</em>. If the plugin is not available in your language, you may <a href=\"%s\">contribute your translation</a>."
+msgstr "Ez a bővítmény az összes rendszer üzenetet, címkét, gombot a <em>Általános> Beállítások>Oldal nyelv</em> menüben beállított nyelvben jeleníti meg. Ha a bővítmény az Ön nyelvében nem elérhető, hozzáadhatja a <a href=\"%s\">saját fordítását</a> is."
+
+msgid "Custom translations and edits"
+msgstr "Egyedi fordítások és módosítások"
+
+msgid "You may customize plugin translation by editing the needed texts or adding your translation following these steps:"
+msgstr "Ön módosíthatja a bővítmény fordítást a szükséges szövegek szerkesztésével vagy az Ön saját fordítása hozzáadásával, ha a következő lépéseket követi:"
+
+msgid "Take the source file for your translations %s or needed translated locale."
+msgstr "Töltse le a fordításai forrásfájlját %s vagy a szükséges lefordított lokalizációt."
+
+msgid "Translate texts with any translation program like Poedit, Loco, Pootle etc."
+msgstr "A szövegek fordítása olyan alkalmazásokkal lehetséges, mint a Poedit, Loco, Pootle stb."
+
+msgid "Put created .mo file with your translations into the folder %s. Where {lang} is ISO-639 language code and {country} is ISO-3166 country code. Example: Brazilian Portuguese file would be called motopress-hotel-booking-pt_BR.mo."
+msgstr "Helyezze be a fordítást tartalmazó létrehozott .mo fájlt a %s mappába. Ahol a {lang} ISO-639 kódú és a {country} ISO-3166 ország kódú. Például: a portugál brazil fájlnak motopress-hotel-booking-pt_BR.mo lenne a neve."
+
+msgid "Multilingual content"
+msgstr "Többnyelvű tartalom"
+
+msgid "If your site is multilingual, you may use additional plugins to translate your added content into multiple languages allowing the site visitors to switch them."
+msgstr "Ha az Ön honlapja többnyelvű, további bővítmények használását javasoljuk ahhoz, hogy több nyelvre tudja lefordítani a weboldalhoz hozzáadott tartalmat, hogy a látogatók a nyelvek között tudjanak váltani."
+
+msgid "Language"
+msgstr "Nyelv"
+
+msgid "Reports"
+msgstr ""
+
+msgid "Export"
+msgstr ""
+
+msgid "All Statuses"
+msgstr ""
+
+msgid "Booking dates between"
+msgstr ""
+
+msgid "Check-in date between"
+msgstr ""
+
+msgid "Check-out date between"
+msgstr ""
+
+msgid "In-house between"
+msgstr ""
+
+msgid "Date of reservation between"
+msgstr ""
+
+msgid "Export Bookings"
+msgstr ""
+
+msgid "Choose start date"
+msgstr ""
+
+msgid "Choose end date"
+msgstr ""
+
+msgid "Select columns to export"
+msgstr ""
+
+msgid "Generate CSV"
+msgstr ""
+
+msgid "Number of accommodations"
+msgstr "Szálláshelyek száma"
+
+msgid "Title"
+msgstr "Cím"
+
+msgid "Leave empty to use accommodation type title."
+msgstr "Hagyja üresen a szállástípus név használatához."
+
+msgid "Generate"
+msgstr "Generálás"
+
+msgid "Accommodation generated."
+msgid_plural "%s accommodations generated."
+msgstr[0] "Generált szálláshely."
+msgstr[1] "%s generált szálláshely."
+
+msgid "General"
+msgstr "Általános"
+
+msgid "Pages"
+msgstr "Oldalak"
+
+msgid "Search Results Page"
+msgstr "Keresési eredmények oldala"
+
+msgid "Select page to display search results. Use search results shortcode on this page."
+msgstr "Válassza ki az oldalt a keresési eredmények megjelenítéséhez. Használja a keresési eredmények rövidkódot ezen az oldalon."
+
+msgid "Checkout Page"
+msgstr "Fizetési oldal"
+
+msgid "Select page user will be redirected to complete booking."
+msgstr "Válassza ki az oldalt, amely a befejezett foglaláshoz fog vezetni"
+
+msgid "Terms & Conditions"
+msgstr "Felhasználási feltételek"
+
+msgid "If you define a \"Terms\" page the customer will be asked if they accept them when checking out."
+msgstr ""
+
+msgid "Open the Terms & Conditions page in a new window"
+msgstr ""
+
+msgid "By enabling this option you can avoid errors related to displaying your terms & conditions inline for website pages created in page builders."
+msgstr ""
+
+msgid "My Account Page"
+msgstr ""
+
+msgid "Select a page to display user account. Use the customer account shortcode on this page."
+msgstr ""
+
+msgid "Misc"
+msgstr "Egyéb"
+
+msgid "Square Units"
+msgstr "Négyzetméter"
+
+msgid "Currency"
+msgstr "Pénznem"
+
+msgid "Currency Position"
+msgstr "Pénznem pozíció"
+
+msgid "Datepicker Date Format"
+msgstr "Datepicker dátum formátum"
+
+msgid "Check-out Time"
+msgstr "Kijelentkezés ideje"
+
+msgid "Check-in Time"
+msgstr "Bejelentkezés ideje"
+
+msgid "Bed Types"
+msgstr "Ágy típusok"
+
+msgid "Type"
+msgstr "Típus"
+
+msgid "Add Bed Type"
+msgstr "Ágy típus hozzáadása"
+
+msgid "Show Lowest Price for"
+msgstr "Legalacsonyabb ár megjelenítése -"
+
+msgid "days"
+msgstr "napok"
+
+msgid "Lowest price of accommodation for selected number of days if check-in and check-out dates are not set. Example: set 0 to display today's lowest price, set 7 to display the lowest price for the next week."
+msgstr "A kiválasztott napok mennyiségének a legalacsonyabb ára, ha a bejelentkezési és kijelentkezési dátumok nem lettek beállítva. Például: válassza ki a 0 a mai legalacsonyabb ár megjelenítéséhez, válassza ki a 7 a következő hét legalacsonyabb árjának a megjelenítéséhez."
+
+msgid "Enable search form to recommend the best set of accommodations according to a number of guests."
+msgstr "Engedélyezze a keresési űrlapot, hogy a vendégek száma szerint ajánljon szálláshelyet."
+
+msgid "Enable the use of coupons."
+msgstr "Kupon használat engedélyezése."
+
+msgid "Text on Checkout"
+msgstr ""
+
+msgid "This text will appear on the checkout page."
+msgstr ""
+
+msgid "Disable Booking"
+msgstr "Szállásfoglalás kikapcsolása"
+
+msgid "Hide reservation forms and buttons"
+msgstr "Foglalás formák és gombok elrejtése"
+
+msgid "Text instead of reservation form while booking is disabled"
+msgstr "A foglalási űrlap helyett megjelenő szöveg ki van kapcsolva"
+
+msgid "Booking Confirmation"
+msgstr "Foglalás megerősítése"
+
+msgid "Confirmation Mode"
+msgstr "Megerősítési mód"
+
+msgid "By customer via email"
+msgstr "Ügyfél által e-mailen keresztül"
+
+msgid "By admin manually"
+msgstr "Admin által kézileg"
+
+msgid "Confirmation upon payment"
+msgstr "Megerősítés a fizetés után"
+
+msgid "Booking Confirmed Page"
+msgstr ""
+
+msgid "Page user will be redirected to once the booking is confirmed via email or by admin."
+msgstr ""
+
+msgid "Approval Time for User"
+msgstr "Jóváhagyási idő a felhasználó számára"
+
+msgid "Period of time in minutes the user is given to confirm booking via email. Unconfirmed bookings become Abandoned and accommodation status changes to Available."
+msgstr "A rendelkezésre álló időtartam az e-mailen keresztüli foglalás megerősítésére. A nem megerősített foglalások Elhagyatottak lesznek, és a szálláshely státusz Elérhető lesz."
+
+msgid "Country of residence field is required for reservation."
+msgstr "A  foglaláshoz kötelező a tartózkodási hely országának a begépelése."
+
+msgid "Full address fields are required for reservation."
+msgstr "A foglaláshoz kötelező a cím mezők begépelése."
+
+msgid "Customer information is required when placing admin bookings."
+msgstr ""
+
+msgid "Default Country on Checkout"
+msgstr ""
+
+msgid "Price Breakdown"
+msgstr "Árösszetevők"
+
+msgid "Price breakdown unfolded by default."
+msgstr ""
+
+msgid "Accounts"
+msgstr ""
+
+msgid "Account creation"
+msgstr ""
+
+msgid "Automatically create an account for a user at checkout."
+msgstr ""
+
+msgid "Allow customers to create an account during checkout."
+msgstr ""
+
+msgid "Allow customers to log into their existing account during checkout."
+msgstr ""
+
+msgid "Booking Cancellation"
+msgstr "Foglalás lemondása"
+
+msgid "User can cancel booking via link provided inside email."
+msgstr "A felhasználó az e-mailben megtalálható linken keresztül törölheti a foglalást."
+
+msgid "Booking Cancelation Page"
+msgstr ""
+
+msgid "Page to confirm booking cancelation."
+msgstr ""
+
+msgid "Booking Canceled Page"
+msgstr ""
+
+msgid "Page to redirect to after a booking is canceled."
+msgstr ""
+
+msgid "Search Options"
+msgstr "Keresési opciók"
+
+msgid "Maximum accommodation occupancy available in the Search Form."
+msgstr "Maximum elérhető szállásfoglaltság a keresési formában."
+
+msgid "Max Adults"
+msgstr "Max. felnőtt"
+
+msgid "Max Children"
+msgstr "Max. gyermek"
+
+msgid "Age of Child"
+msgstr ""
+
+msgid "Optional description of the \"Children\" field."
+msgstr ""
+
+msgid "Skip Search Results"
+msgstr ""
+
+msgid "Skip search results page and enable direct booking from accommodation pages."
+msgstr ""
+
+msgid "Direct Booking Form"
+msgstr ""
+
+msgid "Show price for selected period"
+msgstr ""
+
+msgid "Show price together with adults and children fields"
+msgstr ""
+
+msgid "Book button behavior on the search results page"
+msgstr ""
+
+msgid "Redirect to the checkout page immediately after successful addition to reservation."
+msgstr ""
+
+msgid "Enable \"adults\" and \"children\" options for my website (default)."
+msgstr ""
+
+msgid "Disable \"children\" option for my website (hide \"children\" field and use Guests label instead)."
+msgstr ""
+
+msgid "Disable \"adults\" and \"children\" options for my website."
+msgstr ""
+
+msgid "Guest Management"
+msgstr ""
+
+msgid "Hide \"adults\" and \"children\" fields within search availability forms."
+msgstr ""
+
+msgid "Do not apply booking rules for admin bookings."
+msgstr ""
+
+msgid "Display Options"
+msgstr "Megjelenítési opciók"
+
+msgid "Display gallery images of accommodation page in lightbox."
+msgstr "A szálláshely oldal galéria képeinek megjelenítése a lightboxban."
+
+msgid "Availability Calendar"
+msgstr ""
+
+msgid "Display per-night prices in the availability calendar."
+msgstr ""
+
+msgid "Truncate per-night prices in the availability calendar."
+msgstr ""
+
+msgid "Display the currency sign in the availability calendar."
+msgstr ""
+
+msgid "Calendar Theme"
+msgstr "Naptár téma"
+
+msgid "Select theme for an availability calendar."
+msgstr "Válasszon ki egy témát az elérhetőség naptárnak."
+
+msgid "Template Mode"
+msgstr "Sablon mód"
+
+msgid "Developer Mode"
+msgstr "Fejlesztői mód"
+
+msgid "Theme Mode"
+msgstr "Téma mód"
+
+msgid "Choose Theme Mode to display the content with the styles of your theme. Choose Developer Mode to control appearance of the content with custom page templates, actions and filters. This option can't be changed if your theme is initially integrated with the plugin."
+msgstr "Válassza ki a Téma módot az Ön által kiválasztott stílusok megjelenítéséhez. Válassza ki a fejlesztői módot az egyedi sablon oldalak, gombok és szűrők kezeléséhez. Ez az opció nem módosítható, ha az Ön témája a bővítménybe már be van építve."
+
+msgid "More Styles"
+msgstr ""
+
+msgid "Extend the styling options of Hotel Booking plugin with the new free addon - Hotel Booking Styles."
+msgstr ""
+
+msgid "Calendars Synchronization"
+msgstr ""
+
+msgid "Export admin blocks."
+msgstr ""
+
+msgid "Do not export imported bookings."
+msgstr ""
+
+msgid "Minimize Logs"
+msgstr ""
+
+msgid "Enable the plugin to record only important messages."
+msgstr ""
+
+msgid "Calendars Synchronization Scheduler"
+msgstr ""
+
+msgid "Enable automatic external calendars synchronization"
+msgstr ""
+
+msgid "Clock"
+msgstr ""
+
+msgid "Sync calendars at this time (UTC) or starting at this time every interval below."
+msgstr ""
+
+msgid "Interval"
+msgstr ""
+
+msgid "Quarter an Hour"
+msgstr ""
+
+msgid "Half an Hour"
+msgstr ""
+
+msgid "Once Hourly"
+msgstr ""
+
+msgid "Twice Daily"
+msgstr ""
+
+msgid "Once Daily"
+msgstr ""
+
+msgid "Automatically delete sync logs older than"
+msgstr ""
+
+msgid "Day"
+msgstr ""
+
+msgid "Week"
+msgstr ""
+
+msgid "Month"
+msgstr "Hónap"
+
+msgid "Quarter"
+msgstr "Negyedév"
+
+msgid "Half a Year"
+msgstr ""
+
+msgid "Never Delete"
+msgstr ""
+
+msgid "Block Editor"
+msgstr ""
+
+msgid "Enable block editor for \"%s\"."
+msgstr ""
+
+msgid "Accommodation Types"
+msgstr "Szállástípusok"
+
+msgid "Services"
+msgstr "Szolgáltatások"
+
+msgid "Admin Emails"
+msgstr "Admin e-mailek"
+
+msgid "Customer Emails"
+msgstr "Ügyfél e-mailek"
+
+msgid "Turn one-time guests into loyal customers by sending out automatic marketing campaigns with the <a>Hotel Booking & Mailchimp Integration</a>."
+msgstr ""
+
+msgid "Turn one-time guests into loyal customers by sending out automatic marketing campaigns with the Hotel Booking & Mailchimp Integration."
+msgstr ""
+
+msgid "Cancellation Details Template"
+msgstr "Lemondási Részletek sablon"
+
+msgid "Used for %cancellation_details% tag."
+msgstr "A %cancellation_details% címkéhez volt használva."
+
+msgid "Email Settings"
+msgstr "E-mail beállítások"
+
+msgid "Send automated email notifications, such as key pick-up instructions, house rules, before and after arrival/departure with <a>Hotel Booking Notifier</a>."
+msgstr ""
+
+msgid "Send automated email notifications, such as key pick-up instructions, house rules, before and after arrival/departure with Hotel Booking Notifier."
+msgstr ""
+
+msgid "Email Sender"
+msgstr "E-mail Feladó"
+
+msgid "Administrator Email"
+msgstr ""
+
+msgid "From Email"
+msgstr "E-mailtől"
+
+msgid "From Name"
+msgstr "Névtől"
+
+msgid "Logo URL"
+msgstr "Logó URL"
+
+msgid "Footer Text"
+msgstr "Lábléc szöveg"
+
+msgid "Reserved Accommodation Details Template"
+msgstr "Fenntartott szálláshely részletek sablon"
+
+msgid "Used for %reserved_rooms_details% tag."
+msgstr " A %reserved_rooms_details% címkéhez volt használva."
+
+msgid "Styles"
+msgstr "Stílusok"
+
+msgid "Base Color"
+msgstr "Alapszín"
+
+msgid "Background Color"
+msgstr "Háttér szín"
+
+msgid "Body Background Color"
+msgstr "Váz háttér szín"
+
+msgid "Body Text Color"
+msgstr "Váz szöveg szín"
+
+msgid "Payment Gateways"
+msgstr "Fizetési kapu"
+
+msgid "General Settings"
+msgstr "Általános beállítások"
+
+msgid "Need more gateways? Use our Hotel Booking <a href=\"%s\" target=\"_blank\">WooCommerce Payments</a> extension."
+msgstr ""
+
+msgid "You may also email the <a href=\"%s\" target=\"_blank\">balance payment request</a> link to your guests."
+msgstr ""
+
+msgid "User Pays"
+msgstr "Felhasználói fizetések"
+
+msgid "Full Amount"
+msgstr "Teljes összeg"
+
+msgid "Deposit"
+msgstr "Letét"
+
+msgid "Deposit Type"
+msgstr "Letét típus"
+
+msgid "Fixed"
+msgstr "Rögzített"
+
+msgid "Percent"
+msgstr "Százalék"
+
+msgid "Deposit Amount"
+msgstr "Letéti összeg"
+
+msgid "Deposit Time Frame (days)"
+msgstr ""
+
+msgid "Apply deposit to bookings made in at least the selected number of days prior to the check-in date. Otherwise, the full amount is charged."
+msgstr ""
+
+msgid "Force Secure Checkout"
+msgstr "Biztonságos fizetés kényszerítése"
+
+msgid "Force SSL (HTTPS) on the checkout pages. You must have an SSL certificate installed to use this option."
+msgstr "SLL (HTTPS) kényszerítése a fizetési oldalakon. Az opció használásához Önnek egy SLL bizonyítványra lesz szüksége."
+
+msgid "Reservation Received Page"
+msgstr ""
+
+msgid "Failed Transaction Page"
+msgstr "Sikertelen tranzakció oldal"
+
+msgid "Default Gateway"
+msgstr "Alapértelmezett átjáró"
+
+msgid "Pending Payment Time"
+msgstr "Függő fizetés ideje"
+
+msgid "Period of time in minutes the user is given to complete payment. Unpaid bookings become Abandoned and accommodation status changes to Available."
+msgstr "A rendelkezésre álló időtartam a foglalás kifizetésére. A nem kifizetett foglalások Elhagyatottak lesznek, és a szálláshely státusz Elérhető lesz."
+
+msgid "Install <a href=\"%s\" target=\"_blank\">Hotel Booking addons</a> to manage their settings."
+msgstr ""
+
+msgid "Install Hotel Booking addons to manage their settings."
+msgstr ""
+
+msgid "Advanced"
+msgstr ""
+
+msgid "License"
+msgstr "Licenc"
+
+msgid "Settings saved."
+msgstr "Beállítások elmentve."
+
+msgid "<strong>Note:</strong> Payment methods will appear on the checkout page only when Confirmation Upon Payment is enabled in Accommodation > Settings > General > Confirmation Mode."
+msgstr ""
+
+msgid "Settings"
+msgstr "Beállítások"
+
+msgid "Availability Search Form"
+msgstr "Elérhetőség keresési űrlap"
+
+msgid "Display search form."
+msgstr "Keresési űrlap megjelenítése."
+
+msgid "The number of adults presetted in the search form."
+msgstr "A keresési űrlapban található felnőttek alapértelmezett száma."
+
+msgid "The number of children presetted in the search form."
+msgstr "A keresési űrlapban található gyermekek alapértelmezett száma."
+
+msgid "Check-in date presetted in the search form."
+msgstr "A keresési formában található alapértelmezett bejelentkezési dátum."
+
+msgid "date in format %s"
+msgstr "Dátumformátum %s"
+
+msgid "Check-out date presetted in the search form."
+msgstr "A keresési formában található alapértelmezett kijelentkezési dátum."
+
+msgid "Custom attributes for advanced search."
+msgstr ""
+
+msgid "Comma-separated slugs of attributes."
+msgstr ""
+
+msgid "Custom CSS class for shortcode wrapper"
+msgstr "Egyéni CSS kategória a rövidkód átalakító számára"
+
+msgid "whitespace separated css classes"
+msgstr "szóközzel elválasztott css kategóriák"
+
+msgid "Accommodation Type ID"
+msgstr "Szállástípus azonosító"
+
+msgid "ID of Accommodation Type to check availability."
+msgstr "Szállástípus azonosító az elérhetőség ellenőrzéséhez."
+
+msgid "integer number"
+msgstr "egész szám"
+
+msgid "How many months to show."
+msgstr ""
+
+msgid "Set the number of columns or the number of rows and columns separated by comma. Example: \"3\" or \"2,3\""
+msgstr ""
+
+msgid "Display availability calendar of the current accommodation type or by ID."
+msgstr ""
+
+msgid "Availability Search Results"
+msgstr "Elérhetőség keresési eredményei"
+
+msgid "Display listing of accommodation types that meet the search criteria."
+msgstr "Keresési feltételeknek megfelelő szállástípusok megjelenítése."
+
+msgid "Whether to display title of the accommodation type."
+msgstr "Szállástípus cím megjelenítése."
+
+msgid "Whether to display featured image of the accommodation type."
+msgstr "Szállástípust ábrázoló kép megjelenítése."
+
+msgid "Whether to display gallery of the accommodation type."
+msgstr "Szállástípus galéria megjelenítése."
+
+msgid "Whether to display excerpt (short description) of the accommodation type."
+msgstr "Szállástípus leírás megjelenítése."
+
+msgid "Whether to display details of the accommodation type."
+msgstr "Szállástípus részletek megjelenítése."
+
+msgid "Whether to display price of the accommodation type."
+msgstr "Szállástípus árak megjelenítése."
+
+msgid "Show View Details button"
+msgstr "Bővebben gomb megjelenítése"
+
+msgid "Whether to display \"View Details\" button with the link to accommodation type."
+msgstr "Szállástípushoz vezető \"Bővebben\" gomb megjelenítése."
+
+msgid "Sort by."
+msgstr "Rendezés."
+
+msgid "%1$s. See the <a href=\"%2$s\" target=\"_blank\">full list</a>."
+msgstr ""
+
+msgid "Designates the ascending or descending order of sorting."
+msgstr ""
+
+msgid "ASC - from lowest to highest values (1, 2, 3). DESC - from highest to lowest values (3, 2, 1)."
+msgstr ""
+
+msgid "Custom field name. Required if \"orderby\" is one of the \"meta_value\", \"meta_value_num\" or \"meta_value_*\"."
+msgstr ""
+
+msgid "custom field name"
+msgstr ""
+
+msgid "empty string"
+msgstr "üres karakterlánc:"
+
+msgid "Specified type of the custom field. Can be used in conjunction with orderby=\"meta_value\"."
+msgstr ""
+
+msgid "Sort by. Use \"orderby\" insted."
+msgstr ""
+
+msgid "Show Book button"
+msgstr "A Foglal gombot jeleníti meg"
+
+msgid "Whether to display Book button."
+msgstr "Foglal gomb megjelenítése."
+
+msgid "NOTE:"
+msgstr "FIGYELEM:"
+
+msgid "Use only on page that you set as Search Results Page in <a href=\"%s\">Settings</a>"
+msgstr "Csak a <a href=\"%s\">Beállítások</a> menüben megtalálható Keresési eredmények oldalként kiválasztott oldalon használható"
+
+msgid "Accommodation Types Listing"
+msgstr "Szállástípusok felsorolása"
+
+msgid "Count per page"
+msgstr "Számlálás oldalanként"
+
+msgid "integer, -1 to display all, default: \"Blog pages show at most\""
+msgstr ""
+
+msgid "IDs of categories that will be shown."
+msgstr ""
+
+msgid "Comma-separated IDs."
+msgstr "Vesszővel elválasztott azonosítók."
+
+msgid "IDs of tags that will be shown."
+msgstr ""
+
+msgid "IDs of accommodations that will be shown."
+msgstr ""
+
+msgid "Logical relationship between each taxonomy when there is more than one."
+msgstr ""
+
+msgid "Services Listing"
+msgstr "Szolgáltatások felsorolása"
+
+msgid "IDs"
+msgstr "Azonosítók"
+
+msgid "IDs of services that will be shown. "
+msgstr "A szolgáltatás azonosító számok meg lesznek jelenítve."
+
+msgid "Show All Services"
+msgstr "Összes szolgáltatás megjelenítése"
+
+msgid "Single Accommodation Type"
+msgstr ""
+
+msgid "ID of accommodation type to display."
+msgstr "Szállástípus azonosító megjelenítése."
+
+msgid "Display accommodation type with title and image."
+msgstr "Szállástípus megjelenítése képekkel és címmel együtt."
+
+msgid "Checkout Form"
+msgstr "Fizetési űrlap"
+
+msgid "Display checkout form."
+msgstr "Fizetési űrlap megjelenítése."
+
+msgid "Use only on page that you set as Checkout Page in <a href=\"%s\">Settings</a>"
+msgstr "Csak a <a href=\"%s\">Beállítások</a> menüben megtalálható Fizetési oldalként kiválasztott oldalon használható."
+
+msgid "Booking Form"
+msgstr "Foglalási űrlap"
+
+msgid "Show Booking Form for Accommodation Type with id 777"
+msgstr "A 777 azonosítószámú Szállástípus Foglalási űrlapnak a megjelenítése"
+
+msgid "Accommodation Rates List"
+msgstr "Szállási árak listája"
+
+msgid "ID of accommodation type."
+msgstr "Szállástípus azonosítószám."
+
+msgid "Show Accommodation Rates List for accommodation type with id 777"
+msgstr "A 777 azonosítószámú Szállástípus Szállási árak megjelenítése."
+
+msgid "Display booking and payment details."
+msgstr ""
+
+msgid "Use this shortcode on Booking Confirmed and Reservation Received pages"
+msgstr ""
+
+msgid "Booking Cancelation"
+msgstr ""
+
+msgid "Display booking cancelation details."
+msgstr ""
+
+msgid "Use this shortcode on the Booking Cancelation page"
+msgstr ""
+
+msgid "Customer Account"
+msgstr ""
+
+msgid "Display log in form or customer account area."
+msgstr ""
+
+msgid "Use this shortcode to create the My Account page."
+msgstr ""
+
+msgid "Shortcodes"
+msgstr "Rövidkódok"
+
+msgid "Shortcode"
+msgstr "Rövidkód"
+
+msgid "Parameters"
+msgstr "Paraméterek"
+
+msgid "Example"
+msgstr "Példa"
+
+msgid "Deprecated since %s"
+msgstr "Elavult %s óta"
+
+msgid "Values:"
+msgstr "Értékek:"
+
+msgid "Default:"
+msgstr "Alapértelmezett:"
+
+msgid "Optional."
+msgstr "Nem kötelező."
+
+msgid "Required"
+msgstr "Kötelező"
+
+msgid "Taxes and fees saved."
+msgstr ""
+
+msgid "Taxes & Fees"
+msgstr ""
+
+msgid "Fees"
+msgstr ""
+
+msgid "No fees have been created yet."
+msgstr ""
+
+msgid "Add new"
+msgstr ""
+
+msgid "Label"
+msgstr ""
+
+msgid "New fee"
+msgstr ""
+
+msgid "Per guest / per day"
+msgstr ""
+
+msgid "Per accommodation / per day"
+msgstr ""
+
+msgid "Per accommodation (%)"
+msgstr ""
+
+msgid "Limit"
+msgstr ""
+
+msgid "How often this fee is charged. Set 0 to charge each day of the stay period. Set 1 to charge once."
+msgstr ""
+
+msgid "Include"
+msgstr ""
+
+msgid "Show accommodation rate with this charge included"
+msgstr ""
+
+msgid "Accommodation Taxes"
+msgstr ""
+
+msgid "No taxes have been created yet."
+msgstr ""
+
+msgid "New tax"
+msgstr ""
+
+msgid "Limit of days the fee is charged. Set 0 to charge each day of stay period. Set 1 to charge once."
+msgstr ""
+
+msgid "Service Taxes"
+msgstr ""
+
+msgid "Percentage"
+msgstr ""
+
+msgid "Fee Taxes"
+msgstr ""
+
+msgid "External Calendars"
+msgstr "Külső naptárak"
+
+msgid "Sync External Calendars"
+msgstr "Külső naptárak szinkronizálása"
+
+msgctxt "Placeholder for empty accommodation title"
+msgid "(no title)"
+msgstr "(nincs cím)"
+
+msgid "Download Calendar"
+msgstr "Naptár letöltése"
+
+msgid "Message"
+msgstr "Üzenet"
+
+msgid "Success"
+msgstr ""
+
+msgid "Info"
+msgstr ""
+
+msgid "Warning"
+msgstr ""
+
+msgctxt "This is date and time format 31/12/2017 - 23:59:59"
+msgid "d/m/Y - H:i:s"
+msgstr ""
+
+msgid "Waiting"
+msgstr "Várakozás"
+
+msgid "Processing"
+msgstr "Feldolgozás alatt"
+
+msgctxt "Total number of processed bookings"
+msgid "Total"
+msgstr "Összesen"
+
+msgid "Succeed"
+msgstr "Sikeres"
+
+msgid "Skipped"
+msgstr "Kihagyva"
+
+msgid "Failed"
+msgstr "Sikertelen"
+
+msgid "Removed"
+msgstr ""
+
+msgid "Copying to clipboard failed. Please press Ctrl/Cmd+C to copy."
+msgstr ""
+
+msgid "Description is missing."
+msgstr ""
+
+msgid "User is missing."
+msgstr ""
+
+msgid "Permission is missing."
+msgstr ""
+
+msgid "You do not have permission to assign API Keys to the selected user."
+msgstr ""
+
+msgid "API Key updated successfully."
+msgstr ""
+
+msgid "API Key generated successfully. Make sure to copy your new keys now as the secret key will be hidden once you leave this page."
+msgstr ""
+
+msgid "Revoke key"
+msgstr ""
+
+msgid "No keys found."
+msgstr ""
+
+msgid "Description"
+msgstr "Leírás"
+
+msgid "Consumer key ending in"
+msgstr ""
+
+msgid "User"
+msgstr ""
+
+msgid "Permissions"
+msgstr ""
+
+msgid "Last access"
+msgstr ""
+
+msgid "API key"
+msgstr ""
+
+#. translators: %d: API key ID.
+msgid "ID: %d"
+msgstr ""
+
+msgid "Revoke"
+msgstr ""
+
+msgid "Read"
+msgstr ""
+
+msgid "Write"
+msgstr ""
+
+msgid "Read/Write"
+msgstr ""
+
+#. translators: 1: last access date 2: last access time
+msgid "%1$s at %2$s"
+msgstr ""
+
+msgid "Unknown"
+msgstr ""
+
+msgid "You do not have permission to edit this API Key"
+msgstr ""
+
+msgid "REST API"
+msgstr ""
+
+msgid "Add key"
+msgstr ""
+
+msgid "You do not have permission to revoke this API Key"
+msgstr ""
+
+msgid "You do not have permission to edit API Keys"
+msgstr ""
+
+msgid "You do not have permission to revoke API Keys"
+msgstr ""
+
+msgid "Generate API key"
+msgstr ""
+
+msgid "Friendly name for identifying this key."
+msgstr ""
+
+msgid "Owner of these keys."
+msgstr ""
+
+msgid "Access type of these keys."
+msgstr ""
+
+msgid "Consumer key"
+msgstr ""
+
+msgid "Copied!"
+msgstr ""
+
+msgid "Copy"
+msgstr ""
+
+msgid "Consumer secret"
+msgstr ""
+
+msgid "QR Code"
+msgstr ""
+
+msgid "No bookings found for your request."
+msgstr ""
+
+msgid "Uploads directory is not writable."
+msgstr ""
+
+msgid "No enough data"
+msgstr ""
+
+msgid "An error has occurred"
+msgstr "Hiba történt"
+
+msgid "Please complete all required fields and try again."
+msgstr "Kérjük, töltse ki az összes kötelező mezőt."
+
+msgid "An error has occurred, please try again later."
+msgstr "Hiba történt. Kérjük, próbálja meg újra később."
+
+msgid "The number of adults is not valid."
+msgstr ""
+
+msgid "The number of guests is not valid."
+msgstr ""
+
+msgid "An error has occurred. Please try again later."
+msgstr "Hiba történt. Kérjük, próbálja meg újra később."
+
+msgid "Sorry, the minimum allowed payment amount is %s to use this payment method."
+msgstr ""
+
+msgid "Chosen payment method is not available. Please refresh the page and try one more time."
+msgstr "A kiválasztott fizetési módszer nem elérhető. Kérjük, frissítse az oldalt, és próbálja meg még egyszer."
+
+msgid "Coupon applied successfully."
+msgstr "A kupon sikeresen alkalmazva volt."
+
+msgid "Coupon is not valid."
+msgstr "A kupon nem érvényes."
+
+msgid "Booking Information"
+msgstr "Foglalási információ"
+
+msgid "Check-in Date"
+msgstr "Bejelentkezési dátum"
+
+msgid "Check-out Date"
+msgstr "Kijelentkezési dátum"
+
+msgid "Customer Information"
+msgstr "Ügyfél információ"
+
+msgid "Customer Note"
+msgstr "Ügyfél megjegyzése"
+
+msgid "Additional Information"
+msgstr "További információ"
+
+msgid "Coupon"
+msgstr "Kupon"
+
+msgid "Total Booking Price"
+msgstr "Teljes foglalási ár"
+
+msgid "Notes"
+msgstr "Megjegyzések"
+
+#. translators: %1$s: note author, %1$s: note date
+msgid "%1$s on %2$s"
+msgstr ""
+
+msgid "Based on your search parameters"
+msgstr "Az Ön keresési paraméterei szerint"
+
+msgid "You do not have permission to do this action."
+msgstr ""
+
+msgctxt "Not selected value in the search form."
+msgid "&mdash;"
+msgstr ""
+
+msgid "Year"
+msgstr "Év"
+
+msgid "Custom"
+msgstr "Egyedi"
+
+msgctxt "Booking status"
+msgid "Confirmed"
+msgstr "Megerősített"
+
+msgid "Show"
+msgstr "Megjelenítés"
+
+msgid "Search"
+msgstr "Keresés"
+
+msgid "Booked"
+msgstr "Foglalt"
+
+msgid "Pending"
+msgstr "Függő"
+
+msgid "External"
+msgstr ""
+
+msgid "Blocked"
+msgstr ""
+
+msgid "Search results for accommodations that have bookings with status \"%s\" from %s until %s"
+msgstr "Keresési eredmények a következő állapotú foglalásokra \"%s\"  %s -tól %s -ig"
+
+msgid "Free"
+msgstr "Ingyenes"
+
+msgid "Locked (Booked or Pending)"
+msgstr ""
+
+msgid "Until"
+msgstr "Távozás"
+
+msgid "Period:"
+msgstr "Időszak:"
+
+msgid "&lt; Prev"
+msgstr "&lt; előző"
+
+msgid "Next &gt;"
+msgstr "Következő &gt;"
+
+msgid "No accommodations found."
+msgstr "Nem találtunk szálláshelyet."
+
+msgid "Check-out #%d"
+msgstr "Kijelentkezés #%d"
+
+msgid "Check-in #%d"
+msgstr "Bejelentkezés #%d"
+
+msgid "Booking #%d"
+msgstr "Foglalás #%d"
+
+msgid "Buffer time."
+msgstr ""
+
+msgctxt "Availability"
+msgid "Free"
+msgstr "szabad"
+
+msgid "Adults: %s"
+msgstr "Felnőttek: %s"
+
+msgid "Children: %s"
+msgstr "Gyermekek: %s"
+
+msgid "Booking imported with UID %s."
+msgstr ""
+
+msgid "Imported booking."
+msgstr ""
+
+msgid "Description: %s."
+msgstr ""
+
+msgid "Source: %s."
+msgstr ""
+
+msgid "Afghanistan"
+msgstr "Afganisztán"
+
+msgid "&#197;land Islands"
+msgstr "Åland"
+
+msgid "Albania"
+msgstr "Albánia"
+
+msgid "Algeria"
+msgstr "Algéria"
+
+msgid "American Samoa"
+msgstr "Amerikai Szamoa"
+
+msgid "Andorra"
+msgstr ""
+
+msgid "Angola"
+msgstr ""
+
+msgid "Anguilla"
+msgstr ""
+
+msgid "Antarctica"
+msgstr "Antarktisz"
+
+msgid "Antigua and Barbuda"
+msgstr "Antigua és Barbuda"
+
+msgid "Argentina"
+msgstr "Argentína"
+
+msgid "Armenia"
+msgstr "Örményország"
+
+msgid "Aruba"
+msgstr ""
+
+msgid "Australia"
+msgstr "Ausztrália"
+
+msgid "Austria"
+msgstr "Ausztria"
+
+msgid "Azerbaijan"
+msgstr "Azerbajdzsán"
+
+msgid "Bahamas"
+msgstr "Bahamák"
+
+msgid "Bahrain"
+msgstr "Bahrein"
+
+msgid "Bangladesh"
+msgstr "Banglades"
+
+msgid "Barbados"
+msgstr ""
+
+msgid "Belarus"
+msgstr "Fehéroroszország"
+
+msgid "Belgium"
+msgstr ""
+
+msgid "Belau"
+msgstr ""
+
+msgid "Belize"
+msgstr ""
+
+msgid "Benin"
+msgstr ""
+
+msgid "Bermuda"
+msgstr ""
+
+msgid "Bhutan"
+msgstr "Bhután"
+
+msgid "Bolivia"
+msgstr "Bolívia"
+
+msgid "Bonaire, Saint Eustatius and Saba"
+msgstr "Karibi Hollandia"
+
+msgid "Bosnia and Herzegovina"
+msgstr "Bosznia-Hercegovina"
+
+msgid "Botswana"
+msgstr ""
+
+msgid "Bouvet Island"
+msgstr "Bouvet-sziget"
+
+msgid "Brazil"
+msgstr "Brazília"
+
+msgid "British Indian Ocean Territory"
+msgstr "Brit Indiai-óceáni Terület"
+
+msgid "British Virgin Islands"
+msgstr "Brit Virgin szigetek"
+
+msgid "Brunei"
+msgstr ""
+
+msgid "Bulgaria"
+msgstr "Bulgária"
+
+msgid "Burkina Faso"
+msgstr ""
+
+msgid "Burundi"
+msgstr ""
+
+msgid "Cambodia"
+msgstr "Kambodzsa"
+
+msgid "Cameroon"
+msgstr "Kamerun"
+
+msgid "Canada"
+msgstr "Kanada"
+
+msgid "Cape Verde"
+msgstr "Zöld-foki Köztársaság"
+
+msgid "Cayman Islands"
+msgstr "Kajmán-szigetek"
+
+msgid "Central African Republic"
+msgstr "Közép-afrikai Köztársaság"
+
+msgid "Chad"
+msgstr "Csád"
+
+msgid "Chile"
+msgstr ""
+
+msgid "China"
+msgstr "Kína"
+
+msgid "Christmas Island"
+msgstr "Karácsony-sziget"
+
+msgid "Cocos (Keeling) Islands"
+msgstr "Kókusz (Keeling)-szigetek"
+
+msgid "Colombia"
+msgstr "Kolumbia"
+
+msgid "Comoros"
+msgstr "Comore-szigetek"
+
+msgid "Congo (Brazzaville)"
+msgstr "Kongó (Brazzaville)"
+
+msgid "Congo (Kinshasa)"
+msgstr "Kongó (Kinshasa)"
+
+msgid "Cook Islands"
+msgstr "Cook-szigetek"
+
+msgid "Costa Rica"
+msgstr ""
+
+msgid "Croatia"
+msgstr "Horvátország"
+
+msgid "Cuba"
+msgstr "Kuba"
+
+msgid "Cura&ccedil;ao"
+msgstr "Curaçao ország"
+
+msgid "Cyprus"
+msgstr "Ciprus"
+
+msgid "Czech Republic"
+msgstr "Csehország"
+
+msgid "Denmark"
+msgstr "Dánia"
+
+msgid "Djibouti"
+msgstr "Dzsibuti"
+
+msgid "Dominica"
+msgstr "Dominikai Közösség"
+
+msgid "Dominican Republic"
+msgstr "Dominikai Köztársaság"
+
+msgid "Ecuador"
+msgstr ""
+
+msgid "Egypt"
+msgstr "Egyiptom"
+
+msgid "El Salvador"
+msgstr ""
+
+msgid "Equatorial Guinea"
+msgstr "Egyenlítői-Guinea"
+
+msgid "Eritrea"
+msgstr ""
+
+msgid "Estonia"
+msgstr "Észtország"
+
+msgid "Ethiopia"
+msgstr "Etiópia"
+
+msgid "Falkland Islands"
+msgstr "Falkland-szigetek"
+
+msgid "Faroe Islands"
+msgstr "Faroe Szigetek"
+
+msgid "Fiji"
+msgstr "Fidzsi-szigetek"
+
+msgid "Finland"
+msgstr "Finnország"
+
+msgid "France"
+msgstr "Franciaország"
+
+msgid "French Guiana"
+msgstr "Francia Guyana"
+
+msgid "French Polynesia"
+msgstr "Francia Polinézia"
+
+msgid "French Southern Territories"
+msgstr "Francia déli területek"
+
+msgid "Gabon"
+msgstr ""
+
+msgid "Gambia"
+msgstr ""
+
+msgid "Georgia"
+msgstr "Grúzia"
+
+msgid "Germany"
+msgstr "Németország"
+
+msgid "Ghana"
+msgstr "Ghána"
+
+msgid "Gibraltar"
+msgstr "Gibraltár"
+
+msgid "Greece"
+msgstr "Görögország"
+
+msgid "Greenland"
+msgstr "Grönland"
+
+msgid "Grenada"
+msgstr ""
+
+msgid "Guadeloupe"
+msgstr ""
+
+msgid "Guam"
+msgstr ""
+
+msgid "Guatemala"
+msgstr ""
+
+msgid "Guernsey"
+msgstr ""
+
+msgid "Guinea"
+msgstr ""
+
+msgid "Guinea-Bissau"
+msgstr "Bissau-Guinea"
+
+msgid "Guyana"
+msgstr ""
+
+msgid "Haiti"
+msgstr ""
+
+msgid "Heard Island and McDonald Islands"
+msgstr "Heard-sziget és McDonald-szigetek"
+
+msgid "Honduras"
+msgstr ""
+
+msgid "Hong Kong"
+msgstr ""
+
+msgid "Hungary"
+msgstr "Magyarország"
+
+msgid "Iceland"
+msgstr "Izland"
+
+msgid "India"
+msgstr ""
+
+msgid "Indonesia"
+msgstr "Indonézia"
+
+msgid "Iran"
+msgstr "Irán"
+
+msgid "Iraq"
+msgstr "Irak"
+
+msgid "Ireland"
+msgstr "Írország"
+
+msgid "Isle of Man"
+msgstr "Man"
+
+msgid "Israel"
+msgstr "Izrael"
+
+msgid "Italy"
+msgstr "Olaszország"
+
+msgid "Ivory Coast"
+msgstr "Elefántcsontparti Köztársaság"
+
+msgid "Jamaica"
+msgstr ""
+
+msgid "Japan"
+msgstr "Japán"
+
+msgid "Jersey"
+msgstr ""
+
+msgid "Jordan"
+msgstr "Jordánia"
+
+msgid "Kazakhstan"
+msgstr "Kazahsztán"
+
+msgid "Kenya"
+msgstr ""
+
+msgid "Kiribati"
+msgstr ""
+
+msgid "Kuwait"
+msgstr "Kuvait"
+
+msgid "Kyrgyzstan"
+msgstr "Kirgizisztán"
+
+msgid "Laos"
+msgstr "Laosz"
+
+msgid "Latvia"
+msgstr "Lettország"
+
+msgid "Lebanon"
+msgstr "Libanon"
+
+msgid "Lesotho"
+msgstr ""
+
+msgid "Liberia"
+msgstr "Libéria"
+
+msgid "Libya"
+msgstr "Líbia"
+
+msgid "Liechtenstein"
+msgstr ""
+
+msgid "Lithuania"
+msgstr "Litvánia"
+
+msgid "Luxembourg"
+msgstr "Luxemburg"
+
+msgid "Macao S.A.R., China"
+msgstr "Makaó"
+
+msgid "Macedonia"
+msgstr "Macedónia"
+
+msgid "Madagascar"
+msgstr "Madagaszkár"
+
+msgid "Malawi"
+msgstr ""
+
+msgid "Malaysia"
+msgstr "Malajzia"
+
+msgid "Maldives"
+msgstr "Maldív-szigetek"
+
+msgid "Mali"
+msgstr ""
+
+msgid "Malta"
+msgstr "Málta"
+
+msgid "Marshall Islands"
+msgstr "Marshall-szigetek"
+
+msgid "Martinique"
+msgstr ""
+
+msgid "Mauritania"
+msgstr "Mauritánia"
+
+msgid "Mauritius"
+msgstr ""
+
+msgid "Mayotte"
+msgstr ""
+
+msgid "Mexico"
+msgstr "Mexikó"
+
+msgid "Micronesia"
+msgstr "Mikronézia"
+
+msgid "Moldova"
+msgstr ""
+
+msgid "Monaco"
+msgstr ""
+
+msgid "Mongolia"
+msgstr "Mongólia"
+
+msgid "Montenegro"
+msgstr "Montenegró"
+
+msgid "Montserrat"
+msgstr ""
+
+msgid "Morocco"
+msgstr "Marokkó"
+
+msgid "Mozambique"
+msgstr "Mozambik"
+
+msgid "Myanmar"
+msgstr "Mianmar"
+
+msgid "Namibia"
+msgstr "Namíbia"
+
+msgid "Nauru"
+msgstr ""
+
+msgid "Nepal"
+msgstr "Nepál"
+
+msgid "Netherlands"
+msgstr "Hollandia"
+
+msgid "New Caledonia"
+msgstr "Új-Kaledónia"
+
+msgid "New Zealand"
+msgstr "Új Zéland"
+
+msgid "Nicaragua"
+msgstr ""
+
+msgid "Niger"
+msgstr ""
+
+msgid "Nigeria"
+msgstr "Nigéria"
+
+msgid "Niue"
+msgstr ""
+
+msgid "Norfolk Island"
+msgstr "Norfolk-sziget"
+
+msgid "Northern Mariana Islands"
+msgstr "Északi-Mariana-szigetek"
+
+msgid "North Korea"
+msgstr "Észak Kórea"
+
+msgid "Norway"
+msgstr "Norvégia"
+
+msgid "Oman"
+msgstr "Omán"
+
+msgid "Pakistan"
+msgstr "Pakisztán"
+
+msgid "Palestinian Territory"
+msgstr "Palesztin Autonómia"
+
+msgid "Panama"
+msgstr ""
+
+msgid "Papua New Guinea"
+msgstr "Pápua Új-Guinea"
+
+msgid "Paraguay"
+msgstr "Paraguayi Köztársaság"
+
+msgid "Peru"
+msgstr ""
+
+msgid "Philippines"
+msgstr "Fülöp-szigetek"
+
+msgid "Pitcairn"
+msgstr "Pitcairn-szigetek"
+
+msgid "Poland"
+msgstr "Lengyelország"
+
+msgid "Portugal"
+msgstr "Portugália"
+
+msgid "Puerto Rico"
+msgstr ""
+
+msgid "Qatar"
+msgstr "Katar"
+
+msgid "Reunion"
+msgstr ""
+
+msgid "Romania"
+msgstr "Románia"
+
+msgid "Russia"
+msgstr "Oroszország"
+
+msgid "Rwanda"
+msgstr "Ruanda"
+
+msgid "Saint Barth&eacute;lemy"
+msgstr "Saint-Barthélemy"
+
+msgid "Saint Helena"
+msgstr "Szent Ilona"
+
+msgid "Saint Kitts and Nevis"
+msgstr "Saint Christopher és Nevis Államszövetség"
+
+msgid "Saint Lucia"
+msgstr ""
+
+msgid "Saint Martin (French part)"
+msgstr "Saint-Martin (francia rész)"
+
+msgid "Saint Martin (Dutch part)"
+msgstr "Sint Maarten (holland rész)"
+
+msgid "Saint Pierre and Miquelon"
+msgstr "Saint-Pierre és Miquelon"
+
+msgid "Saint Vincent and the Grenadines"
+msgstr "Saint Vincent és a Grenadine-szigetek"
+
+msgid "San Marino"
+msgstr "San Marino Köztársaság"
+
+msgid "S&atilde;o Tom&eacute; and Pr&iacute;ncipe"
+msgstr "São Tomé és Príncipe-i dobra"
+
+msgid "Saudi Arabia"
+msgstr "Szaud-Arábia"
+
+msgid "Senegal"
+msgstr "Szenegál"
+
+msgid "Serbia"
+msgstr "Szerbia"
+
+msgid "Seychelles"
+msgstr "Seychelle-szigetek"
+
+msgid "Sierra Leone"
+msgstr ""
+
+msgid "Singapore"
+msgstr "Szingapúr"
+
+msgid "Slovakia"
+msgstr "Szlovákia"
+
+msgid "Slovenia"
+msgstr "Szlovénia"
+
+msgid "Solomon Islands"
+msgstr "Salamon-szigetek"
+
+msgid "Somalia"
+msgstr "Szomália"
+
+msgid "South Africa"
+msgstr "Dél-Afrika"
+
+msgid "South Georgia/Sandwich Islands"
+msgstr "Déli-Georgia és Déli-Sandwich-szigetek"
+
+msgid "South Korea"
+msgstr "Dél-Korea"
+
+msgid "South Sudan"
+msgstr "Dél Szudán"
+
+msgid "Spain"
+msgstr "Spanyolország"
+
+msgid "Sri Lanka"
+msgstr ""
+
+msgid "Sudan"
+msgstr "Szudán"
+
+msgid "Suriname"
+msgstr ""
+
+msgid "Svalbard and Jan Mayen"
+msgstr "Svalbard és Jan Mayen"
+
+msgid "Swaziland"
+msgstr "Szváziföld"
+
+msgid "Sweden"
+msgstr "Svédország"
+
+msgid "Switzerland"
+msgstr "Svájc"
+
+msgid "Syria"
+msgstr "Szíria"
+
+msgid "Taiwan"
+msgstr "Kínai Köztársaság (Tajvan)"
+
+msgid "Tajikistan"
+msgstr "Tádzsikisztán"
+
+msgid "Tanzania"
+msgstr "Tanzánia"
+
+msgid "Thailand"
+msgstr "Thaiföld"
+
+msgid "Timor-Leste"
+msgstr "Kelet-Timor"
+
+msgid "Togo"
+msgstr ""
+
+msgid "Tokelau"
+msgstr "Tokelau-szigetek"
+
+msgid "Tonga"
+msgstr ""
+
+msgid "Trinidad and Tobago"
+msgstr "Trinidad és Tobago"
+
+msgid "Tunisia"
+msgstr "Tunézia"
+
+msgid "Turkey"
+msgstr "Törökország"
+
+msgid "Turkmenistan"
+msgstr "Türkmenisztán"
+
+msgid "Turks and Caicos Islands"
+msgstr "Turks- és Caicos-szigetek"
+
+msgid "Tuvalu"
+msgstr ""
+
+msgid "Uganda"
+msgstr ""
+
+msgid "Ukraine"
+msgstr "Ukrajna"
+
+msgid "United Arab Emirates"
+msgstr "Egyesült Arab Emírségek"
+
+msgid "United Kingdom (UK)"
+msgstr "Egyesült Királyság"
+
+msgid "United States (US)"
+msgstr "Amerikai Egyesült Államok"
+
+msgid "United States (US) Minor Outlying Islands"
+msgstr "Az Amerikai Egyesült Államok lakatlan külbirtokai"
+
+msgid "United States (US) Virgin Islands"
+msgstr "Amerikai Virgin-szigetek"
+
+msgid "Uruguay"
+msgstr ""
+
+msgid "Uzbekistan"
+msgstr "Üzbegisztán"
+
+msgid "Vanuatu"
+msgstr ""
+
+msgid "Vatican"
+msgstr "Vatikán"
+
+msgid "Venezuela"
+msgstr ""
+
+msgid "Vietnam"
+msgstr ""
+
+msgid "Wallis and Futuna"
+msgstr "Wallis és Futuna"
+
+msgid "Western Sahara"
+msgstr "Nyugat-Szahara"
+
+msgid "Samoa"
+msgstr "Szamoa"
+
+msgid "Yemen"
+msgstr "Jemen"
+
+msgid "Zambia"
+msgstr ""
+
+msgid "Zimbabwe"
+msgstr ""
+
+msgid "Euro"
+msgstr ""
+
+msgid "United States (US) dollar"
+msgstr ""
+
+msgid "Pound sterling"
+msgstr "Font sterling"
+
+msgid "United Arab Emirates dirham"
+msgstr "Egyesült Arab Emírségek dirham"
+
+msgid "Afghan afghani"
+msgstr ""
+
+msgid "Albanian lek"
+msgstr ""
+
+msgid "Armenian dram"
+msgstr ""
+
+msgid "Netherlands Antillean guilder"
+msgstr ""
+
+msgid "Angolan kwanza"
+msgstr ""
+
+msgid "Argentine peso"
+msgstr "Argentin peso"
+
+msgid "Australian dollar"
+msgstr "Ausztrál dollár"
+
+msgid "Aruban florin"
+msgstr ""
+
+msgid "Azerbaijani manat"
+msgstr ""
+
+msgid "Bosnia and Herzegovina convertible mark"
+msgstr ""
+
+msgid "Barbadian dollar"
+msgstr ""
+
+msgid "Bangladeshi taka"
+msgstr "Bangladesi taka"
+
+msgid "Bulgarian lev"
+msgstr "Bolgár leva"
+
+msgid "Bahraini dinar"
+msgstr ""
+
+msgid "Burundian franc"
+msgstr ""
+
+msgid "Bermudian dollar"
+msgstr ""
+
+msgid "Brunei dollar"
+msgstr ""
+
+msgid "Bolivian boliviano"
+msgstr ""
+
+msgid "Brazilian real"
+msgstr "Brazil real"
+
+msgid "Bahamian dollar"
+msgstr ""
+
+msgid "Bitcoin"
+msgstr ""
+
+msgid "Bhutanese ngultrum"
+msgstr ""
+
+msgid "Botswana pula"
+msgstr ""
+
+msgid "Belarusian ruble (old)"
+msgstr ""
+
+msgid "Belarusian ruble"
+msgstr ""
+
+msgid "Belize dollar"
+msgstr ""
+
+msgid "Canadian dollar"
+msgstr "Kanadai dollár"
+
+msgid "Congolese franc"
+msgstr ""
+
+msgid "Swiss franc"
+msgstr "Svájci frank"
+
+msgid "Chilean peso"
+msgstr "Chilei peso"
+
+msgid "Chinese yuan"
+msgstr "Kínai jüan"
+
+msgid "Colombian peso"
+msgstr "Kolumbiai peso"
+
+msgid "Costa Rican col&oacute;n"
+msgstr ""
+
+msgid "Cuban convertible peso"
+msgstr ""
+
+msgid "Cuban peso"
+msgstr ""
+
+msgid "Cape Verdean escudo"
+msgstr ""
+
+msgid "Czech koruna"
+msgstr "Cseh korona"
+
+msgid "Djiboutian franc"
+msgstr ""
+
+msgid "Danish krone"
+msgstr "Dán korona"
+
+msgid "Dominican peso"
+msgstr "Dominikai peso"
+
+msgid "Algerian dinar"
+msgstr ""
+
+msgid "Egyptian pound"
+msgstr "Egyiptomi font"
+
+msgid "Eritrean nakfa"
+msgstr ""
+
+msgid "Ethiopian birr"
+msgstr ""
+
+msgid "Fijian dollar"
+msgstr ""
+
+msgid "Falkland Islands pound"
+msgstr ""
+
+msgid "Georgian lari"
+msgstr ""
+
+msgid "Guernsey pound"
+msgstr ""
+
+msgid "Ghana cedi"
+msgstr ""
+
+msgid "Gibraltar pound"
+msgstr ""
+
+msgid "Gambian dalasi"
+msgstr ""
+
+msgid "Guinean franc"
+msgstr ""
+
+msgid "Guatemalan quetzal"
+msgstr ""
+
+msgid "Guyanese dollar"
+msgstr ""
+
+msgid "Hong Kong dollar"
+msgstr "Hong Kong-i dollár"
+
+msgid "Honduran lempira"
+msgstr ""
+
+msgid "Croatian kuna"
+msgstr "Horvát kuna"
+
+msgid "Haitian gourde"
+msgstr ""
+
+msgid "Hungarian forint"
+msgstr "Magyar forint"
+
+msgid "Indonesian rupiah"
+msgstr "Indonéz rúpia"
+
+msgid "Israeli new shekel"
+msgstr ""
+
+msgid "Manx pound"
+msgstr ""
+
+msgid "Indian rupee"
+msgstr "Indiai rúpia"
+
+msgid "Iraqi dinar"
+msgstr ""
+
+msgid "Iranian rial"
+msgstr ""
+
+msgid "Iranian toman"
+msgstr ""
+
+msgid "Icelandic kr&oacute;na"
+msgstr ""
+
+msgid "Jersey pound"
+msgstr ""
+
+msgid "Jamaican dollar"
+msgstr ""
+
+msgid "Jordanian dinar"
+msgstr ""
+
+msgid "Japanese yen"
+msgstr "Japán jen"
+
+msgid "Kenyan shilling"
+msgstr "Kenyai shilling"
+
+msgid "Kyrgyzstani som"
+msgstr ""
+
+msgid "Cambodian riel"
+msgstr ""
+
+msgid "Comorian franc"
+msgstr ""
+
+msgid "North Korean won"
+msgstr ""
+
+msgid "South Korean won"
+msgstr "Dél-koreai won"
+
+msgid "Kuwaiti dinar"
+msgstr ""
+
+msgid "Cayman Islands dollar"
+msgstr ""
+
+msgid "Kazakhstani tenge"
+msgstr ""
+
+msgid "Lao kip"
+msgstr "Llaoszi Kip"
+
+msgid "Lebanese pound"
+msgstr ""
+
+msgid "Sri Lankan rupee"
+msgstr ""
+
+msgid "Liberian dollar"
+msgstr ""
+
+msgid "Lesotho loti"
+msgstr ""
+
+msgid "Libyan dinar"
+msgstr ""
+
+msgid "Moroccan dirham"
+msgstr ""
+
+msgid "Moldovan leu"
+msgstr ""
+
+msgid "Malagasy ariary"
+msgstr ""
+
+msgid "Macedonian denar"
+msgstr ""
+
+msgid "Burmese kyat"
+msgstr ""
+
+msgid "Mongolian t&ouml;gr&ouml;g"
+msgstr ""
+
+msgid "Macanese pataca"
+msgstr ""
+
+msgid "Mauritanian ouguiya"
+msgstr ""
+
+msgid "Mauritian rupee"
+msgstr ""
+
+msgid "Maldivian rufiyaa"
+msgstr ""
+
+msgid "Malawian kwacha"
+msgstr ""
+
+msgid "Mexican peso"
+msgstr "Mexikói peso"
+
+msgid "Malaysian ringgit"
+msgstr "Maláj ringgit"
+
+msgid "Mozambican metical"
+msgstr ""
+
+msgid "Namibian dollar"
+msgstr ""
+
+msgid "Nigerian naira"
+msgstr "Nigériai naira"
+
+msgid "Nicaraguan c&oacute;rdoba"
+msgstr ""
+
+msgid "Norwegian krone"
+msgstr "Norvég korona"
+
+msgid "Nepalese rupee"
+msgstr ""
+
+msgid "New Zealand dollar"
+msgstr "Új-zélandi dollár"
+
+msgid "Omani rial"
+msgstr ""
+
+msgid "Panamanian balboa"
+msgstr ""
+
+msgid "Sol"
+msgstr ""
+
+msgid "Papua New Guinean kina"
+msgstr ""
+
+msgid "Philippine peso"
+msgstr "Fülöp-szigeteki peso"
+
+msgid "Pakistani rupee"
+msgstr "Pakisztáni rúpia"
+
+msgid "Polish z&#x142;oty"
+msgstr ""
+
+msgid "Transnistrian ruble"
+msgstr ""
+
+msgid "Paraguayan guaran&iacute;"
+msgstr ""
+
+msgid "Qatari riyal"
+msgstr ""
+
+msgid "Romanian leu"
+msgstr "Román lej"
+
+msgid "Serbian dinar"
+msgstr ""
+
+msgid "Russian ruble"
+msgstr "Orosz rubel"
+
+msgid "Rwandan franc"
+msgstr ""
+
+msgid "Saudi riyal"
+msgstr "Szaúdi riál"
+
+msgid "Solomon Islands dollar"
+msgstr ""
+
+msgid "Seychellois rupee"
+msgstr ""
+
+msgid "Sudanese pound"
+msgstr ""
+
+msgid "Swedish krona"
+msgstr "Svéd korona"
+
+msgid "Singapore dollar"
+msgstr "Szingapúri dollár"
+
+msgid "Saint Helena pound"
+msgstr ""
+
+msgid "Sierra Leonean leone"
+msgstr ""
+
+msgid "Somali shilling"
+msgstr ""
+
+msgid "Surinamese dollar"
+msgstr ""
+
+msgid "South Sudanese pound"
+msgstr ""
+
+msgid "S&atilde;o Tom&eacute; and Pr&iacute;ncipe dobra"
+msgstr ""
+
+msgid "Syrian pound"
+msgstr ""
+
+msgid "Swazi lilangeni"
+msgstr ""
+
+msgid "Thai baht"
+msgstr "Thai bát"
+
+msgid "Tajikistani somoni"
+msgstr ""
+
+msgid "Turkmenistan manat"
+msgstr ""
+
+msgid "Tunisian dinar"
+msgstr ""
+
+msgid "Tongan pa&#x2bb;anga"
+msgstr ""
+
+msgid "Turkish lira"
+msgstr "Török líra"
+
+msgid "Trinidad and Tobago dollar"
+msgstr ""
+
+msgid "New Taiwan dollar"
+msgstr ""
+
+msgid "Tanzanian shilling"
+msgstr ""
+
+msgid "Ukrainian hryvnia"
+msgstr "Ukrán hrivnya"
+
+msgid "Ugandan shilling"
+msgstr ""
+
+msgid "Uruguayan peso"
+msgstr ""
+
+msgid "Uzbekistani som"
+msgstr ""
+
+msgid "Venezuelan bol&iacute;var"
+msgstr ""
+
+msgid "Bol&iacute;var soberano"
+msgstr ""
+
+msgid "Vietnamese &#x111;&#x1ed3;ng"
+msgstr ""
+
+msgid "Vanuatu vatu"
+msgstr ""
+
+msgid "Samoan t&#x101;l&#x101;"
+msgstr ""
+
+msgid "Central African CFA franc"
+msgstr ""
+
+msgid "East Caribbean dollar"
+msgstr ""
+
+msgid "West African CFA franc"
+msgstr ""
+
+msgid "CFP franc"
+msgstr ""
+
+msgid "Yemeni rial"
+msgstr ""
+
+msgid "South African rand"
+msgstr "Dél-afrikai rand"
+
+msgid "Zambian kwacha"
+msgstr ""
+
+msgid "Before"
+msgstr "Előtte"
+
+msgid "After"
+msgstr "Utána"
+
+msgid "Before with space"
+msgstr "Szóközzel előtte"
+
+msgid "After with space"
+msgstr "Szóközzel utána"
+
+msgid "First name is required."
+msgstr "A keresztnév feltüntetése kötelező."
+
+msgid "Last name is required."
+msgstr "A vezetéknév feltüntetése kötelező."
+
+msgid "Email is required."
+msgstr "Az e-mail cím feltüntetése kötelező."
+
+msgid "Phone is required."
+msgstr "A telefonszám feltüntetése kötelező."
+
+msgid "Country of residence"
+msgstr "Lakóhely szerinti ország"
+
+msgid "Country is required."
+msgstr "Az ország feltüntetése kötelező."
+
+msgid "Address is required."
+msgstr "A cím feltüntetése kötelező."
+
+msgid "City is required."
+msgstr "A város feltüntetése kötelező."
+
+msgid "State is required."
+msgstr "Az állam feltüntetése kötelező."
+
+msgid "Postcode is required."
+msgstr "A irányítókód feltüntetése kötelező."
+
+msgid "Note is required."
+msgstr ""
+
+msgid "Check-in"
+msgstr "Bejelentkezés"
+
+msgid "Check-out"
+msgstr "Kijelentkezés"
+
+#. translators: The value a hotel wishes to sell their rooms. Also called the Cost, Value, Tariff or Room charge.
+msgid "Rate"
+msgstr "Értékelés"
+
+msgid "Adults/Guests"
+msgstr ""
+
+msgid "Full Guest Name"
+msgstr "Vendég teljes neve"
+
+msgid "Accommodation Subtotal"
+msgstr "Szálláshely részösszege"
+
+msgid "Total Accommodation Taxes"
+msgstr ""
+
+msgid "Total Fees"
+msgstr ""
+
+msgid "Services Subtotal"
+msgstr "Szolgáltatások részösszege"
+
+msgid "Total Service Taxes"
+msgstr ""
+
+msgid "Total Fee Taxes"
+msgstr ""
+
+msgid "Discount"
+msgstr ""
+
+msgid "Total"
+msgstr "Összesen"
+
+msgid "Paid"
+msgstr "Fizetett"
+
+msgid "Payment Details"
+msgstr "Fizetési adatok"
+
+msgid "Square Meter"
+msgstr "Négyzetméter"
+
+msgid "Square Foot"
+msgstr "Тégyzetláb"
+
+msgid "Square Yard"
+msgstr "Négyzet yard"
+
+msgid "m²"
+msgstr ""
+
+msgid "ft²"
+msgstr ""
+
+msgid "yd²"
+msgstr ""
+
+msgid "User Approval Time setted in Hotel Booking Settings"
+msgstr "A felhasználó jóváhagyási idő a Szállásfoglalás beállításokban állítható be."
+
+msgid "Pending Payment Time set in Hotel Booking Settings"
+msgstr "A kifizetésre váró fizetés időtartama a Szállásfoglalás beállításokban állítható be."
+
+msgid "Interval for automatic cleaning of synchronization logs."
+msgstr ""
+
+msgid "x %d guest"
+msgid_plural "x %d guests"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "x %d time"
+msgid_plural "x %d times"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "Please select columns to export."
+msgstr ""
+
+msgid "Disable this email notification"
+msgstr "Az adott e-mail értesítés kikapcsolása"
+
+msgid "Subject"
+msgstr "Téma"
+
+msgid "Header"
+msgstr "Fejléc"
+
+msgid "Email Template"
+msgstr "E-mail sablon"
+
+msgid "\"%s\" email will not be sent: there is no customer email in the booking."
+msgstr "\"%s\" email nem lesz elküldve: nincs ügyféli email a foglalásban."
+
+msgid "Deprecated tags in header of %s"
+msgstr "Elavult címkék a %s fejlécben"
+
+msgid "Deprecated tags in subject of %s"
+msgstr "Elavult címkék a %s témában"
+
+msgid "Deprecated tags in template of %s"
+msgstr "Elavult címkék a %s sablonban"
+
+msgid "Recipients"
+msgstr ""
+
+msgid "You can use multiple comma-separated emails"
+msgstr ""
+
+msgid "\"%s\" mail was sent to admin."
+msgstr "A \"%s\" e-mail el lett küldve az adminnak,"
+
+msgid "\"%s\" mail sending to admin is failed."
+msgstr "A \"%s\" e-mailt nem kapta meg az admin."
+
+msgid "Booking Cancelled"
+msgstr "A foglalást töröltük"
+
+msgid "%site_title% - Booking #%booking_id% Cancelled"
+msgstr "%site_title% - Törölt #%booking_id% Cancelled"
+
+msgid "Email that will be sent to Admin when customer cancels booking."
+msgstr "Az az e-mail, amely az Adminnak lesz elküldve a foglalás törlése után."
+
+msgid "Cancelled Booking Email"
+msgstr "Törölt foglalási e-mail"
+
+msgid "Booking Confirmed"
+msgstr "A foglalást megerősítettük"
+
+msgid "%site_title% - Booking #%booking_id% Confirmed"
+msgstr "%site_title% - A #%booking_id% meg van erősítve"
+
+msgid "Email that will be sent to Admin when payment is completed."
+msgstr "Az e-mail, amely az adminnak a befejezett fizetés után lesz elküldve."
+
+msgid "Approved Booking Email (via payment)"
+msgstr "Jóváhagyott foglalási e-mail (fizetés által)"
+
+msgid "Email that will be sent to Admin when customer confirms booking."
+msgstr "Az az e-mail, amely az Adminnak lesz elküldve a foglalás megerősítése után."
+
+msgid "Approved Booking Email"
+msgstr "Jóváhagyott foglalási E-mail"
+
+msgid "Confirm new booking"
+msgstr "Új foglalás megerősítése"
+
+msgid "%site_title% - New booking #%booking_id%"
+msgstr "%site_title% - Új foglalás #%booking_id%"
+
+msgid "Email that will be sent to administrator after booking is placed."
+msgstr "Az az e-mail, amely az adminisztrátornak lesz elküldve a foglalás után."
+
+msgid "Pending Booking Email"
+msgstr "Függő foglalási e-mail"
+
+msgid "Your booking is approved"
+msgstr "Az Ön foglalását elfogadtuk"
+
+msgid "%site_title% - Your booking #%booking_id% is approved"
+msgstr "%site_title% - A #%booking_id% foglalást megerősítettük"
+
+msgid "Email that will be sent to customer when booking is approved."
+msgstr "Az az e-mail, amely az ügyfélnek lesz elküldve a foglalás megerősítése után."
+
+msgid "\"%s\" mail was sent to customer."
+msgstr "A \"%s\" e-mail el lett küldve az ügyfélnek."
+
+msgid "\"%s\" mail sending is failed."
+msgstr "A \"%s\" "
+
+msgid "Your booking is cancelled"
+msgstr "Az Ön foglalását töröltük."
+
+msgid "%site_title% - Your booking #%booking_id% is cancelled"
+msgstr "%site_title% - A #%booking_id% foglalást töröltük"
+
+msgid "Email that will be sent to customer when booking is cancelled."
+msgstr "Az az e-mail, amely az ügyfélnek lesz elküldve a foglalás törlése után."
+
+msgid "Confirm your booking"
+msgstr "Erősítse meg az ön foglalását"
+
+msgid "%site_title% - Confirm your booking #%booking_id%"
+msgstr "%site_title% - Erősítse meg a #%booking_id% foglalást"
+
+msgid "This email is sent when \"Booking Confirmation Mode\" is set to Customer confirmation via email."
+msgstr ""
+
+msgid "Email that will be sent to customer after booking is placed."
+msgstr "Az az e-mail, amely az ügyfélnek lesz elküldve a foglalás után."
+
+msgid "New Booking Email (Confirmation by User)"
+msgstr "Új foglalás e-mail (Megerősítés a felhasználó által)"
+
+msgid "Your booking is placed"
+msgstr "Sikeres foglalás"
+
+msgid "%site_title% - Booking #%booking_id% is placed"
+msgstr "%site_title% - Sikeres foglalás: #%booking_id%"
+
+msgid "This email is sent when \"Booking Confirmation Mode\" is set to Admin confirmation."
+msgstr "Az e-mail akkor lesz elküldve, ha a \"Foglalás megerősítés mód\" menüben az Admin megerősítést választja."
+
+msgid "New Booking Email (Confirmation by Admin)"
+msgstr "Új foglalási e-mail (Megerősítés az admin által)"
+
+msgid "Welcome"
+msgstr ""
+
+msgid "%site_title% - account details"
+msgstr ""
+
+msgid "Email that will be sent to a customer after they registered on your site."
+msgstr ""
+
+msgid "Customer Registration Email"
+msgstr ""
+
+msgid "Possible tags:"
+msgstr "Lehetséges címkék:"
+
+msgid "Deprecated."
+msgstr "Elavult."
+
+msgid "none"
+msgstr "egyik sem"
+
+msgid "User Cancellation Link"
+msgstr "Törlési link"
+
+msgid "Site title (set in Settings > General)"
+msgstr "Webhely cím (Beállítások > Általános)"
+
+msgid "Booking ID"
+msgstr "Foglalás azonosító"
+
+msgid "Booking Edit Link"
+msgstr "Foglalás módosítás link"
+
+msgid "Booking Total Price"
+msgstr "Teljes foglalási ár"
+
+msgid "Customer First Name"
+msgstr "Ügyfél Keresztneve"
+
+msgid "Customer Last Name"
+msgstr "Ügyfél vezetékneve"
+
+msgid "Customer Email"
+msgstr "Ügyfél e-mail címje"
+
+msgid "Customer Phone"
+msgstr "Ügyfél telefonszáma"
+
+msgid "Customer Country"
+msgstr ""
+
+msgid "Customer Address"
+msgstr ""
+
+msgid "Customer City"
+msgstr ""
+
+msgid "Customer State/County"
+msgstr ""
+
+msgid "Customer Postcode"
+msgstr ""
+
+msgid "Reserved Accommodations Details"
+msgstr "Fenntartott szálláshely részletek"
+
+msgid "Booking Details"
+msgstr "Foglalási adatok"
+
+msgid "Confirmation Link"
+msgstr "Megerősítési link"
+
+msgid "Confirmation Link Expiration Time ( UTC )"
+msgstr "Megerősítési link lejárati ideje"
+
+msgid "Cancellation Details (if enabled)"
+msgstr "Lemondási Részletek (ha engedélyezve van)"
+
+msgid "The total amount of payment"
+msgstr ""
+
+msgid "The unique ID of payment"
+msgstr "A fizetés egyedi azonosítószáma"
+
+msgid "The method of payment"
+msgstr "A fizetés módszere"
+
+msgid "Payment instructions"
+msgstr ""
+
+msgid "User login"
+msgstr ""
+
+msgid "User password"
+msgstr ""
+
+msgid "Link to My Account page"
+msgstr ""
+
+msgid "My Account"
+msgstr ""
+
+msgid "Accommodation Type Link"
+msgstr "Szállástípus link"
+
+msgid "Accommodation Type Title"
+msgstr "Szállástípus cím"
+
+msgid "Accommodation Type Categories"
+msgstr "Szállástípus kategóriák"
+
+msgid "Accommodation Type Bed"
+msgstr "Szállástípus ágy"
+
+msgid "Accommodation Rate Title"
+msgstr "Szállásdíj cím"
+
+msgid "Accommodation Rate Description"
+msgstr "Szállásdíj leírás"
+
+msgid "Sequential Number of Accommodation"
+msgstr "Szállás sorozatszám"
+
+msgid "This coupon has expired."
+msgstr "A kupon lejárt."
+
+msgid "Sorry, this coupon is not applicable to your booking contents."
+msgstr "Sajnáljuk, a kupon nem használható az adott foglalásokhoz."
+
+msgid "Coupon usage limit has been reached."
+msgstr "Kupon felhasználási korlát elérve."
+
+msgid " &#215; %d night"
+msgid_plural " &#215; %d nights"
+msgstr[0] " &#215; %d este"
+msgstr[1] " &#215; %d este"
+
+msgid "%d adult"
+msgid_plural "%d adults"
+msgstr[0] "%d felnőtt"
+msgstr[1] "%d felnőtt"
+
+msgid "%d guest"
+msgid_plural "%d guests"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid " &#215; %d time"
+msgid_plural " &#215; %d times"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "Per Instance"
+msgstr ""
+
+msgid "Maximum execution time is set to %d seconds."
+msgstr "A maximális végrehajtási idő %d másodpercre lett beállítva."
+
+msgid "%d URL pulled for parsing."
+msgid_plural "%d URLs pulled for parsing."
+msgstr[0] "%d URL került elemzésre."
+msgstr[1] "%d URL került elemzésre."
+
+msgid "Skipped. No URLs found for parsing."
+msgstr "Kimarad. Nem található URL az elemzéshez ."
+
+msgid "Cannot read uploaded file"
+msgstr "Nem sikerült olvasni a feltöltött fájlt"
+
+msgid "We will need to check %d previous booking after importing and remove it if the booking is outdated."
+msgid_plural "We will need to check %d previous bookings after importing and remove the outdated ones."
+msgstr[0] ""
+msgstr[1] ""
+
+msgctxt "%s - calendar URI or calendar filename"
+msgid "%1$d event found in calendar %2$s"
+msgid_plural "%1$d events found in calendar %2$s"
+msgstr[0] "%1$d esemény a naptárban %2$s"
+msgstr[1] "%1$d esemény a naptárban %2$s"
+
+msgctxt "%s - calendar URI or calendar filename"
+msgid "Calendar source is empty (%s)"
+msgstr "A naptár forrása üres (%s)"
+
+msgctxt "%s - calendar URI or calendar filename"
+msgid "Calendar file is not empty, but there are no events in %s"
+msgstr "A naptár nem üres, de mégse rendelkezik eseményekkel %s-kor"
+
+msgid "Error while loading calendar (%1$s): %2$s"
+msgstr "Hiba történt a naptár betöltése közben (%1$s): %2$s"
+
+msgctxt "%s - error description"
+msgid "Parse error. %s"
+msgstr "Parse hiba. %s"
+
+msgid "Skipped. Outdated booking #%d already removed."
+msgstr ""
+
+msgid "Skipped. Booking #%d updated with new data."
+msgstr ""
+
+msgid "The outdated booking #%d has been removed."
+msgstr ""
+
+msgid "Skipped. Event from %1$s to %2$s has passed."
+msgstr ""
+
+msgid "New booking #%1$d. The dates from %2$s to %3$s are now blocked."
+msgstr ""
+
+msgid "Success. Booking #%d updated with new data."
+msgstr ""
+
+msgid "Skipped. The dates from %1$s to %2$s are already blocked."
+msgstr ""
+
+msgid "Success. Booking #%1$d updated with new data. Removed %2$d outdated booking."
+msgid_plural "Success. Booking #%1$d updated with new data. Removed %2$d outdated bookings."
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "Success. Booking #%1$d updated with new data."
+msgstr ""
+
+msgid "Cannot import new event. Dates from %1$s to %2$s are partially blocked by booking %3$s."
+msgid_plural "Cannot import new event. Dates from %1$s to %2$s are partially blocked by bookings %3$s."
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "Booking imported with UID %1$s.<br />Summary: %2$s.<br />Description: %3$s.<br />Source: %4$s."
+msgstr ""
+
+msgid "Process Information"
+msgstr "Információ átdolgozása"
+
+msgid "Total bookings: %s"
+msgstr "Összes foglalás: %s"
+
+msgid "Success bookings: %s"
+msgstr "Sikeres foglalások: %s"
+
+msgid "Skipped bookings: %s"
+msgstr "Átugrott foglalások: %s"
+
+msgid "Failed bookings: %s"
+msgstr "Sikertelen foglalások: %s"
+
+msgid "Removed bookings: %s"
+msgstr ""
+
+msgid "Expand All"
+msgstr "Mind kinyitása"
+
+msgid "Collapse All"
+msgstr "Minden bezárása"
+
+msgid "All done! %1$d booking was successfully added."
+msgid_plural "All done! %1$d bookings were successfully added."
+msgstr[0] "Minden kész! %1$d foglalás sikeresen hozzáadva."
+msgstr[1] "Minden kész! %1$d foglalás sikeresen hozzáadva."
+
+msgid " There was %2$d failure."
+msgid_plural " There were %2$d failures."
+msgstr[0] " %2$d hiba volt."
+msgstr[1] "%2$d hiba volt."
+
+msgid "Dismiss "
+msgstr "Elvetés"
+
+msgid "Your License Key is not active. Please, <a href='%s'>activate your License Key</a> to get plugin updates"
+msgstr "A licenc kulcs nem aktív. Kérjük, <a href='%s'>aktiválja a licenc kulcsot</a> ahhoz, hogy bővítmény frissítéseket tudjon kapni"
+
+msgid "Hotel Booking Plugin"
+msgstr "Szálloda foglalási bővítmény"
+
+msgid "Your database is being updated in the background."
+msgstr "Az adatbázis frissítése a háttérben történik."
+
+msgid "Taking a while? Click here to run it now."
+msgstr "Sok időbe tart? Kattintson ide a futtatáshoz."
+
+msgid "Add \"Booking Confirmation\" shortcode to your \"Booking Confirmed\" and \"Reservation Received\" pages to show more details about booking or payment.<br/>Click \"Update Pages\" to apply all changes automatically or skip this notice and add \"Booking Confirmation\" shortcode manually.<br/><b><em>This action will replace the whole content of the pages.</em></b>"
+msgstr ""
+
+msgid "Update Pages"
+msgstr ""
+
+msgid "Skip"
+msgstr "Ugrás"
+
+msgid "Direct Bank Transfer"
+msgstr ""
+
+msgid "Make your payment directly into our bank account. Please use your Booking ID as the payment reference."
+msgstr ""
+
+msgid "Beanstream/Bambora"
+msgstr ""
+
+msgid "Use the card number %1$s with CVC %2$s and a valid expiration date to test a payment."
+msgstr "Használja a %1$s kártya számot a CVC %2$s számmal és egy érvényes lejárati dátumot ahhoz, hogy tesztelje a fizetést."
+
+msgid "Pay by Card (Beanstream)"
+msgstr "Kártyás fizetés (Beanstream)"
+
+msgid "Pay with your credit card via Beanstream."
+msgstr "Fizessen a bankkártyájával a Beanstream-en keresztül"
+
+msgid "%1$s is enabled, but the <a href=\"%2$s\">Force Secure Checkout</a> option is disabled. Please enable SSL and ensure your server has a valid SSL certificate. Otherwise, %1$s will only work in Test Mode."
+msgstr "%1$s engedélyezve van, de a <a href=\"%2$s\">Biztonságos fizetés kényszerítésé</a> le van tiltva. Kérjük, engedélyezze a SSL-t, és győződjön meg róla, hogy egy érvényes SSL tanúsítvánnyal rendelkezik. Ellenkező esetben a %1$s csak teszt üzemmódban működik."
+
+msgid "The <a href=\"%2$s\">Force Secure Checkout</a> option is disabled. Please enable SSL and ensure your server has a valid SSL certificate. Otherwise, %1$s will only work in Test Mode."
+msgstr "A <a href=\"%2$s\">Biztonságos fizetés kényszerítése</a> opció le van tiltva.  Kérjük, engedélyezze a SSL-t, és győződjön meg róla, hogy egy érvényes SSL tanúsítvánnyal rendelkezik. Ellenkező esetben a %1$s csak teszt üzemmódban működik."
+
+msgid "Beanstream"
+msgstr ""
+
+msgid "Merchant ID"
+msgstr "Kereskedő ID"
+
+msgid "Your Merchant ID can be found in the top-right corner of the screen after logging in to the Beanstream Back Office"
+msgstr "Az Ön kereskedő ID száma a képernyő jobb felső sarkában található meg, miután bejelentkezett a Beanstream Back Office-ba"
+
+msgid "Payments Passcode"
+msgstr "Fizetések jelszava"
+
+msgid "To generate the passcode, navigate to Administration > Account Settings > Order Settings in the sidebar, then scroll to Payment Gateway > Security/Authentication"
+msgstr "A jelszó létrehozásához keresse meg az Adminisztráció > Fiókbeállítások > Megrendelési beállítások oldalt az oldalsávban, majd lépjen a Fizetési átjáró > Biztonság oldalra"
+
+msgid "Beanstream Payment Error: %s"
+msgstr "Beanstream fizetési hiba: %s"
+
+msgid "Payment single use token is required."
+msgstr "Kötelező az egyszer használható fizetési token."
+
+msgid "Braintree"
+msgstr ""
+
+msgid "Webhooks Destination URL: %s"
+msgstr "Webhooks Cél URL:%s"
+
+msgid "Pay by Card (Braintree)"
+msgstr "Kártyával való fizetés (Braintree)"
+
+msgid "Pay with your credit card via Braintree."
+msgstr "Fizessen a hitelkártyájával a Braintree-n keresztül."
+
+msgid "Braintree gateway cannot be enabled due to some problems: %s"
+msgstr " Braintree átjáró bizonyos problémák miatt nem engedélyezhető: %s"
+
+msgid "In your Braintree account select Account > My User > View Authorizations."
+msgstr "Az Ön Braintree fiókjában válassza a Fiók > Saját felhasználó> Megtekintési jogosultságok opciót."
+
+msgid "Public Key"
+msgstr "Nyilvános kulcs"
+
+msgid "Private Key"
+msgstr "Titkos kulcs"
+
+msgid "Merchant Account ID"
+msgstr "Kereskedőfiók ID"
+
+msgid "In case the site currency differs from default currency in your Braintree account, you can set specific merchant account to avoid <a href=\"%s\">complications with currencty conversions</a>. Otherwise leave the field empty."
+msgstr "Abban az esetben, ha a webhely pénzneme különbözik a Braintree számlán alapértelmezettől, egy speciális kereskedői fiókot állíthat be a <a href=\"%s\">a konverzióval járó kellemetlenségek elkerülése</a> érdekében. Ellenkező esetben hagyja üresen a mezőt."
+
+msgid "Braintree submitted for settlement (Transaction ID: %s)"
+msgstr "Braintree elszámolás benyújtva (Tranzakcióazonosító: %s)"
+
+msgid "Braintree Payment Error: %s"
+msgstr "Braintree fizetési hiba: %s"
+
+msgid "Payment method nonce is required."
+msgstr "A nonce fizetési módra van szükség."
+
+msgid "Payment dispute opened"
+msgstr "Fizetési vita megnyitva"
+
+msgid "Payment dispute lost"
+msgstr "Fizetési vita elvesztve"
+
+msgid "Payment dispute won"
+msgstr "Fizetési vita megnyerve"
+
+msgid "Payment refunded in Braintree"
+msgstr "A fizetés vissza lett térítve a Braintree-be"
+
+msgid "Braintree transaction voided"
+msgstr "Érvénytelen Braintree tranzakció"
+
+msgid "Pay on Arrival"
+msgstr ""
+
+msgid "Pay with cash on arrival."
+msgstr ""
+
+msgid "%s is a required field."
+msgstr "%s - kötelező mező."
+
+msgid "%s is not a valid email address."
+msgstr "A %s egy nem érvényes e-mail cím"
+
+#. translators: %s is the payment gateway title.
+msgid "Enable \"%s\""
+msgstr ""
+
+msgid "Test Mode"
+msgstr "Teszt mód"
+
+msgid "Enable Sandbox Mode"
+msgstr "Sandbox mód engedélyezése"
+
+msgid "Sandbox can be used to test payments."
+msgstr "A Sandbox a fizetések teszteléséhez használható."
+
+msgid "Payment method title that the customer will see on your website."
+msgstr "A fizetési mód címe, amely a weboldalon lesz megtekinthető az ügyfél által."
+
+msgid "Payment method description that the customer will see on your website."
+msgstr "A fizetési mód leírása, amely a weboldalon lesz megtekinthető az ügyfél által."
+
+msgid "Instructions"
+msgstr ""
+
+msgid "Instructions for a customer on how to complete the payment."
+msgstr ""
+
+msgid "Reservation #%d"
+msgstr ""
+
+msgid "Accommodation(s) reservation"
+msgstr "Szállás(ok) foglalása"
+
+msgid "Manual Payment"
+msgstr "Manuális fizetés"
+
+msgid "PayPal"
+msgstr ""
+
+msgid "Pay via PayPal"
+msgstr "Fizetés PayPal-al"
+
+msgid "Paypal Business Email"
+msgstr "Paypal üzleti e-mail"
+
+msgid "Disable IPN Verification"
+msgstr "IPN ellenőrzés letiltása"
+
+msgid "Specify an IPN listener for a specific payment instead of the listeners specified in your PayPal Profile."
+msgstr "Határozza meg az IPN-t a speciális fizetésekhez az Ön PayPal fiókjában megadott helyett."
+
+msgid "Payment %s via IPN."
+msgstr "%s Fizetés IPN-el"
+
+msgid "Payment failed due to invalid PayPal business email."
+msgstr "A fizetés nem sikerült, mert a PayPal IPN üzleti e-mail érvénytelen."
+
+msgid "Payment failed due to invalid currency in PayPal IPN."
+msgstr "A fizetés nem sikerült, mert a PayPal IPN -ben található pénznem érvénytelen."
+
+msgid "Payment failed due to invalid amount in PayPal IPN."
+msgstr "A fizetés nem sikerült, mert a PayPal IPN -ben található összeg érvénytelen."
+
+msgid "Payment failed due to invalid purchase key in PayPal IPN."
+msgstr "A fizetés nem sikerült, mert a PayPal IPN -ben elhelyezett vásárlási kulcs érvénytelen."
+
+msgid "Payment made via eCheck and will clear automatically in 5-8 days."
+msgstr "A fizetés eCheck-en keresztül történt meg, és 5-8 nap kell a feldolgozására."
+
+msgid "Payment requires a confirmed customer address and must be accepted manually through PayPal."
+msgstr "A fizetéshez egy megerősített ügyfél címre lesz szüksége, és ezen kívül csak manuálisan elfogadható."
+
+msgid "Payment must be accepted manually through PayPal due to international account regulations."
+msgstr "A fizetés a nemzetközi számviteli előírások miatt csak manuálisan fogadható el a PayPal-on keresztül."
+
+msgid "Payment received in non-shop currency and must be accepted manually through PayPal."
+msgstr "A fizetés az üzletben nem meghatározott pénznemben érkezett meg, és csak manuálisan elfogadható a PayPal-on keresztül."
+
+msgid "Payment is being reviewed by PayPal staff as high-risk or in possible violation of government regulations."
+msgstr "A fizetés felülvizsgálat alatt áll a PayPal alkalmazottai által, mivel lehetséges, hogy magas kockázatú vagy hatósági előírásokat szegett meg."
+
+msgid "Payment was sent to unconfirmed or non-registered email address."
+msgstr "A fizetés egy nem jóváhagyott vagy nem regisztrált e-mail címre lett elküldve."
+
+msgid "PayPal account must be upgraded before this payment can be accepted."
+msgstr "Az adott fizetés nem lesz elfogadva, amig nem frissíti a PayPal fiókját."
+
+msgid "PayPal account is not verified. Verify account in order to accept this payment."
+msgstr "A PayPal fiók nincs megerősítve. Erősítse meg ahhoz, hogy a fizetési mód elfogadható legyen."
+
+msgid "Payment is pending for unknown reasons. Contact PayPal support for assistance."
+msgstr "A fizetés ismeretlen okokból van függőben. Vegye fel a kapcsolatot a PayPal ügyféltámogatásával."
+
+msgid "Partial PayPal refund processed: %s"
+msgstr "Részleges PayPal visszatérítés feldolgozása:%s"
+
+msgid "PayPal Payment #%s Refunded for reason: %s"
+msgstr "A #%s PayPal fizetés visszatérítés oka: %s"
+
+msgid "PayPal Refund Transaction ID: %s"
+msgstr "PayPal visszatérítési tranzakció ID: %s"
+
+msgid "Stripe"
+msgstr ""
+
+msgid "Use the card number %1$s with CVC %2$s, a valid expiration date and random 5-digit ZIP-code to test a payment."
+msgstr ""
+
+msgid "Pay by Card (Stripe)"
+msgstr "Kártyás fizetés (Stripe)"
+
+msgid "Pay with your credit card via Stripe."
+msgstr "Fizessen a bankkártyájával a Stripe-on keresztül"
+
+msgid "Bancontact"
+msgstr ""
+
+msgid "iDEAL"
+msgstr ""
+
+msgid "Giropay"
+msgstr ""
+
+msgid "SEPA Direct Debit"
+msgstr ""
+
+msgid "SOFORT"
+msgstr ""
+
+msgid "Euro is the only acceptable currency for the selected payment methods. Change your currency to Euro in General settings."
+msgstr ""
+
+msgid "Secret Key"
+msgstr "Titkos kulcs"
+
+msgid "Webhook Secret"
+msgstr ""
+
+msgid "Payment Methods"
+msgstr ""
+
+msgid "Card Payments"
+msgstr ""
+
+msgid "Checkout Locale"
+msgstr "Fizetési nyelv"
+
+msgid "Display Checkout in the user's preferred language, if available."
+msgstr "A fizetési oldal megjelenítése a felhasználó által preferált nyelven, ha az elérhető."
+
+msgid "The payment method is not selected."
+msgstr ""
+
+msgid "Payment intent ID is not set."
+msgstr ""
+
+msgid "Source ID is not set."
+msgstr ""
+
+#. translators: %s - Stripe PaymentIntent ID
+msgid "Payment for PaymentIntent %s succeeded."
+msgstr ""
+
+#. translators: %s - Stripe PaymentIntent ID
+msgid "Payment for PaymentIntent %s is processing."
+msgstr ""
+
+msgid "Failed to process Card payment. %s"
+msgstr ""
+
+#. translators: %s - Stripe Source ID
+msgid "Payment source %s is waiting for customer confirmation."
+msgstr ""
+
+#. translators: %s - Stripe Source ID
+msgid "Pending source %s received, but the redirect URL is empty."
+msgstr ""
+
+#. translators: %s - Stripe Source ID
+msgid "Payment source %s was cancelled by customer."
+msgstr ""
+
+#. translators: %s - Stripe Source ID
+msgid "Payment source %s failed and couldn't be processed."
+msgstr ""
+
+#. translators: %1$s - Stripe Source ID; %2$s - Stripe Source status
+msgid "Failed to process payment source %1$s: unsupported status - \"%2$s\"."
+msgstr ""
+
+msgid "Failed to process Source payment. %s"
+msgstr ""
+
+msgid "Can't charge the payment again: payment's flow already completed."
+msgstr ""
+
+#. translators: %s - Stripe Charge ID
+msgid "Charge %s succeeded."
+msgstr ""
+
+#. translators: %1$s - Stripe Charge ID; %2$s - payment price
+msgid "Charge %1$s for %2$s created."
+msgstr ""
+
+#. translators: %s - Stripe Charge ID
+msgid "Charge %s failed."
+msgstr ""
+
+msgid "Charge error. %s"
+msgstr ""
+
+msgid "Argentinean"
+msgstr ""
+
+msgid "Simplified Chinese"
+msgstr "Egyszerűsített kínai"
+
+msgid "Danish"
+msgstr "Dán"
+
+msgid "Dutch"
+msgstr "Holland"
+
+msgid "English"
+msgstr "Angol"
+
+msgid "Finnish"
+msgstr "Finn"
+
+msgid "French"
+msgstr "Francia"
+
+msgid "German"
+msgstr "Német"
+
+msgid "Italian"
+msgstr "Olasz"
+
+msgid "Japanese"
+msgstr "Japán"
+
+msgid "Norwegian"
+msgstr "Norvég"
+
+msgid "Polish"
+msgstr ""
+
+msgid "Russian"
+msgstr ""
+
+msgid "Spanish"
+msgstr "Spanyol"
+
+msgid "Swedish"
+msgstr "Svéd"
+
+msgid "Card"
+msgstr ""
+
+msgid "Credit or debit card"
+msgstr ""
+
+msgid "IBAN"
+msgstr ""
+
+msgid "Select iDEAL Bank"
+msgstr ""
+
+msgid "You will be redirected to a secure page to complete the payment."
+msgstr ""
+
+msgid "By providing your IBAN and confirming this payment, you are authorizing this merchant and Stripe, our payment service provider, to send instructions to your bank to debit your account and your bank to debit your account in accordance with those instructions. You are entitled to a refund from your bank under the terms and conditions of your agreement with your bank. A refund must be claimed within 8 weeks starting from the date on which your account was debited."
+msgstr ""
+
+#. translators: %s - event type, like "source.chargeable"
+msgid "Webhook \"%s\" skipped: payment's flow already completed."
+msgstr ""
+
+#. translators: %s - Stripe Source ID
+msgid "Webhook received. The source %s is chargeable."
+msgstr ""
+
+#. translators: %s - Stripe Source ID
+msgid "Webhook received. Payment source %s was cancelled by customer."
+msgstr ""
+
+#. translators: %s - Stripe Source ID
+msgid "Webhook received. Payment source %s failed and couldn't be processed."
+msgstr ""
+
+#. translators: %s - Stripe Charge ID
+msgid "Webhook received. Charge %s succeeded."
+msgstr ""
+
+#. translators: %s - Stripe Charge ID
+msgid "Webhook received. Charge %s failed."
+msgstr ""
+
+msgid "Test Payment"
+msgstr "Próba fizetés"
+
+msgid "2Checkout"
+msgstr ""
+
+msgid "To setup the callback process for 2Checkout to automatically mark payments completed, you will need to"
+msgstr "A 2Checkout visszahívási folyamatának a beállításához Önnek szüksége lesz"
+
+msgid "Login to your 2Checkout account and click the Notifications tab"
+msgstr "Jelentkezzen be az Ön 2Checkout fiókjába és kattintson az Értesítések mezőre"
+
+msgid "Click Enable All Notifications"
+msgstr "Kattintson a Minden Értesítés engedélyezése gombra"
+
+msgid "In the Global URL field, enter the url %s"
+msgstr "A Global URL mezőben írja be az URL címet %s"
+
+msgid "Click Apply"
+msgstr "Kattintson az Alkalmaz gombra"
+
+msgid "Account Number"
+msgstr "Számlaszám"
+
+msgid "Secret Word"
+msgstr "Titkos szó"
+
+msgid "2Checkout \"Order Created\" notification received."
+msgstr "A 2Checkout \"Rendelés létrehozva\" értesítés megérkezett."
+
+msgid "Payment refunded in 2Checkout"
+msgstr "A fizetés vissza lett térítve a 2Checkout-ban"
+
+msgid "2Checkout fraud review passed"
+msgstr "A 2Checkout csalás felülvizsgálat sikeres"
+
+msgid "2Checkout fraud review failed"
+msgstr "A 2Checkout csalás felülvizsgálat sikertelen"
+
+msgid "2Checkout fraud review in progress"
+msgstr "A 2Checkout csalás felülvizsgálat folyamatban van"
+
+msgid "Attribute"
+msgstr ""
+
+msgctxt "Add New Attribute"
+msgid "Add New"
+msgstr "Új hozzáadása"
+
+msgid "Add New Attribute"
+msgstr ""
+
+msgid "Edit Attribute"
+msgstr ""
+
+msgid "New Attribute"
+msgstr ""
+
+msgid "View Attribute"
+msgstr ""
+
+msgid "Search Attribute"
+msgstr ""
+
+msgid "No Attributes found"
+msgstr ""
+
+msgid "No Attributes found in Trash"
+msgstr ""
+
+msgid "Insert into attribute description"
+msgstr ""
+
+#. translators: %s: attribute name
+msgid "Search %s"
+msgstr ""
+
+#. translators: %s: attribute name
+msgid "All %s"
+msgstr ""
+
+#. translators: %s: attribute name
+msgid "Edit %s"
+msgstr ""
+
+#. translators: %s: attribute name
+msgid "Update %s"
+msgstr ""
+
+#. translators: %s: attribute name
+msgid "Add new %s"
+msgstr ""
+
+#. translators: %s: attribute name
+msgid "New %s"
+msgstr ""
+
+#. translators: %s: attribute name
+msgid "No &quot;%s&quot; found"
+msgstr ""
+
+msgid "Name (numeric)"
+msgstr ""
+
+msgid "Term ID"
+msgstr "Term ID"
+
+msgid "Enable Archives"
+msgstr ""
+
+msgid "Link the attribute to an archive page with all accommodation types that have this attribute."
+msgstr ""
+
+msgid "Visible in Details"
+msgstr ""
+
+msgid "Display the attribute in details section of an accommodation type."
+msgstr ""
+
+msgid "Default Sort Order"
+msgstr ""
+
+msgid "Default Text"
+msgstr ""
+
+msgid "Select"
+msgstr ""
+
+msgid "Edit Dates"
+msgstr ""
+
+msgid "Note"
+msgstr ""
+
+msgctxt "Add New Booking"
+msgid "Add New Booking"
+msgstr "Új foglalás hozzáadása"
+
+msgid "View Booking"
+msgstr "Foglalás megtekintése"
+
+msgid "Search Booking"
+msgstr "Foglalás keresése"
+
+msgid "No bookings found"
+msgstr "Nincsenek foglalások"
+
+msgid "No bookings found in Trash"
+msgstr "A kukában nincs foglalás"
+
+msgid "All Bookings"
+msgstr "Összes foglalás"
+
+msgid "Insert into booking description"
+msgstr "Beillesztés a foglalás leírásba"
+
+msgid "Uploaded to this booking"
+msgstr "Foglaláshoz feltöltve"
+
+msgctxt "Booking status"
+msgid "Pending User Confirmation"
+msgstr "Függő felhasználó megerősítés"
+
+msgid "Pending User Confirmation <span class=\"count\">(%s)</span>"
+msgid_plural "Pending User Confirmation <span class=\"count\">(%s)</span>"
+msgstr[0] "Függő felhasználó megerősítés <span class=\"count\">(%s)</span>"
+msgstr[1] "Függő felhasználó megerősítések <span class=\"count\">(%s)</span>"
+
+msgctxt "Booking status"
+msgid "Pending Payment"
+msgstr "Függő fizetés"
+
+msgid "Pending Payment <span class=\"count\">(%s)</span>"
+msgid_plural "Pending Payment <span class=\"count\">(%s)</span>"
+msgstr[0] "Függő fizetés <span class=\"count\">(%s)</span>"
+msgstr[1] "Függő fizetések <span class=\"count\">(%s)</span>"
+
+msgctxt "Booking status"
+msgid "Pending Admin"
+msgstr "Függő admin"
+
+msgid "Pending Admin <span class=\"count\">(%s)</span>"
+msgid_plural "Pending Admin <span class=\"count\">(%s)</span>"
+msgstr[0] "Függő admin <span class=\"count\">(%s)</span>"
+msgstr[1] "Függő admin <span class=\"count\">(%s)</span>"
+
+msgctxt "Booking status"
+msgid "Abandoned"
+msgstr "Nincs befejezve"
+
+msgid "Abandoned <span class=\"count\">(%s)</span>"
+msgid_plural "Abandoned <span class=\"count\">(%s)</span>"
+msgstr[0] "Befejezetlen <span class=\"count\">(%s)</span>"
+msgstr[1] "Befejezetlenek <span class=\"count\">(%s)</span>"
+
+msgid "Confirmed <span class=\"count\">(%s)</span>"
+msgid_plural "Confirmed <span class=\"count\">(%s)</span>"
+msgstr[0] "Megerősített <span class=\"count\">(%s)</span>"
+msgstr[1] "Megerősített <span class=\"count\">(%s)</span>"
+
+msgctxt "Booking status"
+msgid "Cancelled"
+msgstr "Törölt"
+
+msgid "Cancelled <span class=\"count\">(%s)</span>"
+msgid_plural "Cancelled <span class=\"count\">(%s)</span>"
+msgstr[0] "Törölt <span class=\"count\">(%s)</span>"
+msgstr[1] "Töröltek <span class=\"count\">(%s)</span>"
+
+msgid "Status changed from %s to %s."
+msgstr "A státusz megváltozott %s -ól %s -ig."
+
+msgid "Coupon Information"
+msgstr "Kupon információ"
+
+msgid "Fixed per accommodation per stay"
+msgstr ""
+
+msgid "Fixed per accommodation per day"
+msgstr ""
+
+msgid "Coupon Amount"
+msgstr ""
+
+msgid "Enter percent or fixed amount according to selected type."
+msgstr ""
+
+msgid "Expiration Date"
+msgstr "Lejárati dátum"
+
+msgid "Check-in After"
+msgstr "Bejelentkezés dátuma"
+
+msgid "Check-out Before"
+msgstr "Kijelentkezés dátuma"
+
+msgid "Minimum Days"
+msgstr "Napok minimális száma"
+
+msgid "Maximum Days"
+msgstr "Napok maximális száma"
+
+msgid "Usage Limit"
+msgstr "Használati liimit"
+
+msgid "Usage Count"
+msgstr "Felhasználási szám"
+
+msgid "Coupons"
+msgstr "Kuponok"
+
+msgctxt "Add New Coupon"
+msgid "Add New"
+msgstr "Új hozzáadása"
+
+msgid "Add New Coupon"
+msgstr "Új kupon hozzáadása"
+
+msgid "Edit Coupon"
+msgstr "Kupon módosítása"
+
+msgid "New Coupon"
+msgstr "Új kupon"
+
+msgid "View Coupon"
+msgstr "Kupon megtekintése"
+
+msgid "Search Coupon"
+msgstr "Kupon keresése"
+
+msgid "No coupons found"
+msgstr "Nincs kupon"
+
+msgid "No coupons found in Trash"
+msgstr "Nincs kupon a kukában"
+
+msgid "All Coupons"
+msgstr "Minden kupon"
+
+msgid "Payment History"
+msgstr "Fizetési előzmények"
+
+msgid "Payment"
+msgstr "Fizetés"
+
+msgctxt "Add New Payment"
+msgid "Add New"
+msgstr "Új hozzáadása"
+
+msgid "Add New Payment"
+msgstr "Új fizetés hozzáadása"
+
+msgid "Edit Payment"
+msgstr "Fizetés módosítása"
+
+msgid "New Payment"
+msgstr "Új fizetés"
+
+msgid "View Payment"
+msgstr "Fizetés megtekintése"
+
+msgid "Search Payment"
+msgstr "Fizetés keresése"
+
+msgid "No payments found"
+msgstr "Nincsenek fizetések"
+
+msgid "No payments found in Trash"
+msgstr "A kukában nincs fizetés"
+
+msgid "Payments"
+msgstr "Fizetések"
+
+msgid "Insert into payment description"
+msgstr "Beillesztés a fizetés leírásba"
+
+msgid "Uploaded to this payment"
+msgstr "Fizetéshez feltöltve"
+
+msgid "Payments."
+msgstr "Fizetések."
+
+msgid "Gateway Mode"
+msgstr "Átjáró mód"
+
+msgid "Sandbox"
+msgstr ""
+
+msgid "Live"
+msgstr "Élő"
+
+msgid "Fee"
+msgstr "Részvételi díj"
+
+msgid "Payment Type"
+msgstr "Fizetés típus"
+
+msgid "Billing Info"
+msgstr "Számlázási információ"
+
+msgid "Address 1"
+msgstr "Cím 1"
+
+msgid "Address 2"
+msgstr "Cím 2"
+
+msgid "Postal Code (ZIP)"
+msgstr "Irányítószám"
+
+msgctxt "Payment status"
+msgid "Pending"
+msgstr "Függő"
+
+msgid "Pending <span class=\"count\">(%s)</span>"
+msgid_plural "Pending <span class=\"count\">(%s)</span>"
+msgstr[0] "Fűggő <span class=\"count\">(%s)</span>"
+msgstr[1] "Függők <span class=\"count\">(%s)</span>"
+
+msgctxt "Payment status"
+msgid "Completed"
+msgstr "Befejezett"
+
+msgid "Completed <span class=\"count\">(%s)</span>"
+msgid_plural "Completed <span class=\"count\">(%s)</span>"
+msgstr[0] "Befejezett <span class=\"count\">(%s)</span>"
+msgstr[1] "Befejezettek <span class=\"count\">(%s)</span>"
+
+msgctxt "Payment status"
+msgid "Failed"
+msgstr "Sikertelen"
+
+msgid "Failed <span class=\"count\">(%s)</span>"
+msgid_plural "Failed <span class=\"count\">(%s)</span>"
+msgstr[0] "Sikertelen <span class=\"count\">(%s)</span>"
+msgstr[1] "Sikertelenek <span class=\"count\">(%s)</span>"
+
+msgctxt "Payment status"
+msgid "Abandoned"
+msgstr "Elhagyott"
+
+msgctxt "Payment status"
+msgid "On Hold"
+msgstr "Függőben lévő"
+
+msgid "On Hold <span class=\"count\">(%s)</span>"
+msgid_plural "On Hold <span class=\"count\">(%s)</span>"
+msgstr[0] "Függőben lévő <span class=\"count\">(%s)</span>"
+msgstr[1] "Függőben lévők <span class=\"count\">(%s)</span>"
+
+msgctxt "Payment status"
+msgid "Refunded"
+msgstr "Visszatérített"
+
+msgid "Refunded <span class=\"count\">(%s)</span>"
+msgid_plural "Refunded <span class=\"count\">(%s)</span>"
+msgstr[0] "Vissza lett térítve <span class=\"count\">(%s)</span>"
+msgstr[1] "Vissza lettek térítve <span class=\"count\">(%s)</span>"
+
+msgctxt "Payment status"
+msgid "Cancelled"
+msgstr "Törölt"
+
+msgid "Payment (#%s) for this booking is on hold"
+msgstr "A (#%s) fizetés függőben van"
+
+msgid "Rate Info"
+msgstr "Díj infó"
+
+msgid "Season"
+msgstr "Évszak"
+
+msgid "Move price to top to set higher priority."
+msgstr "Emelje fel az árat a magasabb prioritás beállításához."
+
+msgid "Add New Season Price"
+msgstr "Új évszak ár hozzáadása"
+
+msgid "Will be displayed on the checkout page."
+msgstr "A fizetési oldalon lesz megjelenítve."
+
+#. translators: The value a hotel wishes to sell their rooms. Also called the Cost, Value, Tariff or Room charge.
+msgid "Rates"
+msgstr "Díjak"
+
+msgctxt "Add New Rate"
+msgid "Add New"
+msgstr "Új hozzáadása"
+
+msgid "Add New Rate"
+msgstr "Új díj hozzáadása"
+
+msgid "Edit Rate"
+msgstr "Díj módosítása"
+
+msgid "New Rate"
+msgstr "Új díj"
+
+msgid "View Rate"
+msgstr "Díj megtekintése"
+
+msgid "Search Rate"
+msgstr "Díj keresése"
+
+msgid "No rates found"
+msgstr ""
+
+msgid "No rates found in Trash"
+msgstr ""
+
+msgid "Insert into rate description"
+msgstr ""
+
+msgid "Uploaded to this rate"
+msgstr ""
+
+msgid "This is where you can add new rates."
+msgstr ""
+
+msgid "Reserved Accommodation"
+msgstr "Foglalt szállás"
+
+msgctxt "Add New Accommodation"
+msgid "Add New"
+msgstr "Új hozzáadása"
+
+msgid "Add New Accommodation"
+msgstr "Új szálláshely hozzáadása"
+
+msgid "Edit Accommodation"
+msgstr "Szálláshely módosítása"
+
+msgid "New Accommodation"
+msgstr "Új szálláshely"
+
+msgid "View Accommodation"
+msgstr "Szálláshely megtekintése"
+
+msgid "Search Accommodation"
+msgstr "Szálláshely keresése"
+
+msgid "No accommodations found"
+msgstr "Nincs szálláshely"
+
+msgid "No accommodations found in Trash"
+msgstr "A kukában nincs szálláshely."
+
+msgid "Insert into accommodation description"
+msgstr "Beillesztés a szálláshely leírásba"
+
+msgid "Uploaded to this accommodation"
+msgstr "Szálláshelyhez feltöltve"
+
+msgid "This is where you can add new accommodations to your hotel."
+msgstr "Az új szálláshelyek hozzáadása itt lehetséges."
+
+msgctxt "Add New Accommodation Type"
+msgid "Add Accommodation Type"
+msgstr "Szállástípus hozzáadása"
+
+msgid "Add New Accommodation Type"
+msgstr "Új szállástípus hozzáadása"
+
+msgid "Edit Accommodation Type"
+msgstr "Szállástípus módosítása"
+
+msgid "New Accommodation Type"
+msgstr "Új szállástípus"
+
+msgid "View Accommodation Type"
+msgstr "Szállástípus megtekintése"
+
+msgid "Search Accommodation Type"
+msgstr "Szállástípus keresése"
+
+msgid "No Accommodation types found"
+msgstr "Nincs szállástípus."
+
+msgid "No Accommodation types found in Trash"
+msgstr "A kukában nincs szállástípus."
+
+msgid "Insert into accommodation type description"
+msgstr "Beillesztés a szállástípus leírásba"
+
+msgid "Uploaded to this accommodation type"
+msgstr "Szállástípushoz feltöltve"
+
+#. translators: do not translate
+msgctxt "slug"
+msgid "accommodation"
+msgstr "accommodation"
+
+msgid "Accommodation Categories"
+msgstr "Szálláshely kategóriák"
+
+msgid "Accommodation Category"
+msgstr "Szálláshely kategória"
+
+msgid "Search Accommodation Categories"
+msgstr "Szálláshely kategóriák keresése"
+
+msgid "Popular Accommodation Categories"
+msgstr "Népszerű szálláshely kategóriák"
+
+msgid "All Accommodation Categories"
+msgstr "Összes szálláshely kategória"
+
+msgid "Parent Accommodation Category"
+msgstr "Felnőtt szálláshely kategória"
+
+msgid "Parent Accommodation Category:"
+msgstr "Felnőtt szálláshely kategória:"
+
+msgid "Edit Accommodation Category"
+msgstr "Szálláshely kategória módosítása"
+
+msgid "Update Accommodation Category"
+msgstr "Szálláshely kategória frissítése"
+
+msgid "Add New Accommodation Category"
+msgstr "Új szálláshely kategória hozzáadása"
+
+msgid "New Accommodation Category Name"
+msgstr "Új szálláshely kategória név"
+
+msgid "Separate categories with commas"
+msgstr "Kategóriák elválasztása vesszőkkel"
+
+msgid "Add or remove categories"
+msgstr "Kategória hozzáadása vagy eltávolítása"
+
+msgid "Choose from the most used categories"
+msgstr "Válasszon a legtöbbet használt kategóriák közül"
+
+msgid "No categories found."
+msgstr "Nincsenek kategóriák."
+
+msgid "Categories"
+msgstr "Kategóriák"
+
+#. translators: do not translate
+msgctxt "slug"
+msgid "accommodation-category"
+msgstr "accommodation-category"
+
+msgid "Accommodation Tags"
+msgstr ""
+
+msgid "Accommodation Tag"
+msgstr ""
+
+msgid "Search Accommodation Tags"
+msgstr ""
+
+msgid "Popular Accommodation Tags"
+msgstr ""
+
+msgid "All Accommodation Tags"
+msgstr ""
+
+msgid "Parent Accommodation Tag"
+msgstr ""
+
+msgid "Parent Accommodation Tag:"
+msgstr ""
+
+msgid "Edit Accommodation Tag"
+msgstr ""
+
+msgid "Update Accommodation Tag"
+msgstr ""
+
+msgid "Add New Accommodation Tag"
+msgstr ""
+
+msgid "New Accommodation Tag Name"
+msgstr ""
+
+msgid "Separate tags with commas"
+msgstr ""
+
+msgid "Add or remove tags"
+msgstr ""
+
+msgid "Choose from the most used tags"
+msgstr ""
+
+msgid "No tags found."
+msgstr ""
+
+msgid "Tags"
+msgstr "Címkék"
+
+#. translators: do not translate
+msgctxt "slug"
+msgid "accommodation-tag"
+msgstr "accommodation-tag"
+
+msgid "Amenities"
+msgstr "Szolgáltatások"
+
+msgid "Amenity"
+msgstr "Szolgáltatás"
+
+msgid "Search Amenities"
+msgstr "Szolgáltatások keresése"
+
+msgid "Popular Amenities"
+msgstr "Népszerű szolgáltatások"
+
+msgid "All Amenities"
+msgstr "Minden szolgáltatás"
+
+msgid "Parent Amenity"
+msgstr "Szülői kényelem"
+
+msgid "Parent Amenity:"
+msgstr "Szülői kényelem:"
+
+msgid "Edit Amenity"
+msgstr "Szolgáltatás módosítása"
+
+msgid "Update Amenity"
+msgstr "Szolgáltatás frissítése"
+
+msgid "Add New Amenity"
+msgstr "Új szolgáltatás hozzáadása"
+
+msgid "New Amenity Name"
+msgstr "Új szolgáltatás neve"
+
+msgid "Separate amenities with commas"
+msgstr "Szolgáltatások elválasztása vesszőkkel"
+
+msgid "Add or remove amenities"
+msgstr "Szolgáltatások hozzáadása vagy eltávolítása"
+
+msgid "Choose from the most used amenities"
+msgstr "Válasszon a leggyakrabban használt szolgáltatások között"
+
+msgid "No amenities found."
+msgstr "Nincsenek szolgáltatások."
+
+#. translators: do not translate
+msgctxt "slug"
+msgid "accommodation-facility"
+msgstr "accommodation-facility"
+
+msgid "State the age or disable children in <a href=\"%s\">settings</a>."
+msgstr ""
+
+msgid "Leave this option empty to calculate total capacity automatically to meet the exact number of adults AND children set above. This is the default behavior. Configure this option to allow any variations of adults OR children set above at checkout so that in total it meets the limit of manually set \"Capacity\". For example, configuration \"adults:5\", \"children:4\", \"capacity:5\" means the property can accommodate up to 5 adults, up to 4 children, but up to 5 guests in total (not 9)."
+msgstr ""
+
+msgid "Size, %s"
+msgstr "Méret, %s"
+
+msgid "Leave blank to hide."
+msgstr ""
+
+msgid "Other"
+msgstr "Egyéb"
+
+msgid "City view, seaside, swimming pool etc."
+msgstr "Városra néző, tengerparti, medence, stb"
+
+msgid "Bed type"
+msgstr "Ágy típus"
+
+msgid "Set bed types list in <a href=\"%link%\" target=\"_blank\">settings</a>."
+msgstr "Az ágy típus lista beállítása a <a href=\"%link%\" target=\"_blank\">beállításokban</a> lehetséges."
+
+msgid "Photo Gallery"
+msgstr "Fényképgaléria"
+
+msgid "Available Services"
+msgstr "Elérhető szolgáltatások"
+
+msgid "Season Info"
+msgstr "évszak infó"
+
+msgid "Start date"
+msgstr "Kezdet dátuma"
+
+msgid "End date"
+msgstr "Befejezés dátuma"
+
+msgid "Applied for days"
+msgstr "A napokra érvényes"
+
+msgid "Hold Ctrl / Cmd to select multiple."
+msgstr "Több elem kijelöléséhez tartsa a Ctrl / Cmd gombot"
+
+msgctxt "Add New Season"
+msgid "Add New"
+msgstr "Új hozzáadása"
+
+msgid "Add New Season"
+msgstr "Új évszak hozzáadása"
+
+msgid "Edit Season"
+msgstr "Évszak módosítása"
+
+msgid "New Season"
+msgstr "Új évszak"
+
+msgid "View Season"
+msgstr "Évszak megtekintése"
+
+msgid "Search Season"
+msgstr "Keresési évszak"
+
+msgid "No seasons found"
+msgstr "Nincsenek évszakok"
+
+msgid "No seasons found in Trash"
+msgstr "A kukában nincsenek évszakok"
+
+msgid "Insert into season description"
+msgstr "Beillesztés az évszak leírásba"
+
+msgid "Uploaded to this season"
+msgstr "Évszakhoz feltöltve"
+
+msgid "This is where you can add new seasons."
+msgstr "Az új évszakok hozzáadása itt lehetséges."
+
+msgid "Service"
+msgstr "Szolgáltatás"
+
+msgctxt "Add New Service"
+msgid "Add New"
+msgstr "Új hozzáadása"
+
+msgid "Add New Service"
+msgstr "Új szolgáltatás hozzáadása"
+
+msgid "Edit Service"
+msgstr "Módosítás szolgáltatás"
+
+msgid "New Service"
+msgstr "Új szolgáltatás"
+
+msgid "View Service"
+msgstr "Nézet szolgáltatás"
+
+msgid "Search Service"
+msgstr "Keresési szölgáltatás"
+
+msgid "No services found"
+msgstr "Nincs szolgáltatás"
+
+msgid "No services found in Trash"
+msgstr "A kukában nincs szolgáltatás."
+
+msgid "Insert into service description"
+msgstr "Beillesztés a szolgáltatás leírásba"
+
+msgid "Uploaded to this service"
+msgstr "Szolgáltatáshoz feltöltve"
+
+#. translators: do not translate
+msgctxt "slug"
+msgid "services"
+msgstr "services"
+
+msgid "How many times the customer will be charged."
+msgstr "A pénzlevonások száma."
+
+msgid "Minimum"
+msgstr ""
+
+msgid "Maximum"
+msgstr ""
+
+msgid "Empty means unlimited"
+msgstr ""
+
+msgctxt "Booking status"
+msgid "Pending"
+msgstr ""
+
+msgid "Total Sales"
+msgstr ""
+
+msgid "Total Without Taxes"
+msgstr ""
+
+msgid "Total Services"
+msgstr ""
+
+msgid "Total Discounts"
+msgstr ""
+
+msgid "Total Bookings"
+msgstr ""
+
+msgid "Revenue (Beta)"
+msgstr ""
+
+msgid "Apply"
+msgstr "Alkalmaz"
+
+msgid "From %s to %s"
+msgstr ""
+
+msgid "Today"
+msgstr ""
+
+msgid "Yesterday"
+msgstr ""
+
+msgid "This week"
+msgstr ""
+
+msgid "Last week"
+msgstr ""
+
+msgid "Last 30 days"
+msgstr ""
+
+msgid "This month"
+msgstr ""
+
+msgid "Last month"
+msgstr ""
+
+msgid "This quarter"
+msgstr ""
+
+msgid "Last quarter"
+msgstr ""
+
+msgid "This year"
+msgstr ""
+
+msgid "Last year"
+msgstr ""
+
+#. translators: %s - original Rate title
+msgid "%s - copy"
+msgstr ""
+
+msgid "Accommodation Type Gallery"
+msgstr "Szállástípus galéria"
+
+msgid "Add Gallery To Accommodation Type"
+msgstr "Galéria hozzáadása a szállástípushoz"
+
+msgid "Display imported bookings."
+msgstr ""
+
+msgid "Processing..."
+msgstr ""
+
+msgid "Cancelling..."
+msgstr ""
+
+msgid "Want to delete?"
+msgstr ""
+
+msgid "Not available"
+msgstr "Nem elérhető"
+
+msgid "This is earlier than allowed by our advance reservation rules."
+msgstr ""
+
+msgid "This is later than allowed by our advance reservation rules."
+msgstr ""
+
+msgid "Day in the past"
+msgstr "Nap a múltban"
+
+msgid "Check-in date"
+msgstr "Bejelentkezési dátum"
+
+msgid "Less than min days stay"
+msgstr "A minimális tartózkodási időnél kevesebb"
+
+msgid "More than max days stay"
+msgstr "A maximális tartózkodási időnél több"
+
+msgid "Later than max date for current check-in date"
+msgstr "A megengedett bejelentkezési dátumnál később"
+
+msgid "Rules:"
+msgstr "Szabályok:"
+
+msgid "Tokenisation failed: %s"
+msgstr "Sikertelen tokenizálás: %s"
+
+msgid "%1$d &times; &ldquo;%2$s&rdquo; has been added to your reservation."
+msgid_plural "%1$d &times; &ldquo;%2$s&rdquo; have been added to your reservation."
+msgstr[0] "%1$d &times; &ldquo;%2$s&rdquo; hozzá lett adva a rendeléséhez."
+msgstr[1] "%1$d &times; &ldquo;%2$s&rdquo; hozzá lett adva a rendeléséhez."
+
+msgid "%s accommodation selected."
+msgid_plural "%s accommodations selected."
+msgstr[0] "%s kiválasztott szálláshely."
+msgstr[1] "%s kiválasztott szálláshely."
+
+msgid "Coupon code is empty."
+msgstr "A kupon kód üres."
+
+msgid "Dark Blue"
+msgstr "Sötétkék"
+
+msgid "Dark Green"
+msgstr "Sötétzöld"
+
+msgid "Dark Red"
+msgstr "Sötét vörös"
+
+msgid "Grayscale"
+msgstr "Szürkeárnyalatos"
+
+msgid "Light Blue"
+msgstr "Világoskék"
+
+msgid "Light Coral"
+msgstr "Világos korall"
+
+msgid "Light Green"
+msgstr "Világoszöld"
+
+msgid "Light Yellow"
+msgstr "Halványsárga"
+
+msgid "Minimal Blue"
+msgstr "Minimális kék"
+
+msgid "Minimal Orange"
+msgstr "Minimális narancssárga"
+
+msgid "Minimal"
+msgstr "Minimális"
+
+msgid "Sky Blue"
+msgstr "Égszínkék"
+
+msgid "Slate Blue"
+msgstr "Palakék"
+
+msgid "Turquoise"
+msgstr "Türkiz"
+
+msgid "Invalid login or password."
+msgstr ""
+
+msgid "Account data updated."
+msgstr ""
+
+msgid "Password changed."
+msgstr ""
+
+msgid "Dashboard"
+msgstr ""
+
+msgid "Account"
+msgstr ""
+
+msgid "Logout"
+msgstr ""
+
+msgid "Passwords do not match."
+msgstr ""
+
+msgid "Please, provide a valid current password."
+msgstr ""
+
+msgid "Lost your password?"
+msgstr ""
+
+msgid "Payment:"
+msgstr "Fizetés:"
+
+msgid "Payment Method:"
+msgstr "Fizetési módszer:"
+
+msgid "Status:"
+msgstr "Állapot:"
+
+msgid "Checkout data is not valid."
+msgstr ""
+
+msgid "Payment method is not valid."
+msgstr "A fizetés módszer nem érvényes."
+
+msgid "Accommodation count is not valid."
+msgstr "A szállástípus nem érvényes."
+
+msgid "Accommodation is already booked."
+msgstr "A szálláshely már foglalt."
+
+msgid "Reservation submitted"
+msgstr "A foglalás be lett nyújtva"
+
+msgid "Details of your reservation have just been sent to you in a confirmation email. Please check your inbox to complete booking."
+msgstr "A foglalás részleteit elküldtük Önnek a megerősítő e-mailben. A foglalás befejezéséhez, kérjük, ellenőrizze a postaládáját."
+
+msgid "We received your booking request. Once it is confirmed we will notify you via email."
+msgstr "Megkaptuk az Ön foglalási kérelmét. Amennyiben azt megerősítettük, e-mailben fogjuk Önt értesíteni."
+
+msgid "Choose dates to see relevant prices"
+msgstr "Válassza ki a dátumot az aktuális árak megtekintéséhez"
+
+msgid "Select from available accommodations."
+msgstr "Válasszon a rendelkezésre álló szálláshelyek közül."
+
+msgid "Confirm Reservation"
+msgstr "Foglalás megerősítése"
+
+msgid "Recommended for %d adult"
+msgid_plural "Recommended for %d adults"
+msgstr[0] "%d felnőtnek ajánlott"
+msgstr[1] "%d felnőtnek ajánlott"
+
+msgid " and %d child"
+msgid_plural " and %d children"
+msgstr[0] " és %d gyermek"
+msgstr[1] " és %d gyermek"
+
+msgid "Recommended for %d guest"
+msgid_plural "Recommended for %d guests"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "Max occupancy:"
+msgstr "Maximális kapacitás:"
+
+msgid "%d child"
+msgid_plural "%d children"
+msgstr[0] "%d gyermek"
+msgstr[1] "%d gyermek"
+
+msgid "Reserve"
+msgstr "Lefoglal"
+
+msgid "of %d accommodation available."
+msgid_plural "of %d accommodations available."
+msgstr[0] "%d rendelkezésre álló szállásból."
+msgstr[1] "%d rendelkezésre álló szállásból"
+
+#. translators: Verb. To book an accommodation.
+msgid "Book"
+msgstr "Foglalás"
+
+msgid "Please, provide a valid email."
+msgstr ""
+
+msgid "Could not create a customer."
+msgstr ""
+
+msgid "Could not retrieve a customer."
+msgstr ""
+
+msgid "Please, provide a valid Customer ID."
+msgstr ""
+
+msgid "A database error."
+msgstr ""
+
+msgid "No customer was deleted."
+msgstr ""
+
+msgid "An account with this email already exists. Please, log in."
+msgstr ""
+
+msgid "Hotel Manager"
+msgstr ""
+
+msgid "Hotel Worker"
+msgstr ""
+
+msgid "Hotel Customer"
+msgstr ""
+
+msgid "Please provide a valid email address."
+msgstr ""
+
+msgid "Please enter a valid account username."
+msgstr ""
+
+msgid "An account is already registered with that username. Please choose another."
+msgstr ""
+
+msgid "Please enter an account password."
+msgstr ""
+
+msgid "Sunday"
+msgstr "Vasárnap"
+
+msgid "Monday"
+msgstr "Hétfő"
+
+msgid "Tuesday"
+msgstr "Kedd"
+
+msgid "Wednesday"
+msgstr "Szerda"
+
+msgid "Thursday"
+msgstr "Csütörtök"
+
+msgid "Friday"
+msgstr "Péntek"
+
+msgid "Saturday"
+msgstr "Szombat"
+
+msgid "Check-out date cannot be earlier than check-in date."
+msgstr ""
+
+msgid "Adults number is not valid"
+msgstr "Felnőttek száma nem érvényes"
+
+msgid "Children number is not valid"
+msgstr "Gyermekek száma nem érvényes"
+
+msgctxt "Text about taxes and fees below the price."
+msgid " (+taxes and fees)"
+msgstr ""
+
+#. translators: %s is a tax value
+msgctxt "Text about taxes and fees below the price."
+msgid " (+%s taxes and fees)"
+msgstr ""
+
+msgctxt "Text about taxes and fees below the price."
+msgid " (includes taxes and fees)"
+msgstr ""
+
+msgctxt "Accommodation type in price breakdown table. Example: #1 Double Room"
+msgid "#%d %s"
+msgstr ""
+
+msgid "Expand"
+msgstr "Kiterjeszt"
+
+msgid "Rate: %s"
+msgstr "Díj %s"
+
+msgid "Dates"
+msgstr "Dátumok"
+
+msgid "Dates Subtotal"
+msgstr "Dátumok részösszege"
+
+msgid "Accommodation Taxes Subtotal"
+msgstr ""
+
+msgid "Details"
+msgstr "Részletek"
+
+msgid "Service Taxes Subtotal"
+msgstr ""
+
+msgid "Fees Subtotal"
+msgstr "Adók és egyéb kiadás összege"
+
+msgid "Fee Taxes Subtotal"
+msgstr ""
+
+msgid "Subtotal"
+msgstr "Összesen"
+
+msgid "Coupon: %s"
+msgstr "Kupon: %s"
+
+msgid "Subtotal (excl. taxes)"
+msgstr ""
+
+msgid "Taxes"
+msgstr ""
+
+msgid "Coupon Code:"
+msgstr "Kupon kód:"
+
+msgid "New Booking Details"
+msgstr ""
+
+msgid "Original Booking Details"
+msgstr ""
+
+msgid "Accommodation:"
+msgstr "Szálláshely:"
+
+msgid "Children %s"
+msgstr "Gyermek %s"
+
+msgid "Additional Services"
+msgstr "További szolgáltatások"
+
+msgid "Accommodation pagination"
+msgstr "Szálláshelyek lapozása"
+
+msgid "Services pagination"
+msgstr "Szolgáltatások lapozása"
+
+msgid "Categories:"
+msgstr "Kategóriák:"
+
+msgid "Amenities:"
+msgstr "Szolgáltatások:"
+
+msgid "Guests:"
+msgstr "Vendégek:"
+
+msgid "Bed Type:"
+msgstr "Ágy típus:"
+
+msgid "View:"
+msgstr "Nézet:"
+
+msgid "Prices start at:"
+msgstr "Ár űrlap:"
+
+msgid "Price:"
+msgstr "Ár:"
+
+msgid "x %d adult"
+msgid_plural "x %d adults"
+msgstr[0] "x %d felnőtt"
+msgstr[1] "x %d felnőtt"
+
+msgid "Returning customer?"
+msgstr ""
+
+msgid "Click here to log in"
+msgstr ""
+
+#. translators: 1 - username;
+msgid "Hello %1$s (not %1$s? <a href=\"%2$s\">Log out</a>)."
+msgstr ""
+
+msgid "Accommodation #%d"
+msgstr "Szálláshely #%d"
+
+msgid "Accommodation Type:"
+msgstr "Szállástípus:"
+
+msgid "Choose Rate"
+msgstr "Díj kiválasztása"
+
+msgid "Choose Additional Services"
+msgstr "További szolgáltatások kiválasztása"
+
+msgid "for "
+msgstr "címzett"
+
+msgctxt "Example: Breakfast for X guest(s)"
+msgid " guest(s)"
+msgstr ""
+
+msgid "time(s)"
+msgstr ""
+
+msgctxt "I've read and accept the terms & conditions"
+msgid "terms & conditions"
+msgstr ""
+
+msgctxt "I've read and accept the <tag>terms & conditions</tag>"
+msgid "I've read and accept the %s"
+msgstr ""
+
+msgid "Your Information"
+msgstr "Az Ön információja"
+
+msgid "Required fields are followed by %s"
+msgstr "A kötelezően kitöltendő mezőket követi a %s"
+
+msgid "Create an account"
+msgstr ""
+
+msgid "Payment Method"
+msgstr "Fizetési módszer"
+
+msgid "Sorry, it seems that there are no available payment methods."
+msgstr "Sajnáljunk, jelenleg nincsenek rendelkezésre álló fizetési módszerek."
+
+msgid "Total Price:"
+msgstr "Teljes ár:"
+
+msgid "Deposit:"
+msgstr "Letét:"
+
+msgid "Check-in:"
+msgstr "Bejelentkezés:"
+
+msgctxt "from 10:00 am"
+msgid "from"
+msgstr " kezdet"
+
+msgid "Check-out:"
+msgstr "Kijelentkezés:"
+
+msgctxt "until 10:00 am"
+msgid "until"
+msgstr "vége"
+
+msgid "Book Now"
+msgstr "Foglalás most"
+
+msgid "Availability"
+msgstr "Elérhetőség"
+
+msgid "Reservation Form"
+msgstr "Foglalási űrlap"
+
+msgid "Display Accommodation Types"
+msgstr "Szálláshelytípus megjelenítése"
+
+msgid "Featured Image"
+msgstr ""
+
+msgid "Excerpt (short description)"
+msgstr "Kivonat megjelenítése (rövid leírás)"
+
+msgid "Book Button"
+msgstr ""
+
+msgid "Search Availability"
+msgstr "Szabad férőhelyeket keresése"
+
+msgid "Search Availability Form"
+msgstr "Elérhetőségi űrlap keresése"
+
+msgid "Title:"
+msgstr "Cím:"
+
+msgid "Check-in Date:"
+msgstr "Bejelentkezési dátum:"
+
+msgctxt "Date format tip"
+msgid "Preset date. Formatted as %s"
+msgstr "Elõre beállított dátum. Formázott %s"
+
+msgid "Check-out Date:"
+msgstr "Kijelentkezési dátum:"
+
+msgid "Preset Adults:"
+msgstr "Felnőttek:"
+
+msgid "Preset Children:"
+msgstr "Gyermekek:"
+
+msgid "Attributes:"
+msgstr ""
+
+msgid "Booking Confirmation and Search Results pages are required to handle bookings. Press \"Install Pages\" button to create and set up these pages. Dismiss this notice if you already installed them."
+msgstr "A foglalások kezeléséhez szükség van a Foglalás megerősítése és Keresési eredmények oldalakra. Nyomja meg az \"Oldalak feltelepítése\" gombot, és állítsa be azokat. Ha már feltelepítette őket, vesse el az értesítést."
+
+msgid "Install Pages"
+msgstr "Telepítési oldalak"
+
+msgid "Booking Canceled"
+msgstr ""
+
+msgid "Your reservation is canceled."
+msgstr ""
+
+msgid "Reservation Received"
+msgstr ""
+
+msgid "Transaction Failed"
+msgstr ""
+
+msgid "Unfortunately, your transaction cannot be completed at this time. Please try again or contact us."
+msgstr ""
+
+msgid "Prices start at: %s"
+msgstr ""
+
+msgid "View Details"
+msgstr "Részletek megtekintése"
+
+msgctxt "Date format tip"
+msgid "Formatted as %s"
+msgstr "Formázott %s"
+
+msgid "Check Availability"
+msgstr "Szabad szobák ellenőrzése"
+
+msgid "Reserve %1$s of %2$s available accommodations."
+msgstr ""
+
+msgid "%s is available for selected dates."
+msgstr ""
+
+msgid "Rate:"
+msgstr "Díj:"
+
+msgid "Services:"
+msgstr "Szolgáltatások:"
+
+msgid "Guest:"
+msgstr "Vendég:"
+
+msgid "Payment ID"
+msgstr "Fizetési azonosító"
+
+msgid "Total Paid"
+msgstr "Összesen fizetett"
+
+msgid "To Pay"
+msgstr "Fizetni"
+
+msgid "Add Payment Manually"
+msgstr "Fizetés manuális hozzáadása"
+
+msgid "Change Password"
+msgstr ""
+
+msgid "Old Password"
+msgstr ""
+
+msgid "New Password"
+msgstr ""
+
+msgid "Confirm New Password"
+msgstr ""
+
+msgid "You are not allowed to access this page."
+msgstr ""
+
+msgid "No bookings found."
+msgstr "Nincsenek foglalások."
+
+msgid "From your account dashboard you can view <a href=\"%1$s\">your recent bookings</a> or edit your <a href=\"%2$s\">password and account details</a>."
+msgstr ""
+
+msgid "Base price"
+msgstr ""
+
+msgid "%s accommodation found"
+msgid_plural "%s accommodations found"
+msgstr[0] "%s szállást találtunk"
+msgstr[1] "%s szállást találtunk"
+
+msgid " from %s - till %s"
+msgstr "%s - %s"
+
+msgid "Add Accommodation"
+msgstr ""
+
+msgid "Save"
+msgstr "Mentés"
+
+msgid "Choose new dates to check availability of reserved accommodations in the original booking."
+msgstr ""
+
+msgid "Add, remove or replace accommodations in the original booking."
+msgstr ""
+
+msgid "Not Available"
+msgstr ""
+
+msgid "Continue"
+msgstr ""
+
+msgid "Choose how to associate data"
+msgstr ""
+
+msgid "Use Source Accommodation to assign pre-filled booking information available in the original booking, e.g., full guest name, selected rate, services, etc."
+msgstr ""
+
+msgid "Source accommodation"
+msgstr ""
+
+msgid "Target accommodation"
+msgstr ""
+
+msgid "Booking #%s is cancelled by customer."
+msgstr "A #%s foglalást törölték."
+
+msgid "Details of booking"
+msgstr "Foglalás részletei"
+
+msgid "Check-in: %1$s, from %2$s"
+msgstr "Bejelentkezés %1$s, %2$s-tól"
+
+msgid "Check-out: %1$s, until %2$s"
+msgstr "Kijelentkezés %1$s, %2$s -ig"
+
+msgid "Name: %1$s %2$s"
+msgstr "Név: %1$s %2$s"
+
+msgid "Email: %s"
+msgstr "E-mail: %s"
+
+msgid "Phone: %s"
+msgstr "Telefon: %s"
+
+msgid "Note: %s"
+msgstr "Bejegyzés: %s"
+
+msgid "Booking #%s is confirmed by customer."
+msgstr "A #%s foglalást megerősítette az ügyfél."
+
+msgid "Booking #%s is confirmed by payment."
+msgstr "A #%s foglalás a fizetés által meg lett erősítve."
+
+msgid "Details of payment"
+msgstr "Fizetés részletei"
+
+msgid "Payment ID: #%s"
+msgstr "Fizetési ID: #%s"
+
+msgid "Amount: %s"
+msgstr "Mennyiség: %s"
+
+msgid "Method: %s"
+msgstr "Módszer: %s"
+
+msgid "Booking #%s is pending for Administrator approval."
+msgstr "A #%s foglalás az adminisztrátor jóváhagyásáig függőben van."
+
+msgid "Click the link below to cancel your booking."
+msgstr "Kattintson az alábbi linkre a foglalása törléséhez."
+
+msgid "Cancel your booking"
+msgstr "Foglalás törlése"
+
+msgid "Dear %1$s %2$s, your reservation is approved!"
+msgstr "Kedves %1$s %2$s, jóváhagytuk az Ön foglalását!"
+
+msgid "ID: #%s"
+msgstr ""
+
+msgid "Thank you!"
+msgstr "Köszönjük!"
+
+msgid "Dear %1$s %2$s, your reservation is cancelled!"
+msgstr "Kedves %1$s %2$s, töröltük az Ön foglalását!"
+
+msgid "Dear %1$s %2$s, we received your request for reservation."
+msgstr "Kedves %1$s %2$s, az Ön foglalási kérését megkaptuk."
+
+msgid "Click the link below to confirm your booking."
+msgstr "Kattintson az alábbi linkre a foglalás megerősítéséhez."
+
+msgid "Confirm"
+msgstr "Megerősítés"
+
+msgid "Note: link expires on"
+msgstr "Figyelem: a link lejárati dátuma - "
+
+msgid "UTC"
+msgstr ""
+
+msgid "If you did not place this booking, please ignore this email."
+msgstr "Ha a foglalást nem Ön hajtotta végre, kérjük,  hagyja figyelmen kívül ezt a levelet."
+
+msgid "Dear %1$s %2$s, your reservation is pending."
+msgstr "Kedves %1$s %2$s, az Ön foglalása folyamatban van."
+
+msgid "We will notify you by email once it is confirmed by our staff."
+msgstr "Értesítjük Önt e-mailen keresztül, amint a munkatársaink elfogadták a kérését."
+
+msgid "Hi %1$s %2$s,"
+msgstr ""
+
+msgid "Thanks for creating an account on %1$s."
+msgstr ""
+
+msgid "You Account Details"
+msgstr ""
+
+msgid "Login: %s"
+msgstr ""
+
+msgid "Password: %s"
+msgstr ""
+
+msgid "Log in here: %s"
+msgstr ""
+
+msgid "Accommodation #%s"
+msgstr "Szállás #%s"
+
+msgid "Accommodation: <a href=\"%1$s\">%2$s</a>"
+msgstr "Szállás: <a href=\"%1$s\">%2$s</a>"
+
+msgid "Accommodation Rate: %s"
+msgstr "Szállási díj: %s"
+
+msgid "Bed Type: %s"
+msgstr "Ágy típus: %s"
+
+msgid "Required fields are followed by"
+msgstr "A kötelezően kitöltendő mezőket követi a"
+
+msgid "Booking is already canceled."
+msgstr ""
+
+msgid "Cancel Booking"
+msgstr ""
+
+msgid "Invalid request."
+msgstr "Érvénytelen kérelem."
+
+msgid "Cancelation of your booking is not possible for some reason. Please contact the website administrator."
+msgstr ""
+
+msgid "Booking is already confirmed."
+msgstr "A foglalást már meg van erősítve."
+
+msgid "Your booking is confirmed. Thank You!"
+msgstr "A foglalását megerősítettük. Köszönjük!"
+
+msgid "Your booking request is expired. Please start a new booking request."
+msgstr "A foglalási kérése lejárt. Kérjük, kérelmezzen egy újat. "
+
+msgid "Confirmation of your booking request is not possible for some reason. Please start a new booking request."
+msgstr "Az Ön Foglalási kérésének a megerősítése valamilyen okból nem lehetséges. Kérjük, kezdjen meg egy új foglalást."
+
+msgid "We are pleased to inform you that your reservation request has been received and confirmed."
+msgstr ""
+
+msgid "Booking:"
+msgstr "Szállásfoglalás:"
+
+msgid "Details:"
+msgstr "Részletek:"
+
+msgid "Thank you for your payment. Your transaction has been completed."
+msgstr ""
+
+msgid "We are pleased to inform you that your reservation request has been received."
+msgstr ""
+
+msgid "from %s"
+msgstr "%s"
+
+msgid "No accommodations matching criteria."
+msgstr "Nincs megfelelő szálláshely."
+
+msgid "No services matched criteria."
+msgstr "Egyetlen szolgáltatás se egyezik a kritériumokkal."
+
+msgid "Nothing found."
+msgstr "Nincs találat."
+
+msgid "Children %s:"
+msgstr "Gyermek %s"
+
+msgid "Preset date. Formatted as %s"
+msgstr "Elõre beállított dátum. Formázott %s"
+
+msgid "Gallery"
+msgstr ""
+
+msgid "View Button"
+msgstr ""
+
+msgid "Order"
+msgstr ""
+
+msgid "Order By"
+msgstr ""
+
+msgid "No order"
+msgstr ""
+
+msgid "Post ID"
+msgstr ""
+
+msgid "Post author"
+msgstr ""
+
+msgid "Post title"
+msgstr "Bejegyzés címe"
+
+msgid "Post name (post slug)"
+msgstr ""
+
+msgid "Post date"
+msgstr ""
+
+msgid "Last modified date"
+msgstr ""
+
+msgid "Parent ID"
+msgstr ""
+
+msgid "Random order"
+msgstr ""
+
+msgid "Number of comments"
+msgstr "Kommentek száma"
+
+msgid "Relevance"
+msgstr ""
+
+msgid "Page order"
+msgstr "Oldalsorrend"
+
+msgid "Meta value"
+msgstr ""
+
+msgid "Numeric meta value"
+msgstr ""
+
+msgid "Ascending (1, 2, 3)"
+msgstr ""
+
+msgid "Descending (3, 2, 1)"
+msgstr ""
+
+msgid "Meta Name"
+msgstr ""
+
+msgid "Meta Type"
+msgstr ""
+
+msgid "Specified type of the custom field. Can be used in conjunction with \"orderby\" = \"meta_value\"."
+msgstr ""
+
+msgid "Any"
+msgstr ""
+
+msgid "Numeric"
+msgstr ""
+
+msgid "Binary"
+msgstr ""
+
+msgid "String"
+msgstr ""
+
+msgid "Time"
+msgstr ""
+
+msgid "Date and time"
+msgstr ""
+
+msgid "Decimal number"
+msgstr ""
+
+msgid "Signed number"
+msgstr ""
+
+msgid "Unsigned number"
+msgstr ""
+
+msgid "Query Settings"
+msgstr ""
+
+msgid "Relation"
+msgstr ""
+
+msgid "Values: integer, -1 to display all, default: \"Blog pages show at most\""
+msgstr ""
+

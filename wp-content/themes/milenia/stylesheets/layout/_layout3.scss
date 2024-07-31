@@ -1,0 +1,5335 @@
+
+/* ----------------------------------------
+            Post Formats
+        ---------------------------------------- */
+
+/* ----------------------------------------
+                Common
+            ---------------------------------------- */
+
+.milenia-entities--style-4:not(.milenia-entities--list) .milenia-entity--format-quote .milenia-entity-meta:not(:last-child),
+.milenia-entities--style-4:not(.milenia-entities--list) .milenia-entity--format-link .milenia-entity-meta:not(:last-child),
+.milenia-entities--style-9:not(.milenia-entities--list) .milenia-entity--format-quote .milenia-entity-meta:not(:last-child),
+.milenia-entities--style-9:not(.milenia-entities--list) .milenia-entity--format-link .milenia-entity-meta:not(:last-child),
+.milenia-entities--style-7:not(.milenia-entities--list) .milenia-entity--format-quote .milenia-entity-meta:not(:last-child),
+.milenia-entities--style-7:not(.milenia-entities--list) .milenia-entity--format-link .milenia-entity-meta:not(:last-child),
+.milenia-entities--style-6 .milenia-entity--format-quote .milenia-entity-meta:not(:last-child),
+.milenia-entities--style-6 .milenia-entity--format-link .milenia-entity-meta:not(:last-child),
+.milenia-entities--style-6 .milenia-entity--format-audio .milenia-entity-meta:not(:last-child) {
+  margin-bottom: 0;
+}
+
+.milenia-entities--style-4:not(.milenia-entities--list) .milenia-entity--format-quote .milenia-entity-title,
+.milenia-entities--style-4:not(.milenia-entities--list) .milenia-entity--format-link .milenia-entity-title,
+.milenia-entities--style-9:not(.milenia-entities--list) .milenia-entity--format-quote .milenia-entity-title,
+.milenia-entities--style-9:not(.milenia-entities--list) .milenia-entity--format-link .milenia-entity-title,
+.milenia-entities--style-7:not(.milenia-entities--list) .milenia-entity--format-quote .milenia-entity-title,
+.milenia-entities--style-7:not(.milenia-entities--list) .milenia-entity--format-link .milenia-entity-title,
+.milenia-entities--style-6 .milenia-entity--format-quote .milenia-entity-title,
+.milenia-entities--style-6 .milenia-entity--format-link .milenia-entity-title,
+.milenia-entities--style-6 .milenia-entity--format-audio .milenia-entity-title {
+  visibility: hidden;
+  position: absolute;
+}
+
+/* ----------------------------------------
+                Link
+            ---------------------------------------- */
+
+.milenia-entity-link-element,
+.milenia-entity.format-link .milenia-entity-body > p:only-child > a:only-child {
+  font-size: 1.5rem;
+  line-height: 2.4375rem;
+  font-style: italic;
+  padding-top: 2.2rem;
+  padding-right: 2.15rem;
+  padding-left: 2.1rem;
+  padding-bottom: 1.9rem;
+  text-align: initial;
+  color: #fff;
+  position: relative;
+  display: block !important;
+  padding-left: 5.5375rem;
+  background-image: none !important;
+}
+
+.milenia-entity.format-link .milenia-entity-body > p:only-child > a:only-child::before {
+  font-family: 'Linearicons';
+  content: "\e917";
+}
+
+.milenia-entity-link-element .fa,
+.milenia-entity-link-element .fal,
+.milenia-entity-link-element .far,
+.milenia-entity-link-element .fab,
+.milenia-entity-link-element .fas,
+.milenia-entity-link-element .icon,
+.milenia-entity-link-element [class*="milenia-font-icon-"],
+.milenia-entity.format-link .milenia-entity-body > p:only-child > a:only-child::before {
+  font-size: 1.875rem;
+  position: absolute;
+  top: 2.2rem;
+  left: 2.4rem;
+}
+
+.milenia-entity.format-link .milenia-entity-body > p:only-child > a:only-child::before {
+  top: 1.8rem;
+}
+
+.milenia-csstransforms3d .milenia-entity-link-element .fa,
+.milenia-csstransforms3d .milenia-entity-link-element .fal,
+.milenia-csstransforms3d .milenia-entity-link-element .far,
+.milenia-csstransforms3d .milenia-entity-link-element .fab,
+.milenia-csstransforms3d .milenia-entity-link-element .fas,
+.milenia-csstransforms3d .milenia-entity-link-element .icon,
+.milenia-csstransforms3d .milenia-entity-link-element [class*="milenia-font-icon-"],
+.milenia-entity.format-link .milenia-entity-body > p:only-child > a:only-child::before {
+  -webkit-transition: -webkit-transform .5s cubic-bezier(0.25, 5, 0.79, 0.38);
+  transition:         transform .5s cubic-bezier(0.25, 5, 0.79, 0.38);
+}
+
+.milenia-csstransforms3d .milenia-entity-link-element:hover .fa,
+.milenia-csstransforms3d .milenia-entity-link-element:hover .fal,
+.milenia-csstransforms3d .milenia-entity-link-element:hover .far,
+.milenia-csstransforms3d .milenia-entity-link-element:hover .fab,
+.milenia-csstransforms3d .milenia-entity-link-element:hover .fas,
+.milenia-csstransforms3d .milenia-entity-link-element:hover .icon,
+.milenia-csstransforms3d .milenia-entity-link-element:hover [class*="milenia-font-icon-"],
+.milenia-entity.format-link .milenia-entity-body > p:only-child > a:only-child:hover::before {
+  -webkit-transform: scale3d(1.05, 1.05, 1.05);
+  transform: scale3d(1.05, 1.05, 1.05);
+}
+
+.milenia-body--scheme-brown .milenia-entity-link-element,
+.milenia-body--scheme-brown .milenia-entity.format-link .milenia-entity-body > p:only-child > a:only-child {
+  background-color: #ae745a;
+}
+
+.milenia-body--scheme-gray .milenia-entity-link-element,
+.milenia-body--scheme-gray .milenia-entity.format-link .milenia-entity-body > p:only-child > a:only-child {
+  background-color: #948685;
+}
+
+.milenia-body--scheme-blue .milenia-entity-link-element,
+.milenia-body--scheme-blue .milenia-entity.format-link .milenia-entity-body > p:only-child > a:only-child {
+  background-color: #19b1d1;
+}
+
+.milenia-body--scheme-lightbrown .milenia-entity-link-element,
+.milenia-body--scheme-lightbrown .milenia-entity.format-link .milenia-entity-body > p:only-child > a:only-child {
+  background-color: #c19b76;
+}
+
+.milenia-body--scheme-green .milenia-entity-link-element,
+.milenia-body--scheme-green .milenia-entity.format-link .milenia-entity-body > p:only-child > a:only-child {
+  background-color: #7eb71c;
+}
+
+/* ----------------------------------------
+        Carousels
+    ---------------------------------------- */
+
+.owl-carousel.milenia-simple-slideshow {
+  -webkit-transform: translate3d(-1px, 0, 0);
+  transform: translate3d(-1px, 0, 0);
+}
+
+.owl-carousel--vadaptive {
+  height: 100%;
+}
+
+.owl-carousel--vadaptive .milenia-entity-slide {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.owl-carousel--vadaptive .owl-stage-outer, .owl-carousel--vadaptive .owl-stage {
+  height: 100%;
+}
+
+.owl-carousel--vadaptive .owl-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+}
+
+.owl-carousel--nav-onhover .owl-prev,
+.owl-carousel--nav-onhover .owl-next {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.owl-carousel--nav-onhover:hover .owl-prev,
+.owl-carousel--nav-onhover:hover .owl-next,
+.milenia-touchevents .owl-carousel--nav-onhover .owl-prev,
+.milenia-touchevents .owl-carousel--nav-onhover .owl-next {
+  opacity: 1;
+  visibility: visible;
+}
+
+.owl-carousel .owl-nav .owl-prev,
+.owl-carousel .owl-nav .owl-next {
+  vertical-align: middle;
+  display: inline-block;
+  text-align: center;
+  line-height: 1 !important;
+
+  -webkit-transition: -webkit-transform .5s cubic-bezier(0.165, 0.84, 0.44, 1), color .5s cubic-bezier(0.165, 0.84, 0.44, 1), background-color .5s cubic-bezier(0.165, 0.84, 0.44, 1), opacity .5s cubic-bezier(0.165, 0.84, 0.44, 1), visibility .5s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition:         transform .5s cubic-bezier(0.165, 0.84, 0.44, 1), color .5s cubic-bezier(0.165, 0.84, 0.44, 1), background-color .5s cubic-bezier(0.165, 0.84, 0.44, 1), opacity .5s cubic-bezier(0.165, 0.84, 0.44, 1), visibility .5s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.owl-carousel:not(.owl-carousel--nav-edges) .owl-nav {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 7;
+}
+
+.owl-carousel:not(.owl-carousel--nav-edges) .owl-nav .owl-prev,
+.owl-carousel:not(.owl-carousel--nav-edges) .owl-nav .owl-next {
+  font-size: 1.1875rem;
+  width: 3.25rem;
+  height: 3.25rem;
+  margin-right: 1px;
+  color: #fff;
+  opacity: .8;
+}
+
+.vc_col-sm-6 .milenia-grid--cols-2 .owl-carousel:not(.owl-carousel--nav-edges) .owl-nav .owl-prev,
+.vc_col-sm-6 .milenia-grid--cols-2 .owl-carousel:not(.owl-carousel--nav-edges) .owl-nav .owl-next,
+.vc_col-sm-6 .milenia-grid--cols-3 .owl-carousel:not(.owl-carousel--nav-edges) .owl-nav .owl-prev,
+.vc_col-sm-6 .milenia-grid--cols-3 .owl-carousel:not(.owl-carousel--nav-edges) .owl-nav .owl-next,
+.vc_col-sm-5 .milenia-grid--cols-2 .owl-carousel:not(.owl-carousel--nav-edges) .owl-nav .owl-prev,
+.vc_col-sm-5 .milenia-grid--cols-2 .owl-carousel:not(.owl-carousel--nav-edges) .owl-nav .owl-next,
+.vc_col-sm-5 .milenia-grid--cols-3 .owl-carousel:not(.owl-carousel--nav-edges) .owl-nav .owl-prev,
+.vc_col-sm-5 .milenia-grid--cols-3 .owl-carousel:not(.owl-carousel--nav-edges) .owl-nav .owl-next,
+.milenia-grid--cols-4 .owl-carousel:not(.owl-carousel--nav-edges) .owl-nav .owl-prev,
+.milenia-grid--cols-4 .owl-carousel:not(.owl-carousel--nav-edges) .owl-nav .owl-next,
+.milenia-entities--cols-4 .owl-carousel:not(.owl-carousel--nav-edges) .owl-nav .owl-prev,
+.milenia-entities--cols-4 .owl-carousel:not(.owl-carousel--nav-edges) .owl-nav .owl-next,
+.milenia-has-sidebar .milenia-grid--cols-3 .owl-carousel:not(.owl-carousel--nav-edges) .owl-nav .owl-prev,
+.milenia-has-sidebar .milenia-grid--cols-3 .owl-carousel:not(.owl-carousel--nav-edges) .owl-nav .owl-next,
+.milenia-has-sidebar .milenia-entities--cols-3 .owl-carousel:not(.owl-carousel--nav-edges) .owl-nav .owl-prev,
+.milenia-has-sidebar .milenia-entities--cols-3 .owl-carousel:not(.owl-carousel--nav-edges) .owl-nav .owl-next {
+  font-size: 1rem;
+  width: 2.7rem;
+  height: 2.7rem;
+}
+
+
+.owl-carousel:not(.owl-carousel--nav-edges) .owl-nav .owl-prev > i,
+.owl-carousel:not(.owl-carousel--nav-edges) .owl-nav .owl-next > i {
+  vertical-align: middle;
+  position: relative;
+  top: -2px;
+}
+
+.owl-carousel:not(.owl-carousel--nav-edges) .owl-nav .owl-prev:hover,
+.owl-carousel:not(.owl-carousel--nav-edges) .owl-nav .owl-next:hover {
+  opacity: 1;
+}
+
+.owl-carousel.owl-carousel--nav-edges .owl-nav .owl-prev,
+.owl-carousel.owl-carousel--nav-edges .owl-nav .owl-next {
+  font-size: 2.375rem;
+  width: 2.375rem;
+  height: 2.375rem;
+  color: #dadada;
+  position: absolute;
+  top: 50%;
+  margin-top: -1.1875rem;
+}
+
+.owl-carousel.owl-carousel--nav-edges .owl-nav .owl-prev {
+  left: -3.775rem;
+}
+
+.owl-carousel.owl-carousel--nav-edges .owl-nav .owl-next {
+  right: -3.775rem;
+}
+
+.owl-carousel.owl-carousel--nav-edges.owl-carousel--nav-small .owl-nav .owl-prev,
+.owl-carousel.owl-carousel--nav-edges.owl-carousel--nav-small .owl-nav .owl-next {
+  font-size: 1.8125rem;
+  width: 1.8125rem;
+  height: 1.8125rem;
+  margin-top: -0.90625rem;
+}
+
+.owl-carousel.owl-carousel--nav-edges.owl-carousel--nav-huge .owl-nav .owl-prev,
+.owl-carousel.owl-carousel--nav-edges.owl-carousel--nav-huge .owl-nav .owl-next {
+  font-size: 3rem;
+  width: 3rem;
+  height: 3rem;
+  margin-top: -1.5rem;
+}
+
+.owl-carousel .owl-dots {
+  font-size: 0;
+  line-height: 0;
+  margin-top: 3rem;
+  text-align: center;
+  margin-bottom: 0.6rem;
+}
+
+.owl-carousel .owl-dot {
+  display: inline-block;
+  width: 6px;
+  height: 2px;
+  margin-left: 5px;
+  margin-right: 5px;
+  -webkit-transition: width .5s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: width .5s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.owl-carousel .owl-dot.active {
+  width: 33px;
+}
+
+.owl-carousel .owl-dot > span {
+  display: none;
+}
+
+.owl-carousel button.owl-dot {
+  background-color: #1c1c1c;
+}
+
+.milenia-colorizer--scheme-primary .owl-carousel button.owl-dot,
+.milenia-colorizer--scheme-secondary .owl-carousel button.owl-dot,
+.milenia-colorizer--scheme-dark .owl-carousel button.owl-dot {
+  background-color: #fff;
+}
+
+[data-vc-full-width="true"] .owl-carousel.owl-carousel--nav-edges .owl-nav .owl-prev,
+[class*="milenia-section--stretched-content"] .owl-carousel.owl-carousel--nav-edges .owl-nav .owl-prev {
+  left: 0.6875rem;
+}
+
+[data-vc-full-width="true"] .owl-carousel.owl-carousel--nav-edges .owl-nav .owl-next,
+[class*="milenia-section--stretched-content"] .owl-carousel.owl-carousel--nav-edges .owl-nav .owl-next {
+  right: 0.6875rem;
+}
+
+[data-vc-full-width="true"] .owl-carousel.owl-carousel--nav-edges.owl-carousel--nav-inside .owl-nav .owl-prev,
+[class*="milenia-section--stretched-content"] .owl-carousel.owl-carousel--nav-edges.owl-carousel--nav-inside .owl-nav .owl-prev {
+  left: 1.2rem;
+}
+
+[data-vc-full-width="true"] .owl-carousel.owl-carousel--nav-edges.owl-carousel--nav-inside .owl-nav .owl-next,
+[class*="milenia-section--stretched-content"] .owl-carousel.owl-carousel--nav-edges.owl-carousel--nav-inside .owl-nav .owl-next {
+  right: 1.2rem;
+}
+
+.owl-carousel.owl-carousel--nav-edges.owl-carousel--nav-inside .owl-nav .owl-prev {
+  left: 0;
+}
+
+.owl-carousel.owl-carousel--nav-edges.owl-carousel--nav-inside .owl-nav .owl-next {
+  right: 0;
+}
+
+[class*="milenia-body--scheme-"] .owl-carousel.owl-carousel--nav-hover-white.owl-carousel--nav-edges .owl-nav .owl-prev:hover,
+[class*="milenia-body--scheme-"] .owl-carousel.owl-carousel--nav-hover-white.owl-carousel--nav-edges .owl-nav .owl-next:hover {
+  color: #fff;
+}
+
+.milenia-csstransforms3d .owl-carousel--nav-onhover::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: -80px;
+  right: -80px;
+}
+
+.milenia-csstransforms3d .owl-carousel--nav-onhover .owl-prev {
+  -webkit-transform: translate3d(-20px, 0, 0);
+  transform: translate3d(-20px, 0, 0);
+}
+
+.milenia-csstransforms3d .owl-carousel--nav-onhover .owl-next {
+  -webkit-transform: translate3d(20px, 0, 0);
+  transform: translate3d(20px, 0, 0);
+}
+
+.milenia-csstransforms3d .owl-carousel--nav-onhover:hover .owl-prev,
+.milenia-csstransforms3d .owl-carousel--nav-onhover:hover .owl-next,
+.milenia-csstransforms3d.milenia-touchevents .owl-carousel--nav-onhover .owl-prev,
+.milenia-csstransforms3d.milenia-touchevents .owl-carousel--nav-onhover .owl-next {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+/* ----------------------------------------
+            Simple Slideshow
+        ---------------------------------------- */
+
+.milenia-simple-slideshow-thumbs:not(:first-child) {
+  margin-top: 1.625rem;
+}
+
+.milenia-simple-slideshow-thumbs:not(:last-child) {
+  margin-bottom: 1.625rem;
+}
+
+.milenia-simple-slideshow-thumbs .owl-item {
+  cursor: pointer;
+}
+
+[class*="milenia-section--stretched-content"] .milenia-simple-slideshow--events.owl-carousel.owl-carousel--nav-edges.owl-carousel--nav-inside .owl-nav .owl-prev,
+[data-vc-full-width*="true"] .milenia-simple-slideshow--events.owl-carousel.owl-carousel--nav-edges.owl-carousel--nav-inside .owl-nav .owl-prev {
+  left: 13%;
+}
+[class*="milenia-section--stretched-content"] .milenia-simple-slideshow--events.owl-carousel.owl-carousel--nav-edges.owl-carousel--nav-inside .owl-nav .owl-next,
+[data-vc-full-width*="true"] .milenia-simple-slideshow--events.owl-carousel.owl-carousel--nav-edges.owl-carousel--nav-inside .owl-nav .owl-next {
+  right: 13%;
+}
+
+/* ----------------------------------------
+            Tabbed carousel
+        ---------------------------------------- */
+
+.milenia-tabbed-carousel {
+  position: relative;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+  display: inline-block;
+  width: 100%;
+}
+
+.milenia-tabbed-carousel::after {
+  content: "";
+  display: block;
+  position: absolute;
+  z-index: 0;
+  border-style: solid;
+  border-width: 1px;
+  top: -2.5rem;
+  right: 2.5rem;
+  bottom: -2.5rem;
+  left: 2.5rem;
+}
+
+.milenia-tabbed-carousel .milenia-outline-over {
+  position: relative;
+  z-index: 3;
+}
+
+.milenia-tabbed-carousel .milenia-entities--style-15 .milenia-entity {
+  margin-top: 0;
+}
+
+.milenia-tabbed-carousel .milenia-entities--style-15 .milenia-entity::after, .milenia-tabbed-carousel .milenia-entities--style-15 .milenia-entity-media::before {
+  content: none;
+}
+
+.milenia-tabbed-carousel-thumbs {
+  padding-top: 2.5rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+.milenia-tabbed-carousel-thumbs .owl-carousel.owl-carousel--nav-edges.owl-carousel--nav-small .owl-prev {
+  left: -5.3rem;
+}
+
+.milenia-tabbed-carousel-thumbs .owl-carousel.owl-carousel--nav-edges.owl-carousel--nav-small .owl-next {
+  right: -5.3rem;
+}
+
+.milenia-tabbed-carousel-thumb {
+  cursor: pointer;
+  overflow: hidden;
+  opacity: .5;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+  -webkit-transition: opacity .5s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: opacity .5s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.milenia-tabbed-carousel-thumb-image {
+  width: 146px;
+  height: 104px;
+  float: left;
+}
+
+.milenia-tabbed-carousel-thumb-caption {
+  font-size: 1rem;
+  line-height: 1.125rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.4px;
+  color: #1c1c1c;
+  overflow: hidden;
+  padding: 1rem 1.2rem 0;
+}
+
+.milenia-tabbed-carousel::after {
+  border-color: #dadada;
+}
+
+.milenia-grid--tabbed-active .milenia-tabbed-carousel-thumb {
+  opacity: 1;
+}
+
+.milenia-body--scheme-brown .owl-carousel:not(.owl-carousel--nav-edges) .owl-nav .owl-prev,
+.milenia-body--scheme-brown .owl-carousel:not(.owl-carousel--nav-edges) .owl-nav .owl-next,
+.milenia-body--scheme-brown:not(body) .owl-carousel:not(.owl-carousel--nav-edges) .owl-nav .owl-prev,
+.milenia-body--scheme-brown:not(body) .owl-carousel:not(.owl-carousel--nav-edges) .owl-nav .owl-next {
+  background-color: #ae745a;
+}
+
+.milenia-body--scheme-brown .owl-carousel.owl-carousel--nav-edges .owl-nav .owl-prev:hover,
+.milenia-body--scheme-brown .owl-carousel.owl-carousel--nav-edges .owl-nav .owl-next:hover,
+.milenia-body--scheme-brown:not(body) .owl-carousel.owl-carousel--nav-edges .owl-nav .owl-prev:hover,
+.milenia-body--scheme-brown:not(body) .owl-carousel.owl-carousel--nav-edges .owl-nav .owl-next:hover {
+  color: #ae745a;
+}
+
+.milenia-body--scheme-gray .owl-carousel:not(.owl-carousel--nav-edges) .owl-nav .owl-prev,
+.milenia-body--scheme-gray .owl-carousel:not(.owl-carousel--nav-edges) .owl-nav .owl-next,
+.milenia-body--scheme-gray:not(body) .owl-carousel:not(.owl-carousel--nav-edges) .owl-nav .owl-prev,
+.milenia-body--scheme-gray:not(body) .owl-carousel:not(.owl-carousel--nav-edges) .owl-nav .owl-next {
+  background-color: #948685;
+}
+
+.milenia-body--scheme-gray .owl-carousel.owl-carousel--nav-edges .owl-nav .owl-prev:hover,
+.milenia-body--scheme-gray .owl-carousel.owl-carousel--nav-edges .owl-nav .owl-next:hover,
+.milenia-body--scheme-gray:not(body) .owl-carousel.owl-carousel--nav-edges .owl-nav .owl-prev:hover,
+.milenia-body--scheme-gray:not(body) .owl-carousel.owl-carousel--nav-edges .owl-nav .owl-next:hover {
+  color: #948685;
+}
+
+.milenia-body--scheme-blue .owl-carousel:not(.owl-carousel--nav-edges) .owl-nav .owl-prev,
+.milenia-body--scheme-blue .owl-carousel:not(.owl-carousel--nav-edges) .owl-nav .owl-next,
+.milenia-body--scheme-blue:not(body) .owl-carousel:not(.owl-carousel--nav-edges) .owl-nav .owl-prev,
+.milenia-body--scheme-blue:not(body) .owl-carousel:not(.owl-carousel--nav-edges) .owl-nav .owl-next {
+  background-color: #19b1d1;
+}
+
+.milenia-body--scheme-blue .owl-carousel.owl-carousel--nav-edges .owl-nav .owl-prev:hover,
+.milenia-body--scheme-blue .owl-carousel.owl-carousel--nav-edges .owl-nav .owl-next:hover,
+.milenia-body--scheme-blue:not(body) .owl-carousel.owl-carousel--nav-edges .owl-nav .owl-prev:hover,
+.milenia-body--scheme-blue:not(body) .owl-carousel.owl-carousel--nav-edges .owl-nav .owl-next:hover {
+  color: #19b1d1;
+}
+
+.milenia-body--scheme-lightbrown .owl-carousel:not(.owl-carousel--nav-edges) .owl-nav .owl-prev,
+.milenia-body--scheme-lightbrown .owl-carousel:not(.owl-carousel--nav-edges) .owl-nav .owl-next,
+.milenia-body--scheme-lightbrown:not(body) .owl-carousel:not(.owl-carousel--nav-edges) .owl-nav .owl-prev,
+.milenia-body--scheme-lightbrown:not(body) .owl-carousel:not(.owl-carousel--nav-edges) .owl-nav .owl-next {
+  background-color: #c19b76;
+}
+
+.milenia-body--scheme-lightbrown .owl-carousel.owl-carousel--nav-edges .owl-nav .owl-prev:hover,
+.milenia-body--scheme-lightbrown .owl-carousel.owl-carousel--nav-edges .owl-nav .owl-next:hover,
+.milenia-body--scheme-lightbrown:not(body) .owl-carousel.owl-carousel--nav-edges .owl-nav .owl-prev:hover,
+.milenia-body--scheme-lightbrown:not(body) .owl-carousel.owl-carousel--nav-edges .owl-nav .owl-next:hover {
+  color: #c19b76;
+}
+
+.milenia-body--scheme-green .owl-carousel:not(.owl-carousel--nav-edges) .owl-nav .owl-prev,
+.milenia-body--scheme-green .owl-carousel:not(.owl-carousel--nav-edges) .owl-nav .owl-next,
+.milenia-body--scheme-green:not(body) .owl-carousel:not(.owl-carousel--nav-edges) .owl-nav .owl-prev,
+.milenia-body--scheme-green:not(body) .owl-carousel:not(.owl-carousel--nav-edges) .owl-nav .owl-next {
+  background-color: #7eb71c;
+}
+
+.milenia-body--scheme-green .owl-carousel.owl-carousel--nav-edges .owl-nav .owl-prev:hover,
+.milenia-body--scheme-green .owl-carousel.owl-carousel--nav-edges .owl-nav .owl-next:hover,
+.milenia-body--scheme-green:not(body) .owl-carousel.owl-carousel--nav-edges .owl-nav .owl-prev:hover,
+.milenia-body--scheme-green:not(body) .owl-carousel.owl-carousel--nav-edges .owl-nav .owl-next:hover {
+  color: #7eb71c;
+}
+
+/* ----------------------------------------
+        Call to Actions
+    ---------------------------------------- */
+
+.milenia-cta {
+  line-height: 1.5;
+}
+
+.milenia-cta-title {
+  letter-spacing: -1px;
+}
+
+.milenia-cta-title:not(:last-child) {
+  margin-bottom: 0.85rem;
+}
+
+.milenia-cta--style-2 .milenia-cta-action:not(:first-child), .milenia-cta--style-3 .milenia-cta-action:not(:first-child) {
+  margin-top: 0.5rem;
+}
+
+.milenia-cta.milenia-section--py-small {
+  padding-bottom: 4rem;
+}
+
+/* ----------------------------------------
+        Section Header
+    ---------------------------------------- */
+
+.milenia-section-heading:not(:last-child) {
+  margin-bottom: 2rem;
+}
+
+.milenia-section-subtitle {
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.42;
+  letter-spacing: 4.2px;
+  text-transform: uppercase;
+}
+
+.milenia-section-description {
+  font-size: 1.125rem;
+  line-height: 1.66667;
+}
+
+.milenia-section-description:not(.milenia-section-description--style-2) {
+  padding-left: 26%;
+  padding-right: 26%;
+}
+
+.milenia-section-description.milenia-section-description--style-2 {
+  font-weight: 700;
+}
+
+.milenia-section-description.milenia-section-description--style-2:not(:last-child) {
+  margin-bottom: 1.3rem;
+}
+
+.milenia-section-description:not(:last-child),
+.milenia-flexible-grid .milenia-section-title:not(.milenia-section-title--unchangeable):not(:last-child) {
+  margin-bottom: 2rem;
+}
+
+.milenia-body--scheme-brown .milenia-section-subtitle {
+  color: #ae745a;
+}
+
+.milenia-body--scheme-gray .milenia-section-subtitle {
+  color: #948685;
+}
+
+.milenia-body--scheme-blue .milenia-section-subtitle {
+  color: #19b1d1;
+}
+
+.milenia-body--scheme-lightbrown .milenia-section-subtitle {
+  color: #c19b76;
+}
+
+.milenia-body--scheme-green .milenia-section-subtitle {
+  color: #7eb71c;
+}
+
+/* ----------------------------------------
+        Rating
+    ---------------------------------------- */
+
+.milenia-rating {
+  font-size: 1.25rem;
+  line-height: 1.25rem;
+  white-space: nowrap;
+}
+
+.milenia-rating-top-level > *, .milenia-rating-bottom-level > * {
+  margin-left: 0.175rem;
+  margin-right: 0.175rem;
+}
+
+.milenia-colorizer--scheme-primary .milenia-rating,
+.milenia-colorizer--scheme-secondary .milenia-rating,
+.milenia-colorizer--scheme-dark .milenia-rating {
+  color: #eaeaea;
+}
+
+.milenia-rating--independent {
+  font-size: 1rem;
+  line-height: 1;
+  color: #dadada;
+}
+
+.milenia-rating--independent .milenia-rating-top-level {
+  color: #febd11;
+}
+
+.milenia-rating--independent .milenia-rating-top-level > *, .milenia-rating--independent .milenia-rating-bottom-level > * {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/* ----------------------------------------
+        Testimonials
+    ---------------------------------------- */
+
+.milenia-testimonial {
+  text-align: center;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.milenia-testimonial .milenia-author a {
+  color: inherit;
+}
+
+.milenia-testimonial .milenia-rating:not(:last-child) {
+  margin-bottom: 2.8rem;
+}
+
+.milenia-testimonial blockquote {
+  font-size: 1.875rem;
+  line-height: 3.25rem;
+  font-style: italic;
+  color: #1c1c1c;
+}
+
+.milenia-testimonial blockquote:not(:last-child) {
+  margin-bottom: 2.4rem;
+}
+
+.milenia-testimonial cite {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-style: normal;
+  letter-spacing: 4.2px;
+  text-transform: uppercase;
+  display: block;
+}
+
+.milenia-testimonial cite:not(:last-child) {
+  margin-bottom: 1.1rem;
+}
+
+.milenia-testimonial-service {
+  display: inline-block;
+}
+
+.milenia-testimonial-service img {
+  width: auto !important;
+}
+
+.milenia-testimonials--style-1 .milenia-grid:not(.milenia-grid--shortcode):not(.owl-carousel) {
+  margin-top: -5rem;
+}
+
+.milenia-testimonials--style-1 .milenia-grid:not(.milenia-grid--shortcode):not(.owl-carousel) .milenia-grid-item {
+  padding-top: 5rem;
+}
+
+.milenia-testimonials--style-2 .milenia-testimonial {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.milenia-testimonials--style-2 .milenia-testimonial .milenia-author {
+  -webkit-box-ordinal-group: 2;
+  -ms-flex-order: 1;
+  order: 1;
+}
+
+.milenia-testimonials--style-2 .milenia-testimonial .milenia-author:not(:only-child) {
+  margin-bottom: 2rem;
+}
+
+.milenia-testimonials--style-2 .milenia-testimonial blockquote {
+  -webkit-box-ordinal-group: 3;
+  -ms-flex-order: 2;
+  order: 2;
+}
+
+.milenia-testimonials--style-2 .milenia-testimonial blockquote:not(:only-child) {
+  margin-bottom: 1rem;
+}
+
+.milenia-testimonials--style-2 .milenia-testimonial .milenia-rating {
+  -webkit-box-ordinal-group: 4;
+  -ms-flex-order: 3;
+  order: 3;
+}
+
+.milenia-testimonials--style-3 .milenia-testimonial {
+  text-align: initial;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0.8rem;
+}
+
+.milenia-testimonials--style-3 .milenia-testimonial blockquote {
+  font-size: 1.5rem;
+  line-height: 2.4375rem;
+}
+
+.milenia-testimonials--style-3 .milenia-testimonial blockquote:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+.milenia-colorizer--scheme-primary .milenia-testimonial blockquote,
+.milenia-colorizer--scheme-secondary .milenia-testimonial blockquote,
+.milenia-colorizer--scheme-dark .milenia-testimonial blockquote,
+.milenia-body--scheme-brown .milenia-colorizer--scheme-secondary .milenia-testimonial blockquote {
+  color: #fff;
+}
+
+.milenia-body--scheme-brown .milenia-colorizer--scheme-secondary .milenia-testimonial cite {
+  color: #a5a5a5;
+}
+
+.milenia-body--scheme-brown .milenia-testimonial .milenia-rating {
+  color: #ae745a;
+}
+
+.milenia-body--scheme-gray .milenia-testimonial .milenia-rating {
+  color: #948685;
+}
+
+.milenia-body--scheme-blue .milenia-testimonial .milenia-rating {
+  color: #19b1d1;
+}
+
+.milenia-body--scheme-lightbrown .milenia-testimonial .milenia-rating {
+  color: #c19b76;
+}
+
+.milenia-body--scheme-green .milenia-testimonial .milenia-rating {
+  color: #7eb71c;
+}
+
+.milenia-colorizer--scheme-primary .milenia-testimonial cite,
+.milenia-colorizer--scheme-secondary .milenia-testimonial cite,
+.milenia-colorizer--scheme-dark .milenia-testimonial cite,
+[class*="milenia-body--scheme-"] .milenia-colorizer--scheme-primary .milenia-testimonial .milenia-rating,
+[class*="milenia-body--scheme-"] .milenia-colorizer--scheme-secondary .milenia-testimonial .milenia-rating,
+[class*="milenia-body--scheme-"] .milenia-colorizer--scheme-dark .milenia-testimonial .milenia-rating {
+  color: #ececec;
+}
+
+/* ----------------------------------------
+        Author
+    ---------------------------------------- */
+
+.milenia-testimonials[class*="milenia-testimonials--style"]:not(:last-child) {
+  margin-bottom: 5rem;
+}
+
+.milenia-author-photo {
+  display: inline-block;
+  width: 6.5rem;
+  height: 6.5rem;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.milenia-author-photo:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+.milenia-author--style-2 {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+}
+
+.milenia-author--style-2 .milenia-author-photo {
+  display: table-cell;
+  vertical-align: top;
+  width: 4.875rem;
+  height: 4.875rem;
+}
+
+.milenia-author--style-2 .milenia-author-photo:not(:last-child) {
+  margin-bottom: 0;
+}
+
+.milenia-author--style-2 .milenia-author-info {
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 1.25rem;
+}
+
+/* ----------------------------------------
+        Instafeed
+    ---------------------------------------- */
+
+.milenia-instafeed:not(.milenia-instafeed--snake) .milenia-grid:not(.milenia-grid--no-gutters):not(.owl-carousel) {
+  margin-top: -1.875rem;
+}
+
+.milenia-instafeed:not(.milenia-instafeed--snake) .milenia-grid:not(.milenia-grid--no-gutters):not(.owl-carousel) .milenia-grid-item {
+  padding-top: 1.875rem;
+}
+
+.milenia-instafeed:not(:last-child) {
+  margin-bottom: 3.2rem;
+}
+
+.milenia-instafeed--snake {
+  padding-right: 8.5rem;
+}
+
+.milenia-instafeed--snake .milenia-grid:not(.milenia-grid--no-gutters):not(.owl-carousel) {
+  margin-top: -2px;
+  margin-left: -1px;
+  margin-right: -1px;
+}
+
+.milenia-instafeed--snake .milenia-grid:not(.milenia-grid--no-gutters):not(.owl-carousel) .milenia-grid-item {
+  padding-top: 2px;
+  padding-left: 1px;
+  padding-right: 1px;
+}
+
+.milenia-instafeed--snake .milenia-grid:not(.milenia-grid--no-gutters):not(.owl-carousel).milenia-grid--cols-3 .milenia-grid-item:nth-child(6n+1), .milenia-instafeed--snake .milenia-grid:not(.milenia-grid--no-gutters):not(.owl-carousel).milenia-grid--cols-3 .milenia-grid-item:nth-child(6n+2), .milenia-instafeed--snake .milenia-grid:not(.milenia-grid--no-gutters):not(.owl-carousel).milenia-grid--cols-3 .milenia-grid-item:nth-child(6n+3) {
+  -webkit-transform: translateX(5.625rem);
+  transform: translateX(5.625rem);
+}
+
+/* ----------------------------------------
+        Sliders
+    ---------------------------------------- */
+
+.rev-artificial-overlay .tp-revslider-mainul > li::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(5, 5, 5, 0.5);
+  visibility: visible;
+  z-index: 1;
+}
+
+.rev-artificial-overlay .tp-revslider-mainul > li .tp-parallax-wrap {
+  z-index: 2 !important;
+}
+
+.tp-dottedoverlay.twoxtwo {
+  background-color: rgba(5, 5, 5, 0.5);
+  background-image: none !important;
+}
+
+.rev_slider .milenia-btn {
+  letter-spacing: 1.8px !important;
+}
+
+.rev_slider .milenia-btn:not(.milenia-btn--link) {
+  -webkit-transition: color .5s cubic-bezier(0.165, 0.84, 0.44, 1), background-color .5s cubic-bezier(0.165, 0.84, 0.44, 1), border-color .5s cubic-bezier(0.165, 0.84, 0.44, 1) !important;
+  transition: color .5s cubic-bezier(0.165, 0.84, 0.44, 1), background-color .5s cubic-bezier(0.165, 0.84, 0.44, 1), border-color .5s cubic-bezier(0.165, 0.84, 0.44, 1) !important;
+}
+
+.rev_slider .milenia-btn:not(.milenia-btn--link):hover, .rev-slider .milenia-btn:not(.milenia-btn--link):focus {
+  -webkit-transition-duration: 150ms !important;
+  transition-duration: 150ms !important;
+}
+
+.rev-slider .milenia-btn--link {
+  -webkit-transition: all 500ms cubic-bezier(0.165, 0.84, 0.44, 1) !important;
+  transition: all 500ms cubic-bezier(0.165, 0.84, 0.44, 1) !important;
+}
+
+.tp-bullets .tp-bullet {
+  width: 6px;
+  height: 2px;
+  background-color: #fff;
+
+  -webkit-transition: width .5s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: width .5s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.tp-bullets .tp-bullet::after,
+.tp-bullets .tp-bullet::before {
+  content: "";
+  display: block;
+  height: 6px;
+  width: 100%;
+  position: absolute;
+  right: 0;
+  width: 35px;
+}
+
+.tp-bullets .tp-bullet::after {
+  top: 100%;
+}
+
+.tp-bullets .tp-bullet::before {
+  bottom: 0;
+  height: 9px;
+}
+
+.tp-bullets .tp-bullet-image, .tp-bullets.milenia .tp-bullet-title {
+  display: none;
+}
+
+.tp-bullets .tp-bullet.selected {
+  width: 33px;
+}
+
+.tp-bullets.nav-pos-hor-right .tp-bullet {
+  left: auto !important;
+  right: 0 !important;
+}
+
+.milenia-full-height-image {
+  height: 100vh;
+}
+
+.milenia-rev-slider-wrapper {
+  position: relative;
+}
+
+.milenia-rev-slider-wrapper .milenia-section--breadcrumb {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  bottom: 0;
+  z-index: 24;
+}
+
+.milenia-rev-slider-wrapper .milenia-section--breadcrumb .milenia-page-header:not(:last-child) {
+  margin-bottom: 1.6rem;
+}
+
+.milenia-rev-slider-wrapper .milenia-section--breadcrumb .container {
+  position: relative;
+}
+
+.milenia-rev-slider-wrapper .milenia-section--breadcrumb .milenia-action-buttons {
+  position: absolute;
+  right: 0.9375rem;
+  bottom: -3.5rem;
+}
+
+.milenia-rev-slider-wrapper .milenia-section--breadcrumb[class*="milenia-colorizer--scheme-"]:not(.milenia-section--no-py) {
+  padding-top: 2.8rem;
+  padding-bottom: 3.5rem;
+}
+
+/* ----------------------------------------
+        Google Map
+    ---------------------------------------- */
+
+.milenia-gmap:not(:last-child),
+.milenia-entity--event .tribe-events-venue-map:not(:last-child) {
+  margin-bottom: 1.6rem;
+}
+
+[class*="milenia-flexible-grid-col"] .milenia-gmap {
+  height: 100%;
+  min-height: 40.625rem;
+}
+
+/* ----------------------------------------
+        Estimate
+    ---------------------------------------- */
+
+.milenia-estimate {
+  overflow: hidden;
+}
+
+.milenia-estimate-mark {
+  width: 12.5rem;
+  height: 12.5rem;
+  text-transform: uppercase;
+  font-size: 4.5rem;
+  letter-spacing: -5px;
+  font-weight: 500;
+  line-height: 1.1;
+  padding: 1.2rem;
+  background-color: #f8f8f8;
+  text-align: center;
+}
+
+.milenia-estimate-mark-text {
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-transform: none;
+  color: #1c1c1c;
+  display: block;
+}
+
+.milenia-estimate-mark:not(:last-child) {
+  margin-bottom: 1.875rem;
+}
+
+.milenia-body--scheme-brown .milenia-estimate .milenia-estimate-mark {
+  color: #ae745a;
+}
+
+.milenia-body--scheme-gray .milenia-estimate .milenia-estimate-mark {
+  color: #948685;
+}
+
+.milenia-body--scheme-blue .milenia-estimate .milenia-estimate-mark {
+  color: #19b1d1;
+}
+
+.milenia-body--scheme-lightbrown .milenia-estimate .milenia-estimate-mark {
+  color: #c19b76;
+}
+
+.milenia-body--scheme-green .milenia-estimate .milenia-estimate-mark {
+  color: #7eb71c;
+}
+
+.milenia-estimate--horizontal .milenia-estimate-mark {
+  float: left;
+  margin-right: 1.875rem;
+}
+
+.milenia-estimate--horizontal .milenia-estimate-mark:not(:last-child) {
+  margin-bottom: 0;
+}
+
+.milenia-estimate--horizontal .milenia-estimate-bars {
+  overflow: hidden;
+}
+
+/* ----------------------------------------
+        Forms
+    ---------------------------------------- */
+
+input[type="text"],
+input[type="search"],
+input[type="date"],
+input[type="datetime-local"],
+input[type="email"],
+input[type="file"],
+input[type="month"],
+input[type="number"],
+input[type="password"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+input[type="week"],
+textarea,
+.milenia-custom-select .milenia-selected-option,
+.select2-container--milenia .select2-selection,
+.milenia-theme #tribe-bar-form input[type=text] {
+  border-style: solid;
+  border-width: 1px;
+  height: 2.4375rem;
+  width: 100%;
+  font-style: normal;
+  padding-top: 0.3rem;
+  padding-right: 1.25rem;
+  padding-bottom: 0.3rem;
+  padding-left: 1.25rem;
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+  color: #858585;
+  background-color: #f8f8f8;
+  border-color: #dadada;
+}
+
+.milenia-theme #tribe-bar-form input[type=text]:focus {
+  outline: none;
+}
+
+.milenia-newsletter-form:not(.milenia-singlefield-form) button:not(:first-child) {
+  margin-top: 0.625rem;
+}
+
+.milenia-flexible-grid .milenia-section-title + form {
+  margin-top: 3.1rem;
+}
+
+.milenia-flexible-grid form .form-group:first-child {
+  margin-top: -0.8125rem;
+}
+
+.milenia-flexible-grid form [class*="form-col"] {
+  padding-top: 0.8125rem;
+}
+
+.form-caption {
+  display: block;
+}
+
+.comment-form .logged-in-as:not(:last-child) {
+  margin-bottom: 0;
+}
+
+/* ----------------------------------------
+            Placeholder
+        ---------------------------------------- */
+
+::-webkit-input-placeholder {
+  color: inherit;
+  opacity: 1;
+}
+
+::-webkit-textarea-placeholder {
+  color: inherit;
+  opacity: 1;
+}
+
+input::-moz-placeholder {
+  color: inherit;
+  opacity: 1;
+}
+
+textarea::-moz-placeholder {
+  color: inherit;
+  opacity: 1;
+}
+
+::-ms-input-placeholder {
+  color: inherit;
+  opacity: 1;
+}
+
+::-ms-textarea-placeholder {
+  color: inherit;
+  opacity: 1;
+}
+
+/* ----------------------------------------
+            Field Datepicker
+        ---------------------------------------- */
+
+.milenia-field-datepicker {
+  color: #1c1c1c;
+}
+
+.milenia-booking-form-wrapper--v1 .milenia-field-datepicker {
+  display: block;
+  position: relative;
+  padding-right: 2.3rem;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.milenia-booking-form-wrapper--v1 .milenia-field-datepicker::before {
+  font-family: 'Linearicons';
+  content: "\e93a";
+  font-size: 1.25rem;
+  line-height: 1;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  margin-top: -0.625rem;
+}
+
+.milenia-booking-form-wrapper--v1 .milenia-field-datepicker::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.milenia-booking-form-wrapper--v1 .milenia-field-datepicker .milenia-field-datepicker-day {
+  color: #1c1c1c;
+  font-size: 3.7rem;
+  line-height: 0.82;
+  display: block;
+  letter-spacing: -0.125rem;
+  margin-right: 0.75rem;
+  float: left;
+  position: relative;
+  top: 5px;
+}
+
+.milenia-booking-form-wrapper--v1 .milenia-field-datepicker-others {
+  display: block;
+  overflow: hidden;
+}
+
+.milenia-booking-form-wrapper--v1 .milenia-field-datepicker-month-year {
+  line-height: 1.25rem;
+  color: #1c1c1c;
+  display: block;
+}
+
+.milenia-booking-form-wrapper--v1 .milenia-field-datepicker-month-year:not(:last-child) {
+  margin-bottom: 0.3rem;
+}
+
+.milenia-booking-form-wrapper--v1 .milenia-field-datepicker-dayname {
+  display: block;
+  font-size: 0.8125rem;
+  line-height: 1.125rem;
+  text-transform: uppercase;
+}
+
+.milenia-booking-form-wrapper--v2 .milenia-field-datepicker {
+  display: block;
+  position: relative;
+  padding-right: 2.8125rem;
+  font-size: 1.5rem;
+  line-height: 1.8125rem;
+  color: #1c1c1c;
+}
+
+.milenia-booking-form-wrapper--v2 .milenia-field-datepicker::after {
+  font-family: 'Linearicons';
+  font-size: 1.25rem;
+  line-height: 1;
+  content: "\e785";
+  position: absolute;
+  bottom: 0.15rem;
+  right: 0;
+  color: #858585;
+}
+
+.milenia-booking-form-wrapper--v3 .milenia-field-datepicker {
+  display: block;
+  position: relative;
+  padding-right: 2.8125rem;
+}
+
+.milenia-booking-form-wrapper--v3 .milenia-field-datepicker::after {
+  font-family: 'Linearicons';
+  font-size: 1.25rem;
+  line-height: 1;
+  content: "\e785";
+  position: absolute;
+  bottom: 0.2rem;
+  right: 0;
+}
+
+.milenia-booking-form-wrapper--v4 .milenia-field-datepicker {
+  display: block;
+  border-width: 1px;
+  border-style: solid;
+  position: relative;
+  padding-right: 3rem;
+  padding-left: 1.2rem;
+  font-size: 1.125rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #858585;
+  background-color: #f8f8f8;
+  border-color: #dadada;
+}
+
+.milenia-booking-form-wrapper--v4 .milenia-field-datepicker::after {
+  font-family: 'Linearicons';
+  font-size: 1.25rem;
+  line-height: inherit;
+  content: "\e785";
+  position: absolute;
+  top: 0;
+  right: 1.2rem;
+}
+
+.milenia-field-datepicker--location::after {
+  content: "\e77a";
+}
+
+.milenia-body--scheme-lightbrown .milenia-booking-form-wrapper--v3 .milenia-field-datepicker::after {
+  color: #858585;
+}
+
+/* ----------------------------------------
+            Datepicker
+        ---------------------------------------- */
+
+.milenia-theme .datepick {
+  background-color: #fff;
+  color: inherit;
+  font-size: inherit;
+  border-radius: 0;
+  border: 1px solid #dadada;
+  font-family: inherit;
+}
+
+.milenia-theme .datepick table {
+  background-color: transparent;
+}
+
+.milenia-theme .datepick a {
+  background-image: none !important;
+}
+
+/* ----------------------------------------
+                 Month
+             ---------------------------------------- */
+
+.milenia-theme .datepick-month {
+  border: none;
+  width: 19.375rem;
+}
+
+/* ----------------------------------------
+                 Header
+             ---------------------------------------- */
+
+.milenia-theme .datepick-month-header,
+.milenia-theme .datepick-month-header select,
+.milenia-theme .datepick-month-header input {
+  background-color: transparent;
+  color: #1c1c1c;
+  font-weight: 700;
+  outline: none !important;
+  line-height: remy(21);
+}
+
+.milenia-theme .datepick-nav,
+.milenia-theme .datepick-ctrl {
+  background-color: transparent;
+  font-size: inherit;
+  color: #1c1c1c;
+  font-weight: 400;
+}
+
+.milenia-theme .datepick-month-header {
+  padding-top: 0.7rem;
+  padding-bottom: 0.8rem;
+  border-width: 1px 1px 0 0;
+  border-style: solid;
+  border-color: #dadada;
+}
+
+.milenia-theme .datepick-cmd {
+  padding-top: 0.3rem;
+  padding-bottom: 0.4rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  width: 33.33333%;
+  box-sizing: border-box;
+  margin-left: 0;
+  margin-right: 0;
+  color: #1c1c1c !important;
+}
+
+.milenia-theme .datepick-cmd:hover {
+  background-color: transparent !important;
+  color: #555555 !important;
+}
+
+@media (max-width: 767px) {
+
+  .single {
+
+    .milenia-section {
+
+      .mphb-calendar.mphb-datepick {
+
+        .datepick.datepick-multi {
+          width: 100% !important;
+
+          .datepick-month-row {
+            flex-direction: column;
+
+            .datepick-month {
+              width: 100%;
+
+              &.first {
+                margin-bottom: 14px;
+              }
+            }
+          }
+        }
+
+      }
+
+    }
+
+  }
+
+}
+
+.milenia-theme {
+
+  .milenia-section {
+
+    .mphb-calendar.mphb-datepick {
+
+      .datepick.datepick-multi {
+        background: transparent;
+      }
+
+    }
+
+  }
+
+  .mphb-calendar.mphb-datepick {
+
+    .datepick-cmd {
+
+      padding-top: remy(14);
+      padding-bottom: remy(14);
+
+      &.datepick-cmd-today {
+        font-weight: 700;
+      }
+
+      &.datepick-cmd-prev,
+      &.datepick-cmd-next {
+        position: relative;
+        font-size: 0;
+
+        &:before {
+          font-family: 'Linearicons';
+          vertical-align: middle;
+          color: #dadada;
+          font-size: remy(20);
+          font-weight: 700;
+          transition: all .5s cubic-bezier(0.165, 0.84, 0.44, 1);
+          cursor: pointer;
+        }
+
+        &:hover {
+          &:before {
+            color: #c19b76;
+          }
+        }
+
+      }
+
+      &.datepick-cmd-prev {
+        &:before {
+          content: "\e93b";
+        }
+      }
+
+      &.datepick-cmd-next {
+        &:before {
+          content: "\e93c";
+        }
+      }
+
+    }
+
+    .datepick.datepick-multi {
+
+      background-color: transparent;
+      border: none;
+
+      .datepick-nav {
+        border-width: 1px 1px 0 1px;
+        border-style: solid;
+        border-color: #dadada;
+      }
+
+      .datepick-month-row {
+        display: flex;
+        justify-content: space-between;
+
+        .datepick-month {
+          float: none;
+        }
+      }
+
+      .datepick-month-header {
+        border-width: 1px 1px 0 1px;
+        display: flex;
+        justify-content: space-between;
+        padding: remy(16) remy(20);
+
+        //.datepick-month-year {
+		//
+        //    padding-right: 65px;
+        //    background-image: url('assets/images/select-arrow.png');
+        //    background-position: 98% center;
+        //    background-repeat: no-repeat;
+        //    background-size: 20% 50%;
+		//
+        //    @media only screen and (min--moz-device-pixel-ratio: 2),
+        //    only screen and (-o-min-device-pixel-ratio: 2/1),
+        //    only screen and (-webkit-min-device-pixel-ratio: 2),
+        //    only screen and (min-device-pixel-ratio: 2) {
+		//
+        //      & {
+        //        background-image: url('assets/images/select-arrow@2x.png');
+        //        background-position: 100% center;
+        //      }
+		//
+        //    }
+		//
+        //}
+
+      }
+
+    }
+
+    .datepick-month {
+
+      td,
+      th {
+        border-color: #dadada;
+      }
+
+      th {
+
+        background-color: #fff;
+
+        span {
+          font-size: remy(14);
+        }
+
+      }
+
+      td {
+
+        font-size: remy(14);
+
+        .mphb-past-date {
+          background-color: #f1f1f1;
+          color: #858585;
+          opacity: 1;
+        }
+
+        .mphb-available-date {
+          background-color: #55b538;
+          color: #fff;
+        }
+
+        .mphb-booked-date {
+          background-color: #ef3c3c;
+          color: #fff;
+        }
+
+        .mphb-booked-date.mphb-date-check-in {
+          background: linear-gradient(to bottom right, #55b538 0%, #55b538 50%, #ef3c3c 50%, #ef3c3c 100%);
+        }
+
+        .mphb-available-date.mphb-date-check-out {
+          color: #fff;
+          background: linear-gradient(to bottom right, #ef3c3c 0%, #ef3c3c 50%, #55b538 50%, #55b538 100%);
+        }
+
+      }
+
+    }
+
+  }
+
+}
+
+/* ----------------------------------------
+                 Cells
+             ---------------------------------------- */
+
+.milenia-theme .datepick-month td,
+.milenia-theme .datepick-month th {
+  border-width: 1px;
+  border-style: solid;
+  border-color: #ececec;
+}
+
+.milenia-theme .datepick-month th,
+.milenia-theme .datepick-month th a {
+  color: #1c1c1c;
+}
+
+.milenia-theme .datepick-month th,
+.milenia-theme .datepick-month th a,
+.milenia-theme .datepick-month td,
+.milenia-theme .datepick-month td .datepick-other-month,
+.milenia-theme .datepick-month a,
+.milenia-theme .mphb-datepick-popup .datepick-month td .mphb-earlier-min-date,
+.milenia-theme .mphb-datepick-popup .datepick-month td .mphb-later-max-date {
+  background-color: transparent;
+}
+
+.milenia-theme .datepick-month td .datepick-weekend,
+.milenia-theme .mphb-datepick-popup .datepick-month td .mphb-earlier-min-date.datepick-weekend,
+.milenia-theme .mphb-datepick-popup .datepick-month td .mphb-later-max-date.datepick-weekend {
+  background-color: #f7f7f7;
+}
+
+.milenia-theme .mphb-datepick-popup .datepick-month td .mphb-earlier-min-date,
+.milenia-theme .mphb-datepick-popup .datepick-month td .mphb-later-max-date {
+  color: #dadada;
+  opacity: 1;
+}
+
+.milenia-theme .datepick-month td a {
+  display: block !important;
+}
+
+.milenia-theme .datepick-month td a,
+.milenia-theme .datepick-month td span,
+.milenia-theme .datepick-month th span {
+  padding: 0.5rem 0.4rem 0.3rem;
+}
+
+.milenia-theme .datepick-month th {
+  text-transform: uppercase;
+}
+
+.milenia-theme .mphb-datepick-popup .datepick-month td a.datepick-today {
+  background-color: #ececec;
+}
+
+.milenia-theme .mphb-datepick-popup .datepick-month td a.datepick-highlight,
+.milenia-theme .mphb-datepick-popup .datepick-month td a.datepick-selected,
+.milenia-theme .mphb-datepick-popup .datepick-month td a.datepick-selected.datepick-today,
+.milenia-theme .datepick-month td .datepick-highlight {
+  background-color: #1c1c1c;
+  color: #ffffff;
+}
+
+
+
+.milenia-datepicker {
+  cursor: pointer;
+}
+
+.ui-datepicker--bordered-container {
+  margin-top: -1px;
+}
+
+.ui-datepicker-title {
+  color: #1c1c1c;
+  font-weight: 700;
+  text-align: center;
+}
+
+.ui-datepicker-header {
+  position: relative;
+  padding-top: 0.7rem;
+  padding-bottom: 0.8rem;
+  border-width: 1px 1px 0 1px;
+  border-style: solid;
+  border-color: #ececec;
+}
+
+.ui-datepicker-prev, .ui-datepicker-next {
+  position: absolute;
+  width: 3rem;
+  top: 0;
+  height: 100%;
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  text-align: center;
+  cursor: pointer;
+}
+
+.ui-datepicker-prev > span, .ui-datepicker-next > span {
+  margin: auto;
+}
+
+.ui-datepicker-prev .fa,
+.ui-datepicker-prev .fal,
+.ui-datepicker-prev .far,
+.ui-datepicker-prev .fab,
+.ui-datepicker-prev .fas,
+.ui-datepicker-prev .icon,
+.ui-datepicker-prev [class*="milenia-font-icon-"], .ui-datepicker-next .fa,
+.ui-datepicker-next .fal,
+.ui-datepicker-next .far,
+.ui-datepicker-next .fab,
+.ui-datepicker-next .fas,
+.ui-datepicker-next .icon,
+.ui-datepicker-next [class*="milenia-font-icon-"] {
+  line-height: 1;
+  font-size: 1.125rem;
+  vertical-align: baseline;
+  position: relative;
+  top: 1px;
+}
+
+.ui-datepicker-prev {
+  left: 0;
+}
+
+.ui-datepicker-next {
+  right: 0;
+}
+
+.ui-datepicker-calendar {
+  font-size: 0.875rem;
+  background-color: transparent;
+  text-align: center;
+  font-weight: 400;
+}
+
+.ui-datepicker-calendar tr:hover {
+  background-color: transparent;
+}
+
+.ui-datepicker-calendar thead th {
+  text-align: inherit;
+  font-weight: inherit;
+  padding: 0.5rem 0.4rem 0.3rem;
+}
+
+.ui-datepicker-calendar tbody td {
+  padding: 0;
+}
+
+.ui-datepicker-calendar tbody td a {
+  display: block;
+  padding: 0.5rem 0.4rem 0.3rem;
+}
+
+[class*="milenia-body--scheme-"] .ui-datepicker-prev:not(.milenia-ln--independent):not(.milenia-btn), [class*="milenia-body--scheme-"] .ui-datepicker-next:not(.milenia-ln--independent):not(.milenia-btn) {
+  color: #dadada;
+}
+
+[class*="milenia-body--scheme-"] .ui-datepicker-prev:not(.milenia-ln--independent):not(.milenia-btn):hover, [class*="milenia-body--scheme-"] .ui-datepicker-next:not(.milenia-ln--independent):not(.milenia-btn):hover {
+  color: #1c1c1c;
+}
+
+[class*="milenia-body--scheme-"] .ui-datepicker-calendar tbody td a:not(.milenia-ln--independent):not(.milenia-btn) {
+  color: #858585;
+}
+
+[class*="milenia-body--scheme-"] .ui-datepicker-calendar tbody td.ui-datepicker-other-month a:not(.milenia-ln--independent):not(.milenia-btn) {
+  color: #a5a5a5;
+}
+
+[class*="milenia-body--scheme-"] .ui-datepicker-calendar tbody td.ui-datepicker-today a:not(.milenia-ln--independent):not(.milenia-btn),
+[class*="milenia-body--scheme-"] .ui-datepicker-calendar tbody td.ui-datepicker-current-day a:not(.milenia-ln--independent):not(.milenia-btn),
+[class*="milenia-body--scheme-"] .ui-datepicker-calendar tbody td a:not(.milenia-ln--independent):not(.milenia-btn):hover {
+  color: #fff;
+}
+
+[class*="milenia-body--scheme-"] .ui-datepicker-calendar tbody td.ui-datepicker-current-day a:not(.milenia-ln--independent):not(.milenia-btn),
+[class*="milenia-body--scheme-"] .ui-datepicker-calendar tbody td a:not(.milenia-ln--independent):not(.milenia-btn):hover {
+  background-color: #1c1c1c;
+}
+
+.milenia-body--scheme-brown .datepicker-dropdown tbody td.active.day {
+  background-color: #ae745a;
+}
+
+.milenia-body--scheme-gray .datepicker-dropdown tbody td.active.day {
+  background-color: #948685;
+}
+
+.milenia-body--scheme-blue .datepicker-dropdown tbody td.active.day {
+  background-color: #19b1d1;
+}
+
+.milenia-body--scheme-lightbrown .datepicker-dropdown tbody td.active.day {
+  background-color: #c19b76;
+}
+
+.milenia-body--scheme-green .datepicker-dropdown tbody td.active.day {
+  background-color: #7eb71c;
+}
+
+/* ----------------------------------------
+            Toggled fields
+        ---------------------------------------- */
+
+.milenia-toggled-fields {
+  display: none;
+}
+
+.milenia-toggled-fields-invoker {
+  position: relative;
+  padding-right: 1.875rem;
+  cursor: pointer;
+}
+
+.milenia-toggled-fields-invoker::after, .milenia-toggled-fields-invoker::before {
+  content: "\e93a";
+  font-family: 'Linearicons';
+  position: absolute;
+  right: 0;
+  top: 0;
+  -webkit-transition: opacity .5s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: opacity .5s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.milenia-toggled-fields-invoker::before {
+  content: "\e939";
+  opacity: 0;
+}
+
+.milenia-toggled-fields-invoker--opened::before {
+  opacity: 1;
+}
+
+.milenia-toggled-fields-invoker--opened::after {
+  opacity: 0;
+}
+
+.milenia-csstransforms3d .milenia-toggled-fields-invoker::after, .milenia-csstransforms3d .milenia-toggled-fields-invoker::before {
+  -webkit-transition-property: -webkit-transform, opacity;
+  transition-property:         transform, opacity;
+}
+
+.milenia-csstransforms3d .milenia-toggled-fields-invoker::before, .milenia-csstransforms3d .milenia-toggled-fields-invoker--opened::after {
+  -webkit-transform: scale3d(0, 0, 0);
+  transform: scale3d(0, 0, 0);
+}
+
+.milenia-csstransforms3d .milenia-toggled-fields-invoker--opened::before {
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
+}
+
+/* ----------------------------------------
+            Slider
+        ---------------------------------------- */
+
+.milenia-range-slider-field {
+  font-size: 1rem;
+  line-height: 1.625rem;
+  margin-bottom: 0.3rem;
+}
+
+.milenia-range-slider-field input[type="text"], .milenia-range-slider-field input[type="search"], .milenia-range-slider-field input[type="date"], .milenia-range-slider-field input[type="datetime-local"], .milenia-range-slider-field input[type="email"], .milenia-range-slider-field input[type="file"], .milenia-range-slider-field input[type="month"], .milenia-range-slider-field input[type="number"], .milenia-range-slider-field input[type="password"], .milenia-range-slider-field input[type="tel"], .milenia-range-slider-field input[type="time"], .milenia-range-slider-field input[type="url"], .milenia-range-slider-field input[type="week"], .milenia-range-slider-field textarea {
+  height: auto !important;
+  font-size: inherit;
+  line-height: inherit !important;
+  border-width: 0px;
+  font-weight: inherit;
+  width: 100%;
+  padding: 0 !important;
+  background-color: transparent;
+}
+
+.milenia-range-slider-input:not(:last-child) {
+  margin-bottom: 0.7rem;
+}
+
+.milenia-range-slider {
+  position: relative;
+  height: 0.5625rem;
+  background-color: #ececec;
+}
+
+.milenia-range-slider .ui-slider-range {
+  position: absolute;
+  top: 0.1875rem;
+  bottom: 0.1875rem;
+  cursor: pointer;
+  background-color: #1c1c1c;
+}
+
+.milenia-range-slider .ui-slider-handle {
+  display: block;
+  position: absolute;
+  top: 50%;
+  margin-top: -0.53125rem;
+  width: 0.625rem;
+  height: 1.0625rem;
+  cursor: pointer;
+  background-color: #1c1c1c;
+}
+
+.milenia-range-slider .ui-slider-handle:last-child {
+  margin-left: -0.625rem;
+}
+
+.milenia-colorizer--scheme-dark .milenia-range-slider {
+  background-color: #3e3e3e;
+}
+
+.milenia-colorizer--scheme-dark .milenia-range-slider-input,
+.milenia-body--scheme-green .milenia-colorizer--scheme-primary .milenia-range-slider-input {
+  color: #fff;
+}
+
+.milenia-body--scheme-green .milenia-colorizer--scheme-primary .milenia-range-slider {
+  background-color: rgba(28, 28, 28, 0.1);
+}
+
+.milenia-colorizer--scheme-dark .milenia-range-slider .ui-slider-range,
+.milenia-colorizer--scheme-dark .milenia-range-slider .ui-slider-handle,
+.milenia-body--scheme-green .milenia-colorizer--scheme-primary .milenia-range-slider .ui-slider-range,
+.milenia-body--scheme-green .milenia-colorizer--scheme-primary .milenia-range-slider .ui-slider-handle {
+  background-color: #fff;
+}
+
+/* ----------------------------------------
+            Checkbox & Radio
+        ---------------------------------------- */
+
+input[type="checkbox"],
+input[type="radio"] {
+  display: none;
+}
+
+input[type="checkbox"] + label[for],
+input[type="radio"] + label[for],
+.mphb-checkbox-label,
+.mphb-room-rate-variant label {
+  display: block;
+  position: relative;
+  font-size: 1rem;
+  line-height: 1.625rem;
+  padding-left: 2.865rem;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  margin-bottom: 0;
+  min-height: 1.5rem;
+  color: #1c1c1c;
+}
+
+.mphb-checkbox-label,
+.mphb-room-rate-variant label {
+  display: inline-block;
+  padding-left: 2.5rem;
+}
+
+input[type="checkbox"] + label[for]::before,
+input[type="radio"] + label[for]::before,
+.mphb-checkbox-label::before,
+.mphb-room-rate-variant label::before {
+  content: "";
+  border: 1px solid #ececec;
+  width: 1.5rem;
+  height: 1.5rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+input[type="checkbox"] + label[for]::after,
+.mphb-checkbox-label::after,
+input[type="radio"] + label[for]::after,
+.mphb-room-rate-variant label::after {
+  font-family: 'Linearicons';
+  content: "\e934";
+  color: #1c1c1c;
+  font-size: 0.875rem;
+  line-height: 1;
+  position: absolute;
+  left: 0;
+  width: 1.6rem;
+  text-align: center;
+  top: 0.4375rem;
+  display: none;
+}
+
+input[type="checkbox"] + label[for]:not(:last-child),
+input[type="radio"] + label[for]:not(:last-child) {
+  margin-bottom: 0.8125rem;
+}
+
+input[type="checkbox"]:checked + label[for]::after,
+input[type="radio"]:checked + label[for]::after,
+.mphb-checkbox-label.mphb-checkbox-label--checked::after,
+.mphb-room-rate-variant label.mphb-radio-label--checked::after {
+  display: block;
+}
+
+input[type="radio"] + label[for]::after,
+.mphb-room-rate-variant label::after {
+  content: "";
+  width: 0.625rem;
+  height: 0.625rem;
+  border-radius: 50%;
+  background-color: #1c1c1c;
+  left: 0.5rem;
+  top: 0.5rem;
+}
+
+input[type="radio"] + label[for]::before,
+.mphb-room-rate-variant label::before {
+  border-radius: 50%;
+}
+
+.milenia-form--fields-darken input[type="checkbox"] + label[for]::before,
+.milenia-form--fields-darken input[type="radio"] + label[for]::before {
+  background-color: transparent;
+  border-color: rgba(255, 255, 255, 0.15);
+}
+
+.milenia-form--fields-darken input[type="checkbox"] + label[for]::before,
+.milenia-form--fields-darken input[type="radio"] + label[for]::before {
+  border-color: rgba(28, 28, 28, 0.15);
+  background-color: rgba(28, 28, 28, 0.1);
+}
+
+.milenia-form--fields-darken input[type="checkbox"] + label[for],
+.milenia-form--fields-darken input[type="radio"] + label[for],
+.milenia-form--fields-darken input[type="checkbox"] + label[for]::after,
+.milenia-form--fields-darken input[type="radio"] + label[for]::after {
+  color: #fff;
+}
+
+/* ----------------------------------------
+            Select
+        ---------------------------------------- */
+
+.milenia-custom-select {
+  position: relative;
+}
+
+.milenia-custom-select.milenia-over {
+  z-index: 3;
+}
+
+.milenia-custom-select .milenia-selected-option {
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  height: 2.75rem;
+  line-height: 2.75rem;
+  position: relative;
+  padding-right: 2.625rem;
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  text-align: initial;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.milenia-custom-select .milenia-selected-option::after, .milenia-custom-select .milenia-selected-option::before {
+  content: "\e93a";
+  font-family: 'Linearicons';
+  font-size: 1.25rem;
+  line-height: inherit;
+  position: absolute;
+  top: 0;
+  right: 1rem;
+
+  -webkit-transition: opacity .5s cubic-bezier(0.165, 0.84, 0.44, 1), visibility .5s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: opacity .5s cubic-bezier(0.165, 0.84, 0.44, 1), visibility .5s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.milenia-custom-select .milenia-selected-option::before {
+  content: "\e939";
+  opacity: 0;
+  visibility: hidden;
+}
+
+.milenia-custom-select .milenia-options-list {
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+  text-align: initial;
+  letter-spacing: 0.7px;
+  color: #1c1c1c;
+  background-color: #f8f8f8;
+  padding-bottom: 1rem;
+  border: 1px solid #dadada;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  margin-top: -1px;
+  opacity: 0;
+  z-index: 10;
+  visibility: hidden;
+  overflow: auto;
+  max-height: 10rem;
+
+  -webkit-transition: opacity .5s cubic-bezier(0.165, 0.84, 0.44, 1), visibility .5s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: opacity .5s cubic-bezier(0.165, 0.84, 0.44, 1), visibility .5s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.milenia-tab .milenia-custom-select .milenia-options-list {
+  max-height: 5rem;
+}
+
+.mphb-terms-and-conditions-accept input[type="checkbox"] {
+  display: initial !important;
+  -webkit-appearance: checkbox !important;
+  -moz-appearance: checkbox !important;
+  -ms-appearance: checkbox !important;
+  -o-appearance: checkbox !important;
+  appearance: checkbox !important;
+}
+
+.milenia-custom-select .milenia-options-list > li {
+  cursor: pointer;
+  padding-top: 1rem;
+  padding-right: 1.5625rem;
+  padding-left: 1.5625rem;
+
+  -webkit-transition: color .5s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: color .5s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+
+
+
+.milenia-custom-select .milenia-options-list > li:hover, .milenia-custom-select .milenia-options-list > li.milenia-active {
+  color: #858585;
+}
+
+.milenia-custom-select.milenia-opened .milenia-options-list,
+.milenia-custom-select.milenia-opened .milenia-selected-option::before {
+  opacity: 1;
+  visibility: visible;
+}
+
+.milenia-custom-select.milenia-opened .milenia-selected-option::after {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.milenia-csstransforms3d .milenia-custom-select .milenia-options-list,
+.milenia-csstransforms3d .milenia-custom-select .milenia-selected-option::after,
+.milenia-csstransforms3d .milenia-custom-select .milenia-selected-option::before {
+  -webkit-transition-property: -webkit-transform, opacity, visibility;
+  transition-property:         transform, opacity, visibility;
+}
+
+.milenia-csstransforms3d .milenia-custom-select .milenia-options-list {
+  -webkit-transform: scale3d(0.9, 0.9, 0.9);
+  transform: scale3d(0.9, 0.9, 0.9);
+}
+
+.milenia-csstransforms3d .milenia-custom-select .milenia-selected-option::before,
+.milenia-csstransforms3d .milenia-custom-select.milenia-opened .milenia-selected-option::after {
+  -webkit-transform: scale3d(0, 0, 0);
+  transform: scale3d(0, 0, 0);
+}
+
+.milenia-csstransforms3d .milenia-custom-select.milenia-opened .milenia-options-list,
+.milenia-csstransforms3d .milenia-custom-select.milenia-opened .milenia-selected-option::before {
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
+}
+
+/* ----------------------------------------
+            Select2
+        ---------------------------------------- */
+
+.select2-container--milenia {
+  letter-spacing: 0;
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+}
+
+.select2-container--milenia .select2-selection {
+  padding-top: 0.4rem;
+  padding-bottom: 0.4rem;
+  padding-right: 2.5rem;
+}
+
+.select2-container--milenia .select2-selection--single .select2-selection__rendered {
+  padding: 0;
+}
+
+.select2-container--milenia .select2-selection__arrow {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: auto;
+  width: 2rem;
+  font-size: 0.875rem;
+  line-height: 2.4375rem;
+}
+
+.select2-container--milenia .select2-selection__arrow::after {
+  content: "\e93a";
+  font-family: 'Linearicons';
+}
+
+.select2-container--milenia .select2-selection__arrow > b {
+  display: none;
+}
+
+.select2-container--milenia .select2-dropdown {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #dadada;
+  border-radius: 0;
+}
+
+.select2-container--milenia .select2-dropdown--below {
+  border-top-width: 0;
+}
+
+.select2-container--milenia .select2-dropdown--above {
+  border-bottom-width: 0;
+}
+
+.select2-container--milenia .select2-search--dropdown .select2-search__field {
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  padding-left: 0.6rem;
+  padding-right: 0.6rem;
+}
+
+.select2-container--milenia .select2-results__option {
+  padding: 0.375rem;
+}
+
+/* ----------------------------------------
+            Counter
+        ---------------------------------------- */
+
+.milenia-field-counter {
+  position: relative;
+  padding-right: 3rem;
+}
+
+.milenia-field-counter-value {
+  color: #1c1c1c;
+  font-size: 3.7rem;
+  line-height: 0.82;
+  position: relative;
+  top: 5px;
+}
+
+.milenia-field-counter-control {
+  font-size: 1.25rem;
+  line-height: 1;
+  position: absolute;
+  right: 0;
+
+  -webkit-transition: color .5s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: color .5s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.milenia-field-counter-control::after {
+  font-family: 'Linearicons';
+}
+
+.milenia-field-counter-control:hover {
+  color: #1c1c1c;
+}
+
+.milenia-field-counter-control--increase {
+  top: 0;
+}
+
+.milenia-field-counter-control--increase::after {
+  content: "\e939";
+}
+
+.milenia-field-counter-control--decrease {
+  bottom: 0;
+}
+
+.milenia-field-counter-control--decrease::after {
+  content: "\e93a";
+}
+
+/* ----------------------------------------
+            Label
+        ---------------------------------------- */
+
+label {
+  margin-bottom: 0.4rem;
+  display: inline-block;
+}
+
+label[for] {
+  cursor: pointer;
+}
+
+/* ----------------------------------------
+            Textarea
+        ---------------------------------------- */
+
+textarea {
+  height: auto;
+  resize: none;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  display: block;
+}
+
+/* ----------------------------------------
+            Rating
+        ---------------------------------------- */
+
+.milenia-rating-field {
+  padding-top: 0.6rem;
+  padding-bottom: 0.5rem;
+}
+
+.milenia-rating-field .milenia-rating {
+  font-size: 1.5rem;
+}
+
+.milenia-rating-field .milenia-rating .icon {
+  cursor: pointer;
+}
+
+/* ----------------------------------------
+            Form groups
+        ---------------------------------------- */
+
+.form-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-left: -0.9375rem;
+  margin-right: -0.9375rem;
+}
+
+.form-group:last-child > [class*="form-col"]:only-child > .milenia-btn:only-child {
+  margin-top: 0.48rem;
+}
+
+.form-group:first-child {
+  margin-top: -1.2rem;
+}
+
+[class*="form-col"] {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 100%;
+  flex: 1 1 100%;
+  padding-top: 1.2rem;
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+}
+
+.form-col-1 {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 1 8.33333%;
+  flex: 0 1 8.33333%;
+  max-width: 8.33333%;
+}
+
+.form-col-2 {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 1 16.66667%;
+  flex: 0 1 16.66667%;
+  max-width: 16.66667%;
+}
+
+.form-col-3 {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 1 25%;
+  flex: 0 1 25%;
+  max-width: 25%;
+}
+
+.form-col-4 {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 1 33.33333%;
+  flex: 0 1 33.33333%;
+  max-width: 33.33333%;
+}
+
+.form-col-5 {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 1 41.66667%;
+  flex: 0 1 41.66667%;
+  max-width: 41.66667%;
+}
+
+.form-col-6 {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 1 50%;
+  flex: 0 1 50%;
+  max-width: 50%;
+}
+
+.form-col-7 {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 1 58.33333%;
+  flex: 0 1 58.33333%;
+  max-width: 58.33333%;
+}
+
+.form-col-8 {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 1 66.66667%;
+  flex: 0 1 66.66667%;
+  max-width: 66.66667%;
+}
+
+.form-col-9 {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 1 75%;
+  flex: 0 1 75%;
+  max-width: 75%;
+}
+
+.form-col-10 {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 1 83.33333%;
+  flex: 0 1 83.33333%;
+  max-width: 83.33333%;
+}
+
+.form-col-11 {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 1 91.66667%;
+  flex: 0 1 91.66667%;
+  max-width: 91.66667%;
+}
+
+.form-col-12 {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 1 100%;
+  flex: 0 1 100%;
+  max-width: 100%;
+}
+
+/* ----------------------------------------
+            Single Field Form
+        ---------------------------------------- */
+
+.milenia-newsletter .milenia-widget,
+.milenia-newsletter .wysija-msg {
+  font-size: inherit;
+  line-height: inherit;
+}
+
+.milenia-widget .wysija-paragraph:not(:last-child) {
+  margin-bottom: 0;
+}
+
+.wysija-msg ul li {
+  padding-left: 0 !important;
+}
+
+.wysija-msg ul li::before {
+  display: none !important;
+}
+
+.milenia-newsletter:not(.milenia-newsletter--inline) .widget_wysija .milenia-singlefield-form {
+  margin-top: 1.625rem;
+}
+
+.milenia-newsletter--inline .widget_wysija .milenia-singlefield-form {
+  margin-top: 0;
+}
+
+.milenia-newsletter .widget_wysija p:not(:last-child) {
+  margin-bottom: 0;
+}
+
+.milenia-newsletter--inline {
+  display: inline-block;
+}
+
+.milenia-newsletter--inline .milenia-newsletter-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-top: -0.9375rem;
+}
+
+.milenia-newsletter--inline .milenia-newsletter-title {
+  font-size: 2.25rem;
+  line-height: 2.4375rem;
+  margin-right: 1.25rem;
+  padding-top: 0.9375rem;
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+}
+
+.milenia-newsletter--inline .milenia-newsletter-content {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 0px;
+  flex: 1 1 0;
+  padding-top: 0.9375rem;
+}
+
+.milenia-newsletter--inline .milenia-newsletter-content .milenia-singlefield-form {
+  width: 25rem;
+}
+
+.milenia-newsletter--inline .milenia-singlefield-form {
+  max-width: initial !important;
+}
+
+.milenia-singlefield-form,
+.milenia-grid-item .milenia-newsletter {
+  max-width: 26.875rem;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+.milenia-singlefield-form input[type="text"], .milenia-singlefield-form input[type="search"], .milenia-singlefield-form input[type="date"], .milenia-singlefield-form input[type="datetime-local"], .milenia-singlefield-form input[type="email"], .milenia-singlefield-form input[type="file"], .milenia-singlefield-form input[type="month"], .milenia-singlefield-form input[type="number"], .milenia-singlefield-form input[type="password"], .milenia-singlefield-form input[type="tel"], .milenia-singlefield-form input[type="time"], .milenia-singlefield-form input[type="url"], .milenia-singlefield-form input[type="week"], .milenia-singlefield-form textarea {
+  height: 2.8125rem;
+  padding-right: 5rem;
+}
+
+.milenia-singlefield-form button {
+  width: 3.75rem;
+  font-size: 1.25rem;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  left: auto;
+  text-align: center;
+  color: #fff;
+
+  -webkit-transition: background-color .5s cubic-bezier(0.165, 0.84, 0.44, 1), color .5s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: background-color .5s cubic-bezier(0.165, 0.84, 0.44, 1), color .5s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.milenia-singlefield-form button .fa,
+.milenia-singlefield-form button .fal,
+.milenia-singlefield-form button .far,
+.milenia-singlefield-form button .fab,
+.milenia-singlefield-form button .fas,
+.milenia-singlefield-form button .icon,
+.milenia-singlefield-form button [class*="milenia-font-icon-"] {
+  vertical-align: middle;
+  line-height: inherit;
+  position: relative;
+  top: -2px;
+}
+
+[class*="milenia-flexible-grid-col"] .milenia-singlefield-form {
+  max-width: 23.125rem;
+}
+
+.milenia-form--fields-white input[type="text"],.milenia-form--fields-white .milenia-custom-select .milenia-selected-option, .milenia-form--fields-white .milenia-custom-select .milenia-options-list, .milenia-form--fields-white input[type="search"], .milenia-form--fields-white input[type="date"], .milenia-form--fields-white input[type="datetime-local"], .milenia-form--fields-white input[type="email"], .milenia-form--fields-white input[type="file"], .milenia-form--fields-white input[type="month"], .milenia-form--fields-white input[type="number"], .milenia-form--fields-white input[type="password"], .milenia-form--fields-white input[type="tel"], .milenia-form--fields-white input[type="time"], .milenia-form--fields-white input[type="url"], .milenia-form--fields-white input[type="week"], .milenia-form--fields-white textarea,
+.milenia-colorizer--scheme-light100 form input[type="text"],
+.milenia-colorizer--scheme-light100 form input[type="search"],
+.milenia-colorizer--scheme-light100 form input[type="date"],
+.milenia-colorizer--scheme-light100 form input[type="datetime-local"],
+.milenia-colorizer--scheme-light100 form input[type="email"],
+.milenia-colorizer--scheme-light100 form input[type="file"],
+.milenia-colorizer--scheme-light100 form input[type="month"],
+.milenia-colorizer--scheme-light100 form input[type="number"],
+.milenia-colorizer--scheme-light100 form input[type="password"],
+.milenia-colorizer--scheme-light100 form input[type="tel"],
+.milenia-colorizer--scheme-light100 form input[type="time"],
+.milenia-colorizer--scheme-light100 form input[type="url"],
+.milenia-colorizer--scheme-light100 form input[type="week"],
+.milenia-colorizer--scheme-light100 form textarea,
+.milenia-colorizer--scheme-light200 form input[type="text"],
+.milenia-colorizer--scheme-light200 form input[type="search"],
+.milenia-colorizer--scheme-light200 form input[type="date"],
+.milenia-colorizer--scheme-light200 form input[type="datetime-local"],
+.milenia-colorizer--scheme-light200 form input[type="email"],
+.milenia-colorizer--scheme-light200 form input[type="file"],
+.milenia-colorizer--scheme-light200 form input[type="month"],
+.milenia-colorizer--scheme-light200 form input[type="number"],
+.milenia-colorizer--scheme-light200 form input[type="password"],
+.milenia-colorizer--scheme-light200 form input[type="tel"],
+.milenia-colorizer--scheme-light200 form input[type="time"],
+.milenia-colorizer--scheme-light200 form input[type="url"],
+.milenia-colorizer--scheme-light200 form input[type="week"],
+.milenia-colorizer--scheme-light200 form textarea,
+.milenia-colorizer--scheme-light300 form input[type="text"],
+.milenia-colorizer--scheme-light300 form input[type="search"],
+.milenia-colorizer--scheme-light300 form input[type="date"],
+.milenia-colorizer--scheme-light300 form input[type="datetime-local"],
+.milenia-colorizer--scheme-light300 form input[type="email"],
+.milenia-colorizer--scheme-light300 form input[type="file"],
+.milenia-colorizer--scheme-light300 form input[type="month"],
+.milenia-colorizer--scheme-light300 form input[type="number"],
+.milenia-colorizer--scheme-light300 form input[type="password"],
+.milenia-colorizer--scheme-light300 form input[type="tel"],
+.milenia-colorizer--scheme-light300 form input[type="time"],
+.milenia-colorizer--scheme-light300 form input[type="url"],
+.milenia-colorizer--scheme-light300 form input[type="week"],
+.milenia-colorizer--scheme-light300 form textarea,
+.milenia-colorizer--scheme-light400 form input[type="text"],
+.milenia-colorizer--scheme-light400 form input[type="search"],
+.milenia-colorizer--scheme-light400 form input[type="date"],
+.milenia-colorizer--scheme-light400 form input[type="datetime-local"],
+.milenia-colorizer--scheme-light400 form input[type="email"],
+.milenia-colorizer--scheme-light400 form input[type="file"],
+.milenia-colorizer--scheme-light400 form input[type="month"],
+.milenia-colorizer--scheme-light400 form input[type="number"],
+.milenia-colorizer--scheme-light400 form input[type="password"],
+.milenia-colorizer--scheme-light400 form input[type="tel"],
+.milenia-colorizer--scheme-light400 form input[type="time"],
+.milenia-colorizer--scheme-light400 form input[type="url"],
+.milenia-colorizer--scheme-light400 form input[type="week"],
+.milenia-colorizer--scheme-light400 form textarea,
+.milenia-colorizer--scheme-dark100 form input[type="text"],
+.milenia-colorizer--scheme-dark100 form input[type="search"],
+.milenia-colorizer--scheme-dark100 form input[type="date"],
+.milenia-colorizer--scheme-dark100 form input[type="datetime-local"],
+.milenia-colorizer--scheme-dark100 form input[type="email"],
+.milenia-colorizer--scheme-dark100 form input[type="file"],
+.milenia-colorizer--scheme-dark100 form input[type="month"],
+.milenia-colorizer--scheme-dark100 form input[type="number"],
+.milenia-colorizer--scheme-dark100 form input[type="password"],
+.milenia-colorizer--scheme-dark100 form input[type="tel"],
+.milenia-colorizer--scheme-dark100 form input[type="time"],
+.milenia-colorizer--scheme-dark100 form input[type="url"],
+.milenia-colorizer--scheme-dark100 form input[type="week"],
+.milenia-colorizer--scheme-dark100 form textarea,
+.post-password-form input[type="text"],
+.post-password-form input[type="search"],
+.post-password-form input[type="date"],
+.post-password-form input[type="datetime-local"],
+.post-password-form input[type="email"],
+.post-password-form input[type="file"],
+.post-password-form input[type="month"],
+.post-password-form input[type="number"],
+.post-password-form input[type="password"],
+.post-password-form input[type="tel"],
+.post-password-form input[type="time"],
+.post-password-form input[type="url"],
+.post-password-form input[type="week"] {
+  background-color: #fff;
+}
+
+.milenia-body--scheme-brown .milenia-singlefield-form button {
+  background-color: #ae745a;
+}
+
+.milenia-body--scheme-gray .milenia-singlefield-form button {
+  background-color: #948685;
+}
+
+.milenia-body--scheme-blue .milenia-singlefield-form button {
+  background-color: #19b1d1;
+}
+
+.milenia-body--scheme-lightbrown .milenia-singlefield-form button {
+  background-color: #c19b76;
+}
+
+.milenia-body--scheme-green .milenia-singlefield-form button {
+  background-color: #7eb71c;
+}
+
+[class*="milenia-body--scheme-"] .milenia-newsletter--btn-dark .milenia-singlefield-form button,
+[class*="milenia-body--scheme-"] .milenia-searchform--btn-dark .milenia-singlefield-form button:hover,
+[class*="milenia-body--scheme-"] .milenia-modal .milenia-singlefield-form button:hover {
+  background-color: #1c1c1c;
+}
+
+[class*="milenia-body--scheme-"] .milenia-widget .milenia-singlefield-form:not(.milenia-searchform) button:hover,
+[class*="milenia-body--scheme-"] .milenia-newsletter--btn-dark .milenia-singlefield-form button:hover {
+  background-color: #333333;
+}
+
+.milenia-body--scheme-brown .milenia-colorizer--scheme-primary input[type="text"], .milenia-body--scheme-brown .milenia-colorizer--scheme-primary input[type="search"], .milenia-body--scheme-brown .milenia-colorizer--scheme-primary input[type="date"], .milenia-body--scheme-brown .milenia-colorizer--scheme-primary input[type="datetime-local"], .milenia-body--scheme-brown .milenia-colorizer--scheme-primary input[type="email"], .milenia-body--scheme-brown .milenia-colorizer--scheme-primary input[type="file"], .milenia-body--scheme-brown .milenia-colorizer--scheme-primary input[type="month"], .milenia-body--scheme-brown .milenia-colorizer--scheme-primary input[type="number"], .milenia-body--scheme-brown .milenia-colorizer--scheme-primary input[type="password"], .milenia-body--scheme-brown .milenia-colorizer--scheme-primary input[type="tel"], .milenia-body--scheme-brown .milenia-colorizer--scheme-primary input[type="time"], .milenia-body--scheme-brown .milenia-colorizer--scheme-primary input[type="url"], .milenia-body--scheme-brown .milenia-colorizer--scheme-primary input[type="week"], .milenia-body--scheme-brown .milenia-colorizer--scheme-primary textarea,
+.milenia-body--scheme-blue .milenia-colorizer--scheme-primary input[type="text"],
+.milenia-body--scheme-blue .milenia-colorizer--scheme-primary input[type="search"],
+.milenia-body--scheme-blue .milenia-colorizer--scheme-primary input[type="date"],
+.milenia-body--scheme-blue .milenia-colorizer--scheme-primary input[type="datetime-local"],
+.milenia-body--scheme-blue .milenia-colorizer--scheme-primary input[type="email"],
+.milenia-body--scheme-blue .milenia-colorizer--scheme-primary input[type="file"],
+.milenia-body--scheme-blue .milenia-colorizer--scheme-primary input[type="month"],
+.milenia-body--scheme-blue .milenia-colorizer--scheme-primary input[type="number"],
+.milenia-body--scheme-blue .milenia-colorizer--scheme-primary input[type="password"],
+.milenia-body--scheme-blue .milenia-colorizer--scheme-primary input[type="tel"],
+.milenia-body--scheme-blue .milenia-colorizer--scheme-primary input[type="time"],
+.milenia-body--scheme-blue .milenia-colorizer--scheme-primary input[type="url"],
+.milenia-body--scheme-blue .milenia-colorizer--scheme-primary input[type="week"],
+.milenia-body--scheme-blue .milenia-colorizer--scheme-primary textarea,
+.milenia-body--scheme-blue .milenia-colorizer--scheme-secondary input[type="text"],
+.milenia-body--scheme-blue .milenia-colorizer--scheme-secondary input[type="search"],
+.milenia-body--scheme-blue .milenia-colorizer--scheme-secondary input[type="date"],
+.milenia-body--scheme-blue .milenia-colorizer--scheme-secondary input[type="datetime-local"],
+.milenia-body--scheme-blue .milenia-colorizer--scheme-secondary input[type="email"],
+.milenia-body--scheme-blue .milenia-colorizer--scheme-secondary input[type="file"],
+.milenia-body--scheme-blue .milenia-colorizer--scheme-secondary input[type="month"],
+.milenia-body--scheme-blue .milenia-colorizer--scheme-secondary input[type="number"],
+.milenia-body--scheme-blue .milenia-colorizer--scheme-secondary input[type="password"],
+.milenia-body--scheme-blue .milenia-colorizer--scheme-secondary input[type="tel"],
+.milenia-body--scheme-blue .milenia-colorizer--scheme-secondary input[type="time"],
+.milenia-body--scheme-blue .milenia-colorizer--scheme-secondary input[type="url"],
+.milenia-body--scheme-blue .milenia-colorizer--scheme-secondary input[type="week"],
+.milenia-body--scheme-blue .milenia-colorizer--scheme-secondary textarea,
+.milenia-body--scheme-gray .milenia-colorizer--scheme-primary input[type="text"],
+.milenia-body--scheme-gray .milenia-colorizer--scheme-primary input[type="search"],
+.milenia-body--scheme-gray .milenia-colorizer--scheme-primary input[type="date"],
+.milenia-body--scheme-gray .milenia-colorizer--scheme-primary input[type="datetime-local"],
+.milenia-body--scheme-gray .milenia-colorizer--scheme-primary input[type="email"],
+.milenia-body--scheme-gray .milenia-colorizer--scheme-primary input[type="file"],
+.milenia-body--scheme-gray .milenia-colorizer--scheme-primary input[type="month"],
+.milenia-body--scheme-gray .milenia-colorizer--scheme-primary input[type="number"],
+.milenia-body--scheme-gray .milenia-colorizer--scheme-primary input[type="password"],
+.milenia-body--scheme-gray .milenia-colorizer--scheme-primary input[type="tel"],
+.milenia-body--scheme-gray .milenia-colorizer--scheme-primary input[type="time"],
+.milenia-body--scheme-gray .milenia-colorizer--scheme-primary input[type="url"],
+.milenia-body--scheme-gray .milenia-colorizer--scheme-primary input[type="week"],
+.milenia-body--scheme-gray .milenia-colorizer--scheme-primary textarea,
+.milenia-body--scheme-gray .milenia-colorizer--scheme-secondary input[type="text"],
+.milenia-body--scheme-gray .milenia-colorizer--scheme-secondary input[type="search"],
+.milenia-body--scheme-gray .milenia-colorizer--scheme-secondary input[type="date"],
+.milenia-body--scheme-gray .milenia-colorizer--scheme-secondary input[type="datetime-local"],
+.milenia-body--scheme-gray .milenia-colorizer--scheme-secondary input[type="email"],
+.milenia-body--scheme-gray .milenia-colorizer--scheme-secondary input[type="file"],
+.milenia-body--scheme-gray .milenia-colorizer--scheme-secondary input[type="month"],
+.milenia-body--scheme-gray .milenia-colorizer--scheme-secondary input[type="number"],
+.milenia-body--scheme-gray .milenia-colorizer--scheme-secondary input[type="password"],
+.milenia-body--scheme-gray .milenia-colorizer--scheme-secondary input[type="tel"],
+.milenia-body--scheme-gray .milenia-colorizer--scheme-secondary input[type="time"],
+.milenia-body--scheme-gray .milenia-colorizer--scheme-secondary input[type="url"],
+.milenia-body--scheme-gray .milenia-colorizer--scheme-secondary input[type="week"],
+.milenia-body--scheme-gray .milenia-colorizer--scheme-secondary textarea {
+  border: none;
+}
+
+.milenia-form--unbordered input[type="text"],
+.milenia-form--unbordered input[type="search"],
+.milenia-form--unbordered input[type="date"],
+.milenia-form--unbordered input[type="datetime-local"],
+.milenia-form--unbordered input[type="email"],
+.milenia-form--unbordered input[type="file"],
+.milenia-form--unbordered input[type="month"],
+.milenia-form--unbordered input[type="number"],
+.milenia-form--unbordered input[type="password"],
+.milenia-form--unbordered input[type="tel"],
+.milenia-form--unbordered input[type="time"],
+.milenia-form--unbordered input[type="url"],
+.milenia-form--unbordered input[type="week"],
+.milenia-form--unbordered textarea {
+  border: none !important;
+}
+
+/* ----------------------------------------
+            Post password form
+        ---------------------------------------- */
+
+.post-password-form label {
+  display: block;
+}
+
+/* ----------------------------------------
+        Booking Forms
+    ---------------------------------------- */
+
+.milenia-booking-form label:not(.milenia-label-checkbox) {
+  font-size: 0.8125rem;
+  line-height: 1.125rem;
+  text-transform: uppercase;
+  letter-spacing: 0.7px;
+}
+
+.milenia-booking-form label:not(.milenia-label-checkbox):not(:last-child) {
+  margin-bottom: 1.2rem;
+}
+
+.milenia-booking-form .form-group {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.milenia-booking-form .form-group--visible {
+  overflow: visible !important;
+}
+
+.milenia-booking-form .form-col {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  max-width: 100%;
+}
+
+.milenia-booking-form .form-col--column {
+  -webkit-flex-direction: column;
+  flex-direction: column;
+}
+
+.milenia-booking-form .form-col--action {
+  max-width: initial;
+}
+
+.milenia-booking-form [class*="form-col"] {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.milenia-booking-form [class*="form-col"] .form-control {
+  margin: auto;
+}
+
+.milenia-booking-form .form-col--arrival-date, .milenia-booking-form .form-col--departure-date {
+  position: relative;
+}
+
+.milenia-booking-form .form-col--arrival-date input.milenia-datepicker, .milenia-booking-form .form-col--departure-date input.milenia-datepicker {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 100%;
+  opacity: 0;
+}
+
+.milenia-booking-form-wrapper--v1 .milenia-booking-form-inner-wrapper {
+  position: relative;
+  border-style: solid;
+  border-color: #ececec;
+}
+
+.milenia-booking-form-wrapper--v1 .milenia-booking-form-inner-wrapper::after,
+.milenia-booking-form-wrapper--v1 .milenia-booking-form-inner-wrapper::before {
+  content: "";
+  border-style: inherit;
+  border-width: 1px 0 0 0;
+  border-color: inherit;
+  position: absolute;
+  left: -625rem;
+  right: -625rem;
+  top: 0;
+}
+
+.milenia-booking-form-wrapper--v1 .milenia-booking-form-inner-wrapper::before {
+  top: auto;
+  bottom: 0;
+}
+
+.milenia-booking-form-wrapper--v1 .milenia-booking-form .form-group {
+  overflow: hidden;
+  border-color: inherit;
+  border-style: inherit;
+}
+
+.milenia-booking-form-wrapper--v1 > .milenia-booking-form .form-group:first-child {
+  margin-top: 0;
+}
+
+.milenia-booking-form-wrapper--v1 > .milenia-booking-form .form-group:not(:first-child) {
+  border-top-width: 0;
+}
+
+.milenia-booking-form-wrapper--v1 > .milenia-booking-form [class*="form-col"] {
+  padding: 1.85rem 1.85rem 2.5rem;
+  border-color: inherit;
+  border-style: inherit;
+  border-width: 0 1px 1px 0;
+}
+
+.milenia-booking-form-wrapper--v1 > .milenia-booking-form .form-group--visible {
+  position: relative;
+}
+
+.milenia-booking-form-wrapper--v1 > .milenia-booking-form .form-group--visible [class*="form-col"] {
+  border-width: 0 1px 0 1px;
+  border-style: inherit;
+  border-color: inherit;
+}
+
+.milenia-booking-form-wrapper--v1 > .milenia-booking-form .form-group--visible [class*="form-col"]:first-child::before {
+  display: none;
+}
+
+.milenia-booking-form-wrapper--v1 > .milenia-booking-form [class*="form-col"]:first-child::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 625rem;
+  width: 0;
+  border-width: 0 0 0 1px;
+  border-style: inherit;
+  border-color: inherit;
+}
+
+.milenia-booking-form-wrapper--v1 > .milenia-booking-form [class*="form-col"]:not(:first-child) input.milenia-datepicker {
+  right: -1px;
+  left: -1px;
+}
+
+.milenia-booking-form-wrapper--v1 > .milenia-booking-form .form-col--action {
+  padding-bottom: 1.85rem;
+}
+
+.milenia-booking-form-wrapper--light.milenia-booking-form-wrapper--v1 .milenia-field-datepicker,
+.milenia-booking-form-wrapper--light.milenia-booking-form-wrapper--v1 .milenia-field-counter-value,
+.milenia-booking-form-wrapper--light.milenia-booking-form-wrapper--v1 .milenia-field-datepicker .milenia-field-datepicker-day,
+.milenia-booking-form-wrapper--light.milenia-booking-form-wrapper--v1 .milenia-field-datepicker .milenia-field-datepicker-month-year,
+.milenia-booking-form-wrapper--light.milenia-booking-form-wrapper--v1 .milenia-field-datepicker .milenia-field-datepicker-dayname {
+  color: #ffffff;
+}
+
+.milenia-booking-form-wrapper--light.milenia-booking-form-wrapper--v1 .milenia-field-counter-control:hover {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.milenia-booking-form-wrapper--light.milenia-booking-form-wrapper--v1 [class*="form-col"],
+.milenia-booking-form-wrapper--light.milenia-booking-form-wrapper--v1 .milenia-booking-form-inner-wrapper::before,
+.milenia-booking-form-wrapper--light.milenia-booking-form-wrapper--v1 .milenia-booking-form-inner-wrapper::after {
+  border-color: rgba(255, 255, 255, 0.15);
+}
+
+.milenia-booking-form-wrapper--v2 label:not(.milenia-label-checkbox):not(:last-child) {
+  margin-bottom: 0.85rem;
+}
+
+.milenia-booking-form-wrapper--v2 .form-group:first-child {
+  margin-top: -0.625rem;
+}
+
+.milenia-booking-form-wrapper--v2 .form-group {
+  margin-left: -0.3125rem;
+  margin-right: -0.3125rem;
+}
+
+.milenia-booking-form-wrapper--v2 [class*="form-col"] {
+  padding-top: 0.625rem;
+  padding-left: 0.3125rem;
+  padding-right: 0.3125rem;
+}
+
+.milenia-booking-form-wrapper--v2 .form-col--title {
+  font-size: 3rem;
+  line-height: 3.75rem;
+}
+
+.milenia-booking-form-wrapper--v2 .form-col--arrival-date .form-control, .milenia-booking-form-wrapper--v2 .form-col--departure-date .form-control, .milenia-booking-form-wrapper--v2 .form-col--rooms .form-control, .milenia-booking-form-wrapper--v2 .form-col--adults .form-control, .milenia-booking-form-wrapper--v2 .form-col--children .form-control {
+  border-width: 1px;
+  border-style: solid;
+  border-color: #dadada;
+  background-color: #f8f8f8;
+  padding: 1.1rem 1.2rem 1.5rem;
+  width: 100%;
+}
+
+.milenia-booking-form-wrapper--v2 .form-col--arrival-date .milenia-custom-select, .milenia-booking-form-wrapper--v2 .form-col--departure-date .milenia-custom-select, .milenia-booking-form-wrapper--v2 .form-col--rooms .milenia-custom-select, .milenia-booking-form-wrapper--v2 .form-col--adults .milenia-custom-select, .milenia-booking-form-wrapper--v2 .form-col--children .milenia-custom-select {
+  position: static;
+}
+
+.milenia-booking-form-wrapper--v2 .form-col--arrival-date .milenia-custom-select .milenia-options-list, .milenia-booking-form-wrapper--v2 .form-col--departure-date .milenia-custom-select .milenia-options-list, .milenia-booking-form-wrapper--v2 .form-col--rooms .milenia-custom-select .milenia-options-list, .milenia-booking-form-wrapper--v2 .form-col--adults .milenia-custom-select .milenia-options-list, .milenia-booking-form-wrapper--v2 .form-col--children .milenia-custom-select .milenia-options-list {
+  width: auto;
+  left: -1px;
+  right: -1px;
+}
+
+.milenia-booking-form-wrapper--v2 .form-col--arrival-date .milenia-custom-select .milenia-selected-option, .milenia-booking-form-wrapper--v2 .form-col--departure-date .milenia-custom-select .milenia-selected-option, .milenia-booking-form-wrapper--v2 .form-col--rooms .milenia-custom-select .milenia-selected-option, .milenia-booking-form-wrapper--v2 .form-col--adults .milenia-custom-select .milenia-selected-option, .milenia-booking-form-wrapper--v2 .form-col--children .milenia-custom-select .milenia-selected-option {
+  background-color: transparent;
+  color: #1c1c1c;
+  border: none;
+  padding: 0 1.4rem 0 0;
+  height: 1.8rem;
+  line-height: 1.7rem;
+  font-size: 1.5rem;
+}
+
+.milenia-booking-form-wrapper--v2 .form-col--arrival-date .milenia-custom-select .milenia-selected-option::after, .milenia-booking-form-wrapper--v2 .form-col--arrival-date .milenia-custom-select .milenia-selected-option::before, .milenia-booking-form-wrapper--v2 .form-col--departure-date .milenia-custom-select .milenia-selected-option::after, .milenia-booking-form-wrapper--v2 .form-col--departure-date .milenia-custom-select .milenia-selected-option::before, .milenia-booking-form-wrapper--v2 .form-col--rooms .milenia-custom-select .milenia-selected-option::after, .milenia-booking-form-wrapper--v2 .form-col--rooms .milenia-custom-select .milenia-selected-option::before, .milenia-booking-form-wrapper--v2 .form-col--adults .milenia-custom-select .milenia-selected-option::after, .milenia-booking-form-wrapper--v2 .form-col--adults .milenia-custom-select .milenia-selected-option::before, .milenia-booking-form-wrapper--v2 .form-col--children .milenia-custom-select .milenia-selected-option::after, .milenia-booking-form-wrapper--v2 .form-col--children .milenia-custom-select .milenia-selected-option::before {
+  color: #858585;
+  right: 0;
+  top: 0.125rem;
+}
+
+.milenia-booking-form-wrapper--v2 .form-col--action .form-control,
+.milenia-booking-form-wrapper--v2 .form-col--action .form-control .milenia-btn {
+  width: 100%;
+  height: 100%;
+}
+
+.milenia-booking-form-wrapper--v2 .form-col--arrival-date input.milenia-datepicker, .milenia-booking-form-wrapper--v2 .form-col--departure-date input.milenia-datepicker {
+  right: -1px;
+  left: -1px;
+}
+
+.milenia-booking-form-wrapper--v2 .form-control {
+  position: relative;
+}
+
+.milenia-booking-form-wrapper--v2 .form-control--over {
+  z-index: 10;
+}
+
+.milenia-booking-form-wrapper--light.milenia-booking-form-wrapper--v2 .milenia-field-datepicker,
+.milenia-booking-form-wrapper--light.milenia-booking-form-wrapper--v2 .milenia-field-datepicker::after,
+.milenia-booking-form-wrapper--light.milenia-booking-form-wrapper--v2 .milenia-custom-select .milenia-selected-option,
+.milenia-booking-form-wrapper--light.milenia-booking-form-wrapper--v2 .milenia-custom-select .milenia-selected-option::before,
+.milenia-booking-form-wrapper--light.milenia-booking-form-wrapper--v2 .milenia-custom-select .milenia-selected-option::after {
+  color: #ffffff;
+}
+
+.milenia-booking-form-wrapper--light.milenia-booking-form-wrapper--v2 .form-col--title .form-control {
+  background-color: transparent;
+}
+
+.milenia-booking-form-wrapper--light.milenia-booking-form-wrapper--v2 .form-control {
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
+.milenia-booking-form-wrapper--light.milenia-booking-form-wrapper--v2 .form-control {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+
+
+.milenia-booking-form-wrapper--v3 {
+  text-align: initial;
+}
+
+.milenia-booking-form-wrapper--v3.milenia-booking-form-wrapper--light {
+  color: #858585;
+}
+
+.milenia-booking-form-wrapper--v3 .milenia-field-datepicker {
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.milenia-booking-form-wrapper--v3 .milenia-range-slider-field {
+  font-weight: 300;
+}
+
+.milenia-booking-form-wrapper--v3 .form-group:first-child {
+  margin-top: 0;
+}
+
+.milenia-booking-form-wrapper--v3 label:not(.milenia-label-checkbox) {
+  display: block;
+}
+
+.milenia-booking-form-wrapper--v3 label:not(.milenia-label-checkbox):not(:last-child) {
+  margin-bottom: 0.4rem;
+}
+
+.milenia-booking-form-wrapper--v3 .form-col--over:not(.form-col--arrival-date):not(.form-col--departure-date) {
+  z-index: 9;
+}
+
+.milenia-booking-form-wrapper--v3 [class*="form-col"] {
+  padding: 1rem 2rem 0.9rem 1.25rem;
+  display: block;
+  border-width: 1px 0 1px 0;
+  border-style: solid;
+  border-color: #ececec;
+  position: relative;
+  margin-top: -1px;
+}
+
+.milenia-booking-form-wrapper--v3 [class*="form-col"]::before,
+.milenia-booking-form-wrapper--v3 [class*="form-col"]::after {
+  content: "";
+  position: absolute;
+  top: 0.8125rem;
+  bottom: 0.8125rem;
+  left: 0;
+  border-style: inherit;
+  border-width: 0 0 0 1px;
+  border-color: inherit;
+}
+
+.milenia-booking-form-wrapper--v3 [class*="form-col"]::after {
+  left: auto;
+  right: -1px;
+}
+
+.milenia-booking-form-wrapper--v3 [class*="form-col"] .milenia-custom-select {
+  position: static;
+}
+
+.milenia-booking-form-wrapper--v3 [class*="form-col"] .milenia-custom-select .milenia-options-list {
+  width: auto;
+  left: -1px;
+  right: -1px;
+}
+
+.milenia-booking-form-wrapper--v3 [class*="form-col"] .milenia-custom-select .milenia-selected-option {
+  background-color: transparent;
+  border: none;
+  font-weight: 300;
+  padding: 0 1.4rem 0 0;
+  height: 1.3rem;
+  line-height: 1.5rem;
+  font-size: 1rem;
+  min-width: 4rem;
+}
+
+.milenia-booking-form-wrapper--v3 [class*="form-col"] .milenia-custom-select .milenia-selected-option::after, .milenia-booking-form-wrapper--v3 [class*="form-col"] .milenia-custom-select .milenia-selected-option::before {
+  color: #858585;
+  right: 0;
+  top: 0;
+}
+
+.milenia-booking-form-wrapper--v3 [class*="form-col"] .form-control {
+  margin: 0;
+}
+
+.milenia-booking-form-wrapper--v3 .form-col--action {
+  padding: 0;
+  border-width: 0;
+  position: relative;
+  z-index: 2;
+}
+
+.milenia-booking-form-wrapper--v3 .form-col--action::before {
+  display: none;
+}
+
+.milenia-booking-form-wrapper--v3 .form-col--action .form-control,
+.milenia-booking-form-wrapper--v3 .form-col--action .form-control .milenia-btn {
+  width: 100%;
+  height: 100%;
+}
+
+.milenia-booking-form-wrapper--v3 .form-control {
+  position: static;
+  width: 100%;
+}
+
+.milenia-booking-form-wrapper--v3 .form-group {
+  position: relative;
+}
+
+.milenia-booking-form-wrapper--v3 .form-group::after, .milenia-booking-form-wrapper--v3 .form-group::before {
+  content: "";
+  position: absolute;
+  border-width: 0 0 0 3px;
+  border-style: solid;
+  display: none;
+  top: 1px;
+  left: -1px;
+  bottom: 1px;
+  width: 0;
+  z-index: 2;
+}
+
+.milenia-booking-form-wrapper--v3 .form-group::before {
+  left: auto;
+  right: -1px;
+}
+
+
+.milenia-booking-form-wrapper--light.milenia-booking-form-wrapper--v3 .milenia-field-datepicker {
+  color: #fff;
+}
+
+.milenia-booking-form-wrapper--light.milenia-booking-form-wrapper--v3 .milenia-custom-select .milenia-selected-option,
+.milenia-booking-form-wrapper--light.milenia-booking-form-wrapper--v3 .milenia-custom-select .milenia-selected-option::after,
+.milenia-booking-form-wrapper--light.milenia-booking-form-wrapper--v3 .milenia-custom-select .milenia-selected-option::before {
+  color: #f1f1f1;
+}
+
+.milenia-booking-form-wrapper--light.milenia-booking-form-wrapper--v3 [class*="form-col"],
+.milenia-booking-form-wrapper--light.milenia-booking-form-wrapper--v3 [class*="form-col"]::before,
+.milenia-booking-form-wrapper--light.milenia-booking-form-wrapper--v3 [class*="form-col"]::after {
+  border-color: rgba(255, 255, 255, 0.08);
+}
+
+.milenia-booking-form-wrapper--light.milenia-booking-form-wrapper--v3 [class*="form-col"] {
+  margin-top: 0;
+  border-bottom: none;
+}
+
+
+.milenia-booking-form-wrapper--v4 label:not(.milenia-label-checkbox) {
+  display: block;
+}
+
+.milenia-booking-form-wrapper--v4 label:not(.milenia-label-checkbox):not(:last-child) {
+  margin-bottom: 0.4rem;
+}
+
+.milenia-booking-form-wrapper--v4 .form-group {
+  margin-top: -0.625rem;
+  margin-left: -0.3125rem;
+  margin-right: -0.3125rem;
+}
+
+.milenia-booking-form-wrapper--v4 [class*="form-col"] {
+  padding-top: 0.625rem;
+  padding-left: 0.3125rem;
+  padding-right: 0.3125rem;
+}
+
+.milenia-booking-form-wrapper--v4 [class*="form-col"] .form-control {
+  margin: auto 0 0;
+}
+
+.milenia-booking-form-wrapper--v4 .form-col--title {
+  font-size: 2.25rem;
+  line-height: 1.1;
+  color: #1c1c1c;
+}
+
+.milenia-booking-form-wrapper--v4 .form-col--title small {
+  font-size: 1.5rem;
+  display: block;
+}
+
+.milenia-booking-form-wrapper--light.milenia-booking-form-wrapper--v4 .form-col--title {
+  color: #ffffff;
+}
+
+.milenia-booking-form-wrapper--light {
+  color: #eaeaea;
+}
+
+.milenia-booking-form-wrapper--v4 .form-control,
+.milenia-booking-form-wrapper--v4 .form-col--action .form-control .milenia-btn {
+  width: 100%;
+}
+
+.milenia-booking-form-wrapper--v4 .form-col--action .form-control .milenia-btn {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.milenia-booking-form-wrapper--v4 .form-control-datepicker-wrapper {
+  position: relative;
+}
+
+.milenia-booking-form-wrapper--v4 .form-control--over {
+  z-index: 10;
+}
+
+.milenia-booking-form-wrapper--v4 .milenia-btn:not(.milenia-btn--link):not(.milenia-btn--huge):not(.milenia-btn--big):not(.milenia-btn--xxl) {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.milenia-booking-form-wrapper--v4 .form-col--arrival-date input.milenia-datepicker,
+.milenia-booking-form-wrapper--v4 .form-col--departure-date input.milenia-datepicker {
+  top: auto;
+}
+
+.milenia-header .milenia-booking-form-wrapper--v3 {
+  margin-top: -1px;
+}
+
+.milenia-header .milenia-booking-form-wrapper--v3 .form-col--action {
+  padding-top: 1px;
+}
+
+.milenia-header .milenia-colorizer--scheme-dark .milenia-booking-form-wrapper--v3 .form-group::after, .milenia-header .milenia-colorizer--scheme-dark .milenia-booking-form-wrapper--v3 .form-group::before {
+  display: block;
+  z-index: 7;
+}
+
+.milenia-colorizer--scheme-dark .milenia-booking-form-wrapper--v3 {
+  color: #858585;
+}
+
+.milenia-colorizer--scheme-dark .milenia-booking-form-wrapper--v3 .form-group::after, .milenia-colorizer--scheme-dark .milenia-booking-form-wrapper--v3 .form-group::before {
+  border-color: #1c1c1c;
+}
+
+.milenia-colorizer--scheme-dark .milenia-booking-form-wrapper--v3 [class*="form-col"], .milenia-colorizer--scheme-dark .milenia-booking-form-wrapper--v3 [class*="form-col"]::before {
+  border-color: rgba(255, 255, 255, 0.15);
+}
+
+.milenia-colorizer--scheme-dark .milenia-booking-form-wrapper--v3 .milenia-field-datepicker {
+  color: #fff;
+}
+
+.milenia-colorizer--scheme-dark .milenia-booking-form-wrapper--v3 .milenia-custom-select .milenia-selected-option, .milenia-colorizer--scheme-dark .milenia-booking-form-wrapper--v3 .milenia-custom-select .milenia-selected-option::after, .milenia-colorizer--scheme-dark .milenia-booking-form-wrapper--v3 .milenia-custom-select .milenia-selected-option::before {
+  color: #f1f1f1;
+}
+
+/* ----------------------------------------
+        Figure
+    ---------------------------------------- */
+
+.milenia-figure-linked {
+  text-align: center;
+}
+
+.milenia-figure-linked figcaption:last-child:not(:only-child) {
+  margin-top: 1.2rem;
+}
+
+.milenia-figure-linked figcaption:first-child:not(:only-child) {
+  margin-bottom: 1.2rem;
+}
+
+/* ----------------------------------------
+        Filter
+    ---------------------------------------- */
+
+.milenia-filter-wrap:not(:last-child) {
+  margin-bottom: 3rem;
+}
+
+.milenia-filter-wrap {
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+}
+
+.milenia-filter {
+  font-size: 0.8125rem;
+  line-height: 1.125rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: -1rem;
+  margin-left: -0.65rem;
+  margin-right: -0.65rem;
+}
+
+.milenia-filter > li {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 1rem;
+  margin-left: 0.65rem;
+  margin-right: 0.65rem;
+}
+
+.milenia-filter .milenia-active,
+.milenia-filter .milenia-active > a {
+  background-size: 100% 1px;
+}
+
+/* ----------------------------------------
+        Gallery
+    ---------------------------------------- */
+
+.milenia-gallery {
+  overflow: hidden;
+}
+
+.milenia-gallery .milenia-grid:not(.owl-carousel):not(.milenia-grid--no-gutters) {
+  margin-top: -1.875rem;
+}
+
+.milenia-gallery .milenia-grid:not(.owl-carousel):not(.milenia-grid--no-gutters) .milenia-grid-item {
+  padding-top: 1.875rem;
+}
+
+.milenia-gallery:not(:last-child) {
+  margin-bottom: 3.2rem;
+}
+
+.milenia-gallery img {
+  width: 100%;
+}
+
+.milenia-gallery-item-link {
+  display: block;
+  position: relative;
+  cursor: url("assets/images/cursor-cross.png") 29 29, pointer;
+}
+
+.milenia-gallery .milenia-grid.milenia-grid--no-gutters .milenia-gallery-item-link {
+  margin: -1px 0 0 -1px;
+}
+
+.milenia-gallery-item-link::before {
+  content: "";
+  opacity: 0;
+  background-color: rgba(28, 28, 28, 0.4);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+
+  -webkit-transition: opacity .5s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: opacity .5s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.milenia-gallery-item-link:hover::before {
+  opacity: 1;
+}
+
+.milenia-gallery-item-caption {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+}
+
+.milenia-gallery-item--without-thumb .milenia-gallery-item-link {
+  height: 0;
+  padding-bottom: 66%;
+}
+
+.milenia-gallery-item--without-thumb .milenia-gallery-item-link img {
+  display: none;
+}
+
+.milenia-gallery--bg-based .milenia-gallery-item {
+  height: 0;
+  padding-bottom: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.milenia-gallery--bg-based .milenia-gallery-item img {
+  opacity: 0;
+}
+
+.milenia-gallery--bg-based .milenia-gallery-item img, .milenia-gallery--bg-based .milenia-gallery-item-link {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.milenia-gallery .ifw-container-loading {
+  position: relative;
+  min-height: 200px;
+}
+
+.milenia-gallery .ifw-container-loading::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 1;
+  background-color: #f1f1f1;
+  background-image: url("../images/loader.gif");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+/* ----------------------------------------
+        Countdown
+    ---------------------------------------- */
+
+.milenia-countdown {
+  margin-top: -1.875rem;
+}
+
+.milenia-countdown .countdown-row {
+  font-size: 0;
+  line-height: 0;
+}
+
+.milenia-countdown .countdown-section {
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 1.875rem;
+  width: 25%;
+  text-align: center;
+}
+
+.milenia-countdown .countdown-amount {
+  font-size: 3rem;
+  line-height: 1;
+  display: block;
+}
+
+.milenia-countdown .countdown-period {
+  font-size: 1rem;
+  line-height: 1.625rem;
+  display: block;
+}
+
+.milenia-body--scheme-brown .milenia-countdown .countdown-amount {
+  color: #ae745a;
+}
+
+.milenia-body--scheme-gray .milenia-countdown .countdown-amount {
+  color: #948685;
+}
+
+.milenia-body--scheme-blue .milenia-countdown .countdown-amount {
+  color: #19b1d1;
+}
+
+.milenia-body--scheme-lightbrown .milenia-countdown .countdown-amount {
+  color: #c19b76;
+}
+
+.milenia-body--scheme-green .milenia-countdown .countdown-amount {
+  color: #7eb71c;
+}
+
+/* ----------------------------------------
+        Media elements
+    ---------------------------------------- */
+
+/* ----------------------------------------
+            Media Element Plugin
+        ---------------------------------------- */
+
+.mejs__overlay-button {
+  width: 5rem;
+  height: 5rem;
+  background-image: url("assets/images/mejs-play.png");
+  background-position: center center;
+}
+
+.mejs__overlay:hover > .mejs__overlay-button {
+  background-position: center center;
+}
+
+.milenia-csstransforms3d .mejs__overlay .mejs__overlay-button {
+  -webkit-transition: -webkit-transform .5s cubic-bezier(0.25, 3, 0.79, 0.38);
+  transition:         transform .5s cubic-bezier(0.25, 3, 0.79, 0.38);
+}
+
+.milenia-csstransforms3d .mejs__overlay:hover .mejs__overlay-button {
+  -webkit-transform: scale3d(1.05, 1.05, 1.05);
+  transform: scale3d(1.05, 1.05, 1.05);
+}
+
+/* ----------------------------------------
+        Menu
+    ---------------------------------------- */
+
+.text-center .milenia-menu {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.milenia-menu {
+  max-width: 15rem;
+  text-align: initial;
+  font-weight: 600;
+  font-size: 1.125rem;
+  line-height: 1.875rem;
+}
+
+.milenia-menu > li {
+  overflow: hidden;
+  padding-right: 5rem;
+  position: relative;
+}
+
+.milenia-menu > li:not(:last-child) {
+  margin-bottom: 0.6rem;
+}
+
+.milenia-menu > li > span {
+  font-weight: 400;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.milenia-body--scheme-brown .milenia-colorizer--scheme-secondary .milenia-menu {
+  color: #fff;
+}
+
+/* ----------------------------------------
+        Dropdown
+    ---------------------------------------- */
+
+.milenia-dropdown {
+  position: relative;
+  z-index: 1;
+}
+
+.milenia-dropdown-title {
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.milenia-dropdown-element {
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+  text-align: initial;
+  padding-top: 0.4rem;
+  padding-bottom: 1.4rem;
+  letter-spacing: 0.7px;
+  background-color: #f8f8f8;
+  color: #1c1c1c;
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  -webkit-transition: opacity .5s cubic-bezier(0.165, 0.84, 0.44, 1), visibility .5s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: opacity .5s cubic-bezier(0.165, 0.84, 0.44, 1), visibility .5s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.milenia-dropdown-element > li {
+  padding-top: 1rem;
+  padding-right: 1.5625rem;
+  padding-left: 1.5625rem;
+}
+
+.milenia-dropdown:not(.milenia-dropdown--languages) .milenia-dropdown-element > li > a {
+  color: #1c1c1c;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(100%, #1c1c1c), to(#1c1c1c));
+  background-image: linear-gradient(to bottom, #1c1c1c 100%, #1c1c1c 100%);
+}
+
+.milenia-dropdown.milenia-dropdown--languages .milenia-dropdown-element > li > a,
+.milenia-dropdown.milenia-dropdown--languages .milenia-dropdown-element > li > a > img {
+  display: block;
+}
+
+.milenia-dropdown-element--icons > li {
+  position: relative;
+  padding-left: 3.1rem;
+}
+
+.milenia-dropdown-element--icons > li .fa,
+.milenia-dropdown-element--icons > li .fal,
+.milenia-dropdown-element--icons > li .far,
+.milenia-dropdown-element--icons > li .fab,
+.milenia-dropdown-element--icons > li .fas,
+.milenia-dropdown-element--icons > li .icon,
+.milenia-dropdown-element--icons > li [class*="milenia-font-icon-"] {
+  position: absolute;
+  top: 1.3rem;
+  left: 1.5625rem;
+}
+
+.milenia-dropdown-element--x-right {
+  left: auto;
+  right: 0;
+}
+
+.milenia-dropdown-element--y-top {
+  bottom: 100%;
+  top: auto;
+}
+
+.milenia-dropdown--opened {
+  z-index: 9;
+}
+
+.milenia-dropdown--opened .milenia-dropdown-element {
+  opacity: 1;
+  visibility: visible;
+}
+
+.milenia-dropdown--title-icon .milenia-dropdown-title {
+  position: relative;
+  padding-right: 0.875rem;
+}
+
+.milenia-dropdown--title-icon .milenia-dropdown-title .fa,
+.milenia-dropdown--title-icon .milenia-dropdown-title .fal,
+.milenia-dropdown--title-icon .milenia-dropdown-title .far,
+.milenia-dropdown--title-icon .milenia-dropdown-title .fab,
+.milenia-dropdown--title-icon .milenia-dropdown-title .fas,
+.milenia-dropdown--title-icon .milenia-dropdown-title .icon,
+.milenia-dropdown--title-icon .milenia-dropdown-title [class*="milenia-font-icon-"] {
+  font-size: 0.8125rem;
+  line-height: 1;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  margin-top: -0.40625rem;
+}
+
+.milenia-dropdown--title-icon .milenia-dropdown-icon--state-default, .milenia-dropdown--title-icon .milenia-dropdown-icon--state-opened {
+  -webkit-transition: opacity .5s cubic-bezier(0.165, 0.84, 0.44, 1), visibility .5s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: opacity .5s cubic-bezier(0.165, 0.84, 0.44, 1), visibility .5s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.milenia-dropdown--title-icon .milenia-dropdown-icon--state-opened,
+.milenia-dropdown--title-icon.milenia-dropdown--opened .milenia-dropdown-icon--state-default {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.milenia-dropdown--title-icon.milenia-dropdown--opened .milenia-dropdown-icon--state-opened {
+  opacity: 1;
+  visibility: visible;
+}
+
+.milenia-csstransforms3d .milenia-dropdown-element {
+  -webkit-transition-property: -webkit-transform, opacity, visibility;
+  transition-property:         transform, opacity, visibility;
+  -webkit-transform: scale3d(0.9, 0.9, 0.9);
+  transform: scale3d(0.9, 0.9, 0.9);
+}
+
+.milenia-csstransforms3d .milenia-dropdown--title-icon .milenia-dropdown-icon--state-opened, .milenia-csstransforms3d .milenia-dropdown--title-icon .milenia-dropdown-icon--state-default {
+  -webkit-transition-property: -webkit-transform, opacity, visibility;
+  transition-property:         transform, opacity, visibility;
+}
+
+.milenia-csstransforms3d .milenia-dropdown--title-icon .milenia-dropdown-icon--state-opened,
+.milenia-csstransforms3d .milenia-dropdown--title-icon.milenia-dropdown--opened .milenia-dropdown-icon--state-default {
+  -webkit-transform: scale3d(0, 0, 0);
+  transform: scale3d(0, 0, 0);
+}
+
+.milenia-csstransforms3d .milenia-dropdown--opened .milenia-dropdown-element,
+.milenia-csstransforms3d .milenia-dropdown--title-icon.milenia-dropdown--opened .milenia-dropdown-icon--state-opened {
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
+}
+
+/* ----------------------------------------
+        Twitter Feed
+    ---------------------------------------- */
+
+.milenia-twitter-feed:not(:last-child) {
+  margin-bottom: 1.2rem;
+}
+
+.milenia-twitter-feed > li:not(:last-child) {
+  margin-bottom: 1.875rem;
+}
+
+.milenia-twitter-feed .milenia-tweet-content:not(:last-child) {
+  margin-bottom: 0.85rem;
+}
+
+.milenia-twitter-feed .milenia-tweet-footer {
+  color: #a5a5a5;
+  font-size: 0.6875rem;
+  line-height: 0.85938rem;
+  text-transform: uppercase;
+  letter-spacing: 1.1px;
+}
+
+/* ----------------------------------------
+        Weather Indicator
+    ---------------------------------------- */
+
+.milenia-weather-indicator {
+  letter-spacing: .83px;
+  vertical-align: middle;
+}
+
+.milenia-weather-indicator-fahrenheit,
+.milenia-weather-indicator--fahrenheit-state .milenia-weather-indicator-celsius {
+  display: none;
+}
+
+.milenia-weather-indicator--fahrenheit-state .milenia-weather-indicator-fahrenheit {
+  display: block;
+}
+
+.milenia-weather-indicator sup span {
+  vertical-align: baseline;
+}
+
+.milenia-weather-indicator-btn {
+  cursor: pointer;
+}
+
+.milenia-weather-indicator:not([class*="milenia-weather-indicator--style-"]) sup {
+  position: static;
+  vertical-align: middle;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+.milenia-weather-indicator:not([class*="milenia-weather-indicator--style-"]) .fa,
+.milenia-weather-indicator:not([class*="milenia-weather-indicator--style-"]) .fal,
+.milenia-weather-indicator:not([class*="milenia-weather-indicator--style-"]) .far,
+.milenia-weather-indicator:not([class*="milenia-weather-indicator--style-"]) .fab,
+.milenia-weather-indicator:not([class*="milenia-weather-indicator--style-"]) .fas,
+.milenia-weather-indicator:not([class*="milenia-weather-indicator--style-"]) .icon,
+.milenia-weather-indicator:not([class*="milenia-weather-indicator--style-"]) [class*="milenia-font-icon-"] {
+  font-size: 1.5rem;
+}
+
+.milenia-weather-indicator .fa,
+.milenia-weather-indicator .fal,
+.milenia-weather-indicator .far,
+.milenia-weather-indicator .fab,
+.milenia-weather-indicator .fas,
+.milenia-weather-indicator .icon,
+.milenia-weather-indicator [class*="milenia-font-icon-"] {
+  color: #febd11;
+  margin-right: 0.25rem;
+  vertical-align: middle;
+}
+
+.milenia-weather-indicator--style-2 {
+  color: #1c1c1c;
+  font-size: 1.875rem;
+}
+
+.milenia-weather-indicator--style-2 sup {
+  font-size: 0.8125rem;
+  line-height: 1.125rem;
+  top: -0.15rem;
+  vertical-align: top;
+  color: #858585;
+}
+
+.milenia-weather-indicator-btn {
+  vertical-align: middle;
+}
+
+.milenia-weather-indicator-btn,
+.milenia-weather-indicator--style-2 sup span {
+  color: #1c1c1c;
+}
+
+.milenia-weather-indicator--style-2 sup span {
+  vertical-align: inherit;
+}
+
+.milenia-weather-indicator--style-2 .fa,
+.milenia-weather-indicator--style-2 .fal,
+.milenia-weather-indicator--style-2 .far,
+.milenia-weather-indicator--style-2 .fab,
+.milenia-weather-indicator--style-2 .fas,
+.milenia-weather-indicator--style-2 .icon,
+.milenia-weather-indicator--style-2 [class*="milenia-font-icon-"] {
+  position: relative;
+  top: -0.1rem;
+}
+
+/* ----------------------------------------
+        Sign
+    ---------------------------------------- */
+
+.milenia-sign {
+  display: inline-block;
+  text-align: center;
+  color: #858585;
+}
+
+.milenia-sign:not(:first-child) {
+  margin-top: 1.375rem;
+}
+
+.milenia-sign small {
+  display: block;
+  font-size: 0.8125rem;
+  line-height: 0.89375rem;
+  letter-spacing: .3px;
+}
+
+/* ----------------------------------------
+        Album
+    ---------------------------------------- */
+
+.milenia-album {
+  position: relative;
+  z-index: 1;
+  margin-bottom: 2.5rem;
+  margin-left: 2.5rem;
+}
+
+.milenia-album--no-cover {
+  height: 20rem;
+  background-color: #fff;
+}
+
+.milenia-album::after {
+  content: "";
+  display: block;
+  position: absolute;
+  z-index: -1;
+  border-style: solid;
+  border-width: 1px;
+  top: 2.5rem;
+  right: 2.5rem;
+  bottom: -2.5rem;
+  left: -2.5rem;
+}
+
+.milenia-album::before {
+  content: "";
+  display: block;
+  border-style: solid;
+  border-width: 0;
+  position: absolute;
+  z-index: 1;
+  border-top-width: 1px;
+  top: 2.5rem;
+  border-right-width: 1px;
+  right: 2.5rem;
+  bottom: 0;
+  left: 0;
+}
+
+.milenia-album .milenia-outline-over {
+  position: relative;
+  z-index: 3;
+}
+
+.milenia-album img {
+  width: 100%;
+}
+
+.milenia-album .milenia-action-buttons {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 5;
+}
+
+.milenia-album::after {
+  border-color: #dadada;
+}
+
+.milenia-album::before {
+  border-color: rgba(255, 255, 255, 0.5);
+}
+
+/* ----------------------------------------
+    4. Pages
+---------------------------------------- */
+
+/* ----------------------------------------
+        MPHB
+    ---------------------------------------- */
+
+.mphb-room-type .mphb-reserve-room-section .milenia-selected-option {
+  background-color: #ffffff;
+}
+
+.mphb-room-type .mphb-reserve-room-section .mphb-rooms-quantity-wrapper {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.mphb-reserve-room-section .milenia-custom-select {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 0.2rem;
+}
+
+.mphb-rooms-quantity-wrapper .milenia-custom-select .milenia-selected-option::after,
+.mphb-rooms-quantity-wrapper .milenia-custom-select .milenia-selected-option::before {
+  font-size: .9rem;
+}
+
+.mphb-rooms-reservation-message-wrapper {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.mphb_checkout-services-list {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.mphb_checkout-services-list > li:not(:last-child) {
+  margin-bottom: 1rem !important;
+}
+
+.mphb_checkout-services-list .milenia-custom-select {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 0.2rem;
+  margin-right: 0.2rem;
+  position: relative;
+  top: -0.4rem;
+}
+
+.mphb_checkout-services-list .milenia-custom-select .milenia-selected-option::after,
+.mphb_checkout-services-list .milenia-custom-select .milenia-selected-option::before {
+  font-size: 1rem;
+}
+
+.milenia-entity--room-fullwidth .mphb-reservation-form-title {
+  display: none;
+}
+
+.mphb-pagination:not(:first-child) {
+  margin-top: 2.8rem;
+}
+
+.mphb-recommendation-title,
+.mphb_sc_services-wrapper .mphb-service-title,
+.mphb_room_service.milenia-entity-single .mphb-price-title {
+  font-size: 2.25rem;
+  line-height: 2.6875rem;
+}
+
+.mphb-reservation-form-title {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.mphb_sc_search_results-wrapper .milenia-alert-box:not(:last-child),
+.mphb-recommendation:not(:last-child) {
+  margin-bottom: 1.875rem;
+}
+
+.mphb_sc_search_results-wrapper .mphb-reservation-cart:not(:last-child) {
+  margin-bottom: 2.5rem;
+}
+
+.mphb-reservation-cart::after {
+  content: "";
+  clear:both;
+  display: block;
+}
+
+.mphb-recommendation-details-list {
+  border: 1px solid #dadada;
+}
+
+.mphb-recommendation-details-list > li,
+.mphb-room-rates-list > li,
+.mphb_checkout-services-list > li {
+  padding: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.mphb-recommendation-details-list > li::before,
+.mphb-room-rates-list > li::before,
+.mphb_checkout-services-list > li::before {
+  display: none;
+}
+
+.mphb-recommendation-item {
+  padding: 0.5rem 8rem 0.5rem 1.5rem;
+  position: relative;
+}
+
+.mphb_sc_search_results-wrapper .mphb-recommendation .mphb-recommedation-item-subtotal {
+  float: none;
+  margin: 0 !important;
+  position: absolute;
+  right: 1.5rem;
+  top: 50%;
+  -webkit-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+}
+
+.mphb-recommendation-details-list > li:not(:first-child) {
+  border-top-width: 1px;
+  border-style: inherit;
+  border-color: inherit;
+}
+
+.mphb_sc_availability_calendar-wrapper .datepick {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mphb_sc_availability_calendar-wrapper .datepick-month td .datepick-highlight {
+  background-color: #1c1c1c;
+  color: #fff;
+}
+
+.mphb_sc_availability_calendar-wrapper .mphb-calendar .datepick-month td .mphb-past-date {
+  color: #dadada;
+  opacity: 1;
+  background-color: transparent;
+}
+
+.mphb_sc_availability_calendar-wrapper .mphb-calendar .datepick-month td .mphb-past-date.datepick-weekend {
+  background-color: #f3f2f2;
+}
+
+.mphb_sc_availability_calendar-wrapper .mphb-not-available-date {
+  opacity: .7;
+}
+
+.mphb_sc_services-wrapper,
+.mphb-room-rates-list {
+  border: 1px solid #dadada;
+}
+
+.mphb_sc_services-wrapper .mphb-service {
+  padding: 1rem 1.5rem;
+}
+
+.mphb-room-rates-list > li {
+  padding: 1rem 1.5rem !important;
+}
+
+.mphb-room-rates-list > li:not(:first-child),
+.milenia-theme .mphb_sc_services-wrapper .mphb-service:not(:first-of-type) {
+  margin-top: 0;
+}
+
+.mphb_sc_services-wrapper .mphb-service:not(:first-child) {
+  border-width: 1px 0 0 0;
+  border-style: inherit;
+  border-color: inherit;
+}
+
+.mphb_sc_services-wrapper .mphb-service-title a:not(.milenia-btn):not(.milenia-ln--independent) {
+  color: #1c1c1c;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(100%, #1c1c1c), to(#1c1c1c));
+  background-image: linear-gradient(to bottom, #1c1c1c 100%, #1c1c1c 100%);
+}
+
+.mphb_sc_checkout-wrapper  .mphb-check-in-date time,
+.mphb_sc_checkout-wrapper  .mphb-check-out-date time {
+  color: #1c1c1c;
+}
+
+.milenia-required-sign,
+label[for*="mphb"] abbr,
+.mphb-required-fields-tip abbr {
+  color: #eb0b0b;
+  text-decoration: none;
+}
+
+.mphb-checkbox-label,
+.mphb-checkbox-label ~ label {
+  margin-bottom: 0;
+}
+
+.mphb_sc_checkout-wrapper .mphb-total-price {
+  margin-top: 1.625rem;
+  color: #1c1c1c;
+}
+
+.mphb_sc_checkout-wrapper .mphb-checkout-item-section:not(:first-child) {
+  margin-top: 2rem;
+}
+
+.mphb_sc_checkout-wrapper .mphb-reserve-rooms-details:not(:first-child),
+.mphb_sc_checkout-wrapper .mphb-services-details:not(:first-child),
+.mphb_sc_checkout-wrapper .mphb-room-details:not(:first-child) {
+  margin-top: 2.5rem;
+}
+
+
+
+.milenia-theme .mphb_sc_checkout-wrapper .mphb-checkout-section:not(:first-child):not(:first-of-type) {
+  margin-top: 5.9rem;
+}
+
+.mphb-room-rate-variant label:not(:last-child) {
+  margin-bottom: 0.5rem;
+}
+
+.milenia-tab .mphb-reservation-form-title:not(:first-child) {
+  margin-top: 2.5rem;
+  padding-top: 2.5rem;
+  border-top: 1px solid #dadada;
+}
+
+/* ----------------------------------------
+        Offers Single
+    ---------------------------------------- */
+
+.milenia-entity--offer-single .milenia-entity-media {
+  text-align: center;
+}
+
+.milenia-entity--offer-single .milenia-entity-media:not(:last-child) {
+  margin-bottom: 1.8rem;
+}
+
+/* ----------------------------------------
+        Blog Single
+    ---------------------------------------- */
+
+.milenia-entity-single .milenia-entity-content h4:not(:first-child) {
+  margin-top: 2.1rem;
+}
+
+.milenia-entity-single .milenia-entity-content h4:not(:last-child) {
+  margin-bottom: 0.6rem;
+}
+
+.milenia-single-entity-container {
+  max-width: 64.6875rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+}
+
+.milenia-entity-single.milenia-entity--post.format-standard .milenia-entity-media img,
+.milenia-entity-single.milenia-entity--post.format-standard .milenia-entity-media img:hover {
+  -webkit-transform: none;
+  transform: none;
+}
+
+.milenia-entity-header--single {
+  position: relative;
+  z-index: 3;
+}
+
+.milenia-entity-header--single:not(:last-child) {
+  margin-bottom: 2.7rem;
+}
+
+.milenia-entity-header--single .milenia-entity-title:not(:last-child) {
+  margin-bottom: 0.85rem;
+}
+
+.milenia-entity-header--single .milenia-entity-meta,
+.mphb_sc_services-wrapper .mphb-price-wrapper,
+.mphb_room_service.milenia-entity-single .mphb-price-wrapper {
+  font-size: 0.8125rem;
+  line-height: 1.55;
+  text-transform: uppercase;
+  color: #a5a5a5;
+  letter-spacing: 1.3px;
+}
+
+.milenia-entity-single.milenia-entity--post .milenia-entity-categories {
+  display: inline;
+}
+
+.milenia-entity-single.milenia-entity--post .milenia-entity-content:not(:last-child),
+.milenia-entity-single.milenia-entity--post .milenia-entity-content {
+  padding-top: 1.6rem;
+  padding-right: 2.375rem;
+  padding-bottom: 1.55rem;
+  padding-left: 2.375rem;
+}
+
+.milenia-entity-single.milenia-entity--post .milenia-entity-footer {
+  font-size: 0.875rem;
+  letter-spacing: 1.05px;
+  padding-right: 2.375rem;
+  padding-bottom: 1.7rem;
+  padding-left: 2.375rem;
+}
+
+.milenia-entity-single.milenia-entity--post .milenia-entity-footer .tagcloud {
+  display: inline;
+}
+
+.milenia-entity-single.milenia-entity--post.milenia-entity--style-1 {
+  position: relative;
+  margin-bottom: 2.5rem;
+}
+
+.milenia-entity-single.milenia-entity--post.milenia-entity--style-1::after {
+  content: "";
+  display: block;
+  position: absolute;
+  z-index: -1;
+  border-style: solid;
+  border-width: 1px;
+  top: 2.5rem;
+  right: 2.5rem;
+  bottom: -2.5rem;
+  left: 2.5rem;
+}
+
+.milenia-entity-single.milenia-entity--post.milenia-entity--style-1::after {
+  top: auto;
+  height: 2.5rem;
+  border-color: #dadada;
+  border-top-width: 0;
+}
+
+.milenia-entity-single.milenia-entity--post.milenia-entity--style-1.format-standard .milenia-entity-media {
+  position: relative;
+}
+
+.milenia-entity-single.milenia-entity--post.milenia-entity--style-1.format-standard .milenia-entity-media::before {
+  content: "";
+  display: block;
+  border-style: solid;
+  border-width: 0;
+  position: absolute;
+  z-index: 1;
+  border-top-width: 1px;
+  top: 2.5rem;
+  border-right-width: 1px;
+  right: 2.5rem;
+  bottom: 0;
+  border-left-width: 1px;
+  left: 2.5rem;
+}
+
+.milenia-entity-single.milenia-entity--post.milenia-entity--style-1 .milenia-outline-over,
+.milenia-entity-single.milenia-entity--post.milenia-entity--style-1.format-standard .milenia-entity-media .milenia-outline-over {
+  position: relative;
+  z-index: 3;
+}
+
+.milenia-entity-single.milenia-entity--post.milenia-entity--style-1.format-standard .milenia-entity-media::before {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.milenia-entity-single.milenia-entity--post.milenia-entity--style-2 .milenia-entity-content,
+.milenia-entity-single.milenia-entity--post.milenia-entity--style-2 .milenia-entity-footer,
+.milenia-entity-single.milenia-entity--offer .milenia-entity-content,
+.milenia-entity-single.milenia-entity--offer .milenia-entity-footer {
+  background-color: #f8f8f8;
+}
+
+/* ----------------------------------------
+        Events
+    ---------------------------------------- */
+
+.tribe-recurring-event-time {
+  display: inline-block;
+}
+
+.milenia-theme .tribe-events-list .type-tribe_events {
+  margin-bottom: 0;
+}
+
+.milenia-theme.single-tribe_events .tribe-events-venue-map {
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+}
+
+.milenia-theme.single-tribe_events .tribe-events-venue-map > iframe {
+  height: 34.5rem;
+}
+
+.milenia-theme .datepicker-dropdown {
+  background-color: transparent;
+  padding: 0;
+  border-radius: 0;
+  box-shadow: none;
+  border: none;
+  width: 19.375rem;
+}
+
+.milenia-theme .datepicker.dropdown-menu {
+  font-size: 0.875rem;
+  line-height: 1.625rem;
+  z-index: 30 !important;
+}
+
+.milenia-theme .datepicker-dropdown table {
+  border-width: 1px;
+  background-color: #ffffff;
+  border-color: #ececec;
+}
+
+.milenia-theme .datepicker-dropdown table th {
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.milenia-theme .datepicker-dropdown table td,
+.milenia-theme .datepicker-dropdown table th {
+  border: 1px solid #ececec;
+  padding: 0.5rem 0.4rem 0.5rem;
+  border-radius: 0;
+}
+
+.milenia-theme .datepicker-dropdown table td {
+  color: #858585;
+  -webkit-transition: color .5s cubic-bezier(0.165, 0.84, 0.44, 1), background-color .5s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: color .5s cubic-bezier(0.165, 0.84, 0.44, 1), background-color .5s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.milenia-theme .datepicker-dropdown table td.old.day {
+  color: #a5a5a5;
+}
+
+.milenia-theme .datepicker-dropdown tbody td.active.day {
+  color: #fff;
+}
+
+.milenia-theme .datepicker-dropdown thead .prev,
+.milenia-theme .datepicker-dropdown thead .next {
+  font-size: 1.2rem;
+  position: relative;
+  color: transparent;
+}
+
+.milenia-theme .datepicker-dropdown thead .prev:hover::before,
+.milenia-theme .datepicker-dropdown thead .next:hover::before {
+  color: #1c1c1c;
+}
+
+.milenia-theme .datepicker-dropdown thead .prev::before,
+.milenia-theme .datepicker-dropdown thead .next::before {
+  font-family: 'Linearicons';
+  color: #dadada;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+
+  -webkit-transition: color .5s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: color .5s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.milenia-theme .datepicker-dropdown thead .prev::before {
+  content: "\e93b";
+}
+
+.milenia-theme .datepicker-dropdown thead .next::before {
+  content: "\e93c";
+}
+
+.milenia-theme .datepicker-dropdown thead .prev,
+.milenia-theme .datepicker-dropdown thead .next,
+.milenia-theme .datepicker-dropdown thead .datepicker-switch {
+  border-left-width: 0;
+  border-right-width: 0;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  background-color: transparent !important;
+}
+
+.milenia-theme .datepicker-dropdown thead .prev:hover,
+.milenia-theme .datepicker-dropdown thead .next:hover {
+  -webkit-transition-duration: .1s;
+  transition-duration: .1s;
+}
+
+.milenia-theme .datepicker-dropdown thead .datepicker-switch {
+  text-transform: none;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.milenia-theme .datepicker table tr td.day.focused,
+.milenia-theme .datepicker table tr td.day:hover {
+  background-color: #1c1c1c;
+  color: #fff;
+}
+
+.milenia-theme .datepicker-dropdown::before,
+.milenia-theme .datepicker-dropdown::after {
+  display: none;
+}
+
+.milenia-theme .tribe-events-adv-list-widget .tribe-events-widget-link a,
+.milenia-theme .tribe-events-back a,
+.milenia-theme .tribe-events-list-widget .tribe-events-widget-link a,
+.milenia-theme ul.tribe-events-sub-nav a {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+.milenia-theme .events-list #tribe-events-footer,
+.milenia-theme .single-tribe_events #tribe-events-footer,
+.milenia-theme .tribe-events-day #tribe-events-footer,
+.milenia-theme .tribe-events-map #tribe-events-footer,
+.milenia-theme .tribe-events-photo #tribe-events-footer {
+  padding-top: 0;
+  border: none;
+}
+
+.from-group--main-events ::-webkit-input-placeholder {
+  color: inherit !important;
+  font-style: normal !important;
+}
+
+.from-group--main-events ::-webkit-textarea-placeholder {
+  color: inherit !important;
+  font-style: normal !important;
+}
+
+.from-group--main-events input::-moz-placeholder {
+  color: inherit !important;
+  font-style: normal !important;
+}
+
+.from-group--main-events textarea::-moz-placeholder {
+  color: inherit !important;
+  font-style: normal !important;
+}
+
+.from-group--main-events ::-ms-input-placeholder {
+  color: inherit !important;
+  font-style: normal !important;
+}
+
+.from-group--main-events ::-ms-textarea-placeholder {
+  color: inherit !important;
+  font-style: normal !important;
+}
+
+.milenia-theme .tribe-event-placeholder {
+  color: inherit !important;
+  font-style: normal !important;
+}
+
+.milenia-theme #tribe-bar-form {
+  background-color: transparent;
+}
+
+.milenia-theme #tribe-bar-form label {
+  font-size: inherit;
+  line-height: inherit;
+  font-weight: inherit;
+  margin-bottom: 0.4rem;
+  text-transform: none;
+}
+
+.milenia-theme .tribe-bar-search-filter,
+.milenia-theme .tribe-bar-date-filter {
+  float: none;
+  padding: 0;
+  width: auto;
+}
+
+.milenia-theme #tribe-events-content .tribe-events-tooltip h4,
+.milenia-theme #tribe_events_filters_wrapper .tribe_events_slider_val,
+.milenia-theme .single-tribe_events a.tribe-events-gcal,
+.milenia-theme .single-tribe_events a.tribe-events-ical {
+  color: #1c1c1c;
+  font-weight: 400;
+}
+
+.from-group--main-events {
+  margin-left: -0.3125rem;
+  margin-right: -0.3125rem;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+}
+
+.from-group--main-events .form-col {
+  padding-left: 0.3125rem;
+  padding-right: 0.3125rem;
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+}
+
+.from-group--main-events .form-col--events-search-btn {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 12rem;
+  flex: 0 0 12rem;
+  max-width: 12rem;
+}
+
+.from-group--main-events .form-col--events-view {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 13rem;
+  flex: 0 0 13rem;
+  max-width: 13rem;
+}
+
+.from-group--main-events .milenia-dropdown-title {
+  border-style: solid;
+  border-width: 1px;
+  height: 2.4375rem;
+  width: 100%;
+  padding-top: 0.3rem;
+  padding-right: 1.25rem;
+  padding-bottom: 0.3rem;
+  padding-left: 1.25rem;
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+  color: #858585;
+  background-color: #f8f8f8;
+  border-color: #dadada;
+  cursor: pointer;
+  padding-top: 0.4rem;
+  padding-bottom: 0.4rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.from-group--main-events .milenia-dropdown-title .fa,
+.from-group--main-events .milenia-dropdown-title .fal,
+.from-group--main-events .milenia-dropdown-title .far,
+.from-group--main-events .milenia-dropdown-title .fab,
+.from-group--main-events .milenia-dropdown-title .fas,
+.from-group--main-events .milenia-dropdown-title .icon,
+.from-group--main-events .milenia-dropdown-title [class*="milenia-font-icon-"] {
+  margin-right: 0.6rem;
+  vertical-align: middle;
+}
+
+.milenia-theme .tribe-events-day .tribe-event-featured,
+.milenia-theme .tribe-events-list .tribe-events-loop .tribe-event-featured {
+  background-color: transparent;
+}
+
+.milenia-theme #tribe-events-bar {
+  margin-bottom: 0;
+}
+
+.milenia-hidden-filters-shown:not(.milenia-hidden-filters--visible),
+.milenia-hidden-filters-hidden:not(.milenia-hidden-filters--visible) {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+}
+
+.milenia-hidden-filters-caption {
+  font-size: 0.8125rem;
+  line-height: 1.5rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 1.8px;
+  color: #1c1c1c;
+}
+
+.milenia-hidden-filters-actions-row:not(:last-child) {
+  margin-bottom: 0.2rem;
+}
+
+.milenia-hidden-filters-fields {
+  color: #1c1c1c;
+  margin-top: -1rem;
+  margin-left: -1.1rem;
+  margin-right: -1.1rem;
+}
+
+.milenia-hidden-filters-field {
+  display: inline-block;
+  padding-top: 1rem;
+  padding-left: 1.1rem;
+  padding-right: 1.1rem;
+}
+
+.milenia-hidden-filters-field .milenia-dropdown-title {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.milenia-hidden-filters-field .milenia-dropdown-element {
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+  color: #fff;
+  background-color: #1c1c1c;
+  padding: 0.625rem;
+  width: 11.875rem;
+}
+
+.milenia-hidden-filters-field .milenia-dropdown-element::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-width: 0 12px 7px 12px;
+  border-style: solid;
+  border-color: transparent transparent #1c1c1c transparent;
+  bottom: 100%;
+  margin-bottom: -2px;
+}
+
+.milenia-hidden-filters-field .milenia-dropdown-element:not(.milenia-dropdown-element--y-top) {
+  margin-top: 0.5rem;
+}
+
+.milenia-hidden-filters-field .milenia-dropdown-element.milenia-dropdown-element--y-top {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.milenia-hidden-filters-field .milenia-dropdown-element.milenia-dropdown-element--y-top::before {
+  bottom: auto;
+  top: 100%;
+  border-width: 7px 12px 0 12px;
+  border-color: #1c1c1c transparent transparent transparent;
+}
+
+.milenia-hidden-filters-field .milenia-dropdown-element:not(.milenia-dropdown-element--x-left):not(.milenia-dropdown-element--x-right) {
+  left: 50%;
+  margin-left: -5.9375rem;
+}
+
+.milenia-hidden-filters-field .milenia-dropdown-element:not(.milenia-dropdown-element--x-left):not(.milenia-dropdown-element--x-right)::before {
+  left: 50%;
+  margin-left: -12px;
+}
+
+.milenia-hidden-filters-field .milenia-dropdown-element.milenia-dropdown-element--x-left::before {
+  left: 0.625rem;
+}
+
+.milenia-hidden-filters-field .milenia-dropdown-element.milenia-dropdown-element--x-right::before {
+  left: auto;
+  right: 0.625rem;
+}
+
+.milenia-hidden-filters-field .milenia-dropdown-element:not(ul) > ul > li:not(:last-child) {
+  margin-bottom: 0.625rem;
+}
+
+.milenia-hidden-filters-field .milenia-dropdown.milenia-dropdown--title-icon .milenia-dropdown-title {
+  padding-right: 0.84rem;
+}
+
+.milenia-hidden-filters-field .milenia-dropdown.milenia-dropdown--title-icon .milenia-dropdown-icon--state-opened, .milenia-hidden-filters-field .milenia-dropdown.milenia-dropdown--title-icon .milenia-dropdown-icon--state-default {
+  margin-top: -0.35rem;
+}
+
+/* ----------------------------------------
+            Events by Month
+        ---------------------------------------- */
+
+.milenia-section-sub-nav {
+  position: relative;
+  z-index: 2;
+}
+
+#tribe-events-header:not(:first-child),
+.milenia-section-sub-nav:not(:first-child) {
+  margin-top: 2rem;
+}
+
+#tribe-events-header:not(:last-child),
+.milenia-section-sub-nav:not(:last-child) {
+  margin-bottom: 1.6rem;
+}
+
+#tribe-events-content,
+#tribe-events-content.tribe-events-list {
+  padding: 0;
+  margin-bottom: 0;
+}
+
+#tribe-events-footer {
+  margin-bottom: 0;
+}
+
+.milenia-section + .tribe-events-after-html:last-child:empty {
+  margin-top: -5.9rem;
+}
+
+.milenia-events-calendar {
+  word-break: normal;
+}
+
+.milenia-events-calendar .milenia-day-empty-space {
+  height: 6rem;
+}
+
+.milenia-events-calendar:not(:last-child) {
+  margin-bottom: 2.8rem;
+}
+
+.milenia-events-calendar thead th {
+  text-align: center;
+}
+
+.milenia-events-calendar tbody td {
+  padding: 0;
+  background-clip: padding-box;
+
+  -webkit-transition: background-color .5s cubic-bezier(0.165, 0.84, 0.44, 1), color .5s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: background-color .5s cubic-bezier(0.165, 0.84, 0.44, 1), color .5s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.milenia-events-calendar tbody td.milenia-events-td--selected .milenia-events-daynum {
+  color: #fff;
+}
+
+.milenia-events-calendar tbody td.milenia-events-td--selected .milenia-events-daynum::after {
+  background-color: #fff;
+}
+
+.milenia-events-calendar tbody td:hover .milenia-events-event {
+  border-color: rgba(255, 255, 255, 0.35) !important;
+}
+
+.milenia-events-calendar tbody td:hover .milenia-events-month-event-title a {
+  color: #fff;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(100%, rgba(255, 255, 255, 0.35)), to(rgba(255, 255, 255, 0.35)));
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.35) 100%, rgba(255, 255, 255, 0.35) 100%);
+}
+
+.milenia-events-calendar tr:hover {
+  background-color: transparent;
+}
+
+.milenia-events-daynum {
+  font-size: 0.875rem;
+  text-align: center;
+  background-color: #f8f8f8;
+  border-width: 0 0 1px 0;
+  border-style: inherit;
+  border-color: inherit;
+}
+
+.milenia-events-daynum:only-child {
+  margin-bottom: 1rem;
+}
+
+.milenia-events-daynum::after {
+  content: "";
+  display: none;
+  width: 6px;
+  height: 6px;
+  margin-top: 2px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  background-color: #1c1c1c;
+}
+
+.milenia-events-event {
+  padding-top: 1rem !important;
+  padding-right: 1.25rem !important;
+  padding-bottom: 1.1rem !important;
+  padding-left: 1.25rem !important;
+  margin: 0 !important;
+  border-color: inherit;
+  border-style: inherit;
+  position: relative;
+
+  -webkit-transition: border-color .5s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: border-color .5s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.milenia-events-event:not(:last-child) {
+  border-width: 0 0 1px 0;
+}
+
+.milenia-events-event--opened {
+  z-index: 2;
+}
+
+.milenia-events-event--opened .milenia-events-month-event-title > a {
+  background-size: 100% 1px;
+}
+
+.milenia-events-event--opened .milenia-events-tooltip {
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+.milenia-events-tooltip {
+  font-size: 0.75rem;
+  line-height: 1.3rem;
+  font-weight: 600;
+  padding-top: 0.9rem;
+  padding-right: 1.25rem;
+  padding-bottom: 1.7rem;
+  padding-left: 1.25rem;
+  width: 26.25rem;
+  color: #858585;
+  background-color: #fff;
+  -webkit-box-shadow: 0 7px 20px rgba(28, 28, 28, 0.1);
+  box-shadow: 0 7px 20px rgba(28, 28, 28, 0.1);
+  position: absolute;
+  bottom: 100% !important;
+  left: 0 !important;
+  opacity: 0 !important;
+  visibility: hidden !important;
+  display: block !important;
+
+  -webkit-transition: opacity .5s cubic-bezier(0.165, 0.84, 0.44, 1), visibility .5s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: opacity .5s cubic-bezier(0.165, 0.84, 0.44, 1), visibility .5s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.milenia-events-tooltip::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+  border-width: 9px 9px 0 9px;
+  border-style: solid;
+  border-color: #fff transparent transparent transparent;
+  position: absolute;
+  top: 100%;
+  margin-top: -1px;
+  left: 1.25rem;
+}
+
+.milenia-events-tooltip.milenia-event-tooltip--reverse-x {
+  left: auto !important;
+  right: 0 !important;
+}
+
+.milenia-events-tooltip.milenia-event-tooltip--reverse-x::after {
+  left: auto;
+  right: 1.25rem;
+}
+
+.milenia-events-tooltip.milenia-event-tooltip--reverse-y {
+  bottom: auto !important;
+  top: 100% !important;
+}
+
+.milenia-events-tooltip.milenia-event-tooltip--reverse-y::after {
+  bottom: 100%;
+  top: auto;
+  border-width: 0 9px 9px 9px;
+  border-color: transparent transparent #fff transparent;
+}
+
+.milenia-events-tooltip .milenia-entry-title {
+  font-size: 1.125rem;
+  line-height: 1.40625rem;
+}
+
+.milenia-events-tooltip .milenia-entry-title:not(:last-child) {
+  margin-bottom: 0.4rem;
+}
+
+.milenia-events-tooltip .milenia-event-duration {
+  font-size: 0.8125rem;
+  line-height: 1.125rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.83px;
+  color: #a5a5a5;
+  display: block;
+}
+
+.milenia-events-tooltip .milenia-event-duration:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+.milenia-events-tooltip .milenia-event-description {
+  padding-top: 0.2rem;
+}
+
+.milenia-events-event-thumb {
+  float: left;
+  max-width: 50%;
+  margin-right: 0.9375rem;
+}
+
+.milenia-events-event-body {
+  overflow: hidden;
+}
+
+.milenia-events-month-event-title {
+  font-size: 1.125rem;
+  line-height: 1.40625rem;
+}
+
+.milenia-events-month-event-title:not(:last-child) {
+  margin-bottom: 0;
+}
+
+.milenia-events-month-event-title a {
+  color: #1c1c1c;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(100%, #1c1c1c), to(#1c1c1c));
+  background-image: linear-gradient(to bottom, #1c1c1c 100%, #1c1c1c 100%);
+}
+
+.milenia-events-past, .milenia-events-future {
+  color: #a5a5a5;
+}
+
+.milenia-events-past .milenia-events-month-event-title a, .milenia-events-future .milenia-events-month-event-title a {
+  color: #a5a5a5;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(100%, #a5a5a5), to(#a5a5a5));
+  background-image: linear-gradient(to bottom, #a5a5a5 100%, #a5a5a5 100%);
+}
+
+.milenia-events-mobile-container {
+  display: none;
+}
+
+.milenia-events-mobile-container:not(:last-child) {
+  margin-bottom: 2.8rem;
+}
+
+.milenia-csstransforms3d .milenia-events-tooltip {
+  -webkit-transform: scale3d(0.9, 0.9, 0.9);
+  transform: scale3d(0.9, 0.9, 0.9);
+  -webkit-transform-origin: 20% 80%;
+  transform-origin: 20% 80%;
+
+  -webkit-transition-property: -webkit-transform, opacity, visibility;
+  transition-property:         transform, opacity, visibility;
+}
+
+.milenia-csstransforms3d .milenia-events-tooltip.milenia-event-tooltip--reverse-x {
+  -webkit-transform-origin: 80% 80%;
+  transform-origin: 80% 80%;
+}
+
+.milenia-csstransforms3d .milenia-events-tooltip.milenia-event-tooltip--reverse-y:not(.milenia-event-tooltip--reverse-x) {
+  -webkit-transform-origin: 20% 20%;
+  transform-origin: 20% 20%;
+}
+
+.milenia-csstransforms3d .milenia-events-tooltip.milenia-event-tooltip--reverse-y.milenia-event-tooltip--reverse-x {
+  -webkit-transform-origin: 80% 20%;
+  transform-origin: 80% 20%;
+}
+
+.milenia-csstransforms3d .milenia-events-event--opened .milenia-events-tooltip {
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
+}
+
+.milenia-body--scheme-brown .milenia-events-calendar td:hover,
+.milenia-body--scheme-brown .milenia-events-calendar .milenia-events-td--selected {
+  background-color: #ae745a;
+}
+
+.milenia-body--scheme-gray .milenia-events-calendar td:hover,
+.milenia-body--scheme-gray .milenia-events-calendar .milenia-events-td--selected {
+  background-color: #948685;
+}
+
+.milenia-body--scheme-blue .milenia-events-calendar td:hover,
+.milenia-body--scheme-blue .milenia-events-calendar .milenia-events-td--selected {
+  background-color: #19b1d1;
+}
+
+.milenia-body--scheme-lightbrown .milenia-events-calendar td:hover,
+.milenia-body--scheme-lightbrown .milenia-events-calendar .milenia-events-td--selected {
+  background-color: #c19b76;
+}
+
+.milenia-body--scheme-green .milenia-events-calendar td:hover,
+.milenia-body--scheme-green .milenia-events-calendar .milenia-events-td--selected {
+  background-color: #7eb71c;
+}
+
+/* ----------------------------------------
+            Event Single
+        ---------------------------------------- */
+
+.milenia-entity-single.milenia-entity--event .milenia-entity-extra-data:not(:last-child) {
+  margin-bottom: 1.7rem;
+}
+
+.milenia-entity-single.milenia-entity--event .milenia-entity-header:not(:last-child) {
+  margin-bottom: 1.6rem;
+}
+
+.milenia-entity-single.milenia-entity--event .milenia-entity-title:not(:last-child) {
+  margin-bottom: 1.5rem;
+}
+
+/* ----------------------------------------
+        Room Single
+    ---------------------------------------- */
+
+.milenia-section.milenia-section--breadcrumb .mphb-price {
+  font-weight: 700;
+}
+
+.milenia-section.milenia-section--breadcrumb .mphb-price-period {
+  border: none;
+}
+
+.milenia-entity-single.milenia-entity--room .milenia-entity-meta {
+  font-size: 0.875rem;
+  line-height: 1.55;
+  text-transform: none;
+  letter-spacing: 0;
+  color: #1c1c1c;
+}
+
+.milenia-entity-single.milenia-entity--room.milenia-colorizer--scheme-dark .milenia-entity-meta {
+  color: #fff;
+}
+
+/* ----------------------------------------
+        404 Page
+    ---------------------------------------- */
+
+.milenia-404-content:not(:last-child) {
+  margin-bottom: 2.6rem;
+}
+
+.milenia-404-title {
+  font-size: 25rem;
+  line-height: 1;
+}
+
+.milenia-404-title + * {
+  margin-top: -4rem;
+}
+
+.milenia-404-message {
+  font-size: 1.125rem;
+  display: block;
+}
+
+.milenia-404-message:not(:last-child) {
+  font-size: 1.125rem;
+  margin-bottom: 1.625rem;
+}
+
+.milenia-body--scheme-brown .milenia-404-title {
+  color: #ae745a;
+}
+
+.milenia-body--scheme-gray .milenia-404-title {
+  color: #948685;
+}
+
+.milenia-body--scheme-blue .milenia-404-title {
+  color: #19b1d1;
+}
+
+.milenia-body--scheme-lightbrown .milenia-404-title {
+  color: #c19b76;
+}
+
+.milenia-body--scheme-green .milenia-404-title {
+  color: #7eb71c;
+}
+
+/* ----------------------------------------
+        Coming Soon Page
+    ---------------------------------------- */
+
+.milenia-coming-soon-title:not(:last-child) {
+  margin-bottom: 2.15rem;
+}
+
+.milenia-coming-soon-message {
+  font-size: 1.125rem;
+}
+
+.milenia-coming-soon-message:not(:last-child) {
+  font-size: 1.125rem;
+  margin-bottom: 3.5rem;
+}
+
+/* ----------------------------------------
+     5. WordPress
+ ---------------------------------------- */
+
+.woocommerce-Input + span {
+  font-size: 0.9rem;
+}
+
+.woocommerce-Address-title .edit {
+  font-size: 0.9rem;
+  display: inline;
+}
+
+.woocommerce-EditAccountForm fieldset {
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+.woocommerce .col2-set {
+  margin-left: -0.9375rem;
+  margin-right: -0.9375rem;
+}
+
+.woocommerce .col2-set [class*="col-"],
+.woocommerce-page .col2-set [class*="col-"] {
+  max-width: initial;
+}
+
+.milenia-entity-content .woocommerce-MyAccount-navigation ul:not(.milenia-list--unstyled):not(.milenia-list--icon) > li {
+  padding: 0;
+}
+
+.milenia-entity-content .woocommerce-MyAccount-navigation ul:not(.milenia-list--unstyled):not(.milenia-list--icon) > li:not(:last-child) {
+  margin-bottom: 0;
+}
+
+.milenia-entity-content .woocommerce-MyAccount-navigation ul:not(.milenia-list--unstyled):not(.milenia-list--icon) > li a {
+  color: #1c1c1c;
+  display: block;
+  padding-top: 0.92rem;
+  padding-right: 1.625rem;
+  padding-bottom: 0.92rem;
+  padding-left: 1.625rem;
+  font-size: 1.125rem;
+  line-height: 1.3;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.18px;
+  background-image: none !important;
+  -webkit-transition: background-color .5s cubic-bezier(0.165, 0.84, 0.44, 1), color .5s cubic-bezier(0.165, 0.84, 0.44, 1), border-color .5s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: background-color .5s cubic-bezier(0.165, 0.84, 0.44, 1), color .5s cubic-bezier(0.165, 0.84, 0.44, 1), border-color .5s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.milenia-entity-content .woocommerce-MyAccount-navigation ul:not(.milenia-list--unstyled):not(.milenia-list--icon) > li::before {
+  display: none;
+}
+
+.milenia-body--scheme-brown .milenia-entity-content .woocommerce-MyAccount-navigation ul:not(.milenia-list--unstyled):not(.milenia-list--icon) > li.is-active a,
+.milenia-body--scheme-brown .milenia-entity-content .woocommerce-MyAccount-navigation ul:not(.milenia-list--unstyled):not(.milenia-list--icon) > li a:hover {
+  color: #ae745a;
+}
+.milenia-body--scheme-gray .milenia-entity-content .woocommerce-MyAccount-navigation ul:not(.milenia-list--unstyled):not(.milenia-list--icon) > li.is-active a,
+.milenia-body--scheme-gray .milenia-entity-content .woocommerce-MyAccount-navigation ul:not(.milenia-list--unstyled):not(.milenia-list--icon) > li a:hover {
+  color: #948685;
+}
+.milenia-body--scheme-blue .milenia-entity-content .woocommerce-MyAccount-navigation ul:not(.milenia-list--unstyled):not(.milenia-list--icon) > li.is-active a,
+.milenia-body--scheme-blue .milenia-entity-content .woocommerce-MyAccount-navigation ul:not(.milenia-list--unstyled):not(.milenia-list--icon) > li a:hover {
+  color: #19b1d1;
+}
+.milenia-body--scheme-lightbrown .milenia-entity-content .woocommerce-MyAccount-navigation ul:not(.milenia-list--unstyled):not(.milenia-list--icon) > li.is-active a,
+.milenia-body--scheme-lightbrown .milenia-entity-content .woocommerce-MyAccount-navigation ul:not(.milenia-list--unstyled):not(.milenia-list--icon) > li a:hover {
+  color: #c19b76;
+}
+.milenia-body--scheme-green .milenia-entity-content .woocommerce-MyAccount-navigation ul:not(.milenia-list--unstyled):not(.milenia-list--icon) > li.is-active a,
+.milenia-body--scheme-green .milenia-entity-content .woocommerce-MyAccount-navigation ul:not(.milenia-list--unstyled):not(.milenia-list--icon) > li a:hover {
+  color: #7eb71c;
+}
+
+.woocommerce-account .woocommerce-MyAccount-navigation {
+  width: 25%;
+  padding-right: 1.875rem;
+}
+
+.woocommerce-account .woocommerce-MyAccount-content {
+  width: 75%;
+}
+
+.vc_custom_heading a {
+  -ms-word-break: break-all;
+  word-break: break-all;
+}
+
+.milenia-page-links:not(:first-child) {
+  margin-top: 1.875rem;
+}
+
+.milenia-page-links:not(:last-child) {
+  margin-bottom: 1.25rem;
+}
+
+.milenia-page-links {
+  font-size: 0.875rem;
+  line-height: 1.55;
+  text-transform: uppercase;
+  letter-spacing: 1.3px;
+}
+
+.milenia-page-links-title {
+  color: #1c1c1c;
+}
+
+.milenia-page-links > * {
+  display: inline-block;
+  margin-right: 0.5rem;
+}
+
+[class*="milenia-body--scheme-"] .milenia-page-links a:not(.milenia-ln--independent):not(.milenia-btn) {
+  color: #1c1c1c;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(100%, #1c1c1c), to(#1c1c1c));
+  background-image: linear-gradient(to bottom, #1c1c1c 100%, #1c1c1c 100%);
+}
+
+.sticky {
+  outline: none;
+}
+
+.screen-reader-text,
+.milenia-entities--without-media .milenia-entity.format-link .milenia-entity-title,
+.milenia-entities--without-media .milenia-entity.format-audio .milenia-entity-title,
+.milenia-entities--without-media .milenia-entity.format-quote .milenia-entity-title {
+  clip: rect(1px, 1px, 1px, 1px);
+  position: absolute !important;
+  white-space: nowrap;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+}
+
+.screen-reader-text:focus {
+  background-color: #f1f1f1;
+  border-radius: 3px;
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+  clip: auto !important;
+  color: #21759b;
+  display: block;
+  font-size: 14px;
+  font-size: 0.875rem;
+  font-weight: bold;
+  height: auto;
+  left: 5px;
+  line-height: normal;
+  padding: 15px 23px 14px;
+  text-decoration: none;
+  top: 5px;
+  width: auto;
+  z-index: 100000;
+}
+
+.bypostauthor {
+  outline: none;
+}
+
+.aligncenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.alignleft {
+  margin-right: 1.25rem;
+}
+
+.alignright {
+  margin-left: 1.25rem;
+}

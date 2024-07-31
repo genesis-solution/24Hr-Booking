@@ -1,0 +1,66 @@
+.wpbe_history_delete{
+    font-family: 'fontello';
+    font-size: 18px !important;
+    line-height: 32px !important;
+    height: 32px !important;
+}
+
+.wpbe_history_delete:before{
+    content: "\eba8";
+}
+
+.wpbe_history_revert{
+    font-family: 'fontello';
+    font-size: 18px !important;
+    line-height: 32px !important;
+    height: 32px !important;
+}
+
+.wpbe_history_revert:before{
+    content: "\ec7a";
+}
+
+#wpbe_history_is_going{
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    animation:wpbe_bulk_is_going .95s ease-out infinite;
+    text-shadow: 0 0 5px #abc, 0 0 7px #abc;
+}
+.wpbe_history_item{
+    display: none;
+}
+li.wpbe_history_li_show{
+    display: block;
+}
+.wpbe_history_pagination_cont{
+    margin-top: 20px;
+}
+@keyframes wpbe_history_is_going{
+    from{
+        text-shadow:0px 0px 10px #fff,
+            0px 0px 10px #fff, 
+            0px 0px 25px #fff,
+            0px 0px 25px #fff,
+            0px 0px 25px #fff,
+            0px 0px 25px #fff,
+            0px 0px 25px #fff,
+            0px 0px 25px #fff,
+            0px 0px 50px #fff,
+            0px 0px 50px #fff,
+            0px 0px 50px #7B96B8,
+            0px 0px 150px #7B96B8,
+            0px 10px 100px #7B96B8,
+            0px 10px 100px #7B96B8,
+            0px 10px 100px #7B96B8,
+            0px 10px 100px #7B96B8,
+            0px -10px 100px #7B96B8,
+            0px -10px 100px #7B96B8;
+    }
+}
+
+#wpbe_history_list h5,
+#wpbe_history_list h6{
+    margin: 0;
+}
+

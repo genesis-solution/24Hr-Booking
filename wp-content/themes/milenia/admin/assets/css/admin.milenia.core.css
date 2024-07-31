@@ -1,0 +1,649 @@
+/* ----------------------------------------
+    Typography
+ ---------------------------------------- */
+
+    .milenia-marked-title {
+        font-size: 1.7em;
+    }
+
+    #poststuff .milenia-marked-title {
+        font-size: 1.4em;
+    }
+
+    #poststuff .milenia-marked-title--style-2 {
+        font-size: 1.2em;
+    }
+
+    .milenia-marked-title {
+        color: #0085ba;
+    }
+
+    .admin-color-light .milenia-marked-title {
+        color: #04a4cc;
+    }
+
+    .admin-color-blue .milenia-marked-title {
+        color: #4796b3;
+    }
+
+    .admin-color-coffee .milenia-marked-title {
+        color: #c7a589;
+    }
+
+    .admin-color-ectoplasm .milenia-marked-title {
+        color: #a3b745;
+    }
+
+    .admin-color-midnight .milenia-marked-title {
+        color: #e14d43;
+    }
+
+    .admin-color-ocean .milenia-marked-title {
+        color: #9ebaa0;
+    }
+
+    .admin-color-sunrise .milenia-marked-title {
+        color: #dd823b;
+    }
+
+    .milenia-admin-info-message {
+        font-weight: bold;
+        color: #4796b3;
+        display: block;
+        padding: 3px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    /* ----------------------------------------
+         Links
+     ---------------------------------------- */
+
+         .milenia-admin-underlined-link {
+             display: inline;
+             background-repeat: no-repeat;
+             background-size: 0px 1px;
+             -webkit-transition-property: all;
+                     transition-property: all;
+             -webkit-transition-delay: 0ms;
+                     transition-delay: 0ms;
+             -webkit-transition-duration: 500ms;
+                     transition-duration: 500ms;
+             -webkit-transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+                     transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+         }
+
+         .milenia-admin-underlined-link:hover {
+             background-size: 100% 1px;
+         }
+
+
+/* ----------------------------------------
+    Forms
+ ---------------------------------------- */
+
+    .milenia-upload-btn-images {
+        margin-bottom: 10px;
+        overflow: hidden;
+    }
+
+    .milenia-upload-btn-images .milenia-upload-btn-image {
+        padding: 10px;
+        float: left;
+        width: 50%;
+        margin: 0;
+        -webkit-box-sizing: border-box;
+           -moz-box-sizing: border-box;
+                box-sizing: border-box;
+    }
+
+    .milenia-upload-btn-image-controls:not(:first-child) {
+        margin-top: 5px;
+    }
+
+    .milenia-upload-btn-images img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .milenia-upload-btn-images--multiple {
+        font-size: 0;
+        line-height: 0;
+    }
+
+    .milenia-upload-btn-images--multiple img {
+        width:33.33333%;
+        display: inline-block;
+    }
+
+    .rwmb-custom_html-wrapper img {
+        max-width: 100%;
+    }
+
+    .admin-color-fresh .jq-selectbox li:hover,
+    .admin-color-fresh .rwmb-button-input-list li label.selected,
+    .admin-color-fresh .rwmb-switch:checked + .rwmb-switch-status .rwmb-switch-slider {
+        background-color: #0073aa;
+    }
+
+    .admin-color-fresh .rwmb-switch:checked + .rwmb-switch-status .rwmb-switch-slider {
+        box-shadow: 0 0 1px #0073aa;
+    }
+
+    .admin-color-fresh .jq-selectbox.focused .jq-selectbox__select,
+    .admin-color-fresh .jq-checkbox.focused,
+    .admin-color-fresh .rwmb-image-select:hover,
+    .admin-color-fresh .rwmb-image-select.rwmb-active,
+    .admin-color-fresh .rwmb-button-input-list li label.selected,
+    .admin-color-fresh input[type="checkbox"].monkeysan-admin-checkbox + label::after,
+    .admin-color-fresh input[type="radio"].monkeysan-admin-radio + label::after {
+        border-color: #0073aa;
+    }
+
+    .admin-color-fresh .rwmb-button-input-list.rwmb-inline li:last-child label.selected {
+        border-right-color: #0073aa;
+    }
+
+    .admin-color-fresh .jq-selectbox li.selected {
+        background-color: #333;
+    }
+
+    .admin-color-coffee .jq-selectbox li:hover,
+    .admin-color-coffee .rwmb-button-input-list li label.selected,
+    .admin-color-coffee .rwmb-switch:checked + .rwmb-switch-status .rwmb-switch-slider,
+    .admin-color-coffee input[type="checkbox"].monkeysan-admin-checkbox + label::after,
+    .admin-color-coffee input[type="radio"].monkeysan-admin-radio + label::after {
+        background-color: #c7a589;
+    }
+
+    .admin-color-coffee .rwmb-switch:checked + .rwmb-switch-status .rwmb-switch-slider {
+        box-shadow: 0 0 1px #c7a589;
+    }
+
+    .admin-color-coffee .jq-selectbox.focused .jq-selectbox__select,
+    .admin-color-coffee .jq-checkbox.focused,
+    .admin-color-coffee .rwmb-image-select:hover,
+    .admin-color-coffee .rwmb-image-select.rwmb-active,
+    .admin-color-coffee .rwmb-button-input-list li label.selected {
+        border-color: #c7a589;
+    }
+
+    .admin-color-coffee .rwmb-button-input-list.rwmb-inline li:last-child label.selected {
+        border-right-color: #c7a589;
+    }
+
+    .admin-color-coffee .jq-selectbox li.selected {
+        background-color: #9ea476;
+    }
+
+    .admin-color-light .jq-selectbox li:hover,
+    .admin-color-light .rwmb-button-input-list li label.selected,
+    .admin-color-light .rwmb-switch:checked + .rwmb-switch-status .rwmb-switch-slider,
+    .admin-color-light input[type="checkbox"].monkeysan-admin-checkbox + label::after,
+    .admin-color-light input[type="radio"].monkeysan-admin-radio + label::after {
+        background-color: #04a4cc;
+    }
+
+    .admin-color-light .rwmb-switch:checked + .rwmb-switch-status .rwmb-switch-slider {
+        box-shadow: 0 0 1px #04a4cc;
+    }
+
+    .admin-color-light .jq-selectbox.focused .jq-selectbox__select,
+    .admin-color-light .jq-checkbox.focused,
+    .admin-color-light .rwmb-image-select:hover,
+    .admin-color-light .rwmb-image-select.rwmb-active,
+    .admin-color-light .rwmb-button-input-list li label.selected {
+        border-color: #04a4cc;
+    }
+
+    .admin-color-light .rwmb-button-input-list.rwmb-inline li:last-child label.selected {
+        border-right-color: #04a4cc;
+    }
+
+    .admin-color-light .jq-selectbox li.selected {
+        background-color: #d64e07;
+    }
+
+    .admin-color-blue .jq-selectbox li:hover,
+    .admin-color-blue .rwmb-button-input-list li label.selected,
+    .admin-color-blue .rwmb-switch:checked + .rwmb-switch-status .rwmb-switch-slider,
+    .admin-color-blue input[type="checkbox"].monkeysan-admin-checkbox + label::after,
+    .admin-color-blue input[type="radio"].monkeysan-admin-radio + label::after {
+        background-color: #4796b3;
+    }
+
+    .admin-color-blue .rwmb-switch:checked + .rwmb-switch-status .rwmb-switch-slider {
+        box-shadow: 0 0 1px #4796b3;
+    }
+
+    .admin-color-blue .jq-selectbox.focused .jq-selectbox__select,
+    .admin-color-blue .jq-checkbox.focused,
+    .admin-color-blue .rwmb-image-select:hover,
+    .admin-color-blue .rwmb-image-select.rwmb-active,
+    .admin-color-blue .rwmb-button-input-list li label.selected {
+        border-color: #4796b3;
+    }
+
+    .admin-color-blue .rwmb-button-input-list.rwmb-inline li:last-child label.selected {
+        border-right-color: #4796b3;
+    }
+
+    .admin-color-blue .jq-selectbox li.selected {
+        background-color: #74B6CE;
+    }
+
+    .admin-color-ectoplasm .jq-selectbox li:hover,
+    .admin-color-ectoplasm .rwmb-button-input-list li label.selected,
+    .admin-color-ectoplasm .rwmb-switch:checked + .rwmb-switch-status .rwmb-switch-slider,
+    .admin-color-ectoplasm input[type="checkbox"].monkeysan-admin-checkbox + label::after,
+    .admin-color-ectoplasm input[type="radio"].monkeysan-admin-radio + label::after {
+        background-color: #a3b745;
+    }
+
+    .admin-color-ectoplasm .rwmb-switch:checked + .rwmb-switch-status .rwmb-switch-slider {
+        box-shadow: 0 0 1px #a3b745;
+    }
+
+    .admin-color-ectoplasm .jq-selectbox.focused .jq-selectbox__select,
+    .admin-color-ectoplasm .jq-checkbox.focused,
+    .admin-color-ectoplasm .rwmb-image-select:hover,
+    .admin-color-ectoplasm .rwmb-image-select.rwmb-active,
+    .admin-color-ectoplasm .rwmb-button-input-list li label.selected {
+        border-color: #a3b745;
+    }
+
+    .admin-color-ectoplasm .rwmb-button-input-list.rwmb-inline li:last-child label.selected {
+        border-right-color: #a3b745;
+    }
+
+    .admin-color-ectoplasm .jq-selectbox li.selected {
+        background-color: #523f6d;
+    }
+
+    .admin-color-midnight .jq-selectbox li:hover,
+    .admin-color-midnight .rwmb-button-input-list li label.selected,
+    .admin-color-midnight .rwmb-switch:checked + .rwmb-switch-status .rwmb-switch-slider,
+    .admin-color-midnight input[type="checkbox"].monkeysan-admin-checkbox + label::after,
+    .admin-color-midnight input[type="radio"].monkeysan-admin-radio + label::after {
+        background-color: #e14d43;
+    }
+
+    .admin-color-midnight .rwmb-switch:checked + .rwmb-switch-status .rwmb-switch-slider {
+        box-shadow: 0 0 1px #e14d43;
+    }
+
+    .admin-color-midnight .jq-selectbox.focused .jq-selectbox__select,
+    .admin-color-midnight .jq-checkbox.focused,
+    .admin-color-midnight .rwmb-image-select:hover,
+    .admin-color-midnight .rwmb-image-select.rwmb-active,
+    .admin-color-midnight .rwmb-button-input-list li label.selected {
+        border-color: #e14d43;
+    }
+
+    .admin-color-midnight .rwmb-button-input-list.rwmb-inline li:last-child label.selected {
+        border-right-color: #e14d43;
+    }
+
+    .admin-color-midnight .jq-selectbox li.selected {
+        background-color: #363b3f;
+    }
+
+    .admin-color-ocean .jq-selectbox li:hover,
+    .admin-color-ocean .rwmb-button-input-list li label.selected,
+    .admin-color-ocean .rwmb-switch:checked + .rwmb-switch-status .rwmb-switch-slider,
+    .admin-color-ocean input[type="checkbox"].monkeysan-admin-checkbox + label::after,
+    .admin-color-ocean input[type="radio"].monkeysan-admin-radio + label::after {
+        background-color: #9ebaa0;
+    }
+
+    .admin-color-ocean .rwmb-switch:checked + .rwmb-switch-status .rwmb-switch-slider {
+        box-shadow: 0 0 1px #9ebaa0;
+    }
+
+    .admin-color-ocean .jq-selectbox.focused .jq-selectbox__select,
+    .admin-color-ocean .jq-checkbox.focused,
+    .admin-color-ocean .rwmb-image-select:hover,
+    .admin-color-ocean .rwmb-image-select.rwmb-active,
+    .admin-color-ocean .rwmb-button-input-list li label.selected {
+        border-color: #9ebaa0;
+    }
+
+    .admin-color-ocean .rwmb-button-input-list.rwmb-inline li:last-child label.selected {
+        border-right-color: #9ebaa0;
+    }
+
+    .admin-color-ocean .jq-selectbox li.selected {
+        background-color: #738e96;
+    }
+
+    .admin-color-sunrise .jq-selectbox li:hover,
+    .admin-color-sunrise .rwmb-button-input-list li label.selected,
+    .admin-color-sunrise .rwmb-switch:checked + .rwmb-switch-status .rwmb-switch-slider,
+    .admin-color-sunrise input[type="checkbox"].monkeysan-admin-checkbox + label::after,
+    .admin-color-sunrise input[type="radio"].monkeysan-admin-radio + label::after {
+        background-color: #dd823b;
+    }
+
+    .admin-color-sunrise .rwmb-switch:checked + .rwmb-switch-status .rwmb-switch-slider {
+        box-shadow: 0 0 1px #dd823b;
+    }
+
+    .admin-color-sunrise .jq-selectbox.focused .jq-selectbox__select,
+    .admin-color-sunrise .jq-checkbox.focused,
+    .admin-color-sunrise .rwmb-image-select:hover,
+    .admin-color-sunrise .rwmb-image-select.rwmb-active,
+    .admin-color-sunrise .rwmb-button-input-list li label.selected {
+        border-color: #dd823b;
+    }
+
+    .admin-color-sunrise .rwmb-button-input-list.rwmb-inline li:last-child label.selected {
+        border-right-color: #dd823b;
+    }
+
+    .admin-color-sunrise .jq-selectbox li.selected {
+        background-color: #cf4944;
+    }
+
+    /* ----------------------------------------
+        Image Select field (Meta Box)
+     ---------------------------------------- */
+
+        .milenia-image-select .rwmb-image-select {
+            width: 120px;
+            height: 170px;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+
+    /* ----------------------------------------
+        Icon Picker
+     ---------------------------------------- */
+
+        .milenia-admin-iconpicker {
+            height: 300px;
+            overflow-y: scroll;
+        }
+
+        .milenia-admin-iconpicker-inner {
+            font-size: 0;
+            line-height: 0;
+        }
+
+        .milenia-admin-iconpicker-item {
+            display: inline-block;
+            vertical-align: top;
+        }
+
+        .milenia-admin-iconpicker-item button {
+            cursor: pointer;
+            display: block;
+            width: 100%;
+            height: 60px;
+            font-size: 24px;
+            line-height: 60px;
+            background-color: #fff;
+            border: 1px solid #dddddd;
+            outline: none !important;
+        }
+
+        .admin-color-fresh .milenia-admin-iconpicker-item button.milenia-admin-iconpicker-active {
+            border-color: #0073aa;
+        }
+        .admin-color-blue .milenia-admin-iconpicker-item button.milenia-admin-iconpicker-active {
+            border-color: #4796b3;
+        }
+        .admin-color-light .milenia-admin-iconpicker-item button.milenia-admin-iconpicker-active {
+            border-color: #04a4cc;
+        }
+        .admin-color-ectoplasm .milenia-admin-iconpicker-item button.milenia-admin-iconpicker-active {
+            border-color: #a3b745;
+        }
+        .admin-color-coffee .milenia-admin-iconpicker-item button.milenia-admin-iconpicker-active {
+            border-color: #c7a589;
+        }
+        .admin-color-sunrise .milenia-admin-iconpicker-item button.milenia-admin-iconpicker-active {
+            border-color: #dd823b;
+        }
+        .admin-color-midnight .milenia-admin-iconpicker-item button.milenia-admin-iconpicker-active {
+            border-color: #e14d43;
+        }
+        .admin-color-ocean .milenia-admin-iconpicker-item button.milenia-admin-iconpicker-active {
+            border-color: #9ebaa0;
+        }
+
+    /* ----------------------------------------
+        Checkbox & Radio
+     ---------------------------------------- */
+
+        input[type="checkbox"].monkeysan-admin-checkbox,
+        input[type="radio"].monkeysan-admin-radio {
+            display: none;
+        }
+
+        input[type="checkbox"].monkeysan-admin-checkbox + label,
+        input[type="radio"].monkeysan-admin-radio + label {
+            position: relative;
+            padding-left: 32px;
+            font-size: 14px;
+            line-height: 24px;
+            display: inline-block;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            max-width: calc(100% - 30px);
+            margin-right: 15px !important;
+        }
+
+        input[type="checkbox"].monkeysan-admin-checkbox + label::after,
+        input[type="checkbox"].monkeysan-admin-checkbox + label::before,
+        input[type="radio"].monkeysan-admin-radio + label::after,
+        input[type="radio"].monkeysan-admin-radio + label::before {
+            content: "";
+            position: absolute;
+            border-radius: 3px;
+            display: block;
+        }
+
+        input[type="radio"].monkeysan-admin-radio + label::after,
+        input[type="radio"].monkeysan-admin-radio + label::before {
+            border-radius: 50%;
+        }
+
+        input[type="checkbox"].monkeysan-admin-checkbox + label::before,
+        input[type="radio"].monkeysan-admin-radio + label::before {
+            top: 0;
+            left: 0;
+            width: 22px;
+            height: 22px;
+            border: 1px solid #ddd;
+        }
+
+        input[type="checkbox"].monkeysan-admin-checkbox + label::after,
+        input[type="radio"].monkeysan-admin-radio + label::after {
+            width: 16px;
+            height: 16px;
+            left: 4px;
+            top: 4px;
+            display: none;
+        }
+
+        input[type="checkbox"].monkeysan-admin-checkbox:checked + label::after,
+        input[type="radio"].monkeysan-admin-radio:checked + label::after {
+            display: block;
+        }
+
+/* ----------------------------------------
+    Layout
+ ---------------------------------------- */
+
+    .rwmb-meta-box {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    }
+
+    .rwmb-field {
+        -webkit-box-sizing: border-box;
+           -moz-box-sizing: border-box;
+                box-sizing: border-box;
+        -webkit-box-flex: 0;
+            -ms-flex: 0 1 100%;
+                flex: 0 1 100%;
+    }
+
+    .rwmb-label, .rwmb-input {
+        -webkit-box-sizing: border-box;
+           -moz-box-sizing: border-box;
+                box-sizing: border-box;
+    }
+
+    [class*="rwmb-field--column"] .rwmb-label,
+    [class*="rwmb-field--column"] .rwmb-input,
+    [class*="rwmb-field--column"] .rwmb-label ~ .rwmb-input {
+        width: 50%;
+    }
+
+    [class*="rwmb-field--column"] .rwmb-label {
+        padding-right: 10px;
+    }
+
+    .rwmb-field.rwmb-field--column-3 {
+        -webkit-box-flex: 0;
+            -ms-flex: 0 1 33.33333%;
+                flex: 0 1 33.33333%;
+    }
+
+    .rwmb-field.rwmb-field--column-2 {
+        -webkit-box-flex: 0;
+            -ms-flex: 0 1 50%;
+                flex: 0 1 50%;
+    }
+
+
+/* ----------------------------------------
+    The "Portfolio" post type
+ ---------------------------------------- */
+
+    .column-column-meta {
+        width: 20%;
+    }
+
+    .column-column-meta ul {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+/* ----------------------------------------
+    The "Galleries" post type
+ ---------------------------------------- */
+
+    .column-collage {
+        width: 100px;
+    }
+
+    .milenia-collage {
+        width: 100px;
+        height: 100px;
+        overflow:hidden;
+    }
+
+    .milenia-collage .milenia-collage-image {
+        float: left;
+        width: 50%;
+    }
+
+    .milenia-collage-image img {
+        display: block;
+    }
+
+    #poststuff .option-col h2:not(:last-child) {
+        margin-bottom: 5px;
+    }
+
+/* ----------------------------------------
+    Composer Switcher
+ ---------------------------------------- */
+
+ .composer-switch.milenia-child-hidden > .wpb_switch-to-composer {
+     -webkit-border-top-right-radius: 4px;
+        -moz-border-top-right-radius: 4px;
+             border-top-right-radius: 4px;
+
+     -webkit-border-bottom-right-radius: 4px;
+        -moz-border-bottom-right-radius: 4px;
+             border-bottom-right-radius: 4px;
+ }
+
+/* ----------------------------------------
+    MetaBox plugin options
+ ---------------------------------------- */
+
+    .postbox .inside .rwmb-meta-box {
+        margin: -6px -12px -12px;
+    }
+
+    .rwmb-field {
+        padding: 12px;
+        border-style: solid;
+        border-color: #eeeeee;
+        border-width: 0;
+    }
+
+    .rwmb-field:not(:last-child) {
+        border-width: 0 0 1px 0;
+    }
+
+    .rwmb-meta-box .rwmb-field:not(:last-of-type),
+    .rwmb-meta-box .rwmb-field:not(:last-child) {
+        margin-bottom: 0;
+    }
+
+    .rwmb-field.rwmb-divider-wrapper {
+        padding: 0;
+    }
+
+    .rwmb-field.rwmb-divider-wrapper hr {
+        margin: 0;
+        border-top-width: 15px;
+    }
+
+    .milenia-hr--style-2.rwmb-field.rwmb-divider-wrapper hr {
+        border-top-width: 3px;
+    }
+
+    .fixed .column-icon {
+        width: 30px;
+    }
+
+    .column-icon [class*="milenia-font-icon-"],
+    .column-icon [class*="milenia-svg-icon-"]
+    {
+         font-size: 24px;
+         line-height: 1;
+     }
+
+     .milenia-image-select-column .rwmb-image-select img,
+     .milenia-image-select-column .redux-container-image_select .redux-image-select {
+         display: block;
+     }
+
+     .milenia-image-select-column .rwmb-image-select {
+         width: auto;
+         height: auto;
+         margin-right: 0;
+         float: none;
+     }
+
+/* ----------------------------------------
+    Media Queries
+ ---------------------------------------- */
+
+    @media all and (max-width: 783px) {
+        .column-collage,
+        .column-images-amount,
+        .column-single-page-type {
+            display: none !important;
+        }
+    }

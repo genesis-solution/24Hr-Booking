@@ -1,0 +1,4 @@
+[23-Mar-2023 01:22:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function esc_html__() in /home/velikorodnov/public_html/dev/milenia/wp-content/themes/milenia/template-parts/milenia-testimonials/milenia-testimonials-post.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/velikorodnov/public_html/dev/milenia/wp-content/themes/milenia/template-parts/milenia-testimonials/milenia-testimonials-post.php on line 14

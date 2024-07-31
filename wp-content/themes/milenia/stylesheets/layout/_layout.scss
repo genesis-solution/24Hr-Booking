@@ -1,0 +1,4800 @@
+
+/* ----------------------------------------
+    1. Base
+ ---------------------------------------- */
+
+
+/* ----------------------------------------
+        Global
+    ---------------------------------------- */
+
+body {
+  background-color: #fff;
+  overflow-x: hidden;
+  overflow-y: initial !important;
+}
+
+html {
+  overflow-y: initial !important;
+}
+
+::-webkit-selection {
+  color: #fff;
+  background-color: #ae745a;
+}
+
+::-moz-selection {
+  color: #fff;
+  background-color: #ae745a;
+}
+
+::selection {
+  color: #fff;
+  background-color: #ae745a;
+}
+
+.milenia-body--scheme-gray ::-webkit-selection {
+  color: #fff;
+  background-color: #948685;
+}
+
+.milenia-body--scheme-gray ::-moz-selection {
+  color: #fff;
+  background-color: #948685;
+}
+
+.milenia-body--scheme-gray ::selection {
+  color: #fff;
+  background-color: #948685;
+}
+
+.milenia-body--scheme-blue ::-webkit-selection {
+  color: #fff;
+  background-color: #19b1d1;
+}
+
+.milenia-body--scheme-blue ::-moz-selection {
+  color: #fff;
+  background-color: #19b1d1;
+}
+
+.milenia-body--scheme-blue ::selection {
+  color: #fff;
+  background-color: #19b1d1;
+}
+
+.milenia-body--scheme-lightbrown ::-webkit-selection {
+  color: #fff;
+  background-color: #c19b76;
+}
+
+.milenia-body--scheme-lightbrown ::-moz-selection {
+  color: #fff;
+  background-color: #c19b76;
+}
+
+.milenia-body--scheme-lightbrown ::selection {
+  color: #fff;
+  background-color: #c19b76;
+}
+
+.milenia-body--scheme-green ::-webkit-selection {
+  color: #fff;
+  background-color: #7eb71c;
+}
+
+.milenia-body--scheme-green ::-moz-selection {
+  color: #fff;
+  background-color: #7eb71c;
+}
+
+.milenia-body--scheme-green ::selection {
+  color: #fff;
+  background-color: #7eb71c;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.milenia-page-wrapper {
+  overflow-x: hidden;
+}
+
+[data-bg-image-src] {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.animated {
+  -webkit-animation-duration: 500ms;
+  animation-duration: 500ms;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.nicescroll-rails {
+  visibility: hidden;
+}
+
+/* ----------------------------------------
+         Animations
+     ---------------------------------------- */
+
+@-webkit-keyframes fadeInLeft {
+  from {
+	opacity: 0;
+	-webkit-transform: translate3d(-20%, 0, 0);
+	transform: translate3d(-20%, 0, 0);
+  }
+
+  to {
+	opacity: 1;
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes fadeInLeft {
+  from {
+	opacity: 0;
+	-webkit-transform: translate3d(-20%, 0, 0);
+	transform: translate3d(-20%, 0, 0);
+  }
+
+  to {
+	opacity: 1;
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+  }
+}
+
+.fadeInLeft {
+  -webkit-animation-name: fadeInLeft;
+  animation-name: fadeInLeft;
+}
+
+@-webkit-keyframes fadeInRight {
+  from {
+	opacity: 0;
+	-webkit-transform: translate3d(20%, 0, 0);
+	transform: translate3d(20%, 0, 0);
+  }
+
+  to {
+	opacity: 1;
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes fadeInRight {
+  from {
+	opacity: 0;
+	-webkit-transform: translate3d(20%, 0, 0);
+	transform: translate3d(20%, 0, 0);
+  }
+
+  to {
+	opacity: 1;
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+  }
+}
+
+.fadeInRight {
+  -webkit-animation-name: fadeInRight;
+  animation-name: fadeInRight;
+}
+
+[data-animation]:not([data-animation="none"]):not(.milenia-visible) {
+  visibility: hidden;
+}
+
+[data-animation]:not([data-animation="none"]) {-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-fill-mode:both;animation-fill-mode:both}
+[data-animation]:not([data-animation="none"]).infinite{-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite}
+[data-animation]:not([data-animation="none"]).stealthy{opacity:0;visibility:hidden}
+
+/* ----------------------------------------
+        Typography
+    ---------------------------------------- */
+
+:root {
+  font-size: 16px;
+}
+
+body {
+  font-size: 1rem;
+  line-height: 1.625rem;
+  font-weight: 400;
+  color: #858585;
+}
+
+address:not(:last-child) {
+  margin-bottom: 1.625rem;
+}
+
+q {
+  font-style: italic;
+}
+
+small {
+  font-size: 0.875rem;
+}
+
+sub, sup {
+  position: relative;
+  font-size: 75%;
+  line-height: 0;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+q, kbd, strong, em, tt, var, span, del, big, small {
+  vertical-align: baseline;
+}
+
+pre {
+  overflow: auto;
+}
+
+pre:not(:last-child) {
+  margin-bottom: 1.625rem;
+}
+
+code {
+  overflow: auto;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+pre, code, kbd, tt, var,
+.comments-list .comment-content pre,
+.comments-list .comment-content code,
+.comments-list .comment-content kbd,
+.comments-list .comment-content var,
+.comments-list .comment-content tt {
+  font-size: 1rem;
+  line-height: 1.625;
+  padding: 5px 10px;
+  color: #858585;
+  background-color: #f8f8f8;
+  border: 1px solid #eaeaea;
+  -webkit-appearance: none !important;
+}
+
+ul li pre,
+ul li code,
+ul li kbd,
+ul li tt,
+ul li var,
+ol li pre,
+ol li code,
+ol li kbd,
+ol li tt,
+ol li var {
+  font-size: inherit;
+  line-height: inherit;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+mark {
+  color: #fff;
+  background-color: #1c1c1c;
+}
+
+/* ----------------------------------------
+            Headings
+        ---------------------------------------- */
+
+h1, h2, h3, h4, h5, h6 {
+  color: #1c1c1c;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+h1:not(:last-child), h2:not(:last-child), h3:not(:last-child), h4:not(:last-child), h5:not(:last-child) {
+  margin-bottom: 1.2rem;
+}
+
+h1 {
+  font-size: 3.25rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2.25rem;
+}
+
+h4 {
+  font-size: 1.875rem;
+}
+
+h5 {
+  font-size: 1.5rem;
+}
+
+h6 {
+  font-size: 1.125rem;
+}
+
+h6:not(:last-child) {
+  margin-bottom: 1.1rem;
+}
+
+/* ----------------------------------------
+            Paragraphs
+        ---------------------------------------- */
+
+p:empty {
+  display: none;
+}
+
+p:not(:last-child) {
+  margin-bottom: 1.625rem;
+}
+
+/* ----------------------------------------
+            Links
+        ---------------------------------------- */
+
+.milenia-underlined-link,
+a:not(.milenia-ln--independent),
+.milenia-navigation .sub-menu a,
+.milenia-btn--link,
+.milenia-dropdown-element > li > a,
+.milenia-events-month-event-title a {
+  display: inline;
+  background-repeat: no-repeat;
+  background-size: 0px 1px;
+  -webkit-transition-property: all;
+  transition-property: all;
+  -webkit-transition-delay: 0ms;
+  transition-delay: 0ms;
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms;
+  -webkit-transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.milenia-underlined-link:hover,
+a:hover:not(.milenia-ln--independent),
+.milenia-header--light .milenia-navigation .sub-menu a:hover,
+.milenia-btn--link:hover,
+.milenia-dropdown-element > li > a:hover, .milenia-events-month-event-title a:hover {
+  background-size: 100% 1px;
+}
+
+.milenia-non-underlined-link,
+.milenia-sub-navigation a,
+.milenia-square-image[data-bg-image-src] a,
+.gallery-item a,
+.milenia-entities--style-13 .milenia-entity-link,
+.milenia-testimonial-service,
+.fancybox-button,
+.mejs__container a {
+  background-image: none !important;
+  background-repeat: initial;
+  background-size: initial;
+}
+
+.milenia-non-underlined-link:hover,
+.milenia-sub-navigation a:hover,
+.milenia-square-image[data-bg-image-src] a:hover,
+.gallery-item a:hover,
+.milenia-btn:hover:not(.milenia-btn--link),
+.milenia-entities--style-13 .milenia-entity-link:hover,
+.milenia-testimonial-service:hover,
+.fancybox-button:hover,
+.mejs__container a:hover {
+  background-size: initial;
+}
+
+/*one line only*/
+.milenia-icon-link {
+  border-style: solid;
+  border-color: transparent;
+  border-right-width: 1.875rem;
+  position: relative;
+  white-space: nowrap;
+}
+
+.milenia-icon-link .fa,
+.milenia-icon-link .fal,
+.milenia-icon-link .far,
+.milenia-icon-link .fab,
+.milenia-icon-link .fas,
+.milenia-icon-link .icon,
+.milenia-icon-link [class*="milenia-font-icon-"] {
+  font-size: 1.25rem;
+  position: absolute;
+  top: 50%;
+  right: -1.875rem;
+  margin-top: -0.625rem;
+}
+
+.milenia-uppercased-link {
+  text-transform: uppercase;
+  font-size: 0.8125rem;
+  line-height: 1.125rem;
+  letter-spacing: 1.3px;
+}
+
+.milenia-body--scheme-brown a:not(.milenia-ln--independent):not(.milenia-btn),
+.milenia-body--scheme-brown:not(body) a:not(.milenia-ln--independent):not(.milenia-btn) {
+  color: #ae745a;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(100%, #ae745a), to(#ae745a));
+  background-image: linear-gradient(to bottom, #ae745a 100%, #ae745a 100%);
+}
+
+.milenia-body--scheme-gray a:not(.milenia-ln--independent):not(.milenia-btn),
+.milenia-body--scheme-gray:not(body) a:not(.milenia-ln--independent):not(.milenia-btn) {
+  color: #948685;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(100%, #948685), to(#948685));
+  background-image: linear-gradient(to bottom, #948685 100%, #948685 100%);
+}
+
+.milenia-body--scheme-blue a:not(.milenia-ln--independent):not(.milenia-btn),
+.milenia-body--scheme-blue:not(body) a:not(.milenia-ln--independent):not(.milenia-btn) {
+  color: #19b1d1;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(100%, #19b1d1), to(#19b1d1));
+  background-image: linear-gradient(to bottom, #19b1d1 100%, #19b1d1 100%);
+}
+
+.milenia-body--scheme-lightbrown a:not(.milenia-ln--independent):not(.milenia-btn),
+.milenia-body--scheme-lightbrown:not(body) a:not(.milenia-ln--independent):not(.milenia-btn) {
+  color: #c19b76;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(100%, #c19b76), to(#c19b76));
+  background-image: linear-gradient(to bottom, #c19b76 100%, #c19b76 100%);
+}
+
+.milenia-body--scheme-green a:not(.milenia-ln--independent):not(.milenia-btn),
+.milenia-body--scheme-green:not(body) a:not(.milenia-ln--independent):not(.milenia-btn) {
+  color: #7eb71c;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(100%, #7eb71c), to(#7eb71c));
+  background-image: linear-gradient(to bottom, #7eb71c 100%, #7eb71c 100%);
+}
+
+.milenia-el--links-dark a:not(.milenia-ln--independent):not(.milenia-btn) {
+  color: #1c1c1c;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(100%, #1c1c1c), to(#1c1c1c));
+  background-image: linear-gradient(to bottom, #1c1c1c 100%, #1c1c1c 100%);
+}
+
+/* ----------------------------------------
+            Icons
+        ---------------------------------------- */
+
+[class*="milenia-font-icon"] {
+  line-height: 1;
+}
+
+/* ----------------------------------------
+            Colors
+        ---------------------------------------- */
+
+.milenia-color--black {
+  color: #1c1c1c;
+}
+
+.milenia-color--white {
+  color: #fff;
+}
+
+/* ----------------------------------------
+        Utils classes
+    ---------------------------------------- */
+
+.milenia-d-none {
+  display: none;
+}
+
+.milenia-fw-bold {
+  font-weight: bold;
+}
+
+.milenia-tt-uppercase {
+  text-transform: uppercase;
+}
+
+.milenia-d-down-xxxl-none {
+  display: none;
+}
+
+.milenia-fw-down-xxxl-bold {
+  font-weight: bold;
+}
+
+.alignleft {
+  float: left;
+}
+
+.alignright {
+  float: right;
+}
+
+.milenia-mb-0 {
+  margin-bottom: 0 !important;
+}
+
+.milenia-ls-n1 {
+  letter-spacing: -1px;
+}
+.milenia-ls-n2 {
+  letter-spacing: -2px;
+}
+.milenia-ls-n3 {
+  letter-spacing: -3px;
+}
+.milenia-ls-1 {
+  letter-spacing: 1px;
+}
+.milenia-ls-2 {
+  letter-spacing: 2px;
+}
+.milenia-ls-3 {
+  letter-spacing: 3px;
+}
+
+/* ----------------------------------------
+    2. Layout
+---------------------------------------- */
+
+.container .container {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* ----------------------------------------
+        Preloader
+    ---------------------------------------- */
+
+.milenia-preloader-circle,
+.milenia-preloader {
+  position: fixed;
+  width: 260vw;
+  height: 260vw;
+  margin-left: -130vw;
+  margin-top: -130vw;
+  background-color: #fff;
+  z-index: 50;
+  border-radius: 50%;
+  -webkit-transition-property: -webkit-transform;
+  transition-property: transform;
+  -webkit-transition-delay: 0ms;
+  transition-delay: 0ms;
+  -webkit-transition-duration: 700ms;
+  transition-duration: 700ms;
+  -webkit-transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.milenia-preloader-circle {
+  -webkit-transition-timing-function: linear;
+  transition-timing-function: linear;
+}
+
+.milenia-preloader {
+  left: 50%;
+  top: 50%;
+}
+
+.milenia-preloader-circle, .milenia-preloader.milenia-preloader--disappearing {
+  -webkit-transform: scale3d(0, 0, 0);
+  transform: scale3d(0, 0, 0);
+}
+
+.milenia-preloader-circle--appearing {
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
+}
+
+/* ----------------------------------------
+        Critical full screen message
+    ---------------------------------------- */
+
+.milenia-body--has-critical-fullscreen-message {
+  overflow: hidden !important;
+}
+
+.milenia-fullscreen-message {
+  position: fixed;
+  z-index: 49;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  font-size: 1.875rem;
+  line-height: 2.34375rem;
+  color: #1c1c1c;
+  background-color: #fff;
+  padding: 2rem;
+  overflow: auto;
+}
+
+.milenia-fullscreen-message .milenia-aligner-inner {
+  vertical-align: middle;
+}
+
+.milenia-fullscreen-message-before {
+  font-size: 3.25rem;
+  line-height: 4rem;
+}
+
+.milenia-fullscreen-message-before:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+.milenia-fullscreen-message-before:empty,
+.milenia-fullscreen-message-after:empty {
+  display: none;
+}
+
+/* ----------------------------------------
+        Header
+    ---------------------------------------- */
+
+.milenia-header {
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+  position: relative;
+  z-index: 25;
+}
+
+[class*="milenia-header-section--sticky"].milenia-header-section--sticked {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 50;
+  -webkit-box-shadow: 0 10px 10px 0 rgba(28, 28, 28, 0.05);
+  box-shadow: 0 10px 10px 0 rgba(28, 28, 28, 0.05);
+}
+
+.admin-bar [class*="milenia-header-section--sticky"].milenia-header-section--sticked {
+  top: 32px;
+}
+
+.milenia-header--transparent:not(.milenia-header--transparent-v2) {
+  padding-top: 1.5rem;
+  padding-bottom: 1.8rem;
+}
+
+.milenia-header--transparent.milenia-header--transparent-single {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 25;
+}
+
+.admin-bar .milenia-header--transparent.milenia-header--transparent-single {
+  top: 32px;
+}
+
+.milenia-header--transparent.milenia-header--transparent-single::before,
+.milenia-header--transparent:not(.milenia-header--transparent-single) + .milenia-breadcrumb > .milenia-colorizer-bg-image::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -1px;
+  bottom: auto;
+  height: 16.125rem;
+  z-index: -1;
+  background-image: url("assets/images/header-shadow.png");
+  background-repeat: repeat-x;
+  background-position: left center;
+}
+
+.milenia-navigation--vertical-xxxl {
+  padding-top: 1rem;
+  text-align: center;
+  position: relative;
+}
+
+.milenia-navigation--vertical-xxxl > li {
+  display: block;
+}
+
+.milenia-navigation--vertical-xxxl > li > a {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.milenia-navigation--vertical-xxxl .sub-menu {
+  position: static;
+  width: 100%;
+}
+
+.milenia-navigation--vertical-xxxl .sub-menu .menu-item-has-children::after {
+  content: "\e93a" !important;
+}
+
+.milenia-navigation--vertical-xxxl .sub-menu .sub-menu {
+  padding-top: 1.4rem;
+}
+
+.milenia-header .milenia-booking-form-wrapper--v3 [class*="form-col"]:first-child::before {
+  display: none;
+}
+
+/* ----------------------------------------
+            Header Section
+        ---------------------------------------- */
+
+[class*="milenia-header-section"] {
+  border-style: solid;
+}
+
+[class*="milenia-header-section"]:not(.milenia-header-section--has-navigation) {
+  position: relative;
+}
+
+[class*="milenia-header-section"]:not(.milenia-header-section--has-navigation):first-child {
+  z-index: 25;
+}
+[class*="milenia-header-section"]:not(.milenia-header-section--has-navigation):nth-child(2) {
+  z-index: 24;
+}
+[class*="milenia-header-section"]:not(.milenia-header-section--has-navigation):nth-child(3) {
+  z-index: 23;
+}
+[class*="milenia-header-section"]:not(.milenia-header-section--has-navigation):nth-child(4) {
+  z-index: 22;
+}
+[class*="milenia-header-section"]:not(.milenia-header-section--has-navigation):nth-child(5) {
+  z-index: 21;
+}
+.milenia-header-section--font-small {
+  font-size: 0.8125rem;
+  line-height: 1.125rem;
+  letter-spacing: 0.65px;
+}
+
+.milenia-header-section--border {
+  border-bottom-width: 1px;
+}
+
+.milenia-header-section--stretched {
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.milenia-header-section--font-small .milenia-list--icon > li,
+.milenia-header-section--font-small .milenia-list--icon-big > li {
+  padding-left: 1.2rem;
+}
+
+.milenia-header-section--font-small .milenia-list--icon > li > .fa,
+.milenia-header-section--font-small .milenia-list--icon > li > .fal,
+.milenia-header-section--font-small .milenia-list--icon > li > .far,
+.milenia-header-section--font-small .milenia-list--icon > li > .fab,
+.milenia-header-section--font-small .milenia-list--icon > li > .fas,
+.milenia-header-section--font-small .milenia-list--icon > li > .icon,
+.milenia-header-section--font-small .milenia-list--icon > li > [class*="milenia-font-icon-"],
+.milenia-header-section--font-small .milenia-list--icon-big > li > .fa,
+.milenia-header-section--font-small .milenia-list--icon-big > li > .fal,
+.milenia-header-section--font-small .milenia-list--icon-big > li > .far,
+.milenia-header-section--font-small .milenia-list--icon-big > li > .fab,
+.milenia-header-section--font-small .milenia-list--icon-big > li > .fas,
+.milenia-header-section--font-small .milenia-list--icon-big > li > .icon,
+.milenia-header-section--font-small .milenia-list--icon-big > li > [class*="milenia-font-icon-"] {
+  font-size: 0.75rem;
+  margin: 0;
+}
+
+.milenia-header-section,
+.milenia-header-section > .container,
+.milenia-header-section > .container-fluid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.milenia-header-section > .container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* ----------------------------------------
+            Header Column
+        ---------------------------------------- */
+
+.milenia-header-col {
+  border-style: solid;
+  border-color: transparent;
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 0px;
+  flex: 1 1 0;
+  text-align: center;
+}
+
+.milenia-header-col:not(:last-child) {
+  border-width: 0 1px 0 0;
+}
+
+.milenia-header-col--has-sections.milenia-aligner > .milenia-aligner-outer > .milenia-aligner-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.milenia-header-col-logo {
+  width: 15.1875rem;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 1 15.1875rem;
+  flex: 0 1 15.1875rem;
+}
+
+.milenia-header-col--content-align-center {
+  text-align: center;
+}
+
+.milenia-header-col--content-align-right {
+  text-align: right;
+}
+
+.milenia-header-col--content-align-left {
+  text-align: left;
+}
+
+.milenia-header-col-1 {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 8.33333%;
+  flex: 1 1 8.33333%;
+  max-width: 8.33333%;
+}
+
+.milenia-header-col-2 {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 16.66667%;
+  flex: 1 1 16.66667%;
+  max-width: 16.66667%;
+}
+
+.milenia-header-col-3 {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 25%;
+  flex: 1 1 25%;
+  max-width: 25%;
+}
+
+.milenia-header-col-4 {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 33.33333%;
+  flex: 1 1 33.33333%;
+  max-width: 33.33333%;
+}
+
+.milenia-header-col-5 {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 41.66667%;
+  flex: 1 1 41.66667%;
+  max-width: 41.66667%;
+}
+
+.milenia-header-col-6 {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 50%;
+  flex: 1 1 50%;
+  max-width: 50%;
+}
+
+.milenia-header-col-7 {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 58.33333%;
+  flex: 1 1 58.33333%;
+  max-width: 58.33333%;
+}
+
+.milenia-header-col-8 {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 66.66667%;
+  flex: 1 1 66.66667%;
+  max-width: 66.66667%;
+}
+
+.milenia-header-col-9 {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 75%;
+  flex: 1 1 75%;
+  max-width: 75%;
+}
+
+.milenia-header-col-10 {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 83.33333%;
+  flex: 1 1 83.33333%;
+  max-width: 83.33333%;
+}
+
+.milenia-header-col-11 {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 91.66667%;
+  flex: 1 1 91.66667%;
+  max-width: 91.66667%;
+}
+
+.milenia-header-col-12 {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 100%;
+  flex: 1 1 100%;
+  max-width: 100%;
+}
+
+.milenia-header-col-auto {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  max-width: initial;
+}
+
+.milenia-header-col--padding-large > .milenia-aligner-outer > .milenia-aligner-inner {
+  padding-top: 2.5rem;
+  padding-right: 2.5rem;
+  padding-bottom: 2rem;
+  padding-left: 2.5rem;
+}
+
+.milenia-header-col--padding-medium > .milenia-aligner-outer > .milenia-aligner-inner {
+  padding-top: 2rem;
+  padding-right: 2.5rem;
+  padding-bottom: 2rem;
+
+  @media (min-width: 767px) {
+    padding-left: 2.5rem;
+  }
+}
+
+.milenia-header-col--padding-average > .milenia-aligner-outer > .milenia-aligner-inner {
+  padding-top: 1.67rem;
+  padding-right: 1.67rem;
+  padding-bottom: 1.67rem;
+  padding-left: 1.67rem;
+}
+
+.milenia-header-col--padding-small > .milenia-aligner-outer > .milenia-aligner-inner {
+  padding-top: 0.7rem;
+  padding-right: 2.5rem;
+  padding-bottom: 0.7rem;
+  padding-left: 2.5rem;
+}
+
+.milenia-header-col--padding-default > .milenia-aligner-outer > .milenia-aligner-inner {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+
+  @media (min-width: 767px) {
+    padding-right: 2.5rem;
+    padding-left: 2.5rem;
+  }
+}
+
+.milenia-header-col--padding-no > .milenia-aligner-outer > .milenia-aligner-inner {
+  padding: 0 !important;
+}
+
+.milenia-header-col--padding-no-y > .milenia-aligner-outer > .milenia-aligner-inner {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.milenia-header-col--padding-no-x > .milenia-aligner-outer > .milenia-aligner-inner {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.milenia-header-col--padding-no-top > .milenia-aligner-outer > .milenia-aligner-inner {
+  padding-top: 0 !important;
+}
+
+.milenia-header-col--padding-no-bottom > .milenia-aligner-outer > .milenia-aligner-inner {
+  padding-bottom: 0 !important;
+}
+
+.milenia-header-col--padding-no-right > .milenia-aligner-outer > .milenia-aligner-inner {
+  padding-right: 0 !important;
+}
+
+.milenia-header-col--padding-no-left > .milenia-aligner-outer > .milenia-aligner-inner {
+  padding-left: 0 !important;
+}
+
+.milenia-header-col--nav-vertical-xxxl .milenia-header-items,
+.milenia-header-col--nav-vertical-xxxl .milenia-header-items > div {
+  display: block;
+}
+
+.milenia-header-col--nav-vertical-xxxl .milenia-mobile-nav-btn {
+  display: inline-block;
+}
+
+/* ----------------------------------------
+            Header Items
+        ---------------------------------------- */
+
+.milenia-logo {
+  display: inline-block;
+}
+
+.milenia-header-items {
+  display: inline-block;
+  margin-top: -1rem;
+  margin-left: -1rem;
+  margin-right: -1rem;
+}
+
+.milenia-header-items > div {
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.milenia-header .milenia-btn--huge {
+  padding-top: 1.85rem;
+  padding-bottom: 1.85rem;
+  min-width: 10.75rem;
+}
+
+.milenia-header .milenia-btn {
+  text-align: center;
+}
+
+.milenia-header-menu-btn {
+  text-transform: uppercase;
+  font-size: inherit;
+  letter-spacing: 1px;
+  font-weight: 400;
+}
+
+.milenia-header-menu-btn .fa,
+.milenia-header-menu-btn .fal,
+.milenia-header-menu-btn .far,
+.milenia-header-menu-btn .fab,
+.milenia-header-menu-btn .fas,
+.milenia-header-menu-btn .icon,
+.milenia-header-menu-btn [class*="milenia-font-icon-"] {
+  position: relative;
+  top: -1px;
+  padding-right: 0.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  vertical-align: middle;
+  font-size: 1.25rem;
+}
+
+.milenia-dropdown--languages.milenia-dropdown--title-icon .milenia-dropdown-title .fa,
+.milenia-dropdown--languages.milenia-dropdown--title-icon .milenia-dropdown-title .fal,
+.milenia-dropdown--languages.milenia-dropdown--title-icon .milenia-dropdown-title .far,
+.milenia-dropdown--languages.milenia-dropdown--title-icon .milenia-dropdown-title .fab,
+.milenia-dropdown--languages.milenia-dropdown--title-icon .milenia-dropdown-title .fas,
+.milenia-dropdown--languages.milenia-dropdown--title-icon .milenia-dropdown-title .icon,
+.milenia-dropdown--languages.milenia-dropdown--title-icon .milenia-dropdown-title [class*="milenia-font-icon-"] {
+  font-size: 0.6rem;
+  margin-top: -0.3rem;
+}
+
+.milenia-dropdown--languages .milenia-dropdown-title {
+  font-size: inherit;
+  line-height: inherit;
+  letter-spacing: 1px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.milenia-dropdown--languages .milenia-dropdown-element {
+  text-align: center;
+  width: 4.875rem;
+  padding-top: 0.6rem;
+  padding-bottom: 1.6rem;
+  margin-top: 0.4rem;
+}
+
+.milenia-dropdown--languages .milenia-dropdown-element > li:not(:first-child) {
+  padding-top: 1.2rem;
+}
+
+.milenia-dropdown--languages .milenia-dropdown-element:not(.milenia-dropdown-element--x-right) {
+  left: -1.5625rem;
+}
+
+.milenia-header .milenia-icon-btn {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.milenia-sub-navigation a,
+.milenia-header .milenia-list--icon a {
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-delay: 0ms;
+  transition-delay: 0ms;
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms;
+  -webkit-transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+/* ----------------------------------------
+            Navigation
+        ---------------------------------------- */
+
+.milenia-navigation {
+  letter-spacing: 1.4px;
+  z-index: 4;
+  text-align: initial;
+  margin-left: -1rem;
+  margin-right: -1rem;
+}
+
+.milenia-navigation > li {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.milenia-navigation > li > a {
+  padding-top: 1.7rem;
+  padding-bottom: 1.7rem;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-delay: 0ms;
+  transition-delay: 0ms;
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms;
+  -webkit-transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+  display: block;
+  position: relative;
+}
+
+.milenia-navigation > li > a::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  opacity: 0;
+  height: 3px;
+  bottom: auto;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  -webkit-transition-duration: inherit;
+  transition-duration: inherit;
+  -webkit-transition-timing-function: inherit;
+  transition-timing-function: inherit;
+}
+
+.milenia-navigation .milenia-header-section--border + [class*="milenia-header-section"] .milenia-navigation:not(.milenia-navigation--bottom-underlined) > li > a::before {
+  top: -1px;
+}
+
+.milenia-navigation--bottom-underlined > li > a::before {
+  bottom: 0;
+  top: auto;
+}
+
+.milenia-navigation .menu-item-has-children:hover, .milenia-navigation .menu-item-has-children.milenia-seleceted, .milenia-navigation .menu-item-has-children.milenia-tapped {
+  z-index: 2;
+}
+
+@-moz-document url-prefix() {
+  .milenia-header-section--border + [class*="milenia-header-section"] .milenia-navigation:not(.milenia-navigation--bottom-underlined) > li > a::before {
+	top: -2px;
+  }
+  .milenia-header-section--sticked .milenia-header-section--border + [class*="milenia-header-section"] .milenia-navigation:not(.milenia-navigation--bottom-underlined) > li > a::before,
+  .milenia-header-section--border + [class*="milenia-header-section"].milenia-header-section--sticked .milenia-navigation:not(.milenia-navigation--bottom-underlined) > li > a::before {
+	top: 0;
+  }
+}
+
+.milenia-no-touchevents .milenia-navigation > li:hover > a::before,
+.milenia-no-touchevents .milenia-navigation > .milenia-seleceted > a::before,
+.milenia-touchevents .milenia-navigation > .milenia-tapped > a::before,
+.milenia-navigation > .current-menu-ancestor > a::before,
+.milenia-navigation > .current-menu-parent > a::before,
+.milenia-navigation > .current-menu-item > a::before {
+  opacity: 1;
+}
+
+.milenia-no-touchevents .milenia-body--scheme-brown .milenia-navigation > li:hover > a,
+.milenia-no-touchevents .milenia-body--scheme-brown .milenia-navigation > .milenia-seleceted > a,
+.milenia-touchevents .milenia-body--scheme-brown .milenia-navigation > .milenia-tapped > a,
+.milenia-body--scheme-brown .milenia-navigation > .current-menu-ancestor > a,
+.milenia-body--scheme-brown .milenia-navigation > .current-menu-parent > a,
+.milenia-body--scheme-brown .milenia-navigation > .current-menu-item > a {
+  color: #ae745a;
+}
+
+.milenia-body--scheme-brown .milenia-navigation > li > a::before,
+.milenia-body--scheme-brown .milenia-mobile-nav-btn {
+  background-color: #ae745a;
+}
+
+.milenia-no-touchevents .milenia-body--scheme-gray .milenia-navigation > li:hover > a,
+.milenia-no-touchevents .milenia-body--scheme-gray .milenia-navigation > .milenia-seleceted > a,
+.milenia-touchevents .milenia-body--scheme-gray .milenia-navigation > .milenia-tapped > a,
+.milenia-body--scheme-gray .milenia-navigation > .current-menu-ancestor > a,
+.milenia-body--scheme-gray .milenia-navigation > .current-menu-parent > a,
+.milenia-body--scheme-gray .milenia-navigation > .current-menu-item > a {
+  color: #948685;
+}
+
+.milenia-body--scheme-gray .milenia-navigation > li > a::before,
+.milenia-body--scheme-gray .milenia-mobile-nav-btn {
+  background-color: #948685;
+}
+
+.milenia-no-touchevents .milenia-body--scheme-blue .milenia-navigation > li:hover > a,
+.milenia-no-touchevents .milenia-body--scheme-blue .milenia-navigation > .milenia-seleceted > a,
+.milenia-touchevents .milenia-body--scheme-blue .milenia-navigation > .milenia-tapped > a,
+.milenia-body--scheme-blue .milenia-navigation > .current-menu-ancestor > a,
+.milenia-body--scheme-blue .milenia-navigation > .current-menu-parent > a,
+.milenia-body--scheme-blue .milenia-navigation > .current-menu-item > a {
+  color: #19b1d1;
+}
+
+.milenia-body--scheme-blue .milenia-navigation > li > a::before,
+.milenia-body--scheme-blue .milenia-mobile-nav-btn {
+  background-color: #19b1d1;
+}
+
+.milenia-no-touchevents .milenia-body--scheme-lightbrown .milenia-navigation > li:hover > a,
+.milenia-no-touchevents .milenia-body--scheme-lightbrown .milenia-navigation > .milenia-seleceted > a,
+.milenia-touchevents .milenia-body--scheme-lightbrown .milenia-navigation > .milenia-tapped > a,
+.milenia-body--scheme-lightbrown .milenia-navigation > .current-menu-ancestor > a,
+.milenia-body--scheme-lightbrown .milenia-navigation > .current-menu-parent > a,
+.milenia-body--scheme-lightbrown .milenia-navigation > .current-menu-item > a {
+  color: #c19b76;
+}
+
+.milenia-body--scheme-lightbrown .milenia-navigation > li > a::before,
+.milenia-body--scheme-lightbrown .milenia-mobile-nav-btn {
+  background-color: #c19b76;
+}
+
+.milenia-no-touchevents .milenia-body--scheme-green .milenia-navigation > li:hover > a,
+.milenia-no-touchevents .milenia-body--scheme-green .milenia-navigation > .milenia-seleceted > a,
+.milenia-touchevents .milenia-body--scheme-green .milenia-navigation > .milenia-tapped > a,
+.milenia-body--scheme-green .milenia-navigation > .current-menu-ancestor > a,
+.milenia-body--scheme-green .milenia-navigation > .current-menu-parent > a,
+.milenia-body--scheme-green .milenia-navigation > .current-menu-item > a {
+  color: #7eb71c;
+}
+
+.milenia-body--scheme-green .milenia-navigation > li > a::before,
+.milenia-body--scheme-green .milenia-mobile-nav-btn {
+  background-color: #7eb71c;
+}
+
+.milenia-navigation .sub-menu {
+  width: 16.25rem;
+  padding-top: 0.4rem;
+  padding-bottom: 1.4rem;
+  letter-spacing: 0.7px;
+  position: absolute;
+  top: 100%;
+  left: -1.625rem;
+  opacity: 0;
+  visibility: hidden;
+  color: #1c1c1c;
+  background-color: #f8f8f8;
+  -webkit-transition-property: opacity, visibility;
+  transition-property: opacity, visibility;
+  -webkit-transition-delay: 0ms;
+  transition-delay: 0ms;
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms;
+  -webkit-transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.milenia-navigation .sub-menu a {
+  color: #1c1c1c;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(100%, #1c1c1c), to(#1c1c1c));
+  background-image: linear-gradient(to bottom, #1c1c1c 100%, #1c1c1c 100%);
+}
+
+.milenia-navigation .sub-menu > li {
+  padding-top: 1rem;
+  padding-right: 1.5625rem;
+  padding-left: 1.5625rem;
+}
+
+.milenia-navigation .sub-menu.milenia-reverse {
+  left: auto;
+  right: -1.625rem;
+}
+
+.milenia-navigation .sub-menu .sub-menu {
+  top: -0.4rem;
+  left: 100%;
+}
+
+.milenia-navigation .sub-menu .sub-menu.milenia-reverse {
+  left: auto;
+  right: 100%;
+}
+
+.milenia-navigation .sub-menu .menu-item-has-children {
+  position: relative;
+  padding-right: 2.8rem;
+}
+
+.milenia-navigation .sub-menu .menu-item-has-children::after {
+  font-family: Linearicons;
+  content: "\e93c";
+  position: absolute;
+  right: 0.9375rem;
+  font-size: 0.8125rem;
+  line-height: inherit;
+  top: 1rem;
+}
+
+.milenia-no-touchevents .milenia-navigation .sub-menu li:hover > a,
+.milenia-no-touchevents .milenia-navigation .sub-menu .menu-item-has-children.milenia-selected > a,
+.milenia-touchevents .milenia-navigation .sub-menu .menu-item-has-children.milenia-tapped > a,
+.milenia-navigation .sub-menu .current-menu-item > a,
+.milenia-navigation .sub-menu .current-menu-ancestor > a,
+.milenia-navigation .sub-menu .current-menu-parent > a {
+  background-size: 100% 1px;
+}
+
+.milenia-no-touchevents .menu-item-has-children:hover > .sub-menu,
+.milenia-no-touchevents .menu-item-has-children.milenia-selected > .sub-menu,
+.milenia-touchevents .menu-item-has-children.milenia-tapped > .sub-menu {
+  opacity: 1;
+  visibility: visible;
+}
+
+.milenia-csstransforms3d .milenia-navigation .sub-menu {
+  -webkit-transition-property: -webkit-transform, opacity, visibility;
+  transition-property: transform, opacity, visibility;
+
+  -webkit-transform: scale3d(0.9, 0.9, 0.9);
+  transform: scale3d(0.9, 0.9, 0.9);
+}
+
+.milenia-csstransforms3d.milenia-no-touchevents .menu-item-has-children:hover > .sub-menu,
+.milenia-csstransforms3d.milenia-no-touchevents .menu-item-has-children.milenia-selected > .sub-menu,
+.milenia-csstransforms3d.milenia-touchevents .menu-item-has-children.milenia-tapped > .sub-menu {
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
+}
+
+.milenia-mobile-nav-btn {
+  width: 3.75rem;
+  height: 3.75rem;
+  font-size: 1.25rem;
+  text-align: center;
+  line-height: 1;
+  color: #fff;
+  display: none;
+}
+
+.milenia-mobile-nav-btn::after {
+  font-family: Linearicons;
+  content: "\e92b";
+}
+
+.milenia-mobile-nav-btn.milenia-opened {
+  background-color: #1c1c1c;
+}
+
+/* ----------------------------------------
+            Header Color Schemes
+        ---------------------------------------- */
+
+.milenia-sub-navigation a,
+.milenia-list--icon a {
+  color: #858585;
+}
+
+/* ----------------------------------------
+                Light
+            ---------------------------------------- */
+
+.milenia-header-col--light,
+.milenia-header--light [class*="milenia-header-section"] {
+  background-color: #fff;
+}
+
+.milenia-body--scheme-blue .milenia-header--light .milenia-list--icon .fa,
+.milenia-body--scheme-blue .milenia-header--light .milenia-list--icon .fal,
+.milenia-body--scheme-blue .milenia-header--light .milenia-list--icon .far,
+.milenia-body--scheme-blue .milenia-header--light .milenia-list--icon .fab,
+.milenia-body--scheme-blue .milenia-header--light .milenia-list--icon .fas,
+.milenia-body--scheme-blue .milenia-header--light .milenia-list--icon .icon,
+.milenia-body--scheme-blue .milenia-header--light .milenia-list--icon [class*="milenia-font-icon-"] {
+  color: #19b1d1;
+}
+
+.milenia-header--light .milenia-header-section--border,
+.milenia-header--light .milenia-header-section--columns-border > .milenia-header-col {
+  border-color: #eaeaea;
+}
+
+.milenia-header--light .milenia-navigation a,
+.milenia-header--light .milenia-list--icon a:hover,
+.milenia-header--light .milenia-sub-navigation a:hover,
+.milenia-header--light .milenia-header-menu-btn,
+.milenia-header--light .milenia-weather-indicator sup span,
+.milenia-header--light .milenia-icon-btn,
+.milenia-header--light .milenia-dropdown--languages .milenia-dropdown-title {
+  color: #1c1c1c;
+}
+
+.milenia-body--scheme-brown .milenia-header--light .milenia-list--icon .fa,
+.milenia-body--scheme-brown .milenia-header--light .milenia-list--icon .fal,
+.milenia-body--scheme-brown .milenia-header--light .milenia-list--icon .far,
+.milenia-body--scheme-brown .milenia-header--light .milenia-list--icon .fab,
+.milenia-body--scheme-brown .milenia-header--light .milenia-list--icon .fas,
+.milenia-body--scheme-brown .milenia-header--light .milenia-list--icon .icon,
+.milenia-body--scheme-brown .milenia-header--light .milenia-list--icon [class*="milenia-font-icon-"] {
+  color: #09355c;
+}
+
+/* ----------------------------------------
+                Dark & Transparent
+            ---------------------------------------- */
+
+.milenia-header--dark .milenia-weather-indicator--style-2 sup span,
+.milenia-header--dark .milenia-weather-indicator-btn {
+  color: #fff;
+}
+
+.milenia-header--dark .milenia-booking-form-wrapper--light label {
+  color: #858585;
+}
+
+.milenia-header--dark .milenia-booking-form-wrapper--light.milenia-booking-form-wrapper--v3 [class*="form-col"],
+.milenia-header--dark .milenia-booking-form-wrapper--light.milenia-booking-form-wrapper--v3 [class*="form-col"]::before,
+.milenia-header--dark .milenia-booking-form-wrapper--light.milenia-booking-form-wrapper--v3 [class*="form-col"]::after {
+  border-color: rgba(255, 255, 255, 0.08);
+}
+
+.milenia-header--dark .milenia-list--icon,
+.milenia-header--dark .milenia-weather-indicator {
+  color: #858585;
+}
+
+.milenia-header--dark .milenia-header-section--border,
+.milenia-header--dark .milenia-header-section--columns-border > .milenia-header-col {
+  border-color: #313131;
+}
+
+.milenia-header--dark a:not(.milenia-ln--independent):not(.milenia-color--unchangeable):not(.milenia-btn),
+.milenia-header--transparent a:not(.milenia-ln--independent):not(.milenia-color--unchangeable):not(.milenia-btn) {
+  color: #fff;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(100%, #fff), to(#fff));
+  background-image: linear-gradient(to bottom, #fff 100%, #fff 100%);
+}
+
+.milenia-header--dark [class*="milenia-header-section"] {
+  background-color: #1c1c1c;
+}
+
+.milenia-header--dark,
+.milenia-header--transparent,
+.milenia-header--dark .milenia-weather-indicator sup span,
+.milenia-header--dark .milenia-sub-navigation a:hover,
+.milenia-header--dark .milenia-list--icon a:hover,
+.milenia-header--dark .milenia-navigation > li:not(.current-menu-item) > a,
+.milenia-header--transparent .milenia-navigation > li:not(.current-menu-item) > a {
+  color: #fff;
+}
+
+.milenia-header--transparent .milenia-header-section--sticked {
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.milenia-body--scheme-brown .milenia-header--dark .milenia-list--icon .fa,
+.milenia-body--scheme-brown .milenia-header--dark .milenia-list--icon .fal,
+.milenia-body--scheme-brown .milenia-header--dark .milenia-list--icon .far,
+.milenia-body--scheme-brown .milenia-header--dark .milenia-list--icon .fab,
+.milenia-body--scheme-brown .milenia-header--dark .milenia-list--icon .fas,
+.milenia-body--scheme-brown .milenia-header--dark .milenia-list--icon .icon,
+.milenia-body--scheme-brown .milenia-header--dark .milenia-list--icon [class*="milenia-font-icon-"] {
+  color: #ae745a;
+}
+
+/* ----------------------------------------
+        Breadcrumb
+    ---------------------------------------- */
+
+.milenia-breadcrumb-path {
+  font-size: 0.8125rem;
+  line-height: 1.25rem;
+  text-transform: uppercase;
+  letter-spacing: 1.3px;
+  vertical-align: baseline;
+}
+
+.milenia-breadcrumb-path > span {
+  display: inline-block;
+  padding-left: 0.3rem;
+  padding-right: 0.3rem;
+}
+
+.milenia-breadcrumb.milenia-colorizer--parallax .milenia-colorizer-bg-image {
+  background-size: 140% auto;
+}
+
+/* ----------------------------------------
+        Sections
+    ---------------------------------------- */
+
+.milenia-content {
+  padding-top: 5.9rem;
+  padding-bottom: 5.9rem;
+}
+
+[class*="milenia-section--stretched"].milenia-section--loading {
+  overflow: hidden;
+}
+
+[class*="milenia-section--stretched"].milenia-section--loading::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 2;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("../images/loader.gif");
+}
+
+.milenia-section {
+  position: relative;
+  padding-bottom: 5.9rem;
+}
+
+.milenia-content.milenia-content--no-py,
+.milenia-content.milenia-content--no-pt,
+.milenia-section.milenia-section--no-py {
+  padding-top: 0;
+}
+
+.milenia-content.milenia-content--no-py,
+.milenia-content.milenia-content--no-pb,
+.milenia-section.milenia-section--no-py {
+  padding-bottom: 0;
+}
+
+.milenia-section--parallax {
+  background-size: auto;
+}
+
+.milenia-section--parallax-only {
+  height: 28.125rem;
+}
+
+.milenia-section.milenia-section--no-py + .milenia-section:not(.milenia-section--no-py),
+.milenia-section[class*="milenia-colorizer--scheme-"]:not(.milenia-section--no-py),
+.milenia-section[class*="milenia-colorizer--scheme-"]:not(.milenia-section--no-py) + .milenia-section:not(.milenia-section--no-py) {
+  padding-top: 5.9rem;
+}
+
+.milenia-section.milenia-section--no-py + .milenia-section:not(.milenia-section--no-py).milenia-section--py-xsmall,
+.milenia-section--py-xsmall[data-bg-image-src]:first-child, .milenia-section--py-xsmall[class*="milenia-colorizer--scheme-"]:first-child,
+.milenia-section[class*="milenia-colorizer--scheme-"]:not(.milenia-section--no-py).milenia-section--py-xsmall,
+.milenia-section[class*="milenia-colorizer--scheme-"]:not(.milenia-section--no-py) + .milenia-section:not(.milenia-section--no-py).milenia-section--py-xsmall {
+  padding-top: 1.5625rem;
+}
+
+.milenia-section.milenia-section--no-py + .milenia-section:not(.milenia-section--no-py).milenia-section--py-small,
+.milenia-section[class*="milenia-colorizer--scheme-"]:not(.milenia-section--no-py).milenia-section--py-small,
+.milenia-section[class*="milenia-colorizer--scheme-"]:not(.milenia-section--no-py) + .milenia-section:not(.milenia-section--no-py).milenia-section--py-small,
+.milenia-section--py-small[data-bg-image-src]:first-child,
+.milenia-section--py-small[class*="milenia-colorizer--scheme-"]:first-child {
+  padding-top: 2.85rem;
+}
+
+.milenia-section.milenia-section--no-py + .milenia-section:not(.milenia-section--no-py).milenia-section--py-medium,
+.milenia-section.milenia-section--no-py + .milenia-section:not(.milenia-section--no-py).milenia-section--py-large,
+.milenia-section--py-medium[data-bg-image-src]:first-child, .milenia-section--py-medium[class*="milenia-colorizer--scheme-"]:first-child,
+.milenia-section--py-large[data-bg-image-src]:first-child, .milenia-section--py-large[class*="milenia-colorizer--scheme-"]:first-child,
+.milenia-section[class*="milenia-colorizer--scheme-"]:not(.milenia-section--no-py).milenia-section--py-medium,
+.milenia-section[class*="milenia-colorizer--scheme-"]:not(.milenia-section--no-py).milenia-section--py-large,
+.milenia-section[class*="milenia-colorizer--scheme-"]:not(.milenia-section--no-py) + .milenia-section:not(.milenia-section--no-py).milenia-section--py-medium,
+.milenia-section[class*="milenia-colorizer--scheme-"]:not(.milenia-section--no-py) + .milenia-section:not(.milenia-section--no-py).milenia-section--py-large {
+  padding-top: 4.375rem;
+}
+
+.milenia-section.milenia-section--no-py + .milenia-section:not(.milenia-section--no-py).milenia-section--py-huge,
+.milenia-section--py-huge[data-bg-image-src]:first-child, .milenia-section--py-huge[class*="milenia-colorizer--scheme-"]:first-child,
+.milenia-section[class*="milenia-colorizer--scheme-"]:not(.milenia-section--no-py).milenia-section--py-huge,
+.milenia-section[class*="milenia-colorizer--scheme-"]:not(.milenia-section--no-py) + .milenia-section:not(.milenia-section--no-py).milenia-section--py-huge {
+  padding-top: 7.8rem;
+}
+
+.milenia-section.milenia-section--no-py + .milenia-section:not(.milenia-section--no-py).milenia-section--py-isotope-item,
+.milenia-section--py-isotope-item[data-bg-image-src]:first-child, .milenia-section--py-isotope-item[class*="milenia-colorizer--scheme-"]:first-child,
+.milenia-section[class*="milenia-colorizer--scheme-"]:not(.milenia-section--no-py).milenia-section--py-isotope-item,
+.milenia-section[class*="milenia-colorizer--scheme-"]:not(.milenia-section--no-py) + .milenia-section:not(.milenia-section--no-py).milenia-section--py-isotope-item {
+  padding-top: 7.25rem;
+}
+
+.milenia-section--py-xsmall {
+  padding-bottom: 1.5625rem;
+}
+
+.milenia-section--py-small {
+  padding-bottom: 2.85rem;
+}
+
+.milenia-section--py-medium,
+.milenia-section--py-large {
+  padding-bottom: 4.375rem;
+}
+
+.milenia-section--py-huge {
+  padding-bottom: 7.8rem;
+}
+
+.milenia-section--py-isotope-item {
+  padding-bottom: 7.25rem;
+}
+
+.milenia-section:last-child:not([data-bg-image-src]):not([class*="milenia-colorizer--scheme-"]),
+.milenia-section .milenia-section:last-child:not([class*="milenia-colorizer--scheme-"]) {
+  padding-bottom: 0;
+}
+
+.milenia-section--stretched-content {
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+}
+
+body.milenia-body--border-layout {
+  padding: 1.5625rem;
+}
+
+body.milenia-body--border-layout [data-vc-full-width="true"] {
+  border-left: 10px solid transparent !important;
+  border-right: 10px solid transparent !important;
+}
+
+body.milenia-body--border-layout [class*="milenia-header-section--sticky"].milenia-header-section--sticked {
+  left: 1.5625rem;
+  right: 1.5625rem;
+}
+
+body.milenia-body--border-layout .forcefullwidth_wrapper_tp_banner {
+  margin-bottom: 1.5625rem !important;
+}
+
+.milenia-section.milenia-section--isotope-item .milenia-section-subtitle:not(:last-child) {
+  margin-bottom: 0.6rem;
+}
+
+.milenia-section.milenia-section--isotope-item .milenia-section-title:not(:last-child) {
+  margin-bottom: 3.25rem;
+}
+
+/* ----------------------------------------
+        Sidebar
+    ---------------------------------------- */
+
+.milenia-sidebar .milenia-grid:not([class*="milenia-grid--cols-"]) .milenia-grid-item {
+  max-width: 100%;
+  -webkit-box-flex: 1;
+  -ms-flex: 1 0 100%;
+  flex: 1 0 100%;
+}
+
+.milenia-sidebar .milenia-grid:not(.milenia-grid--no-gutters):not(.owl-carousel) {
+  margin-top: -3.3rem;
+}
+
+.milenia-sidebar .milenia-grid:not(.milenia-grid--no-gutters):not(.owl-carousel) > .milenia-grid-item {
+  padding-top: 3.3rem;
+}
+
+.milenia-sidebar .milenia-widget.milenia-widget--newsletter p + form {
+  margin-top: -0.6rem;
+}
+
+.milenia-sidebar-hidden-close {
+  position: absolute;
+  top: 0.7rem;
+  right: 0.7rem;
+  font-size: 1.5rem;
+  color: #1c1c1c;
+  display: block;
+  -webkit-transition: -webkit-transform 0.25s cubic-bezier(0.25, 3, 0.75, 1);
+  transition:         transform 0.25s cubic-bezier(0.25, 3, 0.75, 1);
+}
+
+.milenia-csstransforms3d .milenia-sidebar-hidden-close:hover {
+  -webkit-transform: scale3d(1.15, 1.15, 1.15);
+  -ms-transform: scale3d(1.15, 1.15, 1.15);
+  transform: scale3d(1.15, 1.15, 1.15);
+}
+
+.milenia-sidebar-hidden {
+  width: 18.75rem;
+  background-color: #fff;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 30;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-transition-property: box-shadow;
+  transition-property: box-shadow;
+  -webkit-transition-delay: 0ms;
+  transition-delay: 0ms;
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms;
+  -webkit-transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.admin-bar .milenia-sidebar-hidden {
+  top: 32px;
+}
+
+.milenia-sidebar-hidden--v2 {
+  display: block;
+  overflow-x: hidden !important;
+}
+
+.milenia-sidebar-hidden--v2 .milenia-grid:not(.milenia-grid--isotope):not(.owl-carousel) {
+  display: block;
+}
+
+.milenia-sidebar-hidden--v2 .milenia-sidebar-hidden-content {
+  padding-top: 4.0625rem;
+  padding-bottom: 4.0625rem;
+}
+
+.milenia-sidebar-hidden--v2 .milenia-widget .milenia-grid-item-content {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+.milenia-sidebar-hidden .milenia-mobile-nav-btn {
+  display: none !important;
+}
+
+.milenia-sidebar-hidden-overlay {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 29;
+  background-color: rgba(28, 28, 28, 0.5);
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition-property: opacity, visibility;
+  transition-property: opacity, visibility;
+  -webkit-transition-delay: 0ms;
+  transition-delay: 0ms;
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms;
+  -webkit-transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.milenia-sidebar-hidden-content {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+}
+
+.milenia-sidebar-hidden-content {
+  padding-top: 2.9rem;
+  padding-bottom: 2.9rem;
+}
+
+.milenia-sidebar-hidden-header,
+.milenia-sidebar-hidden-footer {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  padding-left: 1.875rem;
+  padding-right: 1.875rem;
+  padding-top: 3.125rem;
+  padding-bottom: 3.125rem;
+}
+
+.milenia-sidebar-hidden.milenia-hidden-sidebar--opened {
+  -webkit-box-shadow: 0 0 30px 0 rgba(28, 28, 28, 0.1);
+  box-shadow: 0 0 30px 0 rgba(28, 28, 28, 0.1);
+}
+
+.milenia-body--hidden-sidebar-opened .milenia-sidebar-hidden-overlay {
+  opacity: 1;
+  visibility: visible;
+}
+
+.milenia-sidebar-hidden-content .milenia-navigation-container {
+  height: 25rem;
+}
+
+.milenia-csstransforms3d .milenia-sidebar-hidden {
+  -webkit-transform: translate3d(-100%, 0, 0);
+  transform: translate3d(-100%, 0, 0);
+  -webkit-transition-property: -webkit-transform, box-shadow;
+  transition-property: transform, box-shadow;
+}
+
+.milenia-csstransforms3d .milenia-sidebar-hidden.milenia-hidden-sidebar--opened {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+.milenia-no-csstransforms3d .milenia-sidebar-hidden {
+  left: -18.75rem;
+  -webkit-transition-property: all;
+  transition-property: all;
+}
+
+.milenia-no-csstransforms3d .milenia-sidebar-hidden.milenia-hidden-sidebar--opened {
+  left: 0;
+}
+
+.milenia-sidebar-hidden-items {
+  margin-top: -1.8rem;
+}
+
+.milenia-sidebar-hidden-items > div {
+  padding-top: 1.8rem;
+}
+
+.milenia-sidebar-hidden-actions {
+  font-size: 0.8125rem;
+  line-height: 1.125rem;
+  text-transform: uppercase;
+  letter-spacing: 0.81px;
+}
+
+.milenia-sidebar-hidden-actions a {
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-delay: 0ms;
+  transition-delay: 0ms;
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms;
+  -webkit-transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+  color: #858585;
+}
+
+.milenia-sidebar-hidden-actions a:hover {
+  color: #1c1c1c;
+}
+
+/* ----------------------------------------
+            Widgets
+        ---------------------------------------- */
+
+.milenia-widget {
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+}
+
+.milenia-widget-title {
+  font-size: 1.5rem;
+  line-height: 1.8125rem;
+}
+
+.milenia-widget-title:empty {
+  display: none;
+}
+
+.milenia-sidebar .milenia-widget:not(.milenia-widget--list-horizontal) ul:not(.milenia-list--unstyled) {
+  font-size: 1rem;
+  line-height: 1.625rem;
+}
+
+.milenia-widget:not(.milenia-widget--list-horizontal) ul:not(.milenia-list--unstyled) > li:not(:last-child) {
+  margin-bottom: 0.8rem;
+}
+
+.milenia-widget--list-horizontal ul {
+  margin-top: -0.3125rem;
+  margin-left: -0.3125rem;
+  margin-right: -0.3125rem;
+}
+
+.milenia-widget--list-horizontal ul > li {
+  display: inline-block;
+  margin-top: 0.3125rem;
+  margin-left: 0.3125rem;
+  margin-right: 0.3125rem;
+}
+
+.milenia-widget-title:not(:last-child) {
+  margin-bottom: 1.65rem;
+}
+
+.milenia-widget .milenia-responsive-iframe:not(:last-child),
+.milenia-widget .milenia-fullwidth-iframe:not(:last-child) {
+  margin-bottom: 1.35rem;
+}
+
+.milenia-widget .milenia-instafeed:not(:last-child) {
+  margin-bottom: 1.3rem;
+}
+
+.milenia-widget .milenia-social-icons:not(:first-child) {
+  margin-top: -0.2rem;
+}
+
+.milenia-widget .milenia-newsletter-form:not(.milenia-singlefield-form) .milenia-btn {
+  width: 100%;
+}
+
+.milenia-widget .milenia-newsletter-form:not(.milenia-singlefield-form) .milenia-btn--icon .fa,
+.milenia-widget .milenia-newsletter-form:not(.milenia-singlefield-form) .milenia-btn--icon .fal,
+.milenia-widget .milenia-newsletter-form:not(.milenia-singlefield-form) .milenia-btn--icon .far,
+.milenia-widget .milenia-newsletter-form:not(.milenia-singlefield-form) .milenia-btn--icon .fab,
+.milenia-widget .milenia-newsletter-form:not(.milenia-singlefield-form) .milenia-btn--icon .fas,
+.milenia-widget .milenia-newsletter-form:not(.milenia-singlefield-form) .milenia-btn--icon .icon,
+.milenia-widget .milenia-newsletter-form:not(.milenia-singlefield-form) .milenia-btn--icon [class*="milenia-font-icon-"] {
+  font-size: 1.125rem;
+}
+
+.milenia-widget .milenia-singlefield-form {
+  max-width: initial;
+}
+
+.milenia-widget .milenia-singlefield-form input[type="text"], .milenia-widget .milenia-singlefield-form input[type="search"], .milenia-widget .milenia-singlefield-form input[type="date"], .milenia-widget .milenia-singlefield-form input[type="datetime-local"], .milenia-widget .milenia-singlefield-form input[type="email"], .milenia-widget .milenia-singlefield-form input[type="file"], .milenia-widget .milenia-singlefield-form input[type="month"], .milenia-widget .milenia-singlefield-form input[type="number"], .milenia-widget .milenia-singlefield-form input[type="password"], .milenia-widget .milenia-singlefield-form input[type="tel"], .milenia-widget .milenia-singlefield-form input[type="time"], .milenia-widget .milenia-singlefield-form input[type="url"], .milenia-widget .milenia-singlefield-form input[type="week"], .milenia-widget .milenia-singlefield-form textarea,
+.milenia-widget .milenia-singlefield-form.milenia-form--fields-white input[type="text"],
+.milenia-widget .milenia-singlefield-form.milenia-form--fields-white input[type="search"],
+.milenia-widget .milenia-singlefield-form.milenia-form--fields-white input[type="date"],
+.milenia-widget .milenia-singlefield-form.milenia-form--fields-white input[type="datetime-local"],
+.milenia-widget .milenia-singlefield-form.milenia-form--fields-white input[type="email"],
+.milenia-widget .milenia-singlefield-form.milenia-form--fields-white input[type="file"],
+.milenia-widget .milenia-singlefield-form.milenia-form--fields-white input[type="month"],
+.milenia-widget .milenia-singlefield-form.milenia-form--fields-white input[type="number"],
+.milenia-widget .milenia-singlefield-form.milenia-form--fields-white input[type="password"],
+.milenia-widget .milenia-singlefield-form.milenia-form--fields-white input[type="tel"],
+.milenia-widget .milenia-singlefield-form.milenia-form--fields-white input[type="time"],
+.milenia-widget .milenia-singlefield-form.milenia-form--fields-white input[type="url"],
+.milenia-widget .milenia-singlefield-form.milenia-form--fields-white input[type="week"],
+.milenia-widget .milenia-singlefield-form.milenia-form--fields-white textarea {
+  background-color: #f8f8f8;
+}
+
+/* ----------------------------------------
+                 Text
+             ---------------------------------------- */
+
+.widget_text .milenia-btn:only-child {
+  margin-top: 1.2rem;
+}
+
+/* ----------------------------------------
+                 Newsletter
+             ---------------------------------------- */
+
+.widget_wysija .milenia-singlefield-form {
+  margin-top: 1.025rem;
+}
+
+.milenia-footer .milenia-widget .widget_wysija .milenia-singlefield-form {
+  margin-top: 1.625rem;
+}
+
+.widget_wysija input[type="submit"] {
+  margin: 0 !important;
+}
+
+.milenia-footer .milenia-widget form.widget_wysija {
+  max-width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.milenia-theme .mailpoet_form .mailpoet_segment_label,
+.milenia-theme .mailpoet_form .mailpoet_text_label,
+.milenia-theme .mailpoet_form .mailpoet_textarea_label,
+.milenia-theme .mailpoet_form .mailpoet_select_label,
+.milenia-theme .mailpoet_form .mailpoet_radio_label,
+.milenia-theme .mailpoet_form .mailpoet_checkbox_label,
+.milenia-theme .mailpoet_form .mailpoet_list_label,
+.milenia-theme .mailpoet_form .mailpoet_date_label {
+  font-weight: 400 !important;
+}
+
+.milenia-theme .mailpoet_form .mailpoet_text,
+.milenia-theme .mailpoet_form .mailpoet_textarea {
+  width: 100% !important;
+}
+
+.milenia-theme .mailpoet_form .mailpoet_checkbox {
+  display: inline-block !important;
+  -webkit-appearance: checkbox !important;
+  appearance: checkbox !important;
+}
+
+.milenia-theme .mailpoet_form .mailpoet_checkbox::before,
+.milenia-theme .mailpoet_form .mailpoet_checkbox::after {
+  display: none !important;
+}
+
+/* ----------------------------------------
+                Sponsors widget
+            ---------------------------------------- */
+
+.milenia-sponsors {
+  margin-top: -0.4rem;
+  margin-left: -0.2rem;
+  margin-right: -0.2rem;
+}
+
+.milenia-sponsors > li {
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 0.4rem;
+  margin-left: 0.2rem;
+  margin-right: 0.2rem;
+}
+
+.milenia-sponsors--large {
+  margin-top: -1.5rem;
+  margin-left: -0.75rem;
+  margin-right: -0.75rem;
+}
+
+.milenia-sponsors--large > li {
+  margin-top: 1.5rem;
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
+}
+
+.milenia-csstransforms3d .milenia-sponsors img {
+  -webkit-transition-property: -webkit-transform;
+  transition-property: transform;
+  -webkit-transition-delay: 0ms;
+  transition-delay: 0ms;
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms;
+  -webkit-transition-timing-function: cubic-bezier(0.25, 3, 0.79, 0.38);
+  transition-timing-function: cubic-bezier(0.25, 3, 0.79, 0.38);
+}
+
+.milenia-csstransforms3d .milenia-sponsors a:hover > img {
+  -webkit-transform: scale3d(1.05, 1.05, 1.05);
+  transform: scale3d(1.05, 1.05, 1.05);
+}
+
+/* ----------------------------------------
+                Tags
+            ---------------------------------------- */
+
+.tagcloud > a {
+  font-size: 0.875rem !important;
+  line-height: 1.625rem !important;
+  letter-spacing: 1.05px;
+}
+
+.tagcloud > a:not(:last-child)::after {
+  color: #858585;
+  content: ", ";
+}
+
+/* ----------------------------------------
+                Search
+            ---------------------------------------- */
+
+[class*="milenia-body--scheme-"] .milenia-widget .milenia-searchform button {
+  color: #1c1c1c;
+}
+
+[class*="milenia-body--scheme-"] .milenia-widget .milenia-searchform button,
+[class*="milenia-body--scheme-"] .milenia-widget .milenia-searchform button:hover {
+  background-color: transparent;
+}
+
+.milenia-csstransforms3d .milenia-widget .milenia-searchform button {
+  -webkit-transition: -webkit-transform .5s cubic-bezier(0.25, 7, 0.79, 0.38);
+  transition:         transform .5s cubic-bezier(0.25, 7, 0.79, 0.38);
+}
+
+.milenia-csstransforms3d .milenia-widget .milenia-searchform button:hover {
+  -webkit-transform: scale3d(1.05, 1.05, 1.05);
+  transform: scale3d(1.05, 1.05, 1.05);
+}
+
+/* ----------------------------------------
+                Banner
+            ---------------------------------------- */
+
+.milenia-widget .milenia-banners.milenia-banners--style-2 .milenia-banner-title {
+  font-size: 2.2rem;
+  line-height: 2.64rem;
+}
+
+.milenia-widget .milenia-banners.milenia-banners--style-2 .milenia-banner-content {
+  top: 0.625rem;
+  right: 0.625rem;
+  bottom: 0.625rem;
+  left: 0.625rem;
+}
+
+/* ----------------------------------------
+                Entities
+            ---------------------------------------- */
+
+.milenia-widget .milenia-entities .milenia-entity,
+.milenia-widget .mphb_widget_rooms-wrapper .milenia-entity {
+  overflow: hidden;
+}
+
+.milenia-widget .milenia-entities .milenia-entity:not(:last-child),
+.milenia-widget .mphb_widget_rooms-wrapper .milenia-entity:not(:last-child) {
+  margin-bottom: 1.5625rem;
+}
+
+.milenia-widget .milenia-entities .milenia-entity-meta,
+.milenia-widget .mphb_widget_rooms-wrapper .milenia-entity-meta {
+  color: #a5a5a5;
+  font-size: 0.6875rem;
+  line-height: 0.85938rem;
+  text-transform: uppercase;
+  letter-spacing: 1.1px;
+}
+
+.milenia-widget .mphb_widget_rooms-wrapper .milenia-entity-meta {
+  color: #1c1c1c;
+}
+
+.milenia-widget .milenia-entities .milenia-entity-meta:not(:last-child),
+.milenia-widget .mphb_widget_rooms-wrapper .milenia-entity-meta:not(:last-child) {
+  margin-bottom: 0.35rem;
+}
+
+.milenia-widget .milenia-entities .milenia-entity-media,
+.milenia-widget .mphb_widget_rooms-wrapper .milenia-entity-media {
+  float: left;
+  max-width: 6.25rem;
+  margin-right: 1.25rem;
+}
+
+.milenia-widget .milenia-entities .milenia-entity-content,
+.milenia-widget .mphb_widget_rooms-wrapper .milenia-entity-content {
+  overflow: hidden;
+  padding-top: 0.45rem;
+}
+
+.milenia-widget .milenia-entities .milenia-entity-title,
+.milenia-widget .mphb_widget_rooms-wrapper .milenia-entity-title {
+  font-size: 1.125rem;
+  line-height: 1.63125rem;
+}
+
+.milenia-widget .milenia-entities .milenia-entity-title a:not(.milenia-ln--independent):not(.milenia-btn),
+.milenia-widget .mphb_widget_rooms-wrapper .milenia-entity-title a:not(.milenia-ln--independent):not(.milenia-btn) {
+  color: #1c1c1c;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(100%, #1c1c1c), to(#1c1c1c));
+  background-image: linear-gradient(to bottom, #1c1c1c 100%, #1c1c1c 100%);
+}
+
+.milenia-widget .mphb_widget_rooms-wrapper .milenia-entity-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.milenia-widget .mphb_widget_rooms-wrapper .milenia-entity-title {
+  -webkit-box-ordinal-group: 2;
+  -ms-flex-order: 1;
+  order: 1;
+}
+
+.milenia-widget .mphb_widget_rooms-wrapper .milenia-entity-title:not(:only-child) {
+  margin-bottom: 0.75rem;
+}
+
+.milenia-widget .mphb_widget_rooms-wrapper .milenia-entity-meta {
+  -webkit-box-ordinal-group: 3;
+  -ms-flex-order: 2;
+  order: 2;
+}
+
+.milenia-widget .mphb_widget_rooms-wrapper .milenia-entity-meta:not(:only-child) {
+  margin-bottom: 0;
+}
+
+.milenia-widget .mphb_widget_rooms-wrapper .milenia-entity-content {
+  padding-top: 0;
+}
+
+.milenia-widget .mphb_widget_rooms-wrapper .milenia-entity-header:not(:last-child) {
+  margin-bottom: 0.6rem;
+}
+
+.milenia-sidebar .milenia-widget:not(.milenia-widget--list-horizontal) .mphb_widget_rooms-wrapper .mphb-widget-room-type-attributes {
+  font-size: inherit;
+  line-height: inherit;
+}
+
+/* ----------------------------------------
+                Calendar
+            ---------------------------------------- */
+
+.calendar_wrap table {
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+  border-width: 0;
+  background-color: transparent;
+}
+
+.calendar_wrap table tbody {
+  background-color: #ffffff;
+}
+
+.calendar_wrap table caption {
+  color: #1c1c1c;
+  font-size: 1rem;
+  line-height: 1.625rem;
+  font-weight: 700;
+  text-align: center;
+  border-style: inherit;
+  border-color: inherit;
+  padding-top: 0.65rem;
+  padding-bottom: 0.8rem;
+  border-width: 1px 1px 0 1px;
+  position: relative;
+}
+
+.milenia-colorizer--scheme-dark .calendar_wrap table caption,
+.milenia-colorizer--scheme-primary .calendar_wrap table caption,
+.milenia-colorizer--scheme-secondary .calendar_wrap table caption {
+  color: #ffffff;
+  border-color: #858585;
+}
+
+.calendar_wrap table tr:hover {
+  background-color: transparent;
+}
+
+.calendar_wrap table thead {
+  background-color: #f8f8f8;
+}
+
+.calendar_wrap table thead th {
+  font-weight: 400;
+}
+
+.calendar_wrap table thead td a:not(.milenia-ln--independent):not(.milenia-btn),
+.calendar_wrap table thead th a:not(.milenia-ln--independent):not(.milenia-btn),
+.calendar_wrap table tbody td a:not(.milenia-ln--independent):not(.milenia-btn),
+.calendar_wrap table tbody th a:not(.milenia-ln--independent):not(.milenia-btn) {
+  color: #1c1c1c;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(100%, #1c1c1c), to(#1c1c1c));
+  background-image: linear-gradient(to bottom, #1c1c1c 100%, #1c1c1c 100%);
+}
+
+.calendar_wrap table thead td#today, .calendar_wrap table thead th#today,
+.calendar_wrap table tbody td#today,
+.calendar_wrap table tbody th#today {
+  color: #fff;
+}
+
+.calendar_wrap table thead td#today a:not(.milenia-ln--independent):not(.milenia-btn),
+.calendar_wrap table thead th#today a:not(.milenia-ln--independent):not(.milenia-btn),
+.calendar_wrap table tbody td#today a:not(.milenia-ln--independent):not(.milenia-btn),
+.calendar_wrap table tbody th#today a:not(.milenia-ln--independent):not(.milenia-btn) {
+  color: #fff;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(100%, #fff), to(#fff));
+  background-image: linear-gradient(to bottom, #fff 100%, #fff 100%);
+}
+
+.calendar_wrap table th, .calendar_wrap table td {
+  padding: 0.5rem 0.1rem 0.4rem;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.calendar_wrap table tfoot td {
+  padding: 1.4rem 0 0;
+  border-width: 0;
+}
+
+.calendar_wrap table tfoot #prev a,
+.calendar_wrap table tfoot #next a {
+  font-size: 0.8125rem;
+  line-height: 1.5rem;
+  font-weight: 800;
+  border: none;
+  letter-spacing: 1.8px;
+  text-transform: uppercase;
+}
+
+.calendar_wrap table tfoot #prev {
+  text-align: left;
+}
+
+.calendar_wrap table tfoot #next {
+  text-align: right;
+}
+
+.calendar_wrap table .calendar-caption-prev,
+.calendar_wrap table .calendar-caption-next {
+  display: block;
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 3.125rem;
+  text-align: center;
+  color: #dadada;
+  -webkit-transition: color .5s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: color .5s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.calendar_wrap table .calendar-caption-prev:hover,
+.calendar_wrap table .calendar-caption-next:hover {
+  color: #a5a5a5;
+}
+
+.calendar_wrap table .calendar-caption-prev .fa,
+.calendar_wrap table .calendar-caption-prev .fal,
+.calendar_wrap table .calendar-caption-prev .far,
+.calendar_wrap table .calendar-caption-prev .fab,
+.calendar_wrap table .calendar-caption-prev .fas,
+.calendar_wrap table .calendar-caption-prev .icon,
+.calendar_wrap table .calendar-caption-prev [class*="milenia-font-icon-"],
+.calendar_wrap table .calendar-caption-next .fa,
+.calendar_wrap table .calendar-caption-next .fal,
+.calendar_wrap table .calendar-caption-next .far,
+.calendar_wrap table .calendar-caption-next .fab,
+.calendar_wrap table .calendar-caption-next .fas,
+.calendar_wrap table .calendar-caption-next .icon,
+.calendar_wrap table .calendar-caption-next [class*="milenia-font-icon-"] {
+  line-height: 1;
+  font-size: 1.125rem;
+  vertical-align: baseline;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  top: 50%;
+  margin-top: -0.5625rem;
+}
+
+.calendar_wrap table .calendar-caption-prev {
+  left: 0;
+}
+
+.calendar_wrap table .calendar-caption-next {
+  right: 0;
+}
+
+.milenia-body--scheme-brown .calendar_wrap table #today {
+  background-color: #ae745a;
+}
+
+.milenia-body--scheme-gray .calendar_wrap table #today {
+  background-color: #948685;
+}
+
+.milenia-body--scheme-blue .calendar_wrap table #today {
+  background-color: #19b1d1;
+}
+
+.milenia-body--scheme-lightbrown .calendar_wrap table #today {
+  background-color: #c19b76;
+}
+
+.milenia-body--scheme-green .calendar_wrap table #today {
+  background-color: #7eb71c;
+}
+
+/* ----------------------------------------
+                Events
+            ---------------------------------------- */
+
+.milenia-widget .milenia-events .milenia-event {
+  overflow: hidden;
+}
+
+.milenia-widget .milenia-events .milenia-event:not(:last-child) {
+  margin-bottom: 1.65rem;
+}
+
+.milenia-widget .milenia-events .milenia-event-date {
+  width: 4.875rem;
+  margin-right: 1.25rem;
+  float: left;
+}
+
+.milenia-widget .milenia-events .milenia-event-date-date {
+  font-size: 1.875rem;
+  line-height: 1;
+  font-weight: 700;
+  letter-spacing: -1.7px;
+}
+
+
+
+.milenia-widget .milenia-event-date-month-year {
+  font-size: 0.875rem;
+  line-height: 1.1rem;
+}
+
+.milenia-widget .milenia-events .milenia-event-address {
+  color: #1c1c1c;
+}
+
+.milenia-widget .milenia-events .milenia-event-body {
+  overflow: hidden;
+  margin-top: -0.175rem;
+}
+
+.milenia-widget .milenia-events .milenia-event-title {
+  font-size: 1.125rem;
+  line-height: 1.63125rem;
+}
+
+.milenia-widget .milenia-events .milenia-event-title a:not(.milenia-ln--independent):not(.milenia-btn),
+.milenia-widget .milenia-events .milenia-event-meta a:not(.milenia-ln--independent):not(.milenia-btn),
+.milenia-widget .recentcomments > a:not(.milenia-ln--independent):not(.milenia-btn) {
+  color: #1c1c1c;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(100%, #1c1c1c), to(#1c1c1c));
+  background-image: linear-gradient(to bottom, #1c1c1c 100%, #1c1c1c 100%);
+}
+
+.milenia-widget .milenia-events .milenia-event-title:not(:last-child) {
+  margin-bottom: 0.6rem;
+}
+
+.milenia-widget .milenia-events .milenia-event-meta {
+  color: #a5a5a5;
+  font-size: 0.6875rem;
+  line-height: 0.85938rem;
+  text-transform: uppercase;
+  letter-spacing: 1.1px;
+}
+
+.milenia-widget .milenia-events .milenia-event-meta > div:not(:last-child) {
+  margin-bottom: 0.35rem;
+}
+
+.milenia-body--scheme-brown .milenia-widget .milenia-event-date {
+  color: #ae745a;
+}
+
+.milenia-body--scheme-gray .milenia-widget .milenia-event-date {
+  color: #948685;
+}
+
+.milenia-body--scheme-blue .milenia-widget .milenia-event-date {
+  color: #19b1d1;
+}
+
+.milenia-body--scheme-lightbrown .milenia-widget .milenia-event-date {
+  color: #c19b76;
+}
+
+.milenia-body--scheme-green .milenia-widget .milenia-event-date {
+  color: #7eb71c;
+}
+
+/* ----------------------------------------
+                Recent Comments
+            ---------------------------------------- */
+
+.milenia-widget .recentcomments {
+  color: #a5a5a5;
+}
+
+.milenia-widget .recentcomments > a {
+  font-size: 1.125rem;
+  line-height: 1.63125rem;
+}
+
+/* ----------------------------------------
+                Email
+            ---------------------------------------- */
+
+.milenia-widget--email address:not(:last-child),
+.milenia-footer .milenia-widget--email address:not(:last-child) {
+  margin-bottom: 2rem;
+}
+
+/* ----------------------------------------
+                Info
+            ---------------------------------------- */
+
+.milenia-info-widget-logo:not(:last-child) {
+  margin-bottom: 2.4rem;
+}
+
+.milenia-info-widget .milenia-grid--cols-3:not(.milenia-grid--isotope):not(.owl-carousel) .milenia-grid-item,
+.milenia-info-widget .milenia-grid--cols-3:not(.milenia-grid--isotope):not(.owl-carousel) .milenia-grid-item--2x {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 1 33.33333%;
+  flex: 0 1 33.33333%;
+  max-width: 33.33333%;
+}
+
+.milenia-info-widget .milenia-grid--cols-3.milenia-grid--isotope .milenia-grid-item,
+.milenia-info-widget .milenia-grid--cols-3.milenia-grid--isotope .milenia-grid-sizer,
+.milenia-info-widget .milenia-grid--cols-3.milenia-grid--isotope .milenia-grid-item--2x {
+  width: 33.33333%;
+}
+
+.milenia-grid:not(.milenia-grid--cols-1) .milenia-info-widget .milenia-grid,
+.milenia-sidebar-hidden-content .milenia-info-widget .milenia-grid,
+.milenia-sidebar .milenia-info-widget .milenia-grid {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  max-width: initial !important;
+  margin-top: -1.875rem !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+.milenia-grid:not(.milenia-grid--cols-1) .milenia-info-widget .milenia-info-widget-logo,
+.milenia-sidebar-hidden-content .milenia-info-widget .milenia-info-widget-logo,
+.milenia-sidebar .milenia-info-widget .milenia-info-widget-logo {
+  max-width: initial !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+.milenia-grid:not(.milenia-grid--cols-1) .milenia-info-widget .milenia-grid--cols-3:not(.milenia-grid--isotope):not(.owl-carousel) .milenia-grid-item,
+.milenia-sidebar-hidden-content .milenia-info-widget .milenia-grid--cols-3:not(.milenia-grid--isotope):not(.owl-carousel) .milenia-grid-item,
+.milenia-sidebar .milenia-info-widget .milenia-grid--cols-3:not(.milenia-grid--isotope):not(.owl-carousel) .milenia-grid-item {
+  -webkit-box-flex: 0 !important;
+  -ms-flex: 0 1 100% !important;
+  flex: 0 1 100% !important;
+  max-width: 100% !important;
+  padding-top: 1.875rem !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+/* ----------------------------------------
+                Instafeed
+            ---------------------------------------- */
+
+.milenia-widget .milenia-instafeed {
+  max-width: 20rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.milenia-widget .milenia-instafeed .milenia-grid:not(.milenia-grid--no-gutters):not(.owl-carousel) {
+  margin-top: -2px !important;
+  margin-left: -1px !important;
+  margin-right: -1px !important;
+  margin-bottom: 0 !important;
+}
+
+.milenia-widget .milenia-instafeed .milenia-grid:not(.milenia-grid--no-gutters):not(.owl-carousel) .milenia-grid-item {
+  padding-top: 2px !important;
+  padding-left: 1px !important;
+  padding-right: 1px !important;
+  padding-bottom: 0 !important;
+}
+
+/* ----------------------------------------
+                Weather
+            ---------------------------------------- */
+
+.milenia-widget .milenia-weather-indicator--style-2,
+.milenia-widget .milenia-weather-indicator--style-2 + .milenia-icon-btn {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.milenia-widget .milenia-weather-indicator--style-2 + .milenia-icon-btn {
+  margin-left: 1rem;
+}
+
+.milenia-widget .milenia-weather-indicator--style-3 {
+  font-size: 3rem;
+  letter-spacing: -3px;
+}
+
+.milenia-widget .milenia-weather-indicator--style-3 .fa,
+.milenia-widget .milenia-weather-indicator--style-3 .fal,
+.milenia-widget .milenia-weather-indicator--style-3 .far,
+.milenia-widget .milenia-weather-indicator--style-3 .fab,
+.milenia-widget .milenia-weather-indicator--style-3 .fas,
+.milenia-widget .milenia-weather-indicator--style-3 .icon,
+.milenia-widget .milenia-weather-indicator--style-3 [class*="milenia-font-icon-"] {
+  color: inherit;
+  letter-spacing: 0;
+  margin-right: 0.8rem;
+  position: relative;
+  top: -0.4rem;
+}
+
+.milenia-widget .milenia-weather-indicator--style-3 sup {
+  letter-spacing: 0;
+  font-size: 1rem;
+  line-height: 1.125rem;
+  letter-spacing: 3px;
+  margin-left: 0.2rem;
+  vertical-align: top;
+  top: -0.15rem;
+}
+
+.milenia-widget .milenia-weather-indicator--style-3 sup span {
+  color: #1c1c1c;
+  vertical-align: baseline;
+}
+
+.milenia-body--scheme-brown .milenia-widget .milenia-weather-indicator--style-3 {
+  color: #ae745a;
+}
+
+.milenia-body--scheme-gray .milenia-widget .milenia-weather-indicator--style-3 {
+  color: #948685;
+}
+
+.milenia-body--scheme-blue .milenia-widget .milenia-weather-indicator--style-3 {
+  color: #19b1d1;
+}
+
+.milenia-body--scheme-lightbrown .milenia-widget .milenia-weather-indicator--style-3 {
+  color: #c19b76;
+}
+
+.milenia-body--scheme-green .milenia-widget .milenia-weather-indicator--style-3 {
+  color: #7eb71c;
+}
+
+/* ----------------------------------------
+                 Pages
+             ---------------------------------------- */
+
+.widget_pages .children,
+.widget_nav_menu .sub-menu {
+  padding-top: 0.8rem;
+  padding-left: 1.625rem;
+}
+
+/* ----------------------------------------
+                 RSS
+             ---------------------------------------- */
+
+.widget_rss .milenia-widget-title > a:first-child:not(:only-child) {
+  background-image: none !important;
+}
+
+.widget_rss .milenia-widget-title > a:first-child:not(:only-child) img {
+  vertical-align: baseline;
+}
+
+[class*="milenia-body--scheme-"] .widget_rss .milenia-widget-title a:not(.milenia-ln--independent):not(.milenia-color--unchangeable):not(.milenia-btn) {
+  color: #1c1c1c;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(100%, #1c1c1c), to(#1c1c1c));
+  background-image: linear-gradient(to bottom, #1c1c1c 100%, #1c1c1c 100%);
+}
+
+[class*="milenia-body--scheme-"] .milenia-colorizer--scheme-dark .widget_rss .milenia-widget-title a:not(.milenia-ln--independent):not(.milenia-color--unchangeable):not(.milenia-btn),
+[class*="milenia-body--scheme-"] .milenia-colorizer--scheme-primary .widget_rss .milenia-widget-title a:not(.milenia-ln--independent):not(.milenia-color--unchangeable):not(.milenia-btn),
+[class*="milenia-body--scheme-"] .milenia-colorizer--scheme-secondary .widget_rss .milenia-widget-title a:not(.milenia-ln--independent):not(.milenia-color--unchangeable):not(.milenia-btn) {
+  color: #ffffff;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(100%, #ffffff), to(#ffffff));
+  background-image: linear-gradient(to bottom, #ffffff 100%, #ffffff 100%);
+}
+
+.widget_rss .rss-date,
+.widget_rss cite {
+  color: #a5a5a5;
+  display: block;
+  font-size: 0.8125rem;
+  line-height: 1.55;
+  text-transform: uppercase;
+  letter-spacing: 1.3px;
+}
+
+.widget_rss .rss-date {
+  font-size: 0.75rem;
+}
+
+.widget_rss .rss-date:not(:first-child),
+.widget_rss cite:not(:first-child) {
+  margin-top: 0.5rem;
+}
+.widget_rss .rss-date:not(:last-child),
+.widget_rss cite:not(:last-child) {
+  margin-bottom: 0.5rem;
+}
+
+.milenia-widget.widget_rss:not(.milenia-widget--list-horizontal) ul:not(.milenia-list--unstyled) > li:not(:last-child) {
+  margin-bottom: 1.625rem;
+}
+
+/* ----------------------------------------
+                Check Availability
+            ---------------------------------------- */
+
+.milenia-sidebar .milenia-grid:not(.owl-carousel):not(.milenia-grid--no-gutters) .milenia-widget.milenia-grid-item.widget_mphb_search_availability_widget {
+  margin-top: 3.3rem;
+  padding-top: 1.45rem;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 0.9375rem;
+  margin-right: 0.9375rem;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 1 100%;
+  flex: 0 1 100%;
+  max-width: calc(100% - 1.875rem);
+}
+
+.widget_mphb_search_availability_widget .form-caption {
+  font-size: 0.75rem;
+  line-height: 1.125rem;
+  letter-spacing: 0.81px;
+  color: #a5a5a5;
+}
+
+.widget_mphb_search_availability_widget .form-caption:not(:first-child) {
+  margin-top: 1.85rem;
+}
+
+.widget_mphb_search_availability_widget .form-caption:not(:last-child) {
+  margin-bottom: 1.3rem;
+}
+
+.widget_mphb_search_availability_widget .milenia-booking-form-wrapper--v3 [class*="form-col"] {
+  padding-right: 1.25rem;
+}
+
+.widget_mphb_search_availability_widget {
+  border-width: 1px 1px 0 1px;
+  border-style: solid;
+  border-color: #ececec;
+}
+
+.widget_mphb_search_availability_widget .milenia-custom-select .milenia-selected-option {
+  color: #1c1c1c;
+}
+
+.widget_mphb_search_availability_widget .milenia-mphb-widget-inner,
+.widget_mphb_search_availability_widget .milenia-widget-title {
+  padding-left: 1.625rem;
+  padding-right: 1.625rem;
+}
+
+.widget_mphb_search_availability_widget .milenia-mphb-widget-inner .milenia-booking-form-wrapper--v3 .form-group:first-child .form-col {
+  border-top-width: 0;
+  padding-top: 0;
+}
+
+.widget_mphb_search_availability_widget .milenia-mphb-widget-inner .milenia-booking-form-wrapper--v3 .form-group::before,
+.widget_mphb_search_availability_widget .milenia-mphb-widget-inner .milenia-booking-form-wrapper--v3 .form-group::after,
+.widget_mphb_search_availability_widget .milenia-mphb-widget-inner .milenia-booking-form-wrapper--v3 [class*="form-col"]:first-child::before,
+.widget_mphb_search_availability_widget .milenia-mphb-widget-inner .milenia-booking-form-wrapper--v3 [class*="form-col"]:first-child::after,
+.widget_mphb_search_availability_widget .milenia-booking-form-wrapper--v3 input[type="checkbox"],
+.widget_mphb_search_availability_widget .milenia-booking-form-wrapper--v3 input[type="radio"] {
+  display: none;
+}
+
+.widget_mphb_search_availability_widget .milenia-mphb-widget-inner .form-col--action {
+  padding-top: 0.8rem;
+  margin-left: -1.625rem;
+  margin-right: -1.625rem;
+}
+
+.widget_mphb_search_availability_widget .milenia-mphb-widget-inner [class*="form-col"]:first-child {
+  padding-left: 0;
+}
+
+.widget_mphb_search_availability_widget .milenia-mphb-widget-inner [class*="form-col"]:last-child {
+  padding-right: 0;
+}
+
+.widget_mphb_search_availability_widget .milenia-booking-form-wrapper--v3 .form-col--children {
+  border-bottom-width: 0px;
+}
+
+.milenia-body--scheme-green .widget_mphb_search_availability_widget {
+  color: #eaeaea;
+  background-color: #7eb71c;
+  border-width: 0;
+}
+
+.milenia-body--scheme-green .widget_mphb_search_availability_widget [class*="form-col"] {
+  border: none !important;
+  padding-bottom: 0.5rem;
+}
+
+.milenia-body--scheme-green .widget_mphb_search_availability_widget .form-col--action {
+  padding-bottom: 0;
+  padding-top: 1.3rem;
+}
+
+.milenia-body--scheme-green .widget_mphb_search_availability_widget .milenia-field-datepicker {
+  display: block;
+  position: relative;
+  padding-right: 3rem;
+  padding-left: 1.2rem;
+  font-size: 1.125rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.milenia-body--scheme-green .widget_mphb_search_availability_widget .milenia-field-datepicker,
+.milenia-body--scheme-green .widget_mphb_search_availability_widget .milenia-booking-form-wrapper--v3 [class*="form-col"] .milenia-custom-select .milenia-selected-option {
+  color: #fff;
+  height: 2.4rem;
+  line-height: 2.4rem;
+  font-size: 1rem;
+  font-weight: 400;
+  border-width: 1px;
+  border-style: solid;
+}
+
+.milenia-body--scheme-green .widget_mphb_search_availability_widget .milenia-booking-form-wrapper--v3 [class*="form-col"] .milenia-custom-select .milenia-selected-option {
+  padding-left: 1.25rem;
+  padding-right: 2.625rem;
+}
+
+.milenia-body--scheme-green .widget_mphb_search_availability_widget .milenia-booking-form-wrapper--v3 [class*="form-col"] .milenia-custom-select .milenia-selected-option::before,
+.milenia-body--scheme-green .widget_mphb_search_availability_widget .milenia-booking-form-wrapper--v3 [class*="form-col"] .milenia-custom-select .milenia-selected-option::after {
+  font-size: 1.25rem;
+  line-height: inherit;
+  position: absolute;
+  top: 0;
+  right: 1rem;
+  color: inherit;
+}
+
+.milenia-body--scheme-green .widget_mphb_search_availability_widget .milenia-field-datepicker::after {
+  font-size: 1.25rem;
+  line-height: inherit;
+  top: 0;
+  right: 1.2rem;
+}
+
+.milenia-body--scheme-green .widget_mphb_search_availability_widget .form-caption {
+  color: #eaeaea;
+}
+
+
+.milenia-body--scheme-brown .widget_mphb_search_availability_widget {
+  color: #858585;
+  background-color: #1c1c1c;
+  border-width: 0;
+}
+
+.milenia-body--scheme-brown .widget_mphb_search_availability_widget .form-caption {
+  color: rgba(255, 255, 255, 0.35);
+}
+
+.milenia-body--scheme-brown .widget_mphb_search_availability_widget .milenia-booking-form-wrapper--v3 [class*="form-col"] {
+  border-color: rgba(255, 255, 255, 0.08);
+}
+
+.milenia-body--scheme-brown .widget_mphb_search_availability_widget .milenia-booking-form-wrapper--v3 .milenia-custom-select .milenia-selected-option,
+.milenia-body--scheme-brown .widget_mphb_search_availability_widget .milenia-booking-form-wrapper--v3 .milenia-custom-select .milenia-selected-option::before,
+.milenia-body--scheme-brown .widget_mphb_search_availability_widget .milenia-booking-form-wrapper--v3 .milenia-custom-select .milenia-selected-option::after {
+  color: #f1f1f1;
+}
+
+.milenia-body--scheme-brown .widget_mphb_search_availability_widget .milenia-field-datepicker {
+  color: #fff;
+}
+
+.milenia-body--scheme-green .widget_mphb_search_availability_widget h1,
+.milenia-body--scheme-green .widget_mphb_search_availability_widget h2,
+.milenia-body--scheme-green .widget_mphb_search_availability_widget h3,
+.milenia-body--scheme-green .widget_mphb_search_availability_widget h4,
+.milenia-body--scheme-green .widget_mphb_search_availability_widget h5,
+.milenia-body--scheme-green .widget_mphb_search_availability_widget h6,
+.milenia-body--scheme-brown .widget_mphb_search_availability_widget h1,
+.milenia-body--scheme-brown .widget_mphb_search_availability_widget h2,
+.milenia-body--scheme-brown .widget_mphb_search_availability_widget h3,
+.milenia-body--scheme-brown .widget_mphb_search_availability_widget h4,
+.milenia-body--scheme-brown .widget_mphb_search_availability_widget h5,
+.milenia-body--scheme-brown .widget_mphb_search_availability_widget h6 {
+  color: #fff;
+}
+
+/* ----------------------------------------
+        Footer
+    ---------------------------------------- */
+
+.milenia-footer {
+  font-size: 0.875rem;
+  line-height: 1.6625rem;
+}
+
+.milenia-footer address {
+  font-style: normal;
+}
+
+.milenia-footer address:not(:last-child) {
+  margin-bottom: 0.8rem;
+}
+
+.milenia-footer .milenia-icon-btn {
+  color: #1c1c1c;
+  font-size: 1.875rem;
+}
+
+.milenia-footer .milenia-widget {
+  font-size: inherit;
+  line-height: inherit;
+}
+
+.milenia-footer .milenia-widget ul:not(.milenia-list--unstyled) {
+  letter-spacing: 1.05px;
+}
+
+.milenia-footer .milenia-widget .milenia-alert-box {
+  max-width: 85%;
+}
+
+.milenia-footer .milenia-widget .milenia-alert-box {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.milenia-footer h1:not(:last-child), .milenia-footer h2:not(:last-child), .milenia-footer h3:not(:last-child), .milenia-footer h4:not(:last-child), .milenia-footer h5:not(:last-child), .milenia-footer h6:not(:last-child) {
+  margin-bottom: 0.8rem;
+}
+
+.milenia-footer-items {
+  display: inline-block;
+  margin-top: -0.6rem;
+  margin-left: -0.6rem;
+  margin-right: -0.6rem;
+}
+
+.milenia-footer-items > div {
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 1.2rem;
+  margin-left: 0.6rem;
+  margin-right: 0.6rem;
+}
+
+/* ----------------------------------------
+            Footer row
+        ---------------------------------------- */
+
+.milenia-footer-row--inner {
+  padding-top: 5.625rem;
+  padding-bottom: 5.75rem;
+  padding-left: 2.5rem;
+  padding-right: 2.6rem;
+  border-style: solid;
+  border-color: #ececec;
+}
+
+.milenia-footer-row--thin .milenia-footer-row--inner {
+  padding-top: 1.5625rem;
+  padding-bottom: 1.5625rem;
+}
+
+.milenia-footer-row--average .milenia-footer-row--inner {
+  padding-top: 2.75rem;
+  padding-bottom: 2.75rem;
+}
+
+.milenia-footer-row--medium .milenia-footer-row--inner {
+  padding-top: 5rem;
+  padding-bottom: 4.2rem;
+}
+
+.milenia-footer-row--uppercased-titles .milenia-widget-title {
+  text-transform: uppercase;
+  font-size: 1.125rem;
+  letter-spacing: 0.5px;
+}
+
+.milenia-footer-row--titles-large-offset .milenia-widget-title:not(:last-child),
+.milenia-footer-row--uppercased-titles .milenia-widget-title:not(:last-child) {
+  margin-bottom: 1.6rem;
+}
+
+.container .milenia-footer-row--inner.milenia-footer-row-inner--no-offsets {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.milenia-footer-row--widget-border .milenia-widget {
+  position: relative;
+}
+
+.milenia-footer-row--widget-border .milenia-widget::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 0;
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-color: #ececec;
+  top: 0;
+  bottom: 0;
+  right: -1px;
+}
+
+.milenia-footer .milenia-footer-row--widget-border .milenia-grid:not(.milenia-grid--no-gutters):not(.owl-carousel) {
+  margin-left: -2.7rem;
+  margin-right: -2.7rem;
+}
+
+.milenia-footer .milenia-footer-row--widget-border .milenia-grid:not(.milenia-grid--no-gutters):not(.owl-carousel) .milenia-grid-item {
+  padding-left: 2.7rem;
+  padding-right: 2.7rem;
+}
+
+.milenia-footer-row:not([class*="milenia-colorizer--scheme-"]) + .milenia-footer-row:not([class*="milenia-colorizer--scheme-"]) > .milenia-footer-row--inner,
+.milenia-footer-row:not([class*="milenia-colorizer--scheme-"]) + .milenia-footer-row:not([class*="milenia-colorizer--scheme-"]) > .container > .milenia-footer-row--inner,
+.milenia-footer-row:not([class*="milenia-colorizer--scheme-"]) + .milenia-footer-row:not([class*="milenia-colorizer--scheme-"]) > .container-fluid > .milenia-footer-row--inner,
+[class*="milenia-colorizer--scheme-"] + [class*="milenia-colorizer--scheme-"] > .milenia-footer-row--inner,
+[class*="milenia-colorizer--scheme-"] + [class*="milenia-colorizer--scheme-"] > .container > .milenia-footer-row--inner,
+[class*="milenia-colorizer--scheme-"] + [class*="milenia-colorizer--scheme-"] > .container-fluid > .milenia-footer-row--inner {
+  border-top-width: 1px;
+}
+
+/* ----------------------------------------
+            Footer grid
+        ---------------------------------------- */
+
+.milenia-footer .milenia-grid:not(.milenia-grid--no-gutters):not(.owl-carousel) {
+  margin-top: -2.7rem;
+  margin-left: -0.9375rem;
+  margin-right: -0.9375rem;
+}
+
+.milenia-footer .milenia-grid:not(.milenia-grid--no-gutters):not(.owl-carousel) .milenia-grid-item {
+  padding-top: 2.7rem;
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+}
+
+.milenia-footer .milenia-footer-row--thin .milenia-grid:not(.milenia-grid--no-gutters):not(.owl-carousel) {
+  margin-top: -0.8rem;
+  margin-left: -0.9375rem;
+  margin-right: -0.9375rem;
+}
+
+.milenia-footer .milenia-footer-row--thin .milenia-grid:not(.milenia-grid--no-gutters):not(.owl-carousel) .milenia-grid-item {
+  padding-top: 0.8rem;
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+}
+
+.milenia-footer .milenia-footer-row--thin.milenia-footer-row--widget-border .milenia-grid:not(.milenia-grid--no-gutters):not(.owl-carousel) {
+  margin-bottom: -0.8rem;
+}
+
+.milenia-footer .milenia-footer-row--thin.milenia-footer-row--widget-border .milenia-grid:not(.milenia-grid--no-gutters):not(.owl-carousel) .milenia-grid-item {
+  padding-bottom: 0.8rem;
+}
+
+.milenia-footer .milenia-footer-row--widget-border .milenia-grid:not(.milenia-grid--no-gutters):not(.owl-carousel) {
+  margin-bottom: -2.7rem;
+}
+
+.milenia-footer .milenia-footer-row--widget-border .milenia-grid:not(.milenia-grid--no-gutters):not(.owl-carousel) .milenia-grid-item {
+  padding-bottom: 2.7rem;
+}
+
+.milenia-footer-row.milenia-colorizer--scheme-dark .milenia-footer-row--inner, .milenia-footer-row.milenia-colorizer--scheme-primary .milenia-footer-row--inner, .milenia-footer-row.milenia-colorizer--scheme-secondary .milenia-footer-row--inner {
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.milenia-footer-row.milenia-colorizer--scheme-dark.milenia-footer-row--widget-border .milenia-widget::after, .milenia-footer-row.milenia-colorizer--scheme-primary.milenia-footer-row--widget-border .milenia-widget::after, .milenia-footer-row.milenia-colorizer--scheme-secondary.milenia-footer-row--widget-border .milenia-widget::after {
+  border-color: rgba(255, 255, 255, 0.08);
+}
+
+.milenia-widget.milenia-widget--left-aligned {
+  text-align: left;
+}
+
+.milenia-widget.milenia-widget--right-aligned {
+  text-align: right;
+}
+
+.milenia-widget.milenia-widget--center-aligned {
+  text-align: center;
+}
+
+.milenia-widget.milenia-widget--center-aligned ul.children,
+.milenia-widget.milenia-widget--center-aligned ul.sub-menu {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.milenia-widget.milenia-widget--top-valigned .milenia-grid-item-content {
+  margin-bottom: auto;
+  margin-top: 0;
+}
+
+.milenia-widget.milenia-widget--middle-valigned .milenia-grid-item-content {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.milenia-widget.milenia-widget--bottom-valigned .milenia-grid-item-content {
+  margin-top: auto;
+  margin-bottom: 0;
+}
+
+/* ----------------------------------------
+        Grid
+    ---------------------------------------- */
+
+.milenia-grid--tabbed {
+  margin-top: 0 !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+.milenia-grid--tabbed .milenia-grid-item {
+  padding: 0 !important;
+}
+
+.milenia-grid--tabbed-loading {
+  height: 300px;
+  overflow: hidden;
+}
+
+.milenia-grid--tabbed-loading::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 3;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("assets/images/loader.gif");
+}
+
+.milenia-grid-item-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+}
+
+.milenia-grid-item-content {
+  width: 100%;
+  margin-bottom: auto;
+}
+
+.milenia-grid--valign-top .milenia-grid-item-content,
+.milenia-grid--valign-middle .milenia-grid-item-content {
+  margin-bottom: auto;
+}
+
+.milenia-grid--valign-bottom .milenia-grid-item-content,
+.milenia-grid--valign-middle .milenia-grid-item-content {
+  margin-top: auto;
+}
+
+.milenia-grid--valign-bottom .milenia-grid-item-content {
+  margin-bottom: 0;
+}
+
+.milenia-grid:not(.milenia-grid--isotope):not(.owl-carousel) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-line-pack: stretch;
+  align-content: stretch;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
+.milenia-grid:not(.milenia-grid--isotope):not(.owl-carousel) .milenia-grid-item {
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.milenia-grid:not([class*="milenia-grid--cols-"]) .milenia-grid-item {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 1 100%;
+  flex: 0 1 100%;
+  max-width: 100%;
+}
+
+.milenia-grid:not(.owl-carousel):not(.milenia-grid--no-gutters) {
+  margin-top: -3rem;
+  margin-left: -0.9375rem;
+  margin-right: -0.9375rem;
+  margin-bottom: 0rem;
+}
+
+.milenia-entities.milenia-entities--no-gutters .milenia-grid {
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.milenia-grid:not(.owl-carousel):not(.milenia-grid--no-gutters) > .milenia-grid-item {
+  padding-top: 3rem;
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+  padding-bottom: 0rem;
+}
+
+.milenia-entities.milenia-entities--no-gutters .milenia-grid .milenia-grid-item {
+  padding-top: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+body:not(.milenia-body--border-layout) [class*="milenia-section--stretched"] .milenia-grid--isotope:not(.milenia-grid--no-gutters) {
+  margin-left: 0.9375rem;
+  margin-right: 0.9375rem;
+}
+
+.milenia-grid--isotope {
+  -webkit-transition: height .5s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: height .5s cubic-bezier(0.165, 0.84, 0.44, 1);
+  overflow: hidden;
+}
+
+.milenia-grid--isotope:not(.milenia-grid--no-gutters) {
+  margin-top: -1.875rem;
+  margin-left: -0.9375rem;
+  margin-right: -0.9375rem;
+  margin-bottom: 0;
+}
+
+.milenia-grid--isotope:not(.milenia-grid--no-gutters) .milenia-grid-item {
+  padding-top: 1.875rem;
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+  padding-bottom: 0;
+}
+
+/* .milenia-grid--cols-1 .milenia-grid-item:not(.milenia-grid--isotope) {
+            width: auto !important;
+        } */
+
+.milenia-grid--cols-5:not(.milenia-grid--isotope):not(.owl-carousel) .milenia-grid-item {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 1 20%;
+  flex: 0 1 20%;
+  max-width: 20%;
+}
+
+.milenia-grid--cols-5.milenia-grid--isotope .milenia-grid-item,
+.milenia-grid--cols-5.milenia-grid--isotope .milenia-grid-sizer {
+  width: 20%;
+}
+
+.milenia-grid--cols-4.milenia-grid--isotope .milenia-grid-item,
+.milenia-grid--cols-4.milenia-grid--isotope .milenia-grid-sizer {
+  width: 25%;
+}
+
+.milenia-grid--cols-5:not(.milenia-grid--isotope):not(.owl-carousel) .milenia-grid-item--2x {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 1 40%;
+  flex: 0 1 40%;
+  max-width: 40%;
+}
+
+.milenia-grid--cols-5.milenia-grid--isotope .milenia-grid-item--2x {
+  width: 40%;
+}
+
+.milenia-grid--cols-6:not(.milenia-grid--isotope):not(.owl-carousel) .milenia-grid-item {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 1 16.66667%;
+  flex: 0 1 16.66667%;
+  max-width: 16.66667%;
+}
+
+.milenia-grid--cols-6.milenia-grid--isotope .milenia-grid-item,
+.milenia-grid--cols-6.milenia-grid--isotope .milenia-grid-sizer {
+  width: 16.66667%;
+}
+
+.milenia-grid--cols-3:not(.milenia-grid--isotope):not(.owl-carousel) .milenia-grid-item,
+.milenia-entities--cols-3:not(.milenia-entities--isotope):not(.owl-carousel) .milenia-grid-item,
+.milenia-grid--cols-6:not(.milenia-grid--isotope):not(.owl-carousel) .milenia-grid-item--2x,
+.milenia-has-sidebar .milenia-grid--cols-6:not(.milenia-grid--isotope):not(.owl-carousel) .milenia-grid-item,
+.milenia-has-sidebar .milenia-grid--cols-5:not(.milenia-grid--isotope):not(.owl-carousel) .milenia-grid-item,
+.milenia-has-sidebar .milenia-grid--cols-4:not(.milenia-grid--isotope):not(.owl-carousel) .milenia-grid-item,
+.milenia-has-sidebar .milenia-entities--cols-4:not(.milenia-entities--isotope):not(.owl-carousel) .milenia-grid-item,
+.milenia-has-sidebar .milenia-grid--cols-6:not(.milenia-grid--isotope):not(.owl-carousel) .milenia-grid-item--2x,
+.milenia-has-sidebar .milenia-grid--cols-5:not(.milenia-grid--isotope):not(.owl-carousel) .milenia-grid-item--2x,
+.milenia-has-sidebar .milenia-grid--cols-4:not(.milenia-grid--isotope):not(.owl-carousel) .milenia-grid-item--2x {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 1 33.33333%;
+  flex: 0 1 33.33333%;
+  max-width: 33.33333%;
+}
+
+.milenia-has-sidebar .milenia-grid--cols-4:not(.milenia-grid--isotope):not(.owl-carousel) .milenia-grid-item,
+.milenia-grid--cols-4:not(.milenia-grid--isotope):not(.owl-carousel) .milenia-grid-item,
+.milenia-entities--cols-4:not(.milenia-entities--isotope):not(.owl-carousel) .milenia-grid-item {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 1 25%;
+  flex: 0 1 25%;
+  max-width: 25%;
+}
+
+.milenia-has-sidebar .milenia-grid--cols-5:not(.milenia-grid--isotope):not(.owl-carousel) .milenia-grid-item {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 1 20%;
+  flex: 0 1 20%;
+  max-width: 20%;
+}
+
+.milenia-grid--cols-3.milenia-grid--isotope .milenia-grid-item,
+.milenia-grid--cols-3.milenia-grid--isotope .milenia-grid-sizer,
+.milenia-grid--cols-6.milenia-grid--isotope .milenia-grid-item--2x,
+.milenia-has-sidebar .milenia-grid--cols-6.milenia-grid--isotope .milenia-grid-item,
+.milenia-has-sidebar .milenia-grid--cols-6.milenia-grid--isotope .milenia-grid-sizer,
+.milenia-has-sidebar .milenia-grid--cols-5.milenia-grid--isotope .milenia-grid-item,
+.milenia-has-sidebar .milenia-grid--cols-5.milenia-grid--isotope .milenia-grid-sizer,
+.milenia-has-sidebar .milenia-grid--cols-4.milenia-grid--isotope .milenia-grid-item,
+.milenia-has-sidebar .milenia-grid--cols-4.milenia-grid--isotope .milenia-grid-sizer {
+  width: 33.33333%;
+}
+
+.milenia-grid--cols-2:not(.milenia-grid--isotope):not(.owl-carousel) .milenia-grid-item,
+.milenia-entities--cols-2:not(.milenia-entities--isotope):not(.owl-carousel) .milenia-grid-item,
+.milenia-grid--cols-4:not(.milenia-grid--isotope):not(.owl-carousel) .milenia-grid-item--2x {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 1 50%;
+  flex: 0 1 50%;
+  max-width: 50%;
+}
+
+.milenia-grid--cols-2.milenia-grid--isotope .milenia-grid-item,
+.milenia-grid--cols-2.milenia-grid--isotope .milenia-grid-sizer,
+.milenia-grid--cols-4.milenia-grid--isotope .milenia-grid-item--2x {
+  width: 50%;
+}
+
+.milenia-grid--cols-3:not(.milenia-grid--isotope):not(.owl-carousel) .milenia-grid-item--2x {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 1 66.66667%;
+  flex: 0 1 66.66667%;
+  max-width: 66.66667%;
+}
+
+.milenia-grid--cols-3.milenia-grid--isotope .milenia-grid-item--2x,
+.milenia-has-sidebar .milenia-grid--cols-6.milenia-grid--isotope .milenia-grid-item--2x,
+.milenia-has-sidebar .milenia-grid--cols-5.milenia-grid--isotope .milenia-grid-item--2x,
+.milenia-has-sidebar .milenia-grid--cols-4.milenia-grid--isotope .milenia-grid-item--2x {
+  width: 66.66667%;
+}
+
+.milenia-grid--cols-1:not(.milenia-grid--isotope):not(.owl-carousel) .milenia-grid-item,
+.milenia-entities--cols-1:not(.milenia-entities--isotope):not(.owl-carousel) .milenia-grid-item,
+.milenia-grid--cols-2:not(.milenia-grid--isotope):not(.owl-carousel) .milenia-grid-item--2x,
+.milenia-grid--cols-1 .milenia-grid-item:not(.milenia-grid--isotope),
+.milenia-grid--responsive-xxxl[class*="milenia-grid--cols-"]:not(.milenia-grid--isotope):not(.owl-carousel) .milenia-grid-item,
+.milenia-grid--responsive-xxxl[class*="milenia-grid--cols-"]:not(.milenia-grid--isotope):not(.owl-carousel) .milenia-grid-item--2x {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 1 100%;
+  flex: 0 1 100%;
+  max-width: 100%;
+}
+
+.milenia-grid--cols-2.milenia-grid--isotope .milenia-grid-item--2x,
+.milenia-grid--responsive-xxxl[class*="milenia-grid--cols-"].milenia-grid--isotope .milenia-grid-item,
+.milenia-grid--responsive-xxxl[class*="milenia-grid--cols-"].milenia-grid--isotope .milenia-grid-sizer,
+.milenia-grid--responsive-xxxl[class*="milenia-grid--cols-"].milenia-grid--isotope .milenia-grid-item--2x,
+.milenia-grid--cols-1.milenia-grid--isotope .milenia-grid-item,
+.milenia-grid--cols-1.milenia-grid--isotope .milenia-grid-sizer {
+  width: 100%;
+}
+
+/* ----------------------------------------
+        Aligner
+    ---------------------------------------- */
+
+.milenia-aligner .milenia-aligner-outer {
+  display: table;
+  width: 100%;
+  height: 100%;
+  table-layout: fixed;
+}
+
+.milenia-aligner .milenia-aligner-inner {
+  display: table-cell;
+  width: 100%;
+  height: 100%;
+}
+
+.milenia-aligner--valign-top .milenia-aligner-inner {
+  vertical-align: top;
+}
+
+.milenia-aligner--valign-middle .milenia-aligner-inner {
+  vertical-align: middle;
+}
+
+.milenia-aligner--valign-bottom .milenia-aligner-inner {
+  vertical-align: bottom;
+}
+
+.milenia-aligner--halign-left .milenia-aligner-inner {
+  text-align: left;
+}
+
+.milenia-aligner--halign-center .milenia-aligner-inner {
+  text-align: center;
+}
+
+.milenia-aligner--halign-right .milenia-aligner-inner,
+.milenia-columns-aligner--edges > [class*="col"]:last-child:not(:only-child) {
+  text-align: right;
+}
+
+/* ----------------------------------------
+        Square image
+    ---------------------------------------- */
+
+.milenia-square-image[data-bg-image-src] {
+  position: relative;
+  height: 0;
+  padding-bottom: 100%;
+}
+
+.milenia-square-image[data-bg-image-src] a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.milenia-square-image.milenia-square-image--size-90 {
+  padding-bottom: 90%;
+}
+
+.milenia-square-image.milenia-square-image--size-80 {
+  padding-bottom: 80%;
+}
+
+.milenia-square-image.milenia-square-image--size-70 {
+  padding-bottom: 70%;
+}
+
+.milenia-square-image.milenia-square-image--size-60 {
+  padding-bottom: 60%;
+}
+
+.milenia-square-image.milenia-square-image--size-50 {
+  padding-bottom: 50%;
+}
+
+.milenia-square-image.milenia-square-image--size-40 {
+  padding-bottom: 40%;
+}
+
+.milenia-square-image--position-left-top {
+  background-position: left top;
+}
+
+.milenia-square-image--position-left-center {
+  background-position: left center;
+}
+
+.milenia-square-image--position-left-bottom {
+  background-position: left bottom;
+}
+
+.milenia-square-image--position-center-top {
+  background-position: center top;
+}
+
+.milenia-square-image--position-center-center {
+  background-position: center center;
+}
+
+.milenia-square-image--position-center-bottom {
+  background-position: center bottom;
+}
+
+.milenia-square-image--position-right-top {
+  background-position: right top;
+}
+
+.milenia-square-image--position-right-center {
+  background-position: right center;
+}
+
+.milenia-square-image--position-right-bottom {
+  background-position: right bottom;
+}
+
+[class*="milenia-flexible-grid-col"] .milenia-square-image[data-bg-image-src] {
+  padding-bottom: 0;
+  height: 100%;
+  min-height: 30rem;
+}
+
+/* ----------------------------------------
+        Flexible Grid
+    ---------------------------------------- */
+
+.milenia-flexible-grid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.milenia-multicolor-limitation {
+  max-width: 15rem;
+}
+
+[class*="milenia-flexible-grid-col"] {
+  position: relative;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 1 100%;
+  flex: 0 1 100%;
+  max-width: 100%;
+}
+
+[class*="milenia-flexible-grid-col"] > [class*="milenia-colorizer--scheme-"],
+[class*="milenia-flexible-grid-col"] > .milenia-colorizer-functionality {
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+[class*="milenia-flexible-grid-col"] .milenia-aligner-inner > [data-bg-image-src]:only-child,
+[class*="milenia-flexible-grid-col"] .milenia-aligner-inner > .milenia-gmap:only-child {
+  width: 101%;
+}
+
+.milenia-flexible-grid-col-1 {
+  flex: 0 1 8.33333%;
+  max-width: 8.33333%;
+}
+
+.milenia-flexible-grid-col-2 {
+  flex: 0 1 16.66667%;
+  max-width: 16.66667%;
+}
+
+.milenia-flexible-grid-col-3 {
+  flex: 0 1 25%;
+  max-width: 25%;
+}
+
+.milenia-flexible-grid-col-4 {
+  flex: 0 1 33.33333%;
+  max-width: 33.33333%;
+}
+
+.milenia-flexible-grid-col-5 {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 1 41.66667%;
+  flex: 0 1 41.66667%;
+  max-width: 41.66667%;
+}
+
+.milenia-flexible-grid-col-6 {
+  flex: 0 1 50%;
+  max-width: 50%;
+}
+
+.milenia-flexible-grid-col-7 {
+  flex: 0 1 58.33333%;
+  max-width: 58.33333%;
+}
+
+.milenia-flexible-grid-col-8 {
+  flex: 0 1 66.66667%;
+  max-width: 66.66667%;
+}
+
+.milenia-flexible-grid-col-9 {
+  flex: 0 1 75%;
+  max-width: 75%;
+}
+
+.milenia-flexible-grid-col-10 {
+  flex: 0 1 83.33333%;
+  max-width: 83.33333%;
+}
+
+.milenia-flexible-grid-col-11 {
+  flex: 0 1 91.66667%;
+  max-width: 91.66667%;
+}
+
+.milenia-flexible-grid-col-12 {
+  flex: 0 1 100%;
+  max-width: 100%;
+}
+
+/* ----------------------------------------
+        Page Header
+    ---------------------------------------- */
+
+.milenia-page-header:not(:last-child) {
+  margin-bottom: 2.3rem;
+}
+
+/* ----------------------------------------
+        Modals
+    ---------------------------------------- */
+
+.milenia-modal {
+  text-align: center;
+  color: #f8f8f8;
+}
+
+.milenia-modal h1,
+.milenia-modal h2,
+.milenia-modal h3,
+.milenia-modal h4,
+.milenia-modal h5,
+.milenia-modal h6 {
+  color: #fff;
+}
+
+/* ----------------------------------------
+        Arctic Modal
+    ---------------------------------------- */
+
+.arcticmodal-container table {
+  background-color: transparent;
+  border: none;
+}
+
+.arcticmodal-container table tr {
+  border: none;
+  -webkit-transition: none;
+  transition: none;
+}
+
+.arcticmodal-container table tr:hover {
+  background-color: transparent;
+}
+
+.arcticmodal-container .arcticmodal-close {
+  font-size: 1.875rem;
+  position: absolute;
+  top: 1.25rem;
+  right: 1.25rem;
+}
+
+.admin-bar .arcticmodal-container .arcticmodal-close {
+  top: 2.8rem;
+}
+
+/* ----------------------------------------
+            Search Modal
+        ---------------------------------------- */
+
+.milenia-modal--search .milenia-singlefield-form {
+  max-width: 37.5rem;
+}
+
+.milenia-modal--search .milenia-singlefield-form input[type="text"], .milenia-modal--search .milenia-singlefield-form input[type="search"], .milenia-modal--search .milenia-singlefield-form input[type="date"], .milenia-modal--search .milenia-singlefield-form input[type="datetime-local"], .milenia-modal--search .milenia-singlefield-form input[type="email"], .milenia-modal--search .milenia-singlefield-form input[type="file"], .milenia-modal--search .milenia-singlefield-form input[type="month"], .milenia-modal--search .milenia-singlefield-form input[type="number"], .milenia-modal--search .milenia-singlefield-form input[type="password"], .milenia-modal--search .milenia-singlefield-form input[type="tel"], .milenia-modal--search .milenia-singlefield-form input[type="time"], .milenia-modal--search .milenia-singlefield-form input[type="url"], .milenia-modal--search .milenia-singlefield-form input[type="week"], .milenia-modal--search .milenia-singlefield-form textarea {
+  height: 3.4375rem;
+}
+
+/* ----------------------------------------
+        Responsive Iframe
+    ---------------------------------------- */
+
+.milenia-responsive-iframe {
+  position: relative;
+  height: 0;
+  padding-bottom: 56%;
+}
+
+.milenia-responsive-iframe > iframe {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.milenia-fullwidth-iframe > iframe {
+  width: 100%;
+}
+
+/* ----------------------------------------
+        Colorizer
+    ---------------------------------------- */
+
+[class*="milenia-colorizer--scheme-"],
+.milenia-colorizer-functionality {
+  position: relative;
+}
+
+.container .milenia-section[class*="milenia-colorizer--scheme-"]:not([class*="milenia-section--stretched"]):not(.milenia-section--no-adaptive) {
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+}
+
+.milenia-colorizer-bg-color, .milenia-colorizer-bg-image {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: -2;
+  border-radius: inherit;
+}
+
+.milenia-colorizer-bg-image {
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.milenia-colorizer--parallax .milenia-colorizer-bg-image {
+  background-attachment: fixed;
+}
+
+.milenia-touchevents .milenia-colorizer--parallax .milenia-colorizer-bg-image {
+  background-size: cover !important;
+  background-position: center !important;
+  background-attachment: scroll !important;
+}
+
+.milenia-colorizer--scheme-lightest .milenia-colorizer-bg-color {
+  background-color: #f8f8f8;
+}
+
+.milenia-colorizer--scheme-light .milenia-colorizer-bg-color {
+  background-color: #f1f1f1;
+}
+
+.milenia-colorizer--scheme-dark .milenia-colorizer-bg-color {
+  background-color: #1c1c1c;
+}
+
+.milenia-colorizer--half-filled .milenia-colorizer-bg-color {
+  bottom: 45.3%;
+}
+
+.milenia-colorizer--bg-image-opacity-10 .milenia-colorizer-bg-image,
+.milenia-colorizer--bg-color-opacity-10 .milenia-colorizer-bg-color {
+  opacity: 0.1;
+}
+
+.milenia-colorizer--bg-image-opacity-20 .milenia-colorizer-bg-image,
+.milenia-colorizer--bg-color-opacity-20 .milenia-colorizer-bg-color {
+  opacity: 0.2;
+}
+
+.milenia-colorizer--bg-image-opacity-30 .milenia-colorizer-bg-image,
+.milenia-colorizer--bg-color-opacity-30 .milenia-colorizer-bg-color {
+  opacity: 0.3;
+}
+
+.milenia-colorizer--bg-image-opacity-40 .milenia-colorizer-bg-image,
+.milenia-colorizer--bg-color-opacity-40 .milenia-colorizer-bg-color {
+  opacity: 0.4;
+}
+
+.milenia-colorizer--bg-image-opacity-50 .milenia-colorizer-bg-image,
+.milenia-colorizer--bg-color-opacity-50 .milenia-colorizer-bg-color {
+  opacity: 0.5;
+}
+
+.milenia-colorizer--bg-image-opacity-60 .milenia-colorizer-bg-image,
+.milenia-colorizer--bg-color-opacity-60 .milenia-colorizer-bg-color {
+  opacity: 0.6;
+}
+
+.milenia-colorizer--bg-image-opacity-70 .milenia-colorizer-bg-image,
+.milenia-colorizer--bg-color-opacity-70 .milenia-colorizer-bg-color {
+  opacity: 0.7;
+}
+
+.milenia-colorizer--bg-image-opacity-80 .milenia-colorizer-bg-image,
+.milenia-colorizer--bg-color-opacity-80 .milenia-colorizer-bg-color {
+  opacity: 0.8;
+}
+
+.milenia-colorizer--bg-image-opacity-90 .milenia-colorizer-bg-image,
+.milenia-colorizer--bg-color-opacity-90 .milenia-colorizer-bg-color {
+  opacity: 0.9;
+}
+
+.milenia-colorizer--scheme-dark .milenia-text-color--contrast,
+.milenia-colorizer--scheme-primary .milenia-text-color--contrast,
+.milenia-colorizer--scheme-secondary .milenia-text-color--contrast,
+.milenia-colorizer--scheme-dark h1:not(.milenia-color--unchangeable), .milenia-colorizer--scheme-dark h2:not(.milenia-color--unchangeable), .milenia-colorizer--scheme-dark h3:not(.milenia-color--unchangeable), .milenia-colorizer--scheme-dark h4:not(.milenia-color--unchangeable), .milenia-colorizer--scheme-dark h5:not(.milenia-color--unchangeable), .milenia-colorizer--scheme-dark h6:not(.milenia-color--unchangeable),
+.milenia-colorizer--scheme-primary h1:not(.milenia-color--unchangeable),
+.milenia-colorizer--scheme-primary h2:not(.milenia-color--unchangeable),
+.milenia-colorizer--scheme-primary h3:not(.milenia-color--unchangeable),
+.milenia-colorizer--scheme-primary h4:not(.milenia-color--unchangeable),
+.milenia-colorizer--scheme-primary h5:not(.milenia-color--unchangeable),
+.milenia-colorizer--scheme-primary h6:not(.milenia-color--unchangeable),
+.milenia-colorizer--scheme-secondary h1:not(.milenia-color--unchangeable),
+.milenia-colorizer--scheme-secondary h2:not(.milenia-color--unchangeable),
+.milenia-colorizer--scheme-secondary h3:not(.milenia-color--unchangeable),
+.milenia-colorizer--scheme-secondary h4:not(.milenia-color--unchangeable),
+.milenia-colorizer--scheme-secondary h5:not(.milenia-color--unchangeable),
+.milenia-colorizer--scheme-secondary h6:not(.milenia-color--unchangeable),
+.milenia-body--scheme-blue .milenia-colorizer--scheme-primary,
+.milenia-body--scheme-blue .milenia-colorizer--scheme-secondary,
+.milenia-body--scheme-brown .milenia-colorizer--scheme-primary,
+.milenia-body--scheme-lightbrown .milenia-colorizer--scheme-primary,
+.milenia-body--scheme-lightbrown .milenia-colorizer--scheme-secondary {
+  color: #fff;
+}
+
+.milenia-colorizer--scheme-dark a:not(.milenia-ln--independent):not(.milenia-color--unchangeable):not(.milenia-btn),
+.milenia-colorizer--scheme-primary a:not(.milenia-ln--independent):not(.milenia-color--unchangeable):not(.milenia-btn),
+.milenia-colorizer--scheme-secondary a:not(.milenia-ln--independent):not(.milenia-color--unchangeable):not(.milenia-btn) {
+  color: #fff;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(100%, #fff), to(#fff));
+  background-image: linear-gradient(to bottom, #fff 100%, #fff 100%);
+}
+
+.milenia-body--scheme-gray .milenia-colorizer--scheme-primary,
+.milenia-body--scheme-gray .milenia-colorizer--scheme-secondary {
+  color: #eaeaea;
+}
+
+.milenia-body--scheme-green .milenia-widget .milenia-colorizer--scheme-primary .milenia-booking-form-wrapper--v4 .form-group {
+  margin-left: -0.625rem;
+  margin-right: -0.625rem;
+}
+
+.milenia-body--scheme-green .milenia-widget .milenia-colorizer--scheme-primary .milenia-booking-form-wrapper--v4 .form-group:not(:first-child) {
+  margin-top: 0;
+}
+
+.milenia-body--scheme-green .milenia-widget .milenia-colorizer--scheme-primary .milenia-booking-form-wrapper--v4 .form-group:first-child {
+  margin-top: -1rem;
+}
+
+.milenia-body--scheme-green .milenia-widget .milenia-colorizer--scheme-primary .milenia-booking-form-wrapper--v4 [class*="form-col"] {
+  padding-top: 1rem;
+  padding-left: 0.625rem;
+  padding-right: 0.625rem;
+}
+
+.milenia-body--scheme-green .milenia-widget .milenia-colorizer--scheme-primary input[type="text"], .milenia-body--scheme-green .milenia-widget .milenia-colorizer--scheme-primary input[type="search"], .milenia-body--scheme-green .milenia-widget .milenia-colorizer--scheme-primary input[type="date"], .milenia-body--scheme-green .milenia-widget .milenia-colorizer--scheme-primary input[type="datetime-local"], .milenia-body--scheme-green .milenia-widget .milenia-colorizer--scheme-primary input[type="email"], .milenia-body--scheme-green .milenia-widget .milenia-colorizer--scheme-primary input[type="file"], .milenia-body--scheme-green .milenia-widget .milenia-colorizer--scheme-primary input[type="month"], .milenia-body--scheme-green .milenia-widget .milenia-colorizer--scheme-primary input[type="number"], .milenia-body--scheme-green .milenia-widget .milenia-colorizer--scheme-primary input[type="password"], .milenia-body--scheme-green .milenia-widget .milenia-colorizer--scheme-primary input[type="tel"], .milenia-body--scheme-green .milenia-widget .milenia-colorizer--scheme-primary input[type="time"], .milenia-body--scheme-green .milenia-widget .milenia-colorizer--scheme-primary input[type="url"], .milenia-body--scheme-green .milenia-widget .milenia-colorizer--scheme-primary input[type="week"],
+.milenia-body--scheme-green .milenia-widget .milenia-colorizer--scheme-primary .milenia-field-datepicker,
+.milenia-body--scheme-green .milenia-widget .milenia-colorizer--scheme-primary .milenia-custom-select .milenia-selected-option {
+  height: 2.4rem;
+  line-height: 2.4rem;
+  font-size: 1rem;
+}
+
+.milenia-body--scheme-green .milenia-colorizer--scheme-primary,
+.milenia-body--scheme-green .milenia-colorizer--scheme-primary .form-caption {
+  color: #eaeaea;
+}
+
+.milenia-form--fields-darken form input[type="text"],
+.milenia-form--fields-darken form input[type="search"],
+.milenia-form--fields-darken form input[type="date"],
+.milenia-form--fields-darken form input[type="datetime-local"],
+.milenia-form--fields-darken form input[type="email"],
+.milenia-form--fields-darken form input[type="file"],
+.milenia-form--fields-darken form input[type="month"],
+.milenia-form--fields-darken form input[type="number"],
+.milenia-form--fields-darken form input[type="password"],
+.milenia-form--fields-darken form input[type="tel"],
+.milenia-form--fields-darken form input[type="time"],
+.milenia-form--fields-darken form input[type="url"],
+.milenia-form--fields-darken form input[type="week"],
+.milenia-form--fields-darken form textarea,
+.milenia-body--scheme-green .widget_mphb_search_availability_widget [type="text"],
+.milenia-body--scheme-green .widget_mphb_search_availability_widget form input[type="search"],
+.milenia-body--scheme-green .widget_mphb_search_availability_widget form input[type="date"],
+.milenia-body--scheme-green .widget_mphb_search_availability_widget form input[type="datetime-local"],
+.milenia-body--scheme-green .widget_mphb_search_availability_widget form input[type="email"],
+.milenia-body--scheme-green .widget_mphb_search_availability_widget form input[type="file"],
+.milenia-body--scheme-green .widget_mphb_search_availability_widget form input[type="month"],
+.milenia-body--scheme-green .widget_mphb_search_availability_widget form input[type="number"],
+.milenia-body--scheme-green .widget_mphb_search_availability_widget form input[type="password"],
+.milenia-body--scheme-green .widget_mphb_search_availability_widget form input[type="tel"],
+.milenia-body--scheme-green .widget_mphb_search_availability_widget form input[type="time"],
+.milenia-body--scheme-green .widget_mphb_search_availability_widget form input[type="url"],
+.milenia-body--scheme-green .widget_mphb_search_availability_widget form input[type="week"],
+.milenia-body--scheme-green .widget_mphb_search_availability_widget form textarea {
+  color: #fff;
+  font-size: 1.125rem;
+  background-color: rgba(28, 28, 28, 0.1);
+  border-color: rgba(28, 28, 28, 0.15);
+}
+
+.milenia-form--fields-darken form .milenia-selected-option,
+.milenia-booking-form-wrapper--v4 form .milenia-selected-option,
+.milenia-form--fields-darken form input[type="text"],
+.milenia-form--fields-darken form input[type="search"],
+.milenia-form--fields-darken form input[type="date"],
+.milenia-form--fields-darken form input[type="datetime-local"],
+.milenia-form--fields-darken form input[type="email"],
+.milenia-form--fields-darken form input[type="file"],
+.milenia-form--fields-darken form input[type="month"],
+.milenia-form--fields-darken form input[type="number"],
+.milenia-form--fields-darken form input[type="password"],
+.milenia-form--fields-darken form input[type="tel"],
+.milenia-form--fields-darken form input[type="time"],
+.milenia-form--fields-darken form input[type="url"],
+.milenia-form--fields-darken form input[type="week"],
+.milenia-booking-form-wrapper--v4 .milenia-form--fields-darken form input[type="text"],
+.milenia-booking-form-wrapper--v4 .milenia-form--fields-darken form input[type="search"],
+.milenia-booking-form-wrapper--v4 .milenia-form--fields-darken form input[type="date"],
+.milenia-booking-form-wrapper--v4 .milenia-form--fields-darken form input[type="datetime-local"],
+.milenia-booking-form-wrapper--v4 .milenia-form--fields-darken form input[type="email"],
+.milenia-booking-form-wrapper--v4 .milenia-form--fields-darken form input[type="file"],
+.milenia-booking-form-wrapper--v4 .milenia-form--fields-darken form input[type="month"],
+.milenia-booking-form-wrapper--v4 .milenia-form--fields-darken form input[type="number"],
+.milenia-booking-form-wrapper--v4 .milenia-form--fields-darken form input[type="password"],
+.milenia-booking-form-wrapper--v4 .milenia-form--fields-darken form input[type="tel"],
+.milenia-booking-form-wrapper--v4 .milenia-form--fields-darken form input[type="time"],
+.milenia-booking-form-wrapper--v4 .milenia-form--fields-darken form input[type="url"],
+.milenia-booking-form-wrapper--v4 .milenia-form--fields-darken form input[type="week"] {
+  height: 3.25rem;
+  line-height: 3.25rem;
+}
+
+.milenia-form--fields-darken form .milenia-field-datepicker,
+.milenia-form--fields-darken form .milenia-custom-select .milenia-selected-option {
+  color: #fff;
+  background-color: rgba(28, 28, 28, 0.1);
+  border-color: rgba(28, 28, 28, 0.15);
+  height: 3.25rem;
+  line-height: 3.25rem;
+}
+
+.milenia-body--scheme-green .widget_mphb_search_availability_widget form .milenia-field-datepicker,
+.milenia-body--scheme-green .widget_mphb_search_availability_widget .milenia-booking-form-wrapper--v3 [class*="form-col"] .milenia-custom-select .milenia-selected-option {
+  color: #fff;
+  background-color: rgba(28, 28, 28, 0.1);
+  border-color: rgba(28, 28, 28, 0.15);
+}
+
+.milenia-form--fields-darken form .milenia-custom-select .milenia-selected-option,
+.milenia-booking-form-wrapper--v4 form .milenia-custom-select .milenia-selected-option,
+.milenia-body--scheme-green .widget_mphb_search_availability_widget .milenia-custom-select .milenia-selected-option {
+  font-size: 1rem;
+}
+
+.milenia-form--fields-darken form .milenia-range-slider-field input[type="text"],
+.milenia-form--fields-darken form .milenia-range-slider-field input[type="search"],
+.milenia-form--fields-darken form .milenia-range-slider-field input[type="date"],
+.milenia-form--fields-darken form .milenia-range-slider-field input[type="datetime-local"],
+.milenia-form--fields-darken form .milenia-range-slider-field input[type="email"],
+.milenia-form--fields-darken form .milenia-range-slider-field input[type="file"],
+.milenia-form--fields-darken form .milenia-range-slider-field input[type="month"],
+.milenia-form--fields-darken form .milenia-range-slider-field input[type="number"],
+.milenia-form--fields-darken form .milenia-range-slider-field input[type="password"],
+.milenia-form--fields-darken form .milenia-range-slider-field input[type="tel"],
+.milenia-form--fields-darken form .milenia-range-slider-field input[type="time"],
+.milenia-form--fields-darken form .milenia-range-slider-field input[type="url"],
+.milenia-form--fields-darken form .milenia-range-slider-field input[type="week"] {
+  background-color: transparent;
+}
+
+.milenia-body--scheme-green .milenia-colorizer--scheme-secondary .milenia-text-color--contrast,
+.milenia-body--scheme-green .milenia-colorizer--scheme-secondary,
+.milenia-body--scheme-green .milenia-colorizer--scheme-secondary h1:not(.milenia-color--unchangeable), .milenia-body--scheme-green .milenia-colorizer--scheme-secondary h2:not(.milenia-color--unchangeable), .milenia-body--scheme-green .milenia-colorizer--scheme-secondary h3:not(.milenia-color--unchangeable), .milenia-body--scheme-green .milenia-colorizer--scheme-secondary h4:not(.milenia-color--unchangeable), .milenia-body--scheme-green .milenia-colorizer--scheme-secondary h5:not(.milenia-color--unchangeable), .milenia-body--scheme-green .milenia-colorizer--scheme-secondary h6:not(.milenia-color--unchangeable) {
+  color: #1c1c1c;
+}
+
+.milenia-body--scheme-green .milenia-colorizer--scheme-secondary a:not(.milenia-ln--independent):not(.milenia-color--unchangeable):not(.milenia-btn) {
+  color: #1c1c1c;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(100%, #1c1c1c), to(#1c1c1c));
+  background-image: linear-gradient(to bottom, #1c1c1c 100%, #1c1c1c 100%);
+}
+
+.milenia-body--scheme-brown .milenia-colorizer--scheme-primary .milenia-colorizer-bg-color {
+  background-color: #ae745a;
+}
+
+.milenia-body--scheme-brown .milenia-colorizer--scheme-secondary .milenia-colorizer-bg-color {
+  background-color: #09355c;
+}
+
+.milenia-body--scheme-gray .milenia-colorizer--scheme-primary .milenia-colorizer-bg-color,
+.milenia-body--scheme-gray .milenia-colorizer--scheme-secondary .milenia-colorizer-bg-color {
+  background-color: #948685;
+}
+
+.milenia-body--scheme-blue .milenia-colorizer--scheme-primary .milenia-colorizer-bg-color,
+.milenia-body--scheme-blue .milenia-colorizer--scheme-secondary .milenia-colorizer-bg-color {
+  background-color: #19b1d1;
+}
+
+.milenia-body--scheme-lightbrown .milenia-colorizer--scheme-primary .milenia-colorizer-bg-color,
+.milenia-body--scheme-lightbrown .milenia-colorizer--scheme-secondary .milenia-colorizer-bg-color {
+  background-color: #c19b76;
+}
+
+.milenia-body--scheme-green .milenia-colorizer--scheme-primary .milenia-colorizer-bg-color,
+.milenia-body--scheme-green.milenia-colorizer--scheme-primary .milenia-colorizer-bg-color {
+  background-color: #7eb71c;
+}
+
+.milenia-body--scheme-green .milenia-colorizer--scheme-secondary .milenia-colorizer-bg-color,
+.milenia-body--scheme-green.milenia-colorizer--scheme-secondary .milenia-colorizer-bg-color {
+  background-color: #febd11;
+}
+
+.milenia-body--scheme-brown .milenia-colorizer--scheme-dark a:not(.milenia-ln--independent):not(.milenia-btn) {
+  color: #ae745a;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(100%, #ae745a), to(#ae745a));
+  background-image: linear-gradient(to bottom, #ae745a 100%, #ae745a 100%);
+}
+
+.milenia-body--scheme-gray .milenia-colorizer--scheme-dark a:not(.milenia-ln--independent):not(.milenia-btn) {
+  color: #948685;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(100%, #948685), to(#948685));
+  background-image: linear-gradient(to bottom, #948685 100%, #948685 100%);
+}
+
+.milenia-body--scheme-blue .milenia-colorizer--scheme-dark a:not(.milenia-ln--independent):not(.milenia-btn) {
+  color: #19b1d1;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(100%, #19b1d1), to(#19b1d1));
+  background-image: linear-gradient(to bottom, #19b1d1 100%, #19b1d1 100%);
+}
+
+.milenia-body--scheme-lightbrown .milenia-colorizer--scheme-dark a:not(.milenia-ln--independent):not(.milenia-btn) {
+  color: #c19b76;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(100%, #c19b76), to(#c19b76));
+  background-image: linear-gradient(to bottom, #c19b76 100%, #c19b76 100%);
+}
+
+.milenia-body--scheme-green .milenia-colorizer--scheme-dark a:not(.milenia-ln--independent):not(.milenia-btn) {
+  color: #febd11;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(100%, #febd11), to(#febd11));
+  background-image: linear-gradient(to bottom, #febd11 100%, #febd11 100%);
+}
+
+.milenia-grid--isotope [class*="milenia-colorizer--scheme-"] {
+  overflow: hidden;
+  padding-left: 1.875rem !important;
+  padding-right: 1.875rem !important;
+}
+
+.milenia-section--isotope-item,
+.milenia-grid--isotope .milenia-section--isotope-item {
+  overflow: visible;
+}
+
+/* ----------------------------------------
+        Comments
+    ---------------------------------------- */
+
+.comments-list {
+  overflow: hidden;
+}
+
+.comments-list + .milenia-pagination {
+  margin-top: 1.5rem;
+}
+
+.comments-list > .comment:first-child {
+  margin-top: -2.4rem;
+}
+
+.comment {
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+  padding-top: 2.4rem;
+}
+
+.comment .fn {
+  font-style: normal;
+  font-size: 1.125rem;
+  margin-bottom: 0.7rem;
+  color: #313131;
+  display: block;
+}
+
+[class*="milenia-body--scheme-"] a.comment-author-name:not(.milenia-ln--independent):not(.milenia-btn) {
+  color: #1c1c1c;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(100%, #1c1c1c), to(#1c1c1c));
+  background-image: linear-gradient(to bottom, #1c1c1c 100%, #1c1c1c 100%);
+}
+
+.comment-author-avatar {
+  float: left;
+  margin-right: 1.25rem;
+  position: relative;
+  z-index: 2;
+  width: 4.375rem;
+  height: 4.375rem;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.comment-author-avatar img {
+  width: 100%;
+}
+
+.comment {
+  position: relative;
+}
+
+.comment.comment-has-children > .comment-body > .comment-author-info::after {
+  content: "";
+  border-width: 0 0 0 1px;
+  border-style: solid;
+  border-color: #dadada;
+  position: absolute;
+  left: 2.3rem;
+  top: 8.5rem;
+  height: calc(101% - 104px);
+}
+
+.comment-author-info {
+  padding-left: 6.125rem;
+}
+
+.comment-has-not-avatar.pingback .comment-author-info {
+  padding-left: 0;
+}
+
+.comment-meta {
+  font-size: 0.6875rem;
+  line-height: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.82px;
+  margin-bottom: 0.9rem;
+  color: #a5a5a5;
+}
+
+.comment-content:not(:last-child) {
+  margin-bottom: 0.1rem;
+}
+
+.comment-actions {
+  font-size: 0.6875rem;
+  line-height: 1.75rem;
+  text-transform: uppercase;
+  color: #a5a5a5;
+  letter-spacing: 0.82px;
+  margin-left: -0.5rem;
+  margin-right: -0.5rem;
+}
+
+.comment-actions > a {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.comment::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.comments-list .children {
+  padding-left: 6.25rem;
+  overflow: hidden;
+}
+
+.comments-list .children > li::before {
+  content: "";
+  border-width: 0 0 1px 1px;
+  border-style: solid;
+  border-color: #dadada;
+  width: 2.3125rem;
+  height: 10091px;
+  position: absolute;
+  left: -3.940rem;
+  top: -10016px;
+}
+
+.comments-list .comment-respond {
+  padding-top: 3.75rem;
+  padding-bottom: 3.75rem;
+}
+
+.comments-list.comments-list--max-depth-10 .children {
+  padding-left: 4rem;
+}
+
+.comments-list.comments-list--max-depth-9 .children,
+.comments-list.comments-list--max-depth-8 .children {
+  padding-left: 4.5rem;
+}
+
+.comments-list.comments-list--max-depth-10 .children > li::before {
+  width: .8rem;
+  left: -1.7rem;
+}
+
+.comments-list.comments-list--max-depth-9 .children > li::before,
+.comments-list.comments-list--max-depth-8 .children > li::before {
+  width: 1rem;
+  left: -2.2rem;
+}
+
+.comments-list--max-depth-10 .comment.comment-has-children > .comment-body > .comment-author-info::after,
+.comments-list--max-depth-9 .comment.comment-has-children > .comment-body > .comment-author-info::after,
+.comments-list--max-depth-8 .comment.comment-has-children > .comment-body > .comment-author-info::after {
+  top: 7.9rem;
+}
+
+/* ----------------------------------------
+        Fullscreen Area
+    ---------------------------------------- */
+
+.milenia-fullscreen-area:not(.milenia-fullscreen-area--ready) {
+  position: relative;
+  margin-top: 15vh;
+  margin-bottom: 15vh;
+}
+
+.milenia-fullscreen-area:not(.milenia-fullscreen-area--ready)::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 2;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("../images/loader.gif");
+}
+
+/* ----------------------------------------
+        Vertical Navigation
+    ---------------------------------------- */
+
+.milenia-navigation-vertical {
+  display: block !important;
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+}
+
+.milenia-navigation-vertical .sub-menu {
+  padding-top: 0.125rem;
+  padding-bottom: 0.625rem;
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+}
+
+.milenia-navigation-vertical .sub-menu > li {
+  margin-top: 0.5rem;
+}
+
+.milenia-navigation-vertical .sub-menu > li.menu-item-has-children > a::after {
+  font-family: 'Linearicons';
+  content: "\e93a";
+  margin-left: 0.4rem;
+  vertical-align: middle;
+  font-size: 0.75rem;
+}
+
+.milenia-navigation-vertical .sub-menu a {
+  color: #858585;
+}
+
+.milenia-navigation-vertical > li:hover > a::before,
+.milenia-navigation-vertical > li.milenia-seleceted > a::before,
+.milenia-navigation-vertical > li.milenia-tapped > a::before,
+.milenia-navigation-vertical > li.current-menu-ancestor > a::before,
+.milenia-navigation-vertical > li.current-menu-parent > a::before,
+.milenia-navigation-vertical > li.current-menu-item > a::before {
+  opacity: 1;
+}
+
+.milenia-navigation-vertical > li > a {
+  text-transform: uppercase;
+  letter-spacing: 0.81px;
+  display: block;
+  padding: 0.48rem 1.875rem;
+  position: relative;
+}
+
+.milenia-navigation-vertical > li > a::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 3px;
+  opacity: 0;
+  -webkit-transition: opacity .5s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: opacity .5s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.milenia-navigation-vertical a {
+  color: #1c1c1c;
+  -webkit-transition: color .5s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: color .5s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.milenia-body--scheme-brown .milenia-navigation-vertical > li > a::before {
+  background-color: #ae745a;
+}
+
+.milenia-body--scheme-brown .milenia-navigation-vertical li:hover > a,
+.milenia-body--scheme-brown .milenia-navigation-vertical li.milenia-seleceted > a,
+.milenia-body--scheme-brown .milenia-navigation-vertical li.milenia-tapped > a,
+.milenia-body--scheme-brown .milenia-navigation-vertical li.current-menu-ancestor > a,
+.milenia-body--scheme-brown .milenia-navigation-vertical li.current-menu-parent > a,
+.milenia-body--scheme-brown .milenia-navigation-vertical li.current-menu-item > a {
+  color: #ae745a;
+}
+
+.milenia-body--scheme-gray .milenia-navigation-vertical > li > a::before {
+  background-color: #948685;
+}
+
+.milenia-body--scheme-gray .milenia-navigation-vertical li:hover > a,
+.milenia-body--scheme-gray .milenia-navigation-vertical li.milenia-seleceted > a,
+.milenia-body--scheme-gray .milenia-navigation-vertical li.milenia-tapped > a,
+.milenia-body--scheme-gray .milenia-navigation-vertical li.current-menu-ancestor > a,
+.milenia-body--scheme-gray .milenia-navigation-vertical li.current-menu-parent > a,
+.milenia-body--scheme-gray .milenia-navigation-vertical li.current-menu-item > a {
+  color: #948685;
+}
+
+.milenia-body--scheme-blue .milenia-navigation-vertical > li > a::before {
+  background-color: #19b1d1;
+}
+
+.milenia-body--scheme-blue .milenia-navigation-vertical li:hover > a,
+.milenia-body--scheme-blue .milenia-navigation-vertical li.milenia-seleceted > a,
+.milenia-body--scheme-blue .milenia-navigation-vertical li.milenia-tapped > a,
+.milenia-body--scheme-blue .milenia-navigation-vertical li.current-menu-ancestor > a,
+.milenia-body--scheme-blue .milenia-navigation-vertical li.current-menu-parent > a,
+.milenia-body--scheme-blue .milenia-navigation-vertical li.current-menu-item > a {
+  color: #19b1d1;
+}
+
+.milenia-body--scheme-lightbrown .milenia-navigation-vertical > li > a::before {
+  background-color: #c19b76;
+}
+
+.milenia-body--scheme-lightbrown .milenia-navigation-vertical li:hover > a,
+.milenia-body--scheme-lightbrown .milenia-navigation-vertical li.milenia-seleceted > a,
+.milenia-body--scheme-lightbrown .milenia-navigation-vertical li.milenia-tapped > a,
+.milenia-body--scheme-lightbrown .milenia-navigation-vertical li.current-menu-ancestor > a,
+.milenia-body--scheme-lightbrown .milenia-navigation-vertical li.current-menu-parent > a,
+.milenia-body--scheme-lightbrown .milenia-navigation-vertical li.current-menu-item > a {
+  color: #c19b76;
+}
+
+.milenia-body--scheme-green .milenia-navigation-vertical > li > a::before {
+  background-color: #7eb71c;
+}
+
+.milenia-body--scheme-green .milenia-navigation-vertical li:hover > a,
+.milenia-body--scheme-green .milenia-navigation-vertical li.milenia-seleceted > a,
+.milenia-body--scheme-green .milenia-navigation-vertical li.milenia-tapped > a,
+.milenia-body--scheme-green .milenia-navigation-vertical li.current-menu-ancestor > a,
+.milenia-body--scheme-green .milenia-navigation-vertical li.current-menu-parent > a,
+.milenia-body--scheme-green .milenia-navigation-vertical li.current-menu-item > a {
+  color: #7eb71c;
+}
+
+/* ----------------------------------------
+    3. Components
+---------------------------------------- */
+
+/* ----------------------------------------
+        Alert Boxes
+    ---------------------------------------- */
+
+.milenia-alert-boxes-example {
+  margin-top: -0.8125rem;
+}
+
+.milenia-alert-box,
+.widget_wysija_cont .allmsgs .updated,
+.widget_wysija_cont .allmsgs .error {
+  padding-top: 0.8125rem;
+  padding-bottom: 0.8125rem;
+}
+
+.milenia-alert-box strong {
+  font-weight: inherit;
+}
+
+.milenia-theme .formError {
+  top: 50% !important;
+  bottom: auto !important;
+  left: 0 !important;
+  right: auto !important;
+  margin-top: 1.625rem !important;
+  z-index: 27;
+}
+
+.milenia-alert-box-inner,
+.wpcf7-response-output,
+.formError [class*="formError"],
+.widget_wysija_cont .allmsgs .updated,
+.widget_wysija_cont .allmsgs .error,
+.mphb-errors-wrapper:not(.milenia-alert-box),
+.tribe-events-notices,
+.milenia-theme .woocommerce-error,
+.milenia-theme .woocommerce-info,
+.milenia-theme .woocommerce-message {
+  position: relative;
+  border-width: 1px;
+  border-style: solid;
+  padding-top: 1.6rem;
+  padding-bottom: 1.6rem;
+  padding-left: 4.375rem;
+  padding-right: 3.8rem;
+  text-align: initial;
+  background-color: #fff;
+  border-radius: 0;
+}
+
+.milenia-theme .woocommerce-error,
+.milenia-theme .woocommerce-info,
+.milenia-theme .woocommerce-message {
+  padding-right: 1.875rem;
+}
+
+.milenia-alert-box-inner ul li,
+.wpcf7-response-output ul li,
+.formError [class*="formError"] ul li,
+.widget_wysija_cont .allmsgs .updated ul li,
+.widget_wysija_cont .allmsgs .error ul li,
+.mphb-errors-wrapper:not(.milenia-alert-box) ul li,
+.tribe-events-notices ul li {
+  padding-left: 0 !important;
+}
+
+.milenia-alert-box-inner ul li::before,
+.wpcf7-response-output ul li::before,
+.formError [class*="formError"] ul li::before,
+.widget_wysija_cont .allmsgs .updated ul li::before,
+.widget_wysija_cont .allmsgs .error ul li::before,
+.mphb-errors-wrapper:not(.milenia-alert-box) ul li::before,
+.tribe-events-notices ul li::before {
+  display: none !important;
+}
+
+
+
+.widget_wysija_cont .allmsgs .updated,
+.widget_wysija_cont .allmsgs .error {
+  padding-left: 0.8125rem;
+  padding-right: 0.8125rem;
+}
+
+.formError [class*="formError"],
+.widget_wysija_cont .allmsgs .updated,
+.widget_wysija_cont .allmsgs .error {
+  font-size: 0.8rem;
+  line-height: 1.2rem;
+}
+
+.formError [class*="formError"] {
+  padding: 0.6rem;
+}
+
+.widget_wysija_cont a {
+  background-image: none !important;
+}
+
+.milenia-alert-box-inner::before,
+.wpcf7-response-output::before,
+.mphb-errors-wrapper:not(.milenia-alert-box)::before,
+.tribe-events-notices::before,
+.milenia-theme .woocommerce-error::before,
+.milenia-theme .woocommerce-info::before,
+.milenia-theme .woocommerce-message::before {
+  font-family: "Linearicons";
+  font-size: 1.875rem;
+  line-height: 1;
+  position: absolute;
+  left: 1.63603rem;
+  top: 50%;
+  margin-top: -0.9375rem;
+}
+
+.milenia-alert-box-close {
+  position: absolute;
+  color: transparent;
+  font-size: 1.15rem;
+  line-height: 1;
+  display: block;
+  width: 1.15rem;
+  height: 1.15rem;
+  right: 1.325rem;
+  top: 50%;
+  margin-top: -0.575rem;
+  overflow: hidden;
+}
+
+.milenia-alert-box-close::-moz-selection {
+  color: transparent;
+}
+
+.milenia-alert-box-close::selection {
+  color: transparent;
+}
+
+.milenia-alert-box-close::-webkit-selection {
+  color: transparent;
+}
+
+.milenia-alert-box-close::after {
+  font-family: "Linearicons";
+  content: '\e92a';
+  color: #313131;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  text-align: center;
+  margin-top: -0.575rem;
+}
+
+.milenia-alert-box--success,
+.wpcf7-response-output.wpcf7-mail-sent-ok,
+.widget_wysija_cont .allmsgs .updated {
+  color: #2ba206;
+}
+
+.wpcf7-response-output.wpcf7-mail-sent-ok,
+.milenia-alert-box--success .milenia-alert-box-inner,
+.widget_wysija_cont .allmsgs .updated {
+  border-color: #2ba206;
+}
+
+.wpcf7-response-output.wpcf7-mail-sent-ok::before,
+.milenia-alert-box--success .milenia-alert-box-inner::before {
+  content: "\e959";
+}
+
+.milenia-alert-box--warning {
+  color: #eb740b;
+}
+
+.milenia-alert-box--warning .milenia-alert-box-inner {
+  border-color: #eb740b;
+}
+
+.milenia-alert-box--warning .milenia-alert-box-inner::before {
+  content: "\e956";
+}
+
+.milenia-alert-box--info,
+.tribe-events-notices,
+.milenia-theme .woocommerce-info,
+.milenia-theme .woocommerce-message,
+.milenia-theme .woocommerce-info::before,
+.milenia-theme .woocommerce-message::before {
+  color: #0648a2;
+}
+
+.milenia-alert-box--info .milenia-alert-box-inner,
+.tribe-events-notices,
+.milenia-theme .woocommerce-info,
+.milenia-theme .woocommerce-message {
+  border-color: #0648a2;
+}
+
+.milenia-alert-box--info .milenia-alert-box-inner::before,
+.tribe-events-notices::before,
+.milenia-theme .woocommerce-info::before,
+.milenia-theme .woocommerce-message::before {
+  content: "\e965";
+}
+
+.wpcf7-not-valid-tip,
+.milenia-alert-box--error,
+.wpcf7-response-output.wpcf7-validation-errors,
+.wpcf7-response-output.wpcf7-mail-sent-ng,
+.wpcf7-response-output.wpcf7-aborted,
+.wpcf7-response-output.wpcf7-spam-blocked,
+.wpcf7-response-output.wpcf7-spam-missing,
+.formError [class*="formError"],
+.widget_wysija_cont .allmsgs .error,
+.mphb-errors-wrapper:not(.milenia-alert-box),
+.milenia-theme .woocommerce-error,
+.milenia-theme .woocommerce-error::before {
+  color: #eb0b0b;
+}
+
+.milenia-alert-box--error .milenia-alert-box-inner,
+.wpcf7-response-output.wpcf7-validation-errors,
+.wpcf7-response-output.wpcf7-mail-sent-ng,
+.wpcf7-response-output.wpcf7-aborted,
+.wpcf7-response-output.wpcf7-spam-blocked,
+.wpcf7-response-output.wpcf7-spam-missing,
+.formError [class*="formError"],
+.widget_wysija_cont .allmsgs .error,
+.milenia-theme .woocommerce-error {
+  border-color: #eb0b0b;
+}
+
+.milenia-alert-box--error .milenia-alert-box-inner::before,
+.wpcf7-response-output.wpcf7-validation-errors::before,
+.wpcf7-response-output.wpcf7-mail-sent-ng::before,
+.wpcf7-response-output.wpcf7-aborted::before,
+.wpcf7-response-output.wpcf7-spam-blocked::before,
+.wpcf7-response-output.wpcf7-spam-missing::before,
+.mphb-errors-wrapper:not(.milenia-alert-box)::before,
+.milenia-theme .woocommerce-error::before {
+  content: "\e95a";
+}
+
+.milenia-csstransforms3d .milenia-alert-box-close {
+  -webkit-transition: -webkit-transform .4s cubic-bezier(0.25, 3, 0.75, 0.9);
+  transition:         transform .4s cubic-bezier(0.25, 3, 0.75, 0.9);
+}
+
+.milenia-csstransforms3d .milenia-alert-box-close:hover {
+  -webkit-transform: scale3d(1.3, 1.3, 1.3);
+  transform: scale3d(1.3, 1.3, 1.3);
+}
+
+/* ----------------------------------------
+        Social icons
+    ---------------------------------------- */
+
+.milenia-social-icons {
+  font-size: 1.25rem;
+  line-height: 1;
+  margin-top: -0.4375rem;
+  margin-left: -0.75rem;
+  margin-right: -0.75rem;
+}
+
+.milenia-social-icons > li {
+  display: inline-block;
+  padding-top: 0.4375rem;
+  padding-left: 0.4375rem;
+  padding-right: 0.4375rem;
+}
+
+.milenia-social-icons--huge {
+  margin-top: -0.7rem;
+  margin-left: -0.7rem;
+  margin-right: -0.7rem;
+}
+
+.milenia-social-icons--huge > li {
+  padding-top: 0.7rem;
+  padding-left: 0.7rem;
+  padding-right: 0.7rem;
+}
+
+.milenia-social-icons a {
+  display: block;
+  padding: 5px;
+  background-image: none !important;
+}
+
+.milenia-social-icons a:hover, .milenia-social-icons a:focus {
+  opacity: .7;
+}
+
+.milenia-social-icons--huge {
+  font-size: 1.875rem;
+}
+
+.milenia-details-list .milenia-social-icons {
+  margin-top: 0.2rem;
+}
+
+.milenia-details-list address {
+  display: inline-block;
+  font-style: normal;
+}
+
+.milenia-details-list a {
+  -ms-word-break: break-all;
+  word-break: break-all;
+}
+
+.milenia-body--scheme-brown .milenia-social-icon--scheme-secondary a:not(.milenia-ln--independent):not(.milenia-btn) {
+  color: #09355c;
+}
+
+.milenia-body--scheme-gray .milenia-social-icon--scheme-secondary a:not(.milenia-ln--independent):not(.milenia-btn) {
+  color: #948685;
+}
+
+.milenia-body--scheme-blue .milenia-social-icon--scheme-secondary a:not(.milenia-ln--independent):not(.milenia-btn) {
+  color: #19b1d1;
+}
+
+.milenia-body--scheme-lightbrown .milenia-social-icon--scheme-secondary a:not(.milenia-ln--independent):not(.milenia-btn) {
+  color: #c19b76;
+}
+
+.milenia-body--scheme-green .milenia-social-icon--scheme-secondary a:not(.milenia-ln--independent):not(.milenia-btn) {
+  color: #febd11;
+}
+
+.milenia-share-caption:not(:last-child) {
+  margin-bottom: 0.36rem;
+}
+
+.milenia-share-buttons .milenia-btn {
+  margin-bottom: 4px;
+}
+
+.milenia-share-buttons .milenia-btn:not(.milenia-btn--link):not(.milenia-btn--big):not(.milenia-btn--huge):not(.milenia-btn--xxl) {
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
+}
+
+.milenia-share--inline .milenia-share-caption {
+  float: left;
+  margin-top: 0.4rem;
+  margin-right: 0.9rem;
+  max-width: 50%;
+}
+
+.milenia-share--inline .milenia-share-buttons {
+  overflow: hidden;
+}

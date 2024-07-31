@@ -1,0 +1,6175 @@
+# Copyright (C) 2022 MotoPress
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: hotel-booking-plugin\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/motopress-hotel-booking\n"
+"Last-Translator: \n"
+"Language-Team: Lithuanian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2022-11-15T19:41:55+00:00\n"
+"PO-Revision-Date: 2022-11-15 20:26\n"
+"X-Generator: WP-CLI 2.6.0\n"
+"X-Domain: motopress-hotel-booking\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && (n%100>19 || n%100<11) ? 0 : (n%10>=2 && n%10<=9) && (n%100>19 || n%100<11) ? 1 : n%1!=0 ? 2: 3);\n"
+"X-Crowdin-Project: hotel-booking-plugin\n"
+"X-Crowdin-Project-ID: 463550\n"
+"X-Crowdin-Language: lt\n"
+"X-Crowdin-File: motopress-hotel-booking.pot\n"
+"X-Crowdin-File-ID: 44\n"
+"Language: lt_LT\n"
+
+#. Plugin Name of the plugin
+#. translators: Name of the plugin, do not translate
+msgid "Hotel Booking"
+msgstr "Hotel Booking"
+
+#. Plugin URI of the plugin
+msgid "https://motopress.com/products/hotel-booking/"
+msgstr ""
+
+#. Description of the plugin
+msgid "Manage your hotel booking services. Perfect for hotels, villas, guest houses, hostels, and apartments of all sizes."
+msgstr "Tvarkykite savo viešbučių rezervavimo paslaugas. Puikiai tinka bet kokio dydžio viešbučiams, viloms, svečių namams, nakvynės namams ir apartamentams."
+
+#. Author of the plugin
+msgid "MotoPress"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://motopress.com/"
+msgstr ""
+
+msgctxt "Post Status"
+msgid "New"
+msgstr "Naujas"
+
+msgctxt "Post Status"
+msgid "Auto Draft"
+msgstr "Automatinis juodraštis"
+
+msgctxt "Zero price"
+msgid "Free"
+msgstr "Nemokamai"
+
+#. translators: Price per one night. Example: $99 per night
+msgctxt "Price per one night. Example: $99 per night"
+msgid "per night"
+msgstr "už naktį"
+
+#. translators: Price for X nights. Example: $99 for 2 nights, $99 for 21 nights
+msgctxt "Price for X nights. Example: $99 for 2 nights, $99 for 21 nights"
+msgid "for %d nights"
+msgid_plural "for %d nights"
+msgstr[0] "už %d naktis"
+msgstr[1] "už %d naktis"
+msgstr[2] "už %d naktis"
+msgstr[3] "už %d naktis"
+
+#. translators: %s: URL to plugins.php page
+msgid "You are using two instances of Hotel Booking plugin at the same time, please <a href=\"%s\">deactivate one of them</a>."
+msgstr "Vienu metu naudojate du viešbučių užsakymo papildinio egzempliorius, <a href=\"%s\">išjunkite vieną iš jų</a>."
+
+msgid "<a href=\"%s\">Upgrade to Premium</a> to enable this feature."
+msgstr "<a href=\"%s\">Įsigykite Premium versiją</a>, kad įgalintumėte šią funkciją."
+
+msgid "Nonce verification failed."
+msgstr "Nepavyko patvirtinti."
+
+msgid "The file does not exist."
+msgstr "Failas neegzistuoja."
+
+msgid "Source ID is missing."
+msgstr "Nerastas šaltinio ID."
+
+msgid "Error"
+msgstr "Klaida"
+
+msgid "View"
+msgstr "Rodymas"
+
+msgid "Delete"
+msgstr "Ištrinti"
+
+msgid "Name"
+msgstr "Pavadinimas"
+
+msgid "Email"
+msgstr "El. paštas"
+
+msgid "Bookings"
+msgstr "Rezervacijos"
+
+msgid "Date Registered"
+msgstr ""
+
+msgid "Last Active"
+msgstr ""
+
+#. translators: Terms are variations for Attributes and bear no relation to the Terms and Conditions Page.
+msgid "Terms"
+msgstr "Sąlygos"
+
+msgid "Created on:"
+msgstr "Sukurta:"
+
+#. translators: Terms are variations for Attributes and bear no relation to the Terms and Conditions Page.
+msgid "Please add attribute in default language to configure terms."
+msgstr "Norėdami konfigūruoti terminus, pridėkite atributą numatytaja kalba."
+
+#. translators: Terms are variations for Attributes and bear no relation to the Terms and Conditions Page.
+msgid "Configure terms"
+msgstr "Tvarkyti terminus"
+
+msgid "Reserved Accommodations"
+msgstr "Rezervuotos apgyvendinimo vietos"
+
+msgid "Update Booking"
+msgstr "Atnaujinti rezervaciją"
+
+msgid "Logs"
+msgstr "Įrašai"
+
+msgid "Delete Permanently"
+msgstr "Ištrinti visam laikui"
+
+msgid "Move to Trash"
+msgstr "Perkelti į šiukšlinę"
+
+msgid "Create Booking"
+msgstr "Sukurti Rezervaciją"
+
+msgid "Resend Email"
+msgstr "Iš naujo siųsti el. laišką"
+
+msgid "Send a copy of the Approved Booking email to the customer`s email address."
+msgstr "Išsiųskite patvirtinto užsakymo el. laiško kopiją kliento el. pašto adresu."
+
+msgid "Edit Accommodations"
+msgstr "Redaguoti apgyvendinimo vietas"
+
+msgid "Date:"
+msgstr "Data:"
+
+msgid "Author:"
+msgstr "Autorius:"
+
+msgid "Auto"
+msgstr "Automatinis"
+
+msgid "Message:"
+msgstr "Žinutė:"
+
+msgid "Confirmation email has been sent to customer."
+msgstr "Patvirtinimo laiškas buvo išsiųstas klientui."
+
+msgid "Coupon code"
+msgstr "Nuolaidos kodas"
+
+msgid "Update Payment"
+msgstr "Atnaujinti mokėjimą"
+
+msgid "Modified on:"
+msgstr "Pakeista:"
+
+msgid "Create Payment"
+msgstr "Sukurti mokėjimą"
+
+msgid "Season Prices"
+msgstr "Sezono Kainos"
+
+msgid "<code>Please select Accommodation Type and click Create Rate button to continue.</code>"
+msgstr "<code>Pasirinkite apgyvendinimo tipą ir spustelėkite mygtuką Sukurti įkainį, kad tęstumėte.</code>"
+
+msgid "Update Rate"
+msgstr "Atnaujinti įkainį"
+
+msgid "Active"
+msgstr "Aktyvus"
+
+msgid "Disabled"
+msgstr "Išjungta"
+
+msgid "Create Rate"
+msgstr "Sukurti Įkainį"
+
+msgid "Duplicate Rate"
+msgstr "Duplikuoti Įkainį"
+
+msgid "Generate Accommodations"
+msgstr "Sukurti Apgyvendinimo vietas"
+
+msgid "Attributes"
+msgstr "Atributai"
+
+msgid "Accommodation Reviews"
+msgstr "Apgyvendinimo vietų įvertinimas"
+
+msgid "Allow guests to <a href=\"%s\" target=\"_blank\">submit star ratings and reviews</a> evaluating your accommodations."
+msgstr "Leiskite svečiams <a href=\"%s\" target=\"_blank\">pateikti įvertinimus žvaigždutėmis ir atsiliepimus</a>, įvertinant jūsų būstą."
+
+msgid "Number of Accommodations:"
+msgstr "Apgyvendinimo vietų skaičius:"
+
+msgid "Count of real accommodations of this type in your hotel."
+msgstr "Realių tokio tipo apgyvendinimo vietų jūsų viešbutyje skaičius."
+
+msgid "Total Accommodations:"
+msgstr "Iš viso nakvynės vietų:"
+
+msgid "Show Accommodations"
+msgstr "Rodyti apgyvendinimo vietas"
+
+msgid "Active Accommodations:"
+msgstr "Aktyvios apgyvendinimo vietos:"
+
+msgid "Add"
+msgstr "Pridėti"
+
+msgid "Per adult:"
+msgstr "Vienam suaugusiam:"
+
+msgid "Per child:"
+msgstr "Vienam vaikui:"
+
+msgid "Per adult: "
+msgstr "Vienam suaugusiam: "
+
+msgid "Per child: "
+msgstr "Vienam vaikui: "
+
+msgid "Actions"
+msgstr "Veiksmai"
+
+msgid "Default"
+msgstr "Numatytasis"
+
+msgid "— Select —"
+msgstr "— Pasirinkite —"
+
+msgid "Install & Activate"
+msgstr "Įdiegti ir suaktyvinti"
+
+msgid "Add image"
+msgstr "Pridėti paveikslėlį"
+
+msgid "Add gallery"
+msgstr "Pridėti galeriją"
+
+msgid "Remove image"
+msgstr "Pašalinti nuotrauką"
+
+msgid "Remove gallery"
+msgstr "Pašalinti galeriją"
+
+msgid "Select all"
+msgstr "Pažymėti viską"
+
+msgid "Unselect all"
+msgstr "Atšaukti visų pasirinkimą"
+
+msgid "Date"
+msgstr "Data"
+
+msgid "Author"
+msgstr "Autorius"
+
+msgid "Edit"
+msgstr "Redaguoti"
+
+msgid "Done"
+msgstr "Atlikta"
+
+msgid "All"
+msgstr "Visi"
+
+msgid "None"
+msgstr "Jokio"
+
+msgid "HH:MM"
+msgstr "HH:MM"
+
+msgid "Recalculate Total Price"
+msgstr "Perskaičiuoti bendrą kainą"
+
+msgid "Nights"
+msgstr "Naktys"
+
+msgid "and more"
+msgstr ""
+
+msgid "Remove"
+msgstr "Pašalinti"
+
+msgid "Add length of stay"
+msgstr "Pridėkite apsistojimo trukmę"
+
+msgid "Adults"
+msgstr "Suaugę"
+
+msgid "Children"
+msgstr "Vaikai"
+
+msgid "Price per night"
+msgstr "Kaina už naktį"
+
+msgid "Enable variable pricing"
+msgstr "Įgalinti kintamą kainodarą"
+
+msgid "Add Variation"
+msgstr "Pridėti variantą"
+
+msgid "Remove variation"
+msgstr "Pašalinti variaciją"
+
+msgid "The License Key is required in order to get automatic plugin updates and support. You can manage your License Key in your personal account. <a href='https://motopress.zendesk.com/hc/en-us/articles/202812996-How-to-use-your-personal-MotoPress-account' target='_blank'>Learn more</a>."
+msgstr "Licencijos raktas reikalingas norint gauti automatinius papildinio atnaujinimus ir palaikymą. Licencijos raktą galite tvarkyti asmeninėje paskyroje. <a href='https://motopress.zendesk.com/hc/en-us/articles/202812996-How-to-use-your-personal-MotoPress-account' target='_blank'>Sužinokite daugiau</a >."
+
+msgid "License Key"
+msgstr "Licencijos raktas"
+
+msgid "Status"
+msgstr "Būsena"
+
+msgid "Inactive"
+msgstr "Neaktyvus"
+
+msgid "Valid until"
+msgstr "Galioja iki"
+
+msgid "Valid (Lifetime)"
+msgstr "Galioja (visą gyvenimą)"
+
+msgid "Expired"
+msgstr "Nebegalioja"
+
+msgid "Invalid"
+msgstr "Neteisingas"
+
+msgid "Your License Key does not match the installed plugin. <a href='https://motopress.zendesk.com/hc/en-us/articles/202957243-What-to-do-if-the-license-key-doesn-t-correspond-with-the-plugin-license' target='_blank'>How to fix this.</a>"
+msgstr "Jūsų licencijos raktas neatitinka įdiegto papildinio. <a href='https://motopress.zendesk.com/hc/en-us/articles/202957243-What-to-do-if-the-license-key-doesn-t-correspond-with-the-plugin -license' target='_blank'>Kaip tai ištaisyti.</a>"
+
+msgid "Product ID is not valid"
+msgstr "Produkto ID netinkamas"
+
+msgid "Action"
+msgstr "Veiksmas"
+
+msgid "Activate License"
+msgstr "Aktyvuoti licencija"
+
+msgid "Deactivate License"
+msgstr "Išjungti licenciją"
+
+msgid "Renew License"
+msgstr "Atnaujinti licenciją"
+
+msgid "Attributes let you define extra accommodation data, such as location or type. You can use these attributes in the search availability form as advanced search filters."
+msgstr "Atributai leidžia apibrėžti papildomus apgyvendinimo duomenis, pvz., vietą arba tipą. Šiuos atributus galite naudoti paieškos pasiekiamumo formoje kaip išplėstinės paieškos filtrus."
+
+msgid "This attribute refers to non-unique taxonomy - %1$s - which was already registered with attribute %2$s."
+msgstr "Šis atributas nurodo neunikalią taksonomiją – %1$s – kuri jau buvo užregistruota su atributu %2$s."
+
+#. translators: Terms are variations for Attributes and bear no relation to the Terms and Conditions Page.
+msgid "You cannot manage terms of trashed attributes."
+msgstr "Negalite tvarkyti šiukšliadėžėje esančių atributų sąlygų."
+
+msgid "New Booking"
+msgstr "Nauja rezervacija"
+
+msgid "ID"
+msgstr "ID"
+
+msgid "Check-in / Check-out"
+msgstr "Atvykimas / Išvykimas"
+
+msgid "Guests"
+msgstr "Svečiai"
+
+msgid "Customer Info"
+msgstr "Kliento informacija"
+
+msgid "Price"
+msgstr "Kaina"
+
+msgid "Accommodation"
+msgstr "Apgyvendinimo vieta"
+
+msgid "Booking #%s"
+msgstr "Rezervacija #%s"
+
+msgid "Expire %s"
+msgstr "Galioja iki %s"
+
+msgid "Adults: "
+msgstr "Suaugę: "
+
+msgid "Children: "
+msgstr "Vaikai: "
+
+msgid "%s night"
+msgid_plural "%s nights"
+msgstr[0] "%s naktis"
+msgstr[1] "%s naktys"
+msgstr[2] "%s naktų"
+msgstr[3] "%s naktys"
+
+msgid "Summary: %s."
+msgstr "Santrauka: %s."
+
+msgid "Paid: %s"
+msgstr "Sumokėta: %s"
+
+msgid "Set to %s"
+msgstr "Nustatyti į %s"
+
+msgid "Booking status changed."
+msgid_plural "%s booking statuses changed."
+msgstr[0] "Rezervacijos būsena pakeista."
+msgstr[1] "%s rezervacijų būsenos pakeistos."
+msgstr[2] "%s rezervacijų būsenos pakeistos."
+msgstr[3] "%s rezervacijų būsenos pakeistos."
+
+msgid "All accommodation types"
+msgstr "Visi apgyvendinimo tipai"
+
+#. translators: The number of imported bookings: "Imported <span>(11)</span>"
+msgid "Imported %s"
+msgstr "Importuota '%s'"
+
+msgid "Customer"
+msgstr "Klientas"
+
+msgid "Amount"
+msgstr "Suma"
+
+msgid "Booking"
+msgstr "Rezervacija"
+
+msgid "Gateway"
+msgstr "Mokėjimo paslaugų sistema"
+
+msgid "Transaction ID"
+msgstr "Transakcijos ID"
+
+msgid "Created/Modified Date"
+msgstr "Sukūrimo / modifikavimo data"
+
+msgid "Payment #%s"
+msgstr "Mokėjimas #%s"
+
+msgid "Created on: "
+msgstr "Sukurta: "
+
+msgid "Modified on: "
+msgstr "Pakeista: "
+
+msgid "Rates are used to offer different prices of the same accommodation type depending on extra conditions. E.g. Double room with breakfast included; double room with no breakfast. Guests will choose the preferable rate when submitting a booking request."
+msgstr "Kainos naudojamos siūlant skirtingas to paties tipo apgyvendinimo kainas, priklausomai nuo papildomų sąlygų. Pvz. Dvivietis kambarys su pusryčiais; dvivietis kambarys be pusryciu. Svečiai pasirinks pageidaujamą kainą pateikdami užsakymo prašymą."
+
+msgid "Accommodation Type"
+msgstr "Apgyvendinimo tipas"
+
+msgid "Season &#8212; Price"
+msgstr "Sezono &#8212; Kaina"
+
+msgid "Duplicate"
+msgstr "Kurti kopiją"
+
+msgid "Rate was duplicated."
+msgstr "Įkainio kopija sukurta."
+
+msgid "These are real accommodations like rooms, apartments, houses, villas, beds (for hostels) etc."
+msgstr "Tai tikros apgyvendinimo vietos, tokios kaip kambariai, apartamentai, namai, vilos, lovos (nakvynės namuose) ir kt."
+
+msgid "All Accommodation Types"
+msgstr "Visi apgyvendinimo tipai"
+
+msgid "These are not physical accommodations, but their types. E.g. standard double room. To specify the real number of existing accommodations, you'll need to use Generate Accommodations menu."
+msgstr "Tai ne fizinės patalpos, o jų tipai. Pvz. standartinis dvivietis kambarys. Norėdami nurodyti tikrąjį esamų apgyvendinimo vietų skaičių, turėsite naudoti meniu Generuoti apgyventinimo vietas."
+
+msgid "Capacity"
+msgstr "Talpa"
+
+msgid "Bed Type"
+msgstr "Lovos tipas"
+
+msgid "Accommodations"
+msgstr "Apgyvendinimo vietos"
+
+msgid "Total:"
+msgstr "Iš viso:"
+
+msgid "Adults:"
+msgstr "Suaugę:"
+
+msgid "Children:"
+msgstr "Vaikai:"
+
+msgid "Size:"
+msgstr "Dydis:"
+
+msgid "Active:"
+msgstr "Aktyvus:"
+
+msgid "Seasons are real periods of time, dates or days that come with different prices for accommodations. E.g. Winter 2018 ($120 per night), Christmas ($150 per night)."
+msgstr "Sezonai yra realūs laikotarpiai, datos ar dienos, kurių nakvynės kainos skiriasi. Pvz. 2018 m. žiema (120 USD už naktį), Kalėdos (150 USD už naktį)."
+
+msgid "Start"
+msgstr "Pradėti"
+
+msgid "End"
+msgstr "Pabaiga"
+
+msgid "Days"
+msgstr "Dienos"
+
+msgid "Services are extra offers that you can sell or give for free. E.g. Thai massage, transfer, babysitting. Guests can pre-order them when placing a booking."
+msgstr "Paslaugos yra papildomi pasiūlymai, kuriuos galite parduoti arba suteikti nemokamai. Pvz. Tailandietiškas masažas, pervežimas, vaikų priežiūra. Svečiai juos gali užsisakyti iš anksto atlikdami užsakymą."
+
+msgid "Periodicity"
+msgstr "Periodiškai"
+
+msgid "Charge"
+msgstr "Mokestis"
+
+msgid "Per Day"
+msgstr "Per Dieną"
+
+msgid "Guest Choice"
+msgstr "Svečių pasirinkimas"
+
+msgid "Once"
+msgstr "Vieną kartą"
+
+msgid "Per Guest"
+msgstr "Vienam svečiui"
+
+msgid "Per Accommodation"
+msgstr "Vienam apgyvendinimui"
+
+msgid "These are accommodation amenities, generally free ones. E.g. air-conditioning, wifi."
+msgstr "Tai yra apgyvendinimo patogumai, dažniausiai nemokami. Pvz. oro kondicionierius, wifi."
+
+msgid "Booking rules saved."
+msgstr "Rezervavimo taisyklės išsaugotos."
+
+msgid "Booking Rules"
+msgstr "Rezervavimo taisyklės"
+
+msgid "Save Changes"
+msgstr "Išsaugoti pakeitimus"
+
+msgid "Check-in days"
+msgstr "Atvykimo dienos"
+
+msgid "Guests can check in any day."
+msgstr "Svečiai gali atvykti bet kurią dieną."
+
+msgid "Add rule"
+msgstr "Pridėti taisyklę"
+
+msgid "Seasons"
+msgstr "Sezonai"
+
+msgid "Check-out days"
+msgstr "Išvykimo dienos"
+
+msgid "Guests can check out any day."
+msgstr "Svečiai gali išvykti bet kurią dieną."
+
+msgid "Minimum stay"
+msgstr "Minimalus apsistojimas"
+
+msgid "There are no minimum stay rules."
+msgstr "Nėra minimalaus buvimo taisyklių."
+
+msgid "nights"
+msgstr "naktys"
+
+msgid "Maximum stay"
+msgstr "Maksimalus apsistojimas"
+
+msgid "There are no maximum stay rules."
+msgstr "Nėra maksimalaus buvimo taisyklių."
+
+msgid "Block accommodation"
+msgstr "Blokuoti apgyvendinimą"
+
+msgid "There are no blocking accommodation rules."
+msgstr "Apgyvendinimo blokavimo taisyklių nėra."
+
+msgid "From"
+msgstr "Nuo"
+
+msgid "Till"
+msgstr "Iki"
+
+msgid "Restriction"
+msgstr "Apribojimai"
+
+msgid "Not check-in rule marks the date as unavailable for check-in."
+msgstr ""
+
+msgid "Not check-out rule marks the date as unavailable for check-out."
+msgstr ""
+
+msgid "Not stay-in rule displays the date as blocked. This date is unavailable for check-out and check-in on the next date."
+msgstr ""
+
+msgid "Not stay-in with Not check-out rules completely block the selected date, additionally displaying the previous date as unavailable for check-in."
+msgstr ""
+
+msgid "Not check-in"
+msgstr "Ne atvykimas"
+
+msgid "Not check-out"
+msgstr "Ne išvykimas"
+
+msgid "Not stay-in"
+msgstr "Ne pasilikti"
+
+msgid "Comment"
+msgstr "Komentuoti"
+
+msgid "Minimum advance reservation"
+msgstr "Minimali išankstinė rezervacija"
+
+msgid "There are no minimum advance reservation rules."
+msgstr "Minimalaus išankstinio rezervavimo taisyklių nėra."
+
+msgid "Maximum advance reservation"
+msgstr "Maksimali išankstinė rezervacija"
+
+msgid "There are no maximum advance reservation rules."
+msgstr "Maksimalios išankstinės rezervacijos taisyklių nėra."
+
+msgid "Booking buffer"
+msgstr "Rezervacijos buferis"
+
+msgid "There are no booking buffer rules."
+msgstr "Rezervacijos buferio taisyklių nėra."
+
+msgid "Booking Calendar"
+msgstr "Rezervacijų kalendorius"
+
+msgid "Calendar"
+msgstr "Kalendorius"
+
+msgid "Add New Booking"
+msgstr "Nauja rezervacija"
+
+msgid "Clear Search Results"
+msgstr "Išvalyti paieškos rezultatus"
+
+msgid "Note: booking rules are disabled in the plugin settings and are not taken into account."
+msgstr "Pastaba: rezervacijos taisyklės išjungtos papildinio nustatymuose ir į jas neatsižvelgiama."
+
+msgid "Unable to create booking. Please try again."
+msgstr "Nepavyko sukurti rezervacijos. Prašau, pabandykite dar kartą."
+
+msgid "Booking is blocked due to maintenance reason. Please try again later."
+msgstr "Rezervacija blokuojama dėl priežiūros priežasčių. Pabandykite dar kartą vėliau."
+
+msgid "There are no accommodations selected for reservation."
+msgstr "Nėra pasirinktų nakvynės vietų rezervavimui."
+
+msgid "Selected accommodations are not valid."
+msgstr "Pasirinktos apgyvendinimo vietos negalioja."
+
+msgid "Accommodation Type is not valid."
+msgstr "Apgyvendinimo tipas negalioja."
+
+msgid "Rate is not valid."
+msgstr "Kaina negalioja."
+
+msgid "Adults number is not valid."
+msgstr "Suaugusiųjų skaičius negalioja."
+
+msgid "Children number is not valid."
+msgstr "Vaikų skaičius netinkamas."
+
+msgid "The total number of guests is not valid."
+msgstr "Bendras svečių skaičius netinkamas."
+
+msgid "Selected dates do not meet booking rules for type %s"
+msgstr "Pasirinktos datos neatitinka %s tipo rezervavimo taisyklių"
+
+msgid "Accommodations are not available."
+msgstr "Apgyvendinimo vieta negalima."
+
+msgid "There are no rates for requested dates."
+msgstr "Prašomoms datoms įkainių nėra."
+
+msgid "Search Results"
+msgstr "Paieškos rezultatai"
+
+msgid "— Any —"
+msgstr "- bet koks -"
+
+msgid "Search parameters are not set."
+msgstr "Paieškos parametrai nenustatyti."
+
+msgid "Check-in date is not valid."
+msgstr "Atvykimo data negalioja."
+
+msgid "Check-in date cannot be earlier than today."
+msgstr "Atvykimo data negali būti ankstesnė nei šiandien."
+
+msgid "Check-out date is not valid."
+msgstr "Išvykimo data negalioja."
+
+msgid "Nothing found. Please try again with different search parameters."
+msgstr "Nieko nerasta. Bandykite dar kartą naudodami kitus paieškos parametrus."
+
+msgid "Sorry, you are not allowed to access this page."
+msgstr ""
+
+msgid "User ID"
+msgstr ""
+
+msgid "Username"
+msgstr ""
+
+msgid "First Name"
+msgstr "Vardas"
+
+msgid "Last Name"
+msgstr "Pavardė"
+
+msgid "Phone"
+msgstr "Telefonas"
+
+msgid "Address"
+msgstr "Adresas"
+
+msgid "State / County"
+msgstr "Apskritis"
+
+msgid "Country"
+msgstr "Šalis"
+
+msgid "City"
+msgstr "Miestas"
+
+msgid "Postcode"
+msgstr "Pašto kodas"
+
+msgid "Customer data updated."
+msgstr ""
+
+msgid "User account updated."
+msgstr ""
+
+msgid "Edit User Profile"
+msgstr ""
+
+msgid "Update"
+msgstr "Atnaujinti"
+
+msgid "Customers"
+msgstr ""
+
+msgid "The booking is not set."
+msgstr "Rezervacija nenustatyta."
+
+msgid "The booking not found."
+msgstr "Rezervacija nerasta."
+
+msgid "Edit Booking #%d"
+msgstr "Redaguoti rezervaciją #%d"
+
+msgid "Cancel"
+msgstr "Atšaukti"
+
+msgid "Back"
+msgstr "Atgal"
+
+msgid "Edit Booking"
+msgstr "Redaguoti rezervaciją"
+
+msgid "You cannot edit the imported booking. Please update the source booking and resync your calendars."
+msgstr "Negalite redaguoti importuotos rezervacijos. Atnaujinkite šaltinio rezervavimą ir iš naujo sinchronizuokite kalendorius."
+
+msgid "Request does not pass security verification. Please refresh the page and try one more time."
+msgstr "Užklausa nepraeina saugumo patikrinimo. Atnaujinkite puslapį ir bandykite dar kartą."
+
+msgid "Check-in date is not set."
+msgstr "Atvykimo data nenustatyta."
+
+msgid "Check-out date is not set."
+msgstr "Išvykimo data nenustatyta."
+
+msgid "Unable to update booking. Please try again."
+msgstr "Nepavyko išsaugoti rezervacijos. Bandykite dar kartą."
+
+msgid "Booking was edited."
+msgstr "Rezervacija buvo redaguota."
+
+msgid "Available"
+msgstr "Yra"
+
+msgid "Replace"
+msgstr "Pakeisti"
+
+msgid "— Add new —"
+msgstr "— Pridėti naują —"
+
+msgid "Extensions"
+msgstr "Plėtiniai"
+
+msgid "Extend the functionality of Hotel Booking plugin with the number of helpful addons for your custom purposes."
+msgstr "Išplėskite viešbučių užsakymo papildinio funkcionalumą su daugybe naudingų priedų, skirtų jūsų pasirinktiems tikslams."
+
+msgid "Get this Extension"
+msgstr "Gaukite šį plėtinį"
+
+msgid "No extensions found."
+msgstr "Nerasta jokių plėtinių."
+
+msgid "Abort Process"
+msgstr "Nutraukimo procesas"
+
+msgid "Aborting..."
+msgstr "Nutraukiamas..."
+
+msgid "Import Calendar"
+msgstr "Importuoti kalendorių"
+
+msgid "Accommodation: %s"
+msgstr "Apgyvendinimo vieta: %s"
+
+msgid "Accommodation Type: %s"
+msgstr "Apgyvendinimo tipas: %s"
+
+msgid "Please be patient while the calendars are imported. You will be notified via this page when the process is completed."
+msgstr "Būkite kantrūs, kol kalendoriai importuojami. Šiame puslapyje jums bus pranešta, kai procesas bus baigtas."
+
+msgid "Accommodation updated."
+msgstr "Apgyvendinimo vieta atnaujinta."
+
+msgid "This calendar has already been imported for another accommodation."
+msgstr "Šis kalendorius jau buvo importuotas kitam būstui."
+
+msgid "Sync, Import and Export Calendars"
+msgstr "Sinchronizuokite, importuokite ir eksportuokite kalendorius"
+
+#. translators: %s - room name. Example: "Comfort Triple 1"
+msgid "Edit External Calendars of \"%s\""
+msgstr "Redaguoti „%s“ išorinius kalendorius"
+
+msgid "Sync All External Calendars"
+msgstr "Sinchronizuoti visus išorinius kalendorius"
+
+msgid "Sync your bookings across all online channels like Booking.com, TripAdvisor, Airbnb etc. via iCalendar file format."
+msgstr "Sinchronizuokite savo užsakymus visuose internetiniuose kanaluose, pvz., Booking.com, TripAdvisor, Airbnb ir kt. naudodami iCalendar failo formatą."
+
+msgid "Calendar URL"
+msgstr "Kalendoriaus URL"
+
+msgid "Add New Calendar"
+msgstr "Pridėti naują kalendorių"
+
+msgid "Sync Calendars"
+msgstr "Sinchronizuoti kalendorius"
+
+msgid "Delete All Logs"
+msgstr "Trinti visus registrus"
+
+msgid "Deleting..."
+msgstr "Trinama..."
+
+msgid "%d item"
+msgstr "%d daiktas"
+
+msgid "%d items"
+msgstr "%d daiktai"
+
+msgid "Calendars Synchronization Status"
+msgstr "Kalendorių sinchronizavimo būsena"
+
+msgid "Here you can see synchronization status of your external calendars."
+msgstr "Čia galite matyti išorinių kalendorių sinchronizavimo būseną."
+
+msgid "Calendars Sync Status"
+msgstr "Kalendorių sinchronizavimo būsena"
+
+msgid "Display calendars synchronization status."
+msgstr "Rodyti kalendorių sinchronizavimo būseną."
+
+msgid "Language Guide"
+msgstr "Kalbos vadovas"
+
+msgid "Default language"
+msgstr "Numatytoji kalba"
+
+msgid "This plugin will display all system messages, labels, buttons in the language set in <em>General > Settings > Site Language</em>. If the plugin is not available in your language, you may <a href=\"%s\">contribute your translation</a>."
+msgstr "Šis papildinys rodys visus sistemos pranešimus, etiketes ir mygtukus ta kalba, kuri nustatyta <em>Bendra > Nustatymai > Svetainės kalba</em>. Jei papildinys jūsų kalba nepasiekiamas, galite <a href=\"%s\">padaryti vertimą</a>."
+
+msgid "Custom translations and edits"
+msgstr "Individualūs vertimai ir redagavimas"
+
+msgid "You may customize plugin translation by editing the needed texts or adding your translation following these steps:"
+msgstr "Galite tinkinti papildinio vertimą redaguodami reikalingus tekstus arba pridėdami vertimą atlikdami šiuos veiksmus:"
+
+msgid "Take the source file for your translations %s or needed translated locale."
+msgstr "Paimkite vertimų %s šaltinio failą arba reikalingą vertimo lokalę."
+
+msgid "Translate texts with any translation program like Poedit, Loco, Pootle etc."
+msgstr "Išverskite tekstus naudodami bet kurią vertimo programą, pvz., Poedit, Loco, Pootle ir kt."
+
+msgid "Put created .mo file with your translations into the folder %s. Where {lang} is ISO-639 language code and {country} is ISO-3166 country code. Example: Brazilian Portuguese file would be called motopress-hotel-booking-pt_BR.mo."
+msgstr "Įdėkite sukurtą .mo failą su vertimais į aplanką %s. Kur {lang} yra ISO-639 kalbos kodas, o {country} yra ISO-3166 šalies kodas. Pavyzdys: Brazilijos portugalų failas būtų vadinamas motopress-hotel-booking-pt_BR.mo."
+
+msgid "Multilingual content"
+msgstr "Daugiakalbis turinys"
+
+msgid "If your site is multilingual, you may use additional plugins to translate your added content into multiple languages allowing the site visitors to switch them."
+msgstr "Jei jūsų svetainė yra daugiakalbė, galite naudoti papildomus papildinius, kad išverstumėte pridėtą turinį į kelias kalbas, kad svetainės lankytojai galėtų jas pakeisti."
+
+msgid "Language"
+msgstr "Kalba"
+
+msgid "Reports"
+msgstr "Pranešimai"
+
+msgid "Export"
+msgstr "Eksportuoti"
+
+msgid "All Statuses"
+msgstr "Visi statusai"
+
+msgid "Booking dates between"
+msgstr "Užsakymo datos tarp"
+
+msgid "Check-in date between"
+msgstr "Atvykimo data tarp"
+
+msgid "Check-out date between"
+msgstr "Išvykimo data tarp"
+
+msgid "In-house between"
+msgstr "Vidinis tarp"
+
+msgid "Date of reservation between"
+msgstr "Rezervacijos data tarp"
+
+msgid "Export Bookings"
+msgstr "Eksportuoti rezervacijas"
+
+msgid "Choose start date"
+msgstr "Pasirinkite pradžios datą"
+
+msgid "Choose end date"
+msgstr "Pasirinkite pabaigos datą"
+
+msgid "Select columns to export"
+msgstr "Pasirinkite stulpelius, kuriuos norite eksportuoti"
+
+msgid "Generate CSV"
+msgstr "Generuoti CSV"
+
+msgid "Number of accommodations"
+msgstr "Apgyvendinimo vietų skaičius"
+
+msgid "Title"
+msgstr "Pavadinimas"
+
+msgid "Leave empty to use accommodation type title."
+msgstr "Palikite tuščią, jei norite naudoti apgyvendinimo tipo pavadinimą."
+
+msgid "Generate"
+msgstr "Generuoti"
+
+msgid "Accommodation generated."
+msgid_plural "%s accommodations generated."
+msgstr[0] "Apgyvendinimo vieta sugeneruota."
+msgstr[1] "%s apgyvendinimo vietos sugeneruotos."
+msgstr[2] "%s apgyvendinimo vietos sugeneruotos."
+msgstr[3] "%s apgyvendinimo vietos sugeneruotos."
+
+msgid "General"
+msgstr "Bendra"
+
+msgid "Pages"
+msgstr "Puslapiai"
+
+msgid "Search Results Page"
+msgstr "Paieškos rezultatų puslapis"
+
+msgid "Select page to display search results. Use search results shortcode on this page."
+msgstr "Pasirinkite puslapį, kuriame būtų rodomi paieškos rezultatai. Šiame puslapyje naudokite trumpąjį paieškos rezultatų kodą."
+
+msgid "Checkout Page"
+msgstr "Apmokėjimo puslapis"
+
+msgid "Select page user will be redirected to complete booking."
+msgstr "Pasirinkto puslapio naudotojas bus peradresuotas užbaigti rezervaciją."
+
+msgid "Terms & Conditions"
+msgstr "Taisyklės ir Sąlygos"
+
+msgid "If you define a \"Terms\" page the customer will be asked if they accept them when checking out."
+msgstr "Jei nurodysite Taisyklių ir sąlygų puslapį, prieš atsiskaitant pirkėjas bus paprašytas su jomis sutikti."
+
+msgid "Open the Terms & Conditions page in a new window"
+msgstr ""
+
+msgid "By enabling this option you can avoid errors related to displaying your terms & conditions inline for website pages created in page builders."
+msgstr ""
+
+msgid "My Account Page"
+msgstr ""
+
+msgid "Select a page to display user account. Use the customer account shortcode on this page."
+msgstr ""
+
+msgid "Misc"
+msgstr "Įvairūs"
+
+msgid "Square Units"
+msgstr "Kvadratiniai vienetai"
+
+msgid "Currency"
+msgstr "Valiuta"
+
+msgid "Currency Position"
+msgstr "Piniginio vieneto simbolio vieta"
+
+msgid "Datepicker Date Format"
+msgstr "Datos rinkiklio datos formatas"
+
+msgid "Check-out Time"
+msgstr "Išvykimo laikas"
+
+msgid "Check-in Time"
+msgstr "Atvykimo laikas"
+
+msgid "Bed Types"
+msgstr "Lovų tipai"
+
+msgid "Type"
+msgstr "Tipas"
+
+msgid "Add Bed Type"
+msgstr "Pridėti lovos tipą"
+
+msgid "Show Lowest Price for"
+msgstr "Rodyti mažiausia kainą už"
+
+msgid "days"
+msgstr "dienos"
+
+msgid "Lowest price of accommodation for selected number of days if check-in and check-out dates are not set. Example: set 0 to display today's lowest price, set 7 to display the lowest price for the next week."
+msgstr "Mažiausia nakvynės kaina pasirinktam dienų skaičiui, jei atvykimo ir išvykimo datos nenustatytos. Pavyzdys: nustatykite 0, kad būtų rodoma mažiausia šiandienos kaina, nustatykite 7, kad būtų rodoma žemiausia kitos savaitės kaina."
+
+msgid "Enable search form to recommend the best set of accommodations according to a number of guests."
+msgstr "Įjunkite paieškos formą, kad rekomenduotumėte geriausią apgyvendinimo rinkinį pagal svečių skaičių."
+
+msgid "Enable the use of coupons."
+msgstr "Įjungti nuolaidų kuponus."
+
+msgid "Text on Checkout"
+msgstr "Tekstas apmokėjimo puslapyje"
+
+msgid "This text will appear on the checkout page."
+msgstr "Šis tekstas bus rodomas atsiskaitymo puslapyje."
+
+msgid "Disable Booking"
+msgstr "Išjungti rezervavimą"
+
+msgid "Hide reservation forms and buttons"
+msgstr "Slėpti rezervavimo formas ir mygtukus"
+
+msgid "Text instead of reservation form while booking is disabled"
+msgstr "Tekstas vietoj rezervacijos formos, kol rezervacija išjungta"
+
+msgid "Booking Confirmation"
+msgstr "Rezervacijos patvirtinimas"
+
+msgid "Confirmation Mode"
+msgstr "Patvirtinimo režimas"
+
+msgid "By customer via email"
+msgstr "Klientas el. paštu"
+
+msgid "By admin manually"
+msgstr "Administratorius rankiniu būdu"
+
+msgid "Confirmation upon payment"
+msgstr "Patvirtinimas sumokėjus"
+
+msgid "Booking Confirmed Page"
+msgstr "Rezervacija patvirtinta puslapis"
+
+msgid "Page user will be redirected to once the booking is confirmed via email or by admin."
+msgstr "Puslapio naudotojas bus peradresuotas, kai rezervacija bus patvirtinta el. paštu arba administratoriaus."
+
+msgid "Approval Time for User"
+msgstr "Patvirtinimo laikas vartotojui"
+
+msgid "Period of time in minutes the user is given to confirm booking via email. Unconfirmed bookings become Abandoned and accommodation status changes to Available."
+msgstr "Laikotarpis minutėmis vartotojas turi patvirtinti užsakymą el. paštu. Nepatvirtinti užsakymai tampa apleisti, o apgyvendinimo būsena pasikeičia į Galima."
+
+msgid "Country of residence field is required for reservation."
+msgstr "Užsakymui būtina užpildyti gyvenamosios šalies laukelį."
+
+msgid "Full address fields are required for reservation."
+msgstr "Rezervuojant reikia užpildyti visus adreso laukus."
+
+msgid "Customer information is required when placing admin bookings."
+msgstr "Kliento informacija reikalinga atliekant administracinius rezervavimus."
+
+msgid "Default Country on Checkout"
+msgstr "Numatytoji šalis apmokėjimo puslapyje"
+
+msgid "Price Breakdown"
+msgstr "Kainų suskirstymas"
+
+msgid "Price breakdown unfolded by default."
+msgstr "Kainų suskirstymas išskleidžiamas pagal numatytuosius nustatymus."
+
+msgid "Accounts"
+msgstr ""
+
+msgid "Account creation"
+msgstr ""
+
+msgid "Automatically create an account for a user at checkout."
+msgstr ""
+
+msgid "Allow customers to create an account during checkout."
+msgstr ""
+
+msgid "Allow customers to log into their existing account during checkout."
+msgstr ""
+
+msgid "Booking Cancellation"
+msgstr "Rezervacijos atšaukimas"
+
+msgid "User can cancel booking via link provided inside email."
+msgstr "Vartotojas gali atšaukti rezervaciją naudodamas el. laiške pateiktą nuorodą."
+
+msgid "Booking Cancelation Page"
+msgstr "Rezervacijos atšaukimo puslapis"
+
+msgid "Page to confirm booking cancelation."
+msgstr "Puslapis, skirtas patvirtinti rezervacijos atšaukimą."
+
+msgid "Booking Canceled Page"
+msgstr "Rezervacija atšaukta puslapis"
+
+msgid "Page to redirect to after a booking is canceled."
+msgstr "Puslapis, į kurį reikia nukreipti atšaukus rezervaciją."
+
+msgid "Search Options"
+msgstr "Paieškos nustatymai"
+
+msgid "Maximum accommodation occupancy available in the Search Form."
+msgstr "Paieškos formoje pateikiamas maksimalus apgyvendinimo užimtumas."
+
+msgid "Max Adults"
+msgstr "Maksimalus suaugusiųjų skaičius"
+
+msgid "Max Children"
+msgstr "Maksimalus vaikų skaičius"
+
+msgid "Age of Child"
+msgstr "Vaiko amžius"
+
+msgid "Optional description of the \"Children\" field."
+msgstr "Neprivalomas lauko „Vaikai“ aprašymas."
+
+msgid "Skip Search Results"
+msgstr "Praleisti paieškos rezultatus"
+
+msgid "Skip search results page and enable direct booking from accommodation pages."
+msgstr "Praleiskite paieškos rezultatų puslapį ir įgalinkite tiesioginį rezervavimą iš apgyvendinimo puslapių."
+
+msgid "Direct Booking Form"
+msgstr "Tiesioginės rezervacijos forma"
+
+msgid "Show price for selected period"
+msgstr "Rodyti pasirinkto laikotarpio kainą"
+
+msgid "Show price together with adults and children fields"
+msgstr "Kainą rodyti kartu su suaugusiųjų ir vaikų laukais"
+
+msgid "Book button behavior on the search results page"
+msgstr "Rezervuoti mygtuko elgesys paieškos rezultatų puslapyje"
+
+msgid "Redirect to the checkout page immediately after successful addition to reservation."
+msgstr "Peradresuokite į atsiskaitymo puslapį iškart po sėkmingo rezervacijos pridėjimo."
+
+msgid "Enable \"adults\" and \"children\" options for my website (default)."
+msgstr "Įgalinti parinktis „suaugę“ ir „vaikai“ mano svetainėje (numatytasis)."
+
+msgid "Disable \"children\" option for my website (hide \"children\" field and use Guests label instead)."
+msgstr "Išjungti parinktį „vaikai“ mano svetainėje (paslėpti lauką „vaikai“ ir vietoj to naudoti etiketę „Svečiai“)."
+
+msgid "Disable \"adults\" and \"children\" options for my website."
+msgstr "Išjungti parinktis „suaugę“ ir „vaikai“ mano svetainėje."
+
+msgid "Guest Management"
+msgstr "Svečių valdymas"
+
+msgid "Hide \"adults\" and \"children\" fields within search availability forms."
+msgstr "Paieškos pasiekiamumo formose slėpti laukus „suaugusieji“ ir „vaikai“."
+
+msgid "Do not apply booking rules for admin bookings."
+msgstr "Netaikyti rezervacijos taisyklių administratoriaus užsakymams."
+
+msgid "Display Options"
+msgstr "Rodyti nustatymus"
+
+msgid "Display gallery images of accommodation page in lightbox."
+msgstr "Rodyti apgyvendinimo puslapio galerijos vaizdus šviesdėžėje."
+
+msgid "Availability Calendar"
+msgstr "Užimtumo kalendorius"
+
+msgid "Display per-night prices in the availability calendar."
+msgstr ""
+
+msgid "Truncate per-night prices in the availability calendar."
+msgstr ""
+
+msgid "Display the currency sign in the availability calendar."
+msgstr ""
+
+msgid "Calendar Theme"
+msgstr "Kalendoriaus tema"
+
+msgid "Select theme for an availability calendar."
+msgstr "Pasirinkite užimtumo kalendoriaus temą."
+
+msgid "Template Mode"
+msgstr "Šablono režimas"
+
+msgid "Developer Mode"
+msgstr "Programavimo rėžimas"
+
+msgid "Theme Mode"
+msgstr "Temos režimas"
+
+msgid "Choose Theme Mode to display the content with the styles of your theme. Choose Developer Mode to control appearance of the content with custom page templates, actions and filters. This option can't be changed if your theme is initially integrated with the plugin."
+msgstr "Pasirinkite Temos režimą, kad turinys būtų rodomas su savo temos stiliais. Pasirinkite Kūrėjo režimą, kad galėtumėte valdyti turinio išvaizdą naudodami pasirinktinius puslapio šablonus, veiksmus ir filtrus. Šios parinkties pakeisti negalima, jei jūsų tema iš pradžių buvo integruota su papildiniu."
+
+msgid "More Styles"
+msgstr "Daugiau stilių"
+
+msgid "Extend the styling options of Hotel Booking plugin with the new free addon - Hotel Booking Styles."
+msgstr "Išplėskite viešbučių užsakymo papildinio stiliaus parinktis naudodami naują nemokamą priedą – viešbučių rezervacijų stilius."
+
+msgid "Calendars Synchronization"
+msgstr "Kalendorių sinchronizavimas"
+
+msgid "Export admin blocks."
+msgstr "Eksportuoti administratoriaus blokus."
+
+msgid "Do not export imported bookings."
+msgstr "Neeksportuokite importuotų rezervacijų."
+
+msgid "Minimize Logs"
+msgstr ""
+
+msgid "Enable the plugin to record only important messages."
+msgstr ""
+
+msgid "Calendars Synchronization Scheduler"
+msgstr "Kalendorių sinchronizavimo planuoklis"
+
+msgid "Enable automatic external calendars synchronization"
+msgstr "Įgalinti automatinį išorinių kalendorių sinchronizavimą"
+
+msgid "Clock"
+msgstr "Laikrodis"
+
+msgid "Sync calendars at this time (UTC) or starting at this time every interval below."
+msgstr "Sinchronizuoti kalendorius šiuo metu (UTC) arba pradedant šiuo laiku kiekvienu toliau nurodytu intervalu."
+
+msgid "Interval"
+msgstr "Intervalas"
+
+msgid "Quarter an Hour"
+msgstr "Ketvirtis valandos"
+
+msgid "Half an Hour"
+msgstr "Pusvalandis"
+
+msgid "Once Hourly"
+msgstr "Kartą per valandą"
+
+msgid "Twice Daily"
+msgstr "Du kartus per dieną"
+
+msgid "Once Daily"
+msgstr "Kartą per dieną"
+
+msgid "Automatically delete sync logs older than"
+msgstr "Automatiškai ištrinti sinchronizavimo žurnalus, senesnius nei"
+
+msgid "Day"
+msgstr "Diena"
+
+msgid "Week"
+msgstr "Savaitė"
+
+msgid "Month"
+msgstr "Mėnuo"
+
+msgid "Quarter"
+msgstr "Ketvirtis"
+
+msgid "Half a Year"
+msgstr "Pusė metų"
+
+msgid "Never Delete"
+msgstr "Niekada neištrinti"
+
+msgid "Block Editor"
+msgstr "Blokų redaktorius"
+
+msgid "Enable block editor for \"%s\"."
+msgstr "Įgalinti „%s“ blokų rengyklę."
+
+msgid "Accommodation Types"
+msgstr "Apgyvendinimo tipai"
+
+msgid "Services"
+msgstr "Paslaugos"
+
+msgid "Admin Emails"
+msgstr "Administratoriaus el. laiškai"
+
+msgid "Customer Emails"
+msgstr "Klientų el. laiškai"
+
+msgid "Turn one-time guests into loyal customers by sending out automatic marketing campaigns with the <a>Hotel Booking & Mailchimp Integration</a>."
+msgstr "Paverskite vienkartinius svečius lojaliais klientais siųsdami automatines rinkodaros kampanijas naudodami <a>Hotel Booking ir „Mailchimp“ integraciją</a>."
+
+msgid "Turn one-time guests into loyal customers by sending out automatic marketing campaigns with the Hotel Booking & Mailchimp Integration."
+msgstr "Paverskite vienkartinius svečius lojaliais klientais siųsdami automatines rinkodaros kampanijas su Hotel Booking ir „Mailchimp Integration“."
+
+msgid "Cancellation Details Template"
+msgstr "Išsamios atšaukimo informacijos šablonas"
+
+msgid "Used for %cancellation_details% tag."
+msgstr "Naudojama žymai %cancellation_details%."
+
+msgid "Email Settings"
+msgstr "El. pašto nustatymai"
+
+msgid "Send automated email notifications, such as key pick-up instructions, house rules, before and after arrival/departure with <a>Hotel Booking Notifier</a>."
+msgstr "Siųskite automatinius pranešimus el. paštu, pvz., rakto paėmimo instrukcijas, namų taisykles, prieš ir po atvykimo / išvykimo, naudodami <a>Hotel Booking Notifier</a>."
+
+msgid "Send automated email notifications, such as key pick-up instructions, house rules, before and after arrival/departure with Hotel Booking Notifier."
+msgstr "Siųskite automatinius pranešimus el. paštu, pvz., rakto paėmimo instrukcijas, namų taisykles, prieš ir po atvykimo / išvykimo naudodami Hotel Booking Notifier."
+
+msgid "Email Sender"
+msgstr "El. pašto siuntėjas"
+
+msgid "Administrator Email"
+msgstr "Administratoriaus el. paštas"
+
+msgid "From Email"
+msgstr "Iš el. pašto"
+
+msgid "From Name"
+msgstr "Siųsti nuo (vardas)"
+
+msgid "Logo URL"
+msgstr "Logotipo URL"
+
+msgid "Footer Text"
+msgstr "Poraštės tekstas"
+
+msgid "Reserved Accommodation Details Template"
+msgstr "Rezervuoto apgyvendinimo informacijos šablonas"
+
+msgid "Used for %reserved_rooms_details% tag."
+msgstr "Naudojama žymai %reserved_rooms_details%."
+
+msgid "Styles"
+msgstr "Stiliai"
+
+msgid "Base Color"
+msgstr "Pagrindinė spalva"
+
+msgid "Background Color"
+msgstr "Fono spalva"
+
+msgid "Body Background Color"
+msgstr "Turinio fono spalva"
+
+msgid "Body Text Color"
+msgstr "Turinio teksto spalva"
+
+msgid "Payment Gateways"
+msgstr "Mokėjimų paslaugų sistemos"
+
+msgid "General Settings"
+msgstr "Bendri nustatymai"
+
+msgid "Need more gateways? Use our Hotel Booking <a href=\"%s\" target=\"_blank\">WooCommerce Payments</a> extension."
+msgstr "Reikia daugiau mokėjimo sistemų? Naudokite mūsų Hotel Booking <a href=\"%s\" target=\"_blank\">WooCommerce Payments</a> plėtinį."
+
+msgid "You may also email the <a href=\"%s\" target=\"_blank\">balance payment request</a> link to your guests."
+msgstr "Taip pat savo svečiams galite el. paštu išsiųsti <a href=\"%s\" target=\"_blank\">balanso mokėjimo užklausą</a>."
+
+msgid "User Pays"
+msgstr "Vartotojas moka"
+
+msgid "Full Amount"
+msgstr "Pilnas kiekis"
+
+msgid "Deposit"
+msgstr "Depozitas"
+
+msgid "Deposit Type"
+msgstr "Depozito tipas"
+
+msgid "Fixed"
+msgstr "Fiksuotas"
+
+msgid "Percent"
+msgstr "Procentai"
+
+msgid "Deposit Amount"
+msgstr "Depozito kiekis"
+
+msgid "Deposit Time Frame (days)"
+msgstr "Depozito terminas (dienomis)"
+
+msgid "Apply deposit to bookings made in at least the selected number of days prior to the check-in date. Otherwise, the full amount is charged."
+msgstr "Taikykite depozitą už rezervacijas, atliktas bent per pasirinktą dienų skaičių iki atvykimo datos. Kitu atveju apmokestinama visa suma."
+
+msgid "Force Secure Checkout"
+msgstr "Naudoti tik saugų apmokėjimą"
+
+msgid "Force SSL (HTTPS) on the checkout pages. You must have an SSL certificate installed to use this option."
+msgstr "Priverskite SSL (HTTPS) atsiskaitymo puslapiuose. Kad galėtumėte naudoti šią parinktį, turite turėti įdiegtą SSL sertifikatą."
+
+msgid "Reservation Received Page"
+msgstr "Rezervacija gauta Puslapis"
+
+msgid "Failed Transaction Page"
+msgstr "Nepavykusios operacijos puslapis"
+
+msgid "Default Gateway"
+msgstr "Numatytoji mokėjimo sistema"
+
+msgid "Pending Payment Time"
+msgstr "Laukiama apmokėjimo"
+
+msgid "Period of time in minutes the user is given to complete payment. Unpaid bookings become Abandoned and accommodation status changes to Available."
+msgstr "Laikotarpis minutėmis, per kurį vartotojas turi atlikti mokėjimą. Neapmokėti užsakymai tampa atšaukti, o apgyvendinimo būsena pasikeičia į Galima."
+
+msgid "Install <a href=\"%s\" target=\"_blank\">Hotel Booking addons</a> to manage their settings."
+msgstr "Įdiekite <a href=\"%s\" target=\"_blank\">Hotel Booking addons</a>, kad galėtumėte tvarkyti jų nustatymus."
+
+msgid "Install Hotel Booking addons to manage their settings."
+msgstr "Įdiekite Hotel Booking addons, kad galėtumėte valdyti jų nustatymus."
+
+msgid "Advanced"
+msgstr "Papildomi nustatymai"
+
+msgid "License"
+msgstr "Licencija"
+
+msgid "Settings saved."
+msgstr "Nustatymai išsaugoti."
+
+msgid "<strong>Note:</strong> Payment methods will appear on the checkout page only when Confirmation Upon Payment is enabled in Accommodation > Settings > General > Confirmation Mode."
+msgstr "<strong>Pastaba:</strong> mokėjimo metodai bus rodomi atsiskaitymo puslapyje tik tada, kai Apgyvendinimas > Nustatymai > Bendra > Patvirtinimo režimas įgalintas Patvirtinimas po apmokėjimo."
+
+msgid "Settings"
+msgstr "Nustatymai"
+
+msgid "Availability Search Form"
+msgstr "Užimtumo paieškos forma"
+
+msgid "Display search form."
+msgstr "Rodyti paieškos formą."
+
+msgid "The number of adults presetted in the search form."
+msgstr "Paieškos formoje iš anksto nustatytas suaugusiųjų skaičius."
+
+msgid "The number of children presetted in the search form."
+msgstr "Paieškos formoje iš anksto nustatytas vaikų skaičius."
+
+msgid "Check-in date presetted in the search form."
+msgstr "Paieškos formoje iš anksto nustatyta atvykimo data."
+
+msgid "date in format %s"
+msgstr "data formatu %s"
+
+msgid "Check-out date presetted in the search form."
+msgstr "Išvykimo data iš anksto nustatyta paieškos formoje."
+
+msgid "Custom attributes for advanced search."
+msgstr "Priskirti išplėstinės paieškos atributai."
+
+msgid "Comma-separated slugs of attributes."
+msgstr "Kableliais atskirti atributai."
+
+msgid "Custom CSS class for shortcode wrapper"
+msgstr "Tinkinta CSS klasė trumpojo kodo įvyniokliui (shortcode wrapper)"
+
+msgid "whitespace separated css classes"
+msgstr "tarpais atskirtos css klasės"
+
+msgid "Accommodation Type ID"
+msgstr "Apgyvendinimo tipas ID"
+
+msgid "ID of Accommodation Type to check availability."
+msgstr "Apgyvendinimo tipo ID, kad patikrintumėte užimtumą."
+
+msgid "integer number"
+msgstr "sveikasis skaičius"
+
+msgid "How many months to show."
+msgstr "Kiek mėnesių parodyti."
+
+msgid "Set the number of columns or the number of rows and columns separated by comma. Example: \"3\" or \"2,3\""
+msgstr "Nustatykite stulpelių skaičių arba eilučių ir stulpelių, atskirtų kableliais, skaičių. Pavyzdys: \"3\" arba \"2,3\""
+
+msgid "Display availability calendar of the current accommodation type or by ID."
+msgstr "Rodyti esamo apgyvendinimo tipo užimtumo kalendorių arba pagal ID."
+
+msgid "Availability Search Results"
+msgstr "Užimtumo paieškos rezultatai"
+
+msgid "Display listing of accommodation types that meet the search criteria."
+msgstr "Rodyti paieškos kriterijus atitinkančių apgyvendinimo tipų sąrašą."
+
+msgid "Whether to display title of the accommodation type."
+msgstr "Ar rodyti apgyvendinimo tipo pavadinimą."
+
+msgid "Whether to display featured image of the accommodation type."
+msgstr "Ar rodyti apgyvendinimo tipo vaizdą."
+
+msgid "Whether to display gallery of the accommodation type."
+msgstr "Ar rodyti apgyvendinimo tipo galeriją."
+
+msgid "Whether to display excerpt (short description) of the accommodation type."
+msgstr "Ar rodyti apgyvendinimo tipo ištrauką (trumpą aprašymą)."
+
+msgid "Whether to display details of the accommodation type."
+msgstr "Ar rodyti informaciją apie apgyvendinimo tipą."
+
+msgid "Whether to display price of the accommodation type."
+msgstr "Ar rodyti apgyvendinimo tipo kainą."
+
+msgid "Show View Details button"
+msgstr "Rodyti mygtuką Plačiau"
+
+msgid "Whether to display \"View Details\" button with the link to accommodation type."
+msgstr "Ar rodyti mygtuką „Plačiau“ su nuoroda į apgyvendinimo tipą."
+
+msgid "Sort by."
+msgstr "Rikiuoti pagal."
+
+msgid "%1$s. See the <a href=\"%2$s\" target=\"_blank\">full list</a>."
+msgstr "%1$s. Žiūrėti <a href=\"%2$s\" target=\"_blank\">visą sąrašą</a>."
+
+msgid "Designates the ascending or descending order of sorting."
+msgstr "Nurodo didėjančią arba mažėjančią rūšiavimo tvarką."
+
+msgid "ASC - from lowest to highest values (1, 2, 3). DESC - from highest to lowest values (3, 2, 1)."
+msgstr "ASC – nuo ​​mažiausių iki didžiausių reikšmių (1, 2, 3). DESC – nuo ​​didžiausių iki mažiausių verčių (3, 2, 1)."
+
+msgid "Custom field name. Required if \"orderby\" is one of the \"meta_value\", \"meta_value_num\" or \"meta_value_*\"."
+msgstr "Pasirinktinis lauko pavadinimas. Būtina, jei „orderby“ yra vienas iš „meta_value“, „meta_value_num“ arba „meta_value_*“."
+
+msgid "custom field name"
+msgstr "pasirinktinio lauko pavadinimas"
+
+msgid "empty string"
+msgstr "tuščia eilutė"
+
+msgid "Specified type of the custom field. Can be used in conjunction with orderby=\"meta_value\"."
+msgstr "Nurodytas tinkinto lauko tipas. Galima naudoti kartu su orderby=\"meta_value\"."
+
+msgid "Sort by. Use \"orderby\" insted."
+msgstr "Rūšiuoti pagal. Insted naudokite „orderby“."
+
+msgid "Show Book button"
+msgstr "Rodyti mygtuką „Rezervuoti“"
+
+msgid "Whether to display Book button."
+msgstr "Ar rodyti mygtuką Rezervuoti."
+
+msgid "NOTE:"
+msgstr "PASTABA:"
+
+msgid "Use only on page that you set as Search Results Page in <a href=\"%s\">Settings</a>"
+msgstr "Naudokite tik puslapyje, kurį nustatėte kaip paieškos rezultatų puslapį <a href=\"%s\">Nustatymuose</a>"
+
+msgid "Accommodation Types Listing"
+msgstr "Apgyvendinimo tipų sąrašas"
+
+msgid "Count per page"
+msgstr "Skaičiavimas per puslapį"
+
+msgid "integer, -1 to display all, default: \"Blog pages show at most\""
+msgstr "sveikasis skaičius, -1, kad būtų rodomas viskas, numatytasis: \"Tinklaraščio puslapiai rodomi daugiausia\""
+
+msgid "IDs of categories that will be shown."
+msgstr "Kategorijų ID, kurios bus rodomos."
+
+msgid "Comma-separated IDs."
+msgstr "Kableliais atskirti ID."
+
+msgid "IDs of tags that will be shown."
+msgstr "Žymų, kurios bus rodomos, ID."
+
+msgid "IDs of accommodations that will be shown."
+msgstr "Apgyvendinimo vietų ID, kurios bus rodomos."
+
+msgid "Logical relationship between each taxonomy when there is more than one."
+msgstr "Loginis ryšys tarp kiekvienos taksonomijos, kai yra daugiau nei viena."
+
+msgid "Services Listing"
+msgstr "Paslaugų sąrašas"
+
+msgid "IDs"
+msgstr "IDs"
+
+msgid "IDs of services that will be shown. "
+msgstr "Paslaugų, kurios bus rodomos, ID. "
+
+msgid "Show All Services"
+msgstr "Rodyti visas paslaugas"
+
+msgid "Single Accommodation Type"
+msgstr "Vienas apgyvendinimo tipas"
+
+msgid "ID of accommodation type to display."
+msgstr "Apgyvendinimo tipo ID, kurį reikia rodyti."
+
+msgid "Display accommodation type with title and image."
+msgstr "Rodyti apgyvendinimo tipą su pavadinimu ir vaizdu."
+
+msgid "Checkout Form"
+msgstr "Apmokėjimo forma"
+
+msgid "Display checkout form."
+msgstr "Rodyti apmokėjimo formą."
+
+msgid "Use only on page that you set as Checkout Page in <a href=\"%s\">Settings</a>"
+msgstr "Naudokite tik tame puslapyje, kurį nustatėte kaip patikros puslapį <a href=\"%s\">Nustatymuose</a>"
+
+msgid "Booking Form"
+msgstr "Rezervacijos forma"
+
+msgid "Show Booking Form for Accommodation Type with id 777"
+msgstr "Rodyti apgyvendinimo tipo rezervavimo formą su ID 777"
+
+msgid "Accommodation Rates List"
+msgstr "Apgyvendinimo įkainių sąrašas"
+
+msgid "ID of accommodation type."
+msgstr "Apgyvendinimo tipo ID."
+
+msgid "Show Accommodation Rates List for accommodation type with id 777"
+msgstr "Rodyti apgyvendinimo kainų sąrašą apgyvendinimo tipui su ID 777"
+
+msgid "Display booking and payment details."
+msgstr "Rodyti rezervacijos ir mokėjimo informaciją."
+
+msgid "Use this shortcode on Booking Confirmed and Reservation Received pages"
+msgstr "Naudokite šį trumpąjį kodą (shortcode) puslapiuose „Užsakymas patvirtintas“ ir „Rezervacija gauta“."
+
+msgid "Booking Cancelation"
+msgstr "Rezervacijos atšaukimas"
+
+msgid "Display booking cancelation details."
+msgstr "Rodyti rezervacijos atšaukimo informaciją."
+
+msgid "Use this shortcode on the Booking Cancelation page"
+msgstr "Naudokite šį trumpąjį kodą rezervacijos atšaukimo puslapyje"
+
+msgid "Customer Account"
+msgstr ""
+
+msgid "Display log in form or customer account area."
+msgstr ""
+
+msgid "Use this shortcode to create the My Account page."
+msgstr ""
+
+msgid "Shortcodes"
+msgstr "Trumpieji kodai (shortcodes)"
+
+msgid "Shortcode"
+msgstr "Trumpasis kodas (shortcode)"
+
+msgid "Parameters"
+msgstr "Parametrai"
+
+msgid "Example"
+msgstr "Pavyzdys"
+
+msgid "Deprecated since %s"
+msgstr "Nebenaudojama nuo %s"
+
+msgid "Values:"
+msgstr "Reikšmės:"
+
+msgid "Default:"
+msgstr "Numatytasis:"
+
+msgid "Optional."
+msgstr "Nebūtina."
+
+msgid "Required"
+msgstr "Privalomas"
+
+msgid "Taxes and fees saved."
+msgstr "Mokesčiai ir rinkliavos Išsaugoti."
+
+msgid "Taxes & Fees"
+msgstr "Mokesčiai & rinkliavos"
+
+msgid "Fees"
+msgstr "Rinkliavos"
+
+msgid "No fees have been created yet."
+msgstr "Jokios rinkliavos dar nesukurtos."
+
+msgid "Add new"
+msgstr "Pridėti naują"
+
+msgid "Label"
+msgstr "Etiketė"
+
+msgid "New fee"
+msgstr "Nauja rinkliava"
+
+msgid "Per guest / per day"
+msgstr "Vienam svečiui / per dieną"
+
+msgid "Per accommodation / per day"
+msgstr "Už apgyvendinimą / per dieną"
+
+msgid "Per accommodation (%)"
+msgstr "Už apgyvendinimą (%)"
+
+msgid "Limit"
+msgstr "Limitas"
+
+msgid "How often this fee is charged. Set 0 to charge each day of the stay period. Set 1 to charge once."
+msgstr "Kaip dažnai imamas šis mokestis. Nustatykite 0, kad apmokestintumėte kiekvieną viešnagės laikotarpio dieną. Nustatykite 1, kad apmokestintumėte vieną kartą."
+
+msgid "Include"
+msgstr "Įtraukti"
+
+msgid "Show accommodation rate with this charge included"
+msgstr "Rodyti apgyvendinimo kainą su šiuo mokesčiu"
+
+msgid "Accommodation Taxes"
+msgstr "Apgyvendinimo mokesčiai"
+
+msgid "No taxes have been created yet."
+msgstr "Jokių mokesčių dar nesukurta."
+
+msgid "New tax"
+msgstr "Naujas mokestis"
+
+msgid "Limit of days the fee is charged. Set 0 to charge each day of stay period. Set 1 to charge once."
+msgstr "Apmokestinimo dienų limitas. Nustatykite 0, kad apmokestintumėte kiekvieną viešnagės dieną. Nustatykite 1, kad apmokestintumėte vieną kartą."
+
+msgid "Service Taxes"
+msgstr "Paslaugų mokesčiai"
+
+msgid "Percentage"
+msgstr "Procentas"
+
+msgid "Fee Taxes"
+msgstr "Rinkliavos mokesčiai"
+
+msgid "External Calendars"
+msgstr "Išoriniai kalendoriai"
+
+msgid "Sync External Calendars"
+msgstr "Sinchronizuoti išorinius kalendorius"
+
+msgctxt "Placeholder for empty accommodation title"
+msgid "(no title)"
+msgstr "(be pavadinimo)"
+
+msgid "Download Calendar"
+msgstr "Atsisiųskite kalendorių"
+
+msgid "Message"
+msgstr "Žinutė"
+
+msgid "Success"
+msgstr "Atlikta"
+
+msgid "Info"
+msgstr "Info"
+
+msgid "Warning"
+msgstr "Įspėjimas"
+
+msgctxt "This is date and time format 31/12/2017 - 23:59:59"
+msgid "d/m/Y - H:i:s"
+msgstr "d/m/Y - H:i:s"
+
+msgid "Waiting"
+msgstr "Laukiama"
+
+msgid "Processing"
+msgstr "Apdorojama"
+
+msgctxt "Total number of processed bookings"
+msgid "Total"
+msgstr "Iš viso"
+
+msgid "Succeed"
+msgstr "Pavyko!"
+
+msgid "Skipped"
+msgstr "Praleista"
+
+msgid "Failed"
+msgstr "Nepavyko"
+
+msgid "Removed"
+msgstr "Pašalinta"
+
+msgid "Copying to clipboard failed. Please press Ctrl/Cmd+C to copy."
+msgstr "Nukopijuoti į įškarpinę nepavyko. Paspauskite Ctrl/Cmd+C norėdami nukopijuoti."
+
+msgid "Description is missing."
+msgstr "Trūksta aprašymo."
+
+msgid "User is missing."
+msgstr "Trūksta vartotojo."
+
+msgid "Permission is missing."
+msgstr "Trūksta leidimo."
+
+msgid "You do not have permission to assign API Keys to the selected user."
+msgstr "Jūs neturite leidimo priskirti API raktų pasirinktam vartotojui."
+
+msgid "API Key updated successfully."
+msgstr "API raktas sėkmingai atnaujintas."
+
+msgid "API Key generated successfully. Make sure to copy your new keys now as the secret key will be hidden once you leave this page."
+msgstr "API raktas sėkmingai sugeneruotas. Išsaugokite savo naujajį raktą, nes kai išeisite iš šio puslapio, daugiau jis nebus rodomas."
+
+msgid "Revoke key"
+msgstr "Atšaukti API raktą"
+
+msgid "No keys found."
+msgstr "Raktų nerasta."
+
+msgid "Description"
+msgstr "Aprašymas"
+
+msgid "Consumer key ending in"
+msgstr "Vartotojo raktas bagiasi"
+
+msgid "User"
+msgstr "Vartotojas"
+
+msgid "Permissions"
+msgstr "Leidimai"
+
+msgid "Last access"
+msgstr "Paskutinis prisijungimas"
+
+msgid "API key"
+msgstr "API raktas"
+
+#. translators: %d: API key ID.
+msgid "ID: %d"
+msgstr "ID: %d"
+
+msgid "Revoke"
+msgstr "Atšaukti"
+
+msgid "Read"
+msgstr "Skaityti"
+
+msgid "Write"
+msgstr "Rašyti"
+
+msgid "Read/Write"
+msgstr "Skaityti / rašyti"
+
+#. translators: 1: last access date 2: last access time
+msgid "%1$s at %2$s"
+msgstr "%1$s at %2$s"
+
+msgid "Unknown"
+msgstr "Nežinoma"
+
+msgid "You do not have permission to edit this API Key"
+msgstr "Jūs neturite leidimo redaguoti šio API rakto"
+
+msgid "REST API"
+msgstr "REST API"
+
+msgid "Add key"
+msgstr "Pridėti raktą"
+
+msgid "You do not have permission to revoke this API Key"
+msgstr "Jūs neturite leidimo atšaukti šio API rakto"
+
+msgid "You do not have permission to edit API Keys"
+msgstr "Jūs neturite leidimo redaguoti API raktų"
+
+msgid "You do not have permission to revoke API Keys"
+msgstr "Jūs neturite leidimo atšaukti API raktų"
+
+msgid "Generate API key"
+msgstr "Generuoti API raktą"
+
+msgid "Friendly name for identifying this key."
+msgstr "Lengvai atsimenamas pavadinimas šiam raktui."
+
+msgid "Owner of these keys."
+msgstr "Šio rakto savininkas."
+
+msgid "Access type of these keys."
+msgstr "Prieigos prie šių raktų tipas."
+
+msgid "Consumer key"
+msgstr "Vartotojo raktas"
+
+msgid "Copied!"
+msgstr "Nukopijuota!"
+
+msgid "Copy"
+msgstr "Kopijuoti"
+
+msgid "Consumer secret"
+msgstr "Vartotojo slaptasis kodas"
+
+msgid "QR Code"
+msgstr "QR kodas"
+
+msgid "No bookings found for your request."
+msgstr "Nerasta jokių užsakymų pagal jūsų užklausą."
+
+msgid "Uploads directory is not writable."
+msgstr "Atsisiuntimo kataloge nėra rašymo teisių."
+
+msgid "No enough data"
+msgstr "Nepakanka informacijos"
+
+msgid "An error has occurred"
+msgstr "Įvyko klaida"
+
+msgid "Please complete all required fields and try again."
+msgstr "Užpildykite visus privalomus laukus ir bandykite dar kartą."
+
+msgid "An error has occurred, please try again later."
+msgstr "Įvyko klaida, prašome pameginti vėliau."
+
+msgid "The number of adults is not valid."
+msgstr ""
+
+msgid "The number of guests is not valid."
+msgstr ""
+
+msgid "An error has occurred. Please try again later."
+msgstr "Įvyko klaida. Prašome pabandyti vėliau."
+
+msgid "Sorry, the minimum allowed payment amount is %s to use this payment method."
+msgstr "Atsiprašome, norint naudoti šį mokėjimo metodą, minimali leistina mokėjimo suma yra %s."
+
+msgid "Chosen payment method is not available. Please refresh the page and try one more time."
+msgstr "Pasirinktas mokėjimo būdas nepasiekiamas. Atnaujinkite puslapį ir bandykite dar kartą."
+
+msgid "Coupon applied successfully."
+msgstr "Nuolaidos kodas sėkmingai pritaikytas."
+
+msgid "Coupon is not valid."
+msgstr "Ši nuolaida jau negalioja."
+
+msgid "Booking Information"
+msgstr "Rezervacijos Informacija"
+
+msgid "Check-in Date"
+msgstr "Atvykimo data"
+
+msgid "Check-out Date"
+msgstr "Išvykimo data"
+
+msgid "Customer Information"
+msgstr "Kliento informacija"
+
+msgid "Customer Note"
+msgstr "Pirkėjo pastaba"
+
+msgid "Additional Information"
+msgstr "Papildoma Informacija"
+
+msgid "Coupon"
+msgstr "Kuponas"
+
+msgid "Total Booking Price"
+msgstr "Bendra Rezervacijos kaina"
+
+msgid "Notes"
+msgstr "Patabos"
+
+#. translators: %1$s: note author, %1$s: note date
+msgid "%1$s on %2$s"
+msgstr "%1$s %2$s"
+
+msgid "Based on your search parameters"
+msgstr "Pagal jūsų paieškos parametrus"
+
+msgid "You do not have permission to do this action."
+msgstr ""
+
+msgctxt "Not selected value in the search form."
+msgid "&mdash;"
+msgstr "&mdash;"
+
+msgid "Year"
+msgstr "Metai"
+
+msgid "Custom"
+msgstr "Pasirinktinis"
+
+msgctxt "Booking status"
+msgid "Confirmed"
+msgstr "Patvirtintas"
+
+msgid "Show"
+msgstr "Rodyti"
+
+msgid "Search"
+msgstr "Ieškoti"
+
+msgid "Booked"
+msgstr "Rezervuota"
+
+msgid "Pending"
+msgstr "Vykdomas"
+
+msgid "External"
+msgstr "Išorinis"
+
+msgid "Blocked"
+msgstr "Užblokuota"
+
+msgid "Search results for accommodations that have bookings with status \"%s\" from %s until %s"
+msgstr "Paieškos rezultatai apgyvendinimo vietų, kurių užsakymai yra „%s“ nuo %s iki %s"
+
+msgid "Free"
+msgstr "Nemokamai"
+
+msgid "Locked (Booked or Pending)"
+msgstr "Užrakinta (rezervuota arba vykdoma)"
+
+msgid "Until"
+msgstr "Iki"
+
+msgid "Period:"
+msgstr "Periodas:"
+
+msgid "&lt; Prev"
+msgstr "&lt; Ankstesnis"
+
+msgid "Next &gt;"
+msgstr "Kitas &gt;"
+
+msgid "No accommodations found."
+msgstr "Apgyvendinimo vietų nerasta."
+
+msgid "Check-out #%d"
+msgstr "Išvykimas #%d"
+
+msgid "Check-in #%d"
+msgstr "Atvykimas #%d"
+
+msgid "Booking #%d"
+msgstr "Rezervacija #%d"
+
+msgid "Buffer time."
+msgstr "Buferio laikas."
+
+msgctxt "Availability"
+msgid "Free"
+msgstr "Laisvas"
+
+msgid "Adults: %s"
+msgstr "Suaugę: %s"
+
+msgid "Children: %s"
+msgstr "Vaikai: %s"
+
+msgid "Booking imported with UID %s."
+msgstr "Rezervacija importuota naudojant UID %s."
+
+msgid "Imported booking."
+msgstr "Importuota rezervacija."
+
+msgid "Description: %s."
+msgstr "Aprašymas: %s."
+
+msgid "Source: %s."
+msgstr "Šaltinis: %s."
+
+msgid "Afghanistan"
+msgstr "Afganistanas"
+
+msgid "&#197;land Islands"
+msgstr "&#197;sausumos salos"
+
+msgid "Albania"
+msgstr "Albanija"
+
+msgid "Algeria"
+msgstr "Alžyras"
+
+msgid "American Samoa"
+msgstr "Amerikos Samoa"
+
+msgid "Andorra"
+msgstr "Andora"
+
+msgid "Angola"
+msgstr "Angola"
+
+msgid "Anguilla"
+msgstr "Angilija"
+
+msgid "Antarctica"
+msgstr "Antarktida"
+
+msgid "Antigua and Barbuda"
+msgstr "Antigva ir Barbuda"
+
+msgid "Argentina"
+msgstr "Argentina"
+
+msgid "Armenia"
+msgstr "Armėnija"
+
+msgid "Aruba"
+msgstr "Aruba"
+
+msgid "Australia"
+msgstr "Australija"
+
+msgid "Austria"
+msgstr "Austrija"
+
+msgid "Azerbaijan"
+msgstr "Azerbaidžanas"
+
+msgid "Bahamas"
+msgstr "Bahamai"
+
+msgid "Bahrain"
+msgstr "Bahreinas"
+
+msgid "Bangladesh"
+msgstr "Bangladešas"
+
+msgid "Barbados"
+msgstr "Barbadosas"
+
+msgid "Belarus"
+msgstr "Baltarusija"
+
+msgid "Belgium"
+msgstr "Belgija"
+
+msgid "Belau"
+msgstr "Belau"
+
+msgid "Belize"
+msgstr "Belizas"
+
+msgid "Benin"
+msgstr "Beninas"
+
+msgid "Bermuda"
+msgstr "Bermuda"
+
+msgid "Bhutan"
+msgstr "Butanas"
+
+msgid "Bolivia"
+msgstr "Bolivija"
+
+msgid "Bonaire, Saint Eustatius and Saba"
+msgstr "Boneras, Sint Eustatijus ir Saba (BES salos)"
+
+msgid "Bosnia and Herzegovina"
+msgstr "Bosnija ir Hercegovina"
+
+msgid "Botswana"
+msgstr "Botsvana"
+
+msgid "Bouvet Island"
+msgstr "Buvė Sala"
+
+msgid "Brazil"
+msgstr "Brazilija"
+
+msgid "British Indian Ocean Territory"
+msgstr "Britų Indijos vandenyno sritis"
+
+msgid "British Virgin Islands"
+msgstr "Didžiosios Britanijos Mergelių salos"
+
+msgid "Brunei"
+msgstr "Brunėjus"
+
+msgid "Bulgaria"
+msgstr "Bulgarija"
+
+msgid "Burkina Faso"
+msgstr "Burkina Fasas"
+
+msgid "Burundi"
+msgstr "Burundis"
+
+msgid "Cambodia"
+msgstr "Kambodža"
+
+msgid "Cameroon"
+msgstr "Kamerunas"
+
+msgid "Canada"
+msgstr "Kanada"
+
+msgid "Cape Verde"
+msgstr "Žaliasis Kyšulys"
+
+msgid "Cayman Islands"
+msgstr "Kaimanu salos"
+
+msgid "Central African Republic"
+msgstr "Centrinės Afrikos Respublika"
+
+msgid "Chad"
+msgstr "Čadas"
+
+msgid "Chile"
+msgstr "Čilė"
+
+msgid "China"
+msgstr "Kinija"
+
+msgid "Christmas Island"
+msgstr "Kalėdų sala"
+
+msgid "Cocos (Keeling) Islands"
+msgstr "Kokosų (Kilingo) Salos"
+
+msgid "Colombia"
+msgstr "Kolumbija"
+
+msgid "Comoros"
+msgstr "Komorai"
+
+msgid "Congo (Brazzaville)"
+msgstr "Kongas (Brazivilis)"
+
+msgid "Congo (Kinshasa)"
+msgstr "Kongas (Kinšasa)"
+
+msgid "Cook Islands"
+msgstr "Kuko Salos"
+
+msgid "Costa Rica"
+msgstr "Kosta Rika"
+
+msgid "Croatia"
+msgstr "Kroatija"
+
+msgid "Cuba"
+msgstr "Kuba"
+
+msgid "Cura&ccedil;ao"
+msgstr "Kiurasao"
+
+msgid "Cyprus"
+msgstr "Kipras"
+
+msgid "Czech Republic"
+msgstr "Čekijos Respublika"
+
+msgid "Denmark"
+msgstr "Danija"
+
+msgid "Djibouti"
+msgstr "Džibutis"
+
+msgid "Dominica"
+msgstr "Dominika"
+
+msgid "Dominican Republic"
+msgstr "Dominikos Respublika"
+
+msgid "Ecuador"
+msgstr "Ekvadoras"
+
+msgid "Egypt"
+msgstr "Egiptas"
+
+msgid "El Salvador"
+msgstr "Salvadoras"
+
+msgid "Equatorial Guinea"
+msgstr "Pusiaujo Gvinėja"
+
+msgid "Eritrea"
+msgstr "Eritrėja"
+
+msgid "Estonia"
+msgstr "Estija"
+
+msgid "Ethiopia"
+msgstr "Etiopija"
+
+msgid "Falkland Islands"
+msgstr "Folklendo salos"
+
+msgid "Faroe Islands"
+msgstr "Farerų Salos"
+
+msgid "Fiji"
+msgstr "Fidžis"
+
+msgid "Finland"
+msgstr "Suomija"
+
+msgid "France"
+msgstr "Prancūzija"
+
+msgid "French Guiana"
+msgstr "Prancūzijos Gviana"
+
+msgid "French Polynesia"
+msgstr "Prancūzijos Polinezija"
+
+msgid "French Southern Territories"
+msgstr "Prancūzijos Pietų sritys"
+
+msgid "Gabon"
+msgstr "Gabonas"
+
+msgid "Gambia"
+msgstr "Gambija"
+
+msgid "Georgia"
+msgstr "Gruzija"
+
+msgid "Germany"
+msgstr "Vokietija"
+
+msgid "Ghana"
+msgstr "Gana"
+
+msgid "Gibraltar"
+msgstr "Gibraltaras"
+
+msgid "Greece"
+msgstr "Graikija"
+
+msgid "Greenland"
+msgstr "Grenlandija"
+
+msgid "Grenada"
+msgstr "Grenada"
+
+msgid "Guadeloupe"
+msgstr "Gvadelupa"
+
+msgid "Guam"
+msgstr "Guamas"
+
+msgid "Guatemala"
+msgstr "Gvatemala"
+
+msgid "Guernsey"
+msgstr "Didžioji Britanija"
+
+msgid "Guinea"
+msgstr "Gvinėja"
+
+msgid "Guinea-Bissau"
+msgstr "Ginėja Bisau"
+
+msgid "Guyana"
+msgstr "Gajana"
+
+msgid "Haiti"
+msgstr "Haitis"
+
+msgid "Heard Island and McDonald Islands"
+msgstr "Herdo ir Makdonaldo Salos"
+
+msgid "Honduras"
+msgstr "Hondūras"
+
+msgid "Hong Kong"
+msgstr "Honkongas"
+
+msgid "Hungary"
+msgstr "Vengrija"
+
+msgid "Iceland"
+msgstr "Islandija"
+
+msgid "India"
+msgstr "Indija"
+
+msgid "Indonesia"
+msgstr "Indonezija"
+
+msgid "Iran"
+msgstr "Iranas"
+
+msgid "Iraq"
+msgstr "Irakas"
+
+msgid "Ireland"
+msgstr "Airija"
+
+msgid "Isle of Man"
+msgstr "Meno sala"
+
+msgid "Israel"
+msgstr "Izraelis"
+
+msgid "Italy"
+msgstr "Italija"
+
+msgid "Ivory Coast"
+msgstr "Dramblio Kaulo Krantas"
+
+msgid "Jamaica"
+msgstr "Jamaika"
+
+msgid "Japan"
+msgstr "Japonija"
+
+msgid "Jersey"
+msgstr "Džersis"
+
+msgid "Jordan"
+msgstr "Jordanija"
+
+msgid "Kazakhstan"
+msgstr "Kazachstanas"
+
+msgid "Kenya"
+msgstr "Kenija"
+
+msgid "Kiribati"
+msgstr "Kiribatis"
+
+msgid "Kuwait"
+msgstr "Kuveitas"
+
+msgid "Kyrgyzstan"
+msgstr "Kirgizija"
+
+msgid "Laos"
+msgstr "Laosas"
+
+msgid "Latvia"
+msgstr "Latvija"
+
+msgid "Lebanon"
+msgstr "Libanas"
+
+msgid "Lesotho"
+msgstr "Lesotas"
+
+msgid "Liberia"
+msgstr "Liberija"
+
+msgid "Libya"
+msgstr "Libija"
+
+msgid "Liechtenstein"
+msgstr "Lichtenšteinas"
+
+msgid "Lithuania"
+msgstr "Lietuva"
+
+msgid "Luxembourg"
+msgstr "Liuksemburgas"
+
+msgid "Macao S.A.R., China"
+msgstr "Ypatingasis Administracinis Kinijos Regionas Makao"
+
+msgid "Macedonia"
+msgstr "Makedonija"
+
+msgid "Madagascar"
+msgstr "Madagaskaras"
+
+msgid "Malawi"
+msgstr "Malavis"
+
+msgid "Malaysia"
+msgstr "Malaizija"
+
+msgid "Maldives"
+msgstr "Maldyvai"
+
+msgid "Mali"
+msgstr "Malis"
+
+msgid "Malta"
+msgstr "Malta"
+
+msgid "Marshall Islands"
+msgstr "Maršalo salos"
+
+msgid "Martinique"
+msgstr "Martinika"
+
+msgid "Mauritania"
+msgstr "Mauricijus"
+
+msgid "Mauritius"
+msgstr "Mauricijus"
+
+msgid "Mayotte"
+msgstr "Majotas"
+
+msgid "Mexico"
+msgstr "Meksika"
+
+msgid "Micronesia"
+msgstr "Mikronezija"
+
+msgid "Moldova"
+msgstr "Moldova"
+
+msgid "Monaco"
+msgstr "Monakas"
+
+msgid "Mongolia"
+msgstr "Mongolija"
+
+msgid "Montenegro"
+msgstr "Juodkalnija"
+
+msgid "Montserrat"
+msgstr "Montseratas"
+
+msgid "Morocco"
+msgstr "Marokas"
+
+msgid "Mozambique"
+msgstr "Mozambikas"
+
+msgid "Myanmar"
+msgstr "Mianmaras"
+
+msgid "Namibia"
+msgstr "Namibija"
+
+msgid "Nauru"
+msgstr "Nauru"
+
+msgid "Nepal"
+msgstr "Nepalas"
+
+msgid "Netherlands"
+msgstr "Olandija"
+
+msgid "New Caledonia"
+msgstr "Naujoji Kaledonija"
+
+msgid "New Zealand"
+msgstr "Naujoji Zelandija"
+
+msgid "Nicaragua"
+msgstr "Nikaragva"
+
+msgid "Niger"
+msgstr "Nigerija"
+
+msgid "Nigeria"
+msgstr "Nigerija"
+
+msgid "Niue"
+msgstr "Niujė"
+
+msgid "Norfolk Island"
+msgstr "Norfolko sala"
+
+msgid "Northern Mariana Islands"
+msgstr "Marianos Šiaurinės Salos"
+
+msgid "North Korea"
+msgstr "Šiaurės Korėja"
+
+msgid "Norway"
+msgstr "Norvegija"
+
+msgid "Oman"
+msgstr "Omanas"
+
+msgid "Pakistan"
+msgstr "Pakistanas"
+
+msgid "Palestinian Territory"
+msgstr "Palestinos teritorija"
+
+msgid "Panama"
+msgstr "Panama"
+
+msgid "Papua New Guinea"
+msgstr "Papua Naujoji Gvinėja"
+
+msgid "Paraguay"
+msgstr "Paragvajus"
+
+msgid "Peru"
+msgstr "Peru"
+
+msgid "Philippines"
+msgstr "Filipinai"
+
+msgid "Pitcairn"
+msgstr "Pitkerno"
+
+msgid "Poland"
+msgstr "Lenkija"
+
+msgid "Portugal"
+msgstr "Portugalija"
+
+msgid "Puerto Rico"
+msgstr "Puerto Rika"
+
+msgid "Qatar"
+msgstr "Kataras"
+
+msgid "Reunion"
+msgstr "Reunjonas"
+
+msgid "Romania"
+msgstr "Rumunija"
+
+msgid "Russia"
+msgstr "Rusija"
+
+msgid "Rwanda"
+msgstr "Ruanda"
+
+msgid "Saint Barth&eacute;lemy"
+msgstr "Šv. Bartolomėjaus sala"
+
+msgid "Saint Helena"
+msgstr "Šventos Elenos salos"
+
+msgid "Saint Kitts and Nevis"
+msgstr "Sent Kitsas ir Nevis"
+
+msgid "Saint Lucia"
+msgstr "Sent Lusija"
+
+msgid "Saint Martin (French part)"
+msgstr "San Martenas"
+
+msgid "Saint Martin (Dutch part)"
+msgstr "San Martenas (olandų dalis)"
+
+msgid "Saint Pierre and Miquelon"
+msgstr "Sen Pjeras ir Mikelonas"
+
+msgid "Saint Vincent and the Grenadines"
+msgstr "Sent Vinsentas ir Grenadinai"
+
+msgid "San Marino"
+msgstr "San Marinas"
+
+msgid "S&atilde;o Tom&eacute; and Pr&iacute;ncipe"
+msgstr "San Tomė ir Prinsipė"
+
+msgid "Saudi Arabia"
+msgstr "Saudo Arabija"
+
+msgid "Senegal"
+msgstr "Senegalas"
+
+msgid "Serbia"
+msgstr "Serbija"
+
+msgid "Seychelles"
+msgstr "Seišeliai"
+
+msgid "Sierra Leone"
+msgstr "Siera Leone"
+
+msgid "Singapore"
+msgstr "Singapūras"
+
+msgid "Slovakia"
+msgstr "Slovakija"
+
+msgid "Slovenia"
+msgstr "Slovėnija"
+
+msgid "Solomon Islands"
+msgstr "Saliamono Salos"
+
+msgid "Somalia"
+msgstr "Somalis"
+
+msgid "South Africa"
+msgstr "Pietų Afrika"
+
+msgid "South Georgia/Sandwich Islands"
+msgstr "Pietų Džordžijos / Sandvičo salos"
+
+msgid "South Korea"
+msgstr "Pietų Korėja"
+
+msgid "South Sudan"
+msgstr "Pietų Sudanas"
+
+msgid "Spain"
+msgstr "Ispanija"
+
+msgid "Sri Lanka"
+msgstr "Šri Lanka"
+
+msgid "Sudan"
+msgstr "Sudanas"
+
+msgid "Suriname"
+msgstr "Surinamas"
+
+msgid "Svalbard and Jan Mayen"
+msgstr "Svalbardo ir Jan Majeno salos"
+
+msgid "Swaziland"
+msgstr "Svazilandas"
+
+msgid "Sweden"
+msgstr "Švedija"
+
+msgid "Switzerland"
+msgstr "Šveicarija"
+
+msgid "Syria"
+msgstr "Sirija"
+
+msgid "Taiwan"
+msgstr "Taivanas"
+
+msgid "Tajikistan"
+msgstr "Tadžikistanas"
+
+msgid "Tanzania"
+msgstr "Tanzanija"
+
+msgid "Thailand"
+msgstr "Tailandas"
+
+msgid "Timor-Leste"
+msgstr "Rytų Timoras"
+
+msgid "Togo"
+msgstr "Togas"
+
+msgid "Tokelau"
+msgstr "Tokelau"
+
+msgid "Tonga"
+msgstr "Tonga"
+
+msgid "Trinidad and Tobago"
+msgstr "Trinidadas ir Tobagas"
+
+msgid "Tunisia"
+msgstr "Tunisas"
+
+msgid "Turkey"
+msgstr "Turkija"
+
+msgid "Turkmenistan"
+msgstr "Turkmenistanas"
+
+msgid "Turks and Caicos Islands"
+msgstr "Terkso ir Kaikoso salos"
+
+msgid "Tuvalu"
+msgstr "Tuvalu"
+
+msgid "Uganda"
+msgstr "Uganda"
+
+msgid "Ukraine"
+msgstr "Ukraina"
+
+msgid "United Arab Emirates"
+msgstr "Jungtiniai Arabų Emyratai"
+
+msgid "United Kingdom (UK)"
+msgstr "Jungtinė Karalystė (JK)"
+
+msgid "United States (US)"
+msgstr "Jungtinės Amerikos Valstijos (JAV)"
+
+msgid "United States (US) Minor Outlying Islands"
+msgstr "Jungtinių Valstijų Mažosios Tolimosios Salos"
+
+msgid "United States (US) Virgin Islands"
+msgstr "Jungtinių Valstijų Mergelių salos"
+
+msgid "Uruguay"
+msgstr "Urugvajus"
+
+msgid "Uzbekistan"
+msgstr "Uzbekistanas"
+
+msgid "Vanuatu"
+msgstr "Vanuatu"
+
+msgid "Vatican"
+msgstr "Vatikanas"
+
+msgid "Venezuela"
+msgstr "Venesuela"
+
+msgid "Vietnam"
+msgstr "Vietnamas"
+
+msgid "Wallis and Futuna"
+msgstr "Volisas ir Futūna"
+
+msgid "Western Sahara"
+msgstr "Vakarų Sachara"
+
+msgid "Samoa"
+msgstr "Samoa"
+
+msgid "Yemen"
+msgstr "Jemenas"
+
+msgid "Zambia"
+msgstr "Zambija"
+
+msgid "Zimbabwe"
+msgstr "Zimbabvė"
+
+msgid "Euro"
+msgstr "Euras"
+
+msgid "United States (US) dollar"
+msgstr "Jungtinų Amerikos Valstijų (JAV) doleris"
+
+msgid "Pound sterling"
+msgstr "Svaras sterlingų"
+
+msgid "United Arab Emirates dirham"
+msgstr "Jungtinių Arabų Emyratų dirhamas"
+
+msgid "Afghan afghani"
+msgstr "Afganistano afganis"
+
+msgid "Albanian lek"
+msgstr "Albanijos lekas"
+
+msgid "Armenian dram"
+msgstr "Armėnijos dramas"
+
+msgid "Netherlands Antillean guilder"
+msgstr "Nyderlandų Antilų guldenas"
+
+msgid "Angolan kwanza"
+msgstr "Angolos kvanza"
+
+msgid "Argentine peso"
+msgstr "Argentinos pesas"
+
+msgid "Australian dollar"
+msgstr "Australijos doleris"
+
+msgid "Aruban florin"
+msgstr "Arubos florinas"
+
+msgid "Azerbaijani manat"
+msgstr "Azerbaidžano manatas"
+
+msgid "Bosnia and Herzegovina convertible mark"
+msgstr "Bosnijos ir Hercegovinos konvertuojamoji markė"
+
+msgid "Barbadian dollar"
+msgstr "Barbadoso doleris"
+
+msgid "Bangladeshi taka"
+msgstr "Bangladešo taka"
+
+msgid "Bulgarian lev"
+msgstr "Bulgarijos levas"
+
+msgid "Bahraini dinar"
+msgstr "Bahreino dinaras"
+
+msgid "Burundian franc"
+msgstr "Burundžio frankas"
+
+msgid "Bermudian dollar"
+msgstr "Bermudos doleris"
+
+msgid "Brunei dollar"
+msgstr "Brunėjaus doleris"
+
+msgid "Bolivian boliviano"
+msgstr "Bolivijos bolivianas"
+
+msgid "Brazilian real"
+msgstr "Brazilijos realas"
+
+msgid "Bahamian dollar"
+msgstr "Bahamų doleris"
+
+msgid "Bitcoin"
+msgstr "Bitkoinas"
+
+msgid "Bhutanese ngultrum"
+msgstr "Butano ngultrumas"
+
+msgid "Botswana pula"
+msgstr "Botsvanos pula"
+
+msgid "Belarusian ruble (old)"
+msgstr "Baltarusijos rublis (senasis)"
+
+msgid "Belarusian ruble"
+msgstr "Baltarusijos rublis"
+
+msgid "Belize dollar"
+msgstr "Belizo doleris"
+
+msgid "Canadian dollar"
+msgstr "Kanados doleris"
+
+msgid "Congolese franc"
+msgstr "Kongo Cfa frankas"
+
+msgid "Swiss franc"
+msgstr "Šveicarijos frankas"
+
+msgid "Chilean peso"
+msgstr "Čilės pesas"
+
+msgid "Chinese yuan"
+msgstr "Kinijos juanis"
+
+msgid "Colombian peso"
+msgstr "Kolumbijos pesas"
+
+msgid "Costa Rican col&oacute;n"
+msgstr "Kosta Rikos kolonas"
+
+msgid "Cuban convertible peso"
+msgstr "Kubos konvertuojamasis pesas"
+
+msgid "Cuban peso"
+msgstr "Kubos pesas"
+
+msgid "Cape Verdean escudo"
+msgstr "Žaliojo Kyšulio eskudas"
+
+msgid "Czech koruna"
+msgstr "Čekijos krona"
+
+msgid "Djiboutian franc"
+msgstr "Džibučio frankas"
+
+msgid "Danish krone"
+msgstr "Danijos krona"
+
+msgid "Dominican peso"
+msgstr "Dominikos pesas"
+
+msgid "Algerian dinar"
+msgstr "Alžyro dinaras"
+
+msgid "Egyptian pound"
+msgstr "Egipto svaras"
+
+msgid "Eritrean nakfa"
+msgstr "Eritrėjos nakfa"
+
+msgid "Ethiopian birr"
+msgstr "Etiopijos bira"
+
+msgid "Fijian dollar"
+msgstr "Fidžio doleris"
+
+msgid "Falkland Islands pound"
+msgstr "Folklendo salos"
+
+msgid "Georgian lari"
+msgstr "Gruzijos laris"
+
+msgid "Guernsey pound"
+msgstr "Gernsio svaras"
+
+msgid "Ghana cedi"
+msgstr "Ganos sedis"
+
+msgid "Gibraltar pound"
+msgstr "Gibraltaro svaras"
+
+msgid "Gambian dalasi"
+msgstr "Gambijos dalasis"
+
+msgid "Guinean franc"
+msgstr "Gvinėjos frankas"
+
+msgid "Guatemalan quetzal"
+msgstr "Gvatemalos kecalis"
+
+msgid "Guyanese dollar"
+msgstr "Gajanos doleris"
+
+msgid "Hong Kong dollar"
+msgstr "Honkongo doleris"
+
+msgid "Honduran lempira"
+msgstr "Hondūro lempira"
+
+msgid "Croatian kuna"
+msgstr "Kroatijos kuna"
+
+msgid "Haitian gourde"
+msgstr "Haičio gurdas"
+
+msgid "Hungarian forint"
+msgstr "Vengrijos forintas"
+
+msgid "Indonesian rupiah"
+msgstr "Indonezijos rupija"
+
+msgid "Israeli new shekel"
+msgstr "Izraelio naujasis šekelis"
+
+msgid "Manx pound"
+msgstr "Meno salos svaras"
+
+msgid "Indian rupee"
+msgstr "Indijos rupija"
+
+msgid "Iraqi dinar"
+msgstr "Irako dinaras"
+
+msgid "Iranian rial"
+msgstr "Irano rialas"
+
+msgid "Iranian toman"
+msgstr "Irano tomanas"
+
+msgid "Icelandic kr&oacute;na"
+msgstr "Islandijos krona"
+
+msgid "Jersey pound"
+msgstr "Džersio svaras"
+
+msgid "Jamaican dollar"
+msgstr "Jamaikos doleris"
+
+msgid "Jordanian dinar"
+msgstr "Jordanijos dinaras"
+
+msgid "Japanese yen"
+msgstr "Japonijos jena"
+
+msgid "Kenyan shilling"
+msgstr "Kenijos šilingas"
+
+msgid "Kyrgyzstani som"
+msgstr "Kirgizijos somas"
+
+msgid "Cambodian riel"
+msgstr "Kambodžos rielis"
+
+msgid "Comorian franc"
+msgstr "Komorų frankas"
+
+msgid "North Korean won"
+msgstr "Šiaurės Korėjos vonas"
+
+msgid "South Korean won"
+msgstr "Pietų Korėjos vona"
+
+msgid "Kuwaiti dinar"
+msgstr "Kuveito dinaras"
+
+msgid "Cayman Islands dollar"
+msgstr "Kaimanų salų doleris"
+
+msgid "Kazakhstani tenge"
+msgstr "Kazachstano tengė"
+
+msgid "Lao kip"
+msgstr "Laoso kipas"
+
+msgid "Lebanese pound"
+msgstr "Libano svaras"
+
+msgid "Sri Lankan rupee"
+msgstr "Šri Lankos rupija"
+
+msgid "Liberian dollar"
+msgstr "Liberijos doleris"
+
+msgid "Lesotho loti"
+msgstr "Lesoto loti"
+
+msgid "Libyan dinar"
+msgstr "Libijos dinaras"
+
+msgid "Moroccan dirham"
+msgstr "Maroko dirhamas"
+
+msgid "Moldovan leu"
+msgstr "Moldavijos lėja"
+
+msgid "Malagasy ariary"
+msgstr "Madagaskaro ariaris"
+
+msgid "Macedonian denar"
+msgstr "Makedonijos denaras"
+
+msgid "Burmese kyat"
+msgstr "Mianmaro (Birmos) kijatas"
+
+msgid "Mongolian t&ouml;gr&ouml;g"
+msgstr "Mongolijos tugrikas"
+
+msgid "Macanese pataca"
+msgstr "Makao pataka"
+
+msgid "Mauritanian ouguiya"
+msgstr "Mauritanijos ugija"
+
+msgid "Mauritian rupee"
+msgstr "Mauricijaus rupija"
+
+msgid "Maldivian rufiyaa"
+msgstr "Maldyvų rufija"
+
+msgid "Malawian kwacha"
+msgstr "Malavio kvača"
+
+msgid "Mexican peso"
+msgstr "Meksikos pesas"
+
+msgid "Malaysian ringgit"
+msgstr "Malaizijos ringitas"
+
+msgid "Mozambican metical"
+msgstr "Mozambiko metikalis"
+
+msgid "Namibian dollar"
+msgstr "Namibijos doleris"
+
+msgid "Nigerian naira"
+msgstr "Nigerijos naira"
+
+msgid "Nicaraguan c&oacute;rdoba"
+msgstr "Nikaragvos kordoba"
+
+msgid "Norwegian krone"
+msgstr "Norvegijos krona"
+
+msgid "Nepalese rupee"
+msgstr "Nepalo rupija"
+
+msgid "New Zealand dollar"
+msgstr "N. Zelandijos doleris"
+
+msgid "Omani rial"
+msgstr "Omano rialas"
+
+msgid "Panamanian balboa"
+msgstr "Panamos balboja"
+
+msgid "Sol"
+msgstr "Solas"
+
+msgid "Papua New Guinean kina"
+msgstr "Papua Naujosios Gvinėjos kina"
+
+msgid "Philippine peso"
+msgstr "Filipinų pesas"
+
+msgid "Pakistani rupee"
+msgstr "Pakistano rupija"
+
+msgid "Polish z&#x142;oty"
+msgstr "Lenkijos zlotas"
+
+msgid "Transnistrian ruble"
+msgstr "Padniestrės rublis"
+
+msgid "Paraguayan guaran&iacute;"
+msgstr "Paragvajaus gvaranis"
+
+msgid "Qatari riyal"
+msgstr "Kataro rialas"
+
+msgid "Romanian leu"
+msgstr "Rumunijos lėja"
+
+msgid "Serbian dinar"
+msgstr "Serbijos dinaras"
+
+msgid "Russian ruble"
+msgstr "Rusijos rublis"
+
+msgid "Rwandan franc"
+msgstr "Ruandos frankas"
+
+msgid "Saudi riyal"
+msgstr "Saudo Arabijos rialas"
+
+msgid "Solomon Islands dollar"
+msgstr "Solomono salų doleriai"
+
+msgid "Seychellois rupee"
+msgstr "Seišelių rupija"
+
+msgid "Sudanese pound"
+msgstr "Sudano svaras"
+
+msgid "Swedish krona"
+msgstr "Švedijos krona"
+
+msgid "Singapore dollar"
+msgstr "Singapūro doleris"
+
+msgid "Saint Helena pound"
+msgstr "Šv. Helenos svaras"
+
+msgid "Sierra Leonean leone"
+msgstr "Siera Leonės leonė"
+
+msgid "Somali shilling"
+msgstr "Somalio šilingas"
+
+msgid "Surinamese dollar"
+msgstr "Surinamo doleris"
+
+msgid "South Sudanese pound"
+msgstr "Pietų Sudano svaras"
+
+msgid "S&atilde;o Tom&eacute; and Pr&iacute;ncipe dobra"
+msgstr "San Tomės ir Prinicipės dobra"
+
+msgid "Syrian pound"
+msgstr "Sirijos svaras"
+
+msgid "Swazi lilangeni"
+msgstr "Svazilando lilangenis"
+
+msgid "Thai baht"
+msgstr "Tailando batas"
+
+msgid "Tajikistani somoni"
+msgstr "Tadžikistano somonis"
+
+msgid "Turkmenistan manat"
+msgstr "Turkmėnijos manatas"
+
+msgid "Tunisian dinar"
+msgstr "Tuniso dinaras"
+
+msgid "Tongan pa&#x2bb;anga"
+msgstr "Tongos paanga"
+
+msgid "Turkish lira"
+msgstr "Turkijos lira"
+
+msgid "Trinidad and Tobago dollar"
+msgstr "Trinidado ir Tobago doleris"
+
+msgid "New Taiwan dollar"
+msgstr "Naujasis Taivano doleris"
+
+msgid "Tanzanian shilling"
+msgstr "Tanzanijos šilingas"
+
+msgid "Ukrainian hryvnia"
+msgstr "Ukrainos grivna"
+
+msgid "Ugandan shilling"
+msgstr "Ugandos šilingas"
+
+msgid "Uruguayan peso"
+msgstr "Urugvajaus pesas"
+
+msgid "Uzbekistani som"
+msgstr "Uzbekistano sumas"
+
+msgid "Venezuelan bol&iacute;var"
+msgstr "Venesuelos fuerte bolivaras"
+
+msgid "Bol&iacute;var soberano"
+msgstr "Bol&iacute;var soberano"
+
+msgid "Vietnamese &#x111;&#x1ed3;ng"
+msgstr "Vietnamo dongas"
+
+msgid "Vanuatu vatu"
+msgstr "Vanuatu Vatu"
+
+msgid "Samoan t&#x101;l&#x101;"
+msgstr "Samoa Tala"
+
+msgid "Central African CFA franc"
+msgstr "Centrinės Afrikos CFA frankas"
+
+msgid "East Caribbean dollar"
+msgstr "Rytų Karibų doleris"
+
+msgid "West African CFA franc"
+msgstr "Vakarų Afrikos CFA frankas"
+
+msgid "CFP franc"
+msgstr "CFP frankas"
+
+msgid "Yemeni rial"
+msgstr "Jemeno rialas"
+
+msgid "South African rand"
+msgstr "Pietų Afrikos randas"
+
+msgid "Zambian kwacha"
+msgstr "Zambijos kvača"
+
+msgid "Before"
+msgstr "Prieš"
+
+msgid "After"
+msgstr "Po"
+
+msgid "Before with space"
+msgstr "Prieš su tarpu"
+
+msgid "After with space"
+msgstr "Po su tarpu"
+
+msgid "First name is required."
+msgstr "Būtina įvesti vardą."
+
+msgid "Last name is required."
+msgstr "Pavardė yra būtinas laukas."
+
+msgid "Email is required."
+msgstr "Būtina įvesti el. paštą."
+
+msgid "Phone is required."
+msgstr "Būtina įvesti tel. numerį."
+
+msgid "Country of residence"
+msgstr "Gyvenamoji šalis"
+
+msgid "Country is required."
+msgstr "Būtina nurodyti šalį."
+
+msgid "Address is required."
+msgstr "Adresas yra būtinas."
+
+msgid "City is required."
+msgstr "Būtina įvesti miestą."
+
+msgid "State is required."
+msgstr "Apskritis yra būtinas laukas."
+
+msgid "Postcode is required."
+msgstr "Pašto kodas būtinas."
+
+msgid "Note is required."
+msgstr "Pastaba yra būtinas laukas."
+
+msgid "Check-in"
+msgstr "Atvykimas"
+
+msgid "Check-out"
+msgstr "Išvykimas"
+
+#. translators: The value a hotel wishes to sell their rooms. Also called the Cost, Value, Tariff or Room charge.
+msgid "Rate"
+msgstr "Kaina"
+
+msgid "Adults/Guests"
+msgstr "Suaugę/Svečiai"
+
+msgid "Full Guest Name"
+msgstr "Pilnas svečio vardas"
+
+msgid "Accommodation Subtotal"
+msgstr "Apgyvendinimo tarpinė suma"
+
+msgid "Total Accommodation Taxes"
+msgstr "Iš viso Apgyvendinimo vietos mokesčių"
+
+msgid "Total Fees"
+msgstr "Viso rinkliavų"
+
+msgid "Services Subtotal"
+msgstr "Paslaugų tarpinė suma"
+
+msgid "Total Service Taxes"
+msgstr "Viso paslaugų mokesčių"
+
+msgid "Total Fee Taxes"
+msgstr "Viso rinkliavos mokesčių"
+
+msgid "Discount"
+msgstr "Nuolaida"
+
+msgid "Total"
+msgstr "Iš viso"
+
+msgid "Paid"
+msgstr "Apmokėta"
+
+msgid "Payment Details"
+msgstr "Mokėjimo duomenys"
+
+msgid "Square Meter"
+msgstr "Kvadratinis metras"
+
+msgid "Square Foot"
+msgstr "Kvadratinė pėda"
+
+msgid "Square Yard"
+msgstr "Kvadratinis jardas"
+
+msgid "m²"
+msgstr "m²"
+
+msgid "ft²"
+msgstr "ft²"
+
+msgid "yd²"
+msgstr "yd²"
+
+msgid "User Approval Time setted in Hotel Booking Settings"
+msgstr "Naudotojo patvirtinimo laikas, nustatytas Hotel Booking nustatymuose"
+
+msgid "Pending Payment Time set in Hotel Booking Settings"
+msgstr "Laukiančio mokėjimo laikas, nustatytas Hotel Booking nustatymuose"
+
+msgid "Interval for automatic cleaning of synchronization logs."
+msgstr "Automatinio sinchronizavimo žurnalų valymo intervalas."
+
+msgid "x %d guest"
+msgid_plural "x %d guests"
+msgstr[0] "x %d svečias"
+msgstr[1] "x %d svečiai"
+msgstr[2] "x %d svečiai"
+msgstr[3] "x %d svečiai"
+
+msgid "x %d time"
+msgid_plural "x %d times"
+msgstr[0] "x %d kartas"
+msgstr[1] "x %d kartai"
+msgstr[2] "x %d kartų"
+msgstr[3] "x %d kartų"
+
+msgid "Please select columns to export."
+msgstr "Pasirinkite stulpelius, kuriuos norite eksportuoti."
+
+msgid "Disable this email notification"
+msgstr "Išjungti šį el. pašto pranešimą"
+
+msgid "Subject"
+msgstr "Tema"
+
+msgid "Header"
+msgstr "Antraštė"
+
+msgid "Email Template"
+msgstr "El. laiško šablonas"
+
+msgid "\"%s\" email will not be sent: there is no customer email in the booking."
+msgstr "„%s“ el. laiškas nebus išsiųstas: užsakyme nėra kliento el. pašto."
+
+msgid "Deprecated tags in header of %s"
+msgstr "Nebenaudojamos žymos %s antraštėje"
+
+msgid "Deprecated tags in subject of %s"
+msgstr "Nebenaudojamos žymos temoje %s"
+
+msgid "Deprecated tags in template of %s"
+msgstr "Nebenaudojamos žymos %s šablone"
+
+msgid "Recipients"
+msgstr "Gavėjai"
+
+msgid "You can use multiple comma-separated emails"
+msgstr "Galite naudoti kelis kableliais atskirtus el. paštus"
+
+msgid "\"%s\" mail was sent to admin."
+msgstr "„%s“ laiškas išsiųstas administratoriui."
+
+msgid "\"%s\" mail sending to admin is failed."
+msgstr "Nepavyko išsiųsti „%s“ laiško administratoriui."
+
+msgid "Booking Cancelled"
+msgstr "Rezervacija Atšaukta"
+
+msgid "%site_title% - Booking #%booking_id% Cancelled"
+msgstr "%site_title% – rezervacija #%booking_id% atšaukta"
+
+msgid "Email that will be sent to Admin when customer cancels booking."
+msgstr "El. laiškas, kuris bus išsiųstas administratoriui, kai klientas atšauks rezervaciją."
+
+msgid "Cancelled Booking Email"
+msgstr "El. paštas apie atšauktą rezervaciją"
+
+msgid "Booking Confirmed"
+msgstr "Rezervacija patvirtinta"
+
+msgid "%site_title% - Booking #%booking_id% Confirmed"
+msgstr "%site_title% – rezervacija #%booking_id% patvirtinta"
+
+msgid "Email that will be sent to Admin when payment is completed."
+msgstr "El. laiškas, kuris bus išsiųstas administratoriui, kai bus atliktas mokėjimas."
+
+msgid "Approved Booking Email (via payment)"
+msgstr "Patvirtintas rezervacijos el. paštas (mokėjimu)"
+
+msgid "Email that will be sent to Admin when customer confirms booking."
+msgstr "El. laiškas, kuris bus išsiųstas administratoriui, kai klientas patvirtins užsakymą."
+
+msgid "Approved Booking Email"
+msgstr "Patvirtintas rezervacijos el. paštas"
+
+msgid "Confirm new booking"
+msgstr "Patvirtinkite naują rezervaciją"
+
+msgid "%site_title% - New booking #%booking_id%"
+msgstr "%site_title% - Nauja rezervacija #%booking_id%"
+
+msgid "Email that will be sent to administrator after booking is placed."
+msgstr "El. paštas, kuris bus išsiųstas administratoriui po rezervacijos atlikimo."
+
+msgid "Pending Booking Email"
+msgstr "Laukiantis užsakymo el. paštas"
+
+msgid "Your booking is approved"
+msgstr "Jūsų rezervacija patvirtinta"
+
+msgid "%site_title% - Your booking #%booking_id% is approved"
+msgstr "%site_title% – jūsų rezervacija #%booking_id% patvirtinta"
+
+msgid "Email that will be sent to customer when booking is approved."
+msgstr "El. laiškas, kuris bus išsiųstas klientui, kai rezervacija bus patvirtinta."
+
+msgid "\"%s\" mail was sent to customer."
+msgstr "„%s“ laiškas buvo išsiųstas klientui."
+
+msgid "\"%s\" mail sending is failed."
+msgstr "„%s“ laiško siuntimas nepavyko."
+
+msgid "Your booking is cancelled"
+msgstr "Jūsų rezervacija atšaukta"
+
+msgid "%site_title% - Your booking #%booking_id% is cancelled"
+msgstr "%site_title% – jūsų rezervacija #%booking_id% atšaukta"
+
+msgid "Email that will be sent to customer when booking is cancelled."
+msgstr "El. laiškas, kuris bus išsiųstas klientui, kai rezervacija bus atšaukta."
+
+msgid "Confirm your booking"
+msgstr "Patvirtinkite rezervaciją"
+
+msgid "%site_title% - Confirm your booking #%booking_id%"
+msgstr "%site_title% – patvirtinkite savo rezervaciją #%booking_id%"
+
+msgid "This email is sent when \"Booking Confirmation Mode\" is set to Customer confirmation via email."
+msgstr "Šis el. laiškas siunčiamas, kai „Rezervacijos patvirtinimo režimas“ yra nustatytas į Kliento patvirtinimas el. paštu."
+
+msgid "Email that will be sent to customer after booking is placed."
+msgstr "El. laiškas, kuris bus išsiųstas klientui atlikus rezervaciją."
+
+msgid "New Booking Email (Confirmation by User)"
+msgstr "Naujos rezervacijos el. laiškas (vartotojo patvirtinimas)"
+
+msgid "Your booking is placed"
+msgstr "Jūsų rezervacija patvirtinta"
+
+msgid "%site_title% - Booking #%booking_id% is placed"
+msgstr "%site_title% – rezervacija #%booking_id% patvirtinta"
+
+msgid "This email is sent when \"Booking Confirmation Mode\" is set to Admin confirmation."
+msgstr "Šis el. laiškas siunčiamas, kai „Užsakymo patvirtinimo režimas“ nustatytas kaip Administratoriaus patvirtinimas."
+
+msgid "New Booking Email (Confirmation by Admin)"
+msgstr "Naujos rezervacijos el. laiškas (administratoriaus patvirtinimas)"
+
+msgid "Welcome"
+msgstr ""
+
+msgid "%site_title% - account details"
+msgstr ""
+
+msgid "Email that will be sent to a customer after they registered on your site."
+msgstr ""
+
+msgid "Customer Registration Email"
+msgstr ""
+
+msgid "Possible tags:"
+msgstr "Galimos žymos:"
+
+msgid "Deprecated."
+msgstr "Nebenaudojamas."
+
+msgid "none"
+msgstr "jokio"
+
+msgid "User Cancellation Link"
+msgstr "Vartotojo atšaukimo nuoroda"
+
+msgid "Site title (set in Settings > General)"
+msgstr "Svetainės pavadinimas (nustatytas „Nustatymai“ > „Bendra“)"
+
+msgid "Booking ID"
+msgstr "Rezervacijos ID"
+
+msgid "Booking Edit Link"
+msgstr "Rezervacijos redagavimo nuoroda"
+
+msgid "Booking Total Price"
+msgstr "Rezervacijos Kaina iš viso"
+
+msgid "Customer First Name"
+msgstr "Kliento vardas"
+
+msgid "Customer Last Name"
+msgstr "Kliento pavardė"
+
+msgid "Customer Email"
+msgstr "Kliento el. paštas"
+
+msgid "Customer Phone"
+msgstr "Kliento telefonas"
+
+msgid "Customer Country"
+msgstr "Kliento šalis"
+
+msgid "Customer Address"
+msgstr "Kliento adresas"
+
+msgid "Customer City"
+msgstr "Kliento miestas"
+
+msgid "Customer State/County"
+msgstr "Kliento apskritis"
+
+msgid "Customer Postcode"
+msgstr "Kliento pašto kodas"
+
+msgid "Reserved Accommodations Details"
+msgstr "Išsami informacija apie rezervuotą būstą"
+
+msgid "Booking Details"
+msgstr "Rezervacijos informacija"
+
+msgid "Confirmation Link"
+msgstr "Patvirtinimo nuoroda"
+
+msgid "Confirmation Link Expiration Time ( UTC )"
+msgstr "Patvirtinimo nuorodos galiojimo laikas ( UTC )"
+
+msgid "Cancellation Details (if enabled)"
+msgstr "Informacija apie atšaukimą (jei įjungta)"
+
+msgid "The total amount of payment"
+msgstr ""
+
+msgid "The unique ID of payment"
+msgstr "Unikalus mokėjimo ID"
+
+msgid "The method of payment"
+msgstr "Mokëjimo metodas"
+
+msgid "Payment instructions"
+msgstr "Apmokėjimo instrukcija"
+
+msgid "User login"
+msgstr ""
+
+msgid "User password"
+msgstr ""
+
+msgid "Link to My Account page"
+msgstr ""
+
+msgid "My Account"
+msgstr ""
+
+msgid "Accommodation Type Link"
+msgstr "Apgyvendinimo tipas Nuoroda"
+
+msgid "Accommodation Type Title"
+msgstr "Apgyvendinimo tipas Pavadinimas"
+
+msgid "Accommodation Type Categories"
+msgstr "Apgyvendinimo tipas Kategorijos"
+
+msgid "Accommodation Type Bed"
+msgstr "Apgyvendinimo tipas Lovos"
+
+msgid "Accommodation Rate Title"
+msgstr "Apgyvendinimo kainos pavadinimas"
+
+msgid "Accommodation Rate Description"
+msgstr "Apgyvendinimo kainos aprašymas"
+
+msgid "Sequential Number of Accommodation"
+msgstr "Apgyvendinimo eilės numeris"
+
+msgid "This coupon has expired."
+msgstr "Ši nuolaida jau nebegalioja."
+
+msgid "Sorry, this coupon is not applicable to your booking contents."
+msgstr "Deja, šis nuolaidos kodas negali būti panaudotas produktams esantiems Jūsų krepšelyje."
+
+msgid "Coupon usage limit has been reached."
+msgstr "Pasiektas šio nuolaidos kodo naudojimo limitas."
+
+msgid " &#215; %d night"
+msgid_plural " &#215; %d nights"
+msgstr[0] " &#215; %d naktis"
+msgstr[1] " &#215; %d naktys"
+msgstr[2] " &#215; %d naktys"
+msgstr[3] " &#215; %d naktys"
+
+msgid "%d adult"
+msgid_plural "%d adults"
+msgstr[0] "%d suaugęs"
+msgstr[1] "%d suaugusieji"
+msgstr[2] "%d suaugusieji"
+msgstr[3] "%d suaugusieji"
+
+msgid "%d guest"
+msgid_plural "%d guests"
+msgstr[0] "%d svečias"
+msgstr[1] "%d svečiai"
+msgstr[2] "%d svečių"
+msgstr[3] "%d svečių"
+
+msgid " &#215; %d time"
+msgid_plural " &#215; %d times"
+msgstr[0] " &#215; %d kartas"
+msgstr[1] " &#215; %d kartai"
+msgstr[2] " &#215; %d kartų"
+msgstr[3] " &#215; %d kartų"
+
+msgid "Per Instance"
+msgstr "Per atvejį"
+
+msgid "Maximum execution time is set to %d seconds."
+msgstr "Maksimalus vykdymo laikas nustatytas į %d sekundės."
+
+msgid "%d URL pulled for parsing."
+msgid_plural "%d URLs pulled for parsing."
+msgstr[0] "%d URL ištrauktas analizuoti."
+msgstr[1] "%d URL ištraukti analizuoti."
+msgstr[2] "%d URL ištraukti analizuoti."
+msgstr[3] "%d URL ištraukti analizuoti."
+
+msgid "Skipped. No URLs found for parsing."
+msgstr "Praleistas. Nerasta URL, kuriuos būtų galima analizuoti."
+
+msgid "Cannot read uploaded file"
+msgstr "Neįmanoma nuskaityti įkelto failo"
+
+msgid "We will need to check %d previous booking after importing and remove it if the booking is outdated."
+msgid_plural "We will need to check %d previous bookings after importing and remove the outdated ones."
+msgstr[0] "Importavę turėsime patikrinti %d ankstesnį užsakymą ir jį pašalinti, jei užsakymas pasenęs."
+msgstr[1] "Importavę turėsime patikrinti %d ankstesnius užsakymus ir pašalinti pasenusius."
+msgstr[2] "Importavę turėsime patikrinti %d ankstesnius užsakymus ir pašalinti pasenusius."
+msgstr[3] "Importavę turėsime patikrinti %d ankstesnius užsakymus ir pašalinti pasenusius."
+
+msgctxt "%s - calendar URI or calendar filename"
+msgid "%1$d event found in calendar %2$s"
+msgid_plural "%1$d events found in calendar %2$s"
+msgstr[0] "Kalendoriuje %2$s rastas %1$d įvykis"
+msgstr[1] "Kalendoriuje %2$s rasta %1$d įvykių"
+msgstr[2] "Kalendoriuje %2$s rasta %1$d įvykių"
+msgstr[3] "Kalendoriuje %2$s rasta %1$d įvykių"
+
+msgctxt "%s - calendar URI or calendar filename"
+msgid "Calendar source is empty (%s)"
+msgstr "Kalendoriaus šaltinis tuščias (%s)"
+
+msgctxt "%s - calendar URI or calendar filename"
+msgid "Calendar file is not empty, but there are no events in %s"
+msgstr "Kalendoriaus failas nėra tuščias, bet %s nėra įvykių"
+
+msgid "Error while loading calendar (%1$s): %2$s"
+msgstr "Klaida įkeliant kalendorių (%1$s): %2$s"
+
+msgctxt "%s - error description"
+msgid "Parse error. %s"
+msgstr "Analizavimo klaida. %s"
+
+msgid "Skipped. Outdated booking #%d already removed."
+msgstr "Praleistas. Pasenusi rezervacija #%d jau pašalinta."
+
+msgid "Skipped. Booking #%d updated with new data."
+msgstr "Praleistas. #%d rezervacija atnaujinta naujais duomenimis."
+
+msgid "The outdated booking #%d has been removed."
+msgstr "Pasenusi rezervacija #%d buvo pašalinta."
+
+msgid "Skipped. Event from %1$s to %2$s has passed."
+msgstr ""
+
+msgid "New booking #%1$d. The dates from %2$s to %3$s are now blocked."
+msgstr ""
+
+msgid "Success. Booking #%d updated with new data."
+msgstr "Atlikta. #%d rezervacija atnaujinta naujais duomenimis."
+
+msgid "Skipped. The dates from %1$s to %2$s are already blocked."
+msgstr "Praleistas. Datos nuo %1$s iki %2$s jau užblokuotos."
+
+msgid "Success. Booking #%1$d updated with new data. Removed %2$d outdated booking."
+msgid_plural "Success. Booking #%1$d updated with new data. Removed %2$d outdated bookings."
+msgstr[0] "Atlikta. Rezervacija #%1$d atnaujinta naujais duomenimis. Pašalinta %2$d pasenusi rezervacija."
+msgstr[1] "Atlikta. Rezervacijos #%1$d atnaujintos naujais duomenimis. Pašalintos %2$d pasenusios rezervacijos."
+msgstr[2] "Atlikta. Rezervacijos #%1$d atnaujintos naujais duomenimis. Pašalintos %2$d pasenusios rezervacijos."
+msgstr[3] "Atlikta. Rezervacijos #%1$d atnaujintos naujais duomenimis. Pašalintos %2$d pasenusios rezervacijos."
+
+msgid "Success. Booking #%1$d updated with new data."
+msgstr "Atlikta. #%1$d rezervacija atnaujinta naujais duomenimis."
+
+msgid "Cannot import new event. Dates from %1$s to %2$s are partially blocked by booking %3$s."
+msgid_plural "Cannot import new event. Dates from %1$s to %2$s are partially blocked by bookings %3$s."
+msgstr[0] "Negalima importuoti naujo įvykio. Datos nuo %1$s iki %2$s iš dalies užblokuotos užsakius %3$s."
+msgstr[1] "Negalima importuoti naujo įvykio. Datos nuo %1$s iki %2$s iš dalies užblokuotos užsakymų %3$s."
+msgstr[2] "Negalima importuoti naujo įvykio. Datos nuo %1$s iki %2$s iš dalies užblokuotos užsakymų %3$s."
+msgstr[3] "Negalima importuoti naujo įvykio. Datos nuo %1$s iki %2$s iš dalies užblokuotos užsakymų %3$s."
+
+msgid "Booking imported with UID %1$s.<br />Summary: %2$s.<br />Description: %3$s.<br />Source: %4$s."
+msgstr "Rezervacija importuota naudojant UID %1$s.<br />Santrauka: %2$s.<br />Aprašymas: %3$s.<br />Šaltinis: %4$s."
+
+msgid "Process Information"
+msgstr "Proceso informacija"
+
+msgid "Total bookings: %s"
+msgstr "Iš viso rezervacijų: %s"
+
+msgid "Success bookings: %s"
+msgstr "Sėkmingų rezervacijų: %s"
+
+msgid "Skipped bookings: %s"
+msgstr "Praleistos rezervacijos: %s"
+
+msgid "Failed bookings: %s"
+msgstr "Nepavykuios rezervacijos: %s"
+
+msgid "Removed bookings: %s"
+msgstr "Pašalintos rezervacijos: %s"
+
+msgid "Expand All"
+msgstr "Išskleisti visus"
+
+msgid "Collapse All"
+msgstr "Sutraukti visus"
+
+msgid "All done! %1$d booking was successfully added."
+msgid_plural "All done! %1$d bookings were successfully added."
+msgstr[0] "Viskas padaryta! %1$d rezervacija sėkmingai pridėta."
+msgstr[1] "Viskas padaryta! %1$d rezervacijos sėkmingai pridėtos."
+msgstr[2] "Viskas padaryta! %1$d rezervacijos sėkmingai pridėtos."
+msgstr[3] "Viskas padaryta! %1$d rezervacijos sėkmingai pridėtos."
+
+msgid " There was %2$d failure."
+msgid_plural " There were %2$d failures."
+msgstr[0] " Įvyko %2$d gedimas."
+msgstr[1] " Buvo %2$d gedimų."
+msgstr[2] " Buvo %2$d gedimų."
+msgstr[3] " Buvo %2$d gedimų."
+
+msgid "Dismiss "
+msgstr "Atsisakyti "
+
+msgid "Your License Key is not active. Please, <a href='%s'>activate your License Key</a> to get plugin updates"
+msgstr "Jūsų licencijos raktas neaktyvus. <a href='%s'>Suaktyvinkite savo licencijos raktą</a>, kad gautumėte papildinio naujinius"
+
+msgid "Hotel Booking Plugin"
+msgstr "Hotel Booking įskiepis"
+
+msgid "Your database is being updated in the background."
+msgstr "Jūsų duomenų bazė atnaujinama fone."
+
+msgid "Taking a while? Click here to run it now."
+msgstr "Užtrunka? Spustelėkite čia, kad paleistumėte dabar."
+
+msgid "Add \"Booking Confirmation\" shortcode to your \"Booking Confirmed\" and \"Reservation Received\" pages to show more details about booking or payment.<br/>Click \"Update Pages\" to apply all changes automatically or skip this notice and add \"Booking Confirmation\" shortcode manually.<br/><b><em>This action will replace the whole content of the pages.</em></b>"
+msgstr "Pridėkite trumpąjį kodą (shortcode) „Booking Confirmation“ prie puslapių „Booking confirmed“ ir „Rezervation Received“, kad būtų rodoma daugiau informacijos apie užsakymą arba mokėjimą.<br/>Spustelėkite „Atnaujinti puslapius“, kad pritaikytumėte visus pakeitimus automatiškai arba praleiskite šį pranešimą ir pridėkite „Užsakymo patvirtinimas“. \" trumpasis kodas rankiniu būdu.<br/><b><em>Šis veiksmas pakeis visą puslapių turinį.</em></b>"
+
+msgid "Update Pages"
+msgstr "Atnaujinti puslapius"
+
+msgid "Skip"
+msgstr "Praleisti"
+
+msgid "Direct Bank Transfer"
+msgstr "Tiesioginis banko pavedimas"
+
+msgid "Make your payment directly into our bank account. Please use your Booking ID as the payment reference."
+msgstr "Atlikite mokėjimą tiesiai į mūsų banko sąskaitą. Kaip mokėjimo nuorodą naudokite savo rezervacijos ID."
+
+msgid "Beanstream/Bambora"
+msgstr "Beanstream/Bambora"
+
+msgid "Use the card number %1$s with CVC %2$s and a valid expiration date to test a payment."
+msgstr "Norėdami išbandyti mokėjimą, naudokite kortelės numerį %1$s su CVC %2$s ir galiojančia galiojimo data."
+
+msgid "Pay by Card (Beanstream)"
+msgstr "Mokėti kortele („Beanstream“)"
+
+msgid "Pay with your credit card via Beanstream."
+msgstr "Mokėkite kreditine kortele per „Beanstream“."
+
+msgid "%1$s is enabled, but the <a href=\"%2$s\">Force Secure Checkout</a> option is disabled. Please enable SSL and ensure your server has a valid SSL certificate. Otherwise, %1$s will only work in Test Mode."
+msgstr "%1$s įjungtas, bet parinktis <a href=\"%2$s\">Priversti saugią patikrą</a> išjungta. Įgalinkite SSL ir įsitikinkite, kad jūsų serveris turi galiojantį SSL sertifikatą. Kitu atveju %1$s veiks tik bandomuoju režimu."
+
+msgid "The <a href=\"%2$s\">Force Secure Checkout</a> option is disabled. Please enable SSL and ensure your server has a valid SSL certificate. Otherwise, %1$s will only work in Test Mode."
+msgstr "Parinktis <a href=\"%2$s\">Priversti saugią patikrą</a> išjungta. Įgalinkite SSL ir įsitikinkite, kad jūsų serveris turi galiojantį SSL sertifikatą. Kitu atveju %1$s veiks tik bandomuoju režimu."
+
+msgid "Beanstream"
+msgstr "Beanstream"
+
+msgid "Merchant ID"
+msgstr "Prekybininko ID"
+
+msgid "Your Merchant ID can be found in the top-right corner of the screen after logging in to the Beanstream Back Office"
+msgstr "Savo prekybininko ID galite rasti viršutiniame dešiniajame ekrano kampe, kai prisijungsite prie „Beanstream Back Office“"
+
+msgid "Payments Passcode"
+msgstr "Mokėjimų slaptažodis"
+
+msgid "To generate the passcode, navigate to Administration > Account Settings > Order Settings in the sidebar, then scroll to Payment Gateway > Security/Authentication"
+msgstr "Norėdami sugeneruoti slaptažodį, šoninėje juostoje eikite į Administravimas > Paskyros nustatymai > Užsakymo nustatymai, tada slinkite į Mokėjimo sistemos > Sauga / Autentifikavimas"
+
+msgid "Beanstream Payment Error: %s"
+msgstr "Beanstream mokėjimo klaida: %s"
+
+msgid "Payment single use token is required."
+msgstr "Reikalingas vienkartinis mokėjimo žetonas."
+
+msgid "Braintree"
+msgstr "Braintree"
+
+msgid "Webhooks Destination URL: %s"
+msgstr "Webhooks paskirties URL: %s"
+
+msgid "Pay by Card (Braintree)"
+msgstr "Mokėti kortele (Braintree)"
+
+msgid "Pay with your credit card via Braintree."
+msgstr "Mokėkite kreditine kortele per Braintree."
+
+msgid "Braintree gateway cannot be enabled due to some problems: %s"
+msgstr "Braintree mokėjimo sistema negali būti įjungta dėl kai kurių problemų: %s"
+
+msgid "In your Braintree account select Account > My User > View Authorizations."
+msgstr "Savo „Braintree“ paskyroje pasirinkite Paskyra > Mano naudotojas > Peržiūrėti įgaliojimus."
+
+msgid "Public Key"
+msgstr "Viešasis raktas"
+
+msgid "Private Key"
+msgstr "Privatus raktas"
+
+msgid "Merchant Account ID"
+msgstr "Prekybininko paskyros ID"
+
+msgid "In case the site currency differs from default currency in your Braintree account, you can set specific merchant account to avoid <a href=\"%s\">complications with currencty conversions</a>. Otherwise leave the field empty."
+msgstr "Jei svetainės valiuta skiriasi nuo numatytosios valiutos jūsų Braintree paskyroje, galite nustatyti konkrečią prekybininko paskyrą, kad išvengtumėte <a href=\"%s\">valiutos konvertavimo komplikacijų</a>. Kitu atveju palikite lauką tuščią."
+
+msgid "Braintree submitted for settlement (Transaction ID: %s)"
+msgstr "„Braintree“ pateiktas atsiskaitymui (operacijos ID: %s)"
+
+msgid "Braintree Payment Error: %s"
+msgstr "Beanstream mokėjimo klaida: %s"
+
+msgid "Payment method nonce is required."
+msgstr "Mokėjimo būdas nereikalingas."
+
+msgid "Payment dispute opened"
+msgstr "Pradėtas ginčas dėl mokėjimo"
+
+msgid "Payment dispute lost"
+msgstr "Ginčas dėl mokėjimo pralaimėtas"
+
+msgid "Payment dispute won"
+msgstr "Ginčas dėl mokėjimo laimėtas"
+
+msgid "Payment refunded in Braintree"
+msgstr "Mokėjimas grąžintas į Braintree"
+
+msgid "Braintree transaction voided"
+msgstr "Braintree sandoris anuliuotas"
+
+msgid "Pay on Arrival"
+msgstr "Mokėti atvykus"
+
+msgid "Pay with cash on arrival."
+msgstr "Mokėti grynaisiais atvykus."
+
+msgid "%s is a required field."
+msgstr "%s yra būtinas laukelis."
+
+msgid "%s is not a valid email address."
+msgstr "%s nėra tinkamas el. pašto adresas."
+
+#. translators: %s is the payment gateway title.
+msgid "Enable \"%s\""
+msgstr "Įjungti \"%s\""
+
+msgid "Test Mode"
+msgstr "Testavimo režimas"
+
+msgid "Enable Sandbox Mode"
+msgstr "Ijungti Sandbox režimą"
+
+msgid "Sandbox can be used to test payments."
+msgstr "Sandbox gali būti naudojams norint ištestuoti mokėjimus."
+
+msgid "Payment method title that the customer will see on your website."
+msgstr "Apmokėjimo būdo aprašymas, kurį pirkėjas matys Jūsų tinklalapyje."
+
+msgid "Payment method description that the customer will see on your website."
+msgstr "Apmokėjimo būdo aprašymas, kurį pirkėjas matys Jūsų tinklalapyje."
+
+msgid "Instructions"
+msgstr "Instrukcijos"
+
+msgid "Instructions for a customer on how to complete the payment."
+msgstr "Nurodymai klientui, kaip atlikti mokėjimą."
+
+msgid "Reservation #%d"
+msgstr "Rezervacija #%d"
+
+msgid "Accommodation(s) reservation"
+msgstr "Apgyvendinimo vietos(ų) rezervacija"
+
+msgid "Manual Payment"
+msgstr "Rankinis mokėjimas"
+
+msgid "PayPal"
+msgstr "PayPal"
+
+msgid "Pay via PayPal"
+msgstr "Mokėkite per PayPal"
+
+msgid "Paypal Business Email"
+msgstr "„Paypal“ verslo el. paštas"
+
+msgid "Disable IPN Verification"
+msgstr "Išjungti IPN patvirtinimą"
+
+msgid "Specify an IPN listener for a specific payment instead of the listeners specified in your PayPal Profile."
+msgstr "Konkrečiam mokėjimui nurodykite IPN klausytoją, o ne jūsų PayPal profilyje nurodytus klausytojus."
+
+msgid "Payment %s via IPN."
+msgstr "Mokėjimas %s per IPN."
+
+msgid "Payment failed due to invalid PayPal business email."
+msgstr "Nepavyko sumokėti dėl netinkamo PayPal verslo el. pašto adreso."
+
+msgid "Payment failed due to invalid currency in PayPal IPN."
+msgstr "Mokėjimas nepavyko dėl netinkamos PayPal IPN valiutos."
+
+msgid "Payment failed due to invalid amount in PayPal IPN."
+msgstr "Mokėjimas nepavyko dėl netinkamos PayPal IPN sumos."
+
+msgid "Payment failed due to invalid purchase key in PayPal IPN."
+msgstr "Mokėjimas nepavyko dėl netinkamo PayPal IPN pirkimo rakto."
+
+msgid "Payment made via eCheck and will clear automatically in 5-8 days."
+msgstr "Mokėjimas atliktas per eCheck ir bus automatiškai išvalytas per 5–8 dienas."
+
+msgid "Payment requires a confirmed customer address and must be accepted manually through PayPal."
+msgstr "Norint atsiskaityti reikia patvirtinto kliento adreso, jį reikia patvirtinti rankiniu būdu per PayPal."
+
+msgid "Payment must be accepted manually through PayPal due to international account regulations."
+msgstr "Atsižvelgiant į tarptautinius sąskaitų nuostatus, mokėjimas per PayPal turi būti priimtas rankiniu būdu."
+
+msgid "Payment received in non-shop currency and must be accepted manually through PayPal."
+msgstr "Mokėjimas gautas ne parduotuvės valiuta ir turi būti patvirtintas rankiniu būdu per PayPal."
+
+msgid "Payment is being reviewed by PayPal staff as high-risk or in possible violation of government regulations."
+msgstr "Mokėjimą PayPal darbuotojai peržiūri kaip labai rizikingą arba galimai pažeidžiantį vyriausybės taisykles."
+
+msgid "Payment was sent to unconfirmed or non-registered email address."
+msgstr "Mokėjimas buvo išsiųstas nepatvirtintu ar neregistruotu el. pašto adresu."
+
+msgid "PayPal account must be upgraded before this payment can be accepted."
+msgstr "Prieš priimant šį mokėjimą, reikia atnaujinti PayPal sąskaitą."
+
+msgid "PayPal account is not verified. Verify account in order to accept this payment."
+msgstr "PayPal paskyra nėra patvirtinta. Patvirtinkite sąskaitą, kad galima būtų patvirtinti šį mokėjimą."
+
+msgid "Payment is pending for unknown reasons. Contact PayPal support for assistance."
+msgstr "Mokėjimas laukiamas dėl nežinomų priežasčių. Dėl pagalbos susisiekite su „PayPal“ palaikymo komanda."
+
+msgid "Partial PayPal refund processed: %s"
+msgstr "Apdorotas dalinis „PayPal“ lėšų grąžinimas: %s"
+
+msgid "PayPal Payment #%s Refunded for reason: %s"
+msgstr "PayPal mokėjimas #%s Grąžintas dėl priežasties: %s"
+
+msgid "PayPal Refund Transaction ID: %s"
+msgstr "PayPal grąžinimo operacijos ID: %s"
+
+msgid "Stripe"
+msgstr "Stripe"
+
+msgid "Use the card number %1$s with CVC %2$s, a valid expiration date and random 5-digit ZIP-code to test a payment."
+msgstr "Norėdami išbandyti mokėjimą, naudokite kortelės numerį %1$s su CVC %2$s, galiojančia galiojimo data ir atsitiktiniu 5 skaitmenų pašto kodu."
+
+msgid "Pay by Card (Stripe)"
+msgstr "Mokėti kortele (Stripe)"
+
+msgid "Pay with your credit card via Stripe."
+msgstr "Mokėkite kreditine kortele per Stripe."
+
+msgid "Bancontact"
+msgstr "Uždrausti kontaktą"
+
+msgid "iDEAL"
+msgstr "iDEAL"
+
+msgid "Giropay"
+msgstr "Giropay"
+
+msgid "SEPA Direct Debit"
+msgstr "SEPA tiesioginis debetas"
+
+msgid "SOFORT"
+msgstr "SOFORT"
+
+msgid "Euro is the only acceptable currency for the selected payment methods. Change your currency to Euro in General settings."
+msgstr "Eurai yra vienintelė priimtina valiuta pasirinktais mokėjimo būdais. Bendruosiuose nustatymuose pakeiskite valiutą į eurus."
+
+msgid "Secret Key"
+msgstr "Slaptas raktas"
+
+msgid "Webhook Secret"
+msgstr "Webhook Secret"
+
+msgid "Payment Methods"
+msgstr "Mokėjimo būdai"
+
+msgid "Card Payments"
+msgstr "Mokėjimas kortele"
+
+msgid "Checkout Locale"
+msgstr "Apmokėjimo puslapis"
+
+msgid "Display Checkout in the user's preferred language, if available."
+msgstr "Rodyti Checkout naudotojo pageidaujama kalba, jei įmanoma."
+
+msgid "The payment method is not selected."
+msgstr "Mokėjimo būdas nepasirinktas."
+
+msgid "Payment intent ID is not set."
+msgstr "Mokėjimo ketinimo ID nenustatytas."
+
+msgid "Source ID is not set."
+msgstr "Šaltinio ID nenustatytas."
+
+#. translators: %s - Stripe PaymentIntent ID
+msgid "Payment for PaymentIntent %s succeeded."
+msgstr "Mokėjimas už PaymentIntent %s pavyko."
+
+#. translators: %s - Stripe PaymentIntent ID
+msgid "Payment for PaymentIntent %s is processing."
+msgstr "Mokėjimas už PaymentIntent %s apdorojamas."
+
+msgid "Failed to process Card payment. %s"
+msgstr "Nepavyko apdoroti mokėjimo kortele. %s"
+
+#. translators: %s - Stripe Source ID
+msgid "Payment source %s is waiting for customer confirmation."
+msgstr "Mokėjimo šaltinis %s laukia kliento patvirtinimo."
+
+#. translators: %s - Stripe Source ID
+msgid "Pending source %s received, but the redirect URL is empty."
+msgstr "Gautas laukiantis šaltinis %s, bet peradresavimo URL tuščias."
+
+#. translators: %s - Stripe Source ID
+msgid "Payment source %s was cancelled by customer."
+msgstr "Klientas atšaukė mokėjimo šaltinį %s."
+
+#. translators: %s - Stripe Source ID
+msgid "Payment source %s failed and couldn't be processed."
+msgstr "Mokėjimo šaltinis %s nepavyko ir jo nepavyko apdoroti."
+
+#. translators: %1$s - Stripe Source ID; %2$s - Stripe Source status
+msgid "Failed to process payment source %1$s: unsupported status - \"%2$s\"."
+msgstr "Nepavyko apdoroti mokėjimo šaltinio %1$s: nepalaikoma būsena – „%2$s“."
+
+msgid "Failed to process Source payment. %s"
+msgstr "Nepavyko apdoroti šaltinio mokėjimo. %s"
+
+msgid "Can't charge the payment again: payment's flow already completed."
+msgstr "Negalima dar kartą apmokestinti mokėjimo: mokėjimo eiga jau baigta."
+
+#. translators: %s - Stripe Charge ID
+msgid "Charge %s succeeded."
+msgstr "Mokėjimas %s pavyko."
+
+#. translators: %1$s - Stripe Charge ID; %2$s - payment price
+msgid "Charge %1$s for %2$s created."
+msgstr "Apmokestinimas %1$s už %2$s sukurtas."
+
+#. translators: %s - Stripe Charge ID
+msgid "Charge %s failed."
+msgstr "Mokėjimas %s nepavyko."
+
+msgid "Charge error. %s"
+msgstr "Mokėjimo klaida. %s"
+
+msgid "Argentinean"
+msgstr "Argentinietė"
+
+msgid "Simplified Chinese"
+msgstr "Supaprastinta kinų"
+
+msgid "Danish"
+msgstr "Danų"
+
+msgid "Dutch"
+msgstr "Nyderlandų"
+
+msgid "English"
+msgstr "Angliškasis Debiutas"
+
+msgid "Finnish"
+msgstr "Suomių"
+
+msgid "French"
+msgstr "Prancūzų"
+
+msgid "German"
+msgstr "Vokiečių"
+
+msgid "Italian"
+msgstr "Italų"
+
+msgid "Japanese"
+msgstr "Japonų"
+
+msgid "Norwegian"
+msgstr "Norvegų"
+
+msgid "Polish"
+msgstr "Lenkų"
+
+msgid "Russian"
+msgstr "Rusų"
+
+msgid "Spanish"
+msgstr "Ispanų"
+
+msgid "Swedish"
+msgstr "Švedų"
+
+msgid "Card"
+msgstr "Kortelė"
+
+msgid "Credit or debit card"
+msgstr "Kreditinė ar debetinė kortelė"
+
+msgid "IBAN"
+msgstr "IBAN"
+
+msgid "Select iDEAL Bank"
+msgstr "Pasirinkite iDEAL banką"
+
+msgid "You will be redirected to a secure page to complete the payment."
+msgstr "Būsite nukreipti į saugų puslapį, kad užbaigtumėte mokėjimą."
+
+msgid "By providing your IBAN and confirming this payment, you are authorizing this merchant and Stripe, our payment service provider, to send instructions to your bank to debit your account and your bank to debit your account in accordance with those instructions. You are entitled to a refund from your bank under the terms and conditions of your agreement with your bank. A refund must be claimed within 8 weeks starting from the date on which your account was debited."
+msgstr "Pateikdami savo IBAN ir patvirtindami šį mokėjimą, įgaliojate šį prekybininką ir „Stripe“, mūsų mokėjimo paslaugų teikėją, siųsti nurodymus jūsų bankui nurašyti nuo jūsų sąskaitos, o bankui – nurašyti nuo jūsų sąskaitos pagal tas instrukcijas. Jūs turite teisę į banko grąžinimą pagal sutarties su banku sąlygas. Lėšos turi būti grąžintos per 8 savaites nuo tos datos, kai buvo nuskaityta jūsų sąskaita."
+
+#. translators: %s - event type, like "source.chargeable"
+msgid "Webhook \"%s\" skipped: payment's flow already completed."
+msgstr "Webhook „%s“ praleistas: mokėjimo eiga jau baigta."
+
+#. translators: %s - Stripe Source ID
+msgid "Webhook received. The source %s is chargeable."
+msgstr "Webhook gautas. Šaltinis %s yra apmokestinamas."
+
+#. translators: %s - Stripe Source ID
+msgid "Webhook received. Payment source %s was cancelled by customer."
+msgstr "Webhook gautas. Klientas atšaukė mokėjimo šaltinį %s."
+
+#. translators: %s - Stripe Source ID
+msgid "Webhook received. Payment source %s failed and couldn't be processed."
+msgstr "Webhook gautas. Mokėjimo šaltinis %s nepavyko ir jo nepavyko apdoroti."
+
+#. translators: %s - Stripe Charge ID
+msgid "Webhook received. Charge %s succeeded."
+msgstr "Webhook gautas. mokėjimas %s pavyko."
+
+#. translators: %s - Stripe Charge ID
+msgid "Webhook received. Charge %s failed."
+msgstr "Webhook gautas. Nepavyko mokėjimas %s."
+
+msgid "Test Payment"
+msgstr "Testinis mokėjimas"
+
+msgid "2Checkout"
+msgstr "2Checkout"
+
+msgid "To setup the callback process for 2Checkout to automatically mark payments completed, you will need to"
+msgstr "Jei norite nustatyti 2Checkout atgalinio skambinimo procesą, kad mokėjimai būtų automatiškai pažymėti baigtais, turėsite"
+
+msgid "Login to your 2Checkout account and click the Notifications tab"
+msgstr "Prisijunkite prie savo 2Checkout paskyros ir spustelėkite skirtuką Pranešimai"
+
+msgid "Click Enable All Notifications"
+msgstr "Spustelėkite Įjungti visus pranešimus"
+
+msgid "In the Global URL field, enter the url %s"
+msgstr "Lauke Visuotinis URL įveskite URL %s"
+
+msgid "Click Apply"
+msgstr "Spustelėkite Taikyti"
+
+msgid "Account Number"
+msgstr "Sąskaitos numeris"
+
+msgid "Secret Word"
+msgstr "Slaptas žodis"
+
+msgid "2Checkout \"Order Created\" notification received."
+msgstr "2Checkout gautas pranešimas „Užsakymas sukurtas“."
+
+msgid "Payment refunded in 2Checkout"
+msgstr "Mokėjimas grąžintas į 2Checkout"
+
+msgid "2Checkout fraud review passed"
+msgstr "2Checkout sukčiavimo peržiūra praėjo"
+
+msgid "2Checkout fraud review failed"
+msgstr "2Checkout sukčiavimo patikrinimas nepavyko"
+
+msgid "2Checkout fraud review in progress"
+msgstr "2Checkout vyksta sukčiavimo peržiūra"
+
+msgid "Attribute"
+msgstr "Atributas"
+
+msgctxt "Add New Attribute"
+msgid "Add New"
+msgstr "Pridėti naują"
+
+msgid "Add New Attribute"
+msgstr "Pridėti naują atributą"
+
+msgid "Edit Attribute"
+msgstr "Atributo redagavimas"
+
+msgid "New Attribute"
+msgstr "Naujas atributas"
+
+msgid "View Attribute"
+msgstr "Peržiūrėti atributą"
+
+msgid "Search Attribute"
+msgstr "Ieškoti atributo"
+
+msgid "No Attributes found"
+msgstr "Nerasta jokių atributų"
+
+msgid "No Attributes found in Trash"
+msgstr "Šiukšlinėje nerasta jokių atributų"
+
+msgid "Insert into attribute description"
+msgstr "Įterpti į atributo aprašymą"
+
+#. translators: %s: attribute name
+msgid "Search %s"
+msgstr "Ieškoti %s"
+
+#. translators: %s: attribute name
+msgid "All %s"
+msgstr "Visi %s"
+
+#. translators: %s: attribute name
+msgid "Edit %s"
+msgstr "Redaguoti %s"
+
+#. translators: %s: attribute name
+msgid "Update %s"
+msgstr "Atnaujinti %s"
+
+#. translators: %s: attribute name
+msgid "Add new %s"
+msgstr "Pridėti naują %s"
+
+#. translators: %s: attribute name
+msgid "New %s"
+msgstr "Naujas %s"
+
+#. translators: %s: attribute name
+msgid "No &quot;%s&quot; found"
+msgstr "Nerasta: &quot;%s&quot;"
+
+msgid "Name (numeric)"
+msgstr "Pavadinimas (sudarytas iš skaičių)"
+
+msgid "Term ID"
+msgstr "Termino ID"
+
+msgid "Enable Archives"
+msgstr "Įjungti archyvus"
+
+msgid "Link the attribute to an archive page with all accommodation types that have this attribute."
+msgstr "Susiekite atributą su archyvo puslapiu su visais apgyvendinimo tipais, turinčiais šį atributą."
+
+msgid "Visible in Details"
+msgstr "Matoma Išsamiau skiltyje"
+
+msgid "Display the attribute in details section of an accommodation type."
+msgstr "Rodyti atributą apgyvendinimo tipo išsamios informacijos skiltyje."
+
+msgid "Default Sort Order"
+msgstr "Numatyta rikiavimo tvarka"
+
+msgid "Default Text"
+msgstr "Numatytasis tekstas"
+
+msgid "Select"
+msgstr "Pasirinkti"
+
+msgid "Edit Dates"
+msgstr "Redaguoti datas"
+
+msgid "Note"
+msgstr "Pastaba"
+
+msgctxt "Add New Booking"
+msgid "Add New Booking"
+msgstr "Pridėti naują rezervaciją"
+
+msgid "View Booking"
+msgstr "Peržiūrėti rezervaciją"
+
+msgid "Search Booking"
+msgstr "Ieškoti rezervacijų"
+
+msgid "No bookings found"
+msgstr "Nerasta jokių rezervacijų"
+
+msgid "No bookings found in Trash"
+msgstr "Nerasta jokių rezervacijų šiukšlinėje"
+
+msgid "All Bookings"
+msgstr "Visos rezervacijos"
+
+msgid "Insert into booking description"
+msgstr "Įterpti į rezervacijos aprašymą"
+
+msgid "Uploaded to this booking"
+msgstr "Įkelta į šią rezervaciją"
+
+msgctxt "Booking status"
+msgid "Pending User Confirmation"
+msgstr "Laukiama vartotojo patvirtinimo"
+
+msgid "Pending User Confirmation <span class=\"count\">(%s)</span>"
+msgid_plural "Pending User Confirmation <span class=\"count\">(%s)</span>"
+msgstr[0] "Laukiama naudotojo patvirtinimo <span class=\"count\">(%s)</span>"
+msgstr[1] "Laukiama naudotojo patvirtinimo <span class=\"count\">(%s)</span>"
+msgstr[2] "Laukiama naudotojo patvirtinimo <span class=\"count\">(%s)</span>"
+msgstr[3] "Laukiama naudotojo patvirtinimo <span class=\"count\">(%s)</span>"
+
+msgctxt "Booking status"
+msgid "Pending Payment"
+msgstr "Laukiama apmokėjimo"
+
+msgid "Pending Payment <span class=\"count\">(%s)</span>"
+msgid_plural "Pending Payment <span class=\"count\">(%s)</span>"
+msgstr[0] "Laukiantis mokėjimas <span class=\"count\">(%s)</span>"
+msgstr[1] "Laukiantis mokėjimas <span class=\"count\">(%s)</span>"
+msgstr[2] "Laukiantis mokėjimas <span class=\"count\">(%s)</span>"
+msgstr[3] "Laukiantis mokėjimas <span class=\"count\">(%s)</span>"
+
+msgctxt "Booking status"
+msgid "Pending Admin"
+msgstr "Laukiama administratoriaus"
+
+msgid "Pending Admin <span class=\"count\">(%s)</span>"
+msgid_plural "Pending Admin <span class=\"count\">(%s)</span>"
+msgstr[0] "Laukiantis administratorius <span class=\"count\">(%s)</span>"
+msgstr[1] "Laukiantis administratorius <span class=\"count\">(%s)</span>"
+msgstr[2] "Laukiantis administratorius <span class=\"count\">(%s)</span>"
+msgstr[3] "Laukiantis administratorius <span class=\"count\">(%s)</span>"
+
+msgctxt "Booking status"
+msgid "Abandoned"
+msgstr "Atšauktas"
+
+msgid "Abandoned <span class=\"count\">(%s)</span>"
+msgid_plural "Abandoned <span class=\"count\">(%s)</span>"
+msgstr[0] "Atšauktas <span class=\"count\">(%s)</span>"
+msgstr[1] "Atšaukti <span class=\"count\">(%s)</span>"
+msgstr[2] "Atšaukti <span class=\"count\">(%s)</span>"
+msgstr[3] "Atšaukti <span class=\"count\">(%s)</span>"
+
+msgid "Confirmed <span class=\"count\">(%s)</span>"
+msgid_plural "Confirmed <span class=\"count\">(%s)</span>"
+msgstr[0] "Patvirtinta <span class=\"count\">(%s)</span>"
+msgstr[1] "Patvirtinta <span class=\"count\">(%s)</span>"
+msgstr[2] "Patvirtinta <span class=\"count\">(%s)</span>"
+msgstr[3] "Patvirtinta <span class=\"count\">(%s)</span>"
+
+msgctxt "Booking status"
+msgid "Cancelled"
+msgstr "Atšauktas"
+
+msgid "Cancelled <span class=\"count\">(%s)</span>"
+msgid_plural "Cancelled <span class=\"count\">(%s)</span>"
+msgstr[0] "Atšauktas <span class=\"count\">(%s)</span>"
+msgstr[1] "Atšaukti <span class=\"count\">(%s)</span>"
+msgstr[2] "Atšaukti <span class=\"count\">(%s)</span>"
+msgstr[3] "Atšaukti <span class=\"count\">(%s)</span>"
+
+msgid "Status changed from %s to %s."
+msgstr "Užsakymo statusas pakeistas iš %s į %s."
+
+msgid "Coupon Information"
+msgstr "Kupono informacija"
+
+msgid "Fixed per accommodation per stay"
+msgstr "Fiksuota už apgyvendinimą per viešnagę"
+
+msgid "Fixed per accommodation per day"
+msgstr "Fiksuota už apgyvendinimą per dieną"
+
+msgid "Coupon Amount"
+msgstr "Nuolaidos suma"
+
+msgid "Enter percent or fixed amount according to selected type."
+msgstr "Įveskite procentą arba fiksuotą sumą pagal pasirinktą tipą."
+
+msgid "Expiration Date"
+msgstr "Galiojimo pabaigos data"
+
+msgid "Check-in After"
+msgstr "Atvykimas po"
+
+msgid "Check-out Before"
+msgstr "Išvykimas prieš"
+
+msgid "Minimum Days"
+msgstr "Minimalius dienų skaičius"
+
+msgid "Maximum Days"
+msgstr "Maksimalus dienų skaičius"
+
+msgid "Usage Limit"
+msgstr "Naudojimo limitas"
+
+msgid "Usage Count"
+msgstr "Naudojimų skaičius"
+
+msgid "Coupons"
+msgstr "Kuponai"
+
+msgctxt "Add New Coupon"
+msgid "Add New"
+msgstr "Pridėti naują"
+
+msgid "Add New Coupon"
+msgstr "Sukurti naują nuolaidą"
+
+msgid "Edit Coupon"
+msgstr "Redaguoti kuponą"
+
+msgid "New Coupon"
+msgstr "Naujas kuponas"
+
+msgid "View Coupon"
+msgstr "Peržiūrėti nuolaidą"
+
+msgid "Search Coupon"
+msgstr "Kupono paieška"
+
+msgid "No coupons found"
+msgstr "Nuolaidų nerasta"
+
+msgid "No coupons found in Trash"
+msgstr "Šiukšlinėje nuolaidų nerasta"
+
+msgid "All Coupons"
+msgstr "Visos nuolaidos"
+
+msgid "Payment History"
+msgstr "Mokėjimų istorija"
+
+msgid "Payment"
+msgstr "Mokėjimas"
+
+msgctxt "Add New Payment"
+msgid "Add New"
+msgstr "Pridėti naują"
+
+msgid "Add New Payment"
+msgstr "Pridėti naują mokėjimą"
+
+msgid "Edit Payment"
+msgstr "Redaguoti mokėjimą"
+
+msgid "New Payment"
+msgstr "Naujas mokėjimas"
+
+msgid "View Payment"
+msgstr "Peržiūrėti mokėjimą"
+
+msgid "Search Payment"
+msgstr "Ieškoti mokėjimo"
+
+msgid "No payments found"
+msgstr "Mokėjimų nerasta"
+
+msgid "No payments found in Trash"
+msgstr "Šiukšlinėje mokėjimų nerasta"
+
+msgid "Payments"
+msgstr "Mokėjimai"
+
+msgid "Insert into payment description"
+msgstr "Įterpti į mokėjimo aprašymą"
+
+msgid "Uploaded to this payment"
+msgstr "Įkelta į šį mokėjimą"
+
+msgid "Payments."
+msgstr "Mokėjimai."
+
+msgid "Gateway Mode"
+msgstr "Mokėjimo sistemos režimas"
+
+msgid "Sandbox"
+msgstr "Sandbox"
+
+msgid "Live"
+msgstr "Tiesiogiai"
+
+msgid "Fee"
+msgstr "Rinkliava"
+
+msgid "Payment Type"
+msgstr "Mokėjimo tipas"
+
+msgid "Billing Info"
+msgstr "Atsiskaitymo informacija"
+
+msgid "Address 1"
+msgstr "Adresas 1"
+
+msgid "Address 2"
+msgstr "Adresas 2"
+
+msgid "Postal Code (ZIP)"
+msgstr "Pašto kodas (ZIP)"
+
+msgctxt "Payment status"
+msgid "Pending"
+msgstr "Vykdomas"
+
+msgid "Pending <span class=\"count\">(%s)</span>"
+msgid_plural "Pending <span class=\"count\">(%s)</span>"
+msgstr[0] "Vykdomi <span class=\"count\">(%s)</span>"
+msgstr[1] "Vykdomi <span class=\"count\">(%s)</span>"
+msgstr[2] "Vykdomi <span class=\"count\">(%s)</span>"
+msgstr[3] "Vykdomi <span class=\"count\">(%s)</span>"
+
+msgctxt "Payment status"
+msgid "Completed"
+msgstr "Užbaigtas"
+
+msgid "Completed <span class=\"count\">(%s)</span>"
+msgid_plural "Completed <span class=\"count\">(%s)</span>"
+msgstr[0] "Užbaigta <span class=\"count\">(%s)</span>"
+msgstr[1] "Užbaigti <span class=\"count\">(%s)</span>"
+msgstr[2] "Užbaigti <span class=\"count\">(%s)</span>"
+msgstr[3] "Užbaigti <span class=\"count\">(%s)</span>"
+
+msgctxt "Payment status"
+msgid "Failed"
+msgstr "Nepavyko"
+
+msgid "Failed <span class=\"count\">(%s)</span>"
+msgid_plural "Failed <span class=\"count\">(%s)</span>"
+msgstr[0] "Nepavykęs <span class=\"count\">(%s)</span>"
+msgstr[1] "Nepavykę <span class=\"count\">(%s)</span>"
+msgstr[2] "Nepavykę <span class=\"count\">(%s)</span>"
+msgstr[3] "Nepavykę <span class=\"count\">(%s)</span>"
+
+msgctxt "Payment status"
+msgid "Abandoned"
+msgstr "Atšauktas"
+
+msgctxt "Payment status"
+msgid "On Hold"
+msgstr "Užlaikytas"
+
+msgid "On Hold <span class=\"count\">(%s)</span>"
+msgid_plural "On Hold <span class=\"count\">(%s)</span>"
+msgstr[0] "Sustabdyta <span class=\"count\">(%s)</span>"
+msgstr[1] "Sustabdyta <span class=\"count\">(%s)</span>"
+msgstr[2] "Sustabdyta <span class=\"count\">(%s)</span>"
+msgstr[3] "Sustabdyta <span class=\"count\">(%s)</span>"
+
+msgctxt "Payment status"
+msgid "Refunded"
+msgstr "Grąžinta"
+
+msgid "Refunded <span class=\"count\">(%s)</span>"
+msgid_plural "Refunded <span class=\"count\">(%s)</span>"
+msgstr[0] "Grąžinti <span class=\"count\">(%s)</span>"
+msgstr[1] "Grąžinti <span class=\"count\">(%s)</span>"
+msgstr[2] "Grąžinti <span class=\"count\">(%s)</span>"
+msgstr[3] "Grąžinti <span class=\"count\">(%s)</span>"
+
+msgctxt "Payment status"
+msgid "Cancelled"
+msgstr "Atšauktas"
+
+msgid "Payment (#%s) for this booking is on hold"
+msgstr "Mokėjimas (#%s) už šią rezervaciją sulaikyta"
+
+msgid "Rate Info"
+msgstr "Įkainio informacija"
+
+msgid "Season"
+msgstr "Sezonas"
+
+msgid "Move price to top to set higher priority."
+msgstr "Perkelkite kainą į viršų, kad nustatytumėte didesnį prioritetą."
+
+msgid "Add New Season Price"
+msgstr "Pridėti naujo sezono kainą"
+
+msgid "Will be displayed on the checkout page."
+msgstr "Bus rodomas atsiskaitymo puslapyje."
+
+#. translators: The value a hotel wishes to sell their rooms. Also called the Cost, Value, Tariff or Room charge.
+msgid "Rates"
+msgstr "Kainos"
+
+msgctxt "Add New Rate"
+msgid "Add New"
+msgstr "Pridėti naują"
+
+msgid "Add New Rate"
+msgstr "Pridėti naują įkainį"
+
+msgid "Edit Rate"
+msgstr "Redaguoti įkainį"
+
+msgid "New Rate"
+msgstr "Naujas įkainis"
+
+msgid "View Rate"
+msgstr "Peržiūrėti įkainį"
+
+msgid "Search Rate"
+msgstr "Ieškoti įkainio"
+
+msgid "No rates found"
+msgstr "Nerasta jokių įkainių"
+
+msgid "No rates found in Trash"
+msgstr "Šiukšlinėje nerasta jokių įkainių"
+
+msgid "Insert into rate description"
+msgstr "Įterpti į įkainio aprašymą"
+
+msgid "Uploaded to this rate"
+msgstr "Įkelta į šitą įkainį"
+
+msgid "This is where you can add new rates."
+msgstr "Čia galite pridėti naujų įkainių."
+
+msgid "Reserved Accommodation"
+msgstr "Rezervuota apgyvendinimo vieta"
+
+msgctxt "Add New Accommodation"
+msgid "Add New"
+msgstr "Pridėti naują"
+
+msgid "Add New Accommodation"
+msgstr "Pridėti naują apgyvendinimo vietą"
+
+msgid "Edit Accommodation"
+msgstr "Redaguoti apgyvendinimo vietą"
+
+msgid "New Accommodation"
+msgstr "Nauja Apgyvendinimo vieta"
+
+msgid "View Accommodation"
+msgstr "Peržiūrėti apgyvendinimo vietą"
+
+msgid "Search Accommodation"
+msgstr "Ieškoti apgyvendinimo vietos"
+
+msgid "No accommodations found"
+msgstr "Apgyvendinimo vietų nerasta"
+
+msgid "No accommodations found in Trash"
+msgstr "Apgyvendinimo vietų šiukšlinėje nerasta"
+
+msgid "Insert into accommodation description"
+msgstr "Įterpti į apgyvendinimo vietos aprašymą"
+
+msgid "Uploaded to this accommodation"
+msgstr "Įkeltą į šią apgyvendinimo vietą"
+
+msgid "This is where you can add new accommodations to your hotel."
+msgstr "Čia galite pridėti naujų apgyvendinimo vietų į savo viešbutį."
+
+msgctxt "Add New Accommodation Type"
+msgid "Add Accommodation Type"
+msgstr "Pridėti apgyvendinimo tipą"
+
+msgid "Add New Accommodation Type"
+msgstr "Pridėti naują apgyvendinimo tipą"
+
+msgid "Edit Accommodation Type"
+msgstr "Redaguoti apgyvendinimo tipą"
+
+msgid "New Accommodation Type"
+msgstr "Naujas apgyvendinimo tipas"
+
+msgid "View Accommodation Type"
+msgstr "Žiūrėti apgyvendinimo tipą"
+
+msgid "Search Accommodation Type"
+msgstr "Ieškoti apgyvendinimo tipo"
+
+msgid "No Accommodation types found"
+msgstr "Nerasta jokių apgyvendinimo tipų"
+
+msgid "No Accommodation types found in Trash"
+msgstr "Apgyvendinimo vietų šiukšlinėje nerasta"
+
+msgid "Insert into accommodation type description"
+msgstr "Įterpti į apgyvendinimo vietos tipo aprašymą"
+
+msgid "Uploaded to this accommodation type"
+msgstr "Įkeltą į šią apgyvendinimo vietos tipą"
+
+#. translators: do not translate
+msgctxt "slug"
+msgid "accommodation"
+msgstr "accommodation"
+
+msgid "Accommodation Categories"
+msgstr "Apgyvendinimo vietų kategorijos"
+
+msgid "Accommodation Category"
+msgstr "Apgyvendinimo vietų kategorija"
+
+msgid "Search Accommodation Categories"
+msgstr "Ieškoti apgyvendinimo vietų kategorijų"
+
+msgid "Popular Accommodation Categories"
+msgstr "Populiarios apgyvendinimo vietų kategorijos"
+
+msgid "All Accommodation Categories"
+msgstr "Viso Apgyvendinimo vietų kategorijos"
+
+msgid "Parent Accommodation Category"
+msgstr "Tėvinė apgyvendinimo kategorija"
+
+msgid "Parent Accommodation Category:"
+msgstr "Tėvinė apgyvendinimo kategorija:"
+
+msgid "Edit Accommodation Category"
+msgstr "Redaguoti apgyvendinimo vietų kategoriją"
+
+msgid "Update Accommodation Category"
+msgstr "Atnaujinti apgyvendinimo kategoriją"
+
+msgid "Add New Accommodation Category"
+msgstr "Pridėti naują apgyvendinimo kategoriją"
+
+msgid "New Accommodation Category Name"
+msgstr "Naujas apgyvendinimo kategorijos pavadinimas"
+
+msgid "Separate categories with commas"
+msgstr "Kategorijas atskirkite kableliais"
+
+msgid "Add or remove categories"
+msgstr "Pridėti arba pašalinti kategorijas"
+
+msgid "Choose from the most used categories"
+msgstr "Pasirinkite iš dažniausiai naudojamų kategorijų"
+
+msgid "No categories found."
+msgstr "Kategorijos nerastos."
+
+msgid "Categories"
+msgstr "Kategorijos"
+
+#. translators: do not translate
+msgctxt "slug"
+msgid "accommodation-category"
+msgstr "accommodation-category"
+
+msgid "Accommodation Tags"
+msgstr "Apgyvendinimo žymos"
+
+msgid "Accommodation Tag"
+msgstr "Apgyvendinimo žyma"
+
+msgid "Search Accommodation Tags"
+msgstr "Ieškoti apgyvendinimo žymų"
+
+msgid "Popular Accommodation Tags"
+msgstr "Populiarios apgyvendinimo žymos"
+
+msgid "All Accommodation Tags"
+msgstr "Visos apgyvendinimo žymos"
+
+msgid "Parent Accommodation Tag"
+msgstr "Tėvinė apgyvendinimo žyma"
+
+msgid "Parent Accommodation Tag:"
+msgstr "Tėvinė apgyvendinimo žyma:"
+
+msgid "Edit Accommodation Tag"
+msgstr "Redaguoti apgyvendinimo žymą"
+
+msgid "Update Accommodation Tag"
+msgstr "Atnaujinkite apgyvendinimo žymą"
+
+msgid "Add New Accommodation Tag"
+msgstr "Pridėti naują apgyvendinimo žymą"
+
+msgid "New Accommodation Tag Name"
+msgstr "Naujas apgyvendinimo žymos pavadinimas"
+
+msgid "Separate tags with commas"
+msgstr "Atskirkite žymas kableliais"
+
+msgid "Add or remove tags"
+msgstr "Pridėti arba pašalinti žymas"
+
+msgid "Choose from the most used tags"
+msgstr "Pasirinkite iš dažniausiai naudojamų žymų"
+
+msgid "No tags found."
+msgstr "Žymų nerasta."
+
+msgid "Tags"
+msgstr "Žymos"
+
+#. translators: do not translate
+msgctxt "slug"
+msgid "accommodation-tag"
+msgstr "accommodation-tag"
+
+msgid "Amenities"
+msgstr "Patogumai"
+
+msgid "Amenity"
+msgstr "Patogumas"
+
+msgid "Search Amenities"
+msgstr "Ieškoti patogumų"
+
+msgid "Popular Amenities"
+msgstr "Populiarūs patogumai"
+
+msgid "All Amenities"
+msgstr "Visi patogumai"
+
+msgid "Parent Amenity"
+msgstr "Tėvinis patogumas"
+
+msgid "Parent Amenity:"
+msgstr "Tėvinis patogumas:"
+
+msgid "Edit Amenity"
+msgstr "Redaguoti patogumą"
+
+msgid "Update Amenity"
+msgstr "Atnaujinti patogumą"
+
+msgid "Add New Amenity"
+msgstr "Pridėti naują patogumą"
+
+msgid "New Amenity Name"
+msgstr "Naujas patogumo pavadinimas"
+
+msgid "Separate amenities with commas"
+msgstr "Patogumus atskirkite kableliais"
+
+msgid "Add or remove amenities"
+msgstr "Pridėti arba pašalinti patogumus"
+
+msgid "Choose from the most used amenities"
+msgstr "Pasirinkite iš dažniausiai naudojamų patogumų"
+
+msgid "No amenities found."
+msgstr "Nerasta jokių patogumų."
+
+#. translators: do not translate
+msgctxt "slug"
+msgid "accommodation-facility"
+msgstr "accommodation-facility"
+
+msgid "State the age or disable children in <a href=\"%s\">settings</a>."
+msgstr "Nurodykite amžių arba išjunkite vaikus <a href=\"%s\">nustatymuose</a>."
+
+msgid "Leave this option empty to calculate total capacity automatically to meet the exact number of adults AND children set above. This is the default behavior. Configure this option to allow any variations of adults OR children set above at checkout so that in total it meets the limit of manually set \"Capacity\". For example, configuration \"adults:5\", \"children:4\", \"capacity:5\" means the property can accommodate up to 5 adults, up to 4 children, but up to 5 guests in total (not 9)."
+msgstr "Palikite šią parinktį tuščią, kad bendras pajėgumas būtų apskaičiuotas automatiškai, kad atitiktų tikslų aukščiau nurodytą suaugusiųjų IR vaikų skaičių. Tai yra numatytasis elgesys. Sukonfigūruokite šią parinktį, kad būtų galima leisti bet kokius suaugusiųjų ARBA vaikų variantus, nustatytus anksčiau atsiskaitant, kad iš viso atitiktų rankiniu būdu nustatytos talpos ribą. Pavyzdžiui, konfigūracija „suaugusieji:5“, „vaikai:4“, „talpa:5“ reiškia, kad viešbutyje gali apsistoti iki 5 suaugusiųjų, iki 4 vaikų, bet iš viso iki 5 svečių (ne 9)."
+
+msgid "Size, %s"
+msgstr "Dydis, %s"
+
+msgid "Leave blank to hide."
+msgstr "Palikite tuščią, kad paslėptumėte."
+
+msgid "Other"
+msgstr "Kita"
+
+msgid "City view, seaside, swimming pool etc."
+msgstr "Vaizdas į miestą, pajūrį, baseiną ir kt."
+
+msgid "Bed type"
+msgstr "Lovos tipas"
+
+msgid "Set bed types list in <a href=\"%link%\" target=\"_blank\">settings</a>."
+msgstr "Nustatykite lovų tipų sąrašą <a href=\"%link%\" target=\"_blank\">nustatymuose</a>."
+
+msgid "Photo Gallery"
+msgstr "Nuotraukų galerija"
+
+msgid "Available Services"
+msgstr "Galimos paslaugos"
+
+msgid "Season Info"
+msgstr "Sezono informacija"
+
+msgid "Start date"
+msgstr "Pradžios data"
+
+msgid "End date"
+msgstr "Pabaigos data"
+
+msgid "Applied for days"
+msgstr "Taikoma dienoms"
+
+msgid "Hold Ctrl / Cmd to select multiple."
+msgstr "Norėdami pasirinkti kelis, laikykite nuspaudę Ctrl / Cmd."
+
+msgctxt "Add New Season"
+msgid "Add New"
+msgstr "Pridėti naują"
+
+msgid "Add New Season"
+msgstr "Pridėti naują sezoną"
+
+msgid "Edit Season"
+msgstr "Redaguoti sezoną"
+
+msgid "New Season"
+msgstr "Naujas sezonas"
+
+msgid "View Season"
+msgstr "Žiūrėti sezoną"
+
+msgid "Search Season"
+msgstr "Sezono paieška"
+
+msgid "No seasons found"
+msgstr "Nerasta sezonų"
+
+msgid "No seasons found in Trash"
+msgstr "Nerasta sezonų šiukšlinėje"
+
+msgid "Insert into season description"
+msgstr "Įterpti į sezono aprašymą"
+
+msgid "Uploaded to this season"
+msgstr "Įkelta į šį sezoną"
+
+msgid "This is where you can add new seasons."
+msgstr "Čia galite pridėti naujų sezonų."
+
+msgid "Service"
+msgstr "Paslauga"
+
+msgctxt "Add New Service"
+msgid "Add New"
+msgstr "Pridėti naują"
+
+msgid "Add New Service"
+msgstr "Pridėti naują paslaugą"
+
+msgid "Edit Service"
+msgstr "Redaguoti paslaugą"
+
+msgid "New Service"
+msgstr "Naują paslauga"
+
+msgid "View Service"
+msgstr "Peržiūrėti paslaugą"
+
+msgid "Search Service"
+msgstr "Paieškos paslauga"
+
+msgid "No services found"
+msgstr "Paslaugų nerasta"
+
+msgid "No services found in Trash"
+msgstr "Paslaugų nerasta šiukšlinėje"
+
+msgid "Insert into service description"
+msgstr "Įterpti į paslaugos aprašymą"
+
+msgid "Uploaded to this service"
+msgstr "Įkelta į šią paslaugą"
+
+#. translators: do not translate
+msgctxt "slug"
+msgid "services"
+msgstr "services"
+
+msgid "How many times the customer will be charged."
+msgstr "Kiek kartų klientas bus apmokestintas."
+
+msgid "Minimum"
+msgstr "Mažiausiai"
+
+msgid "Maximum"
+msgstr "Daugiausiai"
+
+msgid "Empty means unlimited"
+msgstr "Tuščias reiškia neribotą"
+
+msgctxt "Booking status"
+msgid "Pending"
+msgstr ""
+
+msgid "Total Sales"
+msgstr "Iš viso pardavimų"
+
+msgid "Total Without Taxes"
+msgstr "Viso be mokesčių"
+
+msgid "Total Services"
+msgstr "Iš viso už paslaugas"
+
+msgid "Total Discounts"
+msgstr "Viso nuolaidos"
+
+msgid "Total Bookings"
+msgstr "Iš viso rezervacijų"
+
+msgid "Revenue (Beta)"
+msgstr "Pajamos (beta versija)"
+
+msgid "Apply"
+msgstr "Pritaikyti"
+
+msgid "From %s to %s"
+msgstr "Nuo %s iki %s"
+
+msgid "Today"
+msgstr "Šiandien"
+
+msgid "Yesterday"
+msgstr "Vakar"
+
+msgid "This week"
+msgstr "Šią savaitę"
+
+msgid "Last week"
+msgstr "Praėjusią savaitę"
+
+msgid "Last 30 days"
+msgstr "Paskutines 30 dienų"
+
+msgid "This month"
+msgstr "Šis mėnuo"
+
+msgid "Last month"
+msgstr "Praėjęs mėnuo"
+
+msgid "This quarter"
+msgstr "Šis ketvirtis"
+
+msgid "Last quarter"
+msgstr "Praėjęs ketvirtis"
+
+msgid "This year"
+msgstr "Šie metai"
+
+msgid "Last year"
+msgstr "Praėję metai"
+
+#. translators: %s - original Rate title
+msgid "%s - copy"
+msgstr "%s – kopija"
+
+msgid "Accommodation Type Gallery"
+msgstr "Apgyvendinimo tipo galerija"
+
+msgid "Add Gallery To Accommodation Type"
+msgstr "Pridėti galeriją prie apgyvendinimo tipo"
+
+msgid "Display imported bookings."
+msgstr "Rodyti importuotas rezervacijas."
+
+msgid "Processing..."
+msgstr "Apdorojama..."
+
+msgid "Cancelling..."
+msgstr "Atšaukiama..."
+
+msgid "Want to delete?"
+msgstr ""
+
+msgid "Not available"
+msgstr "Negalimas"
+
+msgid "This is earlier than allowed by our advance reservation rules."
+msgstr "Tai anksčiau nei leidžia mūsų išankstinės rezervacijos taisyklės."
+
+msgid "This is later than allowed by our advance reservation rules."
+msgstr "Tai vėliau nei leidžiama pagal mūsų išankstinės rezervacijos taisykles."
+
+msgid "Day in the past"
+msgstr "Diena praeityje"
+
+msgid "Check-in date"
+msgstr "Atvykimo data"
+
+msgid "Less than min days stay"
+msgstr "Mažiau nei min dienų viešnagė"
+
+msgid "More than max days stay"
+msgstr "Daugiau nei max dienų viešnagė"
+
+msgid "Later than max date for current check-in date"
+msgstr "Vėlesnė nei maksimali dabartinė registracijos data"
+
+msgid "Rules:"
+msgstr "Taisyklės:"
+
+msgid "Tokenisation failed: %s"
+msgstr "Tokenizavimas nepavyko: %s"
+
+msgid "%1$d &times; &ldquo;%2$s&rdquo; has been added to your reservation."
+msgid_plural "%1$d &times; &ldquo;%2$s&rdquo; have been added to your reservation."
+msgstr[0] "%1$d &times; &ldquo;%2$s&rdquo; buvo pridėtas prie jūsų rezervacijos."
+msgstr[1] "%1$d &times; &ldquo;%2$s&rdquo; buvo pridėti prie jūsų rezervacijos."
+msgstr[2] "%1$d &times; &ldquo;%2$s&rdquo; buvo pridėti prie jūsų rezervacijos."
+msgstr[3] "%1$d &times; &ldquo;%2$s&rdquo; buvo pridėti prie jūsų rezervacijos."
+
+msgid "%s accommodation selected."
+msgid_plural "%s accommodations selected."
+msgstr[0] "Pasirinkta %s apgyvendinimo vieta."
+msgstr[1] "Pasirinktos %s apgyvendinimo vietos."
+msgstr[2] "Pasirinktos %s apgyvendinimo vietų."
+msgstr[3] "Pasirinktos %s apgyvendinimo vietų."
+
+msgid "Coupon code is empty."
+msgstr "Kupono kodas tuščias."
+
+msgid "Dark Blue"
+msgstr "Tamsiai mėlyna"
+
+msgid "Dark Green"
+msgstr "Tamsiai žalia"
+
+msgid "Dark Red"
+msgstr "Tamsiai raudona"
+
+msgid "Grayscale"
+msgstr "Pilka spalva"
+
+msgid "Light Blue"
+msgstr "Šviesiai mėlyna"
+
+msgid "Light Coral"
+msgstr "Šviesi koralų"
+
+msgid "Light Green"
+msgstr "Šviesiai žalia"
+
+msgid "Light Yellow"
+msgstr "Šviesiai geltona"
+
+msgid "Minimal Blue"
+msgstr "Minimali mėlyna"
+
+msgid "Minimal Orange"
+msgstr "Minimali oranžinė"
+
+msgid "Minimal"
+msgstr "Minimali"
+
+msgid "Sky Blue"
+msgstr "Dangaus mėlyna"
+
+msgid "Slate Blue"
+msgstr "Šiferio mėlyna"
+
+msgid "Turquoise"
+msgstr "Turkis"
+
+msgid "Invalid login or password."
+msgstr ""
+
+msgid "Account data updated."
+msgstr ""
+
+msgid "Password changed."
+msgstr ""
+
+msgid "Dashboard"
+msgstr ""
+
+msgid "Account"
+msgstr ""
+
+msgid "Logout"
+msgstr ""
+
+msgid "Passwords do not match."
+msgstr ""
+
+msgid "Please, provide a valid current password."
+msgstr ""
+
+msgid "Lost your password?"
+msgstr ""
+
+msgid "Payment:"
+msgstr "Mokėjimas:"
+
+msgid "Payment Method:"
+msgstr "Mokėjimo būdas:"
+
+msgid "Status:"
+msgstr "Būsena:"
+
+msgid "Checkout data is not valid."
+msgstr "Išvykimo data negalioja."
+
+msgid "Payment method is not valid."
+msgstr "Mokėjimo būdas netinkamas."
+
+msgid "Accommodation count is not valid."
+msgstr "Apgyvendinimo vietų skaičius negalioja."
+
+msgid "Accommodation is already booked."
+msgstr "Nakvynė jau užsakyta."
+
+msgid "Reservation submitted"
+msgstr "Rezervacija pateikta"
+
+msgid "Details of your reservation have just been sent to you in a confirmation email. Please check your inbox to complete booking."
+msgstr "Išsami informacija apie jūsų rezervaciją ką tik buvo išsiųsta jums patvirtinimo el. laišku. Norėdami užbaigti užsakymą, patikrinkite gautuosius."
+
+msgid "We received your booking request. Once it is confirmed we will notify you via email."
+msgstr "Gavome jūsų užsakymo užklausą. Kai tai bus patvirtinta, pranešime jums el. paštu."
+
+msgid "Choose dates to see relevant prices"
+msgstr "Pasirinkite datas, kad pamatytumėte atitinkamas kainas"
+
+msgid "Select from available accommodations."
+msgstr "Pasirinkite iš galimų apgyvendinimo vietų."
+
+msgid "Confirm Reservation"
+msgstr "Patvirtinti rezervaciją"
+
+msgid "Recommended for %d adult"
+msgid_plural "Recommended for %d adults"
+msgstr[0] "Rekomenduojama %d suaugusiajam"
+msgstr[1] "Rekomenduojama %d suaugusiems"
+msgstr[2] "Rekomenduojama %d suaugusiems"
+msgstr[3] "Rekomenduojama %d suaugusiems"
+
+msgid " and %d child"
+msgid_plural " and %d children"
+msgstr[0] " ir %d vaikas"
+msgstr[1] " ir %d vaikams"
+msgstr[2] " ir %d vaikų"
+msgstr[3] " ir %d vaikų"
+
+msgid "Recommended for %d guest"
+msgid_plural "Recommended for %d guests"
+msgstr[0] "Rekomenduojama %d svečiui"
+msgstr[1] "Rekomenduojama %d svečiams"
+msgstr[2] "Rekomenduojama %d svečių"
+msgstr[3] "Rekomenduojama %d svečių"
+
+msgid "Max occupancy:"
+msgstr "Maksimalus užimtumas:"
+
+msgid "%d child"
+msgid_plural "%d children"
+msgstr[0] "%d vaikas"
+msgstr[1] "%d vaikai"
+msgstr[2] "%d vaikų"
+msgstr[3] "%d vaikų"
+
+msgid "Reserve"
+msgstr "Rezervuoti"
+
+msgid "of %d accommodation available."
+msgid_plural "of %d accommodations available."
+msgstr[0] "%d apgyvendinimo vieta."
+msgstr[1] "%d apgyvendinimo vietos."
+msgstr[2] "%d apgyvendinimo vietos."
+msgstr[3] "%d apgyvendinimo vietos."
+
+#. translators: Verb. To book an accommodation.
+msgid "Book"
+msgstr "Rezervuoti"
+
+msgid "Please, provide a valid email."
+msgstr ""
+
+msgid "Could not create a customer."
+msgstr ""
+
+msgid "Could not retrieve a customer."
+msgstr ""
+
+msgid "Please, provide a valid Customer ID."
+msgstr ""
+
+msgid "A database error."
+msgstr ""
+
+msgid "No customer was deleted."
+msgstr ""
+
+msgid "An account with this email already exists. Please, log in."
+msgstr ""
+
+msgid "Hotel Manager"
+msgstr "Viešbučio vadovas"
+
+msgid "Hotel Worker"
+msgstr "Viešbučio darbuotojas"
+
+msgid "Hotel Customer"
+msgstr ""
+
+msgid "Please provide a valid email address."
+msgstr ""
+
+msgid "Please enter a valid account username."
+msgstr ""
+
+msgid "An account is already registered with that username. Please choose another."
+msgstr ""
+
+msgid "Please enter an account password."
+msgstr ""
+
+msgid "Sunday"
+msgstr "Sekmadienis"
+
+msgid "Monday"
+msgstr "Pirmadienis"
+
+msgid "Tuesday"
+msgstr "Antradienis"
+
+msgid "Wednesday"
+msgstr "Trečiadienis"
+
+msgid "Thursday"
+msgstr "Ketvirtadienis"
+
+msgid "Friday"
+msgstr "Penktadienis"
+
+msgid "Saturday"
+msgstr "Šeštadienis"
+
+msgid "Check-out date cannot be earlier than check-in date."
+msgstr "Išvykimo data negali būti ankstesnė nei atvykimo data."
+
+msgid "Adults number is not valid"
+msgstr "Suaugusiųjų skaičius netinkamas"
+
+msgid "Children number is not valid"
+msgstr "Vaikų skaičius netinkamas"
+
+msgctxt "Text about taxes and fees below the price."
+msgid " (+taxes and fees)"
+msgstr " (+mokesčiai & rinkliavos)"
+
+#. translators: %s is a tax value
+msgctxt "Text about taxes and fees below the price."
+msgid " (+%s taxes and fees)"
+msgstr " (+%s mokesčiai ir rinkliavos)"
+
+msgctxt "Text about taxes and fees below the price."
+msgid " (includes taxes and fees)"
+msgstr " (įskaitant mokesčius ir rinkliavas)"
+
+msgctxt "Accommodation type in price breakdown table. Example: #1 Double Room"
+msgid "#%d %s"
+msgstr "#%d %s"
+
+msgid "Expand"
+msgstr "Išplėsti"
+
+msgid "Rate: %s"
+msgstr "Įkainis: %s"
+
+msgid "Dates"
+msgstr "Datos"
+
+msgid "Dates Subtotal"
+msgstr "Datų tarpinė suma"
+
+msgid "Accommodation Taxes Subtotal"
+msgstr "Apgyvendinimo mokesčių tarpinė suma"
+
+msgid "Details"
+msgstr "Išsamiau"
+
+msgid "Service Taxes Subtotal"
+msgstr "Paslaugų mokesčių tarpinė suma"
+
+msgid "Fees Subtotal"
+msgstr "Rinkliavos tarpinė suma"
+
+msgid "Fee Taxes Subtotal"
+msgstr "Rinkliavos mokesčių tarpinė suma"
+
+msgid "Subtotal"
+msgstr "Tarpinė suma"
+
+msgid "Coupon: %s"
+msgstr "Kuponas: %s"
+
+msgid "Subtotal (excl. taxes)"
+msgstr "Tarpinė suma (be mokesčių)"
+
+msgid "Taxes"
+msgstr "Mokesčiai"
+
+msgid "Coupon Code:"
+msgstr "Nuolaidos kodas:"
+
+msgid "New Booking Details"
+msgstr "Naujos rezervacijos informacija"
+
+msgid "Original Booking Details"
+msgstr "Originali rezervacijos informacija"
+
+msgid "Accommodation:"
+msgstr "Apgyvendinimo vieta:"
+
+msgid "Children %s"
+msgstr "Vaikai %s"
+
+msgid "Additional Services"
+msgstr "Papildomos paslaugos"
+
+msgid "Accommodation pagination"
+msgstr "Apgyvendinimo pusliapio skaičiavimas (pagination)"
+
+msgid "Services pagination"
+msgstr "Paslaugų puslapio skaičiavimas (pagination)"
+
+msgid "Categories:"
+msgstr "Kategorijos:"
+
+msgid "Amenities:"
+msgstr "Patogumai:"
+
+msgid "Guests:"
+msgstr "Svečiai:"
+
+msgid "Bed Type:"
+msgstr "Lovos tipas:"
+
+msgid "View:"
+msgstr "Peržiūrėti:"
+
+msgid "Prices start at:"
+msgstr "Kainos prasideda nuo:"
+
+msgid "Price:"
+msgstr "Kaina:"
+
+msgid "x %d adult"
+msgid_plural "x %d adults"
+msgstr[0] "x %d suaugęs"
+msgstr[1] "x %d suaugusieji"
+msgstr[2] "x %d suaugusiųjų"
+msgstr[3] "x %d suaugusiųjų"
+
+msgid "Returning customer?"
+msgstr ""
+
+msgid "Click here to log in"
+msgstr ""
+
+#. translators: 1 - username;
+msgid "Hello %1$s (not %1$s? <a href=\"%2$s\">Log out</a>)."
+msgstr ""
+
+msgid "Accommodation #%d"
+msgstr "Apgyvendinimo vieta #%d"
+
+msgid "Accommodation Type:"
+msgstr "Apgyvendinimo tipas:"
+
+msgid "Choose Rate"
+msgstr "Pasirinkite įkainį"
+
+msgid "Choose Additional Services"
+msgstr "Pasirinkite papildomas paslaugas"
+
+msgid "for "
+msgstr "už "
+
+msgctxt "Example: Breakfast for X guest(s)"
+msgid " guest(s)"
+msgstr " svečias(i)"
+
+msgid "time(s)"
+msgstr "kartas(ai)"
+
+msgctxt "I've read and accept the terms & conditions"
+msgid "terms & conditions"
+msgstr "taisyklės ir Sąlygos"
+
+msgctxt "I've read and accept the <tag>terms & conditions</tag>"
+msgid "I've read and accept the %s"
+msgstr "Perskaičiau ir patvirtinau %s"
+
+msgid "Your Information"
+msgstr "Jūsų informacija"
+
+msgid "Required fields are followed by %s"
+msgstr "Po privalomų laukų rašoma %s"
+
+msgid "Create an account"
+msgstr ""
+
+msgid "Payment Method"
+msgstr "Mokėjimo būdas"
+
+msgid "Sorry, it seems that there are no available payment methods."
+msgstr "Atsiprašome, atrodo, kad nėra galimų mokėjimo būdų."
+
+msgid "Total Price:"
+msgstr "Bendra kaina:"
+
+msgid "Deposit:"
+msgstr "Depozitas:"
+
+msgid "Check-in:"
+msgstr "Atvykimas:"
+
+msgctxt "from 10:00 am"
+msgid "from"
+msgstr "nuo"
+
+msgid "Check-out:"
+msgstr "Išvykimas:"
+
+msgctxt "until 10:00 am"
+msgid "until"
+msgstr "iki"
+
+msgid "Book Now"
+msgstr "Rezervuoti"
+
+msgid "Availability"
+msgstr "Užimtumas"
+
+msgid "Reservation Form"
+msgstr "Rezervacijos forma"
+
+msgid "Display Accommodation Types"
+msgstr "Rodyti apgyvendinimo tipus"
+
+msgid "Featured Image"
+msgstr "Pasirinktinis paveiksliukas"
+
+msgid "Excerpt (short description)"
+msgstr "Produkto trumpas aprašymas"
+
+msgid "Book Button"
+msgstr "Rezervacijos mygtukas"
+
+msgid "Search Availability"
+msgstr "Užimtumo paieška"
+
+msgid "Search Availability Form"
+msgstr "Užimtumo paieškos forma"
+
+msgid "Title:"
+msgstr "Pavadinimas:"
+
+msgid "Check-in Date:"
+msgstr "Atvykimo data:"
+
+msgctxt "Date format tip"
+msgid "Preset date. Formatted as %s"
+msgstr "Iš anksto nustatyta data. Suformatuota kaip %s"
+
+msgid "Check-out Date:"
+msgstr "Išvykimo data:"
+
+msgid "Preset Adults:"
+msgstr "Iš anksto nustatyti suaugusieji:"
+
+msgid "Preset Children:"
+msgstr "Iš anksto nustatyti vaikai:"
+
+msgid "Attributes:"
+msgstr "Atributai:"
+
+msgid "Booking Confirmation and Search Results pages are required to handle bookings. Press \"Install Pages\" button to create and set up these pages. Dismiss this notice if you already installed them."
+msgstr "Rezervacijoms tvarkyti reikalingi rezervacijos patvirtinimo ir paieškos rezultatų puslapiai. Norėdami sukurti ir nustatyti šiuos puslapius, paspauskite mygtuką „Įdiegti puslapius“. Atsisakykite šio pranešimo, jei juos jau įdiegėte."
+
+msgid "Install Pages"
+msgstr "Įdiegti puslapius"
+
+msgid "Booking Canceled"
+msgstr "Rezervacija Atšaukta"
+
+msgid "Your reservation is canceled."
+msgstr "Jūsų rezervacija atšaukta."
+
+msgid "Reservation Received"
+msgstr "Rezervacija gauta"
+
+msgid "Transaction Failed"
+msgstr "Apmokėjimas nepavyko"
+
+msgid "Unfortunately, your transaction cannot be completed at this time. Please try again or contact us."
+msgstr "Deja, šiuo metu jūsų operacijos užbaigti negalima. Bandykite dar kartą arba susisiekite su mumis."
+
+msgid "Prices start at: %s"
+msgstr "Kainos prasideda nuo: %s"
+
+msgid "View Details"
+msgstr "Išsamiau"
+
+msgctxt "Date format tip"
+msgid "Formatted as %s"
+msgstr "Suformatuota kaip %s"
+
+msgid "Check Availability"
+msgstr "Tikrinti užimtumą"
+
+msgid "Reserve %1$s of %2$s available accommodations."
+msgstr "Rezervuokite %1$s iš %2$s laisvų apgyvendinimo vietų."
+
+msgid "%s is available for selected dates."
+msgstr "%s laisva pasirinktomis dienomis."
+
+msgid "Rate:"
+msgstr "Įkainis:"
+
+msgid "Services:"
+msgstr "Paslaugos:"
+
+msgid "Guest:"
+msgstr "Svečias:"
+
+msgid "Payment ID"
+msgstr "Mokėjimo ID"
+
+msgid "Total Paid"
+msgstr "Viso apmokėta"
+
+msgid "To Pay"
+msgstr "Mokėti"
+
+msgid "Add Payment Manually"
+msgstr "Pridėti mokėjimą rankiniu būdu"
+
+msgid "Change Password"
+msgstr ""
+
+msgid "Old Password"
+msgstr ""
+
+msgid "New Password"
+msgstr ""
+
+msgid "Confirm New Password"
+msgstr ""
+
+msgid "You are not allowed to access this page."
+msgstr ""
+
+msgid "No bookings found."
+msgstr "Nerasta jokių rezervacijų."
+
+msgid "From your account dashboard you can view <a href=\"%1$s\">your recent bookings</a> or edit your <a href=\"%2$s\">password and account details</a>."
+msgstr ""
+
+msgid "Base price"
+msgstr "Bazinė kaina"
+
+msgid "%s accommodation found"
+msgid_plural "%s accommodations found"
+msgstr[0] "Rasta %s apgyvendinimo vieta"
+msgstr[1] "Rasta %s apgyvendinimo vietos"
+msgstr[2] "Rasta %s apgyvendinimo vietų"
+msgstr[3] "Rasta %s apgyvendinimo vietų"
+
+msgid " from %s - till %s"
+msgstr " nuo %s iki %s"
+
+msgid "Add Accommodation"
+msgstr "Pridėti apgyvendinimo vietą"
+
+msgid "Save"
+msgstr "Išsaugoti"
+
+msgid "Choose new dates to check availability of reserved accommodations in the original booking."
+msgstr "Pasirinkite naujas datas, kad patikrintumėte rezervuotų nakvynės vietų prieinamumą pradiniame užsakyme."
+
+msgid "Add, remove or replace accommodations in the original booking."
+msgstr "Pridėkite, pašalinkite arba pakeiskite apgyvendinimo vietas pirminiame užsakyme."
+
+msgid "Not Available"
+msgstr "Užimtas"
+
+msgid "Continue"
+msgstr "Tęsti"
+
+msgid "Choose how to associate data"
+msgstr "Pasirinkite, kaip susieti duomenis"
+
+msgid "Use Source Accommodation to assign pre-filled booking information available in the original booking, e.g., full guest name, selected rate, services, etc."
+msgstr "Naudokite šaltinį Accommodation, kad priskirtumėte iš anksto užpildytą užsakymo informaciją, esančią pirminiame užsakyme, pvz., visą svečio vardą, pavardę, pasirinktą kainą, paslaugas ir kt."
+
+msgid "Source accommodation"
+msgstr "Apgyvendinimo šaltinis"
+
+msgid "Target accommodation"
+msgstr "Tikslinis apgyvendinimas"
+
+msgid "Booking #%s is cancelled by customer."
+msgstr "Klientas atšaukė rezervaciją #%s."
+
+msgid "Details of booking"
+msgstr "Išsami informacija apie rezervaciją"
+
+msgid "Check-in: %1$s, from %2$s"
+msgstr "Atvykimas: %1$s, nuo %2$s"
+
+msgid "Check-out: %1$s, until %2$s"
+msgstr "Išvykimas: %1$s, iki %2$s"
+
+msgid "Name: %1$s %2$s"
+msgstr "Vardas: %1$s %2$s"
+
+msgid "Email: %s"
+msgstr "El. paštas: %s"
+
+msgid "Phone: %s"
+msgstr "Telefonas: %s"
+
+msgid "Note: %s"
+msgstr "Pastaba: %s"
+
+msgid "Booking #%s is confirmed by customer."
+msgstr "Rezervacija #%s patvirtinta kliento."
+
+msgid "Booking #%s is confirmed by payment."
+msgstr "Rezervacija #%s patvirtinama apmokėjus."
+
+msgid "Details of payment"
+msgstr "Mokėjimo detalės"
+
+msgid "Payment ID: #%s"
+msgstr "Mokėjimo ID: #%s"
+
+msgid "Amount: %s"
+msgstr "Suma: %s"
+
+msgid "Method: %s"
+msgstr "Metodas: %s"
+
+msgid "Booking #%s is pending for Administrator approval."
+msgstr "Rezervacija #%s laukia administratoriaus patvirtinimo."
+
+msgid "Click the link below to cancel your booking."
+msgstr "Norėdami atšaukti rezervaciją, spustelėkite toliau pateiktą nuorodą."
+
+msgid "Cancel your booking"
+msgstr "Atšaukite rezervaciją"
+
+msgid "Dear %1$s %2$s, your reservation is approved!"
+msgstr "Gerb. %1$s %2$s, jūsų rezervacija patvirtinta!"
+
+msgid "ID: #%s"
+msgstr "ID: #%s"
+
+msgid "Thank you!"
+msgstr "Ačiū!"
+
+msgid "Dear %1$s %2$s, your reservation is cancelled!"
+msgstr "Gerb. %1$s %2$s, jūsų rezervacija atšaukta!"
+
+msgid "Dear %1$s %2$s, we received your request for reservation."
+msgstr "Gerb. %1$s %2$s, gavome jūsų rezervavimo užklausą."
+
+msgid "Click the link below to confirm your booking."
+msgstr "Spustelėkite toliau pateiktą nuorodą, kad patvirtintumėte savo rezervaciją."
+
+msgid "Confirm"
+msgstr "Patvirtinti"
+
+msgid "Note: link expires on"
+msgstr "Pastaba: nuoroda baigiasi"
+
+msgid "UTC"
+msgstr "UTC"
+
+msgid "If you did not place this booking, please ignore this email."
+msgstr "Jei nepateikėte šio prašymo, prašome ignoruoti šį el. laišką."
+
+msgid "Dear %1$s %2$s, your reservation is pending."
+msgstr "Gerb. %1$s %2$s, jūsų rezervacija laukia."
+
+msgid "We will notify you by email once it is confirmed by our staff."
+msgstr "Kai tai patvirtins mūsų darbuotojai, pranešime jums el. paštu."
+
+msgid "Hi %1$s %2$s,"
+msgstr ""
+
+msgid "Thanks for creating an account on %1$s."
+msgstr ""
+
+msgid "You Account Details"
+msgstr ""
+
+msgid "Login: %s"
+msgstr ""
+
+msgid "Password: %s"
+msgstr ""
+
+msgid "Log in here: %s"
+msgstr ""
+
+msgid "Accommodation #%s"
+msgstr "Apgyvendinimas #%s"
+
+msgid "Accommodation: <a href=\"%1$s\">%2$s</a>"
+msgstr "Apgyvendinimas: <a href=\"%1$s\">%2$s</a>"
+
+msgid "Accommodation Rate: %s"
+msgstr "Apgyvendinimo kaina: %s"
+
+msgid "Bed Type: %s"
+msgstr "Lovos tipas: %s"
+
+msgid "Required fields are followed by"
+msgstr "Po privalomų laukų rašoma"
+
+msgid "Booking is already canceled."
+msgstr "Rezervacija jau atšaukta."
+
+msgid "Cancel Booking"
+msgstr "Atšaukti rezervaciją"
+
+msgid "Invalid request."
+msgstr "Bloga užklausa."
+
+msgid "Cancelation of your booking is not possible for some reason. Please contact the website administrator."
+msgstr "Dėl kokių nors priežasčių jūsų rezervacijos atšaukti negalima. Prašome susisiekti su svetainės administratoriumi."
+
+msgid "Booking is already confirmed."
+msgstr "Rezervacija jau patvirtinta."
+
+msgid "Your booking is confirmed. Thank You!"
+msgstr "Jūsų rezervacija patvirtinta. Ačiū!"
+
+msgid "Your booking request is expired. Please start a new booking request."
+msgstr "Jūsų rezervacijos užklausa nebegalioja. Pradėkite teikti naują rezervacijos užklausą."
+
+msgid "Confirmation of your booking request is not possible for some reason. Please start a new booking request."
+msgstr "Jūsų rezervacijos užklausos patvirtinimas dėl kokių nors priežasčių neįmanomas. Pradėkite teikti naują rezervacijos užklausą."
+
+msgid "We are pleased to inform you that your reservation request has been received and confirmed."
+msgstr "Džiaugiamės galėdami pranešti, kad jūsų rezervacijos užklausa gauta ir patvirtinta."
+
+msgid "Booking:"
+msgstr "Rezervacija:"
+
+msgid "Details:"
+msgstr "Išsamiau:"
+
+msgid "Thank you for your payment. Your transaction has been completed."
+msgstr "Dėkojame už mokėjimą. Jūsų operacija baigta."
+
+msgid "We are pleased to inform you that your reservation request has been received."
+msgstr "Džiaugiamės galėdami pranešti, kad jūsų rezervacijos užklausa gauta."
+
+msgid "from %s"
+msgstr "nuo %s"
+
+msgid "No accommodations matching criteria."
+msgstr "Nėra apgyvendinimo vietų atitinkančių kriterijus."
+
+msgid "No services matched criteria."
+msgstr "Kriterijus atitinkančių paslaugų nėra."
+
+msgid "Nothing found."
+msgstr "Nieko nerasta."
+
+msgid "Children %s:"
+msgstr "Vaikai %s:"
+
+msgid "Preset date. Formatted as %s"
+msgstr "Iš anksto nustatyta data. Suformatuota kaip %s"
+
+msgid "Gallery"
+msgstr "Galerija"
+
+msgid "View Button"
+msgstr "Peržiūros mygtukas"
+
+msgid "Order"
+msgstr "Rikiavimas"
+
+msgid "Order By"
+msgstr "Rikiuoti pagal"
+
+msgid "No order"
+msgstr "Nėra rikiavimo"
+
+msgid "Post ID"
+msgstr "Pranešimo ID"
+
+msgid "Post author"
+msgstr "Pranešimo autorius"
+
+msgid "Post title"
+msgstr "Įrašo pavadinimas"
+
+msgid "Post name (post slug)"
+msgstr "Įrašo pavadinimas (post slug)"
+
+msgid "Post date"
+msgstr "Įrašo data"
+
+msgid "Last modified date"
+msgstr "Paskutinio pakeitimo data"
+
+msgid "Parent ID"
+msgstr "Tėvinio ID"
+
+msgid "Random order"
+msgstr "Atsitiktinė tvarka"
+
+msgid "Number of comments"
+msgstr "Komentaru kiekis"
+
+msgid "Relevance"
+msgstr "Aktualumas"
+
+msgid "Page order"
+msgstr "Puslapio rikiavimas"
+
+msgid "Meta value"
+msgstr "Meta reikšmė"
+
+msgid "Numeric meta value"
+msgstr "Skaitinė meta reikšmė"
+
+msgid "Ascending (1, 2, 3)"
+msgstr "Didėjančia tvarka (1, 2, 3)"
+
+msgid "Descending (3, 2, 1)"
+msgstr "Mažėjanti (3, 2, 1)"
+
+msgid "Meta Name"
+msgstr "Meta pavadinimas"
+
+msgid "Meta Type"
+msgstr "Meta tipas"
+
+msgid "Specified type of the custom field. Can be used in conjunction with \"orderby\" = \"meta_value\"."
+msgstr "Nurodytas tinkinto lauko tipas. Gali būti naudojamas kartu su \"orderby\" = \"meta_value\"."
+
+msgid "Any"
+msgstr "Bet kas"
+
+msgid "Numeric"
+msgstr "Skaitinis"
+
+msgid "Binary"
+msgstr "Dvejetainis"
+
+msgid "String"
+msgstr "Eilutė"
+
+msgid "Time"
+msgstr "Laikas"
+
+msgid "Date and time"
+msgstr "Data ir laikas"
+
+msgid "Decimal number"
+msgstr "Dešimtainis skaičius"
+
+msgid "Signed number"
+msgstr "Pasirašytas numeris"
+
+msgid "Unsigned number"
+msgstr "Nepasirašytas numeris"
+
+msgid "Query Settings"
+msgstr "Užklausos (query) nustatymai"
+
+msgid "Relation"
+msgstr "Ryšys"
+
+msgid "Values: integer, -1 to display all, default: \"Blog pages show at most\""
+msgstr "Reikšmės: sveikasis skaičius, -1, kad būtų rodoma viskas, numatytoji: \"Tinklaraščio puslapiai rodomi daugiausia\""
+

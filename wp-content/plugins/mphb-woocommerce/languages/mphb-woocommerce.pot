@@ -1,0 +1,194 @@
+# Copyright (C) 2023 MotoPress
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Hotel Booking WooCommerce Payments 1.0.10\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/mphb-woocommerce\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-08-02T13:23:51+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.6.0\n"
+"X-Domain: mphb-woocommerce\n"
+
+#. Plugin Name of the plugin
+msgid "Hotel Booking WooCommerce Payments"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://motopress.com/products/hotel-booking-woocommerce-payments/"
+msgstr ""
+
+#. Description of the plugin
+msgid "Use WooCommerce payment gateways to rent out your accommodations."
+msgstr ""
+
+#. Author of the plugin
+msgid "MotoPress"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://motopress.com/"
+msgstr ""
+
+msgid "Manual Action Required Notice"
+msgstr ""
+
+msgid "An email notice that is sent to Admin when Hotel Booking is not able to process the booking automatically."
+msgstr ""
+
+msgid "%site_title% - Manual action required for the booking #%booking_id%"
+msgstr ""
+
+msgid "Manual action required"
+msgstr ""
+
+msgid "The License Key is required in order to get automatic plugin updates and support. You can manage your License Key in your personal account. <a href='https://motopress.zendesk.com/hc/en-us/articles/202812996-How-to-use-your-personal-MotoPress-account' target='blank'>Learn more</a>."
+msgstr ""
+
+msgid "License Key"
+msgstr ""
+
+msgid "Status"
+msgstr ""
+
+msgid "Inactive"
+msgstr ""
+
+msgid "Valid until"
+msgstr ""
+
+msgid "Valid (Lifetime)"
+msgstr ""
+
+msgid "Disabled"
+msgstr ""
+
+msgid "Expired"
+msgstr ""
+
+msgid "Invalid"
+msgstr ""
+
+msgid "Your License Key does not match the installed plugin. <a href='https://motopress.zendesk.com/hc/en-us/articles/202957243-What-to-do-if-the-license-key-doesn-t-correspond-with-the-plugin-license' target='_blank'>How to fix this.</a>"
+msgstr ""
+
+msgid "Product ID is not valid"
+msgstr ""
+
+msgid "Action"
+msgstr ""
+
+msgid "Activate License"
+msgstr ""
+
+msgid "Deactivate License"
+msgstr ""
+
+msgid "Renew License"
+msgstr ""
+
+msgid "Hotel Booking WooCommerce Payments plugin requires Hotel Booking plugin version %s or higher."
+msgstr ""
+
+msgid "Hotel Booking WooCommerce Payments requires WooCommerce plugin version %s or higher."
+msgstr ""
+
+msgid "Hotel Booking WooCommerce Payments requires equal currencies set up in WooCommerce(%s) and Hotel Booking(%s)."
+msgstr ""
+
+msgid "WooCommerce Payments"
+msgstr ""
+
+msgid "Select product"
+msgstr ""
+
+msgid "Product"
+msgstr ""
+
+msgid "Go to <a href=\"%s\">WooCommerce > Products</a> and create a product that will be used to make reservations. <strong>Required</strong>."
+msgstr ""
+
+msgid "Product Label"
+msgstr ""
+
+msgid "You can fill in the product label with information from a booking."
+msgstr ""
+
+msgid "Example: Reservation, ID: %booking_id%, %reserved_accommodation_names%, %check_in_date% - %check_out_date%"
+msgstr ""
+
+msgid "Possible tags"
+msgstr ""
+
+msgid "Booking ID"
+msgstr ""
+
+msgid "Reserved Accommodations"
+msgstr ""
+
+msgid "Check-in Date"
+msgstr ""
+
+msgid "Check-out Date"
+msgstr ""
+
+msgid "Checkout endpoints"
+msgstr ""
+
+msgid "Use Hotel Booking checkout endpoints instead of WooCommerce ones."
+msgstr ""
+
+msgid "Hide the payment method description on the checkout page if it is the only available one."
+msgstr ""
+
+msgid "License"
+msgstr ""
+
+msgid "Hotel Booking Payment: %s"
+msgstr ""
+
+msgid "Cheatin&#8217; uh?"
+msgstr ""
+
+msgid "Your cart contains product that cannot be purchased with other products. Finish your reservation first or empty the cart."
+msgstr ""
+
+msgid "A WooCommerce order has been successful. However, there is no way to automatically update the status of the associated booking in Hotel Booking — some of the booked accommodations had already been reserved for these dates."
+msgstr ""
+
+msgid "View Booking"
+msgstr ""
+
+msgid "Details of booking"
+msgstr ""
+
+msgid "ID: #%s"
+msgstr ""
+
+msgid "Check-in: %1$s, from %2$s"
+msgstr ""
+
+msgid "Check-out: %1$s, until %2$s"
+msgstr ""
+
+msgid "Customer Info"
+msgstr ""
+
+msgid "Name: %1$s %2$s"
+msgstr ""
+
+msgid "Email: %s"
+msgstr ""
+
+msgid "Phone: %s"
+msgstr ""
+
+msgid "Note: %s"
+msgstr ""
+
+msgid "Total Price:"
+msgstr ""

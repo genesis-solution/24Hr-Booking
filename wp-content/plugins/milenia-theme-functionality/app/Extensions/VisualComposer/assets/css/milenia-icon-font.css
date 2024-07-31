@@ -1,0 +1,736 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "milenia-icon-font";
+  src:url("../fonts/milenia-icon-font.eot");
+  src:url("../fonts/milenia-icon-font.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/milenia-icon-font.woff") format("woff"),
+    url("../fonts/milenia-icon-font.ttf") format("truetype"),
+    url("../fonts/milenia-icon-font.svg#milenia-icon-font") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: "milenia-font-1";
+  src:url("../fonts/milenia-font-1.eot");
+  src:url("../fonts/milenia-font-1.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/milenia-font-1.woff") format("woff"),
+    url("../fonts/milenia-font-1.ttf") format("truetype"),
+    url("../fonts/milenia-font-1.svg#milenia-font-1") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "milenia-icon-font" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="milenia-font-icon-"]:before,
+[class*=" milenia-font-icon-"]:before {
+  font-family: "milenia-icon-font" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.milenia-font-icon-air-conditioner:before {
+  content: "\61";
+}
+.milenia-font-icon-alarm-clock:before {
+  content: "\62";
+}
+.milenia-font-icon-anchor:before {
+  content: "\63";
+}
+.milenia-font-icon-armchair:before {
+  content: "\64";
+}
+.milenia-font-icon-atm:before {
+  content: "\65";
+}
+.milenia-font-icon-ax:before {
+  content: "\66";
+}
+.milenia-font-icon-backpack:before {
+  content: "\67";
+}
+.milenia-font-icon-bag:before {
+  content: "\68";
+}
+.milenia-font-icon-baggage-trolley:before {
+  content: "\69";
+}
+.milenia-font-icon-balloon:before {
+  content: "\6a";
+}
+.milenia-font-icon-bathtub:before {
+  content: "\6b";
+}
+.milenia-font-icon-bed:before {
+  content: "\6c";
+}
+.milenia-font-icon-bed-plus:before {
+  content: "\6d";
+}
+.milenia-font-icon-beds:before {
+  content: "\6e";
+}
+.milenia-font-icon-beer:before {
+  content: "\6f";
+}
+.milenia-font-icon-bell:before {
+  content: "\70";
+}
+.milenia-font-icon-bike:before {
+  content: "\71";
+}
+.milenia-font-icon-bonfire:before {
+  content: "\72";
+}
+.milenia-font-icon-booking:before {
+  content: "\73";
+}
+.milenia-font-icon-boots:before {
+  content: "\74";
+}
+.milenia-font-icon-boots2:before {
+  content: "\75";
+}
+.milenia-font-icon-bottle-glasses:before {
+  content: "\76";
+}
+.milenia-font-icon-bottles:before {
+  content: "\77";
+}
+.milenia-font-icon-building:before {
+  content: "\78";
+}
+.milenia-font-icon-building2:before {
+  content: "\79";
+}
+.milenia-font-icon-bus:before {
+  content: "\7a";
+}
+.milenia-font-icon-champagne:before {
+  content: "\41";
+}
+.milenia-font-icon-chaise-longue:before {
+  content: "\42";
+}
+.milenia-font-icon-castle:before {
+  content: "\43";
+}
+.milenia-font-icon-cards:before {
+  content: "\44";
+}
+.milenia-font-icon-car-wash:before {
+  content: "\45";
+}
+.milenia-font-icon-car:before {
+  content: "\46";
+}
+.milenia-font-icon-cap:before {
+  content: "\47";
+}
+.milenia-font-icon-canoe:before {
+  content: "\48";
+}
+.milenia-font-icon-camping-knife:before {
+  content: "\49";
+}
+.milenia-font-icon-camera:before {
+  content: "\4a";
+}
+.milenia-font-icon-calendar:before {
+  content: "\4b";
+}
+.milenia-font-icon-cake:before {
+  content: "\4c";
+}
+.milenia-font-icon-cabin:before {
+  content: "\4d";
+}
+.milenia-font-icon-church:before {
+  content: "\4e";
+}
+.milenia-font-icon-destination:before {
+  content: "\4f";
+}
+.milenia-font-icon-disabled:before {
+  content: "\50";
+}
+.milenia-font-icon-church2:before {
+  content: "\51";
+}
+.milenia-font-icon-church3:before {
+  content: "\52";
+}
+.milenia-font-icon-dish:before {
+  content: "\53";
+}
+.milenia-font-icon-dish2:before {
+  content: "\54";
+}
+.milenia-font-icon-clipboard:before {
+  content: "\55";
+}
+.milenia-font-icon-clock:before {
+  content: "\56";
+}
+.milenia-font-icon-dislike:before {
+  content: "\57";
+}
+.milenia-font-icon-dislike2:before {
+  content: "\58";
+}
+.milenia-font-icon-cocktail:before {
+  content: "\59";
+}
+.milenia-font-icon-cocktail2:before {
+  content: "\5a";
+}
+.milenia-font-icon-do-not-disturb:before {
+  content: "\30";
+}
+.milenia-font-icon-coffee-to-go:before {
+  content: "\31";
+}
+.milenia-font-icon-dog:before {
+  content: "\32";
+}
+.milenia-font-icon-coliseum:before {
+  content: "\33";
+}
+.milenia-font-icon-dolphin:before {
+  content: "\34";
+}
+.milenia-font-icon-double-bed:before {
+  content: "\35";
+}
+.milenia-font-icon-column:before {
+  content: "\36";
+}
+.milenia-font-icon-compass:before {
+  content: "\37";
+}
+.milenia-font-icon-drink:before {
+  content: "\38";
+}
+.milenia-font-icon-eat:before {
+  content: "\39";
+}
+.milenia-font-icon-cup:before {
+  content: "\21";
+}
+.milenia-font-icon-desktop:before {
+  content: "\22";
+}
+.milenia-font-icon-eye:before {
+  content: "\23";
+}
+.milenia-font-icon-globe:before {
+  content: "\24";
+}
+.milenia-font-icon-ice-cream:before {
+  content: "\25";
+}
+.milenia-font-icon-glasses:before {
+  content: "\26";
+}
+.milenia-font-icon-hotel-sign:before {
+  content: "\27";
+}
+.milenia-font-icon-hotel:before {
+  content: "\28";
+}
+.milenia-font-icon-food-to-go:before {
+  content: "\29";
+}
+.milenia-font-icon-flippers:before {
+  content: "\2a";
+}
+.milenia-font-icon-hostel:before {
+  content: "\2b";
+}
+.milenia-font-icon-home-on-the-water:before {
+  content: "\2c";
+}
+.milenia-font-icon-flip-flops:before {
+  content: "\2d";
+}
+.milenia-font-icon-flashlight:before {
+  content: "\2e";
+}
+.milenia-font-icon-hat-glasses:before {
+  content: "\2f";
+}
+.milenia-font-icon-hanger:before {
+  content: "\3a";
+}
+.milenia-font-icon-flag:before {
+  content: "\3b";
+}
+.milenia-font-icon-fish:before {
+  content: "\3c";
+}
+.milenia-font-icon-handwheel:before {
+  content: "\3d";
+}
+.milenia-font-icon-hand:before {
+  content: "\3e";
+}
+.milenia-font-icon-fireplace:before {
+  content: "\3f";
+}
+.milenia-font-icon-filling-station:before {
+  content: "\40";
+}
+.milenia-font-icon-hair-dryer:before {
+  content: "\5b";
+}
+.milenia-font-icon-gym:before {
+  content: "\5d";
+}
+.milenia-font-icon-ferris-wheel:before {
+  content: "\5e";
+}
+.milenia-font-icon-fast-food:before {
+  content: "\5f";
+}
+.milenia-font-icon-grill:before {
+  content: "\60";
+}
+.milenia-font-icon-globe2:before {
+  content: "\7b";
+}
+.milenia-font-icon-fan:before {
+  content: "\7c";
+}
+.milenia-font-icon-iceberg:before {
+  content: "\7d";
+}
+.milenia-font-icon-location2:before {
+  content: "\7e";
+}
+.milenia-font-icon-magnifier:before {
+  content: "\5c";
+}
+.milenia-font-icon-info:before {
+  content: "\e000";
+}
+.milenia-font-icon-iron:before {
+  content: "\e001";
+}
+.milenia-font-icon-megaphone:before {
+  content: "\e002";
+}
+.milenia-font-icon-message:before {
+  content: "\e003";
+}
+.milenia-font-icon-island:before {
+  content: "\e004";
+}
+.milenia-font-icon-key:before {
+  content: "\e005";
+}
+.milenia-font-icon-mobile:before {
+  content: "\e006";
+}
+.milenia-font-icon-mobile2:before {
+  content: "\e007";
+}
+.milenia-font-icon-lamp:before {
+  content: "\e008";
+}
+.milenia-font-icon-life-vest:before {
+  content: "\e009";
+}
+.milenia-font-icon-money-exchange:before {
+  content: "\e00a";
+}
+.milenia-font-icon-moon:before {
+  content: "\e00b";
+}
+.milenia-font-icon-lifebuoy:before {
+  content: "\e00c";
+}
+.milenia-font-icon-lift:before {
+  content: "\e00d";
+}
+.milenia-font-icon-mosque:before {
+  content: "\e00e";
+}
+.milenia-font-icon-mosque2:before {
+  content: "\e00f";
+}
+.milenia-font-icon-lift2:before {
+  content: "\e010";
+}
+.milenia-font-icon-like:before {
+  content: "\e011";
+}
+.milenia-font-icon-mountains-cloud:before {
+  content: "\e012";
+}
+.milenia-font-icon-mountains-sun:before {
+  content: "\e013";
+}
+.milenia-font-icon-like2:before {
+  content: "\e014";
+}
+.milenia-font-icon-location:before {
+  content: "\e015";
+}
+.milenia-font-icon-music:before {
+  content: "\e016";
+}
+.milenia-font-icon-pictures:before {
+  content: "\e017";
+}
+.milenia-font-icon-sailing-ship:before {
+  content: "\e018";
+}
+.milenia-font-icon-safe:before {
+  content: "\e019";
+}
+.milenia-font-icon-picnic:before {
+  content: "\e01a";
+}
+.milenia-font-icon-phone:before {
+  content: "\e01b";
+}
+.milenia-font-icon-road-sign2:before {
+  content: "\e01c";
+}
+.milenia-font-icon-road-sign:before {
+  content: "\e01d";
+}
+.milenia-font-icon-penguin:before {
+  content: "\e01e";
+}
+.milenia-font-icon-paw:before {
+  content: "\e01f";
+}
+.milenia-font-icon-road-cone:before {
+  content: "\e020";
+}
+.milenia-font-icon-receptionist:before {
+  content: "\e021";
+}
+.milenia-font-icon-passanger:before {
+  content: "\e022";
+}
+.milenia-font-icon-pass:before {
+  content: "\e023";
+}
+.milenia-font-icon-rain:before {
+  content: "\e024";
+}
+.milenia-font-icon-pyramids:before {
+  content: "\e025";
+}
+.milenia-font-icon-parking2:before {
+  content: "\e026";
+}
+.milenia-font-icon-parking:before {
+  content: "\e027";
+}
+.milenia-font-icon-power-socket:before {
+  content: "\e028";
+}
+.milenia-font-icon-pool:before {
+  content: "\e029";
+}
+.milenia-font-icon-paper-pencil:before {
+  content: "\e02a";
+}
+.milenia-font-icon-palms:before {
+  content: "\e02b";
+}
+.milenia-font-icon-pointer:before {
+  content: "\e02c";
+}
+.milenia-font-icon-plug:before {
+  content: "\e02d";
+}
+.milenia-font-icon-no-smoking:before {
+  content: "\e02e";
+}
+.milenia-font-icon-no-photo:before {
+  content: "\e02f";
+}
+.milenia-font-icon-plane:before {
+  content: "\e030";
+}
+.milenia-font-icon-satellite-antenna:before {
+  content: "\e031";
+}
+.milenia-font-icon-sos:before {
+  content: "\e032";
+}
+.milenia-font-icon-starfish:before {
+  content: "\e033";
+}
+.milenia-font-icon-ship:before {
+  content: "\e034";
+}
+.milenia-font-icon-shop:before {
+  content: "\e035";
+}
+.milenia-font-icon-stela:before {
+  content: "\e036";
+}
+.milenia-font-icon-storm:before {
+  content: "\e037";
+}
+.milenia-font-icon-shopping-bag:before {
+  content: "\e038";
+}
+.milenia-font-icon-shorts:before {
+  content: "\e039";
+}
+.milenia-font-icon-suitcase:before {
+  content: "\e03a";
+}
+.milenia-font-icon-suitcase-plus:before {
+  content: "\e03b";
+}
+.milenia-font-icon-shovel:before {
+  content: "\e03c";
+}
+.milenia-font-icon-shower:before {
+  content: "\e03d";
+}
+.milenia-font-icon-sun:before {
+  content: "\e03e";
+}
+.milenia-font-icon-sun2:before {
+  content: "\e03f";
+}
+.milenia-font-icon-signal:before {
+  content: "\e040";
+}
+.milenia-font-icon-ski:before {
+  content: "\e041";
+}
+.milenia-font-icon-sunscreen:before {
+  content: "\e042";
+}
+.milenia-font-icon-sunset:before {
+  content: "\e043";
+}
+.milenia-font-icon-snorkeling:before {
+  content: "\e044";
+}
+.milenia-font-icon-snowboard:before {
+  content: "\e045";
+}
+.milenia-font-icon-support:before {
+  content: "\e046";
+}
+.milenia-font-icon-surfboard:before {
+  content: "\e047";
+}
+.milenia-font-icon-snowflake:before {
+  content: "\e048";
+}
+.milenia-font-icon-soap:before {
+  content: "\e049";
+}
+.milenia-font-icon-swimming:before {
+  content: "\e04a";
+}
+.milenia-font-icon-trailer:before {
+  content: "\e04b";
+}
+.milenia-font-icon-waiter:before {
+  content: "\e04c";
+}
+.milenia-font-icon-volcano:before {
+  content: "\e04d";
+}
+.milenia-font-icon-traffic-light:before {
+  content: "\e04e";
+}
+.milenia-font-icon-toothpaste-brush:before {
+  content: "\e04f";
+}
+.milenia-font-icon-video-camera:before {
+  content: "\e050";
+}
+.milenia-font-icon-tv-tower:before {
+  content: "\e051";
+}
+.milenia-font-icon-tickets:before {
+  content: "\e052";
+}
+.milenia-font-icon-thermos:before {
+  content: "\e053";
+}
+.milenia-font-icon-tv:before {
+  content: "\e054";
+}
+.milenia-font-icon-turtle:before {
+  content: "\e055";
+}
+.milenia-font-icon-thermometer:before {
+  content: "\e056";
+}
+.milenia-font-icon-tent:before {
+  content: "\e057";
+}
+.milenia-font-icon-tunnel:before {
+  content: "\e058";
+}
+.milenia-font-icon-trees2:before {
+  content: "\e059";
+}
+.milenia-font-icon-tennis:before {
+  content: "\e05a";
+}
+.milenia-font-icon-temple:before {
+  content: "\e05b";
+}
+.milenia-font-icon-trees:before {
+  content: "\e05c";
+}
+.milenia-font-icon-traveler2:before {
+  content: "\e05d";
+}
+.milenia-font-icon-taxi:before {
+  content: "\e05e";
+}
+.milenia-font-icon-tag:before {
+  content: "\e05f";
+}
+.milenia-font-icon-traveler:before {
+  content: "\e060";
+}
+.milenia-font-icon-wi-fi:before {
+  content: "\e061";
+}
+.milenia-font-icon-water-lily:before {
+  content: "\e062";
+}
+.milenia-font-icon-tram:before {
+  content: "\e063";
+}
+.milenia-font-icon-table-chairs-umbrella:before {
+  content: "\e064";
+}
+.milenia-font-icon-table:before {
+  content: "\e065";
+}
+.milenia-font-icon-train:before {
+  content: "\e066";
+}
+.milenia-font-icon-washer:before {
+  content: "\e067";
+}
+
+[data-icon]:before {
+  font-family: "milenia-font-1" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="milenia-font-icon-1-"]:before,
+[class*=" milenia-font-icon-1-"]:before {
+  font-family: "milenia-font-1" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.milenia-font-icon-1-icon-booking-icon:before {
+  content: "\76";
+}
+
+
+@font-face {
+  font-family: "svg-font";
+  src: url("../fonts/svg-font.eot");
+  src: url("../fonts/svg-font.eot?#iefix") format("embedded-opentype"),
+  url("../fonts/svg-font.woff") format("woff"),
+  url("../fonts/svg-font.ttf") format("truetype"),
+  url("../fonts/svg-font.svg#svg-font") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="milenia-svg-icon-"]:before,
+[class*=" milenia-svg-icon-"]:before {
+  font-family: "svg-font";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.milenia-svg-icon-bath:before {
+  content: "\61";
+}
+.milenia-svg-icon-bathroom:before {
+  content: "\62";
+}
+.milenia-svg-icon-bathtub:before {
+  content: "\63";
+}
+.milenia-svg-icon-coffee:before {
+  content: "\64";
+}
+.milenia-svg-icon-jacuzzi:before {
+  content: "\65";
+}
+.milenia-svg-icon-no-pets:before {
+  content: "\66";
+}
+.milenia-svg-icon-portafilter:before {
+  content: "\67";
+}
+.milenia-svg-icon-shower:before {
+  content: "\68";
+}
+.milenia-svg-icon-smart-tv:before {
+  content: "\69";
+}
+.milenia-svg-icon-sofa:before {
+  content: "\6a";
+}
+.milenia-svg-icon-wc:before {
+  content: "\6b";
+}
+

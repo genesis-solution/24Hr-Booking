@@ -1,0 +1,10 @@
+<wpml-config>
+    <admin-texts>
+        <key name="mphb_email_customer_request_payment_subject"/>
+        <key name="mphb_email_customer_request_payment_header"/>
+        <key name="mphb_email_customer_request_payment_content"/>
+        <key name="mphb_email_admin_request_paid_subject"/>
+        <key name="mphb_email_admin_request_paid_header"/>
+        <key name="mphb_email_admin_request_paid_content"/>
+    </admin-texts>
+</wpml-config>

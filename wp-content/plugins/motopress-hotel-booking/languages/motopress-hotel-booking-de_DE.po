@@ -1,0 +1,6100 @@
+# Copyright (C) 2022 MotoPress
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: hotel-booking-plugin\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/motopress-hotel-booking\n"
+"POT-Creation-Date: 2022-11-15T19:41:55+00:00\n"
+"PO-Revision-Date: 2023-12-20 17:21+0200\n"
+"Last-Translator: \n"
+"Language-Team: German\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Domain: motopress-hotel-booking\n"
+"X-Crowdin-Project: hotel-booking-plugin\n"
+"X-Crowdin-Project-ID: 463550\n"
+"X-Crowdin-Language: de\n"
+"X-Crowdin-File: motopress-hotel-booking.pot\n"
+"X-Crowdin-File-ID: 44\n"
+
+#. Plugin Name of the plugin
+#. translators: Name of the plugin, do not translate
+msgid "Hotel Booking"
+msgstr "Hotel Booking"
+
+#. Plugin URI of the plugin
+msgid "https://motopress.com/products/hotel-booking/"
+msgstr "https://motopress.com/products/hotel-booking/"
+
+#. Description of the plugin
+msgid "Manage your hotel booking services. Perfect for hotels, villas, guest houses, hostels, and apartments of all sizes."
+msgstr "Verwalten Sie Ihre Hotelbuchung-Services. Ideal für Hotels, Villen, Pensionen, Hostels und Appartements aller Größen."
+
+#. Author of the plugin
+msgid "MotoPress"
+msgstr "MotoPress"
+
+#. Author URI of the plugin
+msgid "https://motopress.com/"
+msgstr "https://motopress.com/"
+
+msgctxt "Post Status"
+msgid "New"
+msgstr "Neu"
+
+msgctxt "Post Status"
+msgid "Auto Draft"
+msgstr "Auto-Entwurf"
+
+msgctxt "Zero price"
+msgid "Free"
+msgstr "Kostenlos"
+
+#. translators: Price per one night. Example: $99 per night
+msgctxt "Price per one night. Example: $99 per night"
+msgid "per night"
+msgstr "pro Nacht"
+
+#. translators: Price for X nights. Example: $99 for 2 nights, $99 for 21 nights
+msgctxt "Price for X nights. Example: $99 for 2 nights, $99 for 21 nights"
+msgid "for %d nights"
+msgid_plural "for %d nights"
+msgstr[0] "pro Nacht"
+msgstr[1] "für %d Nächte"
+
+#. translators: %s: URL to plugins.php page
+msgid "You are using two instances of Hotel Booking plugin at the same time, please <a href=\"%s\">deactivate one of them</a>."
+msgstr "Sie verwenden zwei Instanzen von Hotel Booking plugin gleichzeitig, bitte <a href=\"%s\">deaktivieren Sie eine von ihnen</a>."
+
+msgid "<a href=\"%s\">Upgrade to Premium</a> to enable this feature."
+msgstr "<a href=\"%s\">Upgrade auf Premium</a> um diese Funktion zu aktivieren."
+
+msgid "Nonce verification failed."
+msgstr "Die Nonce-Verifizierung ist fehlgeschlagen."
+
+msgid "The file does not exist."
+msgstr "Die Datei existiert nicht."
+
+msgid "Source ID is missing."
+msgstr "Sicherheits-ID fehlt."
+
+msgid "Error"
+msgstr "Fehler"
+
+msgid "View"
+msgstr "Ansicht"
+
+msgid "Delete"
+msgstr "Löschen"
+
+msgid "Name"
+msgstr "Name"
+
+msgid "Email"
+msgstr "E-Mail"
+
+msgid "Bookings"
+msgstr "Buchungen"
+
+msgid "Date Registered"
+msgstr "Registrierungsdatum"
+
+msgid "Last Active"
+msgstr "Zuletzt aktiv"
+
+#. translators: Terms are variations for Attributes and bear no relation to the Terms and Conditions Page.
+msgid "Terms"
+msgstr "Begriffe"
+
+msgid "Created on:"
+msgstr "Erstellt am:"
+
+#. translators: Terms are variations for Attributes and bear no relation to the Terms and Conditions Page.
+msgid "Please add attribute in default language to configure terms."
+msgstr "Bitte fügen Sie ein Attribut in der Standardsprache hinzu, um Begriffe zu konfigurieren."
+
+#. translators: Terms are variations for Attributes and bear no relation to the Terms and Conditions Page.
+msgid "Configure terms"
+msgstr "Begriffe konfigurieren"
+
+msgid "Reserved Accommodations"
+msgstr "Reservierte Unterkünfte"
+
+msgid "Update Booking"
+msgstr "Buchung aktualisieren"
+
+msgid "Logs"
+msgstr "Logs"
+
+msgid "Delete Permanently"
+msgstr "Dauerhaft löschen"
+
+msgid "Move to Trash"
+msgstr "Ab in den Müll"
+
+msgid "Create Booking"
+msgstr "Buchung anlegen"
+
+msgid "Resend Email"
+msgstr "E-Mail erneut senden"
+
+msgid "Send a copy of the Approved Booking email to the customer`s email address."
+msgstr "Kopie der genehmigten Buchung per E-Mail an die E-Mail-Adresse des Kunden senden."
+
+msgid "Edit Accommodations"
+msgstr "Unterkünfte bearbeiten"
+
+msgid "Date:"
+msgstr "Datum:"
+
+msgid "Author:"
+msgstr "Autor:"
+
+msgid "Auto"
+msgstr "Automatisch"
+
+msgid "Message:"
+msgstr "Nachricht:"
+
+msgid "Confirmation email has been sent to customer."
+msgstr "Bestätigungsmail ist an den Kunden gesendet worden."
+
+msgid "Coupon code"
+msgstr "Gutscheincode"
+
+msgid "Update Payment"
+msgstr "Zahlung aktualisieren"
+
+msgid "Modified on:"
+msgstr "Geändert am:"
+
+msgid "Create Payment"
+msgstr "Zahlung anlegen"
+
+msgid "Season Prices"
+msgstr "Saison-Preise"
+
+msgid "<code>Please select Accommodation Type and click Create Rate button to continue.</code>"
+msgstr "<code>Bitte wählen Sie Unterkunftsart and Klicken Sie auf den Button „Rate erstellen“, um fortzufahren.</code>"
+
+msgid "Update Rate"
+msgstr "Rate aktualisieren"
+
+msgid "Active"
+msgstr "Aktiv"
+
+msgid "Disabled"
+msgstr "Deaktiviert"
+
+msgid "Create Rate"
+msgstr "Rate erstellen"
+
+msgid "Duplicate Rate"
+msgstr "Rate duplizieren"
+
+msgid "Generate Accommodations"
+msgstr "Unterkünfte generieren"
+
+msgid "Attributes"
+msgstr "Attribute"
+
+msgid "Accommodation Reviews"
+msgstr "Bewertungen der Unterkünfte"
+
+msgid "Allow guests to <a href=\"%s\" target=\"_blank\">submit star ratings and reviews</a> evaluating your accommodations."
+msgstr "Erlauben Sie Ihren Gästen, <a href=\"%s\" target=\"_blank\">Sternbewertungen und Rezensionen</a> , die  Ihrer Unterkunft bewerten, einzureichen."
+
+msgid "Number of Accommodations:"
+msgstr "Anzahl der Unterkünfte:"
+
+msgid "Count of real accommodations of this type in your hotel."
+msgstr "Anzahl von reallen Unterkünften dieser Art in Ihrem Hotel."
+
+msgid "Total Accommodations:"
+msgstr "Gesamtanzahl der Unterkünfte:"
+
+msgid "Show Accommodations"
+msgstr "Unterkünfte anzeigen"
+
+msgid "Active Accommodations:"
+msgstr "Aktive Unterkünfte:"
+
+msgid "Add"
+msgstr "Hinzufügen"
+
+msgid "Per adult:"
+msgstr "Pro Erwachsener:"
+
+msgid "Per child:"
+msgstr "Pro Kind:"
+
+msgid "Per adult: "
+msgstr "Pro Erwachsener: "
+
+msgid "Per child: "
+msgstr "Pro Kind: "
+
+msgid "Actions"
+msgstr "Aktionen"
+
+msgid "Default"
+msgstr "Standard"
+
+msgid "— Select —"
+msgstr "— Wählen —"
+
+msgid "Install & Activate"
+msgstr "Installieren und aktivieren"
+
+msgid "Add image"
+msgstr "Bild hinzufügen"
+
+msgid "Add gallery"
+msgstr "Galerie hinzufügen"
+
+msgid "Remove image"
+msgstr "Bild entfernen"
+
+msgid "Remove gallery"
+msgstr "Galerie entfernen"
+
+msgid "Select all"
+msgstr "Alles auswählen"
+
+msgid "Unselect all"
+msgstr "Alles wiederufen"
+
+msgid "Date"
+msgstr "Datum"
+
+msgid "Author"
+msgstr "Autor"
+
+msgid "Edit"
+msgstr "Bearbeiten"
+
+msgid "Done"
+msgstr "Fertig"
+
+msgid "All"
+msgstr "Alle"
+
+msgid "None"
+msgstr "Kein"
+
+msgid "HH:MM"
+msgstr "HH:MM"
+
+msgid "Recalculate Total Price"
+msgstr "Gesamtpreis berechnen"
+
+msgid "Nights"
+msgstr "Nächte"
+
+msgid "and more"
+msgstr ""
+
+msgid "Remove"
+msgstr "Entfernen"
+
+msgid "Add length of stay"
+msgstr "Aufenthaltsdauer hinzufügen"
+
+msgid "Adults"
+msgstr "Erwachsene"
+
+msgid "Children"
+msgstr "Kinder"
+
+msgid "Price per night"
+msgstr "Preis pro Nacht"
+
+msgid "Enable variable pricing"
+msgstr "Variable Preisgestaltung aktivieren"
+
+msgid "Add Variation"
+msgstr "Variation hinzufügen"
+
+msgid "Remove variation"
+msgstr "Attribute"
+
+msgid "The License Key is required in order to get automatic plugin updates and support. You can manage your License Key in your personal account. <a href='https://motopress.zendesk.com/hc/en-us/articles/202812996-How-to-use-your-personal-MotoPress-account' target='_blank'>Learn more</a>."
+msgstr "Der Lizenzschlüssel ist erforderlich, um automatische Plugin-Updates und Support zu erhalten. Sie können Ihren Lizenzschlüssel in Ihrem persönlichen Account verwalten. <a href='https://motopress.zendesk.com/hc/en-us/articles/202812996-How-to-use-your-personal-MotoPress-account' target='_blank'>Mehr erfahren</a>."
+
+msgid "License Key"
+msgstr "Lizenzschlüssel"
+
+msgid "Status"
+msgstr "Status"
+
+msgid "Inactive"
+msgstr "Inaktiv"
+
+msgid "Valid until"
+msgstr "Gültig bis"
+
+msgid "Valid (Lifetime)"
+msgstr "Gültig (Lifetime)"
+
+msgid "Expired"
+msgstr "Abgelaufen"
+
+msgid "Invalid"
+msgstr "Ungültig"
+
+msgid "Your License Key does not match the installed plugin. <a href='https://motopress.zendesk.com/hc/en-us/articles/202957243-What-to-do-if-the-license-key-doesn-t-correspond-with-the-plugin-license' target='_blank'>How to fix this.</a>"
+msgstr "Ihr Lizenzschlüssel stimmt nicht mit dem installierten Plugin überein. <a href='https://motopress.zendesk.com/hc/en-us/articles/202957243-What-to-do-if-the-license-key-doesn-t-correspond-with-the-plugin-license' target='_blank'> So beheben Sie das. </a>"
+
+msgid "Product ID is not valid"
+msgstr "Produkt-ID ist nicht gültig"
+
+msgid "Action"
+msgstr "Aktion"
+
+msgid "Activate License"
+msgstr "Lizenz aktivieren"
+
+msgid "Deactivate License"
+msgstr "Lizenz deaktivieren"
+
+msgid "Renew License"
+msgstr "Lizenz verlängern"
+
+msgid "Attributes let you define extra accommodation data, such as location or type. You can use these attributes in the search availability form as advanced search filters."
+msgstr "Mithilfe von Attributen können Sie zusätzliche Unterkunftsdaten definieren, z. B. Standort oder Unterkunftsart. Sie können die Attribute im Verfügbarkeitssuche-Formular als erweiterte Suchfilter verwenden."
+
+msgid "This attribute refers to non-unique taxonomy - %1$s - which was already registered with attribute %2$s."
+msgstr "Dieses Attribut bezieht sich auf nicht eindeutige Taxonomie, - %1$s - die bereits mit dem Attribut %2$s registriert wurde."
+
+#. translators: Terms are variations for Attributes and bear no relation to the Terms and Conditions Page.
+msgid "You cannot manage terms of trashed attributes."
+msgstr "Sie können keine Begriffe für gelöschte Attribute verwalten."
+
+msgid "New Booking"
+msgstr "Neue Buchung"
+
+msgid "ID"
+msgstr "ID"
+
+msgid "Check-in / Check-out"
+msgstr "Anreise/Abreise"
+
+msgid "Guests"
+msgstr "Gäste"
+
+msgid "Customer Info"
+msgstr "Kundeninformationen"
+
+msgid "Price"
+msgstr "Preis"
+
+msgid "Accommodation"
+msgstr "Unterkunft"
+
+msgid "Booking #%s"
+msgstr "Buchung #%s"
+
+msgid "Expire %s"
+msgstr "Endet %s"
+
+msgid "Adults: "
+msgstr "Erwachsene: "
+
+msgid "Children: "
+msgstr "Kinder: "
+
+msgid "%s night"
+msgid_plural "%s nights"
+msgstr[0] "%s Nacht"
+msgstr[1] "%s Nächte"
+
+msgid "Summary: %s."
+msgstr "Überblick: %s."
+
+msgid "Paid: %s"
+msgstr "Bezahlt: %s"
+
+msgid "Set to %s"
+msgstr "Auf %s festlegen"
+
+msgid "Booking status changed."
+msgid_plural "%s booking statuses changed."
+msgstr[0] "Buchungsstatus geändert."
+msgstr[1] "%s Buchungsstatus geändert."
+
+msgid "All accommodation types"
+msgstr "Alle Unterkunftsarten"
+
+#. translators: The number of imported bookings: "Imported <span>(11)</span>"
+msgid "Imported %s"
+msgstr "Importierte %s"
+
+msgid "Customer"
+msgstr "Kunde"
+
+msgid "Amount"
+msgstr "Anzahl"
+
+msgid "Booking"
+msgstr "Buchung"
+
+msgid "Gateway"
+msgstr "Gateway"
+
+msgid "Transaction ID"
+msgstr "Transaktions-ID"
+
+msgid "Created/Modified Date"
+msgstr "Datum der Erstellung/Veränderung"
+
+msgid "Payment #%s"
+msgstr "Zahlung %s"
+
+msgid "Created on: "
+msgstr "Erstellt am: "
+
+msgid "Modified on: "
+msgstr "Geändert am: "
+
+msgid "Rates are used to offer different prices of the same accommodation type depending on extra conditions. E.g. Double room with breakfast included; double room with no breakfast. Guests will choose the preferable rate when submitting a booking request."
+msgstr "Raten werden verwendet, um verschiedene Preise der gleichen Unterkunftsart je nach zusätzlichen Bedingungen zu bieten, z.B. Doppelzimmer mit Frühstück; Doppelzimmer ohne Frühstück. Bei der Einreichung einer Buchungsanfrage wählen Sie den gewünschten Preis."
+
+msgid "Accommodation Type"
+msgstr "Unterkunftsart"
+
+msgid "Season &#8212; Price"
+msgstr "Saison &#8212; Preis"
+
+msgid "Duplicate"
+msgstr "Duplizieren"
+
+msgid "Rate was duplicated."
+msgstr "Rate wurde dupliziert."
+
+msgid "These are real accommodations like rooms, apartments, houses, villas, beds (for hostels) etc."
+msgstr "Das sind echte Unterkünfte wie Zimmer, Appartements, Häuser, Villen, Betten (für Jugendherbergen) etc."
+
+msgid "All Accommodation Types"
+msgstr "Alle Unterkunftsarten"
+
+msgid "These are not physical accommodations, but their types. E.g. standard double room. To specify the real number of existing accommodations, you'll need to use Generate Accommodations menu."
+msgstr "Das sind keine physischen Unterkünfte, sondern ihre Typen, z.B. Standard-Doppelzimmer. Um die reale Anzahl der vorhandenen Unterkünfte anzugeben, müssen Sie das Menü \"Unterkünfte verwalten\" verwenden."
+
+msgid "Capacity"
+msgstr "Kapazität"
+
+msgid "Bed Type"
+msgstr "Bettentyp"
+
+msgid "Accommodations"
+msgstr "Unterkünfte"
+
+msgid "Total:"
+msgstr "Gesamt:"
+
+msgid "Adults:"
+msgstr "Erwachsene:"
+
+msgid "Children:"
+msgstr "Kinder:"
+
+msgid "Size:"
+msgstr "Größe:"
+
+msgid "Active:"
+msgstr "Aktiv:"
+
+msgid "Seasons are real periods of time, dates or days that come with different prices for accommodations. E.g. Winter 2018 ($120 per night), Christmas ($150 per night)."
+msgstr "Saisons sind echte Zeiträume, Daten oder Tage, die abhängig von Unterkunft mit unterschiedlichen Preisen kommen, z.B. Winter 2018 ($120 pro Nacht), Weihnachten ($150 pro Nacht)."
+
+msgid "Start"
+msgstr "Beginn"
+
+msgid "End"
+msgstr "Ende"
+
+msgid "Days"
+msgstr "Tage"
+
+msgid "Services are extra offers that you can sell or give for free. E.g. Thai massage, transfer, babysitting. Guests can pre-order them when placing a booking."
+msgstr "Services sind zusätzliche Angebote, die Sie verkaufen oder kostenlos zur Verfügung stellen können, z.B. Thai-Massage, Transfer, Babysitting. Die services können bei der Buchung vorbestellt werden."
+
+msgid "Periodicity"
+msgstr "Periodizität"
+
+msgid "Charge"
+msgstr "Gebühr"
+
+msgid "Per Day"
+msgstr "Pro Tag"
+
+msgid "Guest Choice"
+msgstr "Wahl des Gastes"
+
+msgid "Once"
+msgstr "Einmal"
+
+msgid "Per Guest"
+msgstr "Pro Gast"
+
+msgid "Per Accommodation"
+msgstr "Pro Unterkunft"
+
+msgid "These are accommodation amenities, generally free ones. E.g. air-conditioning, wifi."
+msgstr "Diese Unterkunftsmöglichkeiten sind in der Regel kostenlos, z.B. Klimaanlage, WiFi."
+
+msgid "Booking rules saved."
+msgstr "Buchungsregeln gespeichert."
+
+msgid "Booking Rules"
+msgstr "Buchungsregeln"
+
+msgid "Save Changes"
+msgstr "Änderungen speichern"
+
+msgid "Check-in days"
+msgstr "Anreisetage"
+
+msgid "Guests can check in any day."
+msgstr "Die Gäste können jederzeit einchecken."
+
+msgid "Add rule"
+msgstr "Regel hinzufügen"
+
+msgid "Seasons"
+msgstr "Saisons"
+
+msgid "Check-out days"
+msgstr "Abreisetage"
+
+msgid "Guests can check out any day."
+msgstr "Die Gäste können jederzeit auschecken."
+
+msgid "Minimum stay"
+msgstr "Mindestaufenthalt"
+
+msgid "There are no minimum stay rules."
+msgstr "Mindestaufenthalt: keine Beschränkungen."
+
+msgid "nights"
+msgstr "Nächte"
+
+msgid "Maximum stay"
+msgstr "Maximalaufenthalt"
+
+msgid "There are no maximum stay rules."
+msgstr "Maximalaufenthalt: keine Beschränkungen."
+
+msgid "Block accommodation"
+msgstr "Unterkunft blockieren"
+
+msgid "There are no blocking accommodation rules."
+msgstr "Unterkunftstrakt: keine Beschränkungen."
+
+msgid "From"
+msgstr "Von"
+
+msgid "Till"
+msgstr "Bis"
+
+msgid "Restriction"
+msgstr "Beschränkung"
+
+msgid "Not check-in rule marks the date as unavailable for check-in."
+msgstr ""
+
+msgid "Not check-out rule marks the date as unavailable for check-out."
+msgstr ""
+
+msgid "Not stay-in rule displays the date as blocked. This date is unavailable for check-out and check-in on the next date."
+msgstr ""
+
+msgid "Not stay-in with Not check-out rules completely block the selected date, additionally displaying the previous date as unavailable for check-in."
+msgstr ""
+
+msgid "Not check-in"
+msgstr "Nicht einreisen"
+
+msgid "Not check-out"
+msgstr "Nicht auschecken"
+
+msgid "Not stay-in"
+msgstr "Nicht bleiben"
+
+msgid "Comment"
+msgstr "Kommentar"
+
+msgid "Minimum advance reservation"
+msgstr "Mindestreservierung im Voraus"
+
+msgid "There are no minimum advance reservation rules."
+msgstr "Es gibt keine Regeln für die Mindestreservierung im Voraus."
+
+msgid "Maximum advance reservation"
+msgstr "Maximale Reservierung im Voraus"
+
+msgid "There are no maximum advance reservation rules."
+msgstr "Es gibt keine Regeln für die maximale Reservierung im Voraus."
+
+msgid "Booking buffer"
+msgstr "Buchungspuffer"
+
+msgid "There are no booking buffer rules."
+msgstr "Es gibt keine Regeln für Buchungspuffer."
+
+msgid "Booking Calendar"
+msgstr "Buchungskalender"
+
+msgid "Calendar"
+msgstr "Kalender"
+
+msgid "Add New Booking"
+msgstr "Neue Buchung hinzufügen"
+
+msgid "Clear Search Results"
+msgstr "Suchergebnisse löschen"
+
+msgid "Note: booking rules are disabled in the plugin settings and are not taken into account."
+msgstr "Hinweis: Die Buchungsregeln sind in den Buchungseinstellungen deaktiviert und werden nicht berücksichtigt."
+
+msgid "Unable to create booking. Please try again."
+msgstr "Die Buchung kann nicht erstellt werden. Bitte versuchen Sie es erneut."
+
+msgid "Booking is blocked due to maintenance reason. Please try again later."
+msgstr "Die Buchung ist aus Wartungsgründen gesperrt. Bitte versuchen Sie es später noch einmal."
+
+msgid "There are no accommodations selected for reservation."
+msgstr "Es sind keine Unterkünfte für die Reservierung ausgewählt."
+
+msgid "Selected accommodations are not valid."
+msgstr "Ausgewählte Unterkünfte sind nicht gültig."
+
+msgid "Accommodation Type is not valid."
+msgstr "Unterkunftsart ist nicht gültig."
+
+msgid "Rate is not valid."
+msgstr "Die Rate ist nicht gültig."
+
+msgid "Adults number is not valid."
+msgstr "Anzahl der Erwachsenen ist nicht gültig."
+
+msgid "Children number is not valid."
+msgstr "Kinderzahl ist nicht gültig."
+
+msgid "The total number of guests is not valid."
+msgstr "Die Gesamtanzahl an Gästen ist ungültig."
+
+msgid "Selected dates do not meet booking rules for type %s"
+msgstr "Die ausgewählten Daten entsprechen nicht den Buchungsregeln für den Typ%s"
+
+msgid "Accommodations are not available."
+msgstr "Unterkünfte sind nicht verfügbar."
+
+msgid "There are no rates for requested dates."
+msgstr "Es gibt keine Angebote für die angeforderten Daten."
+
+msgid "Search Results"
+msgstr "Suchergebnisse"
+
+msgid "— Any —"
+msgstr "— Beliebig —"
+
+msgid "Search parameters are not set."
+msgstr "Suchparameter sind nicht festgelegt."
+
+msgid "Check-in date is not valid."
+msgstr "Anreisedatum ist falsch."
+
+msgid "Check-in date cannot be earlier than today."
+msgstr "Anreisedatum kann nicht früher als heute sein."
+
+msgid "Check-out date is not valid."
+msgstr "Abreisedatum ist falsch."
+
+msgid "Nothing found. Please try again with different search parameters."
+msgstr "Nichts gefunden. Bitte versuchen Sie es erneut mit anderen Suchparametern."
+
+msgid "Sorry, you are not allowed to access this page."
+msgstr "Leider dürfen Sie auf diese Seite nicht zugreifen."
+
+msgid "User ID"
+msgstr "Benutzer-ID"
+
+msgid "Username"
+msgstr "Benutzername"
+
+msgid "First Name"
+msgstr "Vorname"
+
+msgid "Last Name"
+msgstr "Nachname"
+
+msgid "Phone"
+msgstr "Telefon"
+
+msgid "Address"
+msgstr "Adresse"
+
+msgid "State / County"
+msgstr "Bundesland"
+
+msgid "Country"
+msgstr "Land"
+
+msgid "City"
+msgstr "Stadt"
+
+msgid "Postcode"
+msgstr "Postleitzahl"
+
+msgid "Customer data updated."
+msgstr "Die Kundendaten wurden aktualisiert."
+
+msgid "User account updated."
+msgstr "Benutzerkonto wurde geändert."
+
+msgid "Edit User Profile"
+msgstr "Benutzerprofil bearbeiten"
+
+msgid "Update"
+msgstr "Aktualisieren"
+
+msgid "Customers"
+msgstr "Kunden"
+
+msgid "The booking is not set."
+msgstr "Die Buchung ist nicht festgelegt."
+
+msgid "The booking not found."
+msgstr "Buchung nicht gefunden."
+
+msgid "Edit Booking #%d"
+msgstr "Buchung #%d bearbeiten"
+
+msgid "Cancel"
+msgstr "Stornieren"
+
+msgid "Back"
+msgstr "Zurück"
+
+msgid "Edit Booking"
+msgstr "Buchung bearbeiten"
+
+msgid "You cannot edit the imported booking. Please update the source booking and resync your calendars."
+msgstr "Sie können die importierte Buchung nicht bearbeiten. Bitte aktualisieren Sie die Quellbuchung und synchronisieren Sie Ihre Kalender neu."
+
+msgid "Request does not pass security verification. Please refresh the page and try one more time."
+msgstr "Die Anforderung hat die Sicherheitsüberprüfung nicht bestanden. Bitte aktualisieren Sie die Seite und versuchen Sie es noch einmal."
+
+msgid "Check-in date is not set."
+msgstr "Das Anreisedatum wurde nicht festgelegt."
+
+msgid "Check-out date is not set."
+msgstr "Das Abreisedatum wurde nicht festgelegt."
+
+msgid "Unable to update booking. Please try again."
+msgstr "Die Buchung kann nicht geändert werden. Bitte versuchen Sie es erneut."
+
+msgid "Booking was edited."
+msgstr "Die Buchung wurde bearbeitet."
+
+msgid "Available"
+msgstr "Verfügbar"
+
+msgid "Replace"
+msgstr "Ersetzen"
+
+msgid "— Add new —"
+msgstr "— Neu hinzufügen —"
+
+msgid "Extensions"
+msgstr "Erweiterungen"
+
+msgid "Extend the functionality of Hotel Booking plugin with the number of helpful addons for your custom purposes."
+msgstr "Erweitern Sie die Funktionalität des Hotel Booking Plugins mit der Anzahl der hilfreichen Addons für Ihre individuellen Zwecke."
+
+msgid "Get this Extension"
+msgstr "Erhalten Sie diese Erweiterung"
+
+msgid "No extensions found."
+msgstr "Es wurde keine Erweiterungen gefunden."
+
+msgid "Abort Process"
+msgstr "Prozess abbrechen"
+
+msgid "Aborting..."
+msgstr "Wird abgebrochen..."
+
+msgid "Import Calendar"
+msgstr "Kalender importieren"
+
+msgid "Accommodation: %s"
+msgstr "Unterkunft: %s"
+
+msgid "Accommodation Type: %s"
+msgstr "Unterkunftsart: %s"
+
+msgid "Please be patient while the calendars are imported. You will be notified via this page when the process is completed."
+msgstr "Bitte haben Sie etwas Geduld, während die Kalender importiert werden. Sie werden über diese Seite benachrichtigt, wenn der Prozess abgeschlossen ist."
+
+msgid "Accommodation updated."
+msgstr "Unterkunft aktualisiert."
+
+msgid "This calendar has already been imported for another accommodation."
+msgstr "Dieser Kalender wurde bereits für eine andere Unterkunft importiert."
+
+msgid "Sync, Import and Export Calendars"
+msgstr "Kalender synchronisieren, importieren und exportieren"
+
+#. translators: %s - room name. Example: "Comfort Triple 1"
+msgid "Edit External Calendars of \"%s\""
+msgstr "Bearbeiten Sie externe Kalender von \"%s\""
+
+msgid "Sync All External Calendars"
+msgstr "Alle externen Kalender synchronisieren"
+
+msgid "Sync your bookings across all online channels like Booking.com, TripAdvisor, Airbnb etc. via iCalendar file format."
+msgstr "Synchronisieren Sie Ihre Buchungen über alle Online-Kanäle wie Booking.com, TripAdvisor, Airbnb usw. über das iCalendar-Dateiformat."
+
+msgid "Calendar URL"
+msgstr "Kalender-URL"
+
+msgid "Add New Calendar"
+msgstr "Neuen Kalender hinzufügen"
+
+msgid "Sync Calendars"
+msgstr "Kalender synchronisieren"
+
+msgid "Delete All Logs"
+msgstr "Alle Protokolle löschen"
+
+msgid "Deleting..."
+msgstr "Wird gelöscht..."
+
+msgid "%d item"
+msgstr "%d Artikel"
+
+msgid "%d items"
+msgstr "%d Artikel"
+
+msgid "Calendars Synchronization Status"
+msgstr "Kalendersynchronisierungsstatus"
+
+msgid "Here you can see synchronization status of your external calendars."
+msgstr "Hier können Sie sich den Synchronisierungsstatus Ihrer externen Kalender ansehen."
+
+msgid "Calendars Sync Status"
+msgstr "Kalendersynchronisierungsstatus"
+
+msgid "Display calendars synchronization status."
+msgstr "Kalendersynchronisierungsstatus anzeigen."
+
+msgid "Language Guide"
+msgstr "Sprachführer"
+
+msgid "Default language"
+msgstr "Standardsprache"
+
+msgid "This plugin will display all system messages, labels, buttons in the language set in <em>General > Settings > Site Language</em>. If the plugin is not available in your language, you may <a href=\"%s\">contribute your translation</a>."
+msgstr "Dieses Plugin zeigt alle Systemmeldungen, Etiketten, Schaltflächen in der Sprache an, die in <em>Allgemein> Einstellungen> Standortsprache </em> eingestellt ist. Wenn das Plugin nicht in Ihrer Sprache verfügbar ist, können Sie <a href=\"%s\">Ihre Übersetzung</a> hinzufügen."
+
+msgid "Custom translations and edits"
+msgstr "Benutzerdefinierte Übersetzungen und Bearbeitungen"
+
+msgid "You may customize plugin translation by editing the needed texts or adding your translation following these steps:"
+msgstr "Sie können die Plugin-Übersetzung anpassen, indem Sie die benötigten Texte bearbeiten oder Ihre Übersetzung nach folgenden Schritten hinzufügen:"
+
+msgid "Take the source file for your translations %s or needed translated locale."
+msgstr "Benutzen Sie die Quelldatei für Ihre Übersetzungen %s oder benötigte übersetzte Sprache/Locale."
+
+msgid "Translate texts with any translation program like Poedit, Loco, Pootle etc."
+msgstr "Übersetzen Sie Texten mit jedem Übersetzungsprogramm wie Poedit, Loco, Pootle etc."
+
+msgid "Put created .mo file with your translations into the folder %s. Where {lang} is ISO-639 language code and {country} is ISO-3166 country code. Example: Brazilian Portuguese file would be called motopress-hotel-booking-pt_BR.mo."
+msgstr "Kopieren Sie die .mo Datei mit Ihren Übersetzungen in den Ordner %s, in der {lang} ISO-639 Sprachcode und {Land} ISO-3166 Ländercode ist. Beispiel: Brasilianische portugiesische Datei würde dann motopress-hotel-buchung-pt_BR.mo heißen."
+
+msgid "Multilingual content"
+msgstr "Mehrsprachiger Inhalt"
+
+msgid "If your site is multilingual, you may use additional plugins to translate your added content into multiple languages allowing the site visitors to switch them."
+msgstr "Wenn Ihre Website mehrsprachig ist, können Sie zusätzliche Plugins verwenden, um Ihre hinzugefügten Inhalte in mehrere Sprachen zu übersetzen, damit die Website-Besucher zwischen ihnen wechseln können."
+
+msgid "Language"
+msgstr "Sprache"
+
+msgid "Reports"
+msgstr "Berichte"
+
+msgid "Export"
+msgstr "Exportieren"
+
+msgid "All Statuses"
+msgstr "Alle Status"
+
+msgid "Booking dates between"
+msgstr "Buchungsdaten zwischen"
+
+msgid "Check-in date between"
+msgstr "Check-in-Datum zwischen"
+
+msgid "Check-out date between"
+msgstr "Check-out-Datum zwischen"
+
+msgid "In-house between"
+msgstr "In-house zwischen"
+
+msgid "Date of reservation between"
+msgstr "Datum der Reservierung zwischen"
+
+msgid "Export Bookings"
+msgstr "Buchungen exportieren"
+
+msgid "Choose start date"
+msgstr "Wählen Anfangsdatum aus"
+
+msgid "Choose end date"
+msgstr "Wählen Enddatum aus"
+
+msgid "Select columns to export"
+msgstr "Wählen Spalten zum Exportieren aus"
+
+msgid "Generate CSV"
+msgstr "CSV erstellen"
+
+msgid "Number of accommodations"
+msgstr "Anzahl der Unterkünfte"
+
+msgid "Title"
+msgstr "Titel"
+
+msgid "Leave empty to use accommodation type title."
+msgstr "Leer lassen, um Unterkunftsart Titel zu verwenden."
+
+msgid "Generate"
+msgstr "Generieren"
+
+msgid "Accommodation generated."
+msgid_plural "%s accommodations generated."
+msgstr[0] "Unterkunft generiert."
+msgstr[1] "%s Unterkünfte generiert."
+
+msgid "General"
+msgstr "Allgemein"
+
+msgid "Pages"
+msgstr "Seiten"
+
+msgid "Search Results Page"
+msgstr "Suchergebnisse-Seite"
+
+msgid "Select page to display search results. Use search results shortcode on this page."
+msgstr "Wählen Sie die Seite aus, um die Suchergebnisse anzuzeigen. Verwenden Sie die Suchergebnisse-Shortcode auf dieser Seite."
+
+msgid "Checkout Page"
+msgstr "Checkout-Seite"
+
+msgid "Select page user will be redirected to complete booking."
+msgstr "Wählen Sie die Seite Benutzer wird umgeleitet, um die Buchung zu vervollständigen."
+
+msgid "Terms & Conditions"
+msgstr "Allgemeine Geschäftsbedingungen"
+
+msgid "If you define a \"Terms\" page the customer will be asked if they accept them when checking out."
+msgstr "Wenn Sie eine AGB-Seite definieren, werden die Kunden beim Check-out gefragt, ob sie die Bedingungen akzeptieren."
+
+msgid "Open the Terms & Conditions page in a new window"
+msgstr ""
+
+msgid "By enabling this option you can avoid errors related to displaying your terms & conditions inline for website pages created in page builders."
+msgstr ""
+
+msgid "My Account Page"
+msgstr "Meine Kontoseite"
+
+msgid "Select a page to display user account. Use the customer account shortcode on this page."
+msgstr "Wählen Sie eine Seite aus, die im Benutzerkonto angezeigt werden soll. Verwenden Sie den Kundenkonto-Kurzcode auf dieser Seite."
+
+msgid "Misc"
+msgstr "Sonstiges"
+
+msgid "Square Units"
+msgstr "Quadrateinheiten"
+
+msgid "Currency"
+msgstr "Währung"
+
+msgid "Currency Position"
+msgstr "Währungsposition"
+
+msgid "Datepicker Date Format"
+msgstr "Datumsauswahl Datumsformat"
+
+msgid "Check-out Time"
+msgstr "Abreise-Zeit"
+
+msgid "Check-in Time"
+msgstr "Anreise-Zeit"
+
+msgid "Bed Types"
+msgstr "Bettentypen"
+
+msgid "Type"
+msgstr "Typ"
+
+msgid "Add Bed Type"
+msgstr "Bettentyp hinzufügen"
+
+msgid "Show Lowest Price for"
+msgstr "Niedrigster Preis anzeigen für"
+
+msgid "days"
+msgstr "Tage"
+
+msgid "Lowest price of accommodation for selected number of days if check-in and check-out dates are not set. Example: set 0 to display today's lowest price, set 7 to display the lowest price for the next week."
+msgstr "Niedrigster Preis für die Anzahl der Tage, wenn Anreise- und Abreise-Daten nicht gesetzt sind. Beispiel: setzen Sie 0, um den aktuellsten Preis anzuzeigen, setzen Sie 7, um den niedrigsten Preis für die nächste Woche anzuzeigen."
+
+msgid "Enable search form to recommend the best set of accommodations according to a number of guests."
+msgstr "Aktivieren Sie das Suchformular, um die besten Unterkünfte je nach Anzahl der Gäste zu empfehlen."
+
+msgid "Enable the use of coupons."
+msgstr "Verwendung von Gutscheinen aktivieren."
+
+msgid "Text on Checkout"
+msgstr "Text beim Check-out"
+
+msgid "This text will appear on the checkout page."
+msgstr "Dieser Text erscheint auf der Checkout-Seite."
+
+msgid "Disable Booking"
+msgstr "Buchung deaktivieren"
+
+msgid "Hide reservation forms and buttons"
+msgstr "Reservierungsformularen und Schaltflächen ausblenden"
+
+msgid "Text instead of reservation form while booking is disabled"
+msgstr "Text anstelle von Reservierungsformular bei Buchung ist deaktiviert"
+
+msgid "Booking Confirmation"
+msgstr "Buchungsbestätigung"
+
+msgid "Confirmation Mode"
+msgstr "Bestätigungsmodus"
+
+msgid "By customer via email"
+msgstr "Vom Kunden per E-Mail"
+
+msgid "By admin manually"
+msgstr "Von admin manuell"
+
+msgid "Confirmation upon payment"
+msgstr "Bestätigung bei Zahlung"
+
+msgid "Booking Confirmed Page"
+msgstr "Buchungsbestätigung Seite"
+
+msgid "Page user will be redirected to once the booking is confirmed via email or by admin."
+msgstr "Der Benutzer der Seite wird weitergeleitet, sobald die Buchung per E-Mail oder vom Administrator bestätigt wurde."
+
+msgid "Approval Time for User"
+msgstr "Genehmigungszeit für Benutzer"
+
+msgid "Period of time in minutes the user is given to confirm booking via email. Unconfirmed bookings become Abandoned and accommodation status changes to Available."
+msgstr "Zeitraum in Minuten wird dem Benutzer gegeben, um die Buchung per E-Mail zu bestätigen. Unbestätigte Buchungen werden aufgegeben und der Unterkunftsstatus ändert sich auf Verfügbar."
+
+msgid "Country of residence field is required for reservation."
+msgstr "Land des Wohnsitzes ist für die Reservierung erforderlich."
+
+msgid "Full address fields are required for reservation."
+msgstr "Für die Reservierung sind vollständige Adressfelder erforderlich."
+
+msgid "Customer information is required when placing admin bookings."
+msgstr "Kundeninformationen werden bei Admin-Buchung benötigt."
+
+msgid "Default Country on Checkout"
+msgstr "Standard-Land auf Checkout-Seite"
+
+msgid "Price Breakdown"
+msgstr "Preisaufteilung"
+
+msgid "Price breakdown unfolded by default."
+msgstr "Preisaufteilung standardmäßig angezeigt."
+
+msgid "Accounts"
+msgstr "Konten"
+
+msgid "Account creation"
+msgstr "Konto-Erstellung"
+
+msgid "Automatically create an account for a user at checkout."
+msgstr "Nach dem Check-out automatisch ein Konto für diesen Benutzer erstellen."
+
+msgid "Allow customers to create an account during checkout."
+msgstr "Kunden erlauben, während des Check-outs ein Konto zu erstellen."
+
+msgid "Allow customers to log into their existing account during checkout."
+msgstr "Kunden erlauben, sich während des Check-outs bei ihrem vorhandenen Konto anzumelden."
+
+msgid "Booking Cancellation"
+msgstr "Stornierung der Buchung"
+
+msgid "User can cancel booking via link provided inside email."
+msgstr "Der Benutzer kann die Buchung über den Link innerhalb der E-Mail stornieren."
+
+msgid "Booking Cancelation Page"
+msgstr "Seite Buchungsstornierung"
+
+msgid "Page to confirm booking cancelation."
+msgstr "Seite für die Bestätigung der Stornierung der Buchung."
+
+msgid "Booking Canceled Page"
+msgstr "Seite Buchung storniert"
+
+msgid "Page to redirect to after a booking is canceled."
+msgstr "Zu dieser Seite werden Sie weitergeleitet, nachdem die Seite storniert wurde."
+
+msgid "Search Options"
+msgstr "Suchoptionen"
+
+msgid "Maximum accommodation occupancy available in the Search Form."
+msgstr "Maximale Belegung der Unterkunft im Suchformular."
+
+msgid "Max Adults"
+msgstr "Max Erwachsene"
+
+msgid "Max Children"
+msgstr "Max Kinder"
+
+msgid "Age of Child"
+msgstr "Alter des Kindes"
+
+msgid "Optional description of the \"Children\" field."
+msgstr "Optionale Beschreibung des Felds „Kinder“."
+
+msgid "Skip Search Results"
+msgstr "Suchergebnisse überspringen"
+
+msgid "Skip search results page and enable direct booking from accommodation pages."
+msgstr "Suchergebnisseite überspringen und direkte Buchung auf Unterkunftsseiten aktivieren."
+
+msgid "Direct Booking Form"
+msgstr "Formular Direktbuchung"
+
+msgid "Show price for selected period"
+msgstr "Preis für den ausgewählten Zeitraum anzeigen"
+
+msgid "Show price together with adults and children fields"
+msgstr "Preis mit Feldern für Erwachsene und Kinder anzeigen"
+
+msgid "Book button behavior on the search results page"
+msgstr "Verhalten der Buchschaltfläche auf der Suchergebnisseite"
+
+msgid "Redirect to the checkout page immediately after successful addition to reservation."
+msgstr "Weiterleiten an die Checkout-Seite sofort nach erfolgreicher Hinzufügung zur Reservierung."
+
+msgid "Enable \"adults\" and \"children\" options for my website (default)."
+msgstr "Optionen „Erwachsene“ und „Kinder“ für meine Website aktivieren (Standard)."
+
+msgid "Disable \"children\" option for my website (hide \"children\" field and use Guests label instead)."
+msgstr "Option „Kinder“ für meine Website deaktivieren („Kinder“ Feld ausblenden und Gast Bezeichnung stattdessen verwenden)."
+
+msgid "Disable \"adults\" and \"children\" options for my website."
+msgstr "Optionen „Erwachsene“ und „Kinder“ für meine Website deaktivieren ."
+
+msgid "Guest Management"
+msgstr "Gästemanagement"
+
+msgid "Hide \"adults\" and \"children\" fields within search availability forms."
+msgstr "„Erwachsene“ und  „Kinder“ Felder für Verfügbarkeitssuche-Formulare ausblenden."
+
+msgid "Do not apply booking rules for admin bookings."
+msgstr "Buchungsregeln auf Administrator-Buchungen nicht anwenden."
+
+msgid "Display Options"
+msgstr "Anzeigeoptionen"
+
+msgid "Display gallery images of accommodation page in lightbox."
+msgstr "Bildergalerie der Unterkunftsseite im Leuchtkasten anzeigen."
+
+msgid "Availability Calendar"
+msgstr "Verfügbarkeitskalender"
+
+msgid "Display per-night prices in the availability calendar."
+msgstr ""
+
+msgid "Truncate per-night prices in the availability calendar."
+msgstr ""
+
+msgid "Display the currency sign in the availability calendar."
+msgstr ""
+
+msgid "Calendar Theme"
+msgstr "Kalender-Thema"
+
+msgid "Select theme for an availability calendar."
+msgstr "Wählen Sie das Thema für einen Verfügbarkeitskalender aus."
+
+msgid "Template Mode"
+msgstr "Template-Modus"
+
+msgid "Developer Mode"
+msgstr "Entwicklermodus"
+
+msgid "Theme Mode"
+msgstr "Theme-Modus"
+
+msgid "Choose Theme Mode to display the content with the styles of your theme. Choose Developer Mode to control appearance of the content with custom page templates, actions and filters. This option can't be changed if your theme is initially integrated with the plugin."
+msgstr "Wählen Sie den Themenmodus, um den Inhalt mit den Stilen Ihres Themes anzuzeigen. Wählen Sie den Entwicklermodus, um das Aussehen des Inhalts mit benutzerdefinierten Seitenvorlagen, Aktionen und Filtern zu steuern. Diese Option kann nicht geändert werden, wenn Ihr Theme zunächst mit dem Plugin integriert ist."
+
+msgid "More Styles"
+msgstr "Mehr Stile"
+
+msgid "Extend the styling options of Hotel Booking plugin with the new free addon - Hotel Booking Styles."
+msgstr "Erweitern Sie die Stiloptionen des Hotel Booking Plugins mit der neuen kostenlosen Erweiterung Hotel Booking Styles."
+
+msgid "Calendars Synchronization"
+msgstr "Synchronisation von Kalendern"
+
+msgid "Export admin blocks."
+msgstr "Exportieren Admin-Blöcke ."
+
+msgid "Do not export imported bookings."
+msgstr "Exportieren importierte Buchungen nicht ."
+
+msgid "Minimize Logs"
+msgstr ""
+
+msgid "Enable the plugin to record only important messages."
+msgstr ""
+
+msgid "Calendars Synchronization Scheduler"
+msgstr "Kalender Synchronisierungseinstellungen"
+
+msgid "Enable automatic external calendars synchronization"
+msgstr "Automatische Synchronisierung von externen Kalendern aktivieren"
+
+msgid "Clock"
+msgstr "Uhr"
+
+msgid "Sync calendars at this time (UTC) or starting at this time every interval below."
+msgstr "Kalender zu diesem Zeitpunkt (UTC) oder ab diesem Zeitpunkt bei jedem untenstehenden Intervall synchronisieren."
+
+msgid "Interval"
+msgstr "Intervall"
+
+msgid "Quarter an Hour"
+msgstr "Viertelstunde"
+
+msgid "Half an Hour"
+msgstr "Halbe Stunde"
+
+msgid "Once Hourly"
+msgstr "Einmal stündlich"
+
+msgid "Twice Daily"
+msgstr "Zweimal täglich"
+
+msgid "Once Daily"
+msgstr "Einmal täglich"
+
+msgid "Automatically delete sync logs older than"
+msgstr "Synch logs löschen, wenn älter als"
+
+msgid "Day"
+msgstr "Tag"
+
+msgid "Week"
+msgstr "Woche"
+
+msgid "Month"
+msgstr "Monat"
+
+msgid "Quarter"
+msgstr "Quartal"
+
+msgid "Half a Year"
+msgstr "Halbjährlich"
+
+msgid "Never Delete"
+msgstr "Niemals löschen"
+
+msgid "Block Editor"
+msgstr "Block-Editor"
+
+msgid "Enable block editor for \"%s\"."
+msgstr "Block-Editor für \"%s\" aktivieren."
+
+msgid "Accommodation Types"
+msgstr "Unterkunftsarten"
+
+msgid "Services"
+msgstr "Dienstleistungen"
+
+msgid "Admin Emails"
+msgstr "Admin-E-Mails"
+
+msgid "Customer Emails"
+msgstr "Kunden-E-Mails"
+
+msgid "Turn one-time guests into loyal customers by sending out automatic marketing campaigns with the <a>Hotel Booking & Mailchimp Integration</a>."
+msgstr "Machen Sie aus einmaligen Gästen treue Kunden, indem Sie mit der <a>Hotel Booking & Mailchimp Integration</a> automatische Marketingkampagnen versenden."
+
+msgid "Turn one-time guests into loyal customers by sending out automatic marketing campaigns with the Hotel Booking & Mailchimp Integration."
+msgstr "Machen Sie aus einmaligen Gästen treue Kunden, indem Sie mit der Integration von Hotel Booking & Mailchimp automatische Marketingkampagnen versenden."
+
+msgid "Cancellation Details Template"
+msgstr "Stornierungsdetails-Template"
+
+msgid "Used for %cancellation_details% tag."
+msgstr "Verwendet für %cancellation_details% Tag."
+
+msgid "Email Settings"
+msgstr "E-Mail-Einstellungen"
+
+msgid "Send automated email notifications, such as key pick-up instructions, house rules, before and after arrival/departure with <a>Hotel Booking Notifier</a>."
+msgstr "Senden Sie mit <a>Hotel Booking Notifier</a> automatisierte E-Mail-Benachrichtigungen, z. B. Anweisungen zur Schlüsselübergabe, Hausregeln, vor und nach der Ankunft / Abreise."
+
+msgid "Send automated email notifications, such as key pick-up instructions, house rules, before and after arrival/departure with Hotel Booking Notifier."
+msgstr "Senden Sie mit dem Hotel Booking Notifier automatisierte E-Mail-Benachrichtigungen, wie Anweisungen zur Schlüsselübergabe, Hausregeln, vor und nach der Ankunft / Abreise."
+
+msgid "Email Sender"
+msgstr "E-Mail-Sender"
+
+msgid "Administrator Email"
+msgstr "Administrator E-Mail-Adresse"
+
+msgid "From Email"
+msgstr "Von E-Mail"
+
+msgid "From Name"
+msgstr "Von Namen"
+
+msgid "Logo URL"
+msgstr "Logo-URL"
+
+msgid "Footer Text"
+msgstr "Footer-Text"
+
+msgid "Reserved Accommodation Details Template"
+msgstr "Template für Details von reservierter Unterkunft"
+
+msgid "Used for %reserved_rooms_details% tag."
+msgstr "Verwendet für %reserved_rooms_details% Tag."
+
+msgid "Styles"
+msgstr "Stile"
+
+msgid "Base Color"
+msgstr "Grundfarbe"
+
+msgid "Background Color"
+msgstr "Hintergrundfarbe"
+
+msgid "Body Background Color"
+msgstr "Body-Hintergrundfarbe"
+
+msgid "Body Text Color"
+msgstr "Body-Textfarbe"
+
+msgid "Payment Gateways"
+msgstr "Zahlung-Gateways"
+
+msgid "General Settings"
+msgstr "Allgemeine Einstellungen"
+
+msgid "Need more gateways? Use our Hotel Booking <a href=\"%s\" target=\"_blank\">WooCommerce Payments</a> extension."
+msgstr "Benötigen Sie mehr Gateways? Benutzen unsere Hotel Booking <a href=\"%s\" target=\"_blank\">WooCommerce Zahlungen</a> Erweiterung."
+
+msgid "You may also email the <a href=\"%s\" target=\"_blank\">balance payment request</a> link to your guests."
+msgstr "Sie können auch den <a href=\"%s\" target=\"_blank\">Restzahlungsanforderung</a> Link an Ihre Gäste senden."
+
+msgid "User Pays"
+msgstr "Benutzer zahlt"
+
+msgid "Full Amount"
+msgstr "Gesamtbetrag"
+
+msgid "Deposit"
+msgstr "Anzahlung"
+
+msgid "Deposit Type"
+msgstr "Einzahlungsart"
+
+msgid "Fixed"
+msgstr "Fest"
+
+msgid "Percent"
+msgstr "Prozent"
+
+msgid "Deposit Amount"
+msgstr "Einzahlungsbetrag"
+
+msgid "Deposit Time Frame (days)"
+msgstr "Zeitfenster der Einzahlung (Tage)"
+
+msgid "Apply deposit to bookings made in at least the selected number of days prior to the check-in date. Otherwise, the full amount is charged."
+msgstr "Wenden Sie die Einzahlungen für die Buchungen mindestens für die ausgewählte Anzahl Tage vor dem Anreisedatum an. Andernfalls wird der volle Betrag in Rechnung gestellt."
+
+msgid "Force Secure Checkout"
+msgstr "Sicherer Buchungsvorgang"
+
+msgid "Force SSL (HTTPS) on the checkout pages. You must have an SSL certificate installed to use this option."
+msgstr "Obligatorische SSL (HTTPS) auf den Checkout-Seiten. Sie müssen ein SSL-Zertifikat installiert haben, um diese Option zu verwenden."
+
+msgid "Reservation Received Page"
+msgstr "\"Reservierung erhalten\"-Seite"
+
+msgid "Failed Transaction Page"
+msgstr "Fehlgeschlagene Transaktionsseite"
+
+msgid "Default Gateway"
+msgstr "Standard-Gateway"
+
+msgid "Pending Payment Time"
+msgstr "Ausstehende Zahlungszeit"
+
+msgid "Period of time in minutes the user is given to complete payment. Unpaid bookings become Abandoned and accommodation status changes to Available."
+msgstr "Zeitraum in Minuten, in dem der Benutzer die Zahlung bezahlt hat. Unbezahlte Buchungen werden aufgegeben und der Unterkunftsstatus ändert sich auf Verfügbar."
+
+msgid "Install <a href=\"%s\" target=\"_blank\">Hotel Booking addons</a> to manage their settings."
+msgstr "Installieren <a href=\"%s\" target=\"_blank\">Hotel Booking Addons</a>, um ihre Einstellungen zu verwalten."
+
+msgid "Install Hotel Booking addons to manage their settings."
+msgstr "Installieren Sie Hotel Booking Addons, um ihre Einstellungen zu verwalten."
+
+msgid "Advanced"
+msgstr "Erweitert"
+
+msgid "License"
+msgstr "Lizenz"
+
+msgid "Settings saved."
+msgstr "Einstellungen gespeichert."
+
+msgid "<strong>Note:</strong> Payment methods will appear on the checkout page only when Confirmation Upon Payment is enabled in Accommodation > Settings > General > Confirmation Mode."
+msgstr "<strong>Hinweis:</strong> Zahlungsmethoden werden auf der Checkout-Seite nur dann angezeigt, wenn Bestätigung bei Zahlung  in Unterkunft > Einstellungen > Allgemein > Bestätigungsmodus aktiviert ist."
+
+msgid "Settings"
+msgstr "Einstellungen"
+
+msgid "Availability Search Form"
+msgstr "Verfügbarkeitsformularsuche"
+
+msgid "Display search form."
+msgstr "Suchformular anzeigen."
+
+msgid "The number of adults presetted in the search form."
+msgstr "Die Anzahl der Erwachsenen, die im Suchformular vorgegeben sind."
+
+msgid "The number of children presetted in the search form."
+msgstr "Die Anzahl der Kinder, die im Suchformular vorgegeben sind."
+
+msgid "Check-in date presetted in the search form."
+msgstr "Vorgegebenes Eincheckdatum im Suchformular."
+
+msgid "date in format %s"
+msgstr "Datum im Format %s"
+
+msgid "Check-out date presetted in the search form."
+msgstr "Vorgegebenes Auscheckdatum im Suchformular."
+
+msgid "Custom attributes for advanced search."
+msgstr "Benutzerdefinierte Attribute für die erweiterte Suche."
+
+msgid "Comma-separated slugs of attributes."
+msgstr "Durch Komma getrennte Slugs von Attributen."
+
+msgid "Custom CSS class for shortcode wrapper"
+msgstr "Benutzerdefinierte CSS-Klasse für Shortcode-Wrapper"
+
+msgid "whitespace separated css classes"
+msgstr "Mit Leerzeichen getrennte CSS-Klassen"
+
+msgid "Accommodation Type ID"
+msgstr "Unterkunftsart ID"
+
+msgid "ID of Accommodation Type to check availability."
+msgstr "Geben Sie ID der Unterkunftsart, um die Verfügbarkeit zu überprüfen."
+
+msgid "integer number"
+msgstr "Integer-Nummer"
+
+msgid "How many months to show."
+msgstr "Wie viel Monate angezeigt werden sollen."
+
+msgid "Set the number of columns or the number of rows and columns separated by comma. Example: \"3\" or \"2,3\""
+msgstr "Stellen Sie die Spaltenanzahl oder die Komma-getrennte Spalten- und Zielenanzahl ein. Zum Beispiel „3“ oder „2,3“"
+
+msgid "Display availability calendar of the current accommodation type or by ID."
+msgstr "Den Verfügbarkeitskalender der aktuellen Unterkunftsart oder nach ID anzeigen."
+
+msgid "Availability Search Results"
+msgstr "Verfügbarkeit Suchergebnisse"
+
+msgid "Display listing of accommodation types that meet the search criteria."
+msgstr "Liste der Unterkunftsarten anzeigen, die den Suchkriterien entsprechen."
+
+msgid "Whether to display title of the accommodation type."
+msgstr "Ob der Titel der Unterkunftsart angezeigt werden soll."
+
+msgid "Whether to display featured image of the accommodation type."
+msgstr "Ob das Vorschaubild der Unterkunftsart angezeigt werden soll."
+
+msgid "Whether to display gallery of the accommodation type."
+msgstr "Ob Galerie der Unterkunftsart angezeigt werden soll."
+
+msgid "Whether to display excerpt (short description) of the accommodation type."
+msgstr "Ob Auszug (Kurzbeschreibung) der Unterkunftsart angezeigt werden soll."
+
+msgid "Whether to display details of the accommodation type."
+msgstr "Ob Einzelheiten der Unterkunftsart angezeigt werden sollen."
+
+msgid "Whether to display price of the accommodation type."
+msgstr "Ob der Preis der Unterkunftsart angezeigt werden soll."
+
+msgid "Show View Details button"
+msgstr "\"Details ansehen\"-Button zeigen"
+
+msgid "Whether to display \"View Details\" button with the link to accommodation type."
+msgstr "Ob \"Details ansehen\" -Taste mit dem Link zur Unterkunftsart angezeigt werden soll."
+
+msgid "Sort by."
+msgstr "Sortieren nach."
+
+msgid "%1$s. See the <a href=\"%2$s\" target=\"_blank\">full list</a>."
+msgstr "%1$s. Sehen Sie <a href=\"%2$s\" target=\"_blank\">die vollständige Liste</a>."
+
+msgid "Designates the ascending or descending order of sorting."
+msgstr "Bezeichnet die aufsteigende oder absteigende Sortierreihenfolge."
+
+msgid "ASC - from lowest to highest values (1, 2, 3). DESC - from highest to lowest values (3, 2, 1)."
+msgstr "ASC - vom niedrigsten zum höchsten Wert (1, 2, 3). DESC -  vom höchsten zum niedrigsten Wert (3, 2, 1)."
+
+msgid "Custom field name. Required if \"orderby\" is one of the \"meta_value\", \"meta_value_num\" or \"meta_value_*\"."
+msgstr "Benutzerdefinierter Feldname. Erforderlich, wenn \"orderby\" ist einer der \"meta_value\", \"meta_value_num\" oder \"meta_value_*\"."
+
+msgid "custom field name"
+msgstr "benutzerdefinierter Feldname"
+
+msgid "empty string"
+msgstr "Leere Reihe"
+
+msgid "Specified type of the custom field. Can be used in conjunction with orderby=\"meta_value\"."
+msgstr "Angegebener Typ des benutzerdefinierten Felds. Kann in Verbindung mit orderby=\"meta_value\" verwendet werden."
+
+msgid "Sort by. Use \"orderby\" insted."
+msgstr "Sortieren nach. Verwenden Sie \"orderby\" stattdessen."
+
+msgid "Show Book button"
+msgstr "Buchungsbutton anzeigen"
+
+msgid "Whether to display Book button."
+msgstr "Ob die Buchungsbutton angezeigt werden soll."
+
+msgid "NOTE:"
+msgstr "HINWEIS:"
+
+msgid "Use only on page that you set as Search Results Page in <a href=\"%s\">Settings</a>"
+msgstr "Nur auf der Seite verwenden, die Sie als Suchergebnisse-Seite in <a href=\"%s\"> Einstellungen </a> festgelegt haben"
+
+msgid "Accommodation Types Listing"
+msgstr "Unterkunftsarten-Liste"
+
+msgid "Count per page"
+msgstr "Anzahl pro Seite"
+
+msgid "integer, -1 to display all, default: \"Blog pages show at most\""
+msgstr "Ganzzahl; -1 um alle anzuzeigen; Standard: 'Blogseiten zeigen maximal' (Einstellungen\\Lesen)"
+
+msgid "IDs of categories that will be shown."
+msgstr "IDs von Kategorien, die angezeigt werden."
+
+msgid "Comma-separated IDs."
+msgstr "Mit Komma getrennte IDs."
+
+msgid "IDs of tags that will be shown."
+msgstr "IDs von Tags, die angezeigt werden."
+
+msgid "IDs of accommodations that will be shown."
+msgstr "IDs von Unterkünften, die angezeigt werden."
+
+msgid "Logical relationship between each taxonomy when there is more than one."
+msgstr "Logischer Zusammenhang zwischen jeder Taxonomie, wenn es mehrere Taxonomien gibt."
+
+msgid "Services Listing"
+msgstr "Auflistung der Dienstleistungen"
+
+msgid "IDs"
+msgstr "ID´s"
+
+msgid "IDs of services that will be shown. "
+msgstr "IDs von Dienstleistungen, die angezeigt werden. "
+
+msgid "Show All Services"
+msgstr "Alle Dienstleistungen anzeigen"
+
+msgid "Single Accommodation Type"
+msgstr "Eine Unterkunftsart"
+
+msgid "ID of accommodation type to display."
+msgstr "ID der Unterkunftsart anzuzeigen."
+
+msgid "Display accommodation type with title and image."
+msgstr "Unterkunftsart mit Titel und Bild anzeigen."
+
+msgid "Checkout Form"
+msgstr "Checkout-Formular"
+
+msgid "Display checkout form."
+msgstr "Checkout-Formular anzeigen."
+
+msgid "Use only on page that you set as Checkout Page in <a href=\"%s\">Settings</a>"
+msgstr "Nur auf der Seite verwenden, die Sie als Checkout-Seite in <a href=\"%s\"> Einstellungen </a> festgelegt haben"
+
+msgid "Booking Form"
+msgstr "Buchungsformular"
+
+msgid "Show Booking Form for Accommodation Type with id 777"
+msgstr "Buchungsformular für Unterkunftsart mit der ID 777 anzeigen"
+
+msgid "Accommodation Rates List"
+msgstr "Unterkunft-Ratenliste"
+
+msgid "ID of accommodation type."
+msgstr "ID der Unterkunftsart."
+
+msgid "Show Accommodation Rates List for accommodation type with id 777"
+msgstr "Unterkunft-Ratenliste für Unterkunftsart mit der ID 777 anzeigen"
+
+msgid "Display booking and payment details."
+msgstr "Buchungs- und Zahlungsdetails anzeigen."
+
+msgid "Use this shortcode on Booking Confirmed and Reservation Received pages"
+msgstr "Nutzten Sie diesen Shortcode auf der \"Buchung bestätigt\"- oder \"Reservierung erhalten\"-Seiten"
+
+msgid "Booking Cancelation"
+msgstr "Stornierung der Buchung"
+
+msgid "Display booking cancelation details."
+msgstr "Detail der Stornierung der Buchung anzeigen."
+
+msgid "Use this shortcode on the Booking Cancelation page"
+msgstr "Diesen Kurzcode auf der Seite der Stornierung der Bestellung verwenden"
+
+msgid "Customer Account"
+msgstr "Kundenkonto"
+
+msgid "Display log in form or customer account area."
+msgstr "Anmeldeformular oder Kundenkontobereich anzeigen."
+
+msgid "Use this shortcode to create the My Account page."
+msgstr "Verwenden Sie diesen Kurzcode, um die Seite Mein Konto zu erstellen."
+
+msgid "Shortcodes"
+msgstr "Kurzcodes"
+
+msgid "Shortcode"
+msgstr "Tastenkombination"
+
+msgid "Parameters"
+msgstr "Parameter"
+
+msgid "Example"
+msgstr "Beispiel"
+
+msgid "Deprecated since %s"
+msgstr "Veraltet seit %s"
+
+msgid "Values:"
+msgstr "Werte:"
+
+msgid "Default:"
+msgstr "Standard:"
+
+msgid "Optional."
+msgstr "Optional."
+
+msgid "Required"
+msgstr "Erforderlich"
+
+msgid "Taxes and fees saved."
+msgstr "Steuern und Gebühren gespeichert."
+
+msgid "Taxes & Fees"
+msgstr "Steuern und Gebühren"
+
+msgid "Fees"
+msgstr "Gebühren"
+
+msgid "No fees have been created yet."
+msgstr "Keine Gebühren wurden noch erstellt."
+
+msgid "Add new"
+msgstr "Neu hinzufügen"
+
+msgid "Label"
+msgstr "Bezeichnung"
+
+msgid "New fee"
+msgstr "Neue Gebühr"
+
+msgid "Per guest / per day"
+msgstr "Pro Gast / pro Tag"
+
+msgid "Per accommodation / per day"
+msgstr "Pro Unterkunft / pro Tag"
+
+msgid "Per accommodation (%)"
+msgstr "Pro Unterkunft (%)"
+
+msgid "Limit"
+msgstr "Grenzwert"
+
+msgid "How often this fee is charged. Set 0 to charge each day of the stay period. Set 1 to charge once."
+msgstr "Häufigkeit der Berechnung dieser Gebühr. Legen Sie 0 fest, um sie für jeden Tag des Aufenthaltszeitraums zu berechnen. Bei einmaliger Berechnung 1 festlegen."
+
+msgid "Include"
+msgstr "Einschließen"
+
+msgid "Show accommodation rate with this charge included"
+msgstr "Übernachtungstarif einschließlich dieser Gebühr anzeigen"
+
+msgid "Accommodation Taxes"
+msgstr "Unterkunftssteuern"
+
+msgid "No taxes have been created yet."
+msgstr "Keine Steuern wurden noch erstellt."
+
+msgid "New tax"
+msgstr "Neue Steuer"
+
+msgid "Limit of days the fee is charged. Set 0 to charge each day of stay period. Set 1 to charge once."
+msgstr "Die Tagesgrenze der Gebühr wird begrenzt. Setzen Sie 0 um jeden Tag des Aufenthalts zu berechnen. Setzen Sie 1 um einmalig zu berechnen."
+
+msgid "Service Taxes"
+msgstr "Dienstleistungssteuern"
+
+msgid "Percentage"
+msgstr "Prozentsatz"
+
+msgid "Fee Taxes"
+msgstr "Taxen und Gebühren"
+
+msgid "External Calendars"
+msgstr "Externe Kalender"
+
+msgid "Sync External Calendars"
+msgstr "Externe Kalender synchronisieren"
+
+msgctxt "Placeholder for empty accommodation title"
+msgid "(no title)"
+msgstr "(kein Titel)"
+
+msgid "Download Calendar"
+msgstr "Kalender herunterladen"
+
+msgid "Message"
+msgstr "Nachricht"
+
+msgid "Success"
+msgstr "Erfolgreich"
+
+msgid "Info"
+msgstr "Information"
+
+msgid "Warning"
+msgstr "Warnung"
+
+msgctxt "This is date and time format 31/12/2017 - 23:59:59"
+msgid "d/m/Y - H:i:s"
+msgstr "d/m/Y - H:i:s"
+
+msgid "Waiting"
+msgstr "Warten"
+
+msgid "Processing"
+msgstr "In Bearbeitung"
+
+msgctxt "Total number of processed bookings"
+msgid "Total"
+msgstr "Gesamt"
+
+msgid "Succeed"
+msgstr "Erfolgreich"
+
+msgid "Skipped"
+msgstr "Übersprungen"
+
+msgid "Failed"
+msgstr "Fehlgeschlagen"
+
+msgid "Removed"
+msgstr "Gelöscht"
+
+msgid "Copying to clipboard failed. Please press Ctrl/Cmd+C to copy."
+msgstr "Fehler beim Kopieren in die Zwischenablage. Zum Kopieren Strg/Cmd+C drücken."
+
+msgid "Description is missing."
+msgstr "Beschreibung fehlt."
+
+msgid "User is missing."
+msgstr "Benutzer fehlt."
+
+msgid "Permission is missing."
+msgstr "Berechtigung fehlt."
+
+msgid "You do not have permission to assign API Keys to the selected user."
+msgstr "Sie haben keine Berechtigung, dem ausgewählten Benutzer API-Schlüssel zuzuweisen."
+
+msgid "API Key updated successfully."
+msgstr "API-Schlüssel erfolgreich aktualisiert."
+
+msgid "API Key generated successfully. Make sure to copy your new keys now as the secret key will be hidden once you leave this page."
+msgstr "Der API-Schlüssel wurde erfolgreich generiert. Kopieren Sie Ihre neuen Schlüssel jetzt, denn der geheime Schlüssel wird nach Verlassen dieser Seite ausgeblendet."
+
+msgid "Revoke key"
+msgstr "Schlüssel widerrufen"
+
+msgid "No keys found."
+msgstr "Keine Schlüssel gefunden."
+
+msgid "Description"
+msgstr "Beschreibung"
+
+msgid "Consumer key ending in"
+msgstr "Verbraucherschlüssel läuft ab in"
+
+msgid "User"
+msgstr "Benutzer"
+
+msgid "Permissions"
+msgstr "Berechtigungen"
+
+msgid "Last access"
+msgstr "Letzter Zugriff"
+
+msgid "API key"
+msgstr "API-Schlüssel"
+
+#. translators: %d: API key ID.
+msgid "ID: %d"
+msgstr "ID: %d"
+
+msgid "Revoke"
+msgstr "Widerrufen"
+
+msgid "Read"
+msgstr "Lesen"
+
+msgid "Write"
+msgstr "Schreiben"
+
+msgid "Read/Write"
+msgstr "Lesen/Schreiben"
+
+#. translators: 1: last access date 2: last access time
+msgid "%1$s at %2$s"
+msgstr "%1$s um %2$s"
+
+msgid "Unknown"
+msgstr "Unbekannt"
+
+msgid "You do not have permission to edit this API Key"
+msgstr "Sie sind nicht berechtigt, diesen API-Schlüssel zu bearbeiten"
+
+msgid "REST API"
+msgstr "REST API"
+
+msgid "Add key"
+msgstr "Schlüssel hinzufügen"
+
+msgid "You do not have permission to revoke this API Key"
+msgstr "Sie sind nicht berechtigt, diesen API-Schlüssel zu widerrufen"
+
+msgid "You do not have permission to edit API Keys"
+msgstr "Sie sind nicht berechtigt, die API-Schlüssel zu bearbeiten"
+
+msgid "You do not have permission to revoke API Keys"
+msgstr "Sie sind nicht berechtigt, die API-Schlüssel zu widerrufen"
+
+msgid "Generate API key"
+msgstr "API-Schlüssel generieren"
+
+msgid "Friendly name for identifying this key."
+msgstr "Ein eingängiger Name, um diesen Schlüssel zu identifizieren."
+
+msgid "Owner of these keys."
+msgstr "Besitzer dieser Schlüssel."
+
+msgid "Access type of these keys."
+msgstr "Zugriffstyp auf diese Schlüssel."
+
+msgid "Consumer key"
+msgstr "Verbraucherschlüssel"
+
+msgid "Copied!"
+msgstr "Kopiert!"
+
+msgid "Copy"
+msgstr "Kopieren"
+
+msgid "Consumer secret"
+msgstr "Verbrauchergeheimnis"
+
+msgid "QR Code"
+msgstr "QR-Code"
+
+msgid "No bookings found for your request."
+msgstr "Keine Buchungen wurden für Ihre Anfrage gefunden."
+
+msgid "Uploads directory is not writable."
+msgstr "Das Upload-Verzeichnis ist nicht beschreibbar."
+
+msgid "No enough data"
+msgstr "Zu wenig Daten"
+
+msgid "An error has occurred"
+msgstr "Ein Fehler ist aufgetreten"
+
+msgid "Please complete all required fields and try again."
+msgstr "Bitte füllen Sie alle Pflichtfelder aus und versuchen Sie es erneut."
+
+msgid "An error has occurred, please try again later."
+msgstr "Ein Fehler ist aufgetreten. Bitte versuchen Sie es später erneut."
+
+msgid "The number of adults is not valid."
+msgstr ""
+
+msgid "The number of guests is not valid."
+msgstr ""
+
+msgid "An error has occurred. Please try again later."
+msgstr "Ein Fehler ist aufgetreten. Bitte versuchen Sie es später noch einmal."
+
+msgid "Sorry, the minimum allowed payment amount is %s to use this payment method."
+msgstr "Entschuldigung, der minimal zulässige Zahlungsbetrag ist %s, um diese Zahlungsmethode zu verwenden."
+
+msgid "Chosen payment method is not available. Please refresh the page and try one more time."
+msgstr "Ausgewählte Zahlungsmethode ist nicht verfügbar. Bitte aktualisieren Sie die Seite und versuchen Sie es noch einmal."
+
+msgid "Coupon applied successfully."
+msgstr "Der Gutschein wurde erfolgreich angewendet."
+
+msgid "Coupon is not valid."
+msgstr "Der Gutschein ist nicht gültig."
+
+msgid "Booking Information"
+msgstr "Buchungsinformationen"
+
+msgid "Check-in Date"
+msgstr "Anreisedatum"
+
+msgid "Check-out Date"
+msgstr "Abreisedatum"
+
+msgid "Customer Information"
+msgstr "Kundeninformationen"
+
+msgid "Customer Note"
+msgstr "Notizen des Kunden"
+
+msgid "Additional Information"
+msgstr "Zusätzliche Informationen"
+
+msgid "Coupon"
+msgstr "Gutschein"
+
+msgid "Total Booking Price"
+msgstr "Gesamtpreis der Buchung"
+
+msgid "Notes"
+msgstr "Notizen"
+
+#. translators: %1$s: note author, %1$s: note date
+msgid "%1$s on %2$s"
+msgstr "%1$s am %2$s"
+
+msgid "Based on your search parameters"
+msgstr "Basierend auf Ihren Suchparametern"
+
+msgid "You do not have permission to do this action."
+msgstr "Sie sind nicht berechtigt, diese Aktion auszuführen."
+
+msgctxt "Not selected value in the search form."
+msgid "&mdash;"
+msgstr "&mdash;"
+
+msgid "Year"
+msgstr "Jahr"
+
+msgid "Custom"
+msgstr "Benutzerdefiniert"
+
+msgctxt "Booking status"
+msgid "Confirmed"
+msgstr "Bestätigt"
+
+msgid "Show"
+msgstr "Vorschau"
+
+msgid "Search"
+msgstr "Suche"
+
+msgid "Booked"
+msgstr "Gebucht"
+
+msgid "Pending"
+msgstr "Ausstehend"
+
+msgid "External"
+msgstr "Extern"
+
+msgid "Blocked"
+msgstr "Blockiert"
+
+msgid "Search results for accommodations that have bookings with status \"%s\" from %s until %s"
+msgstr "Suchergebnisse für Unterkünfte, die Buchungen mit Status \"%s\" von %s bis %s haben"
+
+msgid "Free"
+msgstr "Kostenlos"
+
+msgid "Locked (Booked or Pending)"
+msgstr "Gesperrt (Gebucht oder Ausstehend)"
+
+msgid "Until"
+msgstr "Bis"
+
+msgid "Period:"
+msgstr "Zeitraum:"
+
+msgid "&lt; Prev"
+msgstr "&lt; Zurück"
+
+msgid "Next &gt;"
+msgstr "Weiter &gt;"
+
+msgid "No accommodations found."
+msgstr "Keine Unterkünfte gefunden."
+
+msgid "Check-out #%d"
+msgstr "Abreise #%d"
+
+msgid "Check-in #%d"
+msgstr "Anreise #%d"
+
+msgid "Booking #%d"
+msgstr "Buchung #%d"
+
+msgid "Buffer time."
+msgstr "Pufferzeit."
+
+msgctxt "Availability"
+msgid "Free"
+msgstr "Frei"
+
+msgid "Adults: %s"
+msgstr "Erwachsene:  %s"
+
+msgid "Children: %s"
+msgstr "Kinder: %s"
+
+msgid "Booking imported with UID %s."
+msgstr "Die Buchung wurde mit UID %s importiert."
+
+msgid "Imported booking."
+msgstr "Importierte Buchung."
+
+msgid "Description: %s."
+msgstr "Beschreibung: %s."
+
+msgid "Source: %s."
+msgstr "Quelle: %s."
+
+msgid "Afghanistan"
+msgstr "Afghanistan"
+
+msgid "&#197;land Islands"
+msgstr "Åland"
+
+msgid "Albania"
+msgstr "Albanien"
+
+msgid "Algeria"
+msgstr "Algerien"
+
+msgid "American Samoa"
+msgstr "Amerikanisch-Samoa"
+
+msgid "Andorra"
+msgstr "Andorra"
+
+msgid "Angola"
+msgstr "Angola"
+
+msgid "Anguilla"
+msgstr "Anguilla"
+
+msgid "Antarctica"
+msgstr "Antarktika"
+
+msgid "Antigua and Barbuda"
+msgstr "Antigua und Barbuda"
+
+msgid "Argentina"
+msgstr "Argentinien"
+
+msgid "Armenia"
+msgstr "Armenien"
+
+msgid "Aruba"
+msgstr "Aruba"
+
+msgid "Australia"
+msgstr "Australien"
+
+msgid "Austria"
+msgstr "Österreich"
+
+msgid "Azerbaijan"
+msgstr "Aserbaidschan"
+
+msgid "Bahamas"
+msgstr "Bahamas"
+
+msgid "Bahrain"
+msgstr "Bahrain"
+
+msgid "Bangladesh"
+msgstr "Bangladesch"
+
+msgid "Barbados"
+msgstr "Barbados"
+
+msgid "Belarus"
+msgstr "Weißrussland"
+
+msgid "Belgium"
+msgstr "Belgien"
+
+msgid "Belau"
+msgstr "Belau"
+
+msgid "Belize"
+msgstr "Belize"
+
+msgid "Benin"
+msgstr "Benin"
+
+msgid "Bermuda"
+msgstr "Bermuda"
+
+msgid "Bhutan"
+msgstr "Bhutan"
+
+msgid "Bolivia"
+msgstr "Bolivien"
+
+msgid "Bonaire, Saint Eustatius and Saba"
+msgstr "Karibische Niederlande"
+
+msgid "Bosnia and Herzegovina"
+msgstr "Bosnien-Herzegowina"
+
+msgid "Botswana"
+msgstr "Botswana"
+
+msgid "Bouvet Island"
+msgstr "Bouvetinsel"
+
+msgid "Brazil"
+msgstr "Brasilien"
+
+msgid "British Indian Ocean Territory"
+msgstr "Britisches Territorium im Indischen Ozean"
+
+msgid "British Virgin Islands"
+msgstr "Britische Jungferninseln"
+
+msgid "Brunei"
+msgstr "Brunei"
+
+msgid "Bulgaria"
+msgstr "Bulgarien"
+
+msgid "Burkina Faso"
+msgstr "Burkina Faso"
+
+msgid "Burundi"
+msgstr "Burundi"
+
+msgid "Cambodia"
+msgstr "Kambodscha"
+
+msgid "Cameroon"
+msgstr "Kamerun"
+
+msgid "Canada"
+msgstr "Kanada"
+
+msgid "Cape Verde"
+msgstr "Kap Verde"
+
+msgid "Cayman Islands"
+msgstr "Kaimaninseln"
+
+msgid "Central African Republic"
+msgstr "Zentralafrikanische Republik"
+
+msgid "Chad"
+msgstr "Tschad"
+
+msgid "Chile"
+msgstr "Chile"
+
+msgid "China"
+msgstr "China"
+
+msgid "Christmas Island"
+msgstr "Weihnachtsinsel"
+
+msgid "Cocos (Keeling) Islands"
+msgstr "Kokosinseln (Keelinginseln)"
+
+msgid "Colombia"
+msgstr "Kolumbien"
+
+msgid "Comoros"
+msgstr "Komoren"
+
+msgid "Congo (Brazzaville)"
+msgstr "Kongo - Brazzaville"
+
+msgid "Congo (Kinshasa)"
+msgstr "Kongo - Kinshasa"
+
+msgid "Cook Islands"
+msgstr "Cookinseln"
+
+msgid "Costa Rica"
+msgstr "Costa Rica"
+
+msgid "Croatia"
+msgstr "Kroatien"
+
+msgid "Cuba"
+msgstr "Kuba"
+
+msgid "Cura&ccedil;ao"
+msgstr "Curaçao"
+
+msgid "Cyprus"
+msgstr "Zypern"
+
+msgid "Czech Republic"
+msgstr "Tschechien"
+
+msgid "Denmark"
+msgstr "Dänemark"
+
+msgid "Djibouti"
+msgstr "Dschibuti"
+
+msgid "Dominica"
+msgstr "Dominikanische Republik"
+
+msgid "Dominican Republic"
+msgstr "Dominikanische Republik"
+
+msgid "Ecuador"
+msgstr "Ecuador"
+
+msgid "Egypt"
+msgstr "Ägypten"
+
+msgid "El Salvador"
+msgstr "El Salvador"
+
+msgid "Equatorial Guinea"
+msgstr "Äquatorialguinea"
+
+msgid "Eritrea"
+msgstr "Eritrea"
+
+msgid "Estonia"
+msgstr "Estonien"
+
+msgid "Ethiopia"
+msgstr "Äthiopien"
+
+msgid "Falkland Islands"
+msgstr "Falkland-Inseln"
+
+msgid "Faroe Islands"
+msgstr "Faroer-Inseln"
+
+msgid "Fiji"
+msgstr "Fidschi"
+
+msgid "Finland"
+msgstr "Finnland"
+
+msgid "France"
+msgstr "Frankreich"
+
+msgid "French Guiana"
+msgstr "Französisch-Guayana"
+
+msgid "French Polynesia"
+msgstr "Französisch-Polynesien"
+
+msgid "French Southern Territories"
+msgstr "Französische Südgebiete"
+
+msgid "Gabon"
+msgstr "Gabun"
+
+msgid "Gambia"
+msgstr "Gambien"
+
+msgid "Georgia"
+msgstr "Georgien"
+
+msgid "Germany"
+msgstr "Deutschland"
+
+msgid "Ghana"
+msgstr "Ghana"
+
+msgid "Gibraltar"
+msgstr "Gibraltar"
+
+msgid "Greece"
+msgstr "Griechenland"
+
+msgid "Greenland"
+msgstr "Grönland"
+
+msgid "Grenada"
+msgstr "Grenada"
+
+msgid "Guadeloupe"
+msgstr "Guadeloupe"
+
+msgid "Guam"
+msgstr "Guam"
+
+msgid "Guatemala"
+msgstr "Guatemala"
+
+msgid "Guernsey"
+msgstr "Guernsey"
+
+msgid "Guinea"
+msgstr "Guinea"
+
+msgid "Guinea-Bissau"
+msgstr "Guinea-Bissau"
+
+msgid "Guyana"
+msgstr "Guyana"
+
+msgid "Haiti"
+msgstr "Haiti"
+
+msgid "Heard Island and McDonald Islands"
+msgstr "Heard und McDonaldinseln"
+
+msgid "Honduras"
+msgstr "Honduras"
+
+msgid "Hong Kong"
+msgstr "Hong Kong"
+
+msgid "Hungary"
+msgstr "Ungarn"
+
+msgid "Iceland"
+msgstr "Island"
+
+msgid "India"
+msgstr "Indien"
+
+msgid "Indonesia"
+msgstr "Indonesien"
+
+msgid "Iran"
+msgstr "Iran"
+
+msgid "Iraq"
+msgstr "Irak"
+
+msgid "Ireland"
+msgstr "Irland"
+
+msgid "Isle of Man"
+msgstr "Isle of Man"
+
+msgid "Israel"
+msgstr "Israel"
+
+msgid "Italy"
+msgstr "Italien"
+
+msgid "Ivory Coast"
+msgstr "Elfenbeinküste"
+
+msgid "Jamaica"
+msgstr "Jamaika"
+
+msgid "Japan"
+msgstr "Japan"
+
+msgid "Jersey"
+msgstr "Jersey"
+
+msgid "Jordan"
+msgstr "Jordanien"
+
+msgid "Kazakhstan"
+msgstr "Kasachstan"
+
+msgid "Kenya"
+msgstr "Kenia"
+
+msgid "Kiribati"
+msgstr "Kiribati"
+
+msgid "Kuwait"
+msgstr "Kuwait"
+
+msgid "Kyrgyzstan"
+msgstr "Kirgisistan"
+
+msgid "Laos"
+msgstr "Laos"
+
+msgid "Latvia"
+msgstr "Lettland"
+
+msgid "Lebanon"
+msgstr "Libanon"
+
+msgid "Lesotho"
+msgstr "Lesotho"
+
+msgid "Liberia"
+msgstr "Liberia"
+
+msgid "Libya"
+msgstr "Libyen"
+
+msgid "Liechtenstein"
+msgstr "Liechtenstein"
+
+msgid "Lithuania"
+msgstr "Litauen"
+
+msgid "Luxembourg"
+msgstr "Luxemburg"
+
+msgid "Macao S.A.R., China"
+msgstr "Macau"
+
+msgid "Macedonia"
+msgstr "Mazedonien"
+
+msgid "Madagascar"
+msgstr "Madagaskar"
+
+msgid "Malawi"
+msgstr "Malawi"
+
+msgid "Malaysia"
+msgstr "Malaysien"
+
+msgid "Maldives"
+msgstr "Malediven"
+
+msgid "Mali"
+msgstr "Mali"
+
+msgid "Malta"
+msgstr "Malta"
+
+msgid "Marshall Islands"
+msgstr "Marshallinseln"
+
+msgid "Martinique"
+msgstr "Martinique"
+
+msgid "Mauritania"
+msgstr "Mauretanien"
+
+msgid "Mauritius"
+msgstr "Mauritius"
+
+msgid "Mayotte"
+msgstr "Mayotte"
+
+msgid "Mexico"
+msgstr "Mexiko"
+
+msgid "Micronesia"
+msgstr "Mikronesien"
+
+msgid "Moldova"
+msgstr "Moldawien"
+
+msgid "Monaco"
+msgstr "Monaco"
+
+msgid "Mongolia"
+msgstr "Mongolei"
+
+msgid "Montenegro"
+msgstr "Montenegro"
+
+msgid "Montserrat"
+msgstr "Montserrat"
+
+msgid "Morocco"
+msgstr "Marokko"
+
+msgid "Mozambique"
+msgstr "Mosambik"
+
+msgid "Myanmar"
+msgstr "Myanmar"
+
+msgid "Namibia"
+msgstr "Namibia"
+
+msgid "Nauru"
+msgstr "Nauru"
+
+msgid "Nepal"
+msgstr "Nepal"
+
+msgid "Netherlands"
+msgstr "Niederlande"
+
+msgid "New Caledonia"
+msgstr "Neukaledonien"
+
+msgid "New Zealand"
+msgstr "Neuseeland"
+
+msgid "Nicaragua"
+msgstr "Nicaragua"
+
+msgid "Niger"
+msgstr "Niger"
+
+msgid "Nigeria"
+msgstr "Nigeria"
+
+msgid "Niue"
+msgstr "Niue"
+
+msgid "Norfolk Island"
+msgstr "Norfolkinsel"
+
+msgid "Northern Mariana Islands"
+msgstr "Nördliche Marianen"
+
+msgid "North Korea"
+msgstr "Nordkorea"
+
+msgid "Norway"
+msgstr "Norwegen"
+
+msgid "Oman"
+msgstr "Oman"
+
+msgid "Pakistan"
+msgstr "Pakistan"
+
+msgid "Palestinian Territory"
+msgstr "Palästinensische Autonomiegebiete"
+
+msgid "Panama"
+msgstr "Panama"
+
+msgid "Papua New Guinea"
+msgstr "Papua-Neuguinea"
+
+msgid "Paraguay"
+msgstr "Paraguay"
+
+msgid "Peru"
+msgstr "Peru"
+
+msgid "Philippines"
+msgstr "Philippinen"
+
+msgid "Pitcairn"
+msgstr "Pitcairninseln"
+
+msgid "Poland"
+msgstr "Polen"
+
+msgid "Portugal"
+msgstr "Portugal"
+
+msgid "Puerto Rico"
+msgstr "Puerto Rico"
+
+msgid "Qatar"
+msgstr "Katar"
+
+msgid "Reunion"
+msgstr "Réunion"
+
+msgid "Romania"
+msgstr "Rumänien"
+
+msgid "Russia"
+msgstr "Russland"
+
+msgid "Rwanda"
+msgstr "Ruanda"
+
+msgid "Saint Barth&eacute;lemy"
+msgstr "Saint-Barthélemy"
+
+msgid "Saint Helena"
+msgstr "St. Helena"
+
+msgid "Saint Kitts and Nevis"
+msgstr "St. Kitts und Nevis"
+
+msgid "Saint Lucia"
+msgstr "St. Lucia"
+
+msgid "Saint Martin (French part)"
+msgstr "St. Martin (französischer Teil)"
+
+msgid "Saint Martin (Dutch part)"
+msgstr "St. Martin (niederländischer Inselteil)"
+
+msgid "Saint Pierre and Miquelon"
+msgstr "Saint-Pierre und Miquelon"
+
+msgid "Saint Vincent and the Grenadines"
+msgstr "St. Vincent und die Grenadinen"
+
+msgid "San Marino"
+msgstr "San Marino"
+
+msgid "S&atilde;o Tom&eacute; and Pr&iacute;ncipe"
+msgstr "São Tomé und Príncipe"
+
+msgid "Saudi Arabia"
+msgstr "Saudi-Arabien"
+
+msgid "Senegal"
+msgstr "Senegal"
+
+msgid "Serbia"
+msgstr "Serbien"
+
+msgid "Seychelles"
+msgstr "Seychellen"
+
+msgid "Sierra Leone"
+msgstr "Sierra Leone"
+
+msgid "Singapore"
+msgstr "Singapur"
+
+msgid "Slovakia"
+msgstr "Slowakei"
+
+msgid "Slovenia"
+msgstr "Slowenien"
+
+msgid "Solomon Islands"
+msgstr "Salomon-Inseln"
+
+msgid "Somalia"
+msgstr "Somalia"
+
+msgid "South Africa"
+msgstr "Südafrika"
+
+msgid "South Georgia/Sandwich Islands"
+msgstr "Südgeorgien und die Südlichen Sandwichinseln"
+
+msgid "South Korea"
+msgstr "Südkorea"
+
+msgid "South Sudan"
+msgstr "Südsudan"
+
+msgid "Spain"
+msgstr "Spanien"
+
+msgid "Sri Lanka"
+msgstr "Sri Lanka"
+
+msgid "Sudan"
+msgstr "Sudan"
+
+msgid "Suriname"
+msgstr "Surinam"
+
+msgid "Svalbard and Jan Mayen"
+msgstr "Svalbard und Jan Mayen"
+
+msgid "Swaziland"
+msgstr "Swasiland"
+
+msgid "Sweden"
+msgstr "Schweden"
+
+msgid "Switzerland"
+msgstr "Schweiz"
+
+msgid "Syria"
+msgstr "Syrien"
+
+msgid "Taiwan"
+msgstr "Taiwan"
+
+msgid "Tajikistan"
+msgstr "Tadschikistan"
+
+msgid "Tanzania"
+msgstr "Tansania"
+
+msgid "Thailand"
+msgstr "Thailand"
+
+msgid "Timor-Leste"
+msgstr "Osttimor"
+
+msgid "Togo"
+msgstr "Togo"
+
+msgid "Tokelau"
+msgstr "Tokelau"
+
+msgid "Tonga"
+msgstr "Tonga"
+
+msgid "Trinidad and Tobago"
+msgstr "Trinidad und Tobago"
+
+msgid "Tunisia"
+msgstr "Tunesien"
+
+msgid "Turkey"
+msgstr "Türkei"
+
+msgid "Turkmenistan"
+msgstr "Turkmenistan"
+
+msgid "Turks and Caicos Islands"
+msgstr "Turks- und Caicosinseln"
+
+msgid "Tuvalu"
+msgstr "Tuvalu"
+
+msgid "Uganda"
+msgstr "Uganda"
+
+msgid "Ukraine"
+msgstr "Ukraine"
+
+msgid "United Arab Emirates"
+msgstr "Vereinigte Arabische Emirate"
+
+msgid "United Kingdom (UK)"
+msgstr "Vereinigtes Königreich (UK)"
+
+msgid "United States (US)"
+msgstr "Vereinigte Staaten (USA)"
+
+msgid "United States (US) Minor Outlying Islands"
+msgstr "United States Minor Outlying Islands"
+
+msgid "United States (US) Virgin Islands"
+msgstr "Amerikanische Jungferninseln"
+
+msgid "Uruguay"
+msgstr "Uruguay"
+
+msgid "Uzbekistan"
+msgstr "Usbekistan"
+
+msgid "Vanuatu"
+msgstr "Vanuatu"
+
+msgid "Vatican"
+msgstr "Vatikan"
+
+msgid "Venezuela"
+msgstr "Venezuela"
+
+msgid "Vietnam"
+msgstr "Vietnam"
+
+msgid "Wallis and Futuna"
+msgstr "Wallis und Futuna"
+
+msgid "Western Sahara"
+msgstr "Westsahara"
+
+msgid "Samoa"
+msgstr "Samoa"
+
+msgid "Yemen"
+msgstr "Jemen"
+
+msgid "Zambia"
+msgstr "Sambia"
+
+msgid "Zimbabwe"
+msgstr "Simbabwe"
+
+msgid "Euro"
+msgstr "Euro"
+
+msgid "United States (US) dollar"
+msgstr "US-Dollar"
+
+msgid "Pound sterling"
+msgstr "Pfund Sterling"
+
+msgid "United Arab Emirates dirham"
+msgstr "Dirham der Vereinigten Arabischen Emirate"
+
+msgid "Afghan afghani"
+msgstr "Afghanischer Afghani"
+
+msgid "Albanian lek"
+msgstr "Albanischer Lek"
+
+msgid "Armenian dram"
+msgstr "Armenischer Dram"
+
+msgid "Netherlands Antillean guilder"
+msgstr "Niederländischer Antillen-Gulden"
+
+msgid "Angolan kwanza"
+msgstr "Angolischer Kwanza"
+
+msgid "Argentine peso"
+msgstr "Argentinischer Peso"
+
+msgid "Australian dollar"
+msgstr "Australischer Dollar"
+
+msgid "Aruban florin"
+msgstr "Aruba-Florin"
+
+msgid "Azerbaijani manat"
+msgstr "Aserbaidschan-Manat"
+
+msgid "Bosnia and Herzegovina convertible mark"
+msgstr "Konvertible Mark (BAM)"
+
+msgid "Barbadian dollar"
+msgstr "Barbados-Dollar"
+
+msgid "Bangladeshi taka"
+msgstr "Bangladeschischer Taka"
+
+msgid "Bulgarian lev"
+msgstr "Bulgarischer Lew"
+
+msgid "Bahraini dinar"
+msgstr "Bahrain-Dinar"
+
+msgid "Burundian franc"
+msgstr "Burundi-Franc"
+
+msgid "Bermudian dollar"
+msgstr "Bermuda-Dollar"
+
+msgid "Brunei dollar"
+msgstr "Brunei-Dollar"
+
+msgid "Bolivian boliviano"
+msgstr "Bolivianischer Boliviano"
+
+msgid "Brazilian real"
+msgstr "Brasilianischer Real"
+
+msgid "Bahamian dollar"
+msgstr "Bahama-Dollar"
+
+msgid "Bitcoin"
+msgstr "Bitcoin"
+
+msgid "Bhutanese ngultrum"
+msgstr "Bhutanischer Ngultrum"
+
+msgid "Botswana pula"
+msgstr "Botswanischer Pula"
+
+msgid "Belarusian ruble (old)"
+msgstr "Alter Weißrussischer Rubel"
+
+msgid "Belarusian ruble"
+msgstr "Weißrussischer Rubel"
+
+msgid "Belize dollar"
+msgstr "Belize-Dollar"
+
+msgid "Canadian dollar"
+msgstr "Kanadischer Dollar"
+
+msgid "Congolese franc"
+msgstr "Kongo-Franc"
+
+msgid "Swiss franc"
+msgstr "Schweizer Franken"
+
+msgid "Chilean peso"
+msgstr "Chilenischer Peso"
+
+msgid "Chinese yuan"
+msgstr "Chinesischer Yuan"
+
+msgid "Colombian peso"
+msgstr "Kolumbianischer Peso"
+
+msgid "Costa Rican col&oacute;n"
+msgstr "Costa-Rica-Colon"
+
+msgid "Cuban convertible peso"
+msgstr "Peso Convertible"
+
+msgid "Cuban peso"
+msgstr "Kubanischer Peso"
+
+msgid "Cape Verdean escudo"
+msgstr "Kap-Verde-Escudo"
+
+msgid "Czech koruna"
+msgstr "Tschechische Krone"
+
+msgid "Djiboutian franc"
+msgstr "Dschibuti-Franc"
+
+msgid "Danish krone"
+msgstr "Dänische Krone"
+
+msgid "Dominican peso"
+msgstr "Dominikanischer Peso"
+
+msgid "Algerian dinar"
+msgstr "Algerischer Dinar"
+
+msgid "Egyptian pound"
+msgstr "Ägyptisches Pfund"
+
+msgid "Eritrean nakfa"
+msgstr "Eritreischer Nakfa"
+
+msgid "Ethiopian birr"
+msgstr "Äthiopischer Birr"
+
+msgid "Fijian dollar"
+msgstr "Fidschi-Dollar"
+
+msgid "Falkland Islands pound"
+msgstr "Falkland-Pfund"
+
+msgid "Georgian lari"
+msgstr "Georgischer Lari"
+
+msgid "Guernsey pound"
+msgstr "Guernsey-Pfund"
+
+msgid "Ghana cedi"
+msgstr "Ghanaischer Cedi"
+
+msgid "Gibraltar pound"
+msgstr "Gibraltar-Pfund"
+
+msgid "Gambian dalasi"
+msgstr "Gambischer Dalasi"
+
+msgid "Guinean franc"
+msgstr "Guinea-Franc"
+
+msgid "Guatemalan quetzal"
+msgstr "Guatemaltekischer Quetzal"
+
+msgid "Guyanese dollar"
+msgstr "Guyana-Dollar"
+
+msgid "Hong Kong dollar"
+msgstr "Hongkong-Dollar"
+
+msgid "Honduran lempira"
+msgstr "Honduras-Lempira"
+
+msgid "Croatian kuna"
+msgstr "Kroatische Kuna"
+
+msgid "Haitian gourde"
+msgstr "Haitianische Gourde"
+
+msgid "Hungarian forint"
+msgstr "Ungarischer Forint"
+
+msgid "Indonesian rupiah"
+msgstr "Indonesische Rupiah"
+
+msgid "Israeli new shekel"
+msgstr "Israelischer Neuer Schekel"
+
+msgid "Manx pound"
+msgstr "Manx-Pfund"
+
+msgid "Indian rupee"
+msgstr "Indische Rupie"
+
+msgid "Iraqi dinar"
+msgstr "Irakischer Dinar"
+
+msgid "Iranian rial"
+msgstr "Iranischer Rial"
+
+msgid "Iranian toman"
+msgstr "Iranischer Toman"
+
+msgid "Icelandic kr&oacute;na"
+msgstr "Isländische Krone"
+
+msgid "Jersey pound"
+msgstr "Jersey-Pfund"
+
+msgid "Jamaican dollar"
+msgstr "Jamaika-Dollar"
+
+msgid "Jordanian dinar"
+msgstr "Jordanischer Dinar"
+
+msgid "Japanese yen"
+msgstr "Japanischer Yen"
+
+msgid "Kenyan shilling"
+msgstr "Kenianischer Shilling"
+
+msgid "Kyrgyzstani som"
+msgstr "Kirgisischer Som"
+
+msgid "Cambodian riel"
+msgstr "Kambodschanischer Riel"
+
+msgid "Comorian franc"
+msgstr "Komoren-Franc"
+
+msgid "North Korean won"
+msgstr "Nordkoreanischer Won"
+
+msgid "South Korean won"
+msgstr "Südkoreanischer Won"
+
+msgid "Kuwaiti dinar"
+msgstr "Kuwait-Dinar"
+
+msgid "Cayman Islands dollar"
+msgstr "Kaiman-Dollar"
+
+msgid "Kazakhstani tenge"
+msgstr "Kasachischer Tenge"
+
+msgid "Lao kip"
+msgstr "Laotischer Kip"
+
+msgid "Lebanese pound"
+msgstr "Libanesisches Pfund"
+
+msgid "Sri Lankan rupee"
+msgstr "Sri-Lanka-Rupie"
+
+msgid "Liberian dollar"
+msgstr "Liberianischer Dollar"
+
+msgid "Lesotho loti"
+msgstr "Lesothischer Loti"
+
+msgid "Libyan dinar"
+msgstr "Libyscher Dinar"
+
+msgid "Moroccan dirham"
+msgstr "Marokkanischer Dirham"
+
+msgid "Moldovan leu"
+msgstr "Moldauischer Leu"
+
+msgid "Malagasy ariary"
+msgstr "Madagascar-Ariary"
+
+msgid "Macedonian denar"
+msgstr "Mazedonischer Denar"
+
+msgid "Burmese kyat"
+msgstr "Myanmar-Kyat"
+
+msgid "Mongolian t&ouml;gr&ouml;g"
+msgstr "Mongolischer Tugrik"
+
+msgid "Macanese pataca"
+msgstr "Macau-Pataca"
+
+msgid "Mauritanian ouguiya"
+msgstr "Mauretanien Ouguiya"
+
+msgid "Mauritian rupee"
+msgstr "Mauritius-Rupie"
+
+msgid "Maldivian rufiyaa"
+msgstr "Malediven-Rupie"
+
+msgid "Malawian kwacha"
+msgstr "Malawi-Kwacha"
+
+msgid "Mexican peso"
+msgstr "Mexikanischer Peso"
+
+msgid "Malaysian ringgit"
+msgstr "Malaysischer Ringgit"
+
+msgid "Mozambican metical"
+msgstr "Mosambikanischer Metical"
+
+msgid "Namibian dollar"
+msgstr "Namibia-Dollar"
+
+msgid "Nigerian naira"
+msgstr "Nigerianischer Naira"
+
+msgid "Nicaraguan c&oacute;rdoba"
+msgstr "Nicaraguanischer Cordoba"
+
+msgid "Norwegian krone"
+msgstr "Norwegische Krone"
+
+msgid "Nepalese rupee"
+msgstr "Nepalesische Rupie"
+
+msgid "New Zealand dollar"
+msgstr "Neuseeland-Dollar"
+
+msgid "Omani rial"
+msgstr "Omanischer Rial"
+
+msgid "Panamanian balboa"
+msgstr "Panamaischer Balboa"
+
+msgid "Sol"
+msgstr "Sol"
+
+msgid "Papua New Guinean kina"
+msgstr "Papua Neuguinea-Kina"
+
+msgid "Philippine peso"
+msgstr "Philippinischer Peso"
+
+msgid "Pakistani rupee"
+msgstr "Pakistanische Rupie"
+
+msgid "Polish z&#x142;oty"
+msgstr "Polnischer Zloty"
+
+msgid "Transnistrian ruble"
+msgstr "Transnistrischer Rubel"
+
+msgid "Paraguayan guaran&iacute;"
+msgstr "Paraguayischer Guaraní"
+
+msgid "Qatari riyal"
+msgstr "Katar-Riyal"
+
+msgid "Romanian leu"
+msgstr "Rumänischer Leu"
+
+msgid "Serbian dinar"
+msgstr "Serbischer Dinar"
+
+msgid "Russian ruble"
+msgstr "Russischer Rubel"
+
+msgid "Rwandan franc"
+msgstr "Ruanda-Franc"
+
+msgid "Saudi riyal"
+msgstr "Saudi-Riyal"
+
+msgid "Solomon Islands dollar"
+msgstr "Salomonen-Dollar"
+
+msgid "Seychellois rupee"
+msgstr "Seychellen-Rupie"
+
+msgid "Sudanese pound"
+msgstr "Sudanesisches Pfund"
+
+msgid "Swedish krona"
+msgstr "Schwedische Krone"
+
+msgid "Singapore dollar"
+msgstr "Singapur-Dollar"
+
+msgid "Saint Helena pound"
+msgstr "St.-Helena-Pfund"
+
+msgid "Sierra Leonean leone"
+msgstr "Sierra-leonischer Leone"
+
+msgid "Somali shilling"
+msgstr "Somalia-Schilling"
+
+msgid "Surinamese dollar"
+msgstr "Suriname-Dollar"
+
+msgid "South Sudanese pound"
+msgstr "Südsudanesisches Pfund"
+
+msgid "S&atilde;o Tom&eacute; and Pr&iacute;ncipe dobra"
+msgstr "Sao Tomeischer Dobra"
+
+msgid "Syrian pound"
+msgstr "Syrisches Pfund"
+
+msgid "Swazi lilangeni"
+msgstr "Swasiländischer Lilangeni"
+
+msgid "Thai baht"
+msgstr "Thailändischer Baht"
+
+msgid "Tajikistani somoni"
+msgstr "Tajikistan Somoni"
+
+msgid "Turkmenistan manat"
+msgstr "Turkmenistan-Manat"
+
+msgid "Tunisian dinar"
+msgstr "Tunesischer Dinar"
+
+msgid "Tongan pa&#x2bb;anga"
+msgstr "Tongaische Pa’anga"
+
+msgid "Turkish lira"
+msgstr "Türkische Lira"
+
+msgid "Trinidad and Tobago dollar"
+msgstr "Trinidad-und-Tobago-Dollar"
+
+msgid "New Taiwan dollar"
+msgstr "Neuer Taiwan-Dollar"
+
+msgid "Tanzanian shilling"
+msgstr "Tansania-Schilling"
+
+msgid "Ukrainian hryvnia"
+msgstr "Ukrainische Hrywnja"
+
+msgid "Ugandan shilling"
+msgstr "Uganda-Schilling"
+
+msgid "Uruguayan peso"
+msgstr "Uruguayischer Peso"
+
+msgid "Uzbekistani som"
+msgstr "Usbekische Som"
+
+msgid "Venezuelan bol&iacute;var"
+msgstr "Venezolanischer Bolívar"
+
+msgid "Bol&iacute;var soberano"
+msgstr "Bolívar soberano"
+
+msgid "Vietnamese &#x111;&#x1ed3;ng"
+msgstr "Vietnamesischer Dong"
+
+msgid "Vanuatu vatu"
+msgstr "Vanuatischer Vatu"
+
+msgid "Samoan t&#x101;l&#x101;"
+msgstr "Samoanischer Tala"
+
+msgid "Central African CFA franc"
+msgstr "Zentralafrikanischer CFA-Franc"
+
+msgid "East Caribbean dollar"
+msgstr "Ostkaribischer Dollar"
+
+msgid "West African CFA franc"
+msgstr "Westafrikanischer CFA-Franc"
+
+msgid "CFP franc"
+msgstr "CFP-Franc"
+
+msgid "Yemeni rial"
+msgstr "Jemen-Rial"
+
+msgid "South African rand"
+msgstr "Südafrikanischer Rand"
+
+msgid "Zambian kwacha"
+msgstr "Sambischer Kwacha"
+
+msgid "Before"
+msgstr "Davor"
+
+msgid "After"
+msgstr "Danach"
+
+msgid "Before with space"
+msgstr "Davor mit Leerzeichen"
+
+msgid "After with space"
+msgstr "Danach mit Leerzeichen"
+
+msgid "First name is required."
+msgstr "Name ist erforderlich."
+
+msgid "Last name is required."
+msgstr "Nachname ist erforderlich."
+
+msgid "Email is required."
+msgstr "E-Mail ist erforderlich."
+
+msgid "Phone is required."
+msgstr "Telefon ist erforderlich."
+
+msgid "Country of residence"
+msgstr "Wohnort"
+
+msgid "Country is required."
+msgstr "Land ist erforderlich."
+
+msgid "Address is required."
+msgstr "Adresse ist erforderlich."
+
+msgid "City is required."
+msgstr "Stadt ist erforderlich."
+
+msgid "State is required."
+msgstr "Bundesland ist erforderlich."
+
+msgid "Postcode is required."
+msgstr "Postleitzahl ist erforderlich."
+
+msgid "Note is required."
+msgstr "Notiz ist erforderlich."
+
+msgid "Check-in"
+msgstr "Anreise"
+
+msgid "Check-out"
+msgstr "Abreise"
+
+#. translators: The value a hotel wishes to sell their rooms. Also called the Cost, Value, Tariff or Room charge.
+msgid "Rate"
+msgstr "Tarif"
+
+msgid "Adults/Guests"
+msgstr "Erwachsene / Gäste"
+
+msgid "Full Guest Name"
+msgstr "Vollständiger Name des Gastes"
+
+msgid "Accommodation Subtotal"
+msgstr "Unterkunft Zwischensumme"
+
+msgid "Total Accommodation Taxes"
+msgstr "Unterkunftssteuern gesamt"
+
+msgid "Total Fees"
+msgstr "Gebühren gesamt"
+
+msgid "Services Subtotal"
+msgstr "Services-Zwischensumme"
+
+msgid "Total Service Taxes"
+msgstr "Dienstleistungssteuern gesamt"
+
+msgid "Total Fee Taxes"
+msgstr "Steuern und Gebühren gesamt"
+
+msgid "Discount"
+msgstr "Rabatt"
+
+msgid "Total"
+msgstr "Gesamt"
+
+msgid "Paid"
+msgstr "Bezahlt"
+
+msgid "Payment Details"
+msgstr "Zahlungsdetails"
+
+msgid "Square Meter"
+msgstr "Quadratmeter"
+
+msgid "Square Foot"
+msgstr "Quadratfuß"
+
+msgid "Square Yard"
+msgstr "Quadratyard"
+
+msgid "m²"
+msgstr "m²"
+
+msgid "ft²"
+msgstr "ft²"
+
+msgid "yd²"
+msgstr "yd²"
+
+msgid "User Approval Time setted in Hotel Booking Settings"
+msgstr "Benutzer-Genehmigungszeit in Hotelbuchungseinstellungen festgelegt"
+
+msgid "Pending Payment Time set in Hotel Booking Settings"
+msgstr "Ausstehende Zahlungszeit in Hotelbuchungseinstellungen festlegen"
+
+msgid "Interval for automatic cleaning of synchronization logs."
+msgstr "Intervall für automatische Bereinigung der Synchronisationsprotokolle."
+
+msgid "x %d guest"
+msgid_plural "x %d guests"
+msgstr[0] "x %d Gast"
+msgstr[1] "x %d Gäste"
+
+msgid "x %d time"
+msgid_plural "x %d times"
+msgstr[0] "x %d Mal"
+msgstr[1] "x %d Mal"
+
+msgid "Please select columns to export."
+msgstr "Wählen Sie bitte Spateln zu exportieren aus."
+
+msgid "Disable this email notification"
+msgstr "Diese E-Mail-Benachrichtigung deaktivieren"
+
+msgid "Subject"
+msgstr "Betreff"
+
+msgid "Header"
+msgstr "Kopfzeile"
+
+msgid "Email Template"
+msgstr "E-Mail Template"
+
+msgid "\"%s\" email will not be sent: there is no customer email in the booking."
+msgstr "Die E-Mail \"%s\" kann nicht gesendet werden: In der Buchung ist keine Kunden-E-Mail enthalten."
+
+msgid "Deprecated tags in header of %s"
+msgstr "Veraltete Tags in Header von %s"
+
+msgid "Deprecated tags in subject of %s"
+msgstr "Veraltete Tags in Thema von %s"
+
+msgid "Deprecated tags in template of %s"
+msgstr "Veraltete Tags in Template von %s"
+
+msgid "Recipients"
+msgstr "Empfänger"
+
+msgid "You can use multiple comma-separated emails"
+msgstr "Sie können mehrere Komma-getrennte E-Mails eingeben"
+
+msgid "\"%s\" mail was sent to admin."
+msgstr "\"%s\" Mail wurde dem Administrator gesendet."
+
+msgid "\"%s\" mail sending to admin is failed."
+msgstr "\"%s\" Mail-Sendung dem Administrator ist fehlgeschlagen."
+
+msgid "Booking Cancelled"
+msgstr "Buchung wurde storniert"
+
+msgid "%site_title% - Booking #%booking_id% Cancelled"
+msgstr "%site_title% - Buchung #%booking_id% storniert"
+
+msgid "Email that will be sent to Admin when customer cancels booking."
+msgstr "E-Mail, die an Admin gesendet wird, wenn der Kunde die Buchung storniert."
+
+msgid "Cancelled Booking Email"
+msgstr "Stornierte Buchungs-E-Mail"
+
+msgid "Booking Confirmed"
+msgstr "Buchung bestätigt"
+
+msgid "%site_title% - Booking #%booking_id% Confirmed"
+msgstr "%site_title% - Buchung #%booking_id% bestätigt"
+
+msgid "Email that will be sent to Admin when payment is completed."
+msgstr "E-Mail, die an den Administrator gesendet wird, wenn die Zahlung abgeschlossen ist."
+
+msgid "Approved Booking Email (via payment)"
+msgstr "Bestätigte Buchung-E-Mail  (via Zahlung)"
+
+msgid "Email that will be sent to Admin when customer confirms booking."
+msgstr "E-Mail, die an den Administrator gesendet wird, wenn der Kunde die Buchung bestätigt."
+
+msgid "Approved Booking Email"
+msgstr "Genehmigte Buchungs-E-Mail"
+
+msgid "Confirm new booking"
+msgstr "Neue Buchung bestätigen"
+
+msgid "%site_title% - New booking #%booking_id%"
+msgstr "%site_title% - Neue Buchung #%booking_id%"
+
+msgid "Email that will be sent to administrator after booking is placed."
+msgstr "E-Mail, die nach der Buchung an den Administrator geschickt wird."
+
+msgid "Pending Booking Email"
+msgstr "Ausstehende Buchungs-E-Mail"
+
+msgid "Your booking is approved"
+msgstr "Ihre Buchung ist akzeptiert"
+
+msgid "%site_title% - Your booking #%booking_id% is approved"
+msgstr "%site_title% - Ihre Buchung #%booking_id% ist akzeptiert"
+
+msgid "Email that will be sent to customer when booking is approved."
+msgstr "E-Mail, die bei der Buchung an den Kunden geschickt wird."
+
+msgid "\"%s\" mail was sent to customer."
+msgstr "\"%s\" Mail wurde an den Kunden geschickt."
+
+msgid "\"%s\" mail sending is failed."
+msgstr "\"%s\" Mail-Sendung ist fehlgeschlagen."
+
+msgid "Your booking is cancelled"
+msgstr "Ihre Buchung wurde storniert"
+
+msgid "%site_title% - Your booking #%booking_id% is cancelled"
+msgstr "%site_title% - Ihre Buchung #%booking_id% wurde storniert"
+
+msgid "Email that will be sent to customer when booking is cancelled."
+msgstr "E-Mail, die an den Kunden gesendet wird, wenn die Buchung storniert wird."
+
+msgid "Confirm your booking"
+msgstr "Bestätigen Sie Ihre Buchung"
+
+msgid "%site_title% - Confirm your booking #%booking_id%"
+msgstr "%site_title% - Bestätigen Sie Ihre Buchung #%booking_id%"
+
+msgid "This email is sent when \"Booking Confirmation Mode\" is set to Customer confirmation via email."
+msgstr "Diese E-Mail wird gesendet, wenn „Buchungsbestätigungsmodus“ auf „Kunden-Bestätigung per E-Mail“ eingestellt ist."
+
+msgid "Email that will be sent to customer after booking is placed."
+msgstr "E-Mail, die dem Kunden nach der Buchung zugesandt wird."
+
+msgid "New Booking Email (Confirmation by User)"
+msgstr "Neue Buchungs-E-Mail (Bestätigung durch Benutzer)"
+
+msgid "Your booking is placed"
+msgstr "Ihre Buchung wurde empfangen"
+
+msgid "%site_title% - Booking #%booking_id% is placed"
+msgstr "%site_title%  - Buchung #%booking_id% wird platziert"
+
+msgid "This email is sent when \"Booking Confirmation Mode\" is set to Admin confirmation."
+msgstr "Diese E-Mail wird gesendet, wenn \"Buchungsbestätigungsmodus\" von Administrator-Bestätigung abhängig ist."
+
+msgid "New Booking Email (Confirmation by Admin)"
+msgstr "Neue Buchungs-E-Mail (Bestätigung durch Administrator)"
+
+msgid "Welcome"
+msgstr "Herzlich willkommen"
+
+msgid "%site_title% - account details"
+msgstr "%site_title% – Kontodetails"
+
+msgid "Email that will be sent to a customer after they registered on your site."
+msgstr "Diese E-Mail wird an die Kunden gesendet, nachdem sie sich auf Ihrer Website registriert haben."
+
+msgid "Customer Registration Email"
+msgstr "E-Mail zur Kundenregistrierung"
+
+msgid "Possible tags:"
+msgstr "Mögliche Tags:"
+
+msgid "Deprecated."
+msgstr "Veraltet."
+
+msgid "none"
+msgstr "Kein"
+
+msgid "User Cancellation Link"
+msgstr "Stornierungslink des Benutzers"
+
+msgid "Site title (set in Settings > General)"
+msgstr "Site-Titel (in Einstellungen> Allgemein)"
+
+msgid "Booking ID"
+msgstr "Buchung-ID"
+
+msgid "Booking Edit Link"
+msgstr "Buchung-Bearbeitungslink"
+
+msgid "Booking Total Price"
+msgstr "Gesamtpreis der Buchung"
+
+msgid "Customer First Name"
+msgstr "Vorname des Kunden"
+
+msgid "Customer Last Name"
+msgstr "Nachname des Kunden"
+
+msgid "Customer Email"
+msgstr "E-Mail des Kunden"
+
+msgid "Customer Phone"
+msgstr "Telefon des Kunden"
+
+msgid "Customer Country"
+msgstr "Land (Kunde)"
+
+msgid "Customer Address"
+msgstr "Adresse (Kunde)"
+
+msgid "Customer City"
+msgstr "Stadt (Kunde)"
+
+msgid "Customer State/County"
+msgstr "Bundesland Kunde"
+
+msgid "Customer Postcode"
+msgstr "Postleitzahl (PLZ) Kunde"
+
+msgid "Reserved Accommodations Details"
+msgstr "Details von reservierten Unterkünften"
+
+msgid "Booking Details"
+msgstr "Buchungsdetails"
+
+msgid "Confirmation Link"
+msgstr "Bestätigungslink"
+
+msgid "Confirmation Link Expiration Time ( UTC )"
+msgstr "Bestätigungslink Verfallzeit (UTC)"
+
+msgid "Cancellation Details (if enabled)"
+msgstr "Stornierungsdetails (falls aktiviert)"
+
+msgid "The total amount of payment"
+msgstr ""
+
+msgid "The unique ID of payment"
+msgstr "Persönliche Zahlung-ID"
+
+msgid "The method of payment"
+msgstr "Zahlungsmethode"
+
+msgid "Payment instructions"
+msgstr "Anleitung für Bezahlung"
+
+msgid "User login"
+msgstr "Benutzername"
+
+msgid "User password"
+msgstr "Benutzerpasswort"
+
+msgid "Link to My Account page"
+msgstr "Link zur Seite Mein Konto"
+
+msgid "My Account"
+msgstr "Mein Konto"
+
+msgid "Accommodation Type Link"
+msgstr "Unterkunftsart-Link"
+
+msgid "Accommodation Type Title"
+msgstr "Unterkunftsart-Titel"
+
+msgid "Accommodation Type Categories"
+msgstr "Unterkunftsart-Kategorien"
+
+msgid "Accommodation Type Bed"
+msgstr "Unterkunftsart-Bett"
+
+msgid "Accommodation Rate Title"
+msgstr "Unterkunft-Rate-Titel"
+
+msgid "Accommodation Rate Description"
+msgstr "Unterkunft-Rate-Beschreibung"
+
+msgid "Sequential Number of Accommodation"
+msgstr "Sequentielle Anzahl der Unterkunft"
+
+msgid "This coupon has expired."
+msgstr "Dieser Gutschein ist abgelaufen."
+
+msgid "Sorry, this coupon is not applicable to your booking contents."
+msgstr "Entschuldigung, dieser Gutschein ist nicht auf Ihre Buchungsinhalte anwendbar."
+
+msgid "Coupon usage limit has been reached."
+msgstr "Der Nutzungslimit dieses Gutscheines wurde erreicht."
+
+msgid " &#215; %d night"
+msgid_plural " &#215; %d nights"
+msgstr[0] " &#215; %d Nacht"
+msgstr[1] " &#215; %d Nächte"
+
+msgid "%d adult"
+msgid_plural "%d adults"
+msgstr[0] "%d Erwachsener"
+msgstr[1] "%d Erwachsene"
+
+msgid "%d guest"
+msgid_plural "%d guests"
+msgstr[0] "%d Gast"
+msgstr[1] "%d Gäste"
+
+msgid " &#215; %d time"
+msgid_plural " &#215; %d times"
+msgstr[0] " &#215; %d Mal"
+msgstr[1] " &#215; %d Mal"
+
+msgid "Per Instance"
+msgstr "Pro Instanz"
+
+msgid "Maximum execution time is set to %d seconds."
+msgstr "Die maximale Ausführungszeit ist auf %d Sekunden festgelegt."
+
+msgid "%d URL pulled for parsing."
+msgid_plural "%d URLs pulled for parsing."
+msgstr[0] "%d URL zum Parsen gewählt."
+msgstr[1] "%d URLs zum Parsen gewählt."
+
+msgid "Skipped. No URLs found for parsing."
+msgstr "Übersprungen. Keine URLs zum Parsen gefunden."
+
+msgid "Cannot read uploaded file"
+msgstr "Hochgeladene Datei kann nicht gelesen werden"
+
+msgid "We will need to check %d previous booking after importing and remove it if the booking is outdated."
+msgid_plural "We will need to check %d previous bookings after importing and remove the outdated ones."
+msgstr[0] "Wir müssen %d vorherige Buchung nach dem Import überprüfen und löschen, wenn die Buchung veraltet ist."
+msgstr[1] "Wir müssen %d vorherige Buchungen nach dem Import überprüfen und die veraltete löschen ."
+
+msgctxt "%s - calendar URI or calendar filename"
+msgid "%1$d event found in calendar %2$s"
+msgid_plural "%1$d events found in calendar %2$s"
+msgstr[0] "%1$d Ereignis im Kalender %2$s gefunden"
+msgstr[1] "%1$d Ereignisse im Kalender %2$s gefunden"
+
+msgctxt "%s - calendar URI or calendar filename"
+msgid "Calendar source is empty (%s)"
+msgstr "Die Kalenderquelle ist leer (%s)"
+
+msgctxt "%s - calendar URI or calendar filename"
+msgid "Calendar file is not empty, but there are no events in %s"
+msgstr "Die Kalenderdatei ist nicht leer, aber es gibt keine Ereignisse in %s"
+
+msgid "Error while loading calendar (%1$s): %2$s"
+msgstr "Fehler beim Laden des Kalenders (%1$s): %2$s"
+
+msgctxt "%s - error description"
+msgid "Parse error. %s"
+msgstr "Fehler beim Parsen. %s"
+
+msgid "Skipped. Outdated booking #%d already removed."
+msgstr "Übersprungen. Veraltete Buchung #%d ist bereits gelöscht."
+
+msgid "Skipped. Booking #%d updated with new data."
+msgstr "Übersprungen. Buchung #%d ist mit neuen Daten aktualisiert."
+
+msgid "The outdated booking #%d has been removed."
+msgstr "Die veraltete Buchung #%d ist gelöscht."
+
+msgid "Skipped. Event from %1$s to %2$s has passed."
+msgstr "Übersprungen. Ereignis von %1$s bis %2$s ist vorbei."
+
+msgid "New booking #%1$d. The dates from %2$s to %3$s are now blocked."
+msgstr "Neue Buchung #%1$d. Die Daten von %2$s bis %3$s sind jetzt blockiert."
+
+msgid "Success. Booking #%d updated with new data."
+msgstr "Erfolg. Buchung #%d ist mit neuen Daten aktualisiert."
+
+msgid "Skipped. The dates from %1$s to %2$s are already blocked."
+msgstr "Übersprungen. Die Daten von %1$s bis %2$s sind bereits gesperrt."
+
+msgid "Success. Booking #%1$d updated with new data. Removed %2$d outdated booking."
+msgid_plural "Success. Booking #%1$d updated with new data. Removed %2$d outdated bookings."
+msgstr[0] "Erfolg. Buchung #%1$d ist mit neuen Daten aktualisiert. %2$d veraltete Buchung ist gelöscht."
+msgstr[1] "Erfolg. Buchung #%1$d ist mit neuen Daten aktualisiert. %2$d veraltete Buchungen sind gelöscht."
+
+msgid "Success. Booking #%1$d updated with new data."
+msgstr "Erfolg. Buchung #%1$d ist mit neuen Daten aktualisiert."
+
+msgid "Cannot import new event. Dates from %1$s to %2$s are partially blocked by booking %3$s."
+msgid_plural "Cannot import new event. Dates from %1$s to %2$s are partially blocked by bookings %3$s."
+msgstr[0] "Neues Ereignis kann nicht importiert werden. Daten von %1$s bis %2$s sind teilweise durch die Buchung von %3$s gesperrt."
+msgstr[1] "Neues Ereignis kann nicht importiert werden. Daten von %1$s bis %2$s sind teilweise durch Buchungen %3$s gesperrt."
+
+msgid "Booking imported with UID %1$s.<br />Summary: %2$s.<br />Description: %3$s.<br />Source: %4$s."
+msgstr "Buchung wurde mit UID importiert %1$s.<br />Überblick: %2$s.<br />Beschreibung: %3$s.<br />Quelle: %4$s."
+
+msgid "Process Information"
+msgstr "Prozessinformationen"
+
+msgid "Total bookings: %s"
+msgstr "Gesamte Buchungen: %s"
+
+msgid "Success bookings: %s"
+msgstr "Erfolgreiche Buchungen: %s"
+
+msgid "Skipped bookings: %s"
+msgstr "Übersprungene Buchungen: %s"
+
+msgid "Failed bookings: %s"
+msgstr "Fehlgeschlagene Buchungen: %s"
+
+msgid "Removed bookings: %s"
+msgstr "Gelöschte Buchungen: %s"
+
+msgid "Expand All"
+msgstr "Alles aufklappen"
+
+msgid "Collapse All"
+msgstr "Alles zuklappen"
+
+msgid "All done! %1$d booking was successfully added."
+msgid_plural "All done! %1$d bookings were successfully added."
+msgstr[0] "Fertig! %1$d Buchung wurde erfolgreich hinzugefügt."
+msgstr[1] "Fertig! %1$d Buchungen wurden erfolgreich hinzugefügt."
+
+msgid " There was %2$d failure."
+msgid_plural " There were %2$d failures."
+msgstr[0] " Es gab %2$d Fehler."
+msgstr[1] " Es gab %2$d Fehler."
+
+msgid "Dismiss "
+msgstr "Verwerfen "
+
+msgid "Your License Key is not active. Please, <a href='%s'>activate your License Key</a> to get plugin updates"
+msgstr "Ihr Lizenzschlüssel ist nicht aktiv. Bitte, <a href='%s'>aktivieren Sie Ihren Lizenzschlüssel</a>, um Plugin-Updates zu erhalten"
+
+msgid "Hotel Booking Plugin"
+msgstr "Plugin für Hotelbuchung"
+
+msgid "Your database is being updated in the background."
+msgstr "Ihre Datenbank wird im Hintergrund aktualisiert."
+
+msgid "Taking a while? Click here to run it now."
+msgstr "Dauert es zu lange? Klicken Sie hier, um es jetzt zu starten."
+
+msgid "Add \"Booking Confirmation\" shortcode to your \"Booking Confirmed\" and \"Reservation Received\" pages to show more details about booking or payment.<br/>Click \"Update Pages\" to apply all changes automatically or skip this notice and add \"Booking Confirmation\" shortcode manually.<br/><b><em>This action will replace the whole content of the pages.</em></b>"
+msgstr "Fügen Sie den Shortcode \"Buchungsbestätigung\" zu Ihren Seiten \"Buchungsbestätigung\" und \"Reservierung erhalten\" hinzu, um weitere Details zu Buchung oder Zahlung anzuzeigen.<br/>Klicken Sie auf \"Seiten aktualisieren\", um alle Änderungen automatisch zu übernehmen oder überspringen Sie diesen Hinweis und fügen Sie den Shortcode \"Buchungsbestätigung\" manuell hinzu.<br/><b><em>Diese Aktion ersetzt den gesamten Inhalt der Seiten.</em></b>"
+
+msgid "Update Pages"
+msgstr "Seiten aktualisieren"
+
+msgid "Skip"
+msgstr "Überspringen"
+
+msgid "Direct Bank Transfer"
+msgstr "Direktüberweisung"
+
+msgid "Make your payment directly into our bank account. Please use your Booking ID as the payment reference."
+msgstr "Zahlen Sie direkt auf unser Bankkonto ein. Bitte verwenden Sie Ihre Buchungsnummer als Zahlungsreferenz."
+
+msgid "Beanstream/Bambora"
+msgstr "Beanstream/Bambora"
+
+msgid "Use the card number %1$s with CVC %2$s and a valid expiration date to test a payment."
+msgstr "Verwenden Sie die Kartennummer %1$s mit CVC %2$s und ein gültiges Ablaufdatum, um eine Zahlung zu testen."
+
+msgid "Pay by Card (Beanstream)"
+msgstr "Bezahlen per Karte (Beanstream)"
+
+msgid "Pay with your credit card via Beanstream."
+msgstr "Bezahlen Sie mit Ihrer Kreditkarte über Beanstream."
+
+msgid "%1$s is enabled, but the <a href=\"%2$s\">Force Secure Checkout</a> option is disabled. Please enable SSL and ensure your server has a valid SSL certificate. Otherwise, %1$s will only work in Test Mode."
+msgstr "%1$s ist aktiviert, aber die Option <a href=\"%2$s\">Sicherer Buchungsvorgang</a> ist deaktiviert. Bitte aktivieren Sie SSL und stellen Sie sicher, dass Ihr Server über ein gültiges SSL-Zertifikat verfügt. Andernfalls wird %1$s nur im Testmodus funktionieren."
+
+msgid "The <a href=\"%2$s\">Force Secure Checkout</a> option is disabled. Please enable SSL and ensure your server has a valid SSL certificate. Otherwise, %1$s will only work in Test Mode."
+msgstr "Stripe ist aktiviert, aber die Option <a href=\"%2$s\">Sicherer Buchungsvorgang</a> ist deaktiviert. Bitte aktivieren Sie SSL und stellen Sie sicher, dass Ihr Server über ein gültiges SSL-Zertifikat verfügt. Andernfalls funktioniert %1$s nur im Testmodus."
+
+msgid "Beanstream"
+msgstr "Beanstream"
+
+msgid "Merchant ID"
+msgstr "Händler-ID"
+
+msgid "Your Merchant ID can be found in the top-right corner of the screen after logging in to the Beanstream Back Office"
+msgstr "Ihre Händler-ID kann in der oberen rechten Ecke des Bildschirms nach der Anmeldung im Beanstream Back Office gefunden werden"
+
+msgid "Payments Passcode"
+msgstr "Zahlungen-Passcode"
+
+msgid "To generate the passcode, navigate to Administration > Account Settings > Order Settings in the sidebar, then scroll to Payment Gateway > Security/Authentication"
+msgstr "Um den Passcode zu generieren, navigieren Sie zu Administration> Kontoeinstellungen> Auftragseinstellungen in der Seitenleiste und scrollen Sie dann zu Payment Gateway> Sicherheit / Authentifizierung"
+
+msgid "Beanstream Payment Error: %s"
+msgstr "Beanstream Zahlungsfehler: %s"
+
+msgid "Payment single use token is required."
+msgstr "Token-Einzelverwendung Zahlung ist erforderlich."
+
+msgid "Braintree"
+msgstr "Braintree"
+
+msgid "Webhooks Destination URL: %s"
+msgstr "Webhooks URL-Ziel: %s"
+
+msgid "Pay by Card (Braintree)"
+msgstr "Bezahlen per Karte (Braintree)"
+
+msgid "Pay with your credit card via Braintree."
+msgstr "Bezahlen Sie mit Ihrer Kreditkarte über Braintree."
+
+msgid "Braintree gateway cannot be enabled due to some problems: %s"
+msgstr "Braintree Gateway kann aufgrund einiger Probleme nicht aktiviert werden: %s"
+
+msgid "In your Braintree account select Account > My User > View Authorizations."
+msgstr "Wählen Sie in Ihrem Braintree-Konto Konto> Mein Benutzer> Berechtigungen anzeigen."
+
+msgid "Public Key"
+msgstr "Öffentlicher Schlüssel"
+
+msgid "Private Key"
+msgstr "Privatschlüssel"
+
+msgid "Merchant Account ID"
+msgstr "Händler-Konto-ID"
+
+msgid "In case the site currency differs from default currency in your Braintree account, you can set specific merchant account to avoid <a href=\"%s\">complications with currencty conversions</a>. Otherwise leave the field empty."
+msgstr "Falls die Standortwährung von der Standardwährung in Ihrem Braintree-Konto abweicht, können Sie ein bestimmtes Händlerkonto festlegen, um <a href=\"%s\">Komplikationen mit Währungsumwandlungen zu vermeiden</a>. Andernfalls lassen Sie das Feld leer."
+
+msgid "Braintree submitted for settlement (Transaction ID: %s)"
+msgstr "Braintree zur Abrechnung eingereicht (Transaction ID: %s)"
+
+msgid "Braintree Payment Error: %s"
+msgstr "Braintree Zahlungsfehler: %s"
+
+msgid "Payment method nonce is required."
+msgstr "Zahlungsmethode Nonce ist erforderlich."
+
+msgid "Payment dispute opened"
+msgstr "Zahlungsstreit eröffnet"
+
+msgid "Payment dispute lost"
+msgstr "Zahlungsstreit verloren"
+
+msgid "Payment dispute won"
+msgstr "Zahlungsstreit gewonnen"
+
+msgid "Payment refunded in Braintree"
+msgstr "Zahlung zurückerstattet in Braintree"
+
+msgid "Braintree transaction voided"
+msgstr "Braintree Transaktion für ungültig erklärt"
+
+msgid "Pay on Arrival"
+msgstr "Bei Ankunft bezahlen"
+
+msgid "Pay with cash on arrival."
+msgstr "Bei Ankunft bar bezahlen."
+
+msgid "%s is a required field."
+msgstr "%s ist ein Pflichtfeld."
+
+msgid "%s is not a valid email address."
+msgstr "%s ist keine gültige E-Mail-Adresse."
+
+#. translators: %s is the payment gateway title.
+msgid "Enable \"%s\""
+msgstr "\"%s\" aktivieren"
+
+msgid "Test Mode"
+msgstr "Test-Modus"
+
+msgid "Enable Sandbox Mode"
+msgstr "Sandbox-Modus aktivieren"
+
+msgid "Sandbox can be used to test payments."
+msgstr "Sandbox kann verwendet werden, um Zahlungen zu testen."
+
+msgid "Payment method title that the customer will see on your website."
+msgstr "Zahlungsmethode, die der Kunde auf Ihrer Website sehen wird."
+
+msgid "Payment method description that the customer will see on your website."
+msgstr "Zahlungsmethodenbeschreibung, die der Kunde auf Ihrer Website sehen wird."
+
+msgid "Instructions"
+msgstr "Anleitung"
+
+msgid "Instructions for a customer on how to complete the payment."
+msgstr "Anleitung für den Kunden um die Zahlung abzuschließen."
+
+msgid "Reservation #%d"
+msgstr "Reservierung #%d"
+
+msgid "Accommodation(s) reservation"
+msgstr "Reservierung von Unterkunft (Unterkünften)"
+
+msgid "Manual Payment"
+msgstr "Manuelle Zahlung"
+
+msgid "PayPal"
+msgstr "PayPal"
+
+msgid "Pay via PayPal"
+msgstr "Zahlen mit PayPal"
+
+msgid "Paypal Business Email"
+msgstr "Paypal Business E-Mail"
+
+msgid "Disable IPN Verification"
+msgstr "IPN-Überprüfung deaktivieren"
+
+msgid "Specify an IPN listener for a specific payment instead of the listeners specified in your PayPal Profile."
+msgstr "Geben Sie einen IPN-Listener für eine bestimmte Zahlung anstelle der in Ihrem PayPal-Profil angegebenen Zuhörer an."
+
+msgid "Payment %s via IPN."
+msgstr "Zahlung %s über IPN."
+
+msgid "Payment failed due to invalid PayPal business email."
+msgstr "Die Zahlung fehlgeschlagen aufgrund der ungültigen PayPal-Business-E-Mail."
+
+msgid "Payment failed due to invalid currency in PayPal IPN."
+msgstr "Zahlung fehlgeschlagen aufgrund ungültiger Währung in PayPal IPN."
+
+msgid "Payment failed due to invalid amount in PayPal IPN."
+msgstr "Zahlung fehlgeschlagen aufgrund eines ungültigen Betrags in PayPal IPN."
+
+msgid "Payment failed due to invalid purchase key in PayPal IPN."
+msgstr "Zahlung fehlgeschlagen aufgrund eines ungültigen Kaufschlüssels in PayPal IPN."
+
+msgid "Payment made via eCheck and will clear automatically in 5-8 days."
+msgstr "Zahlung erfolgt per eCheck und wird in 5-8 Tagen automatisch gelöscht."
+
+msgid "Payment requires a confirmed customer address and must be accepted manually through PayPal."
+msgstr "Zahlung erfordert eine bestätigte Kundenadresse und muss manuell über PayPal akzeptiert werden."
+
+msgid "Payment must be accepted manually through PayPal due to international account regulations."
+msgstr "Zahlung muss manuell über PayPal akzeptiert werden."
+
+msgid "Payment received in non-shop currency and must be accepted manually through PayPal."
+msgstr "Zahlung in Nicht-Ladenwährung eingegangen und muss manuell über PayPal akzeptiert werden."
+
+msgid "Payment is being reviewed by PayPal staff as high-risk or in possible violation of government regulations."
+msgstr "Zahlung wird von PayPal-Mitarbeitern als Hochrisiko oder in einer möglichen Verletzung von Regierungsvorschriften verdächtigt und wird überprüft."
+
+msgid "Payment was sent to unconfirmed or non-registered email address."
+msgstr "Zahlung wurde an nicht bestätigte oder nicht registrierte E-Mail-Adresse gesendet."
+
+msgid "PayPal account must be upgraded before this payment can be accepted."
+msgstr "PayPal-Konto muss aktualisiert werden, bevor diese Zahlung akzeptiert werden kann."
+
+msgid "PayPal account is not verified. Verify account in order to accept this payment."
+msgstr "PayPal-Konto wurde nicht überprüft. Überprüfen Sie das Konto, um diese Zahlung zu akzeptieren."
+
+msgid "Payment is pending for unknown reasons. Contact PayPal support for assistance."
+msgstr "Zahlung ist aus unbekannten Gründen ausstehend. Wenden Sie sich an den PayPal-Support."
+
+msgid "Partial PayPal refund processed: %s"
+msgstr "Teilweise PayPal-Rückerstattung verarbeitet: %s"
+
+msgid "PayPal Payment #%s Refunded for reason: %s"
+msgstr "PayPal Zahlung #%s Rückerstattung für Grund: %s"
+
+msgid "PayPal Refund Transaction ID: %s"
+msgstr "PayPal Rückerstattung Transaktion-ID: %s"
+
+msgid "Stripe"
+msgstr "Stripe"
+
+msgid "Use the card number %1$s with CVC %2$s, a valid expiration date and random 5-digit ZIP-code to test a payment."
+msgstr "Verwenden Sie die Kartennummer %1$s mit CVC %2$s, ein gültiges Ablaufdatum und eine zufällige 5-stellige Postleitzahl, um eine Zahlung zu testen."
+
+msgid "Pay by Card (Stripe)"
+msgstr "Bezahlen mit Karte (Stripe)"
+
+msgid "Pay with your credit card via Stripe."
+msgstr "Bezahlen Sie mit Ihrer Kreditkarte über Stripe."
+
+msgid "Bancontact"
+msgstr "Bankverbindung"
+
+msgid "iDEAL"
+msgstr "iDEAL"
+
+msgid "Giropay"
+msgstr "Giropay"
+
+msgid "SEPA Direct Debit"
+msgstr "SEPA-Lastschrift"
+
+msgid "SOFORT"
+msgstr "SOFORT"
+
+msgid "Euro is the only acceptable currency for the selected payment methods. Change your currency to Euro in General settings."
+msgstr "Euro ist die einzige akzeptable Währung für die ausgewählten Zahlungsmethoden. Ändern Sie in den allgemeinen Einstellungen Ihre Währung in Euro."
+
+msgid "Secret Key"
+msgstr "Geheimer Schlüssel"
+
+msgid "Webhook Secret"
+msgstr "Webhook geheim"
+
+msgid "Payment Methods"
+msgstr "Zahlungsmethoden"
+
+msgid "Card Payments"
+msgstr "Kartenzahlungen"
+
+msgid "Checkout Locale"
+msgstr "Checkout-Sprache"
+
+msgid "Display Checkout in the user's preferred language, if available."
+msgstr "Checkout in der bevorzugten Sprache des Benutzers zeigen, falls vorhanden."
+
+msgid "The payment method is not selected."
+msgstr "Die Zahlungsmethode wurde nicht ausgewählt."
+
+msgid "Payment intent ID is not set."
+msgstr "Die ID der Zahlungsabsicht ist nicht festgelegt."
+
+msgid "Source ID is not set."
+msgstr "Quell-ID nicht festgelegt."
+
+#. translators: %s - Stripe PaymentIntent ID
+msgid "Payment for PaymentIntent %s succeeded."
+msgstr "Die Zahlung für PaymentIntent %s war erfolgreich."
+
+#. translators: %s - Stripe PaymentIntent ID
+msgid "Payment for PaymentIntent %s is processing."
+msgstr "Die Zahlung für PaymentIntent %s wird ausgeführt."
+
+msgid "Failed to process Card payment. %s"
+msgstr "Kartenzahlung konnte nicht verarbeitet werden. %s"
+
+#. translators: %s - Stripe Source ID
+msgid "Payment source %s is waiting for customer confirmation."
+msgstr "Die Zahlungsquelle %s wartet auf die Bestätigung des Kunden."
+
+#. translators: %s - Stripe Source ID
+msgid "Pending source %s received, but the redirect URL is empty."
+msgstr "Ausstehende Quelle %s empfangen, aber die Weiterleitungs-URL ist leer."
+
+#. translators: %s - Stripe Source ID
+msgid "Payment source %s was cancelled by customer."
+msgstr "Die Zahlungsquelle %s wurde vom Kunden abgebrochen."
+
+#. translators: %s - Stripe Source ID
+msgid "Payment source %s failed and couldn't be processed."
+msgstr "Die Zahlungsquelle %s ist fehlgeschlagen und konnte nicht verarbeitet werden."
+
+#. translators: %1$s - Stripe Source ID; %2$s - Stripe Source status
+msgid "Failed to process payment source %1$s: unsupported status - \"%2$s\"."
+msgstr "Zahlungsquelle konnte nicht verarbeitet werden %1$s: Nicht unterstützer Status -\"%2$s\"."
+
+msgid "Failed to process Source payment. %s"
+msgstr "Fehler beim Verarbeiten der Quellzahlung. %s"
+
+msgid "Can't charge the payment again: payment's flow already completed."
+msgstr "Zahlungsmittel kann nicht erneut belastet werden: Zahlungsprozess bereits abgeschlossen."
+
+#. translators: %s - Stripe Charge ID
+msgid "Charge %s succeeded."
+msgstr "Belastung des Zahlungsmittels %s war erfolgreich."
+
+#. translators: %1$s - Stripe Charge ID; %2$s - payment price
+msgid "Charge %1$s for %2$s created."
+msgstr "Belastung des Zahlungsmittels %1$s für %2$s erstellt."
+
+#. translators: %s - Stripe Charge ID
+msgid "Charge %s failed."
+msgstr "Belastung des Zahlungsmittels %s fehlgeschlagen."
+
+msgid "Charge error. %s"
+msgstr "Fehler bei Belastung des Zahlungsmittels. %s"
+
+msgid "Argentinean"
+msgstr "Argentinisch"
+
+msgid "Simplified Chinese"
+msgstr "Vereinfachtes Chinesisch"
+
+msgid "Danish"
+msgstr "Dänisch"
+
+msgid "Dutch"
+msgstr "Niederländisch"
+
+msgid "English"
+msgstr "Englisch"
+
+msgid "Finnish"
+msgstr "Finnisch"
+
+msgid "French"
+msgstr "Französisch"
+
+msgid "German"
+msgstr "Deutsch"
+
+msgid "Italian"
+msgstr "Italienisch"
+
+msgid "Japanese"
+msgstr "Japanisch"
+
+msgid "Norwegian"
+msgstr "Norwegisch"
+
+msgid "Polish"
+msgstr "Polnisch"
+
+msgid "Russian"
+msgstr "Russisch"
+
+msgid "Spanish"
+msgstr "Spanisch"
+
+msgid "Swedish"
+msgstr "Schwedisch"
+
+msgid "Card"
+msgstr "Karte"
+
+msgid "Credit or debit card"
+msgstr "Kredit- oder EC-Karte"
+
+msgid "IBAN"
+msgstr "IBAN"
+
+msgid "Select iDEAL Bank"
+msgstr "iDEAL Bank aussuchen"
+
+msgid "You will be redirected to a secure page to complete the payment."
+msgstr "Sie werden auf eine sichere Seite weitergeleitet, um Ihre Zahlung abzuschließen."
+
+msgid "By providing your IBAN and confirming this payment, you are authorizing this merchant and Stripe, our payment service provider, to send instructions to your bank to debit your account and your bank to debit your account in accordance with those instructions. You are entitled to a refund from your bank under the terms and conditions of your agreement with your bank. A refund must be claimed within 8 weeks starting from the date on which your account was debited."
+msgstr "Durch die Angabe Ihrer IBAN und die Bestätigung dieser Zahlung ermächtigen Sie diesen Händler und unseren Zahlungsdienstleister Stripe, der Bank Anweisungen zur Belastung Ihres Kontos und der Bank Anweisungen zur Belastung Ihres Kontos gemäß diesen Anweisungen zu senden. Sie haben Anspruch auf eine Rückerstattung von Ihrer Bank gemäß den Bedingungen Ihrer Vereinbarung mit Ihrer Bank. Eine Rückerstattung muss innerhalb von 8 Wochen ab dem Datum, an dem Ihr Konto belastet wurde, beantragt werden."
+
+#. translators: %s - event type, like "source.chargeable"
+msgid "Webhook \"%s\" skipped: payment's flow already completed."
+msgstr "Webhook \"%s\" übersprungen: Zahlungsprozess bereits abgeschlossen."
+
+#. translators: %s - Stripe Source ID
+msgid "Webhook received. The source %s is chargeable."
+msgstr "Webhook erhalten. Das Zahlungsmittels %s ist belastbar."
+
+#. translators: %s - Stripe Source ID
+msgid "Webhook received. Payment source %s was cancelled by customer."
+msgstr "Webhook erhalten. Belastung des Zahlungsmittels %s wurde vom Kunden abgebrochen."
+
+#. translators: %s - Stripe Source ID
+msgid "Webhook received. Payment source %s failed and couldn't be processed."
+msgstr "Die Zahlungsquelle %s ist fehlgeschlagen und konnte nicht verarbeitet werden."
+
+#. translators: %s - Stripe Charge ID
+msgid "Webhook received. Charge %s succeeded."
+msgstr "Webhook erhalten. Belastung des Zahlungsmittels %s war erfolgreich."
+
+#. translators: %s - Stripe Charge ID
+msgid "Webhook received. Charge %s failed."
+msgstr "Webhook erhalten. Belastung des Zahlungsmittels %s fehlgeschlagen."
+
+msgid "Test Payment"
+msgstr "Testzahlung"
+
+msgid "2Checkout"
+msgstr "2Checkout"
+
+msgid "To setup the callback process for 2Checkout to automatically mark payments completed, you will need to"
+msgstr "Um den Rückrufprozess für 2Checkout einzurichten und die gezahlten Zahlungen automatisch zu markieren, müssen Sie"
+
+msgid "Login to your 2Checkout account and click the Notifications tab"
+msgstr "Melden Sie sich bei Ihrem 2Checkout-Konto an und klicken Sie auf die Registerkarte Benachrichtigungen"
+
+msgid "Click Enable All Notifications"
+msgstr "Klicken Sie auf Alle Benachrichtigungen aktivieren"
+
+msgid "In the Global URL field, enter the url %s"
+msgstr "Im globalen URL-Feld geben Sie die url %s ein"
+
+msgid "Click Apply"
+msgstr "Klicken Sie auf Übernehmen"
+
+msgid "Account Number"
+msgstr "Accountnummer"
+
+msgid "Secret Word"
+msgstr "Geheimwort"
+
+msgid "2Checkout \"Order Created\" notification received."
+msgstr "2Checkout \"Bestellung angefertigt\" Benachrichtigung erhalten."
+
+msgid "Payment refunded in 2Checkout"
+msgstr "Zahlung zurückerstattet in 2Checkout"
+
+msgid "2Checkout fraud review passed"
+msgstr "2Checkout Betrug-Überprüfung bestanden"
+
+msgid "2Checkout fraud review failed"
+msgstr "2Checkout Betrug-Überprüfung fehlgeschlagen"
+
+msgid "2Checkout fraud review in progress"
+msgstr "2Checkout Betrug-Überprüfung im Gange"
+
+msgid "Attribute"
+msgstr "Attribut"
+
+msgctxt "Add New Attribute"
+msgid "Add New"
+msgstr "Neu hinzufügen"
+
+msgid "Add New Attribute"
+msgstr "Neues Attribut hinzufügen"
+
+msgid "Edit Attribute"
+msgstr "Attribut bearbeiten"
+
+msgid "New Attribute"
+msgstr "Neues Attribut"
+
+msgid "View Attribute"
+msgstr "Attribut ansehen"
+
+msgid "Search Attribute"
+msgstr "Nach Attribut suchen"
+
+msgid "No Attributes found"
+msgstr "Keine Attribute gefunden"
+
+msgid "No Attributes found in Trash"
+msgstr "Keine Attribute im Papierkorb gefunden"
+
+msgid "Insert into attribute description"
+msgstr "In Beschreibung vom Attribut einfügen"
+
+#. translators: %s: attribute name
+msgid "Search %s"
+msgstr "Nach %s suchen"
+
+#. translators: %s: attribute name
+msgid "All %s"
+msgstr "Alle %s"
+
+#. translators: %s: attribute name
+msgid "Edit %s"
+msgstr "%s bearbeiten"
+
+#. translators: %s: attribute name
+msgid "Update %s"
+msgstr "%s aktualisieren"
+
+#. translators: %s: attribute name
+msgid "Add new %s"
+msgstr "%s neu hinzufügen"
+
+#. translators: %s: attribute name
+msgid "New %s"
+msgstr "Neuer %s"
+
+#. translators: %s: attribute name
+msgid "No &quot;%s&quot; found"
+msgstr "&quot;%s&quot; nicht gefunden"
+
+msgid "Name (numeric)"
+msgstr "Name (numerisch)"
+
+msgid "Term ID"
+msgstr "ID des Begriffs"
+
+msgid "Enable Archives"
+msgstr "Archive aktivieren"
+
+msgid "Link the attribute to an archive page with all accommodation types that have this attribute."
+msgstr "Das Attribut mit einer Archivseite, die alle Unterkunftsarten mit diesem Attribut enthält, verknüpfen."
+
+msgid "Visible in Details"
+msgstr "Im Detailbereich anzeigen"
+
+msgid "Display the attribute in details section of an accommodation type."
+msgstr "Das Attribut im Detailbereich einer Unterkunftsart anzeigen."
+
+msgid "Default Sort Order"
+msgstr "Standard-Sortierreihenfolge"
+
+msgid "Default Text"
+msgstr "Standardtext"
+
+msgid "Select"
+msgstr "Wählen"
+
+msgid "Edit Dates"
+msgstr "Datum bearbeiten"
+
+msgid "Note"
+msgstr "Notiz"
+
+msgctxt "Add New Booking"
+msgid "Add New Booking"
+msgstr "Neue Buchung hinzufügen"
+
+msgid "View Booking"
+msgstr "Buchung ansehen"
+
+msgid "Search Booking"
+msgstr "Nach Buchung suchen"
+
+msgid "No bookings found"
+msgstr "Keine Buchungen gefunden"
+
+msgid "No bookings found in Trash"
+msgstr "Keine Buchungen im Papierkorb gefunden"
+
+msgid "All Bookings"
+msgstr "Alle Buchungen"
+
+msgid "Insert into booking description"
+msgstr "In Buchungsbeschreibung einfügen"
+
+msgid "Uploaded to this booking"
+msgstr "Hochgeladen in diese Buchung"
+
+msgctxt "Booking status"
+msgid "Pending User Confirmation"
+msgstr "Ausstehende Benutzerbestätigung"
+
+msgid "Pending User Confirmation <span class=\"count\">(%s)</span>"
+msgid_plural "Pending User Confirmation <span class=\"count\">(%s)</span>"
+msgstr[0] "Ausstehende Benutzerbestätigung <span class=\"count\">(%s)</span>"
+msgstr[1] "Ausstehende Benutzerbestätigung <span class=\"count\">(%s)</span>"
+
+msgctxt "Booking status"
+msgid "Pending Payment"
+msgstr "Ausstehende Zahlung"
+
+msgid "Pending Payment <span class=\"count\">(%s)</span>"
+msgid_plural "Pending Payment <span class=\"count\">(%s)</span>"
+msgstr[0] "Ausstehende Zahlung <span class=\"count\">(%s)</span>"
+msgstr[1] "Ausstehende Zahlung <span class=\"count\">(%s)</span>"
+
+msgctxt "Booking status"
+msgid "Pending Admin"
+msgstr "Ausstehender Administrator"
+
+msgid "Pending Admin <span class=\"count\">(%s)</span>"
+msgid_plural "Pending Admin <span class=\"count\">(%s)</span>"
+msgstr[0] "Ausstehender Administrator <span class=\"count\">(%s)</span>"
+msgstr[1] "Ausstehender Admin <span class=\"count\">(%s)</span>"
+
+msgctxt "Booking status"
+msgid "Abandoned"
+msgstr "Aufgegeben"
+
+msgid "Abandoned <span class=\"count\">(%s)</span>"
+msgid_plural "Abandoned <span class=\"count\">(%s)</span>"
+msgstr[0] "Aufgegeben <span class=\"count\">(%s)</span>"
+msgstr[1] "Aufgegeben <span class=\"count\">(%s)</span>"
+
+msgid "Confirmed <span class=\"count\">(%s)</span>"
+msgid_plural "Confirmed <span class=\"count\">(%s)</span>"
+msgstr[0] "Bestätigt <span class=\"count\">(%s)</span>"
+msgstr[1] "Bestätigt <span class=\"count\">(%s)</span>"
+
+msgctxt "Booking status"
+msgid "Cancelled"
+msgstr "Storniert"
+
+msgid "Cancelled <span class=\"count\">(%s)</span>"
+msgid_plural "Cancelled <span class=\"count\">(%s)</span>"
+msgstr[0] "Storniert <span class=\"count\">(%s)</span>"
+msgstr[1] "Storniert <span class=\"count\">(%s)</span>"
+
+msgid "Status changed from %s to %s."
+msgstr "Status wurde von %s auf  %s geändert."
+
+msgid "Coupon Information"
+msgstr "Gutschein-Informationen"
+
+msgid "Fixed per accommodation per stay"
+msgstr "Fester pro Unterkunft pro Aufenthalt"
+
+msgid "Fixed per accommodation per day"
+msgstr "Fester pro Unterkunft pro Tag"
+
+msgid "Coupon Amount"
+msgstr "Gutscheinbetrag"
+
+msgid "Enter percent or fixed amount according to selected type."
+msgstr "Geben Sie einen Prozentsatz oder einen festen Betrag je nach ausgewähltem Typ ein."
+
+msgid "Expiration Date"
+msgstr "Ablaufdatum"
+
+msgid "Check-in After"
+msgstr "Abreise nach"
+
+msgid "Check-out Before"
+msgstr "Abreise vor"
+
+msgid "Minimum Days"
+msgstr "Min. Tage"
+
+msgid "Maximum Days"
+msgstr "Max. Tage"
+
+msgid "Usage Limit"
+msgstr "Nutzungslimit"
+
+msgid "Usage Count"
+msgstr "Verwendungsanzahl"
+
+msgid "Coupons"
+msgstr "Gutscheine"
+
+msgctxt "Add New Coupon"
+msgid "Add New"
+msgstr "Neu hinzufügen"
+
+msgid "Add New Coupon"
+msgstr "Neuen Gutschein hinzufügen"
+
+msgid "Edit Coupon"
+msgstr "Gutschein bearbeiten"
+
+msgid "New Coupon"
+msgstr "Neuer Gutschein"
+
+msgid "View Coupon"
+msgstr "Gutschein ansehen"
+
+msgid "Search Coupon"
+msgstr "Gutschein suchen"
+
+msgid "No coupons found"
+msgstr "Keine Gutscheine gefunden"
+
+msgid "No coupons found in Trash"
+msgstr "Keine Gutscheine im Papierkorb gefunden"
+
+msgid "All Coupons"
+msgstr "Alle Gutscheine"
+
+msgid "Payment History"
+msgstr "Zahlungshistorie"
+
+msgid "Payment"
+msgstr "Zahlung"
+
+msgctxt "Add New Payment"
+msgid "Add New"
+msgstr "Neu hinzufügen"
+
+msgid "Add New Payment"
+msgstr "Neue Zahlung hinzufügen"
+
+msgid "Edit Payment"
+msgstr "Zahlung bearbeiten"
+
+msgid "New Payment"
+msgstr "Neue Zahlung"
+
+msgid "View Payment"
+msgstr "Zahlung ansehen"
+
+msgid "Search Payment"
+msgstr "Nach Zahlung suchen"
+
+msgid "No payments found"
+msgstr "Keine Zahlungen gefunden"
+
+msgid "No payments found in Trash"
+msgstr "Keine Zahlungen im Papierkorb gefunden"
+
+msgid "Payments"
+msgstr "Zahlungen"
+
+msgid "Insert into payment description"
+msgstr "In Zahlungsbeschreibung einfügen"
+
+msgid "Uploaded to this payment"
+msgstr "Hochgeladen in diese Zahlung"
+
+msgid "Payments."
+msgstr "Zahlungen."
+
+msgid "Gateway Mode"
+msgstr "Gateway-Modus"
+
+msgid "Sandbox"
+msgstr "Sandbox"
+
+msgid "Live"
+msgstr "Live"
+
+msgid "Fee"
+msgstr "Gebühr"
+
+msgid "Payment Type"
+msgstr "Zahlungsart"
+
+msgid "Billing Info"
+msgstr "Rechnungsinfo"
+
+msgid "Address 1"
+msgstr "Adresse 1"
+
+msgid "Address 2"
+msgstr "Adresse 2"
+
+msgid "Postal Code (ZIP)"
+msgstr "Postleitzahl (PLZ)"
+
+msgctxt "Payment status"
+msgid "Pending"
+msgstr "Ausstehend"
+
+msgid "Pending <span class=\"count\">(%s)</span>"
+msgid_plural "Pending <span class=\"count\">(%s)</span>"
+msgstr[0] "Ausstehend <span class=\"count\">(%s)</span>"
+msgstr[1] "Ausstehend <span class=\"count\">(%s)</span>"
+
+msgctxt "Payment status"
+msgid "Completed"
+msgstr "Abgeschlossen"
+
+msgid "Completed <span class=\"count\">(%s)</span>"
+msgid_plural "Completed <span class=\"count\">(%s)</span>"
+msgstr[0] "Abgeschlossen <span class=\"count\">(%s)</span>"
+msgstr[1] "Abgeschlossen <span class=\"count\">(%s)</span>"
+
+msgctxt "Payment status"
+msgid "Failed"
+msgstr "Fehlgeschlagen"
+
+msgid "Failed <span class=\"count\">(%s)</span>"
+msgid_plural "Failed <span class=\"count\">(%s)</span>"
+msgstr[0] "Fehlgeschlagen <span class=\"count\">(%s)</span>"
+msgstr[1] "Fehlgeschlagen <span class=\"count\">(%s)</span>"
+
+msgctxt "Payment status"
+msgid "Abandoned"
+msgstr "Aufgegeben"
+
+msgctxt "Payment status"
+msgid "On Hold"
+msgstr "In der Warteschleife"
+
+msgid "On Hold <span class=\"count\">(%s)</span>"
+msgid_plural "On Hold <span class=\"count\">(%s)</span>"
+msgstr[0] "In der Warteschleife <span class=\"count\">(%s)</span>"
+msgstr[1] "In der Warteschleife <span class=\"count\">(%s)</span>"
+
+msgctxt "Payment status"
+msgid "Refunded"
+msgstr "Zurückerstattet"
+
+msgid "Refunded <span class=\"count\">(%s)</span>"
+msgid_plural "Refunded <span class=\"count\">(%s)</span>"
+msgstr[0] "Zurückerstattet <span class=\"count\">(%s)</span>"
+msgstr[1] "Zurückerstattet <span class=\"count\">(%s)</span>"
+
+msgctxt "Payment status"
+msgid "Cancelled"
+msgstr "Storniert"
+
+msgid "Payment (#%s) for this booking is on hold"
+msgstr "Zahlung (#%s)  für diese Buchung ist in der Warteschleife"
+
+msgid "Rate Info"
+msgstr "Rate-Info"
+
+msgid "Season"
+msgstr "Saison"
+
+msgid "Move price to top to set higher priority."
+msgstr "Verschieben Sie den Preis nach oben, um höhere Priorität zu setzen."
+
+msgid "Add New Season Price"
+msgstr "Neuen Saison-Preis hinzufügen"
+
+msgid "Will be displayed on the checkout page."
+msgstr "Wird auf der Checkout-Seite angezeigt."
+
+#. translators: The value a hotel wishes to sell their rooms. Also called the Cost, Value, Tariff or Room charge.
+msgid "Rates"
+msgstr "Raten"
+
+msgctxt "Add New Rate"
+msgid "Add New"
+msgstr "Neu hinzufügen"
+
+msgid "Add New Rate"
+msgstr "Neue Rate hinzufügen"
+
+msgid "Edit Rate"
+msgstr "Rate bearbeiten"
+
+msgid "New Rate"
+msgstr "Neue Rate"
+
+msgid "View Rate"
+msgstr "Rate ansehen"
+
+msgid "Search Rate"
+msgstr "Nach Rate suchen"
+
+msgid "No rates found"
+msgstr "Keine Raten gefunden"
+
+msgid "No rates found in Trash"
+msgstr "Kein Raten im Papierkorb gefunden"
+
+msgid "Insert into rate description"
+msgstr "In die Rate-Beschreibung einfügen"
+
+msgid "Uploaded to this rate"
+msgstr "Zu dieser Rate hochgeladen"
+
+msgid "This is where you can add new rates."
+msgstr "Hier können Sie neue Raten hinzufügen."
+
+msgid "Reserved Accommodation"
+msgstr "Reservierte Unterkunft"
+
+msgctxt "Add New Accommodation"
+msgid "Add New"
+msgstr "Neu hinzufügen"
+
+msgid "Add New Accommodation"
+msgstr "Neue Unterkunft hinzufügen"
+
+msgid "Edit Accommodation"
+msgstr "Unterkunft bearbeiten"
+
+msgid "New Accommodation"
+msgstr "Neue Unterkunft"
+
+msgid "View Accommodation"
+msgstr "Unterkunft ansehen"
+
+msgid "Search Accommodation"
+msgstr "Nach Unterkunft suchen"
+
+msgid "No accommodations found"
+msgstr "Keine Unterkünfte gefunden"
+
+msgid "No accommodations found in Trash"
+msgstr "Keine Unterkünfte im Papierkorb gefunden"
+
+msgid "Insert into accommodation description"
+msgstr "In die Unterkunft-Beschreibung einfügen"
+
+msgid "Uploaded to this accommodation"
+msgstr "Hochgeladen in diese Unterkunft"
+
+msgid "This is where you can add new accommodations to your hotel."
+msgstr "Hier können Sie neue Unterkünfte  zu Ihrem Hotel hinzufügen."
+
+msgctxt "Add New Accommodation Type"
+msgid "Add Accommodation Type"
+msgstr "Unterkunftsart hinzufügen"
+
+msgid "Add New Accommodation Type"
+msgstr "Neuen Unterkunftsart hinzufügen"
+
+msgid "Edit Accommodation Type"
+msgstr "Unterkunftsart bearbeiten"
+
+msgid "New Accommodation Type"
+msgstr "Neuer Unterkunftsart"
+
+msgid "View Accommodation Type"
+msgstr "Unterkunftsart ansehen"
+
+msgid "Search Accommodation Type"
+msgstr "Nach Unterkunftsart suchen"
+
+msgid "No Accommodation types found"
+msgstr "Keine Unterkunftsarten gefunden"
+
+msgid "No Accommodation types found in Trash"
+msgstr "Keine Unterkunftsart im Papierkorb gefunden"
+
+msgid "Insert into accommodation type description"
+msgstr "In die Unterkunftsart-Beschreibung einfügen"
+
+msgid "Uploaded to this accommodation type"
+msgstr "Hochgeladen in diese Unterkunftsart"
+
+#. translators: do not translate
+msgctxt "slug"
+msgid "accommodation"
+msgstr "accommodation"
+
+msgid "Accommodation Categories"
+msgstr "Unterkunftskategorien"
+
+msgid "Accommodation Category"
+msgstr "Unterkunftskategorie"
+
+msgid "Search Accommodation Categories"
+msgstr "Nach Unterkunftskategorien suchen"
+
+msgid "Popular Accommodation Categories"
+msgstr "Beliebte Unterkunftskategorien"
+
+msgid "All Accommodation Categories"
+msgstr "Alle Unterkunftskategorien"
+
+msgid "Parent Accommodation Category"
+msgstr "Übergeordnete Unterkunftskategorie"
+
+msgid "Parent Accommodation Category:"
+msgstr "Unterkunftskategorie bearbeiten:"
+
+msgid "Edit Accommodation Category"
+msgstr "Unterkunftskategorie bearbeiten"
+
+msgid "Update Accommodation Category"
+msgstr "Unterkunftskategorie aktualisieren"
+
+msgid "Add New Accommodation Category"
+msgstr "Neue Unterkunftskategorie hinzufügen"
+
+msgid "New Accommodation Category Name"
+msgstr "Neuer Unterkunftskategorie-Name"
+
+msgid "Separate categories with commas"
+msgstr "Kategorien mit Kommas trennen"
+
+msgid "Add or remove categories"
+msgstr "Kategorien hinzufügen oder entfernen"
+
+msgid "Choose from the most used categories"
+msgstr "Wählen Sie aus den den meisten genutzten Kategorien"
+
+msgid "No categories found."
+msgstr "Keine Kategorien gefunden."
+
+msgid "Categories"
+msgstr "Kategorien"
+
+#. translators: do not translate
+msgctxt "slug"
+msgid "accommodation-category"
+msgstr "accommodation-category"
+
+msgid "Accommodation Tags"
+msgstr "Unterkunfts-Tags"
+
+msgid "Accommodation Tag"
+msgstr "Unterkunfts-Tag"
+
+msgid "Search Accommodation Tags"
+msgstr "Nach Unterkunfts-Tags suchen"
+
+msgid "Popular Accommodation Tags"
+msgstr "Beliebte Unterkunfts-Tags"
+
+msgid "All Accommodation Tags"
+msgstr "Alle Unterkunfts-Tags"
+
+msgid "Parent Accommodation Tag"
+msgstr "Parent Unterkunfts-Tag"
+
+msgid "Parent Accommodation Tag:"
+msgstr "Parent Unterkunfts-Tag:"
+
+msgid "Edit Accommodation Tag"
+msgstr "Unterkunfts-Tag bearbeiten"
+
+msgid "Update Accommodation Tag"
+msgstr "Unterkunfts-Tag aktualisieren"
+
+msgid "Add New Accommodation Tag"
+msgstr "Neues Unterkunfts-Tag hinzufügen"
+
+msgid "New Accommodation Tag Name"
+msgstr "Neuer Name des Unterkunfts-Tags"
+
+msgid "Separate tags with commas"
+msgstr "Tags durch Kommas trennen"
+
+msgid "Add or remove tags"
+msgstr "Tags hinzufügen oder entfernen"
+
+msgid "Choose from the most used tags"
+msgstr "Aus den am häufigsten verwendeten Tags wählen"
+
+msgid "No tags found."
+msgstr "Keine Tags gefunden."
+
+msgid "Tags"
+msgstr "Tags"
+
+#. translators: do not translate
+msgctxt "slug"
+msgid "accommodation-tag"
+msgstr "accommodation-tag"
+
+msgid "Amenities"
+msgstr "Ausstattungen"
+
+msgid "Amenity"
+msgstr "Ausstattung"
+
+msgid "Search Amenities"
+msgstr "Nach Ausstattungen suchen"
+
+msgid "Popular Amenities"
+msgstr "Beliebteste Ausstattungen"
+
+msgid "All Amenities"
+msgstr "Alle Ausstattungen"
+
+msgid "Parent Amenity"
+msgstr "Übergeordnete Ausstattung"
+
+msgid "Parent Amenity:"
+msgstr "Übergeordnete Ausstattung:"
+
+msgid "Edit Amenity"
+msgstr "Ausstattung bearbeiten"
+
+msgid "Update Amenity"
+msgstr "Ausstattung aktualisieren"
+
+msgid "Add New Amenity"
+msgstr "Neue Ausstattung hinzufügen"
+
+msgid "New Amenity Name"
+msgstr "Neuer Ausstattungsname"
+
+msgid "Separate amenities with commas"
+msgstr "Einrichtungen mit Kommas trennen"
+
+msgid "Add or remove amenities"
+msgstr "Einrichtungen hinzufügen oder entfernen"
+
+msgid "Choose from the most used amenities"
+msgstr "Wählen Sie aus den meisten genutzten Einrichtungen"
+
+msgid "No amenities found."
+msgstr "Keine Einrichtungen gefunden."
+
+#. translators: do not translate
+msgctxt "slug"
+msgid "accommodation-facility"
+msgstr "accommodation-facility"
+
+msgid "State the age or disable children in <a href=\"%s\">settings</a>."
+msgstr "Geben Sie das Alter an oder deaktivieren Sie Kinder in den <a href=\"%s\">Einstellungen</a>."
+
+msgid "Leave this option empty to calculate total capacity automatically to meet the exact number of adults AND children set above. This is the default behavior. Configure this option to allow any variations of adults OR children set above at checkout so that in total it meets the limit of manually set \"Capacity\". For example, configuration \"adults:5\", \"children:4\", \"capacity:5\" means the property can accommodate up to 5 adults, up to 4 children, but up to 5 guests in total (not 9)."
+msgstr "Lassen Sie diese Option leer, um die Gesamtkapazität automatisch zu berechnen, um die oben festgelegte genaue Anzahl von Erwachsenen UND Kindern zu erreichen. Dies ist das Standardverhalten. Konfigurieren Sie diese Option, um Variationen von Erwachsenen ODER Kindern zuzulassen, die oben beim Auschecken festgelegt wurden, sodass insgesamt das Limit der manuell festgelegten \"Kapazität\" erreicht wird. Beispiel: Konfiguration \"Erwachsene: 5\", \"Kinder: 4\", \"Kapazität: 5\" bedeutet, dass in der Unterkunft bis zu 5 Erwachsene, bis zu 4 Kinder, aber insgesamt bis zu 5 Gäste (nicht 9) untergebracht werden können."
+
+msgid "Size, %s"
+msgstr "Größe, %s"
+
+msgid "Leave blank to hide."
+msgstr "Leer lassen, um es nicht anzeigen zu lassen."
+
+msgid "Other"
+msgstr "Andere"
+
+msgid "City view, seaside, swimming pool etc."
+msgstr "Stadtansicht, Meer, Schwimmbad etc."
+
+msgid "Bed type"
+msgstr "Bettentyp"
+
+msgid "Set bed types list in <a href=\"%link%\" target=\"_blank\">settings</a>."
+msgstr "Bettentypen Liste in <a href=\"%link%\" target=\"_blank\">Einstellungen </a> festlegen."
+
+msgid "Photo Gallery"
+msgstr "Fotogalerie"
+
+msgid "Available Services"
+msgstr "Verfügbare Dienstleistungen"
+
+msgid "Season Info"
+msgstr "Saison-Info"
+
+msgid "Start date"
+msgstr "Anfangsdatum"
+
+msgid "End date"
+msgstr "Enddatum"
+
+msgid "Applied for days"
+msgstr "Angewendet für Tage"
+
+msgid "Hold Ctrl / Cmd to select multiple."
+msgstr "Halten Sie Ctrl/Cmd gedrückt, um mehrere Optionen zu wählen."
+
+msgctxt "Add New Season"
+msgid "Add New"
+msgstr "Neu hinzufügen"
+
+msgid "Add New Season"
+msgstr "Neue Saison hinzufügen"
+
+msgid "Edit Season"
+msgstr "Saison bearbeiten"
+
+msgid "New Season"
+msgstr "Neue Saison"
+
+msgid "View Season"
+msgstr "Saison ansehen"
+
+msgid "Search Season"
+msgstr "Nach Saison suchen"
+
+msgid "No seasons found"
+msgstr "Keine Saisons gefunden"
+
+msgid "No seasons found in Trash"
+msgstr "Keine Saisons im Papierkorb gefunden"
+
+msgid "Insert into season description"
+msgstr "In Saison-Beschreibung einfügen"
+
+msgid "Uploaded to this season"
+msgstr "Hochgeladen in diese Saison"
+
+msgid "This is where you can add new seasons."
+msgstr "Hier können Sie neue Saisons hinzufügen."
+
+msgid "Service"
+msgstr "Dienstleistung"
+
+msgctxt "Add New Service"
+msgid "Add New"
+msgstr "Neu hinzufügen"
+
+msgid "Add New Service"
+msgstr "Neuen Service hinzufügen"
+
+msgid "Edit Service"
+msgstr "Service bearbeiten"
+
+msgid "New Service"
+msgstr "Neuer Service"
+
+msgid "View Service"
+msgstr "Service ansehen"
+
+msgid "Search Service"
+msgstr "Nach Service suchen"
+
+msgid "No services found"
+msgstr "Keine Services gefunden"
+
+msgid "No services found in Trash"
+msgstr "Kein Service im Papierkorb gefunden"
+
+msgid "Insert into service description"
+msgstr "In Beschreibung vom Service einfügen"
+
+msgid "Uploaded to this service"
+msgstr "Hochgeladen in diesen Service"
+
+#. translators: do not translate
+msgctxt "slug"
+msgid "services"
+msgstr "services"
+
+msgid "How many times the customer will be charged."
+msgstr "Wie oft wird dem Kunden die Rechnung gestellt."
+
+msgid "Minimum"
+msgstr "Minimal"
+
+msgid "Maximum"
+msgstr "Maximal"
+
+msgid "Empty means unlimited"
+msgstr "Leer lassen für unbegrenzte Anzahl von Malen"
+
+msgctxt "Booking status"
+msgid "Pending"
+msgstr ""
+
+msgid "Total Sales"
+msgstr "Umsatz gesamt"
+
+msgid "Total Without Taxes"
+msgstr "Gesamt ohne Steuern"
+
+msgid "Total Services"
+msgstr "Services gesamt"
+
+msgid "Total Discounts"
+msgstr "Rabatte gesamt"
+
+msgid "Total Bookings"
+msgstr "Buchungen gesamt"
+
+msgid "Revenue (Beta)"
+msgstr "Einnahmen (Beta)"
+
+msgid "Apply"
+msgstr "Anwenden"
+
+msgid "From %s to %s"
+msgstr "Von %s bis %s"
+
+msgid "Today"
+msgstr "Heute"
+
+msgid "Yesterday"
+msgstr "Gestern"
+
+msgid "This week"
+msgstr "Diese Woche"
+
+msgid "Last week"
+msgstr "Letzte Woche"
+
+msgid "Last 30 days"
+msgstr "Letzten 30 Tage"
+
+msgid "This month"
+msgstr "Dieser Monat"
+
+msgid "Last month"
+msgstr "Letzter Monat"
+
+msgid "This quarter"
+msgstr "Dieses Quartal"
+
+msgid "Last quarter"
+msgstr "Letztes Quartal"
+
+msgid "This year"
+msgstr "Dieses Jahr"
+
+msgid "Last year"
+msgstr "Letztes Jahr"
+
+#. translators: %s - original Rate title
+msgid "%s - copy"
+msgstr "%s - Kopie"
+
+msgid "Accommodation Type Gallery"
+msgstr "Unterkunftsart-Galerie"
+
+msgid "Add Gallery To Accommodation Type"
+msgstr "Galerie zu Unterkunftsart hinzufügen"
+
+msgid "Display imported bookings."
+msgstr "Importierte Buchungen anzeigen."
+
+msgid "Processing..."
+msgstr "Bearbeitung..."
+
+msgid "Cancelling..."
+msgstr "Stornierung..."
+
+msgid "Want to delete?"
+msgstr "Löschen?"
+
+msgid "Not available"
+msgstr "Nicht verfügbar"
+
+msgid "This is earlier than allowed by our advance reservation rules."
+msgstr "Das ist früher als in unseren Regeln für die Reservierung im Voraus erlaubt."
+
+msgid "This is later than allowed by our advance reservation rules."
+msgstr "Das ist später als in unseren Regeln für die Reservierung im Voraus erlaubt."
+
+msgid "Day in the past"
+msgstr "Tag in der Vergangenheit"
+
+msgid "Check-in date"
+msgstr "Anreisedatum"
+
+msgid "Less than min days stay"
+msgstr "Weniger als Minimalaufenthalt"
+
+msgid "More than max days stay"
+msgstr "Mehr als Maximalaufenthalt"
+
+msgid "Later than max date for current check-in date"
+msgstr "Später als max. Datum für das aktuelle Anreisedatum"
+
+msgid "Rules:"
+msgstr "Regeln:"
+
+msgid "Tokenisation failed: %s"
+msgstr "Tokenisierung fehlgeschlagen: %s"
+
+msgid "%1$d &times; &ldquo;%2$s&rdquo; has been added to your reservation."
+msgid_plural "%1$d &times; &ldquo;%2$s&rdquo; have been added to your reservation."
+msgstr[0] "%1$d &times; &ldquo;%2$s&rdquo; wurde zu Ihrer Reservierung hinzugefügt."
+msgstr[1] "%1$d &times; &ldquo;%2$s&rdquo; wurden zu Ihrer Reservierung hinzugefügt."
+
+msgid "%s accommodation selected."
+msgid_plural "%s accommodations selected."
+msgstr[0] "%s Unterkunft ausgewählt."
+msgstr[1] "%s Unterkünfte ausgewählt."
+
+msgid "Coupon code is empty."
+msgstr "Der Gutscheincode ist leer."
+
+msgid "Dark Blue"
+msgstr "Dunkelblau"
+
+msgid "Dark Green"
+msgstr "Dunkelgrün"
+
+msgid "Dark Red"
+msgstr "Dunkelrot"
+
+msgid "Grayscale"
+msgstr "Graustufen"
+
+msgid "Light Blue"
+msgstr "Hellblau"
+
+msgid "Light Coral"
+msgstr "Hellkorallenrot"
+
+msgid "Light Green"
+msgstr "Hellgrün"
+
+msgid "Light Yellow"
+msgstr "Hellgelb"
+
+msgid "Minimal Blue"
+msgstr "Minimal Blau"
+
+msgid "Minimal Orange"
+msgstr "Minimal Orange"
+
+msgid "Minimal"
+msgstr "Minimal"
+
+msgid "Sky Blue"
+msgstr "Himmelblau"
+
+msgid "Slate Blue"
+msgstr "Schieferblau"
+
+msgid "Turquoise"
+msgstr "Türkis"
+
+msgid "Invalid login or password."
+msgstr ""
+
+msgid "Account data updated."
+msgstr "Kontodaten aktualisiert."
+
+msgid "Password changed."
+msgstr "Passwort geändert."
+
+msgid "Dashboard"
+msgstr "Dashboard"
+
+msgid "Account"
+msgstr "Konto"
+
+msgid "Logout"
+msgstr "Abmelden"
+
+msgid "Passwords do not match."
+msgstr "Die Passwörter stimmen nicht überein."
+
+msgid "Please, provide a valid current password."
+msgstr "Bitte geben Sie ein gültiges aktuelles Passwort ein."
+
+msgid "Lost your password?"
+msgstr ""
+
+msgid "Payment:"
+msgstr "Bezahlung:"
+
+msgid "Payment Method:"
+msgstr "Zahlungsmethode:"
+
+msgid "Status:"
+msgstr "Status:"
+
+msgid "Checkout data is not valid."
+msgstr "Checkout-Daten sind nicht gültig."
+
+msgid "Payment method is not valid."
+msgstr "Zahlungsmethode ist nicht gültig."
+
+msgid "Accommodation count is not valid."
+msgstr "Unterkunft-Anzahl ist nicht gültig."
+
+msgid "Accommodation is already booked."
+msgstr "Die Unterkunft ist bereits gebucht."
+
+msgid "Reservation submitted"
+msgstr "Reservierung eingereicht"
+
+msgid "Details of your reservation have just been sent to you in a confirmation email. Please check your inbox to complete booking."
+msgstr "Details Ihrer Reservierung wurden Ihnen gerade in einer Bestätigungs-E-Mail zugesandt. Bitte überprüfen Sie Ihren Posteingang, um die Buchung abzuschließen."
+
+msgid "We received your booking request. Once it is confirmed we will notify you via email."
+msgstr "Wir haben Ihre Buchungsanfrage erhalten. Sobald sie bestätigt ist, werden wir Sie per E-Mail benachrichtigen."
+
+msgid "Choose dates to see relevant prices"
+msgstr "Wählen Sie Daten, um relevante Preise zu sehen"
+
+msgid "Select from available accommodations."
+msgstr "Wählen Sie aus verfügbaren Unterkünften."
+
+msgid "Confirm Reservation"
+msgstr "Reservierung bestätigen"
+
+msgid "Recommended for %d adult"
+msgid_plural "Recommended for %d adults"
+msgstr[0] "Empfohlen für %d Erwachsenen"
+msgstr[1] "Empfohlen für %d Erwachsene"
+
+msgid " and %d child"
+msgid_plural " and %d children"
+msgstr[0] " und %d Kind"
+msgstr[1] " und %d Kinder"
+
+msgid "Recommended for %d guest"
+msgid_plural "Recommended for %d guests"
+msgstr[0] "Empfohlen für %d Gast"
+msgstr[1] "Empfohlen für %d Gäste"
+
+msgid "Max occupancy:"
+msgstr "Max. Belegung:"
+
+msgid "%d child"
+msgid_plural "%d children"
+msgstr[0] "%d Kind"
+msgstr[1] "%d Kinder"
+
+msgid "Reserve"
+msgstr "Reservieren"
+
+msgid "of %d accommodation available."
+msgid_plural "of %d accommodations available."
+msgstr[0] "von %d Unterkunft verfügbar."
+msgstr[1] "von %d Unterkünfte verfügbar."
+
+#. translators: Verb. To book an accommodation.
+msgid "Book"
+msgstr "Buchen"
+
+msgid "Please, provide a valid email."
+msgstr "Bitte geben Sie eine gültige E-Mail ein."
+
+msgid "Could not create a customer."
+msgstr "Kunde konnte nicht erstellt werden."
+
+msgid "Could not retrieve a customer."
+msgstr "Kunde konnte nicht abgerufen werden."
+
+msgid "Please, provide a valid Customer ID."
+msgstr "Bitte geben Sie eine gültige Kunden-ID ein."
+
+msgid "A database error."
+msgstr "Datenbankfehler."
+
+msgid "No customer was deleted."
+msgstr "Es wurde kein Kunde gelöscht."
+
+msgid "An account with this email already exists. Please, log in."
+msgstr "Es gibt bereits ein Konto mit dieser E-Mail-Adresse. Bitte melden Sie sich an."
+
+msgid "Hotel Manager"
+msgstr "Hotelmanager"
+
+msgid "Hotel Worker"
+msgstr "Hotelmitarbeiter"
+
+msgid "Hotel Customer"
+msgstr "Hotelkunde"
+
+msgid "Please provide a valid email address."
+msgstr "Bitte geben Sie eine gültige E-Mail-Adresse ein."
+
+msgid "Please enter a valid account username."
+msgstr "Bitte geben Sie einen gültigen Konto-Benutzernamen ein."
+
+msgid "An account is already registered with that username. Please choose another."
+msgstr "Es ist bereits ein Konto mit diesem Benutzernamen registriert. Bitte wählen Sie einen anderen Benutzernamen."
+
+msgid "Please enter an account password."
+msgstr "Bitte geben Sie ein Kontopasswort ein."
+
+msgid "Sunday"
+msgstr "Sonntag"
+
+msgid "Monday"
+msgstr "Montag"
+
+msgid "Tuesday"
+msgstr "Dienstag"
+
+msgid "Wednesday"
+msgstr "Mittwoch"
+
+msgid "Thursday"
+msgstr "Donnerstag"
+
+msgid "Friday"
+msgstr "Freitag"
+
+msgid "Saturday"
+msgstr "Samstag"
+
+msgid "Check-out date cannot be earlier than check-in date."
+msgstr "Das Auscheck-Datum kann nicht vor dem Eincheck-Datum liegen."
+
+msgid "Adults number is not valid"
+msgstr "Nummer für Erwachsene ist nicht gültig"
+
+msgid "Children number is not valid"
+msgstr "Kindernummer ist nicht gültig"
+
+msgctxt "Text about taxes and fees below the price."
+msgid " (+taxes and fees)"
+msgstr " (+Steuern und Gebühren)"
+
+#. translators: %s is a tax value
+msgctxt "Text about taxes and fees below the price."
+msgid " (+%s taxes and fees)"
+msgstr " (+%s Steuern und Gebühren)"
+
+msgctxt "Text about taxes and fees below the price."
+msgid " (includes taxes and fees)"
+msgstr " (einschließlich Steuern und Gebühren)"
+
+msgctxt "Accommodation type in price breakdown table. Example: #1 Double Room"
+msgid "#%d %s"
+msgstr "#%d %s"
+
+msgid "Expand"
+msgstr "Erweitern"
+
+msgid "Rate: %s"
+msgstr "Rate: %s"
+
+msgid "Dates"
+msgstr "Daten"
+
+msgid "Dates Subtotal"
+msgstr "Daten-Zwischenergebnis"
+
+msgid "Accommodation Taxes Subtotal"
+msgstr "Unterkunftssteuern Zwischensumme"
+
+msgid "Details"
+msgstr "Details"
+
+msgid "Service Taxes Subtotal"
+msgstr "Dienstleistungssteuern Zwischensumme"
+
+msgid "Fees Subtotal"
+msgstr "Gebühren Zwischensumme"
+
+msgid "Fee Taxes Subtotal"
+msgstr "Taxen und Gebühren Zwischensumme"
+
+msgid "Subtotal"
+msgstr "Zwischensumme"
+
+msgid "Coupon: %s"
+msgstr "Gutschein: %s"
+
+msgid "Subtotal (excl. taxes)"
+msgstr "Zwischensumme (exkl. Steuern)"
+
+msgid "Taxes"
+msgstr "Steuern"
+
+msgid "Coupon Code:"
+msgstr "Gutscheincode:"
+
+msgid "New Booking Details"
+msgstr "Neue Buchungsdetails"
+
+msgid "Original Booking Details"
+msgstr "Original-Buchungsdetails"
+
+msgid "Accommodation:"
+msgstr "Unterkunft:"
+
+msgid "Children %s"
+msgstr "Kinder %s"
+
+msgid "Additional Services"
+msgstr "Zusatzleistungen"
+
+msgid "Accommodation pagination"
+msgstr "Paginierung von Unterkunft"
+
+msgid "Services pagination"
+msgstr "Paginierung von Dienstleistungen"
+
+msgid "Categories:"
+msgstr "Kategorien:"
+
+msgid "Amenities:"
+msgstr "Ausstattungen:"
+
+msgid "Guests:"
+msgstr "Gäste:"
+
+msgid "Bed Type:"
+msgstr "Bettentyp:"
+
+msgid "View:"
+msgstr "Ansicht:"
+
+msgid "Prices start at:"
+msgstr "Preis von:"
+
+msgid "Price:"
+msgstr "Preis:"
+
+msgid "x %d adult"
+msgid_plural "x %d adults"
+msgstr[0] "x %d Erwachsener"
+msgstr[1] "x %d Erwachsene"
+
+msgid "Returning customer?"
+msgstr "Wiederkehrender Kunde?"
+
+msgid "Click here to log in"
+msgstr "Zur Anmeldung hier klicken"
+
+#. translators: 1 - username;
+msgid "Hello %1$s (not %1$s? <a href=\"%2$s\">Log out</a>)."
+msgstr "Hallo %1$s (nicht %1$s? <a href=\"%2$s\">Abmelden</a>)."
+
+msgid "Accommodation #%d"
+msgstr "Unterkunft #%d"
+
+msgid "Accommodation Type:"
+msgstr "Unterkunftsart:"
+
+msgid "Choose Rate"
+msgstr "Rate wählen"
+
+msgid "Choose Additional Services"
+msgstr "Wählen Sie Zusatzleistungen"
+
+msgid "for "
+msgstr "für "
+
+msgctxt "Example: Breakfast for X guest(s)"
+msgid " guest(s)"
+msgstr " Gast(Gäste)"
+
+msgid "time(s)"
+msgstr "Mal"
+
+msgctxt "I've read and accept the terms & conditions"
+msgid "terms & conditions"
+msgstr "Allgemeine Geschäftsbedingungen"
+
+msgctxt "I've read and accept the <tag>terms & conditions</tag>"
+msgid "I've read and accept the %s"
+msgstr "Ich habe die %s gelesen und akzeptiere diese"
+
+msgid "Your Information"
+msgstr "Ihre Informationen"
+
+msgid "Required fields are followed by %s"
+msgstr "Erforderliche Felder werden gefolgt von %s"
+
+msgid "Create an account"
+msgstr "Ein Konto erstellen"
+
+msgid "Payment Method"
+msgstr "Zahlungsmethode"
+
+msgid "Sorry, it seems that there are no available payment methods."
+msgstr "Tut uns leid, es scheint, dass es keine verfügbaren Zahlungsmethoden gibt."
+
+msgid "Total Price:"
+msgstr "Gesamtsumme:"
+
+msgid "Deposit:"
+msgstr "Anzahlung:"
+
+msgid "Check-in:"
+msgstr "Anreise:"
+
+msgctxt "from 10:00 am"
+msgid "from"
+msgstr "von"
+
+msgid "Check-out:"
+msgstr "Abreise:"
+
+msgctxt "until 10:00 am"
+msgid "until"
+msgstr "bis"
+
+msgid "Book Now"
+msgstr "Jetzt buchen"
+
+msgid "Availability"
+msgstr "Verfügbarkeit"
+
+msgid "Reservation Form"
+msgstr "Buchungsformular"
+
+msgid "Display Accommodation Types"
+msgstr "Alle Unterkunftsarten anzeigen"
+
+msgid "Featured Image"
+msgstr "Beitragsbild"
+
+msgid "Excerpt (short description)"
+msgstr "Beitragsauszug (Kurzbeschreibung)"
+
+msgid "Book Button"
+msgstr "Buchungsbutton"
+
+msgid "Search Availability"
+msgstr "Verfügbarkeitsuche"
+
+msgid "Search Availability Form"
+msgstr "Verfügbarkeitssuche-Formular"
+
+msgid "Title:"
+msgstr "Titel:"
+
+msgid "Check-in Date:"
+msgstr "Anreisedatum:"
+
+msgctxt "Date format tip"
+msgid "Preset date. Formatted as %s"
+msgstr "Datumsvoreinstellung. Formatiert als %s"
+
+msgid "Check-out Date:"
+msgstr "Abreisedatum:"
+
+msgid "Preset Adults:"
+msgstr "Voreingestellte Parameter für Erwachsene:"
+
+msgid "Preset Children:"
+msgstr "Voreingestellte Parameter für Kinder:"
+
+msgid "Attributes:"
+msgstr "Attribute:"
+
+msgid "Booking Confirmation and Search Results pages are required to handle bookings. Press \"Install Pages\" button to create and set up these pages. Dismiss this notice if you already installed them."
+msgstr "Checkout- und Suchergebnisseiten sind erforderlich, um Buchungen zu bearbeiten. Klicken Sie auf die Schaltfläche \"Seiten installieren\", um diese Seiten zu erstellen und einzurichten. Ignorieren Sie diese Benachrichtigung, wenn Sie sie bereits installiert haben."
+
+msgid "Install Pages"
+msgstr "Seiten installieren"
+
+msgid "Booking Canceled"
+msgstr "Buchung storniert"
+
+msgid "Your reservation is canceled."
+msgstr "Ihre Reservierung wurde storniert."
+
+msgid "Reservation Received"
+msgstr "Reservierung erhalten"
+
+msgid "Transaction Failed"
+msgstr "Transaktion fehlgeschlagen"
+
+msgid "Unfortunately, your transaction cannot be completed at this time. Please try again or contact us."
+msgstr "Leider kann Ihre Transaktion derzeit nicht abgeschlossen werden. Bitte versuchen Sie es noch einmal oder kontaktieren Sie uns direkt."
+
+msgid "Prices start at: %s"
+msgstr "Preis von: %s"
+
+msgid "View Details"
+msgstr "Details ansehen"
+
+msgctxt "Date format tip"
+msgid "Formatted as %s"
+msgstr "Formatiert als %s"
+
+msgid "Check Availability"
+msgstr "Verfügbarkeit prüfen"
+
+msgid "Reserve %1$s of %2$s available accommodations."
+msgstr "%1$s of %2$s verfügbare Unterkünfte reservieren."
+
+msgid "%s is available for selected dates."
+msgstr "%s ist für ausgewählte Daten verfügbar."
+
+msgid "Rate:"
+msgstr "Rate:"
+
+msgid "Services:"
+msgstr "Dienstleistungen:"
+
+msgid "Guest:"
+msgstr "Gäste:"
+
+msgid "Payment ID"
+msgstr "Zahlung-ID"
+
+msgid "Total Paid"
+msgstr "Bezahlte Gesamtsumme"
+
+msgid "To Pay"
+msgstr "Bezahlen"
+
+msgid "Add Payment Manually"
+msgstr "Zahlung manuell hinzufügen"
+
+msgid "Change Password"
+msgstr "Passwort ändern"
+
+msgid "Old Password"
+msgstr "Altes Passwort"
+
+msgid "New Password"
+msgstr "Neues Passwort"
+
+msgid "Confirm New Password"
+msgstr "Neues Passwort bestätigen"
+
+msgid "You are not allowed to access this page."
+msgstr "Sie sind nicht berechtigt, auf diese Seite zuzugreifen."
+
+msgid "No bookings found."
+msgstr "Keine Buchungen gefunden."
+
+msgid "From your account dashboard you can view <a href=\"%1$s\">your recent bookings</a> or edit your <a href=\"%2$s\">password and account details</a>."
+msgstr "Sie können in Ihrem Konto-Dashboard <a href=\"%1$s\">Ihre letzten Buchungen</a> anzeigen oder Ihre <a href=\"%2$s\">Passwort- und Kontodetails</a> bearbeiten."
+
+msgid "Base price"
+msgstr "Basispreis"
+
+msgid "%s accommodation found"
+msgid_plural "%s accommodations found"
+msgstr[0] "%s Unterkunft gefunden"
+msgstr[1] "%s Unterkünfte gefunden"
+
+msgid " from %s - till %s"
+msgstr " von %s - bis %s"
+
+msgid "Add Accommodation"
+msgstr "Unterkunft hinzufügen"
+
+msgid "Save"
+msgstr "Speichern"
+
+msgid "Choose new dates to check availability of reserved accommodations in the original booking."
+msgstr "Wählen Sie neue Daten aus, um die Verfügbarkeit der reservierten Unterkünfte in der Originalbuchung zu überprüfen."
+
+msgid "Add, remove or replace accommodations in the original booking."
+msgstr "Hinzufügen, Entfernen oder Ersetzen von Unterkünften in der ursprünglichen Buchung."
+
+msgid "Not Available"
+msgstr "Nicht verfügbar"
+
+msgid "Continue"
+msgstr "Weiter"
+
+msgid "Choose how to associate data"
+msgstr "Wählen Sie aus, wie die Daten verknüpft werden"
+
+msgid "Use Source Accommodation to assign pre-filled booking information available in the original booking, e.g., full guest name, selected rate, services, etc."
+msgstr "Verwenden Sie die Funktion Quell-Unterkunft, um vorausgefüllte Buchungsinformationen zuzuordnen, die in der ursprünglichen Buchung verfügbar waren, z. B. vollständiger Gastname, ausgewählter Tarif, Dienstleistungen usw."
+
+msgid "Source accommodation"
+msgstr "Quellunterkunft"
+
+msgid "Target accommodation"
+msgstr "Zielunterbringung"
+
+msgid "Booking #%s is cancelled by customer."
+msgstr "Buchung #%s wurde vom Kunden storniert."
+
+msgid "Details of booking"
+msgstr "Buchungsdetails"
+
+msgid "Check-in: %1$s, from %2$s"
+msgstr "Anreise: %1$s, ab %2$s"
+
+msgid "Check-out: %1$s, until %2$s"
+msgstr "Abreise: %1$s, bis %2$s"
+
+msgid "Name: %1$s %2$s"
+msgstr "Name: %1$s %2$s"
+
+msgid "Email: %s"
+msgstr "E-Mail: %s"
+
+msgid "Phone: %s"
+msgstr "Telefon: %s"
+
+msgid "Note: %s"
+msgstr "Notizen: %s"
+
+msgid "Booking #%s is confirmed by customer."
+msgstr "Buchung #%s wurde vom Kunden bestätigt."
+
+msgid "Booking #%s is confirmed by payment."
+msgstr "Buchung #%s wurde durch Zahlung bestätigt."
+
+msgid "Details of payment"
+msgstr "Zahlungsdetails"
+
+msgid "Payment ID: #%s"
+msgstr "Zahlung-ID: #%s"
+
+msgid "Amount: %s"
+msgstr "Betrag: %s"
+
+msgid "Method: %s"
+msgstr "Methode: %s"
+
+msgid "Booking #%s is pending for Administrator approval."
+msgstr "Buchung #%s wartet noch auf die Genehmigung des Administrators."
+
+msgid "Click the link below to cancel your booking."
+msgstr "Klicken Sie auf den untenstehenden Link, um Ihre Buchung zu stornieren."
+
+msgid "Cancel your booking"
+msgstr "Stornieren Sie Ihre Buchung"
+
+msgid "Dear %1$s %2$s, your reservation is approved!"
+msgstr "Sehr geehrte(r) Frau/Herr %1$s %2$s, Ihre Reservierung wurde akzeptiert!"
+
+msgid "ID: #%s"
+msgstr "ID: #%s"
+
+msgid "Thank you!"
+msgstr "Vielen Dank!"
+
+msgid "Dear %1$s %2$s, your reservation is cancelled!"
+msgstr "Sehr geehrte(r) Frau/Herr %1$s %2$s, Ihre Reservierung wurde storniert!"
+
+msgid "Dear %1$s %2$s, we received your request for reservation."
+msgstr "Sehr geehrte(r) Frau/Herr %1$s %2$s, wir erhielten Ihre Reservierungsanfrage."
+
+msgid "Click the link below to confirm your booking."
+msgstr "Klicken Sie auf den Link unten, um Ihre Buchung zu bestätigen."
+
+msgid "Confirm"
+msgstr "Bestätigen"
+
+msgid "Note: link expires on"
+msgstr "Hinweis: Der Link wird inaktiv am"
+
+msgid "UTC"
+msgstr "UTC"
+
+msgid "If you did not place this booking, please ignore this email."
+msgstr "Wenn Sie diese Buchung nicht getätigt haben, ignorieren Sie bitte diese E-Mail."
+
+msgid "Dear %1$s %2$s, your reservation is pending."
+msgstr "Sehr geehrte(r) Frau/Herr %1$s %2$s, Ihre Reservierung ist noch ausstehend."
+
+msgid "We will notify you by email once it is confirmed by our staff."
+msgstr "Wir werden Sie per E-Mail benachrichtigen, sobald es von unseren Mitarbeitern bestätigt wird."
+
+msgid "Hi %1$s %2$s,"
+msgstr "Hallo %1$s %2$s,"
+
+msgid "Thanks for creating an account on %1$s."
+msgstr "Vielen Dank, dass Sie ein Konto bei %1$s erstellt haben."
+
+msgid "You Account Details"
+msgstr "Ihre Kontodetails"
+
+msgid "Login: %s"
+msgstr "Benutzername: %s"
+
+msgid "Password: %s"
+msgstr "Password: %s"
+
+msgid "Log in here: %s"
+msgstr "Hier anmelden: %s"
+
+msgid "Accommodation #%s"
+msgstr "Unterkunft #%s"
+
+msgid "Accommodation: <a href=\"%1$s\">%2$s</a>"
+msgstr "Unterkunft: <a href=\"%1$s\">%2$s</a>"
+
+msgid "Accommodation Rate: %s"
+msgstr "Übernachtungspreis: %s"
+
+msgid "Bed Type: %s"
+msgstr "Bettentyp: %s"
+
+msgid "Required fields are followed by"
+msgstr "Erforderliche Felder werden gefolgt von"
+
+msgid "Booking is already canceled."
+msgstr "Ihre Buchung wurde bereits storniert."
+
+msgid "Cancel Booking"
+msgstr "Buchung stornieren"
+
+msgid "Invalid request."
+msgstr "Ungültige Anfrage."
+
+msgid "Cancelation of your booking is not possible for some reason. Please contact the website administrator."
+msgstr "Es ist nicht möglich, Ihre Buchung zu stornieren. Wenden Sie sich an den Administrator der Website."
+
+msgid "Booking is already confirmed."
+msgstr "Ihre Buchung ist bereits bestätigt."
+
+msgid "Your booking is confirmed. Thank You!"
+msgstr "Ihre Buchung ist bestätigt. Danke!"
+
+msgid "Your booking request is expired. Please start a new booking request."
+msgstr "Ihre Buchungsanfrage ist abgelaufen. Bitte starten Sie eine neue Buchungsanfrage."
+
+msgid "Confirmation of your booking request is not possible for some reason. Please start a new booking request."
+msgstr "Die Bestätigung Ihrer Buchungsanfrage ist aus irgendeinem Grund nicht möglich. Bitte starten Sie eine neue Buchungsanfrage."
+
+msgid "We are pleased to inform you that your reservation request has been received and confirmed."
+msgstr "Wir freuen uns, Ihnen mitteilen zu können, dass ihre Reservierungsanfrage erfolgreich bestätigt wurde."
+
+msgid "Booking:"
+msgstr "Buchung:"
+
+msgid "Details:"
+msgstr "Details:"
+
+msgid "Thank you for your payment. Your transaction has been completed."
+msgstr "Danke für Ihre Bezahlung. Ihre Transaktion wurde abgeschlossen."
+
+msgid "We are pleased to inform you that your reservation request has been received."
+msgstr "Wir freuen uns Ihnen mitteilen zu dürfen, dass Ihre Reservierung zugestellt wurde."
+
+msgid "from %s"
+msgstr "von %s"
+
+msgid "No accommodations matching criteria."
+msgstr "Keine Unterkünfte entsprechen Ihren Kriterien."
+
+msgid "No services matched criteria."
+msgstr "Keine Dienstleistung gefunden."
+
+msgid "Nothing found."
+msgstr "Nichts gefunden."
+
+msgid "Children %s:"
+msgstr "Kinder %s:"
+
+msgid "Preset date. Formatted as %s"
+msgstr "Datumsvoreinstellung. Formatiert als %s"
+
+msgid "Gallery"
+msgstr "Galerie"
+
+msgid "View Button"
+msgstr "\"Ansehen\"-Button"
+
+msgid "Order"
+msgstr "Reihenfolge"
+
+msgid "Order By"
+msgstr "Sortieren nach"
+
+msgid "No order"
+msgstr "Keine Reihenfolge"
+
+msgid "Post ID"
+msgstr "Beitrags-ID"
+
+msgid "Post author"
+msgstr "Beitragsautor"
+
+msgid "Post title"
+msgstr "Beitragstitel"
+
+msgid "Post name (post slug)"
+msgstr "Beitragsname (Beitrag-Slug)"
+
+msgid "Post date"
+msgstr "Veröffentlicht"
+
+msgid "Last modified date"
+msgstr "Zuletzt geändert"
+
+msgid "Parent ID"
+msgstr "ID der Oberkategorie"
+
+msgid "Random order"
+msgstr "Zufällige Reihenfolge"
+
+msgid "Number of comments"
+msgstr "Anzahl der Kommentare"
+
+msgid "Relevance"
+msgstr "Relevanz"
+
+msgid "Page order"
+msgstr "Seitenreihenfolge"
+
+msgid "Meta value"
+msgstr "Meta-Wert"
+
+msgid "Numeric meta value"
+msgstr "Numerischer Meta-Wert"
+
+msgid "Ascending (1, 2, 3)"
+msgstr "Aufsteigend (1, 2, 3)"
+
+msgid "Descending (3, 2, 1)"
+msgstr "Absteigend (3, 2, 1)"
+
+msgid "Meta Name"
+msgstr "Meta-Name"
+
+msgid "Meta Type"
+msgstr "Meta-Typ"
+
+msgid "Specified type of the custom field. Can be used in conjunction with \"orderby\" = \"meta_value\"."
+msgstr "Angegebener Typ des benutzerdefinierten Felds. Kann in Verbindung mit \"orderby\" = \"meta_value\" verwendet werden."
+
+msgid "Any"
+msgstr "Beliebig"
+
+msgid "Numeric"
+msgstr "Numerisch"
+
+msgid "Binary"
+msgstr "Binär"
+
+msgid "String"
+msgstr "Zeichenkette"
+
+msgid "Time"
+msgstr "Uhrzeit"
+
+msgid "Date and time"
+msgstr "Datum und Uhrzeit"
+
+msgid "Decimal number"
+msgstr "Dezimalzahl"
+
+msgid "Signed number"
+msgstr "Zahl mit Vorzeichen"
+
+msgid "Unsigned number"
+msgstr "Vorzeichenlose Zahl"
+
+msgid "Query Settings"
+msgstr "Abfrageeinstellungen"
+
+msgid "Relation"
+msgstr "Beziehung"
+
+msgid "Values: integer, -1 to display all, default: \"Blog pages show at most\""
+msgstr "Werte: Ganzzahl; -1 um alle anzuzeigen; Standard: 'Blogseiten zeigen maximal' (Einstellungen\\Lesen)"

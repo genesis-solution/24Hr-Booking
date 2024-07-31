@@ -1,0 +1,19 @@
+<wpml-config>
+    <custom-types>
+        <custom-type translate="1">mphb_checkout_field</custom-type>
+    </custom-types>
+    <custom-fields>
+        <custom-field action="copy">mphb_cf_name</custom-field>
+        <custom-field action="copy">mphb_cf_type</custom-field>
+        <custom-field action="translate">mphb_cf_inner_label</custom-field>
+        <custom-field action="translate">mphb_cf_text_content</custom-field>
+        <custom-field action="translate">mphb_cf_placeholder</custom-field>
+        <custom-field action="translate">mphb_cf_pattern</custom-field>
+        <custom-field action="translate">mphb_cf_description</custom-field>
+        <custom-field action="copy">mphb_cf_css_class</custom-field>
+        <custom-field action="copy-once">mphb_cf_options</custom-field>
+        <custom-field action="copy">mphb_cf_checked</custom-field>
+        <custom-field action="copy">mphb_cf_required</custom-field>
+        <custom-field action="copy">mphb_cf_enabled</custom-field>
+    </custom-fields>
+</wpml-config>

@@ -1,0 +1,80 @@
+#wpbe_bulk_is_going{
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    animation:wpbe_bulk_is_going .95s ease-out infinite;
+    text-shadow: 0 0 5px #abc, 0 0 7px #abc;
+}
+#wpbe_meta_finder{
+    margin-top: 20px;
+}
+@keyframes wpbe_bulk_is_going{
+    from{
+        text-shadow:0px 0px 10px #fff,
+            0px 0px 10px #fff, 
+            0px 0px 25px #fff,
+            0px 0px 25px #fff,
+            0px 0px 25px #fff,
+            0px 0px 25px #fff,
+            0px 0px 25px #fff,
+            0px 0px 25px #fff,
+            0px 0px 50px #fff,
+            0px 0px 50px #fff,
+            0px 0px 50px #7B96B8,
+            0px 0px 150px #7B96B8,
+            0px 10px 100px #7B96B8,
+            0px 10px 100px #7B96B8,
+            0px 10px 100px #7B96B8,
+            0px 10px 100px #7B96B8,
+            0px -10px 100px #7B96B8,
+            0px -10px 100px #7B96B8;
+    }
+}
+
+/******************************/
+
+#wpbe_bulk_form nav{
+    background: #eee;
+    border-radius: 4px;
+}
+
+#wpbe_bulk_form nav a{
+    color: #333;
+}
+
+#wpbe_bulk_form nav .tab-current a{
+    color: green;
+}
+
+#wpbe_bulk_to_var_combinations_apply .select-wrap{
+    display: inline-block;
+    margin-left: 2px;
+}
+
+.wpbe_post_author_edit .chosen-container{
+    width: 100% !important;
+}
+.filter-unit-wrap.wpbe_post_author_edit{
+    overflow: visible;
+}
+#wpbe_bulk_delete_posts_btn{
+   margin: 4px 0 0 0;
+   background: red;
+}
+#wpbe_bulk_delete_posts_btn_fuse, .wpbe_delete_wraper label{
+    vertical-align: bottom;
+}
+.wpbe_delete_wraper{
+    padding: 5px 0 5px 0;
+    line-height: 15px;
+}
+
+.wpbe_height_4{
+    height: 4px;
+}
+.wpbe_random{
+    padding: 3px;
+    border: dotted 2px wheat;
+    margin-top: 10px;
+    text-align: center;
+}

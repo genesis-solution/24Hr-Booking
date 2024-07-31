@@ -1,0 +1,6 @@
+<wpml-config>
+    <custom-fields>
+        <custom-field action="translate">mphb_notification_notice_1</custom-field>
+        <custom-field action="translate">mphb_notification_notice_2</custom-field>
+    </custom-fields>
+</wpml-config>

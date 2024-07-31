@@ -1,0 +1,14 @@
+.wpbe_tools_panel_fprofile_btn{
+    font-family: 'fontello';
+    font-size: 18px !important;
+}
+
+.wpbe_tools_panel_fprofile_btn:before{
+    content: "\e824 \e825";
+}
+
+#wpbe_fprofile_popup .wpbe-modal{
+    z-index: 15002; 
+    width: 80%; 
+    height: 320px;
+}

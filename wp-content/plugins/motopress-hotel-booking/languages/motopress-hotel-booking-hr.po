@@ -1,0 +1,6138 @@
+# Copyright (C) 2022 MotoPress
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: hotel-booking-plugin\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/motopress-hotel-booking\n"
+"Last-Translator: \n"
+"Language-Team: Croatian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2022-11-15T19:41:55+00:00\n"
+"PO-Revision-Date: 2022-11-15 20:26\n"
+"X-Generator: WP-CLI 2.6.0\n"
+"X-Domain: motopress-hotel-booking\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Crowdin-Project: hotel-booking-plugin\n"
+"X-Crowdin-Project-ID: 463550\n"
+"X-Crowdin-Language: hr\n"
+"X-Crowdin-File: motopress-hotel-booking.pot\n"
+"X-Crowdin-File-ID: 44\n"
+"Language: hr_HR\n"
+
+#. Plugin Name of the plugin
+#. translators: Name of the plugin, do not translate
+msgid "Hotel Booking"
+msgstr "Hotel Booking"
+
+#. Plugin URI of the plugin
+msgid "https://motopress.com/products/hotel-booking/"
+msgstr ""
+
+#. Description of the plugin
+msgid "Manage your hotel booking services. Perfect for hotels, villas, guest houses, hostels, and apartments of all sizes."
+msgstr "Upravljajte Vašim uslugama rezervacija. Savršeno za hotele, vile, pansione, hostele i apartmane svih veličina."
+
+#. Author of the plugin
+msgid "MotoPress"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://motopress.com/"
+msgstr ""
+
+msgctxt "Post Status"
+msgid "New"
+msgstr "Novo"
+
+msgctxt "Post Status"
+msgid "Auto Draft"
+msgstr "Automatski draft"
+
+msgctxt "Zero price"
+msgid "Free"
+msgstr "Besplatno"
+
+#. translators: Price per one night. Example: $99 per night
+msgctxt "Price per one night. Example: $99 per night"
+msgid "per night"
+msgstr "za noć"
+
+#. translators: Price for X nights. Example: $99 for 2 nights, $99 for 21 nights
+msgctxt "Price for X nights. Example: $99 for 2 nights, $99 for 21 nights"
+msgid "for %d nights"
+msgid_plural "for %d nights"
+msgstr[0] "za %d noći"
+msgstr[1] "za %d noći"
+msgstr[2] "za %d noći"
+
+#. translators: %s: URL to plugins.php page
+msgid "You are using two instances of Hotel Booking plugin at the same time, please <a href=\"%s\">deactivate one of them</a>."
+msgstr ""
+
+msgid "<a href=\"%s\">Upgrade to Premium</a> to enable this feature."
+msgstr ""
+
+msgid "Nonce verification failed."
+msgstr ""
+
+msgid "The file does not exist."
+msgstr ""
+
+msgid "Source ID is missing."
+msgstr ""
+
+msgid "Error"
+msgstr "Greška"
+
+msgid "View"
+msgstr "Vidi"
+
+msgid "Delete"
+msgstr "Obriši"
+
+msgid "Name"
+msgstr "Naziv"
+
+msgid "Email"
+msgstr ""
+
+msgid "Bookings"
+msgstr "Rezervacije"
+
+msgid "Date Registered"
+msgstr ""
+
+msgid "Last Active"
+msgstr ""
+
+#. translators: Terms are variations for Attributes and bear no relation to the Terms and Conditions Page.
+msgid "Terms"
+msgstr ""
+
+msgid "Created on:"
+msgstr "Izrađeno:"
+
+#. translators: Terms are variations for Attributes and bear no relation to the Terms and Conditions Page.
+msgid "Please add attribute in default language to configure terms."
+msgstr ""
+
+#. translators: Terms are variations for Attributes and bear no relation to the Terms and Conditions Page.
+msgid "Configure terms"
+msgstr "Konfigurirajte pojmove"
+
+msgid "Reserved Accommodations"
+msgstr "Rezerviran Smještaj"
+
+msgid "Update Booking"
+msgstr "Ažuriraj Rezervaciju"
+
+msgid "Logs"
+msgstr "Logovi"
+
+msgid "Delete Permanently"
+msgstr "Trajno Obriši"
+
+msgid "Move to Trash"
+msgstr "Prebaci u Otpad"
+
+msgid "Create Booking"
+msgstr "Izradite Rezervaciju"
+
+msgid "Resend Email"
+msgstr ""
+
+msgid "Send a copy of the Approved Booking email to the customer`s email address."
+msgstr ""
+
+msgid "Edit Accommodations"
+msgstr ""
+
+msgid "Date:"
+msgstr "Datum:"
+
+msgid "Author:"
+msgstr "Autor:"
+
+msgid "Auto"
+msgstr "Automatsko"
+
+msgid "Message:"
+msgstr "Poruka:"
+
+msgid "Confirmation email has been sent to customer."
+msgstr ""
+
+msgid "Coupon code"
+msgstr "Kod Kupona"
+
+msgid "Update Payment"
+msgstr "Ažuriraj Plaćanje"
+
+msgid "Modified on:"
+msgstr "Modificirano:"
+
+msgid "Create Payment"
+msgstr "Izradite Plaćanje"
+
+msgid "Season Prices"
+msgstr "Sezonske Cijene"
+
+msgid "<code>Please select Accommodation Type and click Create Rate button to continue.</code>"
+msgstr "<code> Odaberite Vrsta smještaja i kliknite gumb Stvori stopu da biste nastavili. </code>"
+
+msgid "Update Rate"
+msgstr "Ažuriraj Periodičnu Cijenu"
+
+msgid "Active"
+msgstr "Aktivno"
+
+msgid "Disabled"
+msgstr "Onemogućeno"
+
+msgid "Create Rate"
+msgstr "Stvori Periodičnu Cijenu"
+
+msgid "Duplicate Rate"
+msgstr "Dupliciraj Periodičnu Cijenu"
+
+msgid "Generate Accommodations"
+msgstr "Generiraj Smještajne Jedinice"
+
+msgid "Attributes"
+msgstr "Atributi"
+
+msgid "Accommodation Reviews"
+msgstr "Recenzije smještaja"
+
+msgid "Allow guests to <a href=\"%s\" target=\"_blank\">submit star ratings and reviews</a> evaluating your accommodations."
+msgstr "Dopustite gostima da <a href=\"%s\" target=\"_blank\"> šalju ocjene i kritike zvjezdica </a> ocjenjujući vaš smještaj."
+
+msgid "Number of Accommodations:"
+msgstr "Broj Smještajnih Jedinica:"
+
+msgid "Count of real accommodations of this type in your hotel."
+msgstr "Broj stvarnih smještajnih jedinica ove vrste u hotelu."
+
+msgid "Total Accommodations:"
+msgstr "Ukupno Smještajnih Jedinica:"
+
+msgid "Show Accommodations"
+msgstr "Prikaži Smještajne Jedinice"
+
+msgid "Active Accommodations:"
+msgstr "Aktivne Smještajne Jedinice:"
+
+msgid "Add"
+msgstr "Dodaj"
+
+msgid "Per adult:"
+msgstr "Po odrasloj osobi:"
+
+msgid "Per child:"
+msgstr "Po djetetu:"
+
+msgid "Per adult: "
+msgstr "Po odrasloj osobi:"
+
+msgid "Per child: "
+msgstr "Po djetetu:"
+
+msgid "Actions"
+msgstr "Akcije"
+
+msgid "Default"
+msgstr "Zadano"
+
+msgid "— Select —"
+msgstr "Odabrati"
+
+msgid "Install & Activate"
+msgstr ""
+
+msgid "Add image"
+msgstr ""
+
+msgid "Add gallery"
+msgstr "Dodaj galeriju"
+
+msgid "Remove image"
+msgstr ""
+
+msgid "Remove gallery"
+msgstr "Ukloni galeriju"
+
+msgid "Select all"
+msgstr "Odaberi Sve"
+
+msgid "Unselect all"
+msgstr "Poništi sve"
+
+msgid "Date"
+msgstr "Datum"
+
+msgid "Author"
+msgstr "Autor"
+
+msgid "Edit"
+msgstr "Uredi"
+
+msgid "Done"
+msgstr "Gotovo"
+
+msgid "All"
+msgstr "Sve"
+
+msgid "None"
+msgstr "Nijedan"
+
+msgid "HH:MM"
+msgstr ""
+
+msgid "Recalculate Total Price"
+msgstr "Ponovno izračunaj Ukupnu CIjenu"
+
+msgid "Nights"
+msgstr "Noći"
+
+msgid "and more"
+msgstr ""
+
+msgid "Remove"
+msgstr "Ukloni"
+
+msgid "Add length of stay"
+msgstr "Dodajte duljinu boravka"
+
+msgid "Adults"
+msgstr "Odrasli"
+
+msgid "Children"
+msgstr "Djeca"
+
+msgid "Price per night"
+msgstr "Cijena noćenja"
+
+msgid "Enable variable pricing"
+msgstr ""
+
+msgid "Add Variation"
+msgstr ""
+
+msgid "Remove variation"
+msgstr ""
+
+msgid "The License Key is required in order to get automatic plugin updates and support. You can manage your License Key in your personal account. <a href='https://motopress.zendesk.com/hc/en-us/articles/202812996-How-to-use-your-personal-MotoPress-account' target='_blank'>Learn more</a>."
+msgstr "Ključ licence potreban je za automatska ažuriranja i podršku. Licencnim ključem možete upravljati na svojem osobnom računu. <a href='https://motopress.zendesk.com/hc/en-us/articles/202812996-How-to-use-your-personal-MotoPress-account' target='_blank'>Saznajte više</a>."
+
+msgid "License Key"
+msgstr "Licencni Ključ"
+
+msgid "Status"
+msgstr "Stanje"
+
+msgid "Inactive"
+msgstr "Neaktivano"
+
+msgid "Valid until"
+msgstr "Vrijedi do"
+
+msgid "Valid (Lifetime)"
+msgstr "Vrijedi (trajno)"
+
+msgid "Expired"
+msgstr "Isteklo."
+
+msgid "Invalid"
+msgstr "Nevažeće"
+
+msgid "Your License Key does not match the installed plugin. <a href='https://motopress.zendesk.com/hc/en-us/articles/202957243-What-to-do-if-the-license-key-doesn-t-correspond-with-the-plugin-license' target='_blank'>How to fix this.</a>"
+msgstr "Vaš ključ licence ne odgovara instaliranom dodatku. <a href='https://motopress.zendesk.com/hc/en-us/articles/202957243-What-to-do-if-the-license-key-doesn-t-correspond-with-the-plugin-license' target='_blank'>Kako to popraviti.</a>"
+
+msgid "Product ID is not valid"
+msgstr "ID proizvoda nije valjan"
+
+msgid "Action"
+msgstr "Akcija"
+
+msgid "Activate License"
+msgstr "Aktiviraj Licencu"
+
+msgid "Deactivate License"
+msgstr "Deaktiviraj Licencu"
+
+msgid "Renew License"
+msgstr "Obnovi Licencu"
+
+msgid "Attributes let you define extra accommodation data, such as location or type. You can use these attributes in the search availability form as advanced search filters."
+msgstr ""
+
+msgid "This attribute refers to non-unique taxonomy - %1$s - which was already registered with attribute %2$s."
+msgstr ""
+
+#. translators: Terms are variations for Attributes and bear no relation to the Terms and Conditions Page.
+msgid "You cannot manage terms of trashed attributes."
+msgstr "Ne možete upravljati pojmovima atributa."
+
+msgid "New Booking"
+msgstr "Nova Rezervacija"
+
+msgid "ID"
+msgstr ""
+
+msgid "Check-in / Check-out"
+msgstr "Dolazak / Odlazak"
+
+msgid "Guests"
+msgstr "Gosti"
+
+msgid "Customer Info"
+msgstr "Podaci o Klijentu"
+
+msgid "Price"
+msgstr "Cijena"
+
+msgid "Accommodation"
+msgstr "Smještaj"
+
+msgid "Booking #%s"
+msgstr "Rezervacija #%s"
+
+msgid "Expire %s"
+msgstr "Istiječe %s"
+
+msgid "Adults: "
+msgstr "Odrasli:"
+
+msgid "Children: "
+msgstr "Djeca:"
+
+msgid "%s night"
+msgid_plural "%s nights"
+msgstr[0] "%s noć"
+msgstr[1] "%s noći"
+msgstr[2] "%s noći"
+
+msgid "Summary: %s."
+msgstr ""
+
+msgid "Paid: %s"
+msgstr "Plaćeno: %s"
+
+msgid "Set to %s"
+msgstr "Postavi na %s"
+
+msgid "Booking status changed."
+msgid_plural "%s booking statuses changed."
+msgstr[0] "Status rezervacije promijenjen."
+msgstr[1] "%s statusa rezervacije promijenjeno."
+msgstr[2] "%s statusa rezervacija promijenjeno."
+
+msgid "All accommodation types"
+msgstr ""
+
+#. translators: The number of imported bookings: "Imported <span>(11)</span>"
+msgid "Imported %s"
+msgstr "Uvezeno %s"
+
+msgid "Customer"
+msgstr "Klijent"
+
+msgid "Amount"
+msgstr "Iznos"
+
+msgid "Booking"
+msgstr "Rezervacija"
+
+msgid "Gateway"
+msgstr "Procesor"
+
+msgid "Transaction ID"
+msgstr "ID Transakcije"
+
+msgid "Created/Modified Date"
+msgstr "Datum Izrade/Promjene"
+
+msgid "Payment #%s"
+msgstr "Plaćanje #%s"
+
+msgid "Created on: "
+msgstr "Izrađeno:"
+
+msgid "Modified on: "
+msgstr "Modificirano:"
+
+msgid "Rates are used to offer different prices of the same accommodation type depending on extra conditions. E.g. Double room with breakfast included; double room with no breakfast. Guests will choose the preferable rate when submitting a booking request."
+msgstr "Periodična cijene se koriste za različite cijene istog tipa smještaja ovisno o dodatnim uvjetima. Npr Dvokrevetna soba s uključenim doručkom; dvokrevetna soba bez doručka. Gosti će odabrati preferiranu peridičnu cijenu prilikom ispunjavanja obrazca za rezervaciju."
+
+msgid "Accommodation Type"
+msgstr "Vrsta Smještaja"
+
+msgid "Season &#8212; Price"
+msgstr "Sezona &#8212; Cijena"
+
+msgid "Duplicate"
+msgstr "Dupliciraj"
+
+msgid "Rate was duplicated."
+msgstr "Peirodična Cijena je duplicirana."
+
+msgid "These are real accommodations like rooms, apartments, houses, villas, beds (for hostels) etc."
+msgstr "Ovo su smještajne jedinice kao što su sobe, apartmani, kuće, vile, kreveti (za hostele) itd."
+
+msgid "All Accommodation Types"
+msgstr "Sve Vrste Smještaja"
+
+msgid "These are not physical accommodations, but their types. E.g. standard double room. To specify the real number of existing accommodations, you'll need to use Generate Accommodations menu."
+msgstr "Ovo nisu smještajne jedinice, već njihove vrste. Npr standardna dvokrevetna soba. Da biste odredili pravi broj postojećih smještajnih jedinica, morat ćete koristiti izbornik Generiraj Smještajne Jedinice."
+
+msgid "Capacity"
+msgstr "Kapacitet"
+
+msgid "Bed Type"
+msgstr "Vrsta Kreveta"
+
+msgid "Accommodations"
+msgstr "Smještajne Jedinice"
+
+msgid "Total:"
+msgstr "Ukupno:"
+
+msgid "Adults:"
+msgstr "Odrasli:"
+
+msgid "Children:"
+msgstr "Djeca:"
+
+msgid "Size:"
+msgstr "Površina:"
+
+msgid "Active:"
+msgstr "Aktivno:"
+
+msgid "Seasons are real periods of time, dates or days that come with different prices for accommodations. E.g. Winter 2018 ($120 per night), Christmas ($150 per night)."
+msgstr "Sezone su stvarna vremenska razdoblja, datumi ili dani koji dolaze s različitim cijenama za smještaj. Npr Zima 2018 (120 dolara po noći), Božić (150 dolara po noći)."
+
+msgid "Start"
+msgstr "Početak"
+
+msgid "End"
+msgstr "Kraj"
+
+msgid "Days"
+msgstr "Dana"
+
+msgid "Services are extra offers that you can sell or give for free. E.g. Thai massage, transfer, babysitting. Guests can pre-order them when placing a booking."
+msgstr "Usluge su dodatne ponude koje možete prodati ili dati besplatno. Npr Tajlandska masaža, transfer, čuvanje djece. Gosti ih mogu unaprijed najaviti prilikom rezervacije."
+
+msgid "Periodicity"
+msgstr "Periodičnost"
+
+msgid "Charge"
+msgstr "Naplatiti"
+
+msgid "Per Day"
+msgstr "Na dan"
+
+msgid "Guest Choice"
+msgstr ""
+
+msgid "Once"
+msgstr "Jednom"
+
+msgid "Per Guest"
+msgstr "Po gostu"
+
+msgid "Per Accommodation"
+msgstr "Po Smještajnoj Jedinici"
+
+msgid "These are accommodation amenities, generally free ones. E.g. air-conditioning, wifi."
+msgstr "To su smještajne pogodnosti, uglavnom besplatne. Npr klima uređaj, wifi."
+
+msgid "Booking rules saved."
+msgstr "Pravila rezervacija spremljena."
+
+msgid "Booking Rules"
+msgstr "Pravila Rezervacija"
+
+msgid "Save Changes"
+msgstr "Spremi Promjene"
+
+msgid "Check-in days"
+msgstr "Dan Dolaska"
+
+msgid "Guests can check in any day."
+msgstr "Gosti se mogu prijaviti bilo koji dan"
+
+msgid "Add rule"
+msgstr "Dodaj pravilo"
+
+msgid "Seasons"
+msgstr "Sezone"
+
+msgid "Check-out days"
+msgstr "Dani odlaska"
+
+msgid "Guests can check out any day."
+msgstr "Gosti se mogu odjaviti bilo koji dan"
+
+msgid "Minimum stay"
+msgstr "Minimalni boravak"
+
+msgid "There are no minimum stay rules."
+msgstr "Nema pravila o minimalnom boravku."
+
+msgid "nights"
+msgstr "noći"
+
+msgid "Maximum stay"
+msgstr "Maksimalni boravak"
+
+msgid "There are no maximum stay rules."
+msgstr "Nema pravila o maksimalnom boravku."
+
+msgid "Block accommodation"
+msgstr "Blokiraj Smještajnu Jedinicu"
+
+msgid "There are no blocking accommodation rules."
+msgstr "Nema pravila za blokiranje smještaja."
+
+msgid "From"
+msgstr "Od"
+
+msgid "Till"
+msgstr "Do"
+
+msgid "Restriction"
+msgstr "Ograničenje"
+
+msgid "Not check-in rule marks the date as unavailable for check-in."
+msgstr ""
+
+msgid "Not check-out rule marks the date as unavailable for check-out."
+msgstr ""
+
+msgid "Not stay-in rule displays the date as blocked. This date is unavailable for check-out and check-in on the next date."
+msgstr ""
+
+msgid "Not stay-in with Not check-out rules completely block the selected date, additionally displaying the previous date as unavailable for check-in."
+msgstr ""
+
+msgid "Not check-in"
+msgstr "Bez Check in-a"
+
+msgid "Not check-out"
+msgstr "Bez chek-out-a"
+
+msgid "Not stay-in"
+msgstr "Bes Ostanka"
+
+msgid "Comment"
+msgstr "Komentar"
+
+msgid "Minimum advance reservation"
+msgstr ""
+
+msgid "There are no minimum advance reservation rules."
+msgstr ""
+
+msgid "Maximum advance reservation"
+msgstr ""
+
+msgid "There are no maximum advance reservation rules."
+msgstr ""
+
+msgid "Booking buffer"
+msgstr ""
+
+msgid "There are no booking buffer rules."
+msgstr ""
+
+msgid "Booking Calendar"
+msgstr "Kalendar Rezervacija"
+
+msgid "Calendar"
+msgstr "Kalendar"
+
+msgid "Add New Booking"
+msgstr "Dodaj Novu Rezervaciju"
+
+msgid "Clear Search Results"
+msgstr ""
+
+msgid "Note: booking rules are disabled in the plugin settings and are not taken into account."
+msgstr ""
+
+msgid "Unable to create booking. Please try again."
+msgstr "Nije moguće napraviti rezervaciju. Molimo pokušajte ponovo kasnije.."
+
+msgid "Booking is blocked due to maintenance reason. Please try again later."
+msgstr "Rezervacija je blokirana zbog održavanja. Molimo pokušajte ponovo kasnije."
+
+msgid "There are no accommodations selected for reservation."
+msgstr "Nema odabranih smještajnih jedinica za rezervaciju."
+
+msgid "Selected accommodations are not valid."
+msgstr ""
+
+msgid "Accommodation Type is not valid."
+msgstr "Vrsta Smještaja nije valjana."
+
+msgid "Rate is not valid."
+msgstr "Periodična Cijena nije Valjana."
+
+msgid "Adults number is not valid."
+msgstr "Broj odraslih nije valjan."
+
+msgid "Children number is not valid."
+msgstr "Broj djece nije važeći"
+
+msgid "The total number of guests is not valid."
+msgstr "Ukupan broj gostiju nije točan. "
+
+msgid "Selected dates do not meet booking rules for type %s"
+msgstr "Odabrani datumi ne ispunjavaju pravila rezervacije za vrstu %s"
+
+msgid "Accommodations are not available."
+msgstr ""
+
+msgid "There are no rates for requested dates."
+msgstr "Nema periodičnih cijena za zatražene datume."
+
+msgid "Search Results"
+msgstr "Rezultati Pretraživanja"
+
+msgid "— Any —"
+msgstr ""
+
+msgid "Search parameters are not set."
+msgstr ""
+
+msgid "Check-in date is not valid."
+msgstr "Datum dolaska nije važeći"
+
+msgid "Check-in date cannot be earlier than today."
+msgstr "Datum dolaska nemože biti raniji od danas"
+
+msgid "Check-out date is not valid."
+msgstr "Datum odlaska nije važeći"
+
+msgid "Nothing found. Please try again with different search parameters."
+msgstr "Ništa nije pronađeno. Pokušajte ponovo s različitim parametrima pretraživanja."
+
+msgid "Sorry, you are not allowed to access this page."
+msgstr ""
+
+msgid "User ID"
+msgstr ""
+
+msgid "Username"
+msgstr ""
+
+msgid "First Name"
+msgstr "Ime"
+
+msgid "Last Name"
+msgstr "Prezime"
+
+msgid "Phone"
+msgstr "Telefon"
+
+msgid "Address"
+msgstr "Adresa"
+
+msgid "State / County"
+msgstr "Država / Županija"
+
+msgid "Country"
+msgstr "Dežava"
+
+msgid "City"
+msgstr "Grad"
+
+msgid "Postcode"
+msgstr "Poštanski Broj"
+
+msgid "Customer data updated."
+msgstr ""
+
+msgid "User account updated."
+msgstr ""
+
+msgid "Edit User Profile"
+msgstr ""
+
+msgid "Update"
+msgstr "Ažuriraj"
+
+msgid "Customers"
+msgstr ""
+
+msgid "The booking is not set."
+msgstr ""
+
+msgid "The booking not found."
+msgstr ""
+
+msgid "Edit Booking #%d"
+msgstr ""
+
+msgid "Cancel"
+msgstr ""
+
+msgid "Back"
+msgstr "Nazad"
+
+msgid "Edit Booking"
+msgstr "Uredi Rezervaciju"
+
+msgid "You cannot edit the imported booking. Please update the source booking and resync your calendars."
+msgstr ""
+
+msgid "Request does not pass security verification. Please refresh the page and try one more time."
+msgstr "Zahtjev ne prolazi sigurnosnu potvrdu. Osvježite stranicu i pokušajte još jednom."
+
+msgid "Check-in date is not set."
+msgstr ""
+
+msgid "Check-out date is not set."
+msgstr ""
+
+msgid "Unable to update booking. Please try again."
+msgstr ""
+
+msgid "Booking was edited."
+msgstr ""
+
+msgid "Available"
+msgstr "Dostupno"
+
+msgid "Replace"
+msgstr ""
+
+msgid "— Add new —"
+msgstr "— Dodaj novi —"
+
+msgid "Extensions"
+msgstr ""
+
+msgid "Extend the functionality of Hotel Booking plugin with the number of helpful addons for your custom purposes."
+msgstr "Proširite funkcionalnost dodatka Hotel Booking s brojem korisnih dodataka u vaše prilagođene svrhe."
+
+msgid "Get this Extension"
+msgstr "Nabavite ovo proširenje"
+
+msgid "No extensions found."
+msgstr "Nisu pronađena proširenja."
+
+msgid "Abort Process"
+msgstr "Prekini Proces"
+
+msgid "Aborting..."
+msgstr "Prekid ..."
+
+msgid "Import Calendar"
+msgstr "Uvezi Kalendar"
+
+msgid "Accommodation: %s"
+msgstr "Smještaj: %s"
+
+msgid "Accommodation Type: %s"
+msgstr "Vrsta Smještaja: %s"
+
+msgid "Please be patient while the calendars are imported. You will be notified via this page when the process is completed."
+msgstr "Budite strpljivi dok se kalendari uvoze. Obavijestiti ćemo vas putem ove stranice kada je postupak dovršen."
+
+msgid "Accommodation updated."
+msgstr "Smještajna jedinica ažurirana."
+
+msgid "This calendar has already been imported for another accommodation."
+msgstr "Ovaj je kalendar već uvezen za drugi smještaj."
+
+msgid "Sync, Import and Export Calendars"
+msgstr "Sinkronizacija, Uvoz i Izvoz kalendara"
+
+#. translators: %s - room name. Example: "Comfort Triple 1"
+msgid "Edit External Calendars of \"%s\""
+msgstr "Uredi Vanjske Kalendare od \"%s\""
+
+msgid "Sync All External Calendars"
+msgstr "Sinkroniziraj Sve Vanjske Kalendare"
+
+msgid "Sync your bookings across all online channels like Booking.com, TripAdvisor, Airbnb etc. via iCalendar file format."
+msgstr "Sinkronizirajte svoje rezervacije na svim mrežnim kanalima kao što su Booking.com, TripAdvisor, Airbnb itd. Putem iCalendar formata."
+
+msgid "Calendar URL"
+msgstr "URL Kalendara"
+
+msgid "Add New Calendar"
+msgstr "Dodaj Novi Kalendar"
+
+msgid "Sync Calendars"
+msgstr "Sinkroniziraj Kalendare"
+
+msgid "Delete All Logs"
+msgstr "Obriši Sve Logove"
+
+msgid "Deleting..."
+msgstr "Brisanje..."
+
+msgid "%d item"
+msgstr "%d artikal"
+
+msgid "%d items"
+msgstr "%d artikli"
+
+msgid "Calendars Synchronization Status"
+msgstr "Status Sinkronizacije Kalendara"
+
+msgid "Here you can see synchronization status of your external calendars."
+msgstr "Ovdje možete vidjeti status sinkronizacije vaših vanjskih kalendara."
+
+msgid "Calendars Sync Status"
+msgstr "Status Sinkronizacije Kalendara"
+
+msgid "Display calendars synchronization status."
+msgstr "Prikaz statusa usklađivanja kalendara."
+
+msgid "Language Guide"
+msgstr "Jezične Upute"
+
+msgid "Default language"
+msgstr "Zadani Jezik"
+
+msgid "This plugin will display all system messages, labels, buttons in the language set in <em>General > Settings > Site Language</em>. If the plugin is not available in your language, you may <a href=\"%s\">contribute your translation</a>."
+msgstr "Ovaj dodatak prikazat će sve poruke sustava, oznake i gumbe u jeziku koji je postavljen na <em> Općenito > Postavke > Jezik web sučelja</em>. Ako dodatak nije dostupan na vašem jeziku, možete <a href=\"%s\">pridonijeti prijevodu</a>."
+
+msgid "Custom translations and edits"
+msgstr "Prilagođeni prijevodi i izmjene"
+
+msgid "You may customize plugin translation by editing the needed texts or adding your translation following these steps:"
+msgstr ""
+
+msgid "Take the source file for your translations %s or needed translated locale."
+msgstr "Preuzmite izvornu datoteku za svoje  prijevode %s ili potrebe lokalnih prijevoda."
+
+msgid "Translate texts with any translation program like Poedit, Loco, Pootle etc."
+msgstr "Prevedite tekstove s bilo kojim programom prevođenja kao što su Poedit, Loco, Pootle itd."
+
+msgid "Put created .mo file with your translations into the folder %s. Where {lang} is ISO-639 language code and {country} is ISO-3166 country code. Example: Brazilian Portuguese file would be called motopress-hotel-booking-pt_BR.mo."
+msgstr "Stavite .mo datoteku s prijevodima u mapu %s. Gdje je {lang} kôd jezika ISO-639 i {country} kôd zemlje ISO-3166. Primjer: Brazilski portugalski dosje naziva se motopress-hotel-booking-pt_BR.mo."
+
+msgid "Multilingual content"
+msgstr "Višejezični sadržaj"
+
+msgid "If your site is multilingual, you may use additional plugins to translate your added content into multiple languages allowing the site visitors to switch them."
+msgstr "Ako je vaša web lokacija višejezično, možete upotrijebiti dodatke za prevođenje dodanog sadržaja na više jezika, čime se posjetiteljima web-lokacije pruža mogućnost prebacivanja na druge jezike."
+
+msgid "Language"
+msgstr "Jezik"
+
+msgid "Reports"
+msgstr ""
+
+msgid "Export"
+msgstr "Izvoz"
+
+msgid "All Statuses"
+msgstr "Svi statusi"
+
+msgid "Booking dates between"
+msgstr "Datumi rezerviranja između"
+
+msgid "Check-in date between"
+msgstr "Datum prijave između"
+
+msgid "Check-out date between"
+msgstr "Datum odjave između"
+
+msgid "In-house between"
+msgstr "In-house između"
+
+msgid "Date of reservation between"
+msgstr "Datum rezervacije između"
+
+msgid "Export Bookings"
+msgstr "Izvoz rezervacija"
+
+msgid "Choose start date"
+msgstr "Odaberite datum početka"
+
+msgid "Choose end date"
+msgstr "Odaberite datum završetka"
+
+msgid "Select columns to export"
+msgstr "Odaberite stupce za izvoz"
+
+msgid "Generate CSV"
+msgstr "Stvorite CSV"
+
+msgid "Number of accommodations"
+msgstr "Broj smještajnih jedinica"
+
+msgid "Title"
+msgstr "Naslov"
+
+msgid "Leave empty to use accommodation type title."
+msgstr "Ostavite prazno da bi koristili naslov vrste smještaja."
+
+msgid "Generate"
+msgstr "Generiraj"
+
+msgid "Accommodation generated."
+msgid_plural "%s accommodations generated."
+msgstr[0] "Smještaj generiran."
+msgstr[1] "%s smještaja generirana."
+msgstr[2] "%s smještaja generirano."
+
+msgid "General"
+msgstr "Opće"
+
+msgid "Pages"
+msgstr "Stranice"
+
+msgid "Search Results Page"
+msgstr "Stranica Rezultata Pretraživanja"
+
+msgid "Select page to display search results. Use search results shortcode on this page."
+msgstr "Odaberite stranicu za prikaz rezultata pretraživanja. Koristite shortcode rezultata pretraživanja na toj stranici."
+
+msgid "Checkout Page"
+msgstr "Checkout stranica"
+
+msgid "Select page user will be redirected to complete booking."
+msgstr "Odabir stranice na koju će korisnik biti preusmjeren za dovršetak rezervacije."
+
+msgid "Terms & Conditions"
+msgstr "Uvjeti korištenja"
+
+msgid "If you define a \"Terms\" page the customer will be asked if they accept them when checking out."
+msgstr ""
+
+msgid "Open the Terms & Conditions page in a new window"
+msgstr ""
+
+msgid "By enabling this option you can avoid errors related to displaying your terms & conditions inline for website pages created in page builders."
+msgstr ""
+
+msgid "My Account Page"
+msgstr ""
+
+msgid "Select a page to display user account. Use the customer account shortcode on this page."
+msgstr ""
+
+msgid "Misc"
+msgstr "Razno"
+
+msgid "Square Units"
+msgstr "Kvadratne Jedinice"
+
+msgid "Currency"
+msgstr "Valuta"
+
+msgid "Currency Position"
+msgstr "Mjesto Oznake Valute"
+
+msgid "Datepicker Date Format"
+msgstr "Datepicker za Format Datuma"
+
+msgid "Check-out Time"
+msgstr "Sat Odlaska"
+
+msgid "Check-in Time"
+msgstr "Sat Dolaska"
+
+msgid "Bed Types"
+msgstr "Vrste Kreveta"
+
+msgid "Type"
+msgstr "Vrsta"
+
+msgid "Add Bed Type"
+msgstr "Dodaj Vrstu Kreveta"
+
+msgid "Show Lowest Price for"
+msgstr "Prikaži najnižu cijenu za"
+
+msgid "days"
+msgstr "dana"
+
+msgid "Lowest price of accommodation for selected number of days if check-in and check-out dates are not set. Example: set 0 to display today's lowest price, set 7 to display the lowest price for the next week."
+msgstr "Najniža cijena smještaja za odabrani broj dana ako nije određen datum prijave i odjave. Primjer: postavite 0 da biste prikazali današnju najnižu cijenu, postavite 7 da biste prikazali najnižu cijenu za sljedeći tjedan."
+
+msgid "Enable search form to recommend the best set of accommodations according to a number of guests."
+msgstr "Omogući obrazac za pretraživanje kako biste preporučili najbolje smještajne kapacitete prema broju gostiju."
+
+msgid "Enable the use of coupons."
+msgstr "Omogući korištenje kupona"
+
+msgid "Text on Checkout"
+msgstr ""
+
+msgid "This text will appear on the checkout page."
+msgstr ""
+
+msgid "Disable Booking"
+msgstr "Onemogući Rezervacije"
+
+msgid "Hide reservation forms and buttons"
+msgstr "Sakrij obrazac i gumbe za rezervaciju"
+
+msgid "Text instead of reservation form while booking is disabled"
+msgstr "Tekst umjesto obrazca rezervacije prilikom  onemogućenog sistema rezervacija"
+
+msgid "Booking Confirmation"
+msgstr "Potvrda Rezervacije"
+
+msgid "Confirmation Mode"
+msgstr "Potvrdni Mod"
+
+msgid "By customer via email"
+msgstr "Klijent ručno"
+
+msgid "By admin manually"
+msgstr "Administrator ručno"
+
+msgid "Confirmation upon payment"
+msgstr "Potvrda po plačanju"
+
+msgid "Booking Confirmed Page"
+msgstr "Stranica za potvrđivanje rezervacije"
+
+msgid "Page user will be redirected to once the booking is confirmed via email or by admin."
+msgstr "Korisnik stranice bit će preusmjeren za potvrdu rezervacije putem e-pošte ili od strane administratora."
+
+msgid "Approval Time for User"
+msgstr "Vrijeme Odobrenja za Korisnika"
+
+msgid "Period of time in minutes the user is given to confirm booking via email. Unconfirmed bookings become Abandoned and accommodation status changes to Available."
+msgstr "Razdoblje u minutama koje korisnik ima na raspolaganju da potvrdi rezervaciju putem emaila. Neplaćene rezervacije postaju napuštene, a  status smještajne jedince u dostupan."
+
+msgid "Country of residence field is required for reservation."
+msgstr "Država Prebivališta je obavezno polje za rezervaciju."
+
+msgid "Full address fields are required for reservation."
+msgstr "Svi podaci adrese su obavezni za rezervaciju."
+
+msgid "Customer information is required when placing admin bookings."
+msgstr ""
+
+msgid "Default Country on Checkout"
+msgstr "Zadana zemlja na Checkouti"
+
+msgid "Price Breakdown"
+msgstr "Rekapitulacija Cijene"
+
+msgid "Price breakdown unfolded by default."
+msgstr ""
+
+msgid "Accounts"
+msgstr ""
+
+msgid "Account creation"
+msgstr ""
+
+msgid "Automatically create an account for a user at checkout."
+msgstr ""
+
+msgid "Allow customers to create an account during checkout."
+msgstr ""
+
+msgid "Allow customers to log into their existing account during checkout."
+msgstr ""
+
+msgid "Booking Cancellation"
+msgstr "Otkaz Rezervacije"
+
+msgid "User can cancel booking via link provided inside email."
+msgstr "Korisnik može otkazati rezervaciju putem linka u emailu."
+
+msgid "Booking Cancelation Page"
+msgstr ""
+
+msgid "Page to confirm booking cancelation."
+msgstr ""
+
+msgid "Booking Canceled Page"
+msgstr ""
+
+msgid "Page to redirect to after a booking is canceled."
+msgstr ""
+
+msgid "Search Options"
+msgstr "Pretraži Postavke"
+
+msgid "Maximum accommodation occupancy available in the Search Form."
+msgstr "Maksimalna popunjenost smještaja dostupna u obrazacu za pretraživanje."
+
+msgid "Max Adults"
+msgstr "Max Odrasli"
+
+msgid "Max Children"
+msgstr "Max Djeca"
+
+msgid "Age of Child"
+msgstr ""
+
+msgid "Optional description of the \"Children\" field."
+msgstr ""
+
+msgid "Skip Search Results"
+msgstr ""
+
+msgid "Skip search results page and enable direct booking from accommodation pages."
+msgstr ""
+
+msgid "Direct Booking Form"
+msgstr ""
+
+msgid "Show price for selected period"
+msgstr ""
+
+msgid "Show price together with adults and children fields"
+msgstr ""
+
+msgid "Book button behavior on the search results page"
+msgstr ""
+
+msgid "Redirect to the checkout page immediately after successful addition to reservation."
+msgstr "Preusmjeri na checkout stranicu odmah nakon uspješnog dodavanja na rezervaciju. "
+
+msgid "Enable \"adults\" and \"children\" options for my website (default)."
+msgstr ""
+
+msgid "Disable \"children\" option for my website (hide \"children\" field and use Guests label instead)."
+msgstr ""
+
+msgid "Disable \"adults\" and \"children\" options for my website."
+msgstr "Onemogućite opcije \"odrasli\" i \"djeca\" za moju web-lokaciju."
+
+msgid "Guest Management"
+msgstr "Upravljanje gostima"
+
+msgid "Hide \"adults\" and \"children\" fields within search availability forms."
+msgstr ""
+
+msgid "Do not apply booking rules for admin bookings."
+msgstr ""
+
+msgid "Display Options"
+msgstr "Postavke Prikaza"
+
+msgid "Display gallery images of accommodation page in lightbox."
+msgstr "Prikaz galerije slika na stranici smještaja u lightboxu."
+
+msgid "Availability Calendar"
+msgstr "Kalendar dostupnosti"
+
+msgid "Display per-night prices in the availability calendar."
+msgstr ""
+
+msgid "Truncate per-night prices in the availability calendar."
+msgstr ""
+
+msgid "Display the currency sign in the availability calendar."
+msgstr ""
+
+msgid "Calendar Theme"
+msgstr "Tema Kalendara"
+
+msgid "Select theme for an availability calendar."
+msgstr "Odaberite temu kalendara dostupnosti."
+
+msgid "Template Mode"
+msgstr "Mod Template"
+
+msgid "Developer Mode"
+msgstr "Developerski mod"
+
+msgid "Theme Mode"
+msgstr "Mod Teme"
+
+msgid "Choose Theme Mode to display the content with the styles of your theme. Choose Developer Mode to control appearance of the content with custom page templates, actions and filters. This option can't be changed if your theme is initially integrated with the plugin."
+msgstr "Odaberite mod Tema za prikaz sadržaja s stilovima vaše teme. Odaberite način razvojnog programera za kontrolu izgleda sadržaja prilagođenim predlošcima stranice, radnjama i filtrima. Ova se opcija ne može promijeniti ako je vaša tema u početku integrirana s dodatkom."
+
+msgid "More Styles"
+msgstr ""
+
+msgid "Extend the styling options of Hotel Booking plugin with the new free addon - Hotel Booking Styles."
+msgstr ""
+
+msgid "Calendars Synchronization"
+msgstr "Sinkronizacija kalendara"
+
+msgid "Export admin blocks."
+msgstr "Izvoz admin blokova."
+
+msgid "Do not export imported bookings."
+msgstr "Ne izvozite uvezene rezervacije."
+
+msgid "Minimize Logs"
+msgstr ""
+
+msgid "Enable the plugin to record only important messages."
+msgstr ""
+
+msgid "Calendars Synchronization Scheduler"
+msgstr "Planer sinkronizacije kalendara"
+
+msgid "Enable automatic external calendars synchronization"
+msgstr "Omogući automatsku sinkronizaciju vanjskih kalendara"
+
+msgid "Clock"
+msgstr "Sat"
+
+msgid "Sync calendars at this time (UTC) or starting at this time every interval below."
+msgstr "Sinkronizacija kalendara u ovom vremenu (UTC) ili s početkom u ovom vremenu za svaki interval u nastavku."
+
+msgid "Interval"
+msgstr ""
+
+msgid "Quarter an Hour"
+msgstr "Četvrtina sata"
+
+msgid "Half an Hour"
+msgstr "Pola sata"
+
+msgid "Once Hourly"
+msgstr "Jednom na Sat"
+
+msgid "Twice Daily"
+msgstr "Dvaput Dnevno"
+
+msgid "Once Daily"
+msgstr "Jednom Dnevno"
+
+msgid "Automatically delete sync logs older than"
+msgstr "Automatski izbrišite zapise sinkronizacije starije od"
+
+msgid "Day"
+msgstr "Dan"
+
+msgid "Week"
+msgstr "Tjedan"
+
+msgid "Month"
+msgstr "Mjesec"
+
+msgid "Quarter"
+msgstr "Četvrtina"
+
+msgid "Half a Year"
+msgstr "Pola godine"
+
+msgid "Never Delete"
+msgstr "Nikada ne briši"
+
+msgid "Block Editor"
+msgstr ""
+
+msgid "Enable block editor for \"%s\"."
+msgstr ""
+
+msgid "Accommodation Types"
+msgstr "Vrste Smještaja"
+
+msgid "Services"
+msgstr "Usluge"
+
+msgid "Admin Emails"
+msgstr "Administratorski Emailovi"
+
+msgid "Customer Emails"
+msgstr "Emailovi Klijenta"
+
+msgid "Turn one-time guests into loyal customers by sending out automatic marketing campaigns with the <a>Hotel Booking & Mailchimp Integration</a>."
+msgstr ""
+
+msgid "Turn one-time guests into loyal customers by sending out automatic marketing campaigns with the Hotel Booking & Mailchimp Integration."
+msgstr ""
+
+msgid "Cancellation Details Template"
+msgstr "Templata Detalja o Otkazivanju"
+
+msgid "Used for %cancellation_details% tag."
+msgstr "Koristi se za %cancellation_details% tag."
+
+msgid "Email Settings"
+msgstr "Postavke Emaila"
+
+msgid "Send automated email notifications, such as key pick-up instructions, house rules, before and after arrival/departure with <a>Hotel Booking Notifier</a>."
+msgstr ""
+
+msgid "Send automated email notifications, such as key pick-up instructions, house rules, before and after arrival/departure with Hotel Booking Notifier."
+msgstr ""
+
+msgid "Email Sender"
+msgstr "Pošalji email"
+
+msgid "Administrator Email"
+msgstr "Email administratora"
+
+msgid "From Email"
+msgstr "Od Emaila"
+
+msgid "From Name"
+msgstr "Od Imena"
+
+msgid "Logo URL"
+msgstr ""
+
+msgid "Footer Text"
+msgstr "Tekst Podnožja"
+
+msgid "Reserved Accommodation Details Template"
+msgstr "Detalji Template Rezervirane Smještajne Jedinice"
+
+msgid "Used for %reserved_rooms_details% tag."
+msgstr "Koristi se za %reserved_rooms_details% tag."
+
+msgid "Styles"
+msgstr "Stilovi"
+
+msgid "Base Color"
+msgstr "Osnovna Boja"
+
+msgid "Background Color"
+msgstr "Boja Pozadine"
+
+msgid "Body Background Color"
+msgstr "Boja Pozadine (body)"
+
+msgid "Body Text Color"
+msgstr "Boja Teksta (body)"
+
+msgid "Payment Gateways"
+msgstr "Procesor Plaćanja"
+
+msgid "General Settings"
+msgstr "Opće Postavke"
+
+msgid "Need more gateways? Use our Hotel Booking <a href=\"%s\" target=\"_blank\">WooCommerce Payments</a> extension."
+msgstr ""
+
+msgid "You may also email the <a href=\"%s\" target=\"_blank\">balance payment request</a> link to your guests."
+msgstr ""
+
+msgid "User Pays"
+msgstr "Korisnik Plaća"
+
+msgid "Full Amount"
+msgstr "Puni iznos"
+
+msgid "Deposit"
+msgstr "Depozit"
+
+msgid "Deposit Type"
+msgstr "Vrsta Depozita"
+
+msgid "Fixed"
+msgstr "Fiksno"
+
+msgid "Percent"
+msgstr "Posto"
+
+msgid "Deposit Amount"
+msgstr "Iznos Depozita"
+
+msgid "Deposit Time Frame (days)"
+msgstr ""
+
+msgid "Apply deposit to bookings made in at least the selected number of days prior to the check-in date. Otherwise, the full amount is charged."
+msgstr ""
+
+msgid "Force Secure Checkout"
+msgstr "Force Sigurni Checkout"
+
+msgid "Force SSL (HTTPS) on the checkout pages. You must have an SSL certificate installed to use this option."
+msgstr "Force SSL (HTTPS) na stranicama za naplatu. Za korištenje ove opcije morate imati instaliran SSL certifikat."
+
+msgid "Reservation Received Page"
+msgstr "Stranica primljene rezervacije"
+
+msgid "Failed Transaction Page"
+msgstr "Neuspjela Transakcijska Stranica"
+
+msgid "Default Gateway"
+msgstr "Zadani procesor"
+
+msgid "Pending Payment Time"
+msgstr "Vrijeme Plaćanja Na Čekanju"
+
+msgid "Period of time in minutes the user is given to complete payment. Unpaid bookings become Abandoned and accommodation status changes to Available."
+msgstr "Razdoblje u minutama koje korisnik ima na raspolaganju da izvrši uplatu. Neplaćene rezervacije postaju napuštene, a  status smještajne jedince u dostupan."
+
+msgid "Install <a href=\"%s\" target=\"_blank\">Hotel Booking addons</a> to manage their settings."
+msgstr ""
+
+msgid "Install Hotel Booking addons to manage their settings."
+msgstr ""
+
+msgid "Advanced"
+msgstr ""
+
+msgid "License"
+msgstr "Licenca"
+
+msgid "Settings saved."
+msgstr "Postavke spremljene"
+
+msgid "<strong>Note:</strong> Payment methods will appear on the checkout page only when Confirmation Upon Payment is enabled in Accommodation > Settings > General > Confirmation Mode."
+msgstr ""
+
+msgid "Settings"
+msgstr "Postavke"
+
+msgid "Availability Search Form"
+msgstr "Obrazac za Pretraživanje Dostupnosti"
+
+msgid "Display search form."
+msgstr "Prikaz tražilice"
+
+msgid "The number of adults presetted in the search form."
+msgstr "Broj odraslih osoba postavljenih u obrascu za pretraživanje."
+
+msgid "The number of children presetted in the search form."
+msgstr "Broj djece postavljenih u obrascu za pretraživanje."
+
+msgid "Check-in date presetted in the search form."
+msgstr "Datum prijave postavljen u obrazcu za pretraživanje."
+
+msgid "date in format %s"
+msgstr "datum u formatu %s"
+
+msgid "Check-out date presetted in the search form."
+msgstr "Datum odjave postavljen u obrazcu za pretraživanje."
+
+msgid "Custom attributes for advanced search."
+msgstr "Prilagođeni atributi za napredno pretraživanje."
+
+msgid "Comma-separated slugs of attributes."
+msgstr "Vrijednosti atributa odvojeni zarezima."
+
+msgid "Custom CSS class for shortcode wrapper"
+msgstr "Prilagođena klasa CSS-a za wrapper shortcode-a"
+
+msgid "whitespace separated css classes"
+msgstr "Razmak razdvojenih klasa CSS"
+
+msgid "Accommodation Type ID"
+msgstr "ID Vrsta Smještaja"
+
+msgid "ID of Accommodation Type to check availability."
+msgstr "ID smještajne jedinice za provjeru dostupnosti."
+
+msgid "integer number"
+msgstr "integer broj"
+
+msgid "How many months to show."
+msgstr "Koliko mjeseci za prikaz."
+
+msgid "Set the number of columns or the number of rows and columns separated by comma. Example: \"3\" or \"2,3\""
+msgstr ""
+
+msgid "Display availability calendar of the current accommodation type or by ID."
+msgstr ""
+
+msgid "Availability Search Results"
+msgstr "Rezultati Pretraživanja Dostupnosti"
+
+msgid "Display listing of accommodation types that meet the search criteria."
+msgstr "Prikazati popis vrsta smještaja koji odgovaraju kriterijima pretraživanja."
+
+msgid "Whether to display title of the accommodation type."
+msgstr "Hoće li se prikazivati naziv vrste smještaja."
+
+msgid "Whether to display featured image of the accommodation type."
+msgstr "Hoće li se prikazivati istaknuta slika vrste smještaja."
+
+msgid "Whether to display gallery of the accommodation type."
+msgstr "Hoće li se prikazivati galerija vrste smještaja."
+
+msgid "Whether to display excerpt (short description) of the accommodation type."
+msgstr "Hoće li se prikazivati excerpt (kratki opis) vrste smještaja."
+
+msgid "Whether to display details of the accommodation type."
+msgstr "Hoće li se prikazivati detalji vrste smještaja."
+
+msgid "Whether to display price of the accommodation type."
+msgstr "Hoće li se prikazivati cijena vrste smještaja."
+
+msgid "Show View Details button"
+msgstr "Prikazuj gumb Prikaži Pojedinosti"
+
+msgid "Whether to display \"View Details\" button with the link to accommodation type."
+msgstr "Hoće li se prikazivati \"Prikaži Pojedinosti\" gumb s linkom na vrste smještaja."
+
+msgid "Sort by."
+msgstr "Poredaj po."
+
+msgid "%1$s. See the <a href=\"%2$s\" target=\"_blank\">full list</a>."
+msgstr ""
+
+msgid "Designates the ascending or descending order of sorting."
+msgstr ""
+
+msgid "ASC - from lowest to highest values (1, 2, 3). DESC - from highest to lowest values (3, 2, 1)."
+msgstr ""
+
+msgid "Custom field name. Required if \"orderby\" is one of the \"meta_value\", \"meta_value_num\" or \"meta_value_*\"."
+msgstr ""
+
+msgid "custom field name"
+msgstr "naziv prilagođenog polja"
+
+msgid "empty string"
+msgstr "prazan string"
+
+msgid "Specified type of the custom field. Can be used in conjunction with orderby=\"meta_value\"."
+msgstr ""
+
+msgid "Sort by. Use \"orderby\" insted."
+msgstr "Redoslijed, koristi ručni poredak"
+
+msgid "Show Book button"
+msgstr "Prikaži gumb Rezervacije"
+
+msgid "Whether to display Book button."
+msgstr "Hoće li se prikazati gumb Rezerviraj."
+
+msgid "NOTE:"
+msgstr "NAPOMENA:"
+
+msgid "Use only on page that you set as Search Results Page in <a href=\"%s\">Settings</a>"
+msgstr "Koristite samo na stranici koju postavite kao stranicu rezultata pretrage u <a href=\"%s\">Postavkama</a>"
+
+msgid "Accommodation Types Listing"
+msgstr "Lista Vrste Smještaja"
+
+msgid "Count per page"
+msgstr "Ukupno po stranici"
+
+msgid "integer, -1 to display all, default: \"Blog pages show at most\""
+msgstr ""
+
+msgid "IDs of categories that will be shown."
+msgstr ""
+
+msgid "Comma-separated IDs."
+msgstr ""
+
+msgid "IDs of tags that will be shown."
+msgstr ""
+
+msgid "IDs of accommodations that will be shown."
+msgstr ""
+
+msgid "Logical relationship between each taxonomy when there is more than one."
+msgstr ""
+
+msgid "Services Listing"
+msgstr "Popis Usluga"
+
+msgid "IDs"
+msgstr "ID-ovi"
+
+msgid "IDs of services that will be shown. "
+msgstr "ID usluga koje će biti prikazane"
+
+msgid "Show All Services"
+msgstr "Prikaži Sve Usluge"
+
+msgid "Single Accommodation Type"
+msgstr ""
+
+msgid "ID of accommodation type to display."
+msgstr "ID vrste smještaja za prikaz."
+
+msgid "Display accommodation type with title and image."
+msgstr "Prikaz vrste smještaja s naslovom i slikom."
+
+msgid "Checkout Form"
+msgstr "Obrazac za Potvrdu"
+
+msgid "Display checkout form."
+msgstr "Prikaz obrazca za potvrdu."
+
+msgid "Use only on page that you set as Checkout Page in <a href=\"%s\">Settings</a>"
+msgstr "Koristite samo na stranici koju postavite kao stranicu Checkout-a u <a href=\"%s\">Postavkama</a>"
+
+msgid "Booking Form"
+msgstr "Formular za rezervacije"
+
+msgid "Show Booking Form for Accommodation Type with id 777"
+msgstr "Prikaži Obrazac za Rezervaciju za Vrstu Smještaja s Id-om 777"
+
+msgid "Accommodation Rates List"
+msgstr "Lista Periodičnih Cijena Smještaja"
+
+msgid "ID of accommodation type."
+msgstr "ID vrste smještaja"
+
+msgid "Show Accommodation Rates List for accommodation type with id 777"
+msgstr "Prikaži Listu Periodičnih Cijena Smještaja za vrstu smještaja s ID-om 777"
+
+msgid "Display booking and payment details."
+msgstr "Prikažite podatke o rezervaciji i plaćanju."
+
+msgid "Use this shortcode on Booking Confirmed and Reservation Received pages"
+msgstr "Upotrijebite ovaj kratki kôd na stranicama Potvrđena rezervacija i Rezervirajte primljene stranice"
+
+msgid "Booking Cancelation"
+msgstr ""
+
+msgid "Display booking cancelation details."
+msgstr ""
+
+msgid "Use this shortcode on the Booking Cancelation page"
+msgstr ""
+
+msgid "Customer Account"
+msgstr ""
+
+msgid "Display log in form or customer account area."
+msgstr ""
+
+msgid "Use this shortcode to create the My Account page."
+msgstr ""
+
+msgid "Shortcodes"
+msgstr "Shortcodovi"
+
+msgid "Shortcode"
+msgstr ""
+
+msgid "Parameters"
+msgstr "Parametri"
+
+msgid "Example"
+msgstr "Primjer"
+
+msgid "Deprecated since %s"
+msgstr "Obustavljeno od %s"
+
+msgid "Values:"
+msgstr "Vrijednosti:"
+
+msgid "Default:"
+msgstr "Zadano:"
+
+msgid "Optional."
+msgstr "Opcionalno."
+
+msgid "Required"
+msgstr "Obavezno"
+
+msgid "Taxes and fees saved."
+msgstr "Porezi & Naknade spremljeni."
+
+msgid "Taxes & Fees"
+msgstr "Porezi & Naknade"
+
+msgid "Fees"
+msgstr "Naknade"
+
+msgid "No fees have been created yet."
+msgstr "Nema izrađenih naknada."
+
+msgid "Add new"
+msgstr "Dodaj novo"
+
+msgid "Label"
+msgstr "Oznaka"
+
+msgid "New fee"
+msgstr "Nova naknada"
+
+msgid "Per guest / per day"
+msgstr "Po gostu / na dan"
+
+msgid "Per accommodation / per day"
+msgstr "Po smještajnoj jedinici / na dan"
+
+msgid "Per accommodation (%)"
+msgstr "Po smještajnoj jedinici (%)"
+
+msgid "Limit"
+msgstr "Ograničiti"
+
+msgid "How often this fee is charged. Set 0 to charge each day of the stay period. Set 1 to charge once."
+msgstr ""
+
+msgid "Include"
+msgstr ""
+
+msgid "Show accommodation rate with this charge included"
+msgstr ""
+
+msgid "Accommodation Taxes"
+msgstr "Porezi na Smještaj"
+
+msgid "No taxes have been created yet."
+msgstr "Nema izrađenih poreza."
+
+msgid "New tax"
+msgstr "Novi porez"
+
+msgid "Limit of days the fee is charged. Set 0 to charge each day of stay period. Set 1 to charge once."
+msgstr ""
+
+msgid "Service Taxes"
+msgstr "Porez na Uslugu"
+
+msgid "Percentage"
+msgstr "Postotak"
+
+msgid "Fee Taxes"
+msgstr "Porez na naknadu"
+
+msgid "External Calendars"
+msgstr "Vanjski Kalendari"
+
+msgid "Sync External Calendars"
+msgstr "Sinkroniziraj Vanjske Kalendare"
+
+msgctxt "Placeholder for empty accommodation title"
+msgid "(no title)"
+msgstr "(bez naslova)"
+
+msgid "Download Calendar"
+msgstr "Preuzmi Kalendar"
+
+msgid "Message"
+msgstr "Poruka"
+
+msgid "Success"
+msgstr "Uspiješno"
+
+msgid "Info"
+msgstr ""
+
+msgid "Warning"
+msgstr "Upozorenje"
+
+msgctxt "This is date and time format 31/12/2017 - 23:59:59"
+msgid "d/m/Y - H:i:s"
+msgstr ""
+
+msgid "Waiting"
+msgstr "Čekanje"
+
+msgid "Processing"
+msgstr "Obrađivanje"
+
+msgctxt "Total number of processed bookings"
+msgid "Total"
+msgstr "Ukupan"
+
+msgid "Succeed"
+msgstr "Uspješno"
+
+msgid "Skipped"
+msgstr "Preskočeno"
+
+msgid "Failed"
+msgstr "Nije uspijelo"
+
+msgid "Removed"
+msgstr ""
+
+msgid "Copying to clipboard failed. Please press Ctrl/Cmd+C to copy."
+msgstr ""
+
+msgid "Description is missing."
+msgstr ""
+
+msgid "User is missing."
+msgstr ""
+
+msgid "Permission is missing."
+msgstr ""
+
+msgid "You do not have permission to assign API Keys to the selected user."
+msgstr ""
+
+msgid "API Key updated successfully."
+msgstr ""
+
+msgid "API Key generated successfully. Make sure to copy your new keys now as the secret key will be hidden once you leave this page."
+msgstr ""
+
+msgid "Revoke key"
+msgstr ""
+
+msgid "No keys found."
+msgstr ""
+
+msgid "Description"
+msgstr "Opis"
+
+msgid "Consumer key ending in"
+msgstr ""
+
+msgid "User"
+msgstr ""
+
+msgid "Permissions"
+msgstr ""
+
+msgid "Last access"
+msgstr ""
+
+msgid "API key"
+msgstr ""
+
+#. translators: %d: API key ID.
+msgid "ID: %d"
+msgstr ""
+
+msgid "Revoke"
+msgstr ""
+
+msgid "Read"
+msgstr ""
+
+msgid "Write"
+msgstr ""
+
+msgid "Read/Write"
+msgstr ""
+
+#. translators: 1: last access date 2: last access time
+msgid "%1$s at %2$s"
+msgstr ""
+
+msgid "Unknown"
+msgstr ""
+
+msgid "You do not have permission to edit this API Key"
+msgstr ""
+
+msgid "REST API"
+msgstr ""
+
+msgid "Add key"
+msgstr ""
+
+msgid "You do not have permission to revoke this API Key"
+msgstr ""
+
+msgid "You do not have permission to edit API Keys"
+msgstr ""
+
+msgid "You do not have permission to revoke API Keys"
+msgstr ""
+
+msgid "Generate API key"
+msgstr ""
+
+msgid "Friendly name for identifying this key."
+msgstr ""
+
+msgid "Owner of these keys."
+msgstr ""
+
+msgid "Access type of these keys."
+msgstr ""
+
+msgid "Consumer key"
+msgstr ""
+
+msgid "Copied!"
+msgstr ""
+
+msgid "Copy"
+msgstr ""
+
+msgid "Consumer secret"
+msgstr ""
+
+msgid "QR Code"
+msgstr ""
+
+msgid "No bookings found for your request."
+msgstr ""
+
+msgid "Uploads directory is not writable."
+msgstr ""
+
+msgid "No enough data"
+msgstr ""
+
+msgid "An error has occurred"
+msgstr "Dogodila se greška"
+
+msgid "Please complete all required fields and try again."
+msgstr "Ispunite sva potrebna polja i pokušajte ponovo."
+
+msgid "An error has occurred, please try again later."
+msgstr "Dogodila se greška, molimo pokušajte ponovo kasnije."
+
+msgid "The number of adults is not valid."
+msgstr ""
+
+msgid "The number of guests is not valid."
+msgstr ""
+
+msgid "An error has occurred. Please try again later."
+msgstr "Dogodila se greška. Molimo pokušajte ponovo kasnije."
+
+msgid "Sorry, the minimum allowed payment amount is %s to use this payment method."
+msgstr "Nažalost, minimalni dopušteni iznos plaćanja je %s da biste koristili ovaj način plaćanja."
+
+msgid "Chosen payment method is not available. Please refresh the page and try one more time."
+msgstr "Odabrani način plaćanja nije dostupan. Osvježite stranicu i pokušajte još jednom."
+
+msgid "Coupon applied successfully."
+msgstr "Kupon uspješno primijenjen."
+
+msgid "Coupon is not valid."
+msgstr "Kupon nije valjan."
+
+msgid "Booking Information"
+msgstr "Informacije  o Rezervaciji"
+
+msgid "Check-in Date"
+msgstr "Datum Dolaska"
+
+msgid "Check-out Date"
+msgstr "Datum Odlaska"
+
+msgid "Customer Information"
+msgstr "Podaci o Klijentu"
+
+msgid "Customer Note"
+msgstr "Bilješka Klijenta"
+
+msgid "Additional Information"
+msgstr "Dodatne Informacije"
+
+msgid "Coupon"
+msgstr "Kupon"
+
+msgid "Total Booking Price"
+msgstr "Ukupna Cijena Rezervacije"
+
+msgid "Notes"
+msgstr "Bilješke"
+
+#. translators: %1$s: note author, %1$s: note date
+msgid "%1$s on %2$s"
+msgstr ""
+
+msgid "Based on your search parameters"
+msgstr "Na temelju vaših parametara pretraživanja"
+
+msgid "You do not have permission to do this action."
+msgstr ""
+
+msgctxt "Not selected value in the search form."
+msgid "&mdash;"
+msgstr ""
+
+msgid "Year"
+msgstr "Godina"
+
+msgid "Custom"
+msgstr "Prilagođen"
+
+msgctxt "Booking status"
+msgid "Confirmed"
+msgstr "Potvrđeno"
+
+msgid "Show"
+msgstr "Prikaži"
+
+msgid "Search"
+msgstr "Pretraži"
+
+msgid "Booked"
+msgstr "Rezervirano"
+
+msgid "Pending"
+msgstr "Na Čekanju"
+
+msgid "External"
+msgstr ""
+
+msgid "Blocked"
+msgstr "Blokirano"
+
+msgid "Search results for accommodations that have bookings with status \"%s\" from %s until %s"
+msgstr "Rezultati pretraživanja za smještaj koji imaju rezervaciju sa statusom \"%s\" od %s do %s"
+
+msgid "Free"
+msgstr "Besplatno"
+
+msgid "Locked (Booked or Pending)"
+msgstr ""
+
+msgid "Until"
+msgstr "Do"
+
+msgid "Period:"
+msgstr "Razdoblje:"
+
+msgid "&lt; Prev"
+msgstr "&lt; Prethodna"
+
+msgid "Next &gt;"
+msgstr "Slijedeće &gt;"
+
+msgid "No accommodations found."
+msgstr "Nije pronađena nijedna smještajna jedinica."
+
+msgid "Check-out #%d"
+msgstr "Odlazak #%d"
+
+msgid "Check-in #%d"
+msgstr "DOlazak #%d"
+
+msgid "Booking #%d"
+msgstr "Rezervacija #%d"
+
+msgid "Buffer time."
+msgstr ""
+
+msgctxt "Availability"
+msgid "Free"
+msgstr "Slobodno"
+
+msgid "Adults: %s"
+msgstr "Odrasli: %s"
+
+msgid "Children: %s"
+msgstr "Djeca: %s"
+
+msgid "Booking imported with UID %s."
+msgstr ""
+
+msgid "Imported booking."
+msgstr ""
+
+msgid "Description: %s."
+msgstr ""
+
+msgid "Source: %s."
+msgstr ""
+
+msgid "Afghanistan"
+msgstr ""
+
+msgid "&#197;land Islands"
+msgstr ""
+
+msgid "Albania"
+msgstr ""
+
+msgid "Algeria"
+msgstr ""
+
+msgid "American Samoa"
+msgstr ""
+
+msgid "Andorra"
+msgstr ""
+
+msgid "Angola"
+msgstr ""
+
+msgid "Anguilla"
+msgstr "Angola"
+
+msgid "Antarctica"
+msgstr ""
+
+msgid "Antigua and Barbuda"
+msgstr ""
+
+msgid "Argentina"
+msgstr ""
+
+msgid "Armenia"
+msgstr ""
+
+msgid "Aruba"
+msgstr ""
+
+msgid "Australia"
+msgstr ""
+
+msgid "Austria"
+msgstr ""
+
+msgid "Azerbaijan"
+msgstr ""
+
+msgid "Bahamas"
+msgstr ""
+
+msgid "Bahrain"
+msgstr ""
+
+msgid "Bangladesh"
+msgstr ""
+
+msgid "Barbados"
+msgstr ""
+
+msgid "Belarus"
+msgstr ""
+
+msgid "Belgium"
+msgstr ""
+
+msgid "Belau"
+msgstr ""
+
+msgid "Belize"
+msgstr ""
+
+msgid "Benin"
+msgstr ""
+
+msgid "Bermuda"
+msgstr ""
+
+msgid "Bhutan"
+msgstr ""
+
+msgid "Bolivia"
+msgstr ""
+
+msgid "Bonaire, Saint Eustatius and Saba"
+msgstr ""
+
+msgid "Bosnia and Herzegovina"
+msgstr ""
+
+msgid "Botswana"
+msgstr ""
+
+msgid "Bouvet Island"
+msgstr ""
+
+msgid "Brazil"
+msgstr ""
+
+msgid "British Indian Ocean Territory"
+msgstr ""
+
+msgid "British Virgin Islands"
+msgstr ""
+
+msgid "Brunei"
+msgstr ""
+
+msgid "Bulgaria"
+msgstr ""
+
+msgid "Burkina Faso"
+msgstr ""
+
+msgid "Burundi"
+msgstr ""
+
+msgid "Cambodia"
+msgstr ""
+
+msgid "Cameroon"
+msgstr ""
+
+msgid "Canada"
+msgstr "Cameroon"
+
+msgid "Cape Verde"
+msgstr ""
+
+msgid "Cayman Islands"
+msgstr ""
+
+msgid "Central African Republic"
+msgstr ""
+
+msgid "Chad"
+msgstr ""
+
+msgid "Chile"
+msgstr ""
+
+msgid "China"
+msgstr ""
+
+msgid "Christmas Island"
+msgstr ""
+
+msgid "Cocos (Keeling) Islands"
+msgstr ""
+
+msgid "Colombia"
+msgstr ""
+
+msgid "Comoros"
+msgstr ""
+
+msgid "Congo (Brazzaville)"
+msgstr ""
+
+msgid "Congo (Kinshasa)"
+msgstr ""
+
+msgid "Cook Islands"
+msgstr ""
+
+msgid "Costa Rica"
+msgstr ""
+
+msgid "Croatia"
+msgstr "Hrvatska"
+
+msgid "Cuba"
+msgstr ""
+
+msgid "Cura&ccedil;ao"
+msgstr ""
+
+msgid "Cyprus"
+msgstr ""
+
+msgid "Czech Republic"
+msgstr ""
+
+msgid "Denmark"
+msgstr ""
+
+msgid "Djibouti"
+msgstr ""
+
+msgid "Dominica"
+msgstr ""
+
+msgid "Dominican Republic"
+msgstr ""
+
+msgid "Ecuador"
+msgstr ""
+
+msgid "Egypt"
+msgstr ""
+
+msgid "El Salvador"
+msgstr ""
+
+msgid "Equatorial Guinea"
+msgstr ""
+
+msgid "Eritrea"
+msgstr ""
+
+msgid "Estonia"
+msgstr ""
+
+msgid "Ethiopia"
+msgstr ""
+
+msgid "Falkland Islands"
+msgstr ""
+
+msgid "Faroe Islands"
+msgstr ""
+
+msgid "Fiji"
+msgstr ""
+
+msgid "Finland"
+msgstr ""
+
+msgid "France"
+msgstr ""
+
+msgid "French Guiana"
+msgstr ""
+
+msgid "French Polynesia"
+msgstr ""
+
+msgid "French Southern Territories"
+msgstr ""
+
+msgid "Gabon"
+msgstr ""
+
+msgid "Gambia"
+msgstr ""
+
+msgid "Georgia"
+msgstr ""
+
+msgid "Germany"
+msgstr ""
+
+msgid "Ghana"
+msgstr ""
+
+msgid "Gibraltar"
+msgstr ""
+
+msgid "Greece"
+msgstr ""
+
+msgid "Greenland"
+msgstr ""
+
+msgid "Grenada"
+msgstr ""
+
+msgid "Guadeloupe"
+msgstr ""
+
+msgid "Guam"
+msgstr ""
+
+msgid "Guatemala"
+msgstr ""
+
+msgid "Guernsey"
+msgstr ""
+
+msgid "Guinea"
+msgstr ""
+
+msgid "Guinea-Bissau"
+msgstr ""
+
+msgid "Guyana"
+msgstr ""
+
+msgid "Haiti"
+msgstr ""
+
+msgid "Heard Island and McDonald Islands"
+msgstr ""
+
+msgid "Honduras"
+msgstr ""
+
+msgid "Hong Kong"
+msgstr ""
+
+msgid "Hungary"
+msgstr ""
+
+msgid "Iceland"
+msgstr ""
+
+msgid "India"
+msgstr ""
+
+msgid "Indonesia"
+msgstr ""
+
+msgid "Iran"
+msgstr ""
+
+msgid "Iraq"
+msgstr ""
+
+msgid "Ireland"
+msgstr ""
+
+msgid "Isle of Man"
+msgstr ""
+
+msgid "Israel"
+msgstr ""
+
+msgid "Italy"
+msgstr ""
+
+msgid "Ivory Coast"
+msgstr ""
+
+msgid "Jamaica"
+msgstr ""
+
+msgid "Japan"
+msgstr ""
+
+msgid "Jersey"
+msgstr ""
+
+msgid "Jordan"
+msgstr ""
+
+msgid "Kazakhstan"
+msgstr ""
+
+msgid "Kenya"
+msgstr ""
+
+msgid "Kiribati"
+msgstr ""
+
+msgid "Kuwait"
+msgstr ""
+
+msgid "Kyrgyzstan"
+msgstr ""
+
+msgid "Laos"
+msgstr ""
+
+msgid "Latvia"
+msgstr ""
+
+msgid "Lebanon"
+msgstr ""
+
+msgid "Lesotho"
+msgstr ""
+
+msgid "Liberia"
+msgstr ""
+
+msgid "Libya"
+msgstr ""
+
+msgid "Liechtenstein"
+msgstr ""
+
+msgid "Lithuania"
+msgstr ""
+
+msgid "Luxembourg"
+msgstr ""
+
+msgid "Macao S.A.R., China"
+msgstr ""
+
+msgid "Macedonia"
+msgstr ""
+
+msgid "Madagascar"
+msgstr ""
+
+msgid "Malawi"
+msgstr ""
+
+msgid "Malaysia"
+msgstr ""
+
+msgid "Maldives"
+msgstr ""
+
+msgid "Mali"
+msgstr ""
+
+msgid "Malta"
+msgstr ""
+
+msgid "Marshall Islands"
+msgstr ""
+
+msgid "Martinique"
+msgstr ""
+
+msgid "Mauritania"
+msgstr ""
+
+msgid "Mauritius"
+msgstr ""
+
+msgid "Mayotte"
+msgstr ""
+
+msgid "Mexico"
+msgstr ""
+
+msgid "Micronesia"
+msgstr ""
+
+msgid "Moldova"
+msgstr ""
+
+msgid "Monaco"
+msgstr ""
+
+msgid "Mongolia"
+msgstr ""
+
+msgid "Montenegro"
+msgstr ""
+
+msgid "Montserrat"
+msgstr ""
+
+msgid "Morocco"
+msgstr ""
+
+msgid "Mozambique"
+msgstr ""
+
+msgid "Myanmar"
+msgstr ""
+
+msgid "Namibia"
+msgstr ""
+
+msgid "Nauru"
+msgstr ""
+
+msgid "Nepal"
+msgstr ""
+
+msgid "Netherlands"
+msgstr ""
+
+msgid "New Caledonia"
+msgstr ""
+
+msgid "New Zealand"
+msgstr ""
+
+msgid "Nicaragua"
+msgstr ""
+
+msgid "Niger"
+msgstr ""
+
+msgid "Nigeria"
+msgstr ""
+
+msgid "Niue"
+msgstr ""
+
+msgid "Norfolk Island"
+msgstr ""
+
+msgid "Northern Mariana Islands"
+msgstr ""
+
+msgid "North Korea"
+msgstr ""
+
+msgid "Norway"
+msgstr ""
+
+msgid "Oman"
+msgstr ""
+
+msgid "Pakistan"
+msgstr ""
+
+msgid "Palestinian Territory"
+msgstr ""
+
+msgid "Panama"
+msgstr ""
+
+msgid "Papua New Guinea"
+msgstr ""
+
+msgid "Paraguay"
+msgstr ""
+
+msgid "Peru"
+msgstr ""
+
+msgid "Philippines"
+msgstr ""
+
+msgid "Pitcairn"
+msgstr ""
+
+msgid "Poland"
+msgstr ""
+
+msgid "Portugal"
+msgstr ""
+
+msgid "Puerto Rico"
+msgstr ""
+
+msgid "Qatar"
+msgstr ""
+
+msgid "Reunion"
+msgstr ""
+
+msgid "Romania"
+msgstr ""
+
+msgid "Russia"
+msgstr ""
+
+msgid "Rwanda"
+msgstr ""
+
+msgid "Saint Barth&eacute;lemy"
+msgstr ""
+
+msgid "Saint Helena"
+msgstr ""
+
+msgid "Saint Kitts and Nevis"
+msgstr ""
+
+msgid "Saint Lucia"
+msgstr ""
+
+msgid "Saint Martin (French part)"
+msgstr ""
+
+msgid "Saint Martin (Dutch part)"
+msgstr ""
+
+msgid "Saint Pierre and Miquelon"
+msgstr ""
+
+msgid "Saint Vincent and the Grenadines"
+msgstr ""
+
+msgid "San Marino"
+msgstr ""
+
+msgid "S&atilde;o Tom&eacute; and Pr&iacute;ncipe"
+msgstr ""
+
+msgid "Saudi Arabia"
+msgstr ""
+
+msgid "Senegal"
+msgstr ""
+
+msgid "Serbia"
+msgstr ""
+
+msgid "Seychelles"
+msgstr ""
+
+msgid "Sierra Leone"
+msgstr ""
+
+msgid "Singapore"
+msgstr ""
+
+msgid "Slovakia"
+msgstr ""
+
+msgid "Slovenia"
+msgstr ""
+
+msgid "Solomon Islands"
+msgstr ""
+
+msgid "Somalia"
+msgstr ""
+
+msgid "South Africa"
+msgstr ""
+
+msgid "South Georgia/Sandwich Islands"
+msgstr ""
+
+msgid "South Korea"
+msgstr ""
+
+msgid "South Sudan"
+msgstr ""
+
+msgid "Spain"
+msgstr ""
+
+msgid "Sri Lanka"
+msgstr ""
+
+msgid "Sudan"
+msgstr ""
+
+msgid "Suriname"
+msgstr ""
+
+msgid "Svalbard and Jan Mayen"
+msgstr ""
+
+msgid "Swaziland"
+msgstr ""
+
+msgid "Sweden"
+msgstr ""
+
+msgid "Switzerland"
+msgstr ""
+
+msgid "Syria"
+msgstr ""
+
+msgid "Taiwan"
+msgstr ""
+
+msgid "Tajikistan"
+msgstr ""
+
+msgid "Tanzania"
+msgstr ""
+
+msgid "Thailand"
+msgstr ""
+
+msgid "Timor-Leste"
+msgstr ""
+
+msgid "Togo"
+msgstr ""
+
+msgid "Tokelau"
+msgstr ""
+
+msgid "Tonga"
+msgstr ""
+
+msgid "Trinidad and Tobago"
+msgstr ""
+
+msgid "Tunisia"
+msgstr ""
+
+msgid "Turkey"
+msgstr ""
+
+msgid "Turkmenistan"
+msgstr ""
+
+msgid "Turks and Caicos Islands"
+msgstr ""
+
+msgid "Tuvalu"
+msgstr ""
+
+msgid "Uganda"
+msgstr ""
+
+msgid "Ukraine"
+msgstr ""
+
+msgid "United Arab Emirates"
+msgstr ""
+
+msgid "United Kingdom (UK)"
+msgstr ""
+
+msgid "United States (US)"
+msgstr ""
+
+msgid "United States (US) Minor Outlying Islands"
+msgstr ""
+
+msgid "United States (US) Virgin Islands"
+msgstr ""
+
+msgid "Uruguay"
+msgstr ""
+
+msgid "Uzbekistan"
+msgstr ""
+
+msgid "Vanuatu"
+msgstr ""
+
+msgid "Vatican"
+msgstr ""
+
+msgid "Venezuela"
+msgstr ""
+
+msgid "Vietnam"
+msgstr ""
+
+msgid "Wallis and Futuna"
+msgstr ""
+
+msgid "Western Sahara"
+msgstr ""
+
+msgid "Samoa"
+msgstr ""
+
+msgid "Yemen"
+msgstr ""
+
+msgid "Zambia"
+msgstr ""
+
+msgid "Zimbabwe"
+msgstr ""
+
+msgid "Euro"
+msgstr ""
+
+msgid "United States (US) dollar"
+msgstr ""
+
+msgid "Pound sterling"
+msgstr "Pound Sterling"
+
+msgid "United Arab Emirates dirham"
+msgstr "United Arab Emirates Dirham"
+
+msgid "Afghan afghani"
+msgstr ""
+
+msgid "Albanian lek"
+msgstr ""
+
+msgid "Armenian dram"
+msgstr ""
+
+msgid "Netherlands Antillean guilder"
+msgstr ""
+
+msgid "Angolan kwanza"
+msgstr ""
+
+msgid "Argentine peso"
+msgstr "Argentine Peso"
+
+msgid "Australian dollar"
+msgstr "Australian Dollars"
+
+msgid "Aruban florin"
+msgstr ""
+
+msgid "Azerbaijani manat"
+msgstr ""
+
+msgid "Bosnia and Herzegovina convertible mark"
+msgstr ""
+
+msgid "Barbadian dollar"
+msgstr ""
+
+msgid "Bangladeshi taka"
+msgstr "Bangladeshi Taka"
+
+msgid "Bulgarian lev"
+msgstr "Bulgarian Lev"
+
+msgid "Bahraini dinar"
+msgstr ""
+
+msgid "Burundian franc"
+msgstr ""
+
+msgid "Bermudian dollar"
+msgstr ""
+
+msgid "Brunei dollar"
+msgstr ""
+
+msgid "Bolivian boliviano"
+msgstr ""
+
+msgid "Brazilian real"
+msgstr "Brazilian Real"
+
+msgid "Bahamian dollar"
+msgstr ""
+
+msgid "Bitcoin"
+msgstr ""
+
+msgid "Bhutanese ngultrum"
+msgstr ""
+
+msgid "Botswana pula"
+msgstr ""
+
+msgid "Belarusian ruble (old)"
+msgstr ""
+
+msgid "Belarusian ruble"
+msgstr ""
+
+msgid "Belize dollar"
+msgstr ""
+
+msgid "Canadian dollar"
+msgstr "Canadian Dollar"
+
+msgid "Congolese franc"
+msgstr ""
+
+msgid "Swiss franc"
+msgstr "Swiss Franc"
+
+msgid "Chilean peso"
+msgstr "Chilean Peso"
+
+msgid "Chinese yuan"
+msgstr "Chinese Yuan"
+
+msgid "Colombian peso"
+msgstr "Colombian Peso"
+
+msgid "Costa Rican col&oacute;n"
+msgstr ""
+
+msgid "Cuban convertible peso"
+msgstr ""
+
+msgid "Cuban peso"
+msgstr ""
+
+msgid "Cape Verdean escudo"
+msgstr ""
+
+msgid "Czech koruna"
+msgstr "Czech Koruna"
+
+msgid "Djiboutian franc"
+msgstr ""
+
+msgid "Danish krone"
+msgstr "Danish Krone"
+
+msgid "Dominican peso"
+msgstr "Dominican Peso"
+
+msgid "Algerian dinar"
+msgstr ""
+
+msgid "Egyptian pound"
+msgstr "Egyptian Pound"
+
+msgid "Eritrean nakfa"
+msgstr ""
+
+msgid "Ethiopian birr"
+msgstr ""
+
+msgid "Fijian dollar"
+msgstr ""
+
+msgid "Falkland Islands pound"
+msgstr ""
+
+msgid "Georgian lari"
+msgstr ""
+
+msgid "Guernsey pound"
+msgstr ""
+
+msgid "Ghana cedi"
+msgstr ""
+
+msgid "Gibraltar pound"
+msgstr ""
+
+msgid "Gambian dalasi"
+msgstr ""
+
+msgid "Guinean franc"
+msgstr ""
+
+msgid "Guatemalan quetzal"
+msgstr ""
+
+msgid "Guyanese dollar"
+msgstr ""
+
+msgid "Hong Kong dollar"
+msgstr "Hong Kong Dollar"
+
+msgid "Honduran lempira"
+msgstr ""
+
+msgid "Croatian kuna"
+msgstr "Hrvatska kuna"
+
+msgid "Haitian gourde"
+msgstr ""
+
+msgid "Hungarian forint"
+msgstr "Hungarian Forint"
+
+msgid "Indonesian rupiah"
+msgstr "Indonesia Rupiah"
+
+msgid "Israeli new shekel"
+msgstr ""
+
+msgid "Manx pound"
+msgstr ""
+
+msgid "Indian rupee"
+msgstr "Indian Rupee"
+
+msgid "Iraqi dinar"
+msgstr ""
+
+msgid "Iranian rial"
+msgstr ""
+
+msgid "Iranian toman"
+msgstr ""
+
+msgid "Icelandic kr&oacute;na"
+msgstr ""
+
+msgid "Jersey pound"
+msgstr ""
+
+msgid "Jamaican dollar"
+msgstr ""
+
+msgid "Jordanian dinar"
+msgstr ""
+
+msgid "Japanese yen"
+msgstr "Japanese Yen"
+
+msgid "Kenyan shilling"
+msgstr ""
+
+msgid "Kyrgyzstani som"
+msgstr ""
+
+msgid "Cambodian riel"
+msgstr ""
+
+msgid "Comorian franc"
+msgstr ""
+
+msgid "North Korean won"
+msgstr ""
+
+msgid "South Korean won"
+msgstr "South Korean Won"
+
+msgid "Kuwaiti dinar"
+msgstr ""
+
+msgid "Cayman Islands dollar"
+msgstr ""
+
+msgid "Kazakhstani tenge"
+msgstr ""
+
+msgid "Lao kip"
+msgstr "Lao Kip"
+
+msgid "Lebanese pound"
+msgstr ""
+
+msgid "Sri Lankan rupee"
+msgstr ""
+
+msgid "Liberian dollar"
+msgstr ""
+
+msgid "Lesotho loti"
+msgstr ""
+
+msgid "Libyan dinar"
+msgstr ""
+
+msgid "Moroccan dirham"
+msgstr ""
+
+msgid "Moldovan leu"
+msgstr ""
+
+msgid "Malagasy ariary"
+msgstr ""
+
+msgid "Macedonian denar"
+msgstr ""
+
+msgid "Burmese kyat"
+msgstr ""
+
+msgid "Mongolian t&ouml;gr&ouml;g"
+msgstr ""
+
+msgid "Macanese pataca"
+msgstr ""
+
+msgid "Mauritanian ouguiya"
+msgstr ""
+
+msgid "Mauritian rupee"
+msgstr ""
+
+msgid "Maldivian rufiyaa"
+msgstr ""
+
+msgid "Malawian kwacha"
+msgstr ""
+
+msgid "Mexican peso"
+msgstr "Mexican Peso"
+
+msgid "Malaysian ringgit"
+msgstr "Malaysian Ringgits"
+
+msgid "Mozambican metical"
+msgstr ""
+
+msgid "Namibian dollar"
+msgstr ""
+
+msgid "Nigerian naira"
+msgstr "Nigerian Naira"
+
+msgid "Nicaraguan c&oacute;rdoba"
+msgstr ""
+
+msgid "Norwegian krone"
+msgstr "Norwegian Krone"
+
+msgid "Nepalese rupee"
+msgstr ""
+
+msgid "New Zealand dollar"
+msgstr "New Zealand Dollar"
+
+msgid "Omani rial"
+msgstr ""
+
+msgid "Panamanian balboa"
+msgstr ""
+
+msgid "Sol"
+msgstr ""
+
+msgid "Papua New Guinean kina"
+msgstr ""
+
+msgid "Philippine peso"
+msgstr "Philippine Pesos"
+
+msgid "Pakistani rupee"
+msgstr "Pakistani Rupee"
+
+msgid "Polish z&#x142;oty"
+msgstr ""
+
+msgid "Transnistrian ruble"
+msgstr ""
+
+msgid "Paraguayan guaran&iacute;"
+msgstr ""
+
+msgid "Qatari riyal"
+msgstr ""
+
+msgid "Romanian leu"
+msgstr "omanian Leu"
+
+msgid "Serbian dinar"
+msgstr ""
+
+msgid "Russian ruble"
+msgstr "Russian Ruble"
+
+msgid "Rwandan franc"
+msgstr ""
+
+msgid "Saudi riyal"
+msgstr "Saudi Riyal"
+
+msgid "Solomon Islands dollar"
+msgstr ""
+
+msgid "Seychellois rupee"
+msgstr ""
+
+msgid "Sudanese pound"
+msgstr ""
+
+msgid "Swedish krona"
+msgstr "Swedish Krona"
+
+msgid "Singapore dollar"
+msgstr "Singapore Dollar"
+
+msgid "Saint Helena pound"
+msgstr ""
+
+msgid "Sierra Leonean leone"
+msgstr ""
+
+msgid "Somali shilling"
+msgstr ""
+
+msgid "Surinamese dollar"
+msgstr ""
+
+msgid "South Sudanese pound"
+msgstr ""
+
+msgid "S&atilde;o Tom&eacute; and Pr&iacute;ncipe dobra"
+msgstr ""
+
+msgid "Syrian pound"
+msgstr ""
+
+msgid "Swazi lilangeni"
+msgstr ""
+
+msgid "Thai baht"
+msgstr "Thai Baht"
+
+msgid "Tajikistani somoni"
+msgstr ""
+
+msgid "Turkmenistan manat"
+msgstr ""
+
+msgid "Tunisian dinar"
+msgstr ""
+
+msgid "Tongan pa&#x2bb;anga"
+msgstr ""
+
+msgid "Turkish lira"
+msgstr "Turkish Lira"
+
+msgid "Trinidad and Tobago dollar"
+msgstr ""
+
+msgid "New Taiwan dollar"
+msgstr ""
+
+msgid "Tanzanian shilling"
+msgstr ""
+
+msgid "Ukrainian hryvnia"
+msgstr "Ukrainian Hryvnia"
+
+msgid "Ugandan shilling"
+msgstr ""
+
+msgid "Uruguayan peso"
+msgstr ""
+
+msgid "Uzbekistani som"
+msgstr ""
+
+msgid "Venezuelan bol&iacute;var"
+msgstr ""
+
+msgid "Bol&iacute;var soberano"
+msgstr ""
+
+msgid "Vietnamese &#x111;&#x1ed3;ng"
+msgstr ""
+
+msgid "Vanuatu vatu"
+msgstr ""
+
+msgid "Samoan t&#x101;l&#x101;"
+msgstr ""
+
+msgid "Central African CFA franc"
+msgstr ""
+
+msgid "East Caribbean dollar"
+msgstr ""
+
+msgid "West African CFA franc"
+msgstr ""
+
+msgid "CFP franc"
+msgstr ""
+
+msgid "Yemeni rial"
+msgstr ""
+
+msgid "South African rand"
+msgstr ""
+
+msgid "Zambian kwacha"
+msgstr ""
+
+msgid "Before"
+msgstr "Prije"
+
+msgid "After"
+msgstr "Nakon"
+
+msgid "Before with space"
+msgstr "Ispred s razmakom"
+
+msgid "After with space"
+msgstr "Nakon s razmakom"
+
+msgid "First name is required."
+msgstr "Ime je obavezno"
+
+msgid "Last name is required."
+msgstr "Prezime je obavezno"
+
+msgid "Email is required."
+msgstr "Email je obavezan."
+
+msgid "Phone is required."
+msgstr "Telefon je obavezan"
+
+msgid "Country of residence"
+msgstr "Država Prebivališta"
+
+msgid "Country is required."
+msgstr "Država je obavezna."
+
+msgid "Address is required."
+msgstr "Adresa je obavezna."
+
+msgid "City is required."
+msgstr "Grad je obavezan"
+
+msgid "State is required."
+msgstr "Regija je obavezna."
+
+msgid "Postcode is required."
+msgstr "Poštanski Broj je obavezan"
+
+msgid "Note is required."
+msgstr ""
+
+msgid "Check-in"
+msgstr "Dolazak"
+
+msgid "Check-out"
+msgstr "Odlazak"
+
+#. translators: The value a hotel wishes to sell their rooms. Also called the Cost, Value, Tariff or Room charge.
+msgid "Rate"
+msgstr "Periodična Cijena"
+
+msgid "Adults/Guests"
+msgstr ""
+
+msgid "Full Guest Name"
+msgstr "Puno Ime Gosta"
+
+msgid "Accommodation Subtotal"
+msgstr "Ukupna vrijednost smještaja"
+
+msgid "Total Accommodation Taxes"
+msgstr ""
+
+msgid "Total Fees"
+msgstr ""
+
+msgid "Services Subtotal"
+msgstr "Usluge Ukupno"
+
+msgid "Total Service Taxes"
+msgstr ""
+
+msgid "Total Fee Taxes"
+msgstr ""
+
+msgid "Discount"
+msgstr "Popust"
+
+msgid "Total"
+msgstr "Ukupno"
+
+msgid "Paid"
+msgstr ""
+
+msgid "Payment Details"
+msgstr "Detalji Plaćanja"
+
+msgid "Square Meter"
+msgstr "Kvadratni Metar"
+
+msgid "Square Foot"
+msgstr "Kvadratna Stopa"
+
+msgid "Square Yard"
+msgstr "Kvadratni Yard"
+
+msgid "m²"
+msgstr ""
+
+msgid "ft²"
+msgstr ""
+
+msgid "yd²"
+msgstr ""
+
+msgid "User Approval Time setted in Hotel Booking Settings"
+msgstr "Vrijeme odobrenja korisnika postavljeno je u Postavkama Rezervacija"
+
+msgid "Pending Payment Time set in Hotel Booking Settings"
+msgstr "Vrijeme Plaćanja Na Čekanju postavljeno u Postavkama Rezervacija"
+
+msgid "Interval for automatic cleaning of synchronization logs."
+msgstr "Interval za automatsko čišćenje sinkronizacije dnevnika."
+
+msgid "x %d guest"
+msgid_plural "x %d guests"
+msgstr[0] "po %d gostu"
+msgstr[1] "po %d gostima"
+msgstr[2] "po %d gostu"
+
+msgid "x %d time"
+msgid_plural "x %d times"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+msgid "Please select columns to export."
+msgstr ""
+
+msgid "Disable this email notification"
+msgstr "Onemogući ovu email obavijest"
+
+msgid "Subject"
+msgstr "Predmet"
+
+msgid "Header"
+msgstr "Zaglavlje"
+
+msgid "Email Template"
+msgstr "Email templata"
+
+msgid "\"%s\" email will not be sent: there is no customer email in the booking."
+msgstr "\"%s\" email neće biti poslan: u rezervaciji nema emaila klijenta."
+
+msgid "Deprecated tags in header of %s"
+msgstr "Obustavljeni tagovi u zaglavlju %s"
+
+msgid "Deprecated tags in subject of %s"
+msgstr "Obustavljeni tagovi u subjektu %s"
+
+msgid "Deprecated tags in template of %s"
+msgstr "Obustavljeni tagovi u templati %s"
+
+msgid "Recipients"
+msgstr "Primatelj"
+
+msgid "You can use multiple comma-separated emails"
+msgstr "Možete koristiti više emaila odvojenih zarezima"
+
+msgid "\"%s\" mail was sent to admin."
+msgstr "\"%s\" email je poslan administratoru."
+
+msgid "\"%s\" mail sending to admin is failed."
+msgstr "\"%s\"  slanje emaila administratoru nije uspjelo."
+
+msgid "Booking Cancelled"
+msgstr "Rezervacija Otkazana"
+
+msgid "%site_title% - Booking #%booking_id% Cancelled"
+msgstr "%site_title% - Rezervacija #%booking_id% Otkazana"
+
+msgid "Email that will be sent to Admin when customer cancels booking."
+msgstr "Email koji će biti poslan Administratoru kada klijent otkaže rezervaciju."
+
+msgid "Cancelled Booking Email"
+msgstr "Otkazan Email za Rezervaciju"
+
+msgid "Booking Confirmed"
+msgstr "Rezervacija Potvrđena"
+
+msgid "%site_title% - Booking #%booking_id% Confirmed"
+msgstr "%site_title% - Rezervacija #%booking_id% Potvrđena"
+
+msgid "Email that will be sent to Admin when payment is completed."
+msgstr "Email koji će biti poslan Administratoru kada je plaćanje izvršeno."
+
+msgid "Approved Booking Email (via payment)"
+msgstr "Odobren Email za Rezervaciju (putem plaćanja)"
+
+msgid "Email that will be sent to Admin when customer confirms booking."
+msgstr "Email koji će biti poslan Administratoru kada klijent potvrdi rezervaciju."
+
+msgid "Approved Booking Email"
+msgstr "Odobren Email za Rezervaciju"
+
+msgid "Confirm new booking"
+msgstr "Potvrdi novu rezervaciju"
+
+msgid "%site_title% - New booking #%booking_id%"
+msgstr "%site_title% - Nova rezervacija #%booking_id%"
+
+msgid "Email that will be sent to administrator after booking is placed."
+msgstr "Email koji će biti poslan Administratoru za novu rezervaciju."
+
+msgid "Pending Booking Email"
+msgstr "Na čekanju Emaila za Rezervaciju"
+
+msgid "Your booking is approved"
+msgstr "Vaša je rezervacija odobrena"
+
+msgid "%site_title% - Your booking #%booking_id% is approved"
+msgstr "%site_title% - Vaša rezervacija #%booking_id% je odobrena"
+
+msgid "Email that will be sent to customer when booking is approved."
+msgstr "Email koji će biti poslan Klijentu kada je potvrđena rezervacija."
+
+msgid "\"%s\" mail was sent to customer."
+msgstr "\"%s\" email je poslan klijentu."
+
+msgid "\"%s\" mail sending is failed."
+msgstr "\"%s\" slanje emaila nije uspjelo."
+
+msgid "Your booking is cancelled"
+msgstr "Vaša rezervacija je otkazana"
+
+msgid "%site_title% - Your booking #%booking_id% is cancelled"
+msgstr "%site_title% - Vaša rezervacija #%booking_id% je otkazana"
+
+msgid "Email that will be sent to customer when booking is cancelled."
+msgstr "Email koji će biti poslan Klijentu kada je rezervaciju obrisana."
+
+msgid "Confirm your booking"
+msgstr "Potvrdite vašu rezervaciju"
+
+msgid "%site_title% - Confirm your booking #%booking_id%"
+msgstr "%site_title% - Potvrdite vašu rezervaciju #%booking_id%"
+
+msgid "This email is sent when \"Booking Confirmation Mode\" is set to Customer confirmation via email."
+msgstr "Ovaj se email šalje kada je \"Način potvrde rezervacije\" postavljen na potvrdu klijenta putem emaila."
+
+msgid "Email that will be sent to customer after booking is placed."
+msgstr "Email koji će biti poslan Klijentu za novu rezervaciju."
+
+msgid "New Booking Email (Confirmation by User)"
+msgstr "Novi Email za Rezervaciju (Potvrda Klijenta)"
+
+msgid "Your booking is placed"
+msgstr "Vaša je rezervacija poslana"
+
+msgid "%site_title% - Booking #%booking_id% is placed"
+msgstr "%site_title% - Rezervacija #%booking_id% je poslana"
+
+msgid "This email is sent when \"Booking Confirmation Mode\" is set to Admin confirmation."
+msgstr "Ovaj se email šalje kada je \"Način potvrde rezervacije\" postavljen na potvrdu administratora."
+
+msgid "New Booking Email (Confirmation by Admin)"
+msgstr "Novi Email za Rezervaciju (Potvrda Administratora)"
+
+msgid "Welcome"
+msgstr ""
+
+msgid "%site_title% - account details"
+msgstr ""
+
+msgid "Email that will be sent to a customer after they registered on your site."
+msgstr ""
+
+msgid "Customer Registration Email"
+msgstr ""
+
+msgid "Possible tags:"
+msgstr "Moguči Tagovi:"
+
+msgid "Deprecated."
+msgstr "Obustavljeno."
+
+msgid "none"
+msgstr "nijedan"
+
+msgid "User Cancellation Link"
+msgstr "Link za Otkaz Rezervacije Korisnika"
+
+msgid "Site title (set in Settings > General)"
+msgstr "Naslov stranice (postavljena u Postavke> Općenito)"
+
+msgid "Booking ID"
+msgstr "ID Rezervacije"
+
+msgid "Booking Edit Link"
+msgstr "Link Uređivanje Rezervacija"
+
+msgid "Booking Total Price"
+msgstr "Ukupna Cijena Rezervacije"
+
+msgid "Customer First Name"
+msgstr "Ime Klijenta"
+
+msgid "Customer Last Name"
+msgstr "Prezime Klijenta"
+
+msgid "Customer Email"
+msgstr "Email Klijenta"
+
+msgid "Customer Phone"
+msgstr "Telefon Klijenta"
+
+msgid "Customer Country"
+msgstr "Zemlja kupca"
+
+msgid "Customer Address"
+msgstr "Adresa kupca"
+
+msgid "Customer City"
+msgstr "Grad kupca"
+
+msgid "Customer State/County"
+msgstr "Država/županija kupca"
+
+msgid "Customer Postcode"
+msgstr "Poštanski broj kupca"
+
+msgid "Reserved Accommodations Details"
+msgstr "Detalji Rezerviranog Smještaja"
+
+msgid "Booking Details"
+msgstr "Detalji Rezervacije"
+
+msgid "Confirmation Link"
+msgstr "Link za Potvrdu"
+
+msgid "Confirmation Link Expiration Time ( UTC )"
+msgstr "Vrijeme Isteka Linka za Potvrdu ( UTC )"
+
+msgid "Cancellation Details (if enabled)"
+msgstr "Detalji o Otkazivanju (ako je omogućeno)"
+
+msgid "The total amount of payment"
+msgstr ""
+
+msgid "The unique ID of payment"
+msgstr "Jedinstveni ID Plaćanja"
+
+msgid "The method of payment"
+msgstr "Način plaćanja"
+
+msgid "Payment instructions"
+msgstr "Upute za plaćanje"
+
+msgid "User login"
+msgstr ""
+
+msgid "User password"
+msgstr ""
+
+msgid "Link to My Account page"
+msgstr ""
+
+msgid "My Account"
+msgstr ""
+
+msgid "Accommodation Type Link"
+msgstr "Link Vrste Smještaja"
+
+msgid "Accommodation Type Title"
+msgstr "Naslov Vrste Smještaja"
+
+msgid "Accommodation Type Categories"
+msgstr "Kategorije Vrste Smještaja"
+
+msgid "Accommodation Type Bed"
+msgstr "Krevet Vrsta Smještaja"
+
+msgid "Accommodation Rate Title"
+msgstr "Naslov Periodične Cijene Smještaja"
+
+msgid "Accommodation Rate Description"
+msgstr "Opis Periodične Cijene Smještaja"
+
+msgid "Sequential Number of Accommodation"
+msgstr "Sekvencijski Broj Smještajnih Jedinica"
+
+msgid "This coupon has expired."
+msgstr "Ovaj kupon je  istekao."
+
+msgid "Sorry, this coupon is not applicable to your booking contents."
+msgstr "Nažalost, ovaj kupon nije primjenjiv na vašu rezervaciju."
+
+msgid "Coupon usage limit has been reached."
+msgstr "Dosegnuto je ograničenje korištenja kupona."
+
+msgid " &#215; %d night"
+msgid_plural " &#215; %d nights"
+msgstr[0] " &#215; %d noć"
+msgstr[1] " &#215; %d noći"
+msgstr[2] " &#215; %d noći"
+
+msgid "%d adult"
+msgid_plural "%d adults"
+msgstr[0] "%d odrasli"
+msgstr[1] "%d odrasla"
+msgstr[2] "%d odraslih"
+
+msgid "%d guest"
+msgid_plural "%d guests"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+msgid " &#215; %d time"
+msgid_plural " &#215; %d times"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+msgid "Per Instance"
+msgstr ""
+
+msgid "Maximum execution time is set to %d seconds."
+msgstr "Maksimalno vrijeme izvršenja postavljeno je na %d sekundi."
+
+msgid "%d URL pulled for parsing."
+msgid_plural "%d URLs pulled for parsing."
+msgstr[0] "%d URL povučen za analizu."
+msgstr[1] "%d URL-a povučena za analizu."
+msgstr[2] "%d URL-ova povučeno za analizu."
+
+msgid "Skipped. No URLs found for parsing."
+msgstr "Preskočeno. Nije pronađen nijedan URL za analizu."
+
+msgid "Cannot read uploaded file"
+msgstr "Nije moguće čitati prenesenu datoteku"
+
+msgid "We will need to check %d previous booking after importing and remove it if the booking is outdated."
+msgid_plural "We will need to check %d previous bookings after importing and remove the outdated ones."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+msgctxt "%s - calendar URI or calendar filename"
+msgid "%1$d event found in calendar %2$s"
+msgid_plural "%1$d events found in calendar %2$s"
+msgstr[0] "%1$d događaj pronađen u kalendaru %2$s"
+msgstr[1] "%1$d događaja pronađena u kalendaru %2$s"
+msgstr[2] "%1$d događaja pronađena u kalendaru %2$s"
+
+msgctxt "%s - calendar URI or calendar filename"
+msgid "Calendar source is empty (%s)"
+msgstr "Izvor podataka kalendara  je  prazan (%s)"
+
+msgctxt "%s - calendar URI or calendar filename"
+msgid "Calendar file is not empty, but there are no events in %s"
+msgstr "Datoteka kalendara nije prazna, ali nema događaja u %s"
+
+msgid "Error while loading calendar (%1$s): %2$s"
+msgstr "Greška pri učitavanju kalendara (%1$s): %2$s"
+
+msgctxt "%s - error description"
+msgid "Parse error. %s"
+msgstr "Pogreška analiziranja. %s"
+
+msgid "Skipped. Outdated booking #%d already removed."
+msgstr ""
+
+msgid "Skipped. Booking #%d updated with new data."
+msgstr ""
+
+msgid "The outdated booking #%d has been removed."
+msgstr ""
+
+msgid "Skipped. Event from %1$s to %2$s has passed."
+msgstr ""
+
+msgid "New booking #%1$d. The dates from %2$s to %3$s are now blocked."
+msgstr ""
+
+msgid "Success. Booking #%d updated with new data."
+msgstr ""
+
+msgid "Skipped. The dates from %1$s to %2$s are already blocked."
+msgstr ""
+
+msgid "Success. Booking #%1$d updated with new data. Removed %2$d outdated booking."
+msgid_plural "Success. Booking #%1$d updated with new data. Removed %2$d outdated bookings."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+msgid "Success. Booking #%1$d updated with new data."
+msgstr ""
+
+msgid "Cannot import new event. Dates from %1$s to %2$s are partially blocked by booking %3$s."
+msgid_plural "Cannot import new event. Dates from %1$s to %2$s are partially blocked by bookings %3$s."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+msgid "Booking imported with UID %1$s.<br />Summary: %2$s.<br />Description: %3$s.<br />Source: %4$s."
+msgstr ""
+
+msgid "Process Information"
+msgstr "Obrada Informacija"
+
+msgid "Total bookings: %s"
+msgstr "Ukupno Rezervacija: %s"
+
+msgid "Success bookings: %s"
+msgstr "Rezervacija uspješna: %s"
+
+msgid "Skipped bookings: %s"
+msgstr "Preskočene rezervacije: %s"
+
+msgid "Failed bookings: %s"
+msgstr "Neuspješne rezervacije: %s"
+
+msgid "Removed bookings: %s"
+msgstr "Uklonjene rezervacije: %s"
+
+msgid "Expand All"
+msgstr "Proširi Sve"
+
+msgid "Collapse All"
+msgstr "Sažmi Sve"
+
+msgid "All done! %1$d booking was successfully added."
+msgid_plural "All done! %1$d bookings were successfully added."
+msgstr[0] "Gotovo! %1$d rezervacija je uspiješno dodana."
+msgstr[1] "Gotovo! %1$d rezervacije su uspiješno dodane."
+msgstr[2] "Gotovo! %1$d rezervacija je uspiješno dodano."
+
+msgid " There was %2$d failure."
+msgid_plural " There were %2$d failures."
+msgstr[0] "Došlo je do %2$d pogreške."
+msgstr[1] "Došlo je do %2$d pogreške."
+msgstr[2] "Došlo je do %2$d pogrešaka."
+
+msgid "Dismiss "
+msgstr "Odbaci"
+
+msgid "Your License Key is not active. Please, <a href='%s'>activate your License Key</a> to get plugin updates"
+msgstr "aš ključ licence nije aktivan. Molimo, <a href='%s'>aktivirajte ključ licence</a> kako biste dobili ažurirali"
+
+msgid "Hotel Booking Plugin"
+msgstr "Dodatak Rezervacije"
+
+msgid "Your database is being updated in the background."
+msgstr "Vaša se baza podataka ažurira u pozadini."
+
+msgid "Taking a while? Click here to run it now."
+msgstr "Sporo? Kliknite ovdje da ga odmah pokrenete."
+
+msgid "Add \"Booking Confirmation\" shortcode to your \"Booking Confirmed\" and \"Reservation Received\" pages to show more details about booking or payment.<br/>Click \"Update Pages\" to apply all changes automatically or skip this notice and add \"Booking Confirmation\" shortcode manually.<br/><b><em>This action will replace the whole content of the pages.</em></b>"
+msgstr "Dodajte kratki kôd \"Potvrda rezervacije\" na stranice \"Potvrđena rezervacija\" i \"Primljena rezervacija\" da biste prikazali više detalja o rezervaciji ili uplati. <br/> Kliknite \"Ažuriraj stranice\" da biste automatski primijenili sve promjene ili preskočite ovu obavijest i dodajte \"Potvrda rezervacije\" ručni kôd. <br/> <b> <em> Ova radnja zamijenit će cjelokupni sadržaj stranica. </em> </b>"
+
+msgid "Update Pages"
+msgstr "Ažuriraj stranice"
+
+msgid "Skip"
+msgstr "Preskoči"
+
+msgid "Direct Bank Transfer"
+msgstr "Izravni bankovni prijenos"
+
+msgid "Make your payment directly into our bank account. Please use your Booking ID as the payment reference."
+msgstr ""
+
+msgid "Beanstream/Bambora"
+msgstr ""
+
+msgid "Use the card number %1$s with CVC %2$s and a valid expiration date to test a payment."
+msgstr "Koristite broj kartice %1$s s CVC %2$s i važeći datum isteka za testiranje uplate."
+
+msgid "Pay by Card (Beanstream)"
+msgstr "Plati Karticom (Beanstream)"
+
+msgid "Pay with your credit card via Beanstream."
+msgstr "Platite karticom putem Beanstreama."
+
+msgid "%1$s is enabled, but the <a href=\"%2$s\">Force Secure Checkout</a> option is disabled. Please enable SSL and ensure your server has a valid SSL certificate. Otherwise, %1$s will only work in Test Mode."
+msgstr "%1$s je omogućen, ali <a href=\"%2$s\">Force Secure Checkout</a> je onemogućen. Omogućite SSL i osigurajte da vaš poslužitelj ima važeći SSL certifikat. Inače, %1$s radit će samo u Test modu."
+
+msgid "The <a href=\"%2$s\">Force Secure Checkout</a> option is disabled. Please enable SSL and ensure your server has a valid SSL certificate. Otherwise, %1$s will only work in Test Mode."
+msgstr "<a href=\"%2$s\">Force Secure Checkout</a> je onemogućen. Omogućite SSL i osigurajte da vaš poslužitelj ima važeći SSL certifikat. U suprotnom, %1$s će raditi samo u testnom načinu rada."
+
+msgid "Beanstream"
+msgstr ""
+
+msgid "Merchant ID"
+msgstr "ID Trgovca"
+
+msgid "Your Merchant ID can be found in the top-right corner of the screen after logging in to the Beanstream Back Office"
+msgstr "ID trgovca možete pronaći u gornjem desnom kutu zaslona nakon prijave u Beanstream Back Office"
+
+msgid "Payments Passcode"
+msgstr "Pristupni kod za Plaćanja"
+
+msgid "To generate the passcode, navigate to Administration > Account Settings > Order Settings in the sidebar, then scroll to Payment Gateway > Security/Authentication"
+msgstr "Da biste generirali zaporku, na bočnoj traci idite na Administrator> Postavke računa> Postavke narudžbi, a zatim se krećite do Procesor Plaćanja> Sigurnost / Autentifikacija"
+
+msgid "Beanstream Payment Error: %s"
+msgstr "Beanstream Pogreška Plaćanja: %s"
+
+msgid "Payment single use token is required."
+msgstr "Potreban je jednokratni token za plaćanje."
+
+msgid "Braintree"
+msgstr ""
+
+msgid "Webhooks Destination URL: %s"
+msgstr "Odredišni URL za Webhooks: %s"
+
+msgid "Pay by Card (Braintree)"
+msgstr "Plati Karticom (Braintree)"
+
+msgid "Pay with your credit card via Braintree."
+msgstr "Platite karticom putem Braintreea."
+
+msgid "Braintree gateway cannot be enabled due to some problems: %s"
+msgstr "Braintree procesor ne može se omogućiti zbog nekih problema: %s"
+
+msgid "In your Braintree account select Account > My User > View Authorizations."
+msgstr "U svom Braintree računu odaberite Account> My User> View Authorizations."
+
+msgid "Public Key"
+msgstr "Javni ključ"
+
+msgid "Private Key"
+msgstr "Privatan Ključ"
+
+msgid "Merchant Account ID"
+msgstr "ID Računa Trgovca"
+
+msgid "In case the site currency differs from default currency in your Braintree account, you can set specific merchant account to avoid <a href=\"%s\">complications with currencty conversions</a>. Otherwise leave the field empty."
+msgstr "U slučaju da se valuta na web lokaciji razlikuje od zadane valute na vašem Braintree računu, možete postaviti određeni račun trgovca da biste izbjegli <a href=\"%s\">komplikacija s konverzijama</a>. U suprotnom ostavite polje prazno."
+
+msgid "Braintree submitted for settlement (Transaction ID: %s)"
+msgstr "Braintree podnesen zahtjev za namirenje (ID Transakcije: %s)"
+
+msgid "Braintree Payment Error: %s"
+msgstr "Braintree Greška Plaćanja: %s"
+
+msgid "Payment method nonce is required."
+msgstr "Metoda plaćanja nonce je obavezna."
+
+msgid "Payment dispute opened"
+msgstr "Spor o plaćanju otvoren"
+
+msgid "Payment dispute lost"
+msgstr "Spor o plaćanju izgubljen"
+
+msgid "Payment dispute won"
+msgstr "Spor o plaćanju osporen / dobiven"
+
+msgid "Payment refunded in Braintree"
+msgstr "Povrat Plačanja izvršen u Braintree"
+
+msgid "Braintree transaction voided"
+msgstr "Braintree transakcija poništena"
+
+msgid "Pay on Arrival"
+msgstr "Plati kod dolaska"
+
+msgid "Pay with cash on arrival."
+msgstr "Plati u gotovini pri dolasku."
+
+msgid "%s is a required field."
+msgstr "%s je obavezno polje."
+
+msgid "%s is not a valid email address."
+msgstr "%s nije važeći email"
+
+#. translators: %s is the payment gateway title.
+msgid "Enable \"%s\""
+msgstr "Omogući \"%s\""
+
+msgid "Test Mode"
+msgstr "Testni Mod"
+
+msgid "Enable Sandbox Mode"
+msgstr "Omogući Sandbox Mod"
+
+msgid "Sandbox can be used to test payments."
+msgstr "Sandbox se može koristiti za testiranje plaćanja."
+
+msgid "Payment method title that the customer will see on your website."
+msgstr "Naziv načina plaćanja koji će kupac vidjeti na vašoj web stranici."
+
+msgid "Payment method description that the customer will see on your website."
+msgstr "Opis načina plaćanja koji će kupac vidjeti na vašoj web stranici."
+
+msgid "Instructions"
+msgstr ""
+
+msgid "Instructions for a customer on how to complete the payment."
+msgstr ""
+
+msgid "Reservation #%d"
+msgstr ""
+
+msgid "Accommodation(s) reservation"
+msgstr "Rezervacija smještaja"
+
+msgid "Manual Payment"
+msgstr "Ručno plaćanje"
+
+msgid "PayPal"
+msgstr ""
+
+msgid "Pay via PayPal"
+msgstr "Plati putem PayPala"
+
+msgid "Paypal Business Email"
+msgstr "PayPal Poslovni Email"
+
+msgid "Disable IPN Verification"
+msgstr "Onemogući IPN Verifikaciju"
+
+msgid "Specify an IPN listener for a specific payment instead of the listeners specified in your PayPal Profile."
+msgstr "Navedite IPN slušatelja za određenu uplatu umjesto slušatelja navedenih u PayPal profilu."
+
+msgid "Payment %s via IPN."
+msgstr "Plaćanje %s putem IPN-a."
+
+msgid "Payment failed due to invalid PayPal business email."
+msgstr "Plaćanje nije uspjelo zbog nevažećeg poslovnog emaila na PayPal-u."
+
+msgid "Payment failed due to invalid currency in PayPal IPN."
+msgstr "Plaćanje nije uspjelo zbog nevažeće valute u PayPal IPN-u."
+
+msgid "Payment failed due to invalid amount in PayPal IPN."
+msgstr "Plaćanje nije uspjelo zbog nevažećeg iznosa u PayPal IPN-u."
+
+msgid "Payment failed due to invalid purchase key in PayPal IPN."
+msgstr "Plaćanje nije uspjelo zbog nevažećeg ključa za kupnju u PayPal IPN-u."
+
+msgid "Payment made via eCheck and will clear automatically in 5-8 days."
+msgstr "Plaćanje putem eCheck i automatski će se naplatiti za 5-8 dana."
+
+msgid "Payment requires a confirmed customer address and must be accepted manually through PayPal."
+msgstr "Plaćanje zahtijeva potvrđenu adresu klijenta i mora biti prihvaćeno ručno putem PayPal-a."
+
+msgid "Payment must be accepted manually through PayPal due to international account regulations."
+msgstr "Plaćanje mora biti prihvaćeno ručno putem PayPala zbog međunarodnih pravila o računima."
+
+msgid "Payment received in non-shop currency and must be accepted manually through PayPal."
+msgstr "Plaćanje primljeno u različitoj valuti (u odnosu na zadanu) i mora biti prihvaćeno ručno putem PayPala."
+
+msgid "Payment is being reviewed by PayPal staff as high-risk or in possible violation of government regulations."
+msgstr "PayPal osoblje pregledava plaćanje zbog visokog rizika ili zbog mogućeg kršenja zakonskih odredbi i propisa."
+
+msgid "Payment was sent to unconfirmed or non-registered email address."
+msgstr ""
+
+msgid "PayPal account must be upgraded before this payment can be accepted."
+msgstr "PayPal račun mora se nadograditi prije nego što ta uplata bude prihvaćena."
+
+msgid "PayPal account is not verified. Verify account in order to accept this payment."
+msgstr "PayPal račun nije potvrđen. Potvrdite račun da biste prihvatili ovu uplatu."
+
+msgid "Payment is pending for unknown reasons. Contact PayPal support for assistance."
+msgstr "Plaćanje je na čekanju iz nepoznatih razloga. Kontaktirajte PayPal podršku za pomoć."
+
+msgid "Partial PayPal refund processed: %s"
+msgstr "Djelomičan povrat sredstava putem Paypala obrađen: %s"
+
+msgid "PayPal Payment #%s Refunded for reason: %s"
+msgstr "Za Plaćanje na PayPal #%s izvršen je povrat zbog: %s"
+
+msgid "PayPal Refund Transaction ID: %s"
+msgstr "PayPal ID transakcije povrata: %s"
+
+msgid "Stripe"
+msgstr ""
+
+msgid "Use the card number %1$s with CVC %2$s, a valid expiration date and random 5-digit ZIP-code to test a payment."
+msgstr ""
+
+msgid "Pay by Card (Stripe)"
+msgstr "Plati Karticom (Stripe)"
+
+msgid "Pay with your credit card via Stripe."
+msgstr "Platite karticom putem Stripea."
+
+msgid "Bancontact"
+msgstr ""
+
+msgid "iDEAL"
+msgstr ""
+
+msgid "Giropay"
+msgstr ""
+
+msgid "SEPA Direct Debit"
+msgstr ""
+
+msgid "SOFORT"
+msgstr ""
+
+msgid "Euro is the only acceptable currency for the selected payment methods. Change your currency to Euro in General settings."
+msgstr ""
+
+msgid "Secret Key"
+msgstr "Tajni Ključ"
+
+msgid "Webhook Secret"
+msgstr ""
+
+msgid "Payment Methods"
+msgstr ""
+
+msgid "Card Payments"
+msgstr ""
+
+msgid "Checkout Locale"
+msgstr ""
+
+msgid "Display Checkout in the user's preferred language, if available."
+msgstr "Prikaz Checkout na željenom jeziku korisnika, ako je dostupan."
+
+msgid "The payment method is not selected."
+msgstr ""
+
+msgid "Payment intent ID is not set."
+msgstr "ID namjere plaćanja nije postavljen."
+
+msgid "Source ID is not set."
+msgstr "ID izvora nije postavljen."
+
+#. translators: %s - Stripe PaymentIntent ID
+msgid "Payment for PaymentIntent %s succeeded."
+msgstr "Plaćanje za PaymentIntent %s je uspjelo."
+
+#. translators: %s - Stripe PaymentIntent ID
+msgid "Payment for PaymentIntent %s is processing."
+msgstr "Plaćanje za PaymentIntent %s obrađuje se."
+
+msgid "Failed to process Card payment. %s"
+msgstr "Obrada putem kartice nije uspjela. %s"
+
+#. translators: %s - Stripe Source ID
+msgid "Payment source %s is waiting for customer confirmation."
+msgstr "Izvor plaćanja %s čeka potvrdu kupca."
+
+#. translators: %s - Stripe Source ID
+msgid "Pending source %s received, but the redirect URL is empty."
+msgstr "Izvor je na čekanju %s, ali URL za preusmjeravanje je prazan."
+
+#. translators: %s - Stripe Source ID
+msgid "Payment source %s was cancelled by customer."
+msgstr "Izvor plaćanja %s otkazao je kupac."
+
+#. translators: %s - Stripe Source ID
+msgid "Payment source %s failed and couldn't be processed."
+msgstr "Izvor plaćanja %s nije uspio i nije ga moguće obraditi."
+
+#. translators: %1$s - Stripe Source ID; %2$s - Stripe Source status
+msgid "Failed to process payment source %1$s: unsupported status - \"%2$s\"."
+msgstr "Nije uspjelo obrada izvora plaćanja %1$s: nepodržani status - \"%2$s\"."
+
+msgid "Failed to process Source payment. %s"
+msgstr "Obrada izvora nije uspjela. %s"
+
+msgid "Can't charge the payment again: payment's flow already completed."
+msgstr "Plaćanje ne može se ponovo teretiti: tijek plaćanja je već završen."
+
+#. translators: %s - Stripe Charge ID
+msgid "Charge %s succeeded."
+msgstr "Naplata %s je uspjela."
+
+#. translators: %1$s - Stripe Charge ID; %2$s - payment price
+msgid "Charge %1$s for %2$s created."
+msgstr "Naplata %1$s za %2$s stvorena."
+
+#. translators: %s - Stripe Charge ID
+msgid "Charge %s failed."
+msgstr "Naplata %s nije uspjela."
+
+msgid "Charge error. %s"
+msgstr ""
+
+msgid "Argentinean"
+msgstr ""
+
+msgid "Simplified Chinese"
+msgstr ""
+
+msgid "Danish"
+msgstr ""
+
+msgid "Dutch"
+msgstr ""
+
+msgid "English"
+msgstr "Hrvatski"
+
+msgid "Finnish"
+msgstr ""
+
+msgid "French"
+msgstr "France"
+
+msgid "German"
+msgstr ""
+
+msgid "Italian"
+msgstr ""
+
+msgid "Japanese"
+msgstr ""
+
+msgid "Norwegian"
+msgstr ""
+
+msgid "Polish"
+msgstr ""
+
+msgid "Russian"
+msgstr ""
+
+msgid "Spanish"
+msgstr ""
+
+msgid "Swedish"
+msgstr ""
+
+msgid "Card"
+msgstr ""
+
+msgid "Credit or debit card"
+msgstr ""
+
+msgid "IBAN"
+msgstr ""
+
+msgid "Select iDEAL Bank"
+msgstr ""
+
+msgid "You will be redirected to a secure page to complete the payment."
+msgstr ""
+
+msgid "By providing your IBAN and confirming this payment, you are authorizing this merchant and Stripe, our payment service provider, to send instructions to your bank to debit your account and your bank to debit your account in accordance with those instructions. You are entitled to a refund from your bank under the terms and conditions of your agreement with your bank. A refund must be claimed within 8 weeks starting from the date on which your account was debited."
+msgstr ""
+
+#. translators: %s - event type, like "source.chargeable"
+msgid "Webhook \"%s\" skipped: payment's flow already completed."
+msgstr ""
+
+#. translators: %s - Stripe Source ID
+msgid "Webhook received. The source %s is chargeable."
+msgstr ""
+
+#. translators: %s - Stripe Source ID
+msgid "Webhook received. Payment source %s was cancelled by customer."
+msgstr ""
+
+#. translators: %s - Stripe Source ID
+msgid "Webhook received. Payment source %s failed and couldn't be processed."
+msgstr ""
+
+#. translators: %s - Stripe Charge ID
+msgid "Webhook received. Charge %s succeeded."
+msgstr ""
+
+#. translators: %s - Stripe Charge ID
+msgid "Webhook received. Charge %s failed."
+msgstr "Primljen je Webhook. Naplata %s nije uspjela."
+
+msgid "Test Payment"
+msgstr "Testno Plaćanje"
+
+msgid "2Checkout"
+msgstr ""
+
+msgid "To setup the callback process for 2Checkout to automatically mark payments completed, you will need to"
+msgstr "Za postavljanje postupka povratnog poziva za 2Checkout da automatski označi izvršene uplate, morat ćete"
+
+msgid "Login to your 2Checkout account and click the Notifications tab"
+msgstr "Prijavite se na račun 2Checkout i kliknite karticu Obavijesti"
+
+msgid "Click Enable All Notifications"
+msgstr "Kliknite Omogući sve obavijesti"
+
+msgid "In the Global URL field, enter the url %s"
+msgstr "U polje Globalni URL unesite url %s"
+
+msgid "Click Apply"
+msgstr "Kliknite Primijeni"
+
+msgid "Account Number"
+msgstr "Broj Računa"
+
+msgid "Secret Word"
+msgstr "Tajna Riječ"
+
+msgid "2Checkout \"Order Created\" notification received."
+msgstr "2Checkout \"Order Created\" obavijest primljena."
+
+msgid "Payment refunded in 2Checkout"
+msgstr "Plaćanje refundirano od 2Checkout-a"
+
+msgid "2Checkout fraud review passed"
+msgstr "2Checkout provjera prijevare uspiješna"
+
+msgid "2Checkout fraud review failed"
+msgstr "2Checkout provjera prijevare nije uspijela"
+
+msgid "2Checkout fraud review in progress"
+msgstr "2Checkout provjera prijevare u toku"
+
+msgid "Attribute"
+msgstr "Atribut"
+
+msgctxt "Add New Attribute"
+msgid "Add New"
+msgstr "Dodaj novi"
+
+msgid "Add New Attribute"
+msgstr "Dodaj atribut"
+
+msgid "Edit Attribute"
+msgstr "Uredi atribut"
+
+msgid "New Attribute"
+msgstr "Novi atribut"
+
+msgid "View Attribute"
+msgstr "Prikaži atribut"
+
+msgid "Search Attribute"
+msgstr "Traži atribute"
+
+msgid "No Attributes found"
+msgstr "Nisu pronađeni atributi"
+
+msgid "No Attributes found in Trash"
+msgstr "U smeću nisu pronađeni atributi"
+
+msgid "Insert into attribute description"
+msgstr "Unesi u opisu atributa"
+
+#. translators: %s: attribute name
+msgid "Search %s"
+msgstr "Pretraži %s"
+
+#. translators: %s: attribute name
+msgid "All %s"
+msgstr "Sve %s"
+
+#. translators: %s: attribute name
+msgid "Edit %s"
+msgstr "Uredi %s"
+
+#. translators: %s: attribute name
+msgid "Update %s"
+msgstr "Ažuriraj %s"
+
+#. translators: %s: attribute name
+msgid "Add new %s"
+msgstr "Dodaj novi %s"
+
+#. translators: %s: attribute name
+msgid "New %s"
+msgstr "Novi %s"
+
+#. translators: %s: attribute name
+msgid "No &quot;%s&quot; found"
+msgstr ""
+
+msgid "Name (numeric)"
+msgstr "Naziv (brojčano)"
+
+msgid "Term ID"
+msgstr ""
+
+msgid "Enable Archives"
+msgstr "Omogući arhive"
+
+msgid "Link the attribute to an archive page with all accommodation types that have this attribute."
+msgstr "Povežite atribut s  stranicom arhive sa svim vrstama smještaja koje imaju ovaj atribut."
+
+msgid "Visible in Details"
+msgstr "Vidljivo u detaljima"
+
+msgid "Display the attribute in details section of an accommodation type."
+msgstr "Prikaži atribute u detaljima smještaja."
+
+msgid "Default Sort Order"
+msgstr "Zadani redoslijed sortiranja"
+
+msgid "Default Text"
+msgstr ""
+
+msgid "Select"
+msgstr "Odaberi"
+
+msgid "Edit Dates"
+msgstr ""
+
+msgid "Note"
+msgstr ""
+
+msgctxt "Add New Booking"
+msgid "Add New Booking"
+msgstr "Dodaj Novu Rezervaciju"
+
+msgid "View Booking"
+msgstr "Pogledajte Rezervaciju"
+
+msgid "Search Booking"
+msgstr "Pretraži Rezervacije"
+
+msgid "No bookings found"
+msgstr "Nije pronađena nijedna rezervacija"
+
+msgid "No bookings found in Trash"
+msgstr "Nije pronađena nijedna rezervacija u Otpadu"
+
+msgid "All Bookings"
+msgstr "Sve Rezervacije"
+
+msgid "Insert into booking description"
+msgstr "Umetni u opis rezervacije"
+
+msgid "Uploaded to this booking"
+msgstr "Preneseno u ovu rezervaciju"
+
+msgctxt "Booking status"
+msgid "Pending User Confirmation"
+msgstr "Na Čekanju Potvrde Korisnika"
+
+msgid "Pending User Confirmation <span class=\"count\">(%s)</span>"
+msgid_plural "Pending User Confirmation <span class=\"count\">(%s)</span>"
+msgstr[0] "Na Čekanju Korisnika <span class=\"count\">(%s)</span>"
+msgstr[1] "Na Čekanju Korisnika <span class=\"count\">(%s)</span>"
+msgstr[2] "Na Čekanju Korisnika <span class=\"count\">(%s)</span>"
+
+msgctxt "Booking status"
+msgid "Pending Payment"
+msgstr "Na Čekanju Plaćanja"
+
+msgid "Pending Payment <span class=\"count\">(%s)</span>"
+msgid_plural "Pending Payment <span class=\"count\">(%s)</span>"
+msgstr[0] "Na Čekanju Plaćanja <span class=\"count\">(%s)</span>"
+msgstr[1] "Na Čekanju Plaćanja <span class=\"count\">(%s)</span>"
+msgstr[2] "Na Čekanju Plaćanja <span class=\"count\">(%s)</span>"
+
+msgctxt "Booking status"
+msgid "Pending Admin"
+msgstr "Na Čekanju - Administrator"
+
+msgid "Pending Admin <span class=\"count\">(%s)</span>"
+msgid_plural "Pending Admin <span class=\"count\">(%s)</span>"
+msgstr[0] "Na Čekanju Administrator <span class=\"count\">(%s)</span>"
+msgstr[1] "Na Čekanju Administratora <span class=\"count\">(%s)</span>"
+msgstr[2] "Na Čekanju Administratora <span class=\"count\">(%s)</span>"
+
+msgctxt "Booking status"
+msgid "Abandoned"
+msgstr "Napušteno"
+
+msgid "Abandoned <span class=\"count\">(%s)</span>"
+msgid_plural "Abandoned <span class=\"count\">(%s)</span>"
+msgstr[0] "Napuštena <span class=\"count\">(%s)</span>"
+msgstr[1] "Napuštene <span class=\"count\">(%s)</span>"
+msgstr[2] "Napuštenih <span class=\"count\">(%s)</span>"
+
+msgid "Confirmed <span class=\"count\">(%s)</span>"
+msgid_plural "Confirmed <span class=\"count\">(%s)</span>"
+msgstr[0] "Potvrđen <span class=\"count\">(%s)</span>"
+msgstr[1] "Potvrđena <span class=\"count\">(%s)</span>"
+msgstr[2] "Potvrđeno <span class=\"count\">(%s)</span>"
+
+msgctxt "Booking status"
+msgid "Cancelled"
+msgstr "Poništeno"
+
+msgid "Cancelled <span class=\"count\">(%s)</span>"
+msgid_plural "Cancelled <span class=\"count\">(%s)</span>"
+msgstr[0] "Otkazan <span class=\"count\">(%s)</span>"
+msgstr[1] "Otkazana <span class=\"count\">(%s)</span>"
+msgstr[2] "Otkazanih <span class=\"count\">(%s)</span>"
+
+msgid "Status changed from %s to %s."
+msgstr "Status je promijenjen iz %s u %s"
+
+msgid "Coupon Information"
+msgstr "Informacije o Couponu"
+
+msgid "Fixed per accommodation per stay"
+msgstr "Fiksna po smještaju po boravku"
+
+msgid "Fixed per accommodation per day"
+msgstr "Fiksni za smještaj po danu"
+
+msgid "Coupon Amount"
+msgstr "Iznos kupona"
+
+msgid "Enter percent or fixed amount according to selected type."
+msgstr ""
+
+msgid "Expiration Date"
+msgstr "Datum Isteka"
+
+msgid "Check-in After"
+msgstr "Dolazak nakon"
+
+msgid "Check-out Before"
+msgstr "Odlazak Prije"
+
+msgid "Minimum Days"
+msgstr "Minimum Dana"
+
+msgid "Maximum Days"
+msgstr "Maksimalan Broj Dana"
+
+msgid "Usage Limit"
+msgstr "Limit Upotreba"
+
+msgid "Usage Count"
+msgstr "Broj Upotreba"
+
+msgid "Coupons"
+msgstr "Kuponi"
+
+msgctxt "Add New Coupon"
+msgid "Add New"
+msgstr "Dodaj Novo"
+
+msgid "Add New Coupon"
+msgstr "Dodaj Novi Kupon"
+
+msgid "Edit Coupon"
+msgstr "Uredi Coupon"
+
+msgid "New Coupon"
+msgstr "Novi Kupon"
+
+msgid "View Coupon"
+msgstr "Pogledajte Kupon"
+
+msgid "Search Coupon"
+msgstr "Pretraži Kupone"
+
+msgid "No coupons found"
+msgstr "Nije pronađen nijedan kupon"
+
+msgid "No coupons found in Trash"
+msgstr "Nije pronađen nijedan kupon u Otpadu"
+
+msgid "All Coupons"
+msgstr "Svi Kuponi"
+
+msgid "Payment History"
+msgstr "Povijest Plaćanja"
+
+msgid "Payment"
+msgstr "Plaćanje"
+
+msgctxt "Add New Payment"
+msgid "Add New"
+msgstr "Dodaj Novo"
+
+msgid "Add New Payment"
+msgstr "Dodaj Novo Plačanje"
+
+msgid "Edit Payment"
+msgstr "Uredi Plaćanje"
+
+msgid "New Payment"
+msgstr "Novo Plaćanje"
+
+msgid "View Payment"
+msgstr "Pogledajte Plaćanje"
+
+msgid "Search Payment"
+msgstr "Pretraži Plaćanja"
+
+msgid "No payments found"
+msgstr "Nije pronađeno nijedno plaćanje"
+
+msgid "No payments found in Trash"
+msgstr "Nije pronađeno nijedno plaćanje u Otpadu"
+
+msgid "Payments"
+msgstr "Plaćanja"
+
+msgid "Insert into payment description"
+msgstr "Umetni u opis plaćanja"
+
+msgid "Uploaded to this payment"
+msgstr "Preneseno u ovo plaćanje"
+
+msgid "Payments."
+msgstr "Plaćanja."
+
+msgid "Gateway Mode"
+msgstr "Procesorski Mod"
+
+msgid "Sandbox"
+msgstr ""
+
+msgid "Live"
+msgstr "Uživo"
+
+msgid "Fee"
+msgstr "Naknada"
+
+msgid "Payment Type"
+msgstr "Vrsta plaćanja"
+
+msgid "Billing Info"
+msgstr "Podaci o Naplati"
+
+msgid "Address 1"
+msgstr "Adresa 1"
+
+msgid "Address 2"
+msgstr "Adresa 2"
+
+msgid "Postal Code (ZIP)"
+msgstr "Poštanski Broj"
+
+msgctxt "Payment status"
+msgid "Pending"
+msgstr "Na čekanju"
+
+msgid "Pending <span class=\"count\">(%s)</span>"
+msgid_plural "Pending <span class=\"count\">(%s)</span>"
+msgstr[0] "Na Čekanju <span class=\"count\">(%s)</span>"
+msgstr[1] "Na Čekanju <span class=\"count\">(%s)</span>"
+msgstr[2] "Na Čekanju <span class=\"count\">(%s)</span>"
+
+msgctxt "Payment status"
+msgid "Completed"
+msgstr "Kompletirano"
+
+msgid "Completed <span class=\"count\">(%s)</span>"
+msgid_plural "Completed <span class=\"count\">(%s)</span>"
+msgstr[0] "Dovršen <span class=\"count\">(%s)</span>"
+msgstr[1] "Dovršena <span class=\"count\">(%s)</span>"
+msgstr[2] "Dovršen0 <span class=\"count\">(%s)</span>"
+
+msgctxt "Payment status"
+msgid "Failed"
+msgstr "Neuspiješno"
+
+msgid "Failed <span class=\"count\">(%s)</span>"
+msgid_plural "Failed <span class=\"count\">(%s)</span>"
+msgstr[0] "Nije uspjeo <span class=\"count\">(%s)</span>"
+msgstr[1] "Nisu uspjela <span class=\"count\">(%s)</span>"
+msgstr[2] "Nije uspjelo <span class=\"count\">(%s)</span>"
+
+msgctxt "Payment status"
+msgid "Abandoned"
+msgstr "Napušteno"
+
+msgctxt "Payment status"
+msgid "On Hold"
+msgstr "Na čekanju"
+
+msgid "On Hold <span class=\"count\">(%s)</span>"
+msgid_plural "On Hold <span class=\"count\">(%s)</span>"
+msgstr[0] "Na Čekanju <span class=\"count\">(%s)</span>"
+msgstr[1] "Na Čekanju <span class=\"count\">(%s)</span>"
+msgstr[2] "Na Čekanju <span class=\"count\">(%s)</span>"
+
+msgctxt "Payment status"
+msgid "Refunded"
+msgstr "Povrat"
+
+msgid "Refunded <span class=\"count\">(%s)</span>"
+msgid_plural "Refunded <span class=\"count\">(%s)</span>"
+msgstr[0] "Refundiran <span class=\"count\">(%s)</span> "
+msgstr[1] "Refundirana <span class=\"count\">(%s)</span>"
+msgstr[2] "Refundirano <span class=\"count\">(%s)</span>"
+
+msgctxt "Payment status"
+msgid "Cancelled"
+msgstr "Poništeno"
+
+msgid "Payment (#%s) for this booking is on hold"
+msgstr "Plačanje (#%s) za ovu rezervaciju je na čekanju"
+
+msgid "Rate Info"
+msgstr "Info o Periodičnoj Cijeni"
+
+msgid "Season"
+msgstr "Sezona"
+
+msgid "Move price to top to set higher priority."
+msgstr "Pomakni cijenu na vrh za postavljanje višeg prioriteta"
+
+msgid "Add New Season Price"
+msgstr "Dodaj novu cijenu za sezonu"
+
+msgid "Will be displayed on the checkout page."
+msgstr "Prikazati će se na stranici naplate."
+
+#. translators: The value a hotel wishes to sell their rooms. Also called the Cost, Value, Tariff or Room charge.
+msgid "Rates"
+msgstr "Periodične Cijene"
+
+msgctxt "Add New Rate"
+msgid "Add New"
+msgstr "Dodaj Novo"
+
+msgid "Add New Rate"
+msgstr "Dodaj Novu Periodičnu Cijenu"
+
+msgid "Edit Rate"
+msgstr "Uredi Cijenu (rate)"
+
+msgid "New Rate"
+msgstr "Nova Periodična Cijena"
+
+msgid "View Rate"
+msgstr "Vidi Periodičnu CIjenu"
+
+msgid "Search Rate"
+msgstr "Pretraži Periodične Cijene"
+
+msgid "No rates found"
+msgstr ""
+
+msgid "No rates found in Trash"
+msgstr ""
+
+msgid "Insert into rate description"
+msgstr ""
+
+msgid "Uploaded to this rate"
+msgstr ""
+
+msgid "This is where you can add new rates."
+msgstr ""
+
+msgid "Reserved Accommodation"
+msgstr "Rezervirana Smještajna Jedinica"
+
+msgctxt "Add New Accommodation"
+msgid "Add New"
+msgstr "Dodaj Novo"
+
+msgid "Add New Accommodation"
+msgstr "Dodaj Novu Smještajnu Jedinicu"
+
+msgid "Edit Accommodation"
+msgstr "Uredi Smještaj"
+
+msgid "New Accommodation"
+msgstr "Nova Smještajna Jednica"
+
+msgid "View Accommodation"
+msgstr "Pogledajte Smještajnu Jednicu"
+
+msgid "Search Accommodation"
+msgstr "Pretraži Smještajne Jedinice"
+
+msgid "No accommodations found"
+msgstr "Nije pronađena nijedna smještajna jedinica"
+
+msgid "No accommodations found in Trash"
+msgstr "Nije pronađena nijedna smještajna jedinica u Otpadu"
+
+msgid "Insert into accommodation description"
+msgstr "Umetni u opis smještajne jedinice"
+
+msgid "Uploaded to this accommodation"
+msgstr "Preneseno u ovu smještajnu jedinicu"
+
+msgid "This is where you can add new accommodations to your hotel."
+msgstr "Ovdje možete dodati nove smještajne jednice za hotel."
+
+msgctxt "Add New Accommodation Type"
+msgid "Add Accommodation Type"
+msgstr "Dodaj Vrstu Smještaja"
+
+msgid "Add New Accommodation Type"
+msgstr "Dodaj Novu Vrstu Smještaja"
+
+msgid "Edit Accommodation Type"
+msgstr "Uredi Vrstu Smještaja"
+
+msgid "New Accommodation Type"
+msgstr "Nova Vrsta Smještaja"
+
+msgid "View Accommodation Type"
+msgstr "Vidi Vrstu Smještaja"
+
+msgid "Search Accommodation Type"
+msgstr "Pretraži Vrstu Smještaja"
+
+msgid "No Accommodation types found"
+msgstr "Nije pronađena Vrsta Smještaja"
+
+msgid "No Accommodation types found in Trash"
+msgstr "Nije pronađena niti jedna Vrsta Smještaja u Otpadu"
+
+msgid "Insert into accommodation type description"
+msgstr "Ubaci u opis vrste Smještaja"
+
+msgid "Uploaded to this accommodation type"
+msgstr "Učitaj uz ovu vrstu smještaja"
+
+#. translators: do not translate
+msgctxt "slug"
+msgid "accommodation"
+msgstr "accommodation"
+
+msgid "Accommodation Categories"
+msgstr "Kategorije Smještaja"
+
+msgid "Accommodation Category"
+msgstr "Kategorija Smještaja"
+
+msgid "Search Accommodation Categories"
+msgstr "Pretraži Smješatjne Kategorije"
+
+msgid "Popular Accommodation Categories"
+msgstr "Popularne Kategorije Smještajnih Jedinica"
+
+msgid "All Accommodation Categories"
+msgstr "Sve Kategorije Smještaja"
+
+msgid "Parent Accommodation Category"
+msgstr "Matična Kategorija Smještajne Jedinice"
+
+msgid "Parent Accommodation Category:"
+msgstr "Matična Kategorija Smještajne Jedinice:"
+
+msgid "Edit Accommodation Category"
+msgstr "Uredi Kategoriju Smještaja"
+
+msgid "Update Accommodation Category"
+msgstr "Ažuriraj Kategoriju Smještajne Jedinice."
+
+msgid "Add New Accommodation Category"
+msgstr "Dodaj Novu Kategoriju Smještajne Jedinice"
+
+msgid "New Accommodation Category Name"
+msgstr "Novi Naziv Kategorije Smještajnih Jedinica"
+
+msgid "Separate categories with commas"
+msgstr "Odvoji kategorije zarezima"
+
+msgid "Add or remove categories"
+msgstr "Dodaj ili obriši kategorije"
+
+msgid "Choose from the most used categories"
+msgstr "Odaberite iz najčešće korištenih kategorija"
+
+msgid "No categories found."
+msgstr "Nije pronađena nijedna kategorija."
+
+msgid "Categories"
+msgstr "Kategorije"
+
+#. translators: do not translate
+msgctxt "slug"
+msgid "accommodation-category"
+msgstr "accommodation-category"
+
+msgid "Accommodation Tags"
+msgstr ""
+
+msgid "Accommodation Tag"
+msgstr ""
+
+msgid "Search Accommodation Tags"
+msgstr ""
+
+msgid "Popular Accommodation Tags"
+msgstr ""
+
+msgid "All Accommodation Tags"
+msgstr ""
+
+msgid "Parent Accommodation Tag"
+msgstr ""
+
+msgid "Parent Accommodation Tag:"
+msgstr ""
+
+msgid "Edit Accommodation Tag"
+msgstr ""
+
+msgid "Update Accommodation Tag"
+msgstr ""
+
+msgid "Add New Accommodation Tag"
+msgstr ""
+
+msgid "New Accommodation Tag Name"
+msgstr ""
+
+msgid "Separate tags with commas"
+msgstr ""
+
+msgid "Add or remove tags"
+msgstr ""
+
+msgid "Choose from the most used tags"
+msgstr ""
+
+msgid "No tags found."
+msgstr ""
+
+msgid "Tags"
+msgstr "Tagovi"
+
+#. translators: do not translate
+msgctxt "slug"
+msgid "accommodation-tag"
+msgstr "accommodation-tag"
+
+msgid "Amenities"
+msgstr "Pogodnosti / Sadržaji"
+
+msgid "Amenity"
+msgstr "Pogodnost / Sadržaj"
+
+msgid "Search Amenities"
+msgstr "Pretraži Pogodnosti / Sadržaje:"
+
+msgid "Popular Amenities"
+msgstr "Popularne Pogodnosti / Sadržaji"
+
+msgid "All Amenities"
+msgstr "Sve Pogodnosti / Sadržaji"
+
+msgid "Parent Amenity"
+msgstr "Matična Pogodnost/Usluga"
+
+msgid "Parent Amenity:"
+msgstr "Matična Pogodnost/Usluga:"
+
+msgid "Edit Amenity"
+msgstr "Uredi Pogodnost / Sadržaj"
+
+msgid "Update Amenity"
+msgstr "Ažuriraj Pogodnost / Sadržaj"
+
+msgid "Add New Amenity"
+msgstr "Dodaj Novu Pogodnost / Sadržaj"
+
+msgid "New Amenity Name"
+msgstr "Dodaj Novo Ime Pogodnosti / Sadržaji:"
+
+msgid "Separate amenities with commas"
+msgstr "Odvoji pogodnosti/sadržaje zarezom"
+
+msgid "Add or remove amenities"
+msgstr "Dodaj ili ukloni pogodnost / sadržaj"
+
+msgid "Choose from the most used amenities"
+msgstr "Odaberi od najčešće korištenih pogodnosti / sadržaja"
+
+msgid "No amenities found."
+msgstr "Nema pronađenih pogodnosti / sadržaja:"
+
+#. translators: do not translate
+msgctxt "slug"
+msgid "accommodation-facility"
+msgstr "accommodation-facility"
+
+msgid "State the age or disable children in <a href=\"%s\">settings</a>."
+msgstr ""
+
+msgid "Leave this option empty to calculate total capacity automatically to meet the exact number of adults AND children set above. This is the default behavior. Configure this option to allow any variations of adults OR children set above at checkout so that in total it meets the limit of manually set \"Capacity\". For example, configuration \"adults:5\", \"children:4\", \"capacity:5\" means the property can accommodate up to 5 adults, up to 4 children, but up to 5 guests in total (not 9)."
+msgstr ""
+
+msgid "Size, %s"
+msgstr "Površina, %s"
+
+msgid "Leave blank to hide."
+msgstr ""
+
+msgid "Other"
+msgstr "Ostalo"
+
+msgid "City view, seaside, swimming pool etc."
+msgstr "Pogled na grad, Uz more, Bazen i sl."
+
+msgid "Bed type"
+msgstr "Vrsta kreveta"
+
+msgid "Set bed types list in <a href=\"%link%\" target=\"_blank\">settings</a>."
+msgstr "Postavite listu vrsta kreveta u <a href=\"%link%\" target=\"_blank\">postavkama</a>."
+
+msgid "Photo Gallery"
+msgstr "Fotogalerija"
+
+msgid "Available Services"
+msgstr "Dostupne Usluge"
+
+msgid "Season Info"
+msgstr "Info o Sezoni"
+
+msgid "Start date"
+msgstr "Datum Početka"
+
+msgid "End date"
+msgstr "Krajni Datum"
+
+msgid "Applied for days"
+msgstr "Primjenjuje se danima"
+
+msgid "Hold Ctrl / Cmd to select multiple."
+msgstr "Držite Ctrl / Cmd da biste odabrali više stavki."
+
+msgctxt "Add New Season"
+msgid "Add New"
+msgstr "Dodaj Novo"
+
+msgid "Add New Season"
+msgstr "Dodaj Novu Sezonu"
+
+msgid "Edit Season"
+msgstr "Uredi Sezonu"
+
+msgid "New Season"
+msgstr "Nova Sezona"
+
+msgid "View Season"
+msgstr "Pogledajte Sezonu"
+
+msgid "Search Season"
+msgstr "Pretraži Sezone"
+
+msgid "No seasons found"
+msgstr "Nije pronađena nijedna sezona"
+
+msgid "No seasons found in Trash"
+msgstr "Nije pronađena nijedna sezona u Otpadu"
+
+msgid "Insert into season description"
+msgstr "Umetni u opis sezone"
+
+msgid "Uploaded to this season"
+msgstr "Preneseno u ovu sezonu"
+
+msgid "This is where you can add new seasons."
+msgstr "Ovdje možete dodati nove sezone."
+
+msgid "Service"
+msgstr "Usluga"
+
+msgctxt "Add New Service"
+msgid "Add New"
+msgstr "Dodaj Novo"
+
+msgid "Add New Service"
+msgstr "Dodaj Novu Uslugu"
+
+msgid "Edit Service"
+msgstr "Uredi Uslugu"
+
+msgid "New Service"
+msgstr "Nova Usluga"
+
+msgid "View Service"
+msgstr "Pregledajte uslugu"
+
+msgid "Search Service"
+msgstr "Pretraži Usluge"
+
+msgid "No services found"
+msgstr "Nije pronađena nijedna usluga"
+
+msgid "No services found in Trash"
+msgstr "Nije pronađena nijedna usluga u Otpadu"
+
+msgid "Insert into service description"
+msgstr "Umetni u opis usluge"
+
+msgid "Uploaded to this service"
+msgstr "Preneseno u ovu uslugu"
+
+#. translators: do not translate
+msgctxt "slug"
+msgid "services"
+msgstr "services"
+
+msgid "How many times the customer will be charged."
+msgstr "Koliko puta će se naplatiti klijentu."
+
+msgid "Minimum"
+msgstr ""
+
+msgid "Maximum"
+msgstr "Maksimum"
+
+msgid "Empty means unlimited"
+msgstr "Prazno znači neograničeno"
+
+msgctxt "Booking status"
+msgid "Pending"
+msgstr ""
+
+msgid "Total Sales"
+msgstr ""
+
+msgid "Total Without Taxes"
+msgstr ""
+
+msgid "Total Services"
+msgstr ""
+
+msgid "Total Discounts"
+msgstr ""
+
+msgid "Total Bookings"
+msgstr ""
+
+msgid "Revenue (Beta)"
+msgstr ""
+
+msgid "Apply"
+msgstr "Primjeni"
+
+msgid "From %s to %s"
+msgstr ""
+
+msgid "Today"
+msgstr ""
+
+msgid "Yesterday"
+msgstr ""
+
+msgid "This week"
+msgstr ""
+
+msgid "Last week"
+msgstr ""
+
+msgid "Last 30 days"
+msgstr ""
+
+msgid "This month"
+msgstr ""
+
+msgid "Last month"
+msgstr ""
+
+msgid "This quarter"
+msgstr ""
+
+msgid "Last quarter"
+msgstr ""
+
+msgid "This year"
+msgstr ""
+
+msgid "Last year"
+msgstr ""
+
+#. translators: %s - original Rate title
+msgid "%s - copy"
+msgstr ""
+
+msgid "Accommodation Type Gallery"
+msgstr "Galerija Vrsta Smještaja"
+
+msgid "Add Gallery To Accommodation Type"
+msgstr "Dodaj Galeriju Vrsti Smještaja"
+
+msgid "Display imported bookings."
+msgstr "Prikažite uvezene rezervacije."
+
+msgid "Processing..."
+msgstr ""
+
+msgid "Cancelling..."
+msgstr ""
+
+msgid "Want to delete?"
+msgstr ""
+
+msgid "Not available"
+msgstr "Nije dostupno"
+
+msgid "This is earlier than allowed by our advance reservation rules."
+msgstr ""
+
+msgid "This is later than allowed by our advance reservation rules."
+msgstr ""
+
+msgid "Day in the past"
+msgstr "Dan u prošlosti"
+
+msgid "Check-in date"
+msgstr "Datum Dolaska"
+
+msgid "Less than min days stay"
+msgstr "Manje od minimalnog broja dana za boravak"
+
+msgid "More than max days stay"
+msgstr "Više od maksimalnog broja dana za boravak"
+
+msgid "Later than max date for current check-in date"
+msgstr "Kasnije od maksimalnog datuma za trenutačni datum prijave"
+
+msgid "Rules:"
+msgstr "Pravila:"
+
+msgid "Tokenisation failed: %s"
+msgstr "Tokenizacija nije uspjela: %s"
+
+msgid "%1$d &times; &ldquo;%2$s&rdquo; has been added to your reservation."
+msgid_plural "%1$d &times; &ldquo;%2$s&rdquo; have been added to your reservation."
+msgstr[0] "%1$d &times; &ldquo;%2$s&rdquo; je dodan u vašu rezervaciju."
+msgstr[1] "%1$d &times; &ldquo;%2$s&rdquo; su dodana u vašu rezervaciju."
+msgstr[2] "%1$d &times; &ldquo;%2$s&rdquo; su dodana u vašu rezervaciju."
+
+msgid "%s accommodation selected."
+msgid_plural "%s accommodations selected."
+msgstr[0] "%s smještaj odabran."
+msgstr[1] "%s smještaja odabrana."
+msgstr[2] "%s smještaja odabrano."
+
+msgid "Coupon code is empty."
+msgstr "Kod Kupona je prazan."
+
+msgid "Dark Blue"
+msgstr ""
+
+msgid "Dark Green"
+msgstr ""
+
+msgid "Dark Red"
+msgstr ""
+
+msgid "Grayscale"
+msgstr "U sivim tonovima"
+
+msgid "Light Blue"
+msgstr ""
+
+msgid "Light Coral"
+msgstr ""
+
+msgid "Light Green"
+msgstr ""
+
+msgid "Light Yellow"
+msgstr ""
+
+msgid "Minimal Blue"
+msgstr ""
+
+msgid "Minimal Orange"
+msgstr ""
+
+msgid "Minimal"
+msgstr "Minimalno"
+
+msgid "Sky Blue"
+msgstr ""
+
+msgid "Slate Blue"
+msgstr ""
+
+msgid "Turquoise"
+msgstr ""
+
+msgid "Invalid login or password."
+msgstr ""
+
+msgid "Account data updated."
+msgstr ""
+
+msgid "Password changed."
+msgstr ""
+
+msgid "Dashboard"
+msgstr ""
+
+msgid "Account"
+msgstr ""
+
+msgid "Logout"
+msgstr ""
+
+msgid "Passwords do not match."
+msgstr ""
+
+msgid "Please, provide a valid current password."
+msgstr ""
+
+msgid "Lost your password?"
+msgstr ""
+
+msgid "Payment:"
+msgstr "Plaćanje:"
+
+msgid "Payment Method:"
+msgstr "Način plaćanja:"
+
+msgid "Status:"
+msgstr "Status"
+
+msgid "Checkout data is not valid."
+msgstr "Podaci nisu valjani."
+
+msgid "Payment method is not valid."
+msgstr "Način plaćanja nije valjan."
+
+msgid "Accommodation count is not valid."
+msgstr "Broj smještaja nije valjan."
+
+msgid "Accommodation is already booked."
+msgstr "Smještaj je več rezerviran"
+
+msgid "Reservation submitted"
+msgstr "Rezervacija poslana"
+
+msgid "Details of your reservation have just been sent to you in a confirmation email. Please check your inbox to complete booking."
+msgstr "Pojedinosti vaše rezervacije upravo su vam poslani u e-poruci za potvrdu. Provjerite ulaznu poštu (inbox)kako biste dovršili rezervaciju."
+
+msgid "We received your booking request. Once it is confirmed we will notify you via email."
+msgstr "Primili smo vaš zahtjev za rezervaciju. Nakon što ga potvrdimo, obavijestit ćemo vas emailom."
+
+msgid "Choose dates to see relevant prices"
+msgstr "Odaberi datum i vidi relevantne cijene"
+
+msgid "Select from available accommodations."
+msgstr "Odaberi iz dostupnih smještajnih jedinica"
+
+msgid "Confirm Reservation"
+msgstr "Potvrdite Rezervaciju"
+
+msgid "Recommended for %d adult"
+msgid_plural "Recommended for %d adults"
+msgstr[0] "Preporučeno za %d odraslu osobu"
+msgstr[1] "Preporučeno za %d odrasle osobe"
+msgstr[2] "Preporučeno za %d odraslih osoba"
+
+msgid " and %d child"
+msgid_plural " and %d children"
+msgstr[0] "i %d dijete"
+msgstr[1] "i %d djece"
+msgstr[2] "i %d djece"
+
+msgid "Recommended for %d guest"
+msgid_plural "Recommended for %d guests"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+msgid "Max occupancy:"
+msgstr "Maksimalna zauzetost:"
+
+msgid "%d child"
+msgid_plural "%d children"
+msgstr[0] "%d djete"
+msgstr[1] "%d djece"
+msgstr[2] "%d djece"
+
+msgid "Reserve"
+msgstr "Rezerviraj"
+
+msgid "of %d accommodation available."
+msgid_plural "of %d accommodations available."
+msgstr[0] "od %d smještajne jedinice dostupne."
+msgstr[1] "od %d smještajne jedinice dostupne."
+msgstr[2] "od %d smještajnih jedinica dostupnih."
+
+#. translators: Verb. To book an accommodation.
+msgid "Book"
+msgstr "Rezerviraj"
+
+msgid "Please, provide a valid email."
+msgstr ""
+
+msgid "Could not create a customer."
+msgstr ""
+
+msgid "Could not retrieve a customer."
+msgstr ""
+
+msgid "Please, provide a valid Customer ID."
+msgstr ""
+
+msgid "A database error."
+msgstr ""
+
+msgid "No customer was deleted."
+msgstr ""
+
+msgid "An account with this email already exists. Please, log in."
+msgstr ""
+
+msgid "Hotel Manager"
+msgstr ""
+
+msgid "Hotel Worker"
+msgstr ""
+
+msgid "Hotel Customer"
+msgstr ""
+
+msgid "Please provide a valid email address."
+msgstr ""
+
+msgid "Please enter a valid account username."
+msgstr ""
+
+msgid "An account is already registered with that username. Please choose another."
+msgstr ""
+
+msgid "Please enter an account password."
+msgstr ""
+
+msgid "Sunday"
+msgstr "Nedjelja"
+
+msgid "Monday"
+msgstr "Ponedjeljak"
+
+msgid "Tuesday"
+msgstr "Utorak"
+
+msgid "Wednesday"
+msgstr "Srijeda"
+
+msgid "Thursday"
+msgstr "Četvrtak"
+
+msgid "Friday"
+msgstr "Petak"
+
+msgid "Saturday"
+msgstr "Subota"
+
+msgid "Check-out date cannot be earlier than check-in date."
+msgstr "Check-out datum ne može biti raniji od check-in datuma"
+
+msgid "Adults number is not valid"
+msgstr "Broj odraslih nije točan"
+
+msgid "Children number is not valid"
+msgstr "Broj djece nije točan"
+
+msgctxt "Text about taxes and fees below the price."
+msgid " (+taxes and fees)"
+msgstr ""
+
+#. translators: %s is a tax value
+msgctxt "Text about taxes and fees below the price."
+msgid " (+%s taxes and fees)"
+msgstr ""
+
+msgctxt "Text about taxes and fees below the price."
+msgid " (includes taxes and fees)"
+msgstr ""
+
+msgctxt "Accommodation type in price breakdown table. Example: #1 Double Room"
+msgid "#%d %s"
+msgstr ""
+
+msgid "Expand"
+msgstr "Proširi"
+
+msgid "Rate: %s"
+msgstr "Periodična Cijena: %s"
+
+msgid "Dates"
+msgstr "Datumi"
+
+msgid "Dates Subtotal"
+msgstr "Datumi Ukupno"
+
+msgid "Accommodation Taxes Subtotal"
+msgstr "Porez na Ukupnu Vrijednost Smještaja"
+
+msgid "Details"
+msgstr "Podaci"
+
+msgid "Service Taxes Subtotal"
+msgstr "Porez na Uslugu Ukupno"
+
+msgid "Fees Subtotal"
+msgstr "Naknade Ukupno"
+
+msgid "Fee Taxes Subtotal"
+msgstr "Porez na Naknadu Ukupno"
+
+msgid "Subtotal"
+msgstr "Suma Stavki"
+
+msgid "Coupon: %s"
+msgstr "Kupon: %s"
+
+msgid "Subtotal (excl. taxes)"
+msgstr ""
+
+msgid "Taxes"
+msgstr ""
+
+msgid "Coupon Code:"
+msgstr "Kod Kupona:"
+
+msgid "New Booking Details"
+msgstr "Detalji nove rezervacije"
+
+msgid "Original Booking Details"
+msgstr "Detalji prve rezervacije"
+
+msgid "Accommodation:"
+msgstr "Smještaj:"
+
+msgid "Children %s"
+msgstr "Djeca %s"
+
+msgid "Additional Services"
+msgstr "Dodatne Usluge"
+
+msgid "Accommodation pagination"
+msgstr "Numeriranje stranica smještaja"
+
+msgid "Services pagination"
+msgstr "Numeriranje stranica usluga"
+
+msgid "Categories:"
+msgstr "Kategorije:"
+
+msgid "Amenities:"
+msgstr "Pogodnosti / Sadržaji:"
+
+msgid "Guests:"
+msgstr "Gosti:"
+
+msgid "Bed Type:"
+msgstr "Vrsta Kreveta"
+
+msgid "View:"
+msgstr "Pogled: "
+
+msgid "Prices start at:"
+msgstr "Cijena od:"
+
+msgid "Price:"
+msgstr "Cijena:"
+
+msgid "x %d adult"
+msgid_plural "x %d adults"
+msgstr[0] "x %d odrasli"
+msgstr[1] "x %d odrasla"
+msgstr[2] "x %d odraslih"
+
+msgid "Returning customer?"
+msgstr ""
+
+msgid "Click here to log in"
+msgstr ""
+
+#. translators: 1 - username;
+msgid "Hello %1$s (not %1$s? <a href=\"%2$s\">Log out</a>)."
+msgstr ""
+
+msgid "Accommodation #%d"
+msgstr "Smještaj #%d"
+
+msgid "Accommodation Type:"
+msgstr "Vrsta Smještaja:"
+
+msgid "Choose Rate"
+msgstr "Odaberi Periodičnu Cijenu"
+
+msgid "Choose Additional Services"
+msgstr "Odaberite Dodatne Usluge"
+
+msgid "for "
+msgstr "za"
+
+msgctxt "Example: Breakfast for X guest(s)"
+msgid " guest(s)"
+msgstr "gost(i)"
+
+msgid "time(s)"
+msgstr "Vrijeme (s)"
+
+msgctxt "I've read and accept the terms & conditions"
+msgid "terms & conditions"
+msgstr ""
+
+msgctxt "I've read and accept the <tag>terms & conditions</tag>"
+msgid "I've read and accept the %s"
+msgstr ""
+
+msgid "Your Information"
+msgstr "Vaši Podaci"
+
+msgid "Required fields are followed by %s"
+msgstr "Obavezna polja su označena s %s"
+
+msgid "Create an account"
+msgstr ""
+
+msgid "Payment Method"
+msgstr "Način Plaćanja"
+
+msgid "Sorry, it seems that there are no available payment methods."
+msgstr "Nažalost, čini se da nema dostupnih načina plaćanja."
+
+msgid "Total Price:"
+msgstr "Ukupna Cijena"
+
+msgid "Deposit:"
+msgstr "Depozit:"
+
+msgid "Check-in:"
+msgstr "Dolazak:"
+
+msgctxt "from 10:00 am"
+msgid "from"
+msgstr "od"
+
+msgid "Check-out:"
+msgstr "Odlazak:"
+
+msgctxt "until 10:00 am"
+msgid "until"
+msgstr "do"
+
+msgid "Book Now"
+msgstr "Rezerviraj Odmah"
+
+msgid "Availability"
+msgstr "Dostupnost"
+
+msgid "Reservation Form"
+msgstr "Obrazac za rezervaciju"
+
+msgid "Display Accommodation Types"
+msgstr "Prikaz Vrsta Smještaja."
+
+msgid "Featured Image"
+msgstr "Istaknute slike"
+
+msgid "Excerpt (short description)"
+msgstr "Prikaži Excerpt (kratki opis)"
+
+msgid "Book Button"
+msgstr "Dugme za rezervaciju"
+
+msgid "Search Availability"
+msgstr "Pretraživanje Dostupnosti"
+
+msgid "Search Availability Form"
+msgstr "Obrazac za Pretraživanje Dostupnosti"
+
+msgid "Title:"
+msgstr "Naslov:"
+
+msgid "Check-in Date:"
+msgstr "Datum Dolaska:"
+
+msgctxt "Date format tip"
+msgid "Preset date. Formatted as %s"
+msgstr "Ponuđeni datum. Oblikovano kao %s"
+
+msgid "Check-out Date:"
+msgstr "Datum Odlaska:"
+
+msgid "Preset Adults:"
+msgstr "Unaprijed postavljen broj Odraslih:"
+
+msgid "Preset Children:"
+msgstr "Unaprijed postavljen broj Djece:"
+
+msgid "Attributes:"
+msgstr "Atributi:"
+
+msgid "Booking Confirmation and Search Results pages are required to handle bookings. Press \"Install Pages\" button to create and set up these pages. Dismiss this notice if you already installed them."
+msgstr "Stranice s potvrdom i rezultatima pretraživanja potrebne su za obradu rezervacije. Pritisnite gumb \"Instaliraj stranice\" da biste stvorili i postavili te stranice. Odbaci ovu obavijest ako ste ih već instalirali."
+
+msgid "Install Pages"
+msgstr "Instaliraj Stranice"
+
+msgid "Booking Canceled"
+msgstr "Rezervacija je otkazana"
+
+msgid "Your reservation is canceled."
+msgstr "Rezervacija je stornirana."
+
+msgid "Reservation Received"
+msgstr "Rezervacija primljena"
+
+msgid "Transaction Failed"
+msgstr "Transakcija nije uspijela"
+
+msgid "Unfortunately, your transaction cannot be completed at this time. Please try again or contact us."
+msgstr "Nažalost, vaša transakcija ne može se izvršiti sada.Molim pokušajte kasnije ili kontaktirajte nas."
+
+msgid "Prices start at: %s"
+msgstr "Cijena već od: %s"
+
+msgid "View Details"
+msgstr "Prikaži Pojedinosti"
+
+msgctxt "Date format tip"
+msgid "Formatted as %s"
+msgstr "Oblikovano kao %s"
+
+msgid "Check Availability"
+msgstr "Provjeri Dostupnost"
+
+msgid "Reserve %1$s of %2$s available accommodations."
+msgstr ""
+
+msgid "%s is available for selected dates."
+msgstr ""
+
+msgid "Rate:"
+msgstr "Periodična Cijena:"
+
+msgid "Services:"
+msgstr "Usluge:"
+
+msgid "Guest:"
+msgstr "Gost:"
+
+msgid "Payment ID"
+msgstr "ID Plaćanja"
+
+msgid "Total Paid"
+msgstr "Ukupno Plačeno"
+
+msgid "To Pay"
+msgstr "Za Platiti"
+
+msgid "Add Payment Manually"
+msgstr "Dodaj Plaćanje Ručno"
+
+msgid "Change Password"
+msgstr ""
+
+msgid "Old Password"
+msgstr ""
+
+msgid "New Password"
+msgstr ""
+
+msgid "Confirm New Password"
+msgstr ""
+
+msgid "You are not allowed to access this page."
+msgstr ""
+
+msgid "No bookings found."
+msgstr "Nije pronađena nijedna rezervacija."
+
+msgid "From your account dashboard you can view <a href=\"%1$s\">your recent bookings</a> or edit your <a href=\"%2$s\">password and account details</a>."
+msgstr ""
+
+msgid "Base price"
+msgstr ""
+
+msgid "%s accommodation found"
+msgid_plural "%s accommodations found"
+msgstr[0] "%s smještaj pronađen"
+msgstr[1] "%s smještaja pronađena"
+msgstr[2] "%s smještaja pronađeno"
+
+msgid " from %s - till %s"
+msgstr " od %s - do %s"
+
+msgid "Add Accommodation"
+msgstr "Dodaj smještaj"
+
+msgid "Save"
+msgstr "Spremi"
+
+msgid "Choose new dates to check availability of reserved accommodations in the original booking."
+msgstr "Odaberi novi datum za provjeru dostupnosti smještaja iz izvorne rezervacije"
+
+msgid "Add, remove or replace accommodations in the original booking."
+msgstr "Dodaj, ukloni ili izmjeni smještaj u izvornoj rezervaciji"
+
+msgid "Not Available"
+msgstr "Nije dostupno"
+
+msgid "Continue"
+msgstr "Nastavi"
+
+msgid "Choose how to associate data"
+msgstr "Odaberite način povezivanja podataka"
+
+msgid "Use Source Accommodation to assign pre-filled booking information available in the original booking, e.g., full guest name, selected rate, services, etc."
+msgstr "Koristite izvorni smještaj kako biste unaprijed popunili informacije iz prvotne rezervacije, primjerice ime gosta, odabrana cijena, usluge i slično. "
+
+msgid "Source accommodation"
+msgstr "Izvorni smještaj"
+
+msgid "Target accommodation"
+msgstr "Ciljani smještaj"
+
+msgid "Booking #%s is cancelled by customer."
+msgstr "Rezervacija #%s je obrisana od strane klijenta"
+
+msgid "Details of booking"
+msgstr "Podaci o rezervaciji"
+
+msgid "Check-in: %1$s, from %2$s"
+msgstr "Dolazak: %1$s, od %2$s"
+
+msgid "Check-out: %1$s, until %2$s"
+msgstr "Odlazak: %1$s, do %2$s"
+
+msgid "Name: %1$s %2$s"
+msgstr "Ime: %1$s %2$s"
+
+msgid "Email: %s"
+msgstr ""
+
+msgid "Phone: %s"
+msgstr "Telefon: %s"
+
+msgid "Note: %s"
+msgstr "Napomena: %s"
+
+msgid "Booking #%s is confirmed by customer."
+msgstr "Rezervacija #%s je potvrđena od strane Klijenta"
+
+msgid "Booking #%s is confirmed by payment."
+msgstr "Rezervacija #%s je potvršena  plaćanjem"
+
+msgid "Details of payment"
+msgstr "Podaci o plaćanju"
+
+msgid "Payment ID: #%s"
+msgstr "ID Plaćanja: #%s"
+
+msgid "Amount: %s"
+msgstr "Iznos: %s"
+
+msgid "Method: %s"
+msgstr "Postupak: %s"
+
+msgid "Booking #%s is pending for Administrator approval."
+msgstr "Rezervacija #%s je na čekanju potvrde Administratora"
+
+msgid "Click the link below to cancel your booking."
+msgstr "Kliknite link ispod za otkazivanje vaše rezervacije"
+
+msgid "Cancel your booking"
+msgstr "Otkaži rezervaciju"
+
+msgid "Dear %1$s %2$s, your reservation is approved!"
+msgstr "Poštovani %1$s %2$s, Vaša je rezervacija potvrđena"
+
+msgid "ID: #%s"
+msgstr ""
+
+msgid "Thank you!"
+msgstr "Hvala!"
+
+msgid "Dear %1$s %2$s, your reservation is cancelled!"
+msgstr "Poštovani %1$s %2$s, Vaša rezervacija je obrisana"
+
+msgid "Dear %1$s %2$s, we received your request for reservation."
+msgstr "Poštovani %1$s %2$s, zaprimili smo Vaš zahtjev za rezervacijom"
+
+msgid "Click the link below to confirm your booking."
+msgstr "Kliknite na link ispod za potvrdu rezervacije."
+
+msgid "Confirm"
+msgstr "Potvrdi"
+
+msgid "Note: link expires on"
+msgstr "Napomena: link istječe"
+
+msgid "UTC"
+msgstr ""
+
+msgid "If you did not place this booking, please ignore this email."
+msgstr "Ako niste izvršili ovu rezervaciju, molimo ignorirajte ovaj email."
+
+msgid "Dear %1$s %2$s, your reservation is pending."
+msgstr "Poštovani %1$s %2$s, Vaša rezervacija na čekanju."
+
+msgid "We will notify you by email once it is confirmed by our staff."
+msgstr "Obavijestit ćemo vas emailom nakon potvrde našeg osoblja."
+
+msgid "Hi %1$s %2$s,"
+msgstr ""
+
+msgid "Thanks for creating an account on %1$s."
+msgstr ""
+
+msgid "You Account Details"
+msgstr ""
+
+msgid "Login: %s"
+msgstr ""
+
+msgid "Password: %s"
+msgstr ""
+
+msgid "Log in here: %s"
+msgstr ""
+
+msgid "Accommodation #%s"
+msgstr "Smještaj #%s"
+
+msgid "Accommodation: <a href=\"%1$s\">%2$s</a>"
+msgstr "Smještaj: <a href=\"%1$s\">%2$s</a>"
+
+msgid "Accommodation Rate: %s"
+msgstr "Periodična Cijena Smještaja: %s"
+
+msgid "Bed Type: %s"
+msgstr "Vrsta Kreveta: %s"
+
+msgid "Required fields are followed by"
+msgstr "Obavezna polja su označena s"
+
+msgid "Booking is already canceled."
+msgstr ""
+
+msgid "Cancel Booking"
+msgstr ""
+
+msgid "Invalid request."
+msgstr "Nevažeći zahtjev."
+
+msgid "Cancelation of your booking is not possible for some reason. Please contact the website administrator."
+msgstr ""
+
+msgid "Booking is already confirmed."
+msgstr "Rezervacija je već potvrđena."
+
+msgid "Your booking is confirmed. Thank You!"
+msgstr "Vaša rezervacija je potvrđena. Hvala vam!"
+
+msgid "Your booking request is expired. Please start a new booking request."
+msgstr "Vaš zahtjev za rezervaciju je istekao. Molimo započnite novi zahtjev za rezervaciju."
+
+msgid "Confirmation of your booking request is not possible for some reason. Please start a new booking request."
+msgstr "Potvrda vašeg zahtjeva za rezervaciju nije moguća iz nekog razloga. Molimo započnite novi zahtjev za rezervaciju."
+
+msgid "We are pleased to inform you that your reservation request has been received and confirmed."
+msgstr "Sa zadovoljstvom Vas obavještavamo da je Vaš zahtjev za rezervaciju primljen i potvrđen."
+
+msgid "Booking:"
+msgstr "Rezervacija:"
+
+msgid "Details:"
+msgstr "Detalji:"
+
+msgid "Thank you for your payment. Your transaction has been completed."
+msgstr "Hvala na Vašoj uplati. Vaša transakcija je završena."
+
+msgid "We are pleased to inform you that your reservation request has been received."
+msgstr "Zadovoljstvo nam je što Vas možemo obavijestiti da je Vaš zahtjev za rezervaciju primljen."
+
+msgid "from %s"
+msgstr "od %s"
+
+msgid "No accommodations matching criteria."
+msgstr "Nijedna smještajna jedinica ne odgovara parametrima pretrage."
+
+msgid "No services matched criteria."
+msgstr "Nijedna usluga ne odgovara parametrima pretrage."
+
+msgid "Nothing found."
+msgstr "Ništa nije pronađeno."
+
+msgid "Children %s:"
+msgstr "Djeca %s:"
+
+msgid "Preset date. Formatted as %s"
+msgstr "Ponuđeni datum. Oblikovano kao %s"
+
+msgid "Gallery"
+msgstr "Galerija"
+
+msgid "View Button"
+msgstr "Dugme prikaza"
+
+msgid "Order"
+msgstr "Poredak"
+
+msgid "Order By"
+msgstr "Poredano po"
+
+msgid "No order"
+msgstr "Nema narudžbi"
+
+msgid "Post ID"
+msgstr ""
+
+msgid "Post author"
+msgstr ""
+
+msgid "Post title"
+msgstr ""
+
+msgid "Post name (post slug)"
+msgstr ""
+
+msgid "Post date"
+msgstr "Datum upisa"
+
+msgid "Last modified date"
+msgstr "Datum zadnje izmjene"
+
+msgid "Parent ID"
+msgstr "Glavni ID"
+
+msgid "Random order"
+msgstr "Nasumični redoslijed"
+
+msgid "Number of comments"
+msgstr "Broj komentara"
+
+msgid "Relevance"
+msgstr "Važnost"
+
+msgid "Page order"
+msgstr "Poredak stranica"
+
+msgid "Meta value"
+msgstr "Vrijednost"
+
+msgid "Numeric meta value"
+msgstr "Brojčana vrijednost"
+
+msgid "Ascending (1, 2, 3)"
+msgstr "Uzlazno (1, 2, 3)"
+
+msgid "Descending (3, 2, 1)"
+msgstr "Silazno  (3, 2, 1)"
+
+msgid "Meta Name"
+msgstr ""
+
+msgid "Meta Type"
+msgstr ""
+
+msgid "Specified type of the custom field. Can be used in conjunction with \"orderby\" = \"meta_value\"."
+msgstr ""
+
+msgid "Any"
+msgstr "Bilo koji"
+
+msgid "Numeric"
+msgstr "Brojčano"
+
+msgid "Binary"
+msgstr "Binarno"
+
+msgid "String"
+msgstr "Niz"
+
+msgid "Time"
+msgstr "Vrijeme"
+
+msgid "Date and time"
+msgstr "Datum i vrijeme"
+
+msgid "Decimal number"
+msgstr "Decimalni broj"
+
+msgid "Signed number"
+msgstr ""
+
+msgid "Unsigned number"
+msgstr ""
+
+msgid "Query Settings"
+msgstr ""
+
+msgid "Relation"
+msgstr ""
+
+msgid "Values: integer, -1 to display all, default: \"Blog pages show at most\""
+msgstr ""
+

@@ -1,0 +1,10 @@
+<wpml-config>
+    <admin-texts>
+        <key name="mphb_payment_gateway_woocommerce_title"/>
+        <key name="mphb_payment_gateway_woocommerce_description"/>
+        <key name="mphb_email_admin_no_booking_renewal_subject"/>
+        <key name="mphb_email_admin_no_booking_renewal_header"/>
+        <key name="mphb_email_admin_no_booking_renewal_content"/>
+        <key name="mphbw_product_label_string"/>
+    </admin-texts>
+</wpml-config>
